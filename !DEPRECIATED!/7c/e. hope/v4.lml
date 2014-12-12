@@ -1,0 +1,87 @@
+<?xml version="1.0" charset="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <word>
+        <form class="adj">ay</form>
+        <pronunciation>ā</pronunciation>
+        <meaning lang="en">good</meaning>
+    </word>
+    <word>
+        <form class="adj">ra</form>
+        <pronunciation>rä</pronunciation>
+        <meaning lang="en">bad</meaning>
+    </word>
+    <word>
+        <form class="pron.dem">æht</form>
+        <etymology>□3 <etyma>eh</etyma></etymology>
+        <pronunciation>āht</pronunciation>
+        <meaning lang="en">this</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.2">ko</form>
+        <pronunciation>kō</pronunciation>
+        <meaning lang="en">you</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.1">ka</form>
+        <pronunciation>kä</pronunciation>
+        <meaning lang="en">me</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.3">tay</form>
+        <pronunciation>tā</pronunciation>
+        <meaning lang="en">they</meaning>
+    </word>
+    <word>
+        <form class="v">tih</form>
+        <pronunciation>tih</pronunciation>
+        <meaning lang="en">is</meaning>
+    </word>
+    <word>
+        <form class="v">ba</form>
+        <etymology>□2</etymology>
+        <pronunciation>bä</pronunciation>
+        <meaning lang="en">do</meaning>
+    </word>
+    <word>
+        <form class="v">o</form>
+        <etymology>□1</etymology>
+        <pronunciation>ō</pronunciation>
+        <meaning lang="en">go</meaning>
+    </word>
+    <word>
+        <form class="v">uw</form>
+        <etymology>□1 <etyma>o</etyma></etymology>
+        <pronunciation>ū</pronunciation>
+        <meaning lang="en">come</meaning>
+    </word>
+    <word>
+        <form class="v">ah</form>
+        <etymology>□1 <etyma>aht</etyma></etymology>
+        <pronunciation>äh</pronunciation>
+        <meaning lang="en">wait</meaning>
+    </word>
+    <word>
+        <form class="v">ahnt</form>
+        <etymology>□3 <etyma>aat</etyma></etymology>
+        <pronunciation>ähnt</pronunciation>
+        <meaning lang="en">stay/stop</meaning>
+    </word>
+    <word>
+        <form class="adv">oet</form>
+        <etymology>□3</etymology>
+        <pronunciation>œt</pronunciation>
+        <meaning lang="en">quickly</meaning>
+    </word>
+    <word>
+        <form class="v">on</form>
+        <etymology>□3 <etyma>ahn</etyma></etymology>
+        <pronunciation>on</pronunciation>
+        <meaning lang="en">carefully, cautiously</meaning>
+    </word>
+    <word>
+        <form class="v">rayd</form>
+        <pronunciation>rād</pronunciation>
+        <meaning lang="en">not</meaning>
+    </word>
+</lexis>
