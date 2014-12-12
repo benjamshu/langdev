@@ -1,3 +1,5 @@
 #the LANGUAGE
 
-Development resources and the like for LANGUAGE development\_ See [leaf.faint.xyz/langdev](http://leaf.faint.xyz/langdev) for more information\_
+The LANGUAGE is a linguistic project to create a fictitious language not bound to any geographic region or culture\_ See [leaf.faint.xyz/langdev](http://leaf.faint.xyz/langdev) for more human-readable information\_
+
+The !DEPRECIATED! folder contains previous language attempts and information that is no longer relebant\_ The !DATA! folder contains tools and computer-data\_ The remaining folders contain information pertaining to the language in particular\_
