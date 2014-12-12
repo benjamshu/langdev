@@ -1,0 +1,14 @@
+<?xml version="1.0" charset="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <word>
+        <form class="v">o</form>
+        <pronunciation>ō</pronunciation>
+        <meaning lang="en">come/go</meaning>
+    </word>
+    <word>
+        <form class="v">aht</form>
+        <pronunciation>äht</pronunciation>
+        <meaning lang="en">stay/stop/wait</meaning>
+    </word>
+</lexis>
