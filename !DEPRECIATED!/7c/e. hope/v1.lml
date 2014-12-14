@@ -2,13 +2,11 @@
 <!DOCTYPE lexis>
 <lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <word>
-        <form class="v">o</form>
-        <pronunciation>ō</pronunciation>
+        <form class="v" pronunciation="ō">o</form>
         <meaning lang="en">come/go</meaning>
     </word>
     <word>
-        <form class="v">aht</form>
-        <pronunciation>äht</pronunciation>
+        <form class="v" pronunciation="äht">aht</form>
         <meaning lang="en">stay/stop/wait</meaning>
     </word>
 </lexis>

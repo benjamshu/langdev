@@ -2,32 +2,27 @@
 <!DOCTYPE lexis>
 <lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <word>
-        <form class="v">ba</form>
-        <pronunciation>bä</pronunciation>
+        <form class="v" pronunciation="bä">ba</form>
         <meaning lang="en">do</meaning>
     </word>
     <word>
-        <form class="v">o</form>
+        <form class="v" pronunciation="ō">o</form>
         <etymology>□1</etymology>
-        <pronunciation>ō</pronunciation>
         <meaning lang="en">go</meaning>
     </word>
     <word>
-        <form class="v">uw</form>
+        <form class="v" pronunciation="ū">uw</form>
         <etymology>□1 <etyma>o</etyma></etymology>
-        <pronunciation>ū</pronunciation>
         <meaning lang="en">come</meaning>
     </word>
     <word>
-        <form class="v">ah</form>
+        <form class="v" pronunciation="äh">ah</form>
         <etymology>□1 <etyma>aht</etyma></etymology>
-        <pronunciation>äh</pronunciation>
         <meaning lang="en">wait</meaning>
     </word>
     <word>
-        <form class="v">aat</form>
+        <form class="v" pronunciation="ät">aat</form>
         <etymology>□1 <etyma>aht</etyma></etymology>
-        <pronunciation>ät</pronunciation>
         <meaning lang="en">stay/stop</meaning>
     </word>
 </lexis>
