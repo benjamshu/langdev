@@ -1,0 +1,89 @@
+<?xml version="1.0" charset="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="qlr-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <word>
+        <form class="v">koi</form>
+        <meaning lang="en">stop</meaning>
+    </word>
+    <word>
+        <form class="v">ka</form>
+        <meaning lang="en">go</meaning>
+    </word>
+    <word>
+        <form class="excl">ohwi</form>
+        <meaning lang="en">a surprised exclamation</meaning>
+    </word>
+    <word>
+        <form class="v">rie</form>
+        <meaning lang="en">leave</meaning>
+    </word>
+    <word>
+        <form class="v">soi</form>
+        <meaning lang="en">quit</meaning>
+    </word>
+    <word>
+        <form class="v">sie</form>
+        <meaning lang="en">shoo</meaning>
+    </word>
+    <word>
+        <form class="adj">hae</form>
+        <meaning lang="en">good</meaning>
+    </word>
+    <word>
+        <form class="adj">aahe</form>
+        <meaning lang="en">pleasant</meaning>
+    </word>
+    <word>
+        <form class="adj">eehai</form>
+        <meaning lang="en">calm</meaning>
+    </word>
+    <word>
+        <form class="adj">uhai</form>
+        <meaning lang="en">relaxing</meaning>
+    </word>
+    <word>
+        <form class="pron.dem">tuwei</form>
+        <meaning lang="en">this/that</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.3">uhwei</form>
+        <meaning lang="en">he/she/they</meaning>
+    </word>
+    <word>
+        <form class="adj">ahnwei</form>
+        <meaning lang="en">bad</meaning>
+    </word>
+    <word>
+        <form class="adj">iywei</form>
+        <meaning lang="en">scary</meaning>
+    </word>
+    <word>
+        <form class="v">tai</form>
+        <meaning lang="en">do</meaning>
+    </word>
+    <word>
+        <form class="afix-lxcl" pronunciation="wē">-wei</form>
+        <meaning lang="en">of or pertaining to a thing</meaning>
+    </word>
+    <word>
+        <form class="afix-lxcl" pronunciation="hī">-hai</form>
+        <meaning lang="en">calm</meaning>
+    </word>
+    <word>
+        <form class="afix-lxcl" pronunciation="he">-he</form>
+        <form class="afix-lxcl" pronunciation="hǽ">-hǽ</form>
+        <meaning lang="en">good</meaning>
+    </word>
+    <word>
+        <form class="afix-lxcl" pronunciation="ä">aa-</form>
+        <meaning lang="en">somewhat</meaning>
+    </word>
+    <word>
+        <form class="afix-lxcl" pronunciation="än">ahn-</form>
+        <meaning lang="en">bad</meaning>
+    </word>
+    <word>
+        <form class="afix-lxcl" pronunciation="ī">iy-</form>
+        <meaning lang="en">scary</meaning>
+    </word>
+</lexis>
