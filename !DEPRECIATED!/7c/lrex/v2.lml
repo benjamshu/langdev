@@ -1,0 +1,44 @@
+<?xml version="1.0" charset="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="qlr-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <word>
+        <form class="adj">ohwei</form>
+        <meaning lang="en">surprising</meaning>
+    </word>
+    <word>
+        <form class="v">raoi</form>
+        <meaning lang="en">leave</meaning>
+    </word>
+    <word>
+        <form class="v">sa</form>
+        <meaning lang="en">stop/shoo</meaning>
+    </word>
+    <word>
+        <form class="adj">ae</form>
+        <meaning lang="en">good/pleasant</meaning>
+    </word>
+    <word>
+        <form class="adj">ee</form>
+        <meaning lang="en">great</meaning>
+    </word>
+    <word>
+        <form class="adj">uh</form>
+        <meaning lang="en">relaxing</meaning>
+    </word>
+    <word>
+        <form class="pron">tuh</form>
+        <meaning lang="en">this/that/you/me/etc.</meaning>
+    </word>
+    <word>
+        <form class="adj">aah</form>
+        <meaning lang="en">bad</meaning>
+    </word>
+    <word>
+        <form class="adj">iy</form>
+        <meaning lang="en">scary</meaning>
+    </word>
+    <word>
+        <form class="v">ta</form>
+        <meaning lang="en">do</meaning>
+    </word>
+</lexis>
