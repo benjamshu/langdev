@@ -13,10 +13,10 @@
     </affix>
     <affix>
         <form>-ag</form>
-        <meaning xml:lang="en">attached to verbs to specify a patient or common recipient of the action; ie., that which is X-ed; used especially with words referring to people or animals</meaning>
+        <meaning xml:lang="en">attached to verbs to specify a patient noun or common recipient of the action; ie., that which is X-ed; used especially with words referring to people or animals</meaning>
     </affix>
     <affix>
-        <form>-ar</form>
+        <form>ar-</form>
         <meaning xml:lang="en">when attached to verbs, forms a continuous derivative; when used on nouns, forms a stative verb with approximate meaning 'be X(-like)'; used mostly with features or attributes</meaning>
     </affix>
     <affix>
@@ -37,7 +37,7 @@
     </affix>
     <affix>
         <form>-ri</form>
-        <meaning xml:lang="en">attached to verbs to form an agent or common partaker in the action: 'one who X-es'; used especially with words referring to people or animals</meaning>
+        <meaning xml:lang="en">attached to verbs to form an agent noun or common partaker in the action: 'one who X-es'; used especially with words referring to people or animals</meaning>
     </affix>
     <affix>
         <form>-sho</form>
@@ -50,6 +50,22 @@
     <affix>
         <form>-ur</form>
         <meaning xml:lang="en">attached to verbs to form continuous derivatives; used mostly with actions that occur repetitively or cyclically</meaning>
+    </affix>
+    <affix>
+        <form>-no</form>
+        <meaning xml:lang="en">attached to verbs to form perfective derivatives; used with actions describing communication or societal affairs</meaning>
+    </affix>
+    <affix>
+        <form>-te</form>
+        <meaning xml:lang="en">attached to verbs to form perfective derivatives; used with actions describing motion or travel</meaning>
+    </affix>
+    <affix>
+        <form>-gjo</form>
+        <meaning xml:lang="en">forms resultive nouns from verbs</meaning>
+    </affix>
+    <affix>
+        <form>qa-</form>
+        <meaning xml:lang="en">with verbs, forms the perfective derivative 'enable X'; used with nouns with the sense 'favoured'</meaning>
     </affix>
     <word>
         <form class="ptcl.mod.mir">oshó</form>
@@ -227,11 +243,11 @@
     </word>
     <word>
         <form class="v.cont">abí:be</form>
-        <meaning xml:lang="en">graze</meaning>
+        <meaning xml:lang="en">be grazing</meaning>
     </word>
     <word>
         <form class="v.cont">aqób</form>
-        <meaning xml:lang="en">urinate</meaning>
+        <meaning xml:lang="en">be urinating</meaning>
     </word>
     <word>
         <form class="n">baush</form>
@@ -303,5 +319,100 @@
         <form class="n">zhíraush</form>
         <meaning xml:lang="en">hair; fur</meaning>
         <etymology><etyma>zhir</etyma> + <etyma>-aush</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">mau:q</form>
+        <meaning xml:lang="en">be chatting, gossiping, conversing</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">máu:no</form>
+        <meaning xml:lang="en">chat; gossip; converse</meaning>
+        <etymology><etyma>mau:q</etyma> + <etyma>-no</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">uámu:q</form>
+        <meaning xml:lang="en">gossip; conversation; speech</meaning>
+        <etymology><etyma>ua-</etyma> + <etyma>mau:q</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">máu:ri</form>
+        <meaning xml:lang="en">speaker; one who is talkative or sociable; one who gossips</meaning>
+        <etymology><etyma>mau:q</etyma> + <etyma>-ri</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">pa:n</form>
+        <meaning xml:lang="en">be slithering</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">pá:nte</form>
+        <meaning xml:lang="en">slither</meaning>
+        <etymology><etyma>pa:n</etyma> + <etyma>-te</etyma></etymology>
+    </word>
+    <word>
+        <form class="n.">pá:nri</form>
+        <meaning xml:lang="en">snake</meaning>
+        <etymology><etyma>pa:n</etyma> + <etyma>-ri</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">shaizh</form>
+        <meaning xml:lang="en">erect; construct; build</meaning>
+    </word>
+    <word>
+        <form class="v.cont">sháizhe:qg</form>
+        <meaning xml:lang="en">be erecting, constructing, building</meaning>
+        <etymology><etyma>shaizh</etyma> + <etyma>-e:qg</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.prog">sháizhob</form>
+        <meaning xml:lang="en">be in the process of construction</meaning>
+        <etymology><etyma>shaizh</etyma> + <etyma>-ob</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">sháizhri</form>
+        <meaning xml:lang="en">builder, construtor</meaning>
+        <etymology><etyma>shaizh</etyma> + <etyma>-ri</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">sháizhgjo</form>
+        <meaning xml:lang="en">construction; building</meaning>
+        <etymology><etyma>shaizh</etyma> + <etyma>-gjo</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">arláshizh</form>
+        <meaning xml:lang="en">be constructed; be man-made</meaning>
+        <etymology><etyma>ar-</etyma> + <etyma>shaizh</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">sha:d</form>
+        <meaning xml:lang="en">suck</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">qashád</form>
+        <meaning xml:lang="en">suckle (another)</meaning>
+        <etymology><etyma>qa-</etyma> + <etyma>sha:d</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">qashádur</form>
+        <meaning xml:lang="en">be suckling (another)</meaning>
+        <etymology><etyma>qa-</etyma> + <etyma>sha:d</etyma> + <etyma>-ur</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">qashádri</form>
+        <meaning xml:lang="en">wetnurse</meaning>
+        <etymology><etyma>qa-</etyma> + <etyma>sha:d</etyma> + <etyma>-ri</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">sharísh</form>
+        <meaning xml:lang="en">be healthy</meaning>
+    </word>
+    <word>
+        <form class="v.prog">sharíshtu</form>
+        <meaning xml:lang="en">become healty; heal</meaning>
+        <etymology><etyma>sharísh</etyma> + <etyma>-tu</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">sháraush</form>
+        <meaning xml:lang="en">health</meaning>
+        <etymology><etyma>sharísh</etyma> + <etyma>-aush</etyma></etymology>
     </word>
 </lexis>
