@@ -14,6 +14,7 @@ Lexis.normalize = function(lexis_document) {
         }
     }
     var current_node;
+    var text_content;
     while (current_node = iterator.nextNode()) {  // jshint ignore:line
         switch (current_node.tagName) {
             case "word":
@@ -42,7 +43,20 @@ Lexis.normalize = function(lexis_document) {
                         if (forms.item(i).hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) class_value += forms.item(i).getAttributeNS("http://leaf.faint.xyz/lexisml", "class");
                     } current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "class", class_value);
                 }
-                break;
+                /* falls through */
+            case "form":
+            case "etymology":
+            case "etyma":
+            case "wordref":
+                for (i = 0; i < current_node.childNodes.length; i--) {
+                    if (current_node.childNodes.item(i).nodeType == Node.TEXT_NODE) {
+                        text_content = current_node.childNodes.item(i).textContent;
+                        if (String.prototype.normalize) text_content = text_content.normalize();
+                        text_content = text_content.trim();
+                        current_node.childNodes.item(i).textContent = text_content;
+                    }
+                }
+                current_node.normalize();
 
         }
     }
