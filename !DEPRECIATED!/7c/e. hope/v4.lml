@@ -3,70 +3,70 @@
 <lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <word>
         <form class="adj" pronunciation="ā">ay</form>
-        <meaning lang="en">good</meaning>
+        <meaning xml:lang="en">good</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="rä">ra</form>
-        <meaning lang="en">bad</meaning>
+        <meaning xml:lang="en">bad</meaning>
     </word>
     <word>
         <form class="pron.dem" pronunciation="āht">æht</form>
         <etymology>□3 <etyma>eh</etyma></etymology>
-        <meaning lang="en">this</meaning>
+        <meaning xml:lang="en">this</meaning>
     </word>
     <word>
         <form class="pron.pers.2" pronunciation="kō">ko</form>
-        <meaning lang="en">you</meaning>
+        <meaning xml:lang="en">you</meaning>
     </word>
     <word>
         <form class="pron.pers.1" pronunciation="kä">ka</form>
-        <meaning lang="en">me</meaning>
+        <meaning xml:lang="en">me</meaning>
     </word>
     <word>
         <form class="pron.pers.3" pronunciation="tā">tay</form>
-        <meaning lang="en">they</meaning>
+        <meaning xml:lang="en">they</meaning>
     </word>
     <word>
         <form class="v" pronunciation="tih">tih</form>
-        <meaning lang="en">is</meaning>
+        <meaning xml:lang="en">is</meaning>
     </word>
     <word>
         <form class="v" pronunciation="bä">ba</form>
         <etymology>□2</etymology>
-        <meaning lang="en">do</meaning>
+        <meaning xml:lang="en">do</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ō">o</form>
         <etymology>□1</etymology>
-        <meaning lang="en">go</meaning>
+        <meaning xml:lang="en">go</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ū">uw</form>
         <etymology>□1 <etyma>o</etyma></etymology>
-        <meaning lang="en">come</meaning>
+        <meaning xml:lang="en">come</meaning>
     </word>
     <word>
         <form class="v" pronunciation="äh">ah</form>
         <etymology>□1 <etyma>aht</etyma></etymology>
-        <meaning lang="en">wait</meaning>
+        <meaning xml:lang="en">wait</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ähnt">ahnt</form>
         <etymology>□3 <etyma>aat</etyma></etymology>
-        <meaning lang="en">stay/stop</meaning>
+        <meaning xml:lang="en">stay/stop</meaning>
     </word>
     <word>
         <form class="adv" pronunciation="œt">oet</form>
         <etymology>□3</etymology>
-        <meaning lang="en">quickly</meaning>
+        <meaning xml:lang="en">quickly</meaning>
     </word>
     <word>
         <form class="v" pronunciation="on">on</form>
         <etymology>□3 <etyma>ahn</etyma></etymology>
-        <meaning lang="en">carefully, cautiously</meaning>
+        <meaning xml:lang="en">carefully, cautiously</meaning>
     </word>
     <word>
         <form class="v" pronunciation="rād">rayd</form>
-        <meaning lang="en">not</meaning>
+        <meaning xml:lang="en">not</meaning>
     </word>
 </lexis>

@@ -3,26 +3,26 @@
 <lexis xml:lang="qlr-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <word>
         <form class="excl">oi</form>
-        <meaning lang="en">whoa</meaning>
+        <meaning xml:lang="en">whoa</meaning>
     </word>
     <word>
         <form class="v">ra</form>
-        <meaning lang="en">shoo</meaning>
+        <meaning xml:lang="en">shoo</meaning>
     </word>
     <word>
         <form class="adj">ee</form>
-        <meaning lang="en">good</meaning>
+        <meaning xml:lang="en">good</meaning>
     </word>
     <word>
         <form class="pron.dem.3">tah</form>
-        <meaning lang="en">that</meaning>
+        <meaning xml:lang="en">that</meaning>
     </word>
     <word>
         <form class="adj">aah</form>
-        <meaning lang="en">bad</meaning>
+        <meaning xml:lang="en">bad</meaning>
     </word>
     <word>
         <form class="adj">aei</form>
-        <meaning lang="en">scary</meaning>
+        <meaning xml:lang="en">scary</meaning>
     </word>
 </lexis>
