@@ -8,3 +8,4 @@ The normalization of LexisML provided by `normalize.js` does the following:
 * If a meaning has no associated class, it is set to all classes provided by the word or affix's various word-forms\_ If no word-forms are provided, it is set to the empty string\_
 * All child text nodes are removed from `<lexis>` and `<word>` elements\_
 * All nodes are removed from `<meta>` elements\_
+* The text content of all other elements is trimmed and normalized\_
