@@ -5,6 +5,7 @@ if (Lexis === undefined) var Lexis = {};
 Lexis.normalize = function(lexis_document) {
     var words = lexis_document.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "word");
     var metas = lexis_document.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meta");
+    var forms;
     var iterator = lexis_document.createNodeIterator(lexis_document.documentElement, NodeFilter.SHOW_ELEMENT, null);
     var i;
     if (words.length) {
@@ -18,7 +19,7 @@ Lexis.normalize = function(lexis_document) {
             case "word":
             case "affix":
                 if (!current_node.hasAttributeNS("http://leaf.faint.xyz/lexisml", "lemma")) {
-                    var forms = current_node.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
+                    forms = current_node.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
                     if (forms.length) current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "lemma", forms.item(0).textContent);
                     else current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "lemma", "");
                 }
@@ -32,6 +33,16 @@ Lexis.normalize = function(lexis_document) {
                 while (current_node.firstChild) {
                     current_node.removeChild(current_node.firstChild);
                 }
+                break;
+            case "meaning":
+                if (!current_node.hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) {
+                    var class_value = "";
+                    forms = current_node.parentNode.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
+                    for (i = 0; i < forms.length; i++) {
+                        if (forms.item(i).hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) class_value += forms.item(i).getAttributeNS("http://leaf.faint.xyz/lexisml", "class");
+                    } current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "class", class_value);
+                }
+                break;
 
         }
     }
