@@ -15,11 +15,12 @@ Lexis.normalize = function(lexis_document) {
     var current_node;
     while (current_node = iterator.nextNode()) {  // jshint ignore:line
         switch (current_node.tagName) {
-            case "words":
-                if (!words.item(i).hasAttributeNS("http://leaf.faint.xyz/lexisml", "lemma")) {
-                    var forms = words.item(i).getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
-                    if (forms.length) words.item(i).setAttributeNS("http://leaf.faint.xyz/lexisml", "lemma", forms.item(0).textContent);
-                    else words.item(i).setAttributeNS("http://leaf.faint.xyz/lexisml", "lemma", "");
+            case "word":
+            case "affix":
+                if (!current_node.hasAttributeNS("http://leaf.faint.xyz/lexisml", "lemma")) {
+                    var forms = current_node.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
+                    if (forms.length) current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "lemma", forms.item(0).textContent);
+                    else current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "lemma", "");
                 }
                 /* falls through */
             case "lexis":
