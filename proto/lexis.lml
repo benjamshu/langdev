@@ -1,0 +1,307 @@
+<?xml version="1.0" charset="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="qpt-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <affix>
+        <form>ío-</form>
+        <form>o-</form>
+        <meaning xml:lang="en">denotes an outer covering; in particular, skin, shells, or clothing</meaning>
+    </affix>
+    <affix>
+        <form>ual-</form>
+        <form>ua-</form>
+        <meaning xml:lang="en">denotes a related substance, especially a fluid; often forms nouns from verbs_</meaning>
+    </affix>
+    <affix>
+        <form>-ag</form>
+        <meaning xml:lang="en">attached to verbs to specify a patient or common recipient of the action; ie., that which is X-ed; used especially with words referring to people or animals</meaning>
+    </affix>
+    <affix>
+        <form>-ar</form>
+        <meaning xml:lang="en">when attached to verbs, forms a continuous derivative; when used on nouns, forms a stative verb with approximate meaning 'be X(-like)'; used mostly with features or attributes</meaning>
+    </affix>
+    <affix>
+        <form>-aush</form>
+        <meaning xml:lang="en">when attached to descriptive verbs, nominalizes the description</meaning>
+    </affix>
+    <affix>
+        <form>-e:qg</form>
+        <meaning xml:lang="en">attached to verbs to form continuous derivatives; used mostly with activities or actions</meaning>
+    </affix>
+    <affix>
+        <form>-la</form>
+        <meaning xml:lang="en">attached to verbs to form perfective derivatives; used mostly with activities or actions which are talked about primarily after they occur (past-tense)</meaning>
+    </affix>
+    <affix>
+        <form>-ob</form>
+        <meaning xml:lang="en">attached to verbs to form progressive derivatives; provides the sense 'be in the process of X-ing'</meaning>
+    </affix>
+    <affix>
+        <form>-ri</form>
+        <meaning xml:lang="en">attached to verbs to form an agent or common partaker in the action: 'one who X-es'; used especially with words referring to people or animals</meaning>
+    </affix>
+    <affix>
+        <form>-sho</form>
+        <meaning xml:lang="en">attached to verbs to form perfective derivatives; used mostly with activities that involve throwing, launching, expelling, or casting out</meaning>
+    </affix>
+    <affix>
+        <form>-tu</form>
+        <meaning xml:lang="en">when attached to descriptive verbs, forms perfective derivatives with the sense of 'become X'; used to make other verbs resultive ('raise' to 'rise') and perfective</meaning>
+    </affix>
+    <affix>
+        <form>-ur</form>
+        <meaning xml:lang="en">attached to verbs to form continuous derivatives; used mostly with actions that occur repetitively or cyclically</meaning>
+    </affix>
+    <word>
+        <form class="ptcl.mod.mir">oshó</form>
+        <meaning xml:lang="en">mirative modal particle</meaning>
+    </word>
+    <word>
+        <form class="ptcl.mod.opt">melá</form>
+        <meaning xml:lang="en">optative modal particle</meaning>
+    </word>
+    <word>
+        <form class="ptcl.mod.hort">ro</form>
+        <meaning xml:lang="en">hortative modal particle</meaning>
+    </word>
+    <word>
+        <form class="ptcl.mod.perm">irú</form>
+        <meaning xml:lang="en">permissive modal particle</meaning>
+    </word>
+    <word>
+        <form class="ptcl.mod.jus">ish</form>
+        <meaning xml:lang="en">jussive modal particle</meaning>
+    </word>
+    <word>
+        <form class="ptcl.mod.int">ma</form>
+        <meaning xml:lang="en">interrogative modal particle</meaning>
+    </word>
+    <word>
+        <form class="post adv">bu</form>
+        <meaning xml:lang="en" class="post">passing across the top of</meaning>
+        <meaning xml:lang="en" class="adv">up above</meaning>
+    </word>
+    <word>
+        <form class="post adv">ge</form>
+        <meaning xml:lang="en" class="post">below</meaning>
+        <meaning xml:lang="en" class="adv">to a small degree</meaning>
+    </word>
+    <word>
+        <form class="post adv">go</form>
+        <meaning xml:lang="en" class="post">having overly much of</meaning>
+        <meaning xml:lang="en" class="adv">to an excessive extent</meaning>
+    </word>
+    <word>
+        <form class="post adv">la</form>
+        <meaning xml:lang="en" class="post">behind</meaning>
+        <meaning xml:lang="en" class="adv">previously</meaning>
+    </word>
+    <word>
+        <form class="post adv">li</form>
+        <meaning xml:lang="en" class="post">at the location of</meaning>
+        <meaning xml:lang="en" class="adv">here</meaning>
+    </word>
+    <word>
+        <form class="post adv">mu</form>
+        <meaning xml:lang="en" class="post">in relation to</meaning>
+        <meaning xml:lang="en" class="post">topical marker</meaning>
+        <meaning xml:lang="en" class="post">of; showing possession</meaning>
+        <meaning xml:lang="en" class="adv">pertaining to the topic at hand</meaning>
+    </word>
+    <word>
+        <form class="post adv">no</form>
+        <meaning xml:lang="en" class="post">in support or accordance with</meaning>
+        <meaning xml:lang="en" class="adv">supportingly</meaning>
+    </word>
+    <word>
+        <form class="post adv">nu</form>
+        <meaning xml:lang="en" class="post">above</meaning>
+        <meaning xml:lang="en" class="adv">greatly</meaning>
+    </word>
+    <word>
+        <form class="post adv">qa</form>
+        <meaning xml:lang="en" class="post">intended for</meaning>
+        <meaning xml:lang="en" class="post">oblique marker</meaning>
+        <meaning xml:lang="en" class="adv">with intent</meaning>
+    </word>
+    <word>
+        <form class="post adv">qo</form>
+        <meaning xml:lang="en" class="post">on the inside of</meaning>
+        <meaning xml:lang="en" class="adv">indoors</meaning>
+    </word>
+    <word>
+        <form class="post adv">ri</form>
+        <meaning xml:lang="en" class="post">moving towards</meaning>
+        <meaning xml:lang="en" class="adv">while travelling</meaning>
+    </word>
+    <word>
+        <form class="post adv">ru</form>
+        <meaning xml:lang="en" class="post">passing beneath</meaning>
+        <meaning xml:lang="en" class="adv">down below</meaning>
+    </word>
+    <word>
+        <form class="post adv">shi</form>
+        <meaning xml:lang="en" class="post">on the outside of</meaning>
+        <meaning xml:lang="en" class="adv">outdoors</meaning>
+    </word>
+    <word>
+        <form class="post adv">sho</form>
+        <meaning xml:lang="en" class="post">coming from</meaning>
+        <meaning xml:lang="en" class="adv">as a consequence</meaning>
+    </word>
+    <word>
+        <form class="post adv">te</form>
+        <meaning xml:lang="en" class="post">together with</meaning>
+        <meaning xml:lang="en" class="adv">together</meaning>
+    </word>
+    <word>
+        <form class="post adv">ti</form>
+        <meaning xml:lang="en" class="post">in front of</meaning>
+        <meaning xml:lang="en" class="adv">afterwards</meaning>
+    </word>
+    <word>
+        <form class="post adv">tu</form>
+        <meaning xml:lang="en" class="post">in the manner of</meaning>
+        <meaning xml:lang="en" class="adv">approximately</meaning>
+    </word>
+    <word>
+        <form class="post adv">gra</form>
+        <meaning xml:lang="en" class="post">used to form compound nouns; noun connector</meaning>
+        <meaning xml:lang="en" class="post">nominative marker</meaning>
+        <meaning xml:lang="en" class="adv">in addition to that which has previously been said</meaning>
+    </word>
+    <word>
+        <form class="det.qnt">gji</form>
+        <meaning xml:lang="en">a, an; singular marker</meaning>
+    </word>
+    <word>
+        <form class="det.qnt">an</form>
+        <meaning xml:lang="en">some</meaning>
+    </word>
+    <word>
+        <form class="det.qnt">ba</form>
+        <meaning xml:lang="en">all</meaning>
+    </word>
+    <word>
+        <form class="det.num">gjo:q</form>
+        <meaning xml:lang="en">one</meaning>
+    </word>
+    <word>
+        <form class="det.num">muag</form>
+        <meaning xml:lang="en">two</meaning>
+    </word>
+    <word>
+        <form class="det.num">ga:g</form>
+        <meaning xml:lang="en">three</meaning>
+    </word>
+    <word>
+        <form class="det.num">ke:d</form>
+        <meaning xml:lang="en">four</meaning>
+    </word>
+    <word>
+        <form class="det.num">shep</form>
+        <meaning xml:lang="en">five</meaning>
+    </word>
+    <word>
+        <form class="det.num">quag</form>
+        <meaning xml:lang="en">six</meaning>
+    </word>
+    <word>
+        <form class="det.num">gjua:q</form>
+        <meaning xml:lang="en">seven</meaning>
+    </word>
+    <word>
+        <form class="det.num">babéd</form>
+        <meaning xml:lang="en">eight</meaning>
+    </word>
+    <word>
+        <form class="det.num">piréd</form>
+        <meaning xml:lang="en">nine</meaning>
+    </word>
+    <word>
+        <form class="det.num">mapúq</form>
+        <meaning xml:lang="en">ten</meaning>
+    </word>
+    <word>
+        <form class="det.dem">nai</form>
+        <meaning xml:lang="en">this; that; the</meaning>
+    </word>
+    <word>
+        <form class="v.cont">abí:be</form>
+        <meaning xml:lang="en">graze</meaning>
+    </word>
+    <word>
+        <form class="v.cont">aqób</form>
+        <meaning xml:lang="en">urinate</meaning>
+    </word>
+    <word>
+        <form class="n">baush</form>
+        <meaning xml:lang="en">domestic cat</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">báu:zhe</form>
+        <meaning xml:lang="en">lay an egg</meaning>
+    </word>
+    <word>
+        <form class="v.cont">qair</form>
+        <meaning xml:lang="en">(of a human) be sexually mature</meaning>
+    </word>
+    <word>
+        <form class="v.cont">zhir</form>
+        <meaning xml:lang="en">be hairy</meaning>
+    </word>
+    <word>
+        <form class="n">abí:bri</form>
+        <meaning xml:lang="en">domestic cow</meaning>
+        <etymology><etyma>abí:be</etyma> + <etyma>-ri</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">aqshóbe</form>
+        <meaning xml:lang="en">urinate</meaning>
+        <etymology><etyma>aqób</etyma> + <etyma>-sho</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">aqzháir</form>
+        <meaning xml:lang="en">pubic-hair</meaning>
+        <etymology xml:lang="en"><etyma xml:lang="qpt-Latn">qair</etyma>, with influence from <etyma xml:lang="qpt-Latn">zhir</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">báu:e:qg</form>
+        <meaning xml:lang="en">lay an egg</meaning>
+        <etymology><etyma>báu:zhe</etyma> + <etyma>-e:qg</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">báu:zhag</form>
+        <meaning xml:lang="en">egg</meaning>
+        <etymology><etyma>báu:zhe</etyma> + <etyma>-ag</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">obáu:ge</form>
+        <meaning xml:lang="en">eggshell</meaning>
+        <etymology><etyma>o-</etyma> + <etyma>báu:zhe</etyma> + <etyma>-ag</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.prog">qáirob</form>
+        <meaning xml:lang="en">become sexually mature</meaning>
+        <etymology><etyma>qair</etyma> + <etyma>-ob</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">qáirtu</form>
+        <meaning xml:lang="en">mature sexually</meaning>
+        <etymology><etyma>qair</etyma> + <etyma>-tu</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">qíraush</form>
+        <meaning xml:lang="en">sexual maturity</meaning>
+        <etymology><etyma>qair</etyma> + <etyma>-aush</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">qualób</form>
+        <meaning xml:lang="en">urine</meaning>
+        <etymology><etyma>ual-</etyma> + <etyma>aqób</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">zhíraush</form>
+        <meaning xml:lang="en">hair; fur</meaning>
+        <etymology><etyma>zhir</etyma> + <etyma>-aush</etyma></etymology>
+    </word>
+</lexis>
