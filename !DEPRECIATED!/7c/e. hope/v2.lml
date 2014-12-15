@@ -3,26 +3,26 @@
 <lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <word>
         <form class="v" pronunciation="bä">ba</form>
-        <meaning lang="en">do</meaning>
+        <meaning xml:lang="en">do</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ō">o</form>
         <etymology>□1</etymology>
-        <meaning lang="en">go</meaning>
+        <meaning xml:lang="en">go</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ū">uw</form>
         <etymology>□1 <etyma>o</etyma></etymology>
-        <meaning lang="en">come</meaning>
+        <meaning xml:lang="en">come</meaning>
     </word>
     <word>
         <form class="v" pronunciation="äh">ah</form>
         <etymology>□1 <etyma>aht</etyma></etymology>
-        <meaning lang="en">wait</meaning>
+        <meaning xml:lang="en">wait</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ät">aat</form>
         <etymology>□1 <etyma>aht</etyma></etymology>
-        <meaning lang="en">stay/stop</meaning>
+        <meaning xml:lang="en">stay/stop</meaning>
     </word>
 </lexis>
