@@ -67,6 +67,14 @@
         <form>qa-</form>
         <meaning xml:lang="en">with verbs, forms the perfective derivative 'enable X'; used with nouns with the sense 'favoured'</meaning>
     </affix>
+    <affix>
+        <form>-ug</form>
+        <meaning xml:lang="en">used with verbs to create a generic perfective derivative, 'become X'</meaning>
+    </affix>
+    <affix>
+        <form>-shu</form>
+        <meaning xml:lang="en">with verbs, creates a causative perfective derivatve ('rise' to 'raise')</meaning>
+    </affix>
     <word>
         <form class="ptcl.mod.mir">oshó</form>
         <meaning xml:lang="en">mirative modal particle</meaning>
@@ -406,13 +414,41 @@
         <meaning xml:lang="en">be healthy</meaning>
     </word>
     <word>
-        <form class="v.prog">sharíshtu</form>
+        <form class="v.prog">sharíshug</form>
         <meaning xml:lang="en">become healty; heal</meaning>
-        <etymology><etyma>sharísh</etyma> + <etyma>-tu</etyma></etymology>
+        <etymology><etyma>sharísh</etyma> + <etyma>-ug</etyma></etymology>
     </word>
     <word>
         <form class="n">sháraush</form>
         <meaning xml:lang="en">health</meaning>
         <etymology><etyma>sharísh</etyma> + <etyma>-aush</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">bam</form>
+        <meaning xml:lang="en">rice</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">baush</form>
+        <meaning xml:lang="en">hold</meaning>
+    </word>
+    <word>
+        <form class="v.cont">báushe:qg</form>
+        <meaning xml:lang="en">be holding</meaning>
+        <etymology><etyma>baush</etyma> + <etyma>-e:qg</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.prog">báushug</form>
+        <meaning xml:lang="en">pick up</meaning>
+        <etymology><etyma>baush</etyma> + <etyma>-ug</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">bapúshu</form>
+        <meaning xml:lang="en">grab</meaning>
+        <etymology><etyma>baush</etyma> + <etyma>-shu</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">báushri</form>
+        <meaning xml:lang="en">hand</meaning>
+        <etymology><etyma>baush</etyma> + <etyma>-ri</etyma></etymology>
     </word>
 </lexis>
