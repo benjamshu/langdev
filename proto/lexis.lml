@@ -79,6 +79,10 @@
         <form>-zha</form>
         <meaning xml:lang="en">with verbs, creates a perfective derivative; used with traits or qualities</meaning>
     </affix>
+    <affix>
+        <form>be-</form>
+        <meaning xml:lang="en">used to create agent nouns referring to plants or tools</meaning>
+    </affix>
     <word>
         <form class="ptcl.mod.mir">oshó</form>
         <meaning xml:lang="en">mirative modal particle</meaning>
@@ -519,5 +523,48 @@
         <form class="n">bú:shri</form>
         <meaning xml:lang="en">cloud; foliage</meaning>
         <etymology><etyma>bu:sh</etyma> + <etyma>-ri</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">bi:r</form>
+        <meaning xml:lang="en">shed; especially in terms of trees shedding leaves</meaning>
+    </word>
+    <word>
+        <form class="v.cont">bí:re:qg</form>
+        <meaning xml:lang="en">be shedding (leaves)</meaning>
+        <etymology><etyma>bi:r</etyma> + <etyma>-e:qg</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">bí:rag</form>
+        <meaning xml:lang="en">leaf</meaning>
+        <etymology><etyma>bi:r</etyma> + <etyma>-ag</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">bizh</form>
+        <meaning xml:lang="en">have a child</meaning>
+    </word>
+    <word>
+        <form class="n">bízhag</form>
+        <meaning xml:lang="en">child</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">gjazh</form>
+        <meaning xml:lang="en">sprout</meaning>
+    </word>
+    <word>
+        <form class="v.cont">gjázhe:qg</form>
+        <meaning xml:lang="en">be sprouting</meaning>
+    </word>
+    <word>
+        <form class="n">bezhág</form>
+        <meaning xml:lang="en">sprout</meaning>
+        <etymology><etyma>be-</etyma> + <etyma>gjazh</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">buag</form>
+        <meaning xml:lang="en">be pregnant</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">buágshu</form>
+        <meaning xml:lang="en">impregnate</meaning>
     </word>
 </lexis>
