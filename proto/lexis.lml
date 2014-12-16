@@ -415,7 +415,7 @@
     </word>
     <word>
         <form class="v.prog">sharíshug</form>
-        <meaning xml:lang="en">become healty; heal</meaning>
+        <meaning xml:lang="en">become healty; be healing</meaning>
         <etymology><etyma>sharísh</etyma> + <etyma>-ug</etyma></etymology>
     </word>
     <word>
@@ -438,7 +438,7 @@
     </word>
     <word>
         <form class="v.prog">báushug</form>
-        <meaning xml:lang="en">pick up</meaning>
+        <meaning xml:lang="en">be picking up; be grabbing</meaning>
         <etymology><etyma>baush</etyma> + <etyma>-ug</etyma></etymology>
     </word>
     <word>
@@ -450,5 +450,51 @@
         <form class="n">báushri</form>
         <meaning xml:lang="en">hand</meaning>
         <etymology><etyma>baush</etyma> + <etyma>-ri</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">bri:sh</form>
+        <meaning xml:lang="en">tree bark</meaning>
+    </word>
+    <word>
+        <form class="n">besh</form>
+        <meaning xml:lang="en">maple</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">bua:l</form>
+        <meaning xml:lang="en">stick</meaning>
+    </word>
+    <word>
+        <form class="v.cont">arebál</form>
+        <meaning xml:lang="en">be sticky</meaning>
+        <etymology><etyma>ar-</etyma> + <etyma>bua:l</etyma></etymology>
+    </word>
+    <word>
+        <form class="n.">uabuá:l</form>
+        <meaning xml:lang="en">juice; sap</meaning>
+        <etymology><etyma>ua-</etyma> + <etyma>bua:l</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">bi:t</form>
+        <meaning xml:lang="en">split (something)</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">bí:tu</form>
+        <meaning xml:lang="en">split apart</meaning>
+        <etymology><etyma>bi:t</etyma> + <etyma>-tu</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">arbí:tu</form>
+        <meaning xml:lang="en">be split</meaning>
+        <etymology><etyma>ar-</etyma> + <etyma>bi:t</etyma> + <etyma>-tu</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.prog">bí:tu:g</form>
+        <meaning xml:lang="en">be splitting</meaning>
+        <etymology><etyma>bí:t</etyma> + <etyma>-tu</etyma> + <etyma>-ug</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">bí:tugjo</form>
+        <meaning xml:lang="en">split; fork</meaning>
+        <etymology><etyma>bí:t</etyma> + <etyma>-tu</etyma> + <etyma>-gjo</etyma></etymology>
     </word>
 </lexis>
