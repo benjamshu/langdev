@@ -28,7 +28,7 @@ var Dictionary = {
         Lexis.normalize(Dictionary.lexis);
         var i = 0;
         var j = 0;
-        var elements = Dictionary.lexis.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "*")
+        var elements = Dictionary.lexis.documentElement.children;
         var current_element;
         var current_forms;
         var current_meanings;
