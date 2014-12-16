@@ -111,7 +111,7 @@ var Dictionary = {
             current_element.id = Dictionary.ids[i];
             article_html = "";
             article_html += "<header>"
-            article_html += "<h2>" + current_lemma.name + "</h2>"
+            article_html += "<h2><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></h2>"
             article_html += "</header>"
             current_element.innerHTML = article_html;
             main_article.appendChild(current_element);
