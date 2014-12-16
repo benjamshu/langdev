@@ -111,11 +111,21 @@ body {
     white-space: pre-wrap;
 }
 #main-header {
+    position: relative;
+    margin: 0 0 3pc;
+    width: 100%;
     text-align: center;
 }
 #splash {
+    position: absolute;
+    bottom: -.75pc;
+    left: 50%;
     height: 1.5pc;
+    width: 100%;
     line-height: 1.5pc;
+    transform: rotate(-30deg);
+    -webkit-animation: splash 1s infinite;
+    animation: splash 1s infinite;
 }
 
 /*  SECTIONING  */
