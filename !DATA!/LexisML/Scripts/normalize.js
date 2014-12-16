@@ -63,5 +63,3 @@ Lexis.normalize = function(lexis_document) {
         }
     }
 }
-
-document.dispatchEvent(new Event("LexisNormalizeLoaded"));

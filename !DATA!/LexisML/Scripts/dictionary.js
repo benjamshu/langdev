@@ -7,9 +7,10 @@ var Dictionary = {
     ids: [],
     init: function() {
         var script = document.createElement("script");
-        script.src = "http://leaf.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/normalize.js";
+        script.type = "text/javascript";
+        script.addEventListener("load", function() {Dictionary.load(document.documentElement.dataset.src)}, false);
         document.head.appendChild(script);
-        document.addEventListener("LexisNormalizeLoaded", function() {Dictionary.load(document.documentElement.dataset.src)}, false);
+        script.src = "http://leaf.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/normalize.js";
     },
     lang: "",
     lemmas: {},
