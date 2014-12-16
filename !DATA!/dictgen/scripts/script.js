@@ -46,6 +46,17 @@ var Dictionary = {
             current_element = elements.item(i);
             lemma_name = current_element.getAttributeNS("http://leaf.faint.xyz/lexisml", "lemma").replace(/[0-9:]/g, "-");
             switch (current_element.tagName) {
+                case "meta":
+                    switch (current_element.getAttributeNS("http://leaf.faint.xyz/lexisml", "name")) {
+                        case "title":
+                            Dictionary.title = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
+                            break;
+                        case "splash":
+                            Dictionary.splashes[Dictionary.splashes.length] = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
+                            break;
+
+                    }
+                    break;
                 case "affix":
                 case "word":
                     current_forms = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
@@ -74,6 +85,7 @@ var Dictionary = {
                     Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
                         name: lemma_name,
                         id: lemma_id,
+                        lang: current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"),
                         class: lemma_class,
                         forms: lemma_forms,
                         etymology: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "etymology").item(0),
@@ -85,19 +97,27 @@ var Dictionary = {
         }
         Dictionary.ids.sort(function (a, b) {return String(a).localeCompare(String(b));});
         document.body.textContent = null;
+        var main_article = document.createElement("article");
+        document.title = Dictionary.title[1];
+        document.getElementsByTagName("title").item(0).lang = Dictionary.title[0]
+        i = Math.floor(Math.random()*Dictionary.splashes.length);
+        main_article.innerHTML = "<header><h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1><p lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p></header>";
         for (i = 0; i < Dictionary.ids.length; i++) {
-            article_html = "";
             current_element = document.createElement("article");
-            current_element.lang = Dictionary.lexis.documentElement.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang");
-            current_element.id = Dictionary.ids[i];
             current_lemma = Dictionary.getLemmaFromId(Dictionary.ids[i]);
+            current_element.lang = current_lemma.lang;
+            current_element.id = Dictionary.ids[i];
+            article_html = "";
             article_html += "<header>"
-            article_html += "<h1>" + current_lemma.name + "</h1>"
+            article_html += "<h2>" + current_lemma.name + "</h2>"
             article_html += "</header>"
             current_element.innerHTML = article_html;
-            document.body.appendChild(current_element);
+            main_article.appendChild(current_element);
         }
-    }
+    },
+    splashes: [],
+    title: "",
+    title_lang: ""
 }
 
 window.addEventListener("load", Dictionary.init, false);

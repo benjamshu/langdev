@@ -57,5 +57,9 @@ Lexis.normalize = function(lexis_document) {
                 current_node.normalize();
 
         }
+        for (i = current_node.parentElement; !current_node.hasAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"); i = i.parentElement) {
+            if (i.hasAttributeNS("http://www.w3.org/XML/1998/namespace", "lang")) current_node.setAttributeNS("http://www.w3.org/XML/1998/namespace", "lang", i.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"));
+            else if (i == lexis_document.documentElement) current_node.setAttributeNS("http://www.w3.org/XML/1998/namespace", "lang", "");
+        }
     }
 }
