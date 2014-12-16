@@ -13,7 +13,7 @@ var Dictionary = {
         script.type = "text/javascript";
         script.addEventListener("load", function() {Dictionary.load(document.documentElement.dataset.src)}, false);
         document.head.appendChild(script);
-        script.src = "http://leaf.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/Scripts/normalize.js";
+        script.src = "http://leaf.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/scripts/normalize.js";
     },
     lang: "",
     lemmas: {},
