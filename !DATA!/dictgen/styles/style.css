@@ -110,6 +110,9 @@ body {
     max-width: 36pc;
     white-space: pre-wrap;
 }
+#main-header {
+    text-align: center;
+}
 #splash {
     height: 1.5pc;
     line-height: 1.5pc;
@@ -122,18 +125,19 @@ main, article, section, aside, nav, header, footer {
     margin: 1.5pc 0;
     padding: 0;
 }
-header {
-    text-align: center;
-}
 
 /*  BLOCK-LEVEL ELEMENTS  */
 
 h1 {
+    margin: 0;
+    padding: 0;
     font-size: 5pc;
     line-height: 6pc;
     font-weight: bold;
 }
 h2 {
+    margin: 0;
+    padding: 0;
     font-size: inherit;
     font-weight: bold;
     line-height: inherit;
