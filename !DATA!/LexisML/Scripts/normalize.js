@@ -30,11 +30,6 @@ Lexis.normalize = function(lexis_document) {
                     if (current_node.childNodes.item(i).nodeType !== Node.ELEMENT_NODE) current_node.removeChild(current_node.childNodes.item(i));
                 }
                 break;
-            case "meta":
-                while (current_node.firstChild) {
-                    current_node.removeChild(current_node.firstChild);
-                }
-                break;
             case "meaning":
                 if (!current_node.hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) {
                     var class_value = "";
@@ -46,6 +41,7 @@ Lexis.normalize = function(lexis_document) {
                     current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "class", class_value);
                 }
                 /* falls through */
+            case "meta":
             case "form":
             case "etymology":
             case "etyma":
