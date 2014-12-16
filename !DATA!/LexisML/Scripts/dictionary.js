@@ -1,13 +1,15 @@
+/* jslint asi:true, browser:true */
+
 var Dictionary = {
     Requester: new XMLHttpRequest(),
     init: function() {
-        Dictionary.lexis = Requester.responseXML;
+        Dictionary.lexis = Dictionary.Requester.responseXML;
     },
     lexis: undefined,
     load: function(src) {
-        Requester.addEventListener("load", Dictionary.init, false);
-        Requester.open("get", src, true);
-        Requester.send();
+        Dictionary.Requester.addEventListener("load", Dictionary.init, false);
+        Dictionary.Requester.open("get", src, true);
+        Dictionary.Requester.send();
     },
     lemmas: {}
 }
