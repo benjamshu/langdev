@@ -103,7 +103,7 @@ var Dictionary = {
                     lemma_name = current_element.getAttribute("lemma").replace(/:/g, "-").replace(/^-+|[0-9]+$/g, "");
                     if (Dictionary.lemmas[lemma_name] === undefined) Dictionary.lemmas[lemma_name] = [];
                     lemma_id = lemma_name + ":" + Dictionary.lemmas[lemma_name].length;
-                    Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
+                    current_lemma = Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
                         type: current_element.tagName,
                         name: current_element.getAttribute("lemma"),
                         id: lemma_id,
@@ -113,7 +113,6 @@ var Dictionary = {
                         etymology: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "etymology").item(0),
                         meanings: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning")
                     }
-                    current_lemma = Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length];
                     for (j = 0; j < current_lemma.forms.length; j++) {
                         if (current_lemma.forms.item(j).textContent == current_lemma.name) {
                             current_lemma.word_class = current_lemma.forms.item(j).getAttribute("class");
