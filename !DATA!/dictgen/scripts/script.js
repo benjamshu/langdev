@@ -82,7 +82,7 @@ var Dictionary = {
                         }
                     }
                     Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
-                        name: lemma_name,
+                        name: current_element.getAttribute("lemma"),
                         id: lemma_id,
                         lang: current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"),
                         class: lemma_class,
