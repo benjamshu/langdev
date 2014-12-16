@@ -57,7 +57,7 @@ var Dictionary = {
                     break;
                 case "affix":
                 case "word":
-                    lemma_name = current_element.getAttribute("lemma").replace(/:/g, "-").replace(/[^-+|[0-9]+$/g, "");
+                    lemma_name = current_element.getAttribute("lemma").replace(/:/g, "-").replace(/^-+|[0-9]+$/g, "");
                     current_forms = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
                     current_meanings = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning");
                     if (Dictionary.lemmas[lemma_name] === undefined) Dictionary.lemmas[lemma_name] = [];
