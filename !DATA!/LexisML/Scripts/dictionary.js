@@ -53,7 +53,7 @@ var Dictionary = {
                     for (j = 0; j < current_forms.length; j++) {
                         lemma_forms[j] = {
                             name: current_forms.item(j).textContent,
-                            class: current_forms.item(j).getAttributeByTagNameNS("http://leaf.faint.xyz/lexisml", "class")
+                            class: current_forms.item(j).getAttributeNS("http://leaf.faint.xyz/lexisml", "class")
                         }
                         if (current_forms.item(j).hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) lemma_class += current_forms.item(j).getAttributeNS("http://leaf.faint.xyz/lexisml", "class") + " ";
                         lemma_class = lemma_class.trim();
@@ -63,7 +63,7 @@ var Dictionary = {
                     for (j = 0; j < current_meanings.length; j++) {
                         lemma_meanings[j] = {
                             content: current_meanings.item(j).textContent,
-                            class: current_meanings.item(j).getAttributeByTagNameNS("http://leaf.faint.xyz/lexisml", "class")
+                            class: current_meanings.item(j).getAttributeNS("http://leaf.faint.xyz/lexisml", "class")
                         }
                     }
                     Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
