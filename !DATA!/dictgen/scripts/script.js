@@ -101,7 +101,7 @@ var Dictionary = {
         document.getElementsByTagName("title").item(0).lang = Dictionary.title[0];
         if (Dictionary.splashes.length) {
             i = Math.floor(Math.random()*Dictionary.splashes.length);
-            main_article.innerHTML = "<header><h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1><p lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p></header>";
+            main_article.innerHTML = "<header><h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1><p id='splash' lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p></header>";
         }
         else main_article.innerHTML = "<header><h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1></header>";
         for (i = 0; i < Dictionary.ids.length; i++) {
