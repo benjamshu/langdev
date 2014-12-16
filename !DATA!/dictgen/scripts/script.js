@@ -142,7 +142,6 @@ var Dictionary = {
             if (current_lemma.type == "word") {
                 if (current_lemma.word_class) {
                     section_html += "<p>" + Dictionary.getHumanReadableWordClass(current_lemma.word_class) + "</p>";
-                    break;
                 }
                 section_html += "<p>";
                 for (j = 0; j < current_lemma.forms.length; j++) {
