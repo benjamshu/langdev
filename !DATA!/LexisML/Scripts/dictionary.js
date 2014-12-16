@@ -1,5 +1,6 @@
 /* jslint asi:true, browser:true */
-/* global Lexis */
+
+if (typeof Lexis == "undefined") var Lexis = {};
 
 var Dictionary = {
     forms: {},
