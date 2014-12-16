@@ -51,7 +51,9 @@ Lexis.normalize = function(lexis_document) {
                     if (current_node.childNodes.item(i).nodeType == Node.TEXT_NODE) {
                         text_content = current_node.childNodes.item(i).textContent;
                         if (String.prototype.normalize) text_content = text_content.normalize();
-                        text_content = text_content.trim();
+                        if (i === 0) text_content = text_content.replace(/^\s+/, "");
+                        else if (i === current_node.childNodes.length - 1) text_content = text_content.replace(/\s+$/, "");
+                        text_content = text_content.replace(/\s+/, " ");
                         current_node.childNodes.item(i).textContent = text_content;
                     }
                 }
