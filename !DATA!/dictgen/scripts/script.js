@@ -43,6 +43,9 @@ var Dictionary = {
             }
             if (q.post) s += "post-position";
             if (q.ptcl) s += "particle ";
+            if (q.adj) s += "adjective ";
+            if (q.adv) s += "adverb ";
+            if (q.pron) s += "pronoun ";
             if (q.n) s += "noun ";
             if (q.v) s += "verb ";
             s.trim();
