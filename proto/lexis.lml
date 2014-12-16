@@ -2,6 +2,7 @@
 <!DOCTYPE lexis>
 <lexis xml:lang="qpt-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">THE PROTO-LANGUAGE</meta>
+    <meta name="splash" xml:lang="en">fantastic!</meta>
     <affix>
         <form>ío-</form>
         <form>o-</form>
