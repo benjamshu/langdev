@@ -1,6 +1,6 @@
 /* jslint asi:true, browser:true */
 
-if (Lexis === undefined) var Lexis = {};
+if (typeof Lexis == "undefined") var Lexis = {};
 
 Lexis.normalize = function(lexis_document) {
     var words = lexis_document.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "word");
