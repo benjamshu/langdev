@@ -28,13 +28,24 @@
 }
 @-webkit-keyframes splash {
     from {
-        font-size: 1pc;
+        font-size: 1.25pc;
     }
     50% {
         font-size: 1.5pc;
     }
     to {
-        font-size: 1pc;
+        font-size: 1.25pc;
+    }
+}
+@keyframes splash {
+    from {
+        font-size: 1.25pc;
+    }
+    50% {
+        font-size: 1.5pc;
+    }
+    to {
+        font-size: 1.25pc;
     }
 }
 
@@ -101,7 +112,8 @@ mark::-moz-selection, mark *::-moz-selection {
 html {
     margin: 0;
     padding: 1.5pc;
-    background: #ffffff;
+    font-family: "Junicode", serif;
+    font-variant-numeric: oldstyle-nums;
     overflow: auto;
 }
 body {
@@ -113,19 +125,18 @@ body {
 #main-header {
     position: relative;
     margin: 0 0 3pc;
-    width: 100%;
     text-align: center;
 }
 #splash {
     position: absolute;
-    bottom: -.75pc;
+    bottom: 0;
     left: 50%;
     height: 1.5pc;
     width: 100%;
     line-height: 1.5pc;
-    transform: rotate(-30deg);
-    -webkit-animation: splash 1s infinite;
-    animation: splash 1s infinite;
+    transform: rotate(-15deg);
+    -webkit-animation: splash 2s infinite;
+    animation: splash 2s infinite;
 }
 
 /*  SECTIONING  */
