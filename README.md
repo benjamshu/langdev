@@ -4,4 +4,4 @@ THE LANGUAGE is a linguistic project to create a fictitious language not bound t
 
 The !DEPRECIATED! folder contains previous language attempts and information that is no longer relebant\_ The !DATA! folder contains tools and computer-data\_ The remaining folders contain information pertaining to THE LANGUAGE in particular\_
 
-All files published to this branch are, to the extent possible under law, in the public domain\_ For more information, see [LICENSE.md](LICENSE.md)\_
+All files published to the master branch at [http://github.com/leaf-adventure/langdev](http://github.com/leaf-adventure/langdev) are, to the extent possible under law, in the public domain\_ For more information, see [LICENSE.md](LICENSE.md)\_
