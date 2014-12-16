@@ -69,11 +69,15 @@
     </affix>
     <affix>
         <form>-ug</form>
-        <meaning xml:lang="en">used with verbs to create a generic perfective derivative, 'become X'</meaning>
+        <meaning xml:lang="en">used with verbs to create a generic progressive derivative, 'become X'</meaning>
     </affix>
     <affix>
         <form>-shu</form>
         <meaning xml:lang="en">with verbs, creates a causative perfective derivatve ('rise' to 'raise')</meaning>
+    </affix>
+    <affix>
+        <form>-zha</form>
+        <meaning xml:lang="en">with verbs, creates a perfective derivative; used with traits or qualities</meaning>
     </affix>
     <word>
         <form class="ptcl.mod.mir">oshó</form>
@@ -496,5 +500,24 @@
         <form class="n">bí:tugjo</form>
         <meaning xml:lang="en">split; fork</meaning>
         <etymology><etyma>bí:t</etyma> + <etyma>-tu</etyma> + <etyma>-gjo</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cont">bu:sh</form>
+        <meaning xml:lang="en">be shading</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">bú:shzha</form>
+        <meaning xml:lang="en">shade</meaning>
+        <etymology><etyma>bu:sh</etyma> + <etyma>-zha</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">bú:shaush</form>
+        <meaning xml:lang="en">shadow</meaning>
+        <etymology><etyma>bu:sh</etyma> + <etyma>-aush</etyma></etymology>
+    </word>
+    <word>
+        <form class="n">bú:shri</form>
+        <meaning xml:lang="en">cloud; foliage</meaning>
+        <etymology><etyma>bu:sh</etyma> + <etyma>-ri</etyma></etymology>
     </word>
 </lexis>
