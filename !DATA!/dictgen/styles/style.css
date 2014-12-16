@@ -236,16 +236,7 @@ em::before, em::after {
     content: "~";
 }
 i {
-    font-style: normal;
-}
-i::before, i::after {
-    content: "'";
-}
-i[lang]::before {
-    content: "«";
-}
-i[lang]::after {
-    content: "»";
+    font-style: italic;
 }
 ins {
     color: #7c17f4;

@@ -79,13 +79,14 @@ var Dictionary = {
         Lexis.normalize(Dictionary.lexis);
         var i = 0;
         var j = 0;
-        var elements = Dictionary.lexis.documentElement.children;
+        var elements = Dictionary.lexis.documentElement.childNodes;
         var current_element;
         var current_lemma;
         var lemma_name;
         var lemma_id;
         var section_html;
         for (i = 0; i < elements.length; i++) {
+            if (elements.item(i).nodeType !== Node.ELEMENT_NODE) continue;
             current_element = elements.item(i);
             switch (current_element.tagName) {
                 case "meta":
