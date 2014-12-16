@@ -170,7 +170,7 @@ var Dictionary = {
                 section_html += current_lemma.meanings.item(0).textContent;
                 section_html += "</p>";
             }
-            section_html += "<h3>etymology</h3><p>" + current_lemma.etymology.textContent + "</p>";
+            if (current_lemma.etymology) section_html += "<h3>etymology</h3><p>" + current_lemma.etymology.textContent + "</p>";
             current_element.innerHTML = section_html;
             main_article.appendChild(current_element);
         }
