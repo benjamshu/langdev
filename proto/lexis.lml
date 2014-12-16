@@ -3,6 +3,13 @@
 <lexis xml:lang="qpt-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">THE PROTO-LANGUAGE</meta>
     <meta name="splash" xml:lang="en">fantastic!</meta>
+    <meta name="splash" xml:lang="en">so cool!</meta>
+    <meta name="splash" xml:lang="en">from the people!</meta>
+    <meta name="splash" xml:lang="en">base!</meta>
+    <meta name="splash" xml:lang="en">official dictionary!</meta>
+    <meta name="splash" xml:lang="en">my word!</meta>
+    <meta name="splash" xml:lang="en">alpha build!</meta>
+    <meta name="splash" xml:lang="en">α</meta>
     <affix>
         <form>ío-</form>
         <form>o-</form>
