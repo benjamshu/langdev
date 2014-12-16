@@ -40,8 +40,10 @@ Lexis.normalize = function(lexis_document) {
                     var class_value = "";
                     forms = current_node.parentNode.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
                     for (i = 0; i < forms.length; i++) {
-                        if (forms.item(i).hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) class_value += forms.item(i).getAttributeNS("http://leaf.faint.xyz/lexisml", "class");
-                    } current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "class", class_value);
+                        if (forms.item(i).hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) class_value += forms.item(i).getAttributeNS("http://leaf.faint.xyz/lexisml", "class") + " ";
+                    }
+                    class_value = class_value.trim();
+                    current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "class", class_value);
                 }
                 /* falls through */
             case "form":
