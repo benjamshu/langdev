@@ -111,7 +111,7 @@ mark::-moz-selection, mark *::-moz-selection {
 
 html {
     margin: 0;
-    padding: 1.5pc;
+    padding: 1.5pc 1.25pc;
     font-family: "Junicode", serif;
     font-variant-numeric: oldstyle-nums;
 }
@@ -158,9 +158,9 @@ h1 {
 h2 {
     margin: 0;
     padding: 0;
-    font-size: inherit;
-    font-weight: bold;
-    line-height: inherit;
+    font-size: 2.5pc;
+    font-weight: normal;
+    line-height: 3pc;
 }
 h2::after {
     content: ":";

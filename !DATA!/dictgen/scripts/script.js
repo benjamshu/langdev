@@ -132,23 +132,23 @@ var Dictionary = {
             current_element.id = Dictionary.ids[i];
             section_html = "<header>";
             section_html += "<h2><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></h2>";
-            section_html += "<p>";
             if (current_lemma.type == "word") {
                 for (j = 0; j < current_lemma.forms.length; j++) {
                     if (current_lemma.forms.item(j).textContent == current_lemma.name) {
-                        section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class"));
+                        section_html += "<p>" + Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + "</p>";
                         break;
                     }
                 }
+                section_html += "<p>";
                 for (j = 0; j < current_lemma.forms.length; j++) {
                     if (current_lemma.forms.item(j).textContent != current_lemma.name) section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " : <b>" + current_lemma.forms.item(j).textContent + "</b>";
                     if (j + 1 != current_lemma.forms.length) section_html += " ";
                 }
+                section_html += "</p>"
             }
             else if (current_lemma.type == "affix") {
-                section_html += "affix";
+                section_html += "<p>affix</p>";
             }
-            section_html += "</p>"
             section_html += "</header>";
             current_element.innerHTML = section_html;
             main_article.appendChild(current_element);
