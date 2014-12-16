@@ -18,6 +18,7 @@ var Dictionary = {
     load: function(src) {
         Dictionary.Requester.addEventListener("load", Dictionary.setup, false);
         Dictionary.Requester.open("get", src, true);
+        Dictionary.Requester.overrideMimeType("text/xml");
         Dictionary.Requester.send();
     },
     Requester: new XMLHttpRequest(),
