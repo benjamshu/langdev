@@ -114,7 +114,6 @@ html {
     padding: 1.5pc;
     font-family: "Junicode", serif;
     font-variant-numeric: oldstyle-nums;
-    overflow: auto;
 }
 body {
     margin: auto;
@@ -130,9 +129,10 @@ body {
 #splash {
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 80%;
+    left: calc(100% - 7.5pc);
     height: 1.5pc;
-    width: 100%;
+    width: 15pc;
     line-height: 1.5pc;
     transform: rotate(-15deg);
     -webkit-animation: splash 2s infinite;
