@@ -9,7 +9,7 @@ var Dictionary = {
         var script = document.createElement("script");
         script.src = "http://leaf.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/normalize.js";
         document.head.appendChild(script);
-        document.addEventListener("DOMContentLoaded", function() {Dictionary.load(document.documentElement.dataset.src)}, false);
+        document.addEventListener("LexisNormalizeLoaded", function() {Dictionary.load(document.documentElement.dataset.src)}, false);
     },
     lang: "",
     lemmas: {},
@@ -78,4 +78,4 @@ var Dictionary = {
     }
 }
 
-Dictionary.init();
+window.addEventListener("load", Dictionary.init, false);
