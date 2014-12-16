@@ -41,7 +41,7 @@ var Dictionary = {
         var lemma_class;
         var lemma_forms;
         var lemma_meanings;
-        var article_html;
+        var section_html;
         for (i = 0; i < elements.length; i++) {
             current_element = elements.item(i);
             switch (current_element.tagName) {
@@ -104,19 +104,19 @@ var Dictionary = {
         }
         else main_article.innerHTML = "<header><h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1></header>";
         for (i = 0; i < Dictionary.ids.length; i++) {
-            current_element = document.createElement("article");
+            current_element = document.createElement("section");
             current_lemma = Dictionary.getLemmaFromId(Dictionary.ids[i]);
             current_element.lang = current_lemma.lang;
             current_element.id = Dictionary.ids[i];
-            article_html = "";
-            article_html += "<header>"
-            article_html += "<h2><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></h2>"
-            article_html += "</header>"
-            current_element.innerHTML = article_html;
+            section_html = "";
+            section_html += "<header>"
+            section_html += "<h2><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></h2>"
+            section_html += "</header>"
+            current_element.innerHTML = section_html;
             main_article.appendChild(current_element);
         }
         document.body.textContent = null;
-        document.body.appendChild(main_article);
+        document.body.appendChild(document.createElement("main").appendChild(main_article).parentElement);
     },
     splashes: [],
     title: "",
