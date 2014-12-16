@@ -5,6 +5,7 @@ if (typeof Lexis == "undefined") var Lexis = {};
 var Dictionary = {
     forms: {},
     getHumanReadableWordClass: function(word_class) {
+        if (!word_class) word_class = "";
         var class_list = word_class.split(" ");
         var class_item_list = null;
         var i = 0;
@@ -100,6 +101,7 @@ var Dictionary = {
                     if (Dictionary.lemmas[lemma_name] === undefined) Dictionary.lemmas[lemma_name] = [];
                     lemma_id = lemma_name + ":" + Dictionary.lemmas[lemma_name].length;
                     Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
+                        type: current_element.tagName,
                         name: current_element.getAttribute("lemma"),
                         id: lemma_id,
                         lang: current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"),
@@ -128,16 +130,22 @@ var Dictionary = {
             section_html = "<header>";
             section_html += "<h2><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></h2>";
             section_html += "<p>";
-            for (j = 0; j < current_lemma.forms.length; j++) {
-                if (current_lemma.forms.item(j).textContent == current_lemma.name) {
-                    section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class"));
-                    break;
+            if (current_lemma.type == "word") {
+                for (j = 0; j < current_lemma.forms.length; j++) {
+                    if (current_lemma.forms.item(j).textContent == current_lemma.name) {
+                        section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class"));
+                        break;
+                    }
+                }
+                for (j = 0; j < current_lemma.forms.length; j++) {
+                    if (current_lemma.forms.item(j).textContent != current_lemma.name) section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " : <b>" + current_lemma.forms.item(j).textContent + "</b>";
+                    if (j + 1 != current_lemma.forms.length) section_html += " ";
                 }
             }
-            for (j = 0; j < current_lemma.forms.length; j++) {
-                if (current_lemma.forms.item(j).textContent != current_lemma.name) section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " : <b>" + current_lemma.forms.item(j).textContent + "</b>";
-                if (j + 1 != current_lemma.forms.length) section_html += " ";
+            else if (current_lemma.type == "affix") {
+                section_html += "affix";
             }
+            section_html += "</p>"
             section_html += "</header>";
             current_element.innerHTML = section_html;
             main_article.appendChild(current_element);
