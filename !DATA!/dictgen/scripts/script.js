@@ -44,7 +44,6 @@ var Dictionary = {
         var article_html;
         for (i = 0; i < elements.length; i++) {
             current_element = elements.item(i);
-            lemma_name = current_element.getAttributeNS("http://leaf.faint.xyz/lexisml", "lemma").replace(/[0-9:]/g, "-");
             switch (current_element.tagName) {
                 case "meta":
                     switch (current_element.getAttributeNS("http://leaf.faint.xyz/lexisml", "name")) {
@@ -59,6 +58,7 @@ var Dictionary = {
                     break;
                 case "affix":
                 case "word":
+                    lemma_name = current_element.getAttributeNS("http://leaf.faint.xyz/lexisml", "lemma").replace(/[0-9:]/g, "-");
                     current_forms = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
                     current_meanings = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning");
                     if (Dictionary.lemmas[lemma_name] === undefined) Dictionary.lemmas[lemma_name] = [];
