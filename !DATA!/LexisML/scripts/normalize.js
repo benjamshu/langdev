@@ -38,7 +38,7 @@ Lexis.normalize = function(lexis_document) {
                         if (forms.item(i).hasAttribute("class")) class_value += forms.item(i).getAttribute("class") + " ";
                     }
                     class_value = class_value.trim();
-                    current_node.setAttribute("class", class_value);
+                    if (class_value !== "") current_node.setAttribute("class", class_value);
                 }
                 /* falls through */
             case "meta":

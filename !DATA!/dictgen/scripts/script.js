@@ -103,14 +103,21 @@ var Dictionary = {
                     lemma_name = current_element.getAttribute("lemma").replace(/:/g, "-").replace(/^-+|[0-9]+$/g, "");
                     if (Dictionary.lemmas[lemma_name] === undefined) Dictionary.lemmas[lemma_name] = [];
                     lemma_id = lemma_name + ":" + Dictionary.lemmas[lemma_name].length;
-                    Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
+                    current_lemma = Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
                         type: current_element.tagName,
                         name: current_element.getAttribute("lemma"),
                         id: lemma_id,
+                        word_class: null,
                         lang: current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"),
                         forms: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form"),
                         etymology: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "etymology").item(0),
                         meanings: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning")
+                    }
+                    for (j = 0; j < current_lemma.forms.length; j++) {
+                        if (current_lemma.forms.item(j).textContent == current_lemma.name) {
+                            current_lemma.word_class = current_lemma.forms.item(j).getAttribute("class");
+                            break;
+                        }
                     }
                     Dictionary.ids[Dictionary.ids.length] = lemma_id;
                     break;
@@ -131,13 +138,10 @@ var Dictionary = {
             current_element.lang = current_lemma.lang;
             current_element.id = Dictionary.ids[i];
             section_html = "<header>";
-            section_html += "<h2><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></h2>";
+            section_html += "<h2><a href='#" + Dictionary.ids[i] + "'><dfn>" + current_lemma.name + "</dfn></a></h2>";
             if (current_lemma.type == "word") {
-                for (j = 0; j < current_lemma.forms.length; j++) {
-                    if (current_lemma.forms.item(j).textContent == current_lemma.name) {
-                        section_html += "<p>" + Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + "</p>";
-                        break;
-                    }
+                if (current_lemma.word_class) {
+                    section_html += "<p>" + Dictionary.getHumanReadableWordClass(current_lemma.word_class) + "</p>";
                 }
                 section_html += "<p>";
                 for (j = 0; j < current_lemma.forms.length; j++) {
@@ -149,7 +153,14 @@ var Dictionary = {
             else if (current_lemma.type == "affix") {
                 section_html += "<p>affix</p>";
             }
-            section_html += "</header>";
+            section_html += "</header><ul>";
+            for (j = 0; j < current_lemma.meanings.length; j++) {
+                section_html += "<li>";
+                if (current_lemma.meanings.item(j).getAttribute("class") != current_lemma.word_class) section_html += "<small>(" + Dictionary.getHumanReadableWordClass(current_lemma.meanings.item(j).getAttribute("class")) + ")</small> ";
+                section_html += current_lemma.meanings.item(j).textContent;
+                section_html += "</li>";
+            }
+            section_html += "</ul>";
             current_element.innerHTML = section_html;
             main_article.appendChild(current_element);
         }
