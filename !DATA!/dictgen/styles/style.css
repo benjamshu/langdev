@@ -114,8 +114,6 @@ html {
     padding: 1.5pc;
     font-family: "Junicode", serif;
     font-variant-numeric: oldstyle-nums;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 body {
     margin: auto;
