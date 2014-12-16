@@ -6,7 +6,7 @@ var Dictionary = {
     ids: [],
     init: function() {
         var script = document.createElement("script");
-        script.src = "http://leaf.faint.xyz/!DATA!/master/!DATA!/LexisML/normalize.js";
+        script.src = "http://leaf.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/normalize.js";
         document.head.appendChild(script);
         document.addEventListener("DOMContentLoaded", function() {Dictionary.load(document.documentElement.dataset.src)}, false);
     },
