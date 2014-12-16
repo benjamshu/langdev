@@ -119,7 +119,6 @@ body {
     margin: auto;
     padding: 0 7.5pc;
     max-width: 36pc;
-    white-space: pre-wrap;
 }
 #main-header {
     position: relative;
@@ -219,6 +218,9 @@ del {
 dfn {
     font-style: inherit;
     font-weight: bold;
+}
+h2 dfn {
+    font-weight: inherit;
 }
 em {
     font-style: normal;
