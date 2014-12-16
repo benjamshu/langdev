@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="qpt-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">THE PROTO-LANGUAGE</meta>
     <affix>
         <form>ío-</form>
         <form>o-</form>
