@@ -4,6 +4,50 @@ if (typeof Lexis == "undefined") var Lexis = {};
 
 var Dictionary = {
     forms: {},
+    getHumanReadableWordClass: function(word_class) {
+        var class_list = word_class.split(" ");
+        var class_item_list = null;
+        var i = 0;
+        var j = 0;
+        var s = "";
+        var q = null;
+        for (i = 0; i < class_list.length; i++) {
+            if (i) s += ", ";
+            class_item_list = class_list[i].split(".");
+            q = {};
+            for (j = 0; j < class_item_list.length; j++) {
+                q[class_item_list[j]] = true;
+            }
+
+            if (q.pfv) s += "perfective ";
+            if (q.prog) s += "progressive ";
+            if (q.cont) s += "continuous ";
+            if (q["1"]) s += "first-person ";
+            if (q["2"]) s += "second-person ";
+            if (q["3"]) s += "third-person ";
+            if (q.mod) {
+                if (q.mir) s += "mirative ";
+                else if (q.opt) s += "optative ";
+                else if (q.hort) s += "hortative ";
+                else if (q.perm) s += "permissive ";
+                else if (q.jus) s += "jussive ";
+                else if (q.int) s += "interrogative ";
+                else s += "modal ";
+            }
+            if (q.det) {
+                if (q.qnt) s += "quantifier ";
+                else if (q.num) s += "numeral ";
+                else if (q.dem) s += "demonstrative ";
+                else s += "determiner";
+            }
+            if (q.post) s += "post-position";
+            if (q.ptcl) s += "particle ";
+            if (q.n) s += "noun ";
+            if (q.v) s += "verb ";
+            s.trim();
+        }
+        return s;
+    },
     getLemmaFromId: function(id) {
         return Dictionary.lemmas[id.split(":")[0]][Number(id.split(":")[1])]
     },
@@ -33,14 +77,9 @@ var Dictionary = {
         var j = 0;
         var elements = Dictionary.lexis.documentElement.children;
         var current_element;
-        var current_forms;
-        var current_meanings;
         var current_lemma;
         var lemma_name;
         var lemma_id;
-        var lemma_class;
-        var lemma_forms;
-        var lemma_meanings;
         var section_html;
         for (i = 0; i < elements.length; i++) {
             current_element = elements.item(i);
@@ -58,37 +97,15 @@ var Dictionary = {
                 case "affix":
                 case "word":
                     lemma_name = current_element.getAttribute("lemma").replace(/:/g, "-").replace(/^-+|[0-9]+$/g, "");
-                    current_forms = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
-                    current_meanings = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning");
                     if (Dictionary.lemmas[lemma_name] === undefined) Dictionary.lemmas[lemma_name] = [];
                     lemma_id = lemma_name + ":" + Dictionary.lemmas[lemma_name].length;
-                    lemma_class = "";
-                    lemma_forms = [];
-                    lemma_meanings = [];
-                    for (j = 0; j < current_forms.length; j++) {
-                        lemma_forms[j] = {
-                            name: current_forms.item(j).textContent,
-                            class: current_forms.item(j).getAttribute("class")
-                        }
-                        if (current_forms.item(j).hasAttribute("class")) lemma_class += current_forms.item(j).getAttribute("class") + " ";
-                        lemma_class = lemma_class.trim();
-                        if (Dictionary.forms[current_forms.item(j).textContent] === undefined) Dictionary.forms[current_forms.item(j).textContent] = [];
-                        Dictionary.forms[current_forms.item(j).textContent][Dictionary.forms[current_forms.item(j).textContent].length] = lemma_id;
-                    }
-                    for (j = 0; j < current_meanings.length; j++) {
-                        lemma_meanings[j] = {
-                            content: current_meanings.item(j).textContent,
-                            class: current_meanings.item(j).getAttribute("class")
-                        }
-                    }
                     Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
                         name: current_element.getAttribute("lemma"),
                         id: lemma_id,
                         lang: current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"),
-                        class: lemma_class,
-                        forms: lemma_forms,
+                        forms: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form"),
                         etymology: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "etymology").item(0),
-                        meaning: lemma_meanings
+                        meanings: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning")
                     }
                     Dictionary.ids[Dictionary.ids.length] = lemma_id;
                     break;
@@ -108,10 +125,20 @@ var Dictionary = {
             current_lemma = Dictionary.getLemmaFromId(Dictionary.ids[i]);
             current_element.lang = current_lemma.lang;
             current_element.id = Dictionary.ids[i];
-            section_html = "";
-            section_html += "<header>"
-            section_html += "<h2><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></h2>"
-            section_html += "</header>"
+            section_html = "<header>";
+            section_html += "<h2><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></h2>";
+            section_html += "<p>";
+            for (j = 0; j < current_lemma.forms.length; j++) {
+                if (current_lemma.forms.item(j).textContent == current_lemma.name) {
+                    section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class"));
+                    break;
+                }
+            }
+            for (j = 0; j < current_lemma.forms.length; j++) {
+                if (current_lemma.forms.item(j).textContent != current_lemma.name) section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " : <b>" + current_lemma.forms.item(j).textContent + "</b>";
+                if (j + 1 != current_lemma.forms.length) section_html += " ";
+            }
+            section_html += "</header>";
             current_element.innerHTML = section_html;
             main_article.appendChild(current_element);
         }
