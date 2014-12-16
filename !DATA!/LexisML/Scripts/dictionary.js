@@ -83,6 +83,7 @@ var Dictionary = {
                     break;
             }
         }
+        Dictionary.ids.sort(function (a, b) {return String(a).localeCompare(String(b));});
         document.body.textContent = null;
         for (i = 0; i < Dictionary.ids.length; i++) {
             article_html = "";
