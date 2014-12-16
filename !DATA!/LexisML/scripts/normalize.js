@@ -19,10 +19,10 @@ Lexis.normalize = function(lexis_document) {
         switch (current_node.tagName) {
             case "word":
             case "affix":
-                if (!current_node.hasAttributeNS("http://leaf.faint.xyz/lexisml", "lemma")) {
+                if (!current_node.hasAttribute("lemma")) {
                     forms = current_node.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
-                    if (forms.length) current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "lemma", forms.item(0).textContent);
-                    else current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "lemma", "");
+                    if (forms.length) current_node.setAttribute("lemma", forms.item(0).textContent);
+                    else current_node.setAttribute("lemma", "");
                 }
                 /* falls through */
             case "lexis":
@@ -31,14 +31,14 @@ Lexis.normalize = function(lexis_document) {
                 }
                 break;
             case "meaning":
-                if (!current_node.hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) {
+                if (!current_node.hasAttribute("class")) {
                     var class_value = "";
                     forms = current_node.parentNode.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
                     for (i = 0; i < forms.length; i++) {
-                        if (forms.item(i).hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) class_value += forms.item(i).getAttributeNS("http://leaf.faint.xyz/lexisml", "class") + " ";
+                        if (forms.item(i).hasAttribute("class")) class_value += forms.item(i).getAttribute("class") + " ";
                     }
                     class_value = class_value.trim();
-                    current_node.setAttributeNS("http://leaf.faint.xyz/lexisml", "class", class_value);
+                    current_node.setAttribute("class", class_value);
                 }
                 /* falls through */
             case "meta":

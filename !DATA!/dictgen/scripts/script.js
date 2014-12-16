@@ -46,20 +46,18 @@ var Dictionary = {
             current_element = elements.item(i);
             switch (current_element.tagName) {
                 case "meta":
-                    switch (current_element.getAttributeNS("http://leaf.faint.xyz/lexisml", "name")) {
+                    switch (current_element.getAttribute("name")) {
                         case "title":
                             Dictionary.title = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
                             break;
                         case "splash":
                             Dictionary.splashes[Dictionary.splashes.length] = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
-                            console.log("SPLASHED!");
                             break;
-
                     }
                     break;
                 case "affix":
                 case "word":
-                    lemma_name = current_element.getAttributeNS("http://leaf.faint.xyz/lexisml", "lemma").replace(/[0-9:]/g, "-");
+                    lemma_name = current_element.getAttribute("lemma").replace(/[0-9:]/g, "-");
                     current_forms = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form");
                     current_meanings = current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning");
                     if (Dictionary.lemmas[lemma_name] === undefined) Dictionary.lemmas[lemma_name] = [];
@@ -70,9 +68,9 @@ var Dictionary = {
                     for (j = 0; j < current_forms.length; j++) {
                         lemma_forms[j] = {
                             name: current_forms.item(j).textContent,
-                            class: current_forms.item(j).getAttributeNS("http://leaf.faint.xyz/lexisml", "class")
+                            class: current_forms.item(j).getAttribute("class")
                         }
-                        if (current_forms.item(j).hasAttributeNS("http://leaf.faint.xyz/lexisml", "class")) lemma_class += current_forms.item(j).getAttributeNS("http://leaf.faint.xyz/lexisml", "class") + " ";
+                        if (current_forms.item(j).hasAttribute("class")) lemma_class += current_forms.item(j).getAttribute("class") + " ";
                         lemma_class = lemma_class.trim();
                         if (Dictionary.forms[current_forms.item(j).textContent] === undefined) Dictionary.forms[current_forms.item(j).textContent] = [];
                         Dictionary.forms[current_forms.item(j).textContent][Dictionary.forms[current_forms.item(j).textContent].length] = lemma_id;
@@ -80,7 +78,7 @@ var Dictionary = {
                     for (j = 0; j < current_meanings.length; j++) {
                         lemma_meanings[j] = {
                             content: current_meanings.item(j).textContent,
-                            class: current_meanings.item(j).getAttributeNS("http://leaf.faint.xyz/lexisml", "class")
+                            class: current_meanings.item(j).getAttribute("class")
                         }
                     }
                     Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
@@ -118,6 +116,7 @@ var Dictionary = {
             current_element.innerHTML = article_html;
             main_article.appendChild(current_element);
         }
+        document.body.appendChild(main_article);
     },
     splashes: [],
     title: "",
