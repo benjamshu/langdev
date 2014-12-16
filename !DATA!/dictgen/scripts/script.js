@@ -95,7 +95,6 @@ var Dictionary = {
             }
         }
         Dictionary.ids.sort(function (a, b) {return String(a).localeCompare(String(b));});
-        document.body.textContent = null;
         var main_article = document.createElement("article");
         document.title = Dictionary.title[1];
         document.getElementsByTagName("title").item(0).lang = Dictionary.title[0];
@@ -116,6 +115,7 @@ var Dictionary = {
             current_element.innerHTML = article_html;
             main_article.appendChild(current_element);
         }
+        document.body.textContent = null;
         document.body.appendChild(main_article);
     },
     splashes: [],
