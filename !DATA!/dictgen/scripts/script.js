@@ -11,7 +11,7 @@ var Dictionary = {
     init: function() {
         var script = document.createElement("script");
         script.type = "text/javascript";
-        script.addEventListener("load", function() {Dictionary.load(document.documentElement.dataset.src)}, false);
+        script.addEventListener("load", function() {Dictionary.load(document.documentElement.dataset.src + "?" + new Date().getTime())}, false);
         document.head.appendChild(script);
         script.src = "http://leaf.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/scripts/normalize.js";
     },
