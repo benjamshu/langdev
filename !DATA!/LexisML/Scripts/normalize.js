@@ -50,7 +50,7 @@ Lexis.normalize = function(lexis_document) {
             case "etymology":
             case "etyma":
             case "wordref":
-                for (i = 0; i < current_node.childNodes.length; i--) {
+                for (i = 0; i < current_node.childNodes.length; i++) {
                     if (current_node.childNodes.item(i).nodeType == Node.TEXT_NODE) {
                         text_content = current_node.childNodes.item(i).textContent;
                         if (String.prototype.normalize) text_content = text_content.normalize();
