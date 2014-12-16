@@ -164,10 +164,10 @@ var Dictionary = {
                 }
                 section_html += "</ul>";
             }
-            else {
+            else if (current_lemma.meanings.length == 1) {
                 section_html += "<p>";
-                if (current_lemma.meanings.item(j).getAttribute("class") != current_lemma.word_class) section_html += "<small>(" + Dictionary.getHumanReadableWordClass(current_lemma.meanings.item(j).getAttribute("class")) + ")</small> ";
-                section_html += current_lemma.meanings.item(j).textContent;
+                if (current_lemma.meanings.item(0).getAttribute("class") != current_lemma.word_class) section_html += "<small>(" + Dictionary.getHumanReadableWordClass(current_lemma.meanings.item(0).getAttribute("class")) + ")</small> ";
+                section_html += current_lemma.meanings.item(0).textContent;
                 section_html += "</p>";
             }
             section_html += "<h3>etymology</h3><p>" + current_lemma.etymology.textContent + "</p>";
