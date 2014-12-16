@@ -250,6 +250,7 @@ mark::selection {
 }
 small {
     font-size: inherit;
+    font-style: italic;
 }
 s {
     color: #977630;
