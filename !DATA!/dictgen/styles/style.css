@@ -132,6 +132,7 @@ body {
     left: calc(100% - 7.5pc);
     width: 15pc;
     line-height: 1.5pc;
+    -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
     -webkit-animation: splash 2s infinite;
     animation: splash 2s infinite;
