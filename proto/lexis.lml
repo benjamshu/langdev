@@ -3,6 +3,15 @@
 <lexis xml:lang="qpt-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">THE PROTO-LANGUAGE</meta>
     <meta name="splash" xml:lang="en">fantastic!</meta>
+    <meta name="splash" xml:lang="en">so cool!</meta>
+    <meta name="splash" xml:lang="en">from the people!</meta>
+    <meta name="splash" xml:lang="en">base!</meta>
+    <meta name="splash" xml:lang="en">official dictionary!</meta>
+    <meta name="splash" xml:lang="en">my word!</meta>
+    <meta name="splash" xml:lang="en">alpha build!</meta>
+    <meta name="splash" xml:lang="en">α</meta>
+    <meta name="splash" xml:lang="en">frog and toad!</meta>
+    <meta name="splash" xml:lang="en">buzzzz…</meta>
     <affix>
         <form>ío-</form>
         <form>o-</form>
@@ -602,5 +611,47 @@
         <form class="n">breló:g</form>
         <meaning xml:lang="en">hill</meaning>
         <etymology><wordref>le-</wordref> + <wordref>bro:g</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">buan</form>
+        <meaning xml:lang="en">croak</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">buáne:qg</form>
+        <meaning xml:lang="en">be croaking</meaning>
+        <etymology><wordref>buan</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">buánri</form>
+        <meaning xml:lang="en">frog; toad</meaning>
+        <etymology><wordref>buan</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">boiq</form>
+        <meaning xml:lang="en">be quivering, buzzing</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">boíqla</form>
+        <meaning xml:lang="en">quiver; buzz</meaning>
+        <etymology><wordref>boiq</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">boíqshu</form>
+        <meaning xml:lang="en">vibrate, quiver (something)</meaning>
+        <etymology><wordref>boiq</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">boíqri</form>
+        <meaning xml:lang="en">bee</meaning>
+        <etymology><wordref>boiq</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">boir</form>
+        <meaning xml:lang="en">bound</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">bópri</form>
+        <meaning xml:lang="en">rabbit</meaning>
+        <etymology><wordref>boir</wordref> + <wordref>-ri</wordref></etymology>
     </word>
 </lexis>
