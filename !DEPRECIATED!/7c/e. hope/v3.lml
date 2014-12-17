@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">E. HOPE version 3</meta>
+    <meta name="description" xml:lang="en">The third version of the e. hope language (one of THE 7C LANGUAGES)_</meta>
     <word>
         <form class="adj" pronunciation="ā">eh</form>
         <meaning xml:lang="en">good</meaning>
@@ -25,17 +27,17 @@
     </word>
     <word>
         <form class="v" pronunciation="ū">uw</form>
-        <etymology>□1 <etyma>o</etyma></etymology>
+        <etymology>□1 <etymon>o</etymon></etymology>
         <meaning xml:lang="en">come</meaning>
     </word>
     <word>
         <form class="v" pronunciation="äh">ah</form>
-        <etymology>□1 <etyma>aht</etyma></etymology>
+        <etymology>□1 <etymon>aht</etymon></etymology>
         <meaning xml:lang="en">wait</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ät">aat</form>
-        <etymology>□1 <etyma>aht</etyma></etymology>
+        <etymology>□1 <etymon>aht</etymon></etymology>
         <meaning xml:lang="en">stay/stop</meaning>
     </word>
 </lexis>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="qlr-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">LREX version 1</meta>
+    <meta name="description" xml:lang="en">The first version of the lrex language (one of THE 7C LANGUAGES)_</meta>
     <word>
         <form class="excl">oi</form>
         <meaning xml:lang="en">whoa</meaning>
