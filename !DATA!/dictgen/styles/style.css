@@ -125,6 +125,9 @@ body {
     margin: 0 0 3pc;
     text-align: center;
 }
+#main-header > div {
+    position: relative;
+}
 #splash {
     position: absolute;
     bottom: 0;
@@ -136,6 +139,12 @@ body {
     transform: rotate(-15deg);
     -webkit-animation: splash 2s infinite;
     animation: splash 2s infinite;
+}
+#main-header > section {
+    margin: 1.5pc 0 3pc;
+    border-top: thin currentColor solid;
+    padding: 1.5pc 0 0;
+
 }
 
 /*  SECTIONING  */

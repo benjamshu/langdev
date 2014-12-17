@@ -133,13 +133,13 @@ var Dictionary = {
         var main_article = document.createElement("article");
         document.title = Dictionary.title[1];
         document.getElementsByTagName("title").item(0).lang = Dictionary.title[0];
-        article_html = "<header id='main-header'>";
+        article_html = "<header id='main-header'><div>";
         article_html += "<h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1>";
-        if (Dictionary.description !== null) article_html += "<p lang='" + Dictionary.description[0] + "'>" + Dictionary.description[1] + "</p>";
         if (Dictionary.splashes.length) {
             i = Math.floor(Math.random()*Dictionary.splashes.length);
             article_html += "<p id='splash' lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p>";
         }
+        if (Dictionary.description !== null) article_html += "</div><section><p lang='" + Dictionary.description[0] + "'>" + Dictionary.description[1] + "</p></section>";
         article_html += "</header>";
         main_article.innerHTML = article_html;
         for (i = 0; i < Dictionary.ids.length; i++) {
