@@ -3,6 +3,7 @@
 if (typeof Lexis == "undefined") var Lexis = {};
 
 var Dictionary = {
+    description: null,
     forms: {},
     getHumanReadableWordClass: function(word_class) {
         if (!word_class) word_class = "";
@@ -84,6 +85,7 @@ var Dictionary = {
         var current_lemma;
         var lemma_name;
         var lemma_id;
+        var article_html;
         var section_html;
         for (i = 0; i < elements.length; i++) {
             if (elements.item(i).nodeType !== Node.ELEMENT_NODE) continue;
@@ -93,6 +95,9 @@ var Dictionary = {
                     switch (current_element.getAttribute("name")) {
                         case "title":
                             Dictionary.title = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
+                            break;
+                        case "description":
+                            Dictionary.description = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
                             break;
                         case "splash":
                             Dictionary.splashes[Dictionary.splashes.length] = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
@@ -128,11 +133,15 @@ var Dictionary = {
         var main_article = document.createElement("article");
         document.title = Dictionary.title[1];
         document.getElementsByTagName("title").item(0).lang = Dictionary.title[0];
+        article_html = "<header id='main-header'>";
+        article_html += "<h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1>";
+        if (Dictionary.description !== null) article_html += "<p lang='" + Dictionary.description[0] + "'>" + Dictionary.description[1] + "</p>";
         if (Dictionary.splashes.length) {
             i = Math.floor(Math.random()*Dictionary.splashes.length);
-            main_article.innerHTML = "<header id='main-header'><h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1><p id='splash' lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p></header>";
+            article_html += "<p id='splash' lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p>";
         }
-        else main_article.innerHTML = "<header><h1 lang='" + Dictionary.title[0] + "'>" + Dictionary.title[1] + "</h1></header>";
+        article_html += "</header>";
+        main_article.innerHTML = article_html;
         for (i = 0; i < Dictionary.ids.length; i++) {
             current_element = document.createElement("section");
             current_lemma = Dictionary.getLemmaFromId(Dictionary.ids[i]);
