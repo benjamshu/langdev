@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">E. HOPE version 4</meta>
+    <meta name="description" xml:lang="en">The fourth version of the e. hope language (one of THE 7C LANGUAGES)_</meta>
     <word>
         <form class="adj" pronunciation="ā">ay</form>
         <meaning xml:lang="en">good</meaning>
@@ -11,7 +13,7 @@
     </word>
     <word>
         <form class="pron.dem" pronunciation="āht">æht</form>
-        <etymology>□3 <etyma>eh</etyma></etymology>
+        <etymology>□3 <etymon>eh</etymon></etymology>
         <meaning xml:lang="en">this</meaning>
     </word>
     <word>
@@ -42,17 +44,17 @@
     </word>
     <word>
         <form class="v" pronunciation="ū">uw</form>
-        <etymology>□1 <etyma>o</etyma></etymology>
+        <etymology>□1 <etymon>o</etymon></etymology>
         <meaning xml:lang="en">come</meaning>
     </word>
     <word>
         <form class="v" pronunciation="äh">ah</form>
-        <etymology>□1 <etyma>aht</etyma></etymology>
+        <etymology>□1 <etymon>aht</etymon></etymology>
         <meaning xml:lang="en">wait</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ähnt">ahnt</form>
-        <etymology>□3 <etyma>aat</etyma></etymology>
+        <etymology>□3 <etymon>aat</etymon></etymology>
         <meaning xml:lang="en">stay/stop</meaning>
     </word>
     <word>
@@ -62,7 +64,7 @@
     </word>
     <word>
         <form class="v" pronunciation="on">on</form>
-        <etymology>□3 <etyma>ahn</etyma></etymology>
+        <etymology>□3 <etymon>ahn</etymon></etymology>
         <meaning xml:lang="en">carefully, cautiously</meaning>
     </word>
     <word>
