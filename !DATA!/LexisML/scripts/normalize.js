@@ -44,7 +44,6 @@ Lexis.normalize = function(lexis_document) {
             case "meta":
             case "form":
             case "etymology":
-            case "etyma":
             case "etymon":
             case "wordref":
                 for (i = 0; i < current_node.childNodes.length; i++) {
