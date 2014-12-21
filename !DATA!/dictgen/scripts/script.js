@@ -10,6 +10,7 @@ var Dictionary = {
         var current_element = null;
         for (i = 0; i < Dictionary.element.childElementCount; i++) {
             current_element = Dictionary.element.children.item(i);
+            if (current_element.tagName !== "section") continue;
             if (window.location.hash && ((window.location.hash.indexOf(":") === -1 && current_element.id.substring(0,current_element.id.indexOf(":")) === window.location.hash.substr(1)) || current_element.id === window.location.hash.substr(1))) current_element.removeAttribute("hidden");
             else current_element.setAttribute("hidden", "");
         }
