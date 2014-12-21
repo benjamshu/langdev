@@ -46,6 +46,7 @@ Lexis.normalize = function(lexis_document) {
             case "etymology":
             case "etymon":
             case "wordref":
+            case "mention":
                 for (i = 0; i < current_node.childNodes.length; i++) {
                     if (current_node.childNodes.item(i).nodeType === 3) {
                         text_content = current_node.childNodes.item(i).textContent;
