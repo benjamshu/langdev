@@ -11,7 +11,7 @@ var Dictionary = {
         for (i = 0; i < Dictionary.element.childElementCount; i++) {
             current_element = Dictionary.element.children.item(i);
             if (current_element.tagName !== "SECTION") continue;
-            if (window.location.hash && ((window.location.hash.indexOf(":") === -1 && current_element.id.substring(0,current_element.id.indexOf(":")) === window.location.hash.substr(1)) || current_element.id === window.location.hash.substr(1))) current_element.removeAttribute("hidden");
+            if (window.location.hash && (window.location.hash === "#:" || (window.location.hash.indexOf(":") === -1 && current_element.id.substring(0,current_element.id.indexOf(":")) === window.location.hash.substr(1)) || current_element.id === window.location.hash.substr(1))) current_element.removeAttribute("hidden");
             else current_element.setAttribute("hidden", "");
         }
     },
@@ -177,7 +177,7 @@ var Dictionary = {
             article_html += "<p id='splash' lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p>";
         }
         if (Dictionary.description !== null) article_html += "</div><p lang='" + Dictionary.description[0] + "'>" + Dictionary.description[1] + "</p>";
-        article_html += "<p><label for='filter-input'>filter:</label> <input id='filter-input' type='text' autocomplete='off' autofocus inputmode='latin' placeholder='enter search term…' required spellcheck='false'> <button id='filter-button'>ok</button></p>";
+        article_html += "<p><label for='filter-input'>search:</label> <input id='filter-input' type='text' autocomplete='off' autofocus inputmode='latin' placeholder='enter search term…' required spellcheck='false'> <button id='filter-button'>ok</button> <button id='unfilter-button'>show everything</button></p>";
         article_html += "</header>";
         Dictionary.element.innerHTML = article_html;
         for (i = 0; i < Dictionary.ids.length; i++) {
@@ -227,6 +227,7 @@ var Dictionary = {
         document.body.appendChild(document.createElement("main").appendChild(Dictionary.element).parentElement);
         document.getElementById("filter-button").addEventListener("click", function(){window.location.hash = Dictionary.getLemmaName(document.getElementById("filter-input").value);} ,false);
         document.getElementById("filter-input").addEventListener("keypress", function(e){if (e.key === "Enter" || e.keyCode === 13) window.location.hash = Dictionary.getLemmaName(document.getElementById("filter-input").value);} ,false);
+        document.getElementById("unfilter-button").addEventListener("click", function(){window.location.hash = ":";}, false);
         Dictionary.filter();
     },
     splashes: [],
