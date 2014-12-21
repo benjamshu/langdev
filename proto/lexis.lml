@@ -13,6 +13,7 @@
     <meta name="splash" xml:lang="en">α</meta>
     <meta name="splash" xml:lang="en">frog and toad!</meta>
     <meta name="splash" xml:lang="en">buzzzz…</meta>
+    <meta name="splash" xml:lang="en">boo!</meta>
     <affix>
         <form>ío-</form>
         <form>o-</form>
@@ -654,5 +655,23 @@
         <form class="v.pfv">bópri</form>
         <meaning xml:lang="en">rabbit</meaning>
         <etymology><wordref>boir</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">buag</form>
+        <meaning xml:lang="en">onion</meaning>
+    </word>
+    <word>
+        <form class="v.cont">bushó</form>
+        <meaning xml:lang="en">be precipitating</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">bushóla</form>
+        <meaning xml:lang="en">precipitate</meaning>
+        <etymology><wordref>bushó</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uabushó</form>
+        <meaning xml:lang="en">precipitation</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>bushó</wordref></etymology>
     </word>
 </lexis>
