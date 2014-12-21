@@ -2,110 +2,110 @@
 <!DOCTYPE lexis>
 <lexis xml:lang="qjl-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">JÄSTŪGAY version 4</meta>
-    <meta name="description" xml:lang="en">The fourth version of the jästūgay language (one of THE 7C LANGUAGES)_</meta>
+    <meta name="description" xml:lang="en">Version IV of JÄSTŪGAY expands the lexicon of the third_ The first four versions of JÄSTŪGAY were developed within a very short window of one another (possibly all on the same day) and can be taken as something of a unit_ In version IV, pronunciations became muddled, and so are only approximated here_ No formal grammar for this version of the language was developed_</meta>
     <word>
-        <form class="n">datsi</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words</etymology>
+        <form class="n" pronunciation="/dɔtsi/">datsi</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">dāsoi</etymon>; in the <mention xml:lang="qjl-Latn">da</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">food</meaning>
     </word>
     <word>
-        <form class="n">dahsō</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words</etymology>
-        <meaning xml:lang="en">drink/water</meaning>
+        <form class="n" pronunciation="dɔːsəʊ">dahsō</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">dāsoi</etymon>, <mention>food</mention>; in the <mention xml:lang="qjl-Latn">da</mention> class of words, which refer to good things</etymology>
+        <meaning xml:lang="en">water; also used for other fluids</meaning>
     </word>
     <word>
-        <form class="adj">daehi</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">ohē</etymon></etymology>
+        <form class="adj" pronunciation="deɪhaɪ">daehi</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">dahi</etymon> with influence from <etymon xml:lang="qjl-Latn">ōhi</etymon>, <mention>do</mention>; in the <mention xml:lang="qjl-Latn">da</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">alive</meaning>
     </word>
     <word>
-        <form class="excl">doh</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words</etymology>
+        <form class="excl" pronunciation="dəʊ">doh</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">do</etymon>; in the <mention xml:lang="qjl-Latn">da</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">yes</meaning>
     </word>
     <word>
-        <form class="adj">daet</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words</etymology>
+        <form class="adj" pronunciation="deɪt">daet</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">dā</etymon>; in the <mention xml:lang="qjl-Latn">da</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">good</meaning>
     </word>
     <word>
-        <form class="excl">tau</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ta</etymon> class of words</etymology>
+        <form class="excl" pronunciation="taʊ">tau</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">ta</etymon>; in the <mention xml:lang="qjl-Latn">ta</mention> class of words, which refer to bad things</etymology>
         <meaning xml:lang="en">no</meaning>
     </word>
     <word>
-        <form class="adj">tauhi</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ta</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">ohē</etymon></etymology>
+        <form class="adj" pronunciation="taʊhaɪ">tauhi</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">tehi</etymon> with influence from <etymon xml:lang="qjl-Latn">ōhi</etymon>, <mention>do</mention>; in the <mention xml:lang="qjl-Latn">ta</mention> class of words, which refer to bad things</etymology>
         <meaning xml:lang="en">dead</meaning>
     </word>
     <word>
-        <form class="adj">taut</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ta</etymon> class of words</etymology>
+        <form class="adj" pronunciation="taʊt">taut</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">tē</etymon>; in the <mention xml:lang="qjl-Latn">ta</mention> class of words, which refer to bad things</etymology>
         <meaning xml:lang="en">bad</meaning>
     </word>
     <word>
-        <form class="pron.dem">sō</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <form class="pron.dem" pronunciation="səʊ">sō</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="qjl-Latn">say</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">this/that</meaning>
     </word>
     <word>
-        <form class="n">say</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <form class="n" pronunciation="seɪ">say</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="qjl-Latn">say</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">animal</meaning>
     </word>
     <word>
-        <form class="pron.pers.3">sē</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <form class="pron.pers.3" pronunciation="si">sē</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="qjl-Latn">say</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">he/she/they</meaning>
     </word>
     <word>
-        <form class="pron.pers.2">sed</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <form class="pron.pers.2" pronunciation="sɛd">sed</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="qjl-Latn">say</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">you</meaning>
     </word>
     <word>
-        <form class="pron.pers.1">sī</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <form class="pron.pers.1" pronunciation="saɪ">sī</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="qjl-Latn">say</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">me</meaning>
     </word>
     <word>
-        <form class="n">saed</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <form class="n" pronunciation="seɪd">saed</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">sē</etymon>; in the <mention xml:lang="qjl-Latn">say</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">girl</meaning>
     </word>
     <word>
-        <form class="n">saut</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <form class="n" pronunciation="saʊt">saut</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">sē</etymon>; in the <mention xml:lang="qjl-Latn">say</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">boy</meaning>
     </word>
     <word>
-        <form class="v">ōhē</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words</etymology>
+        <form class="v" pronunciation="əʊhi">ōhē</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">ōhī</etymon>; in the <mention xml:lang="qjl-Latn">ōhē</mention> class of words, which refer to life and actions</etymology>
         <meaning xml:lang="en">do</meaning>
     </word>
     <word>
-        <form class="v">doh</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">da</etymon></etymology>
+        <form class="v" pronunciation="dəʊ">doh</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">doi</etymon>; in the <mention xml:lang="qjl-Latn">ōhē</mention> class of words, which refer to life and actions</etymology>
         <meaning xml:lang="en">go</meaning>
     </word>
     <word>
-        <form class="v">tō'ē</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">ta</etymon></etymology>
+        <form class="v" pronunciation="təʊʔi">tō'ē</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">toi</etymon>; in the <mention xml:lang="qjl-Latn">ōhē</mention> class of words, which refer to life and actions</etymology>
         <meaning xml:lang="en">stop</meaning>
     </word>
     <word>
-        <form class="n">hie</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words</etymology>
+        <form class="n" pronunciation="haɪi">hie</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">hie</etymon>; in the <mention xml:lang="qjl-Latn">ōhē</mention> class of words, which refer to life and actions</etymology>
         <meaning xml:lang="en">life</meaning>
     </word>
     <word>
-        <form class="v">ōhtsi</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">da</etymon></etymology>
+        <form class="v" pronunciation="əʊtsi">ōhtsi</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">ōhī</etymon> + <etymon xml:lang="qjl-Latn">dāsoi</etymon>, <mention>do food</mention>; in the <mention xml:lang="qjl-Latn">ōhē</mention> class of words, which refer to life and actions</etymology>
         <meaning xml:lang="en">eat</meaning>
     </word>
     <word>
-        <form class="v">ōdsō</form>
-        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">da</etymon></etymology>
+        <form class="v" pronunciation="əʊdsəʊ">ōdsō</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="qjl-Latn">ōhī</etymon> + <etymon xml:lang="qjl-Latn">dāsoi</etymon>, <mention>do food</mention>; in the <mention xml:lang="qjl-Latn">ōhē</mention> class of words, which refer to life and actions</etymology>
         <meaning xml:lang="en">drink</meaning>
     </word>
 </lexis>
