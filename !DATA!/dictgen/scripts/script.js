@@ -5,6 +5,28 @@ if (typeof Lexis == "undefined") var Lexis = {};
 var Dictionary = {
     description: null,
     forms: {},
+    getHTML: function(e) {
+        var i = 0;
+        var s = "";
+        var current_node = null;
+        for (i = 0; i < e.childNodes.length; i++) {
+            current_node = e.childNodes.item(i);
+            if (current_node.nodeType === 3) {
+                s += current_node.textContent;
+            }
+            else if (current_node.nodeType === 1) {
+                switch (current_node.tagName) {
+                    case "wordref":
+                        s += "<a href='#" + Dictionary.getLemmaName(current_node.textContent) + "'>" + current_node.textContent + "</a>";
+                        break;
+                    case "etymon":
+                        if (current_node.hasAttributeNS("http://www.w3.org/XML/1998/namespace", "lang")) s += "<i lang='" + current_node.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang") + "'>" + current_node.textContent + "</i>";
+                        else s += "<i>" + current_node.textContent + "</i>";
+                        break;
+                }
+            }
+        }
+    },
     getHumanReadableWordClass: function(word_class) {
         if (!word_class) word_class = "";
         var class_list = word_class.split(" ");
@@ -56,6 +78,9 @@ var Dictionary = {
     getLemmaFromId: function(id) {
         return Dictionary.lemmas[id.split(":")[0]][Number(id.split(":")[1])]
     },
+    getLemmaName: function(lemma) {
+        return lemma.replace(/:/g, "-").replace(/^-+|[0-9]+$/g, "");
+    },
     ids: [],
     init: function() {
         var script = document.createElement("script");
@@ -88,7 +113,7 @@ var Dictionary = {
         var article_html;
         var section_html;
         for (i = 0; i < elements.length; i++) {
-            if (elements.item(i).nodeType !== Node.ELEMENT_NODE) continue;
+            if (elements.item(i).nodeType !== 1) continue;
             current_element = elements.item(i);
             switch (current_element.tagName) {
                 case "meta":
@@ -106,7 +131,7 @@ var Dictionary = {
                     break;
                 case "affix":
                 case "word":
-                    lemma_name = current_element.getAttribute("lemma").replace(/:/g, "-").replace(/^-+|[0-9]+$/g, "");
+                    lemma_name = Dictionary.getLemmaName(current_element.getAttribute("lemma"));
                     if (Dictionary.lemmas[lemma_name] === undefined) Dictionary.lemmas[lemma_name] = [];
                     lemma_id = lemma_name + ":" + Dictionary.lemmas[lemma_name].length;
                     current_lemma = Dictionary.lemmas[lemma_name][Dictionary.lemmas[lemma_name].length] = {
@@ -169,7 +194,7 @@ var Dictionary = {
                 for (j = 0; j < current_lemma.meanings.length; j++) {
                     section_html += "<li>";
                     if (current_lemma.meanings.item(j).getAttribute("class") != current_lemma.word_class) section_html += "<small>(" + Dictionary.getHumanReadableWordClass(current_lemma.meanings.item(j).getAttribute("class")) + ")</small> ";
-                    section_html += current_lemma.meanings.item(j).textContent;
+                    section_html += Dictionary.getHTML(current_lemma.meanings.item(j));
                     section_html += "</li>";
                 }
                 section_html += "</ul>";
@@ -177,10 +202,10 @@ var Dictionary = {
             else if (current_lemma.meanings.length == 1) {
                 section_html += "<p>";
                 if (current_lemma.meanings.item(0).getAttribute("class") != current_lemma.word_class) section_html += "<small>(" + Dictionary.getHumanReadableWordClass(current_lemma.meanings.item(0).getAttribute("class")) + ")</small> ";
-                section_html += current_lemma.meanings.item(0).textContent;
+                section_html += Dictionary.getHTML(current_lemma.meanings.item(0));
                 section_html += "</p>";
             }
-            if (current_lemma.etymology) section_html += "<h3>etymology</h3><p>" + current_lemma.etymology.textContent + "</p>";
+            if (current_lemma.etymology) section_html += "<h3>etymology</h3><p>" + Dictionary.getHTML(current_lemma.etymology) + "</p>";
             current_element.innerHTML = section_html;
             main_article.appendChild(current_element);
         }
