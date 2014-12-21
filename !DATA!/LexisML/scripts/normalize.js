@@ -27,7 +27,7 @@ Lexis.normalize = function(lexis_document) {
                 /* falls through */
             case "lexis":
                 for (i = current_node.childNodes.length - 1; i >= 0; i--) {
-                    if (current_node.childNodes.item(i).nodeType !== Node.ELEMENT_NODE) current_node.removeChild(current_node.childNodes.item(i));
+                    if (current_node.childNodes.item(i).nodeType !== 1) current_node.removeChild(current_node.childNodes.item(i));
                 }
                 break;
             case "meaning":
@@ -47,7 +47,7 @@ Lexis.normalize = function(lexis_document) {
             case "etymon":
             case "wordref":
                 for (i = 0; i < current_node.childNodes.length; i++) {
-                    if (current_node.childNodes.item(i).nodeType == Node.TEXT_NODE) {
+                    if (current_node.childNodes.item(i).nodeType === 3) {
                         text_content = current_node.childNodes.item(i).textContent;
                         if (String.prototype.normalize) text_content = text_content.normalize();
                         if (i === 0) text_content = text_content.replace(/^\s+/, "");
