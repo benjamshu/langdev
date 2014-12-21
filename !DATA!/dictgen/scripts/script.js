@@ -31,6 +31,7 @@ var Dictionary = {
                         s += "<i><a href='#" + Dictionary.getLemmaName(current_node.textContent) + "'>" + current_node.textContent + "</a></i>";
                         break;
                     case "etymon":
+                    case "mention":
                         if (current_node.hasAttributeNS("http://www.w3.org/XML/1998/namespace", "lang")) s += "<i lang='" + current_node.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang") + "'>" + current_node.textContent + "</i>";
                         else s += "<i>" + current_node.textContent + "</i>";
                         break;
@@ -136,10 +137,10 @@ var Dictionary = {
                             Dictionary.title = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
                             break;
                         case "description":
-                            Dictionary.description = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
+                            Dictionary.description = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), Dictionary.getHTML(current_element)];
                             break;
                         case "splash":
-                            Dictionary.splashes[Dictionary.splashes.length] = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), current_element.textContent];
+                            Dictionary.splashes[Dictionary.splashes.length] = [current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"), Dictionary.getHTML(current_element)];
                             break;
                     }
                     break;
