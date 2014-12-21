@@ -63,29 +63,29 @@
         <form class="v">tai</form>
         <meaning xml:lang="en">do</meaning>
     </word>
-    <word>
-        <form class="afix-lxcl" pronunciation="wē">-wei</form>
+    <affix>
+        <form pronunciation="wē">-wei</form>
         <meaning xml:lang="en">of or pertaining to a thing</meaning>
-    </word>
-    <word>
-        <form class="afix-lxcl" pronunciation="hī">-hai</form>
+    </affix>
+    <affix>
+        <form pronunciation="hī">-hai</form>
         <meaning xml:lang="en">calm</meaning>
-    </word>
-    <word>
-        <form class="afix-lxcl" pronunciation="he">-he</form>
-        <form class="afix-lxcl" pronunciation="hǽ">-hǽ</form>
+    </affix>
+    <affix>
+        <form pronunciation="he">-he</form>
+        <form pronunciation="hǽ">-hǽ</form>
         <meaning xml:lang="en">good</meaning>
-    </word>
-    <word>
-        <form class="afix-lxcl" pronunciation="ä">aa-</form>
+    </affix>
+    <affix>
+        <form pronunciation="ä">aa-</form>
         <meaning xml:lang="en">somewhat</meaning>
-    </word>
-    <word>
-        <form class="afix-lxcl" pronunciation="än">ahn-</form>
+    </affix>
+    <affix>
+        <form pronunciation="än">ahn-</form>
         <meaning xml:lang="en">bad</meaning>
-    </word>
-    <word>
-        <form class="afix-lxcl" pronunciation="ī">iy-</form>
+    </affix>
+    <affix>
+        <form pronunciation="ī">iy-</form>
         <meaning xml:lang="en">scary</meaning>
-    </word>
+    </affix>
 </lexis>
