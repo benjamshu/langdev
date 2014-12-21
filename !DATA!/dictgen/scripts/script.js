@@ -176,7 +176,7 @@ var Dictionary = {
             article_html += "<p id='splash' lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p>";
         }
         if (Dictionary.description !== null) article_html += "</div><p lang='" + Dictionary.description[0] + "'>" + Dictionary.description[1] + "</p>";
-        article_html += "<p><label for='input-filter'>filter:</label> <input id='filter-input' type='text' autocomplete='off' autofocus inputmode='latin' placeholder='enter search term…' required spellcheck='false'> <button id='filter-button'>ok</button></p>";
+        article_html += "<p><label for='filter-input'>filter:</label> <input id='filter-input' type='text' autocomplete='off' autofocus inputmode='latin' placeholder='enter search term…' required spellcheck='false'> <button id='filter-button'>ok</button></p>";
         article_html += "</header>";
         Dictionary.element.innerHTML = article_html;
         for (i = 0; i < Dictionary.ids.length; i++) {
