@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="qjl-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">JÄSTŪGAY version 2</meta>
+    <meta name="description" xml:lang="en">The second version of the jästūgay language (one of THE 7C LANGUAGES)_</meta>
+    <word>
+        <form class="pron.dem">sō</form>
+        <meaning xml:lang="en">this/that</meaning>
+    </word>
+    <word>
+        <form class="n pron.pers">sā</form>
+        <meaning xml:lang="en" class="n">noun</meaning>
+        <meaning xml:lang="en" class="pron.pers">pronoun for use with animals</meaning>
+    </word>
+    <word>
+        <form class="n pron.pers">sē</form>
+        <meaning xml:lang="en" class="n">noun</meaning>
+        <meaning xml:lang="en" class="pron.pers">pronoun for use with people</meaning>
+    </word>
+    <word>
+        <form class="excl">do</form>
+        <meaning xml:lang="en">yes</meaning>
+    </word>
+    <word>
+        <form class="v">doi</form>
+        <meaning xml:lang="en">go</meaning>
+    </word>
+    <word>
+        <form class="excl">ta</form>
+        <meaning xml:lang="en">no</meaning>
+    </word>
+    <word>
+        <form class="v">ahtoi</form>
+        <meaning xml:lang="en">stop</meaning>
+    </word>
+</lexis>
