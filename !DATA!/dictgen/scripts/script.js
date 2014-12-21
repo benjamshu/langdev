@@ -26,6 +26,7 @@ var Dictionary = {
                 }
             }
         }
+        return s;
     },
     getHumanReadableWordClass: function(word_class) {
         if (!word_class) word_class = "";
