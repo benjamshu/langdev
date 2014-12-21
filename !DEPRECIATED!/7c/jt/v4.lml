@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="qjl-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">JÄSTŪGAY version 4</meta>
+    <meta name="description" xml:lang="en">The fourth version of the jästūgay language (one of THE 7C LANGUAGES)_</meta>
+    <word>
+        <form class="n">datsi</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words</etymology>
+        <meaning xml:lang="en">food</meaning>
+    </word>
+    <word>
+        <form class="n">dahsō</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words</etymology>
+        <meaning xml:lang="en">drink/water</meaning>
+    </word>
+    <word>
+        <form class="adj">daehi</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">ohē</etymon></etymology>
+        <meaning xml:lang="en">alive</meaning>
+    </word>
+    <word>
+        <form class="excl">doh</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words</etymology>
+        <meaning xml:lang="en">yes</meaning>
+    </word>
+    <word>
+        <form class="adj">daet</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">da</etymon> class of words</etymology>
+        <meaning xml:lang="en">good</meaning>
+    </word>
+    <word>
+        <form class="excl">tau</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ta</etymon> class of words</etymology>
+        <meaning xml:lang="en">no</meaning>
+    </word>
+    <word>
+        <form class="adj">tauhi</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ta</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">ohē</etymon></etymology>
+        <meaning xml:lang="en">dead</meaning>
+    </word>
+    <word>
+        <form class="adj">taut</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ta</etymon> class of words</etymology>
+        <meaning xml:lang="en">bad</meaning>
+    </word>
+    <word>
+        <form class="pron.dem">sō</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <meaning xml:lang="en">this/that</meaning>
+    </word>
+    <word>
+        <form class="n">say</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <meaning xml:lang="en">animal</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.3">sē</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <meaning xml:lang="en">he/she/they</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.2">sed</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <meaning xml:lang="en">you</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.1">sī</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <meaning xml:lang="en">me</meaning>
+    </word>
+    <word>
+        <form class="n">saed</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <meaning xml:lang="en">girl</meaning>
+    </word>
+    <word>
+        <form class="n">saut</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">say</etymon> class of words</etymology>
+        <meaning xml:lang="en">boy</meaning>
+    </word>
+    <word>
+        <form class="v">ōhē</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words</etymology>
+        <meaning xml:lang="en">do</meaning>
+    </word>
+    <word>
+        <form class="v">doh</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">da</etymon></etymology>
+        <meaning xml:lang="en">go</meaning>
+    </word>
+    <word>
+        <form class="v">tō'ē</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">ta</etymon></etymology>
+        <meaning xml:lang="en">stop</meaning>
+    </word>
+    <word>
+        <form class="n">hie</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words</etymology>
+        <meaning xml:lang="en">life</meaning>
+    </word>
+    <word>
+        <form class="v">ōhtsi</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">da</etymon></etymology>
+        <meaning xml:lang="en">eat</meaning>
+    </word>
+    <word>
+        <form class="v">ōdsō</form>
+        <etymology xml:lang="en"><etymon xml:lang="qjl-Latn">ōhē</etymon> class of words, with influence of <etymon xml:lang="qjl-Latn">da</etymon></etymology>
+        <meaning xml:lang="en">drink</meaning>
+    </word>
+</lexis>
