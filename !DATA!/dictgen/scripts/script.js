@@ -4,6 +4,17 @@ if (typeof Lexis == "undefined") var Lexis = {};
 
 var Dictionary = {
     description: null,
+    element: null,
+    filter: function() {
+        var i = 0;
+        var current_element = null;
+        for (i = 0; i < Dictionary.element.childElementCount; i++) {
+            current_element = Dictionary.element.children.item(i);
+            if (current_element.tagName !== "SECTION") continue;
+            if (window.location.hash && (window.location.hash === "#:" || (window.location.hash.indexOf(":") === -1 && current_element.id.substring(0,current_element.id.indexOf(":")) === window.location.hash.substr(1)) || current_element.id === window.location.hash.substr(1))) current_element.removeAttribute("hidden");
+            else current_element.setAttribute("hidden", "");
+        }
+    },
     forms: {},
     getHTML: function(e) {
         var i = 0;
@@ -156,7 +167,7 @@ var Dictionary = {
             }
         }
         Dictionary.ids.sort(function (a, b) {return String(a).localeCompare(String(b));});
-        var main_article = document.createElement("article");
+        Dictionary.element = document.createElement("article");
         document.title = Dictionary.title[1];
         document.getElementsByTagName("title").item(0).lang = Dictionary.title[0];
         article_html = "<header id='main-header'><div>";
@@ -165,14 +176,16 @@ var Dictionary = {
             i = Math.floor(Math.random()*Dictionary.splashes.length);
             article_html += "<p id='splash' lang='" + Dictionary.splashes[i][0] + "'>" + Dictionary.splashes[i][1] + "</p>";
         }
-        if (Dictionary.description !== null) article_html += "</div><section><p lang='" + Dictionary.description[0] + "'>" + Dictionary.description[1] + "</p></section>";
+        if (Dictionary.description !== null) article_html += "</div><p lang='" + Dictionary.description[0] + "'>" + Dictionary.description[1] + "</p>";
+        article_html += "<p><label for='filter-input'>search:</label> <input id='filter-input' type='text' autocomplete='off' autofocus inputmode='latin' placeholder='enter search term…' required spellcheck='false'> <button id='filter-button'>ok</button> <button id='unfilter-button'>show everything</button></p>";
         article_html += "</header>";
-        main_article.innerHTML = article_html;
+        Dictionary.element.innerHTML = article_html;
         for (i = 0; i < Dictionary.ids.length; i++) {
             current_element = document.createElement("section");
             current_lemma = Dictionary.getLemmaFromId(Dictionary.ids[i]);
             current_element.lang = current_lemma.lang;
             current_element.id = Dictionary.ids[i];
+            current_element.setAttribute("hidden", "");
             section_html = "<header>";
             section_html += "<h2><a href='#" + Dictionary.ids[i] + "'><dfn>" + current_lemma.name + "</dfn></a></h2>";
             if (current_lemma.type == "word") {
@@ -208,10 +221,14 @@ var Dictionary = {
             }
             if (current_lemma.etymology) section_html += "<h3>etymology</h3><p>" + Dictionary.getHTML(current_lemma.etymology) + "</p>";
             current_element.innerHTML = section_html;
-            main_article.appendChild(current_element);
+            Dictionary.element.appendChild(current_element);
         }
         document.body.textContent = null;
-        document.body.appendChild(document.createElement("main").appendChild(main_article).parentElement);
+        document.body.appendChild(document.createElement("main").appendChild(Dictionary.element).parentElement);
+        document.getElementById("filter-button").addEventListener("click", function(){window.location.hash = Dictionary.getLemmaName(document.getElementById("filter-input").value);} ,false);
+        document.getElementById("filter-input").addEventListener("keypress", function(e){if (e.key === "Enter" || e.keyCode === 13) window.location.hash = Dictionary.getLemmaName(document.getElementById("filter-input").value);} ,false);
+        document.getElementById("unfilter-button").addEventListener("click", function(){window.location.hash = ":";}, false);
+        Dictionary.filter();
     },
     splashes: [],
     title: "",
@@ -219,3 +236,4 @@ var Dictionary = {
 }
 
 window.addEventListener("load", Dictionary.init, false);
+window.addEventListener("hashchange", Dictionary.filter, false);
