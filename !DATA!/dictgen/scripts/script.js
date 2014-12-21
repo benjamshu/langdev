@@ -28,7 +28,7 @@ var Dictionary = {
             else if (current_node.nodeType === 1) {
                 switch (current_node.tagName) {
                     case "wordref":
-                        s += "<a href='#" + Dictionary.getLemmaName(current_node.textContent) + "'>" + current_node.textContent + "</a>";
+                        s += "<i><a href='#" + Dictionary.getLemmaName(current_node.textContent) + "'>" + current_node.textContent + "</a></i>";
                         break;
                     case "etymon":
                         if (current_node.hasAttributeNS("http://www.w3.org/XML/1998/namespace", "lang")) s += "<i lang='" + current_node.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang") + "'>" + current_node.textContent + "</i>";
