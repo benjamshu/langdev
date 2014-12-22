@@ -62,8 +62,9 @@ var Dictionary = {
             if (q["1"]) s += "first-person ";
             if (q["2"]) s += "second-person ";
             if (q["3"]) s += "third-person ";
-            if (q["sing"]) s += "singular";
-            if (q["pl"]) s += "plural";
+            if (q["sing"]) s += "singular ";
+            if (q["pl"]) s += "plural ";
+            if (q["inf"]) s += "infinitive ";
             if (q.mod) {
                 if (q.mir) s += "mirative ";
                 else if (q.opt) s += "optative ";
@@ -77,9 +78,9 @@ var Dictionary = {
                 if (q.qnt) s += "quantifier ";
                 else if (q.num) s += "numeral ";
                 else if (q.dem) s += "demonstrative ";
-                else s += "determiner";
+                else s += "determiner ";
             }
-            if (q.post) s += "post-position";
+            if (q.post) s += "post-position ";
             if (q.ptcl) s += "particle ";
             if (q.adj) s += "adjective ";
             if (q.adv) s += "adverb ";
@@ -125,6 +126,7 @@ var Dictionary = {
         var current_lemma;
         var lemma_name;
         var lemma_id;
+        var class_value;
         var article_html;
         var section_html;
         for (i = 0; i < elements.length; i++) {
@@ -154,17 +156,22 @@ var Dictionary = {
                         name: current_element.getAttribute("lemma"),
                         id: lemma_id,
                         word_class: null,
+                        lemma_class: null,
                         lang: current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"),
                         forms: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form"),
                         etymology: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "etymology").item(0),
                         meanings: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning")
                     }
+                    class_value = "";
                     for (j = 0; j < current_lemma.forms.length; j++) {
+                        if (current_lemma.forms.item(j).hasAttribute("class")) class_value += current_lemma.forms.item(j).getAttribute("class") + " ";
                         if (current_lemma.forms.item(j).textContent == current_lemma.name) {
-                            current_lemma.word_class = current_lemma.forms.item(j).getAttribute("class");
+                            current_lemma.lemma_class = current_lemma.forms.item(j).getAttribute("class");
                             break;
                         }
                     }
+                    class_value = class_value.trim();
+                    if (class_value !== "") current_lemma.word_class = class_value;
                     Dictionary.ids[Dictionary.ids.length] = lemma_id;
                     break;
             }
@@ -192,15 +199,18 @@ var Dictionary = {
             section_html = "<header>";
             section_html += "<h2><a href='#" + Dictionary.ids[i] + "'><dfn>" + current_lemma.name + "</dfn></a></h2>";
             if (current_lemma.type == "word") {
-                if (current_lemma.word_class) {
-                    section_html += "<p>" + Dictionary.getHumanReadableWordClass(current_lemma.word_class) + "</p>";
-                }
                 section_html += "<p>";
-                for (j = 0; j < current_lemma.forms.length; j++) {
-                    if (current_lemma.forms.item(j).textContent != current_lemma.name) section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " : <b>" + current_lemma.forms.item(j).textContent + "</b>";
-                    if (j + 1 != current_lemma.forms.length) section_html += " ";
+                if (current_lemma.lemma_class) {
+                    section_html += Dictionary.getHumanReadableWordClass(current_lemma.lemma_class);
                 }
-                section_html += "</p>"
+                section_html += " (";
+                for (j = 0; j < current_lemma.forms.length; j++) {
+                    if (current_lemma.forms.item(j).textContent != current_lemma.name) {
+                        if (j !== 0) section_html += "; ";
+                        section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " : <dfn>" + current_lemma.forms.item(j).textContent + "</dfn>";
+                    }
+                }
+                section_html += ")</p>"
             }
             else if (current_lemma.type == "affix") {
                 section_html += "<p>affix</p>";
