@@ -28,7 +28,7 @@
     </affix>
     <affix>
         <form>ar-</form>
-        <meaning xml:lang="en">when attached to verbs, forms a continuous derivative; when used on nouns, forms a stative verb with approximate meaning 'be X(-like)'; used mostly with features or attributes</meaning>
+        <meaning xml:lang="en">when attached to verbs, forms a continuous derivative; when used on nouns, forms a continuous verb with approximate meaning 'be X(-like)'; used mostly with features or attributes</meaning>
     </affix>
     <affix>
         <form>-aush</form>
@@ -97,6 +97,11 @@
     <affix>
         <form>le-</form>
         <meaning xml:lang="en">creates nominal derivatives related to places or the land</meaning>
+    </affix>
+    <affix>
+        <form>gjo:-</form>
+        <meaning xml:lang="en">'one', either to form bahuvrihis or to denote a specific instance or example</meaning>
+        <etymology xml:lang="en">probably related to <wordref>gjo:q</wordref></etymology>
     </affix>
     <word>
         <form class="ptcl.mod.mir">oshó</form>
@@ -753,5 +758,74 @@
         <form class="n">bí:raush</form>
         <meaning xml:lang="en">feather</meaning>
         <etymology><wordref>bi:r</wordref> + <wordref>-aush</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">daq</form>
+        <meaning xml:lang="en">the core; the root; the centre</meaning>
+    </word>
+    <word>
+        <form class="v.cont">ardáq</form>
+        <meaning xml:lang="en">be core, central</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>daq</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">dáqri</form>
+        <meaning xml:lang="en">abdomen; bladder</meaning>
+        <etymology><wordref>daq</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">dazh</form>
+        <meaning xml:lang="en">be shining</meaning>
+    </word>
+    <word>
+        <form class="n">gjo:dázh</form>
+        <meaning xml:lang="en">day</meaning>
+        <etymology><wordref>gjo:-</wordref> + <wordref>dazh</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">dázhri</form>
+        <meaning xml:lang="en">sun</meaning>
+        <etymology><wordref>dazh</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uadázh</form>
+        <meaning xml:lang="en">heat</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>dazh</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">dem</form>
+        <meaning xml:lang="en">oak tree</meaning>
+    </word>
+    <word>
+        <form class="n">dip</form>
+        <meaning xml:lang="en">holly tree/shrub</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">dizh</form>
+        <meaning xml:lang="en">(magically) possess; intoxicate</meaning>
+    </word>
+    <word>
+        <form class="v.cont">dízhe:qg</form>
+        <meaning xml:lang="en">be (magically) possessing</meaning>
+        <etymology><wordref>dizh</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uadízh</form>
+        <meaning xml:lang="en">liquor</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>dizh</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">dízhtu</form>
+        <meaning xml:lang="en">be (magically) possessed</meaning>
+        <etymology><wordref>dizh</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">doq</form>
+        <meaning xml:lang="en">be old</meaning>
+    </word>
+    <word>
+        <form class="v.cont">gjodóq</form>
+        <meaning xml:lang="en">elder</meaning>
+        <etymology><wordref>gjo-</wordref> + <wordref>doq</wordref></etymology>
     </word>
 </lexis>
