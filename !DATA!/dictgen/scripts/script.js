@@ -182,7 +182,7 @@ var Dictionary = {
                     break;
             }
         }
-        Dictionary.ids.sort(function (a, b) {return String(a).localeCompare(String(b));});
+        Dictionary.ids.sort(function (a, b) {return String(a).substr(String(a).search(/\w/)).localeCompare(String(b).substr(String(b).search(/\w/)));});
         Dictionary.element = document.createElement("article");
         document.title = Dictionary.title[1];
         document.getElementsByTagName("title").item(0).lang = Dictionary.title[0];
