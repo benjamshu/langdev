@@ -128,6 +128,9 @@ body {
 #main-header > div {
     position: relative;
 }
+#main-header p {
+    margin: 1.5pc 0;
+}
 #splash {
     position: absolute;
     bottom: 0;
