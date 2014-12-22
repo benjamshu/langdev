@@ -184,16 +184,14 @@ h3 {
     line-height: 1.5pc;
 }
 h3::after {
-    content: " : ";
+    content: " : ";
 }
 p {
     margin: 0;
     padding: 0 0 0 2.5pc;
-}
-p + p {
     text-indent: -2.5pc;
 }
-header p, header p + p, header h3 + p {
+header p {
     margin: 0;
     text-indent: 0;
 }
