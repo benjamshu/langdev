@@ -191,8 +191,7 @@ p {
     padding: 0 0 0 2.5pc;
     text-indent: -2.5pc;
 }
-header p {
-    margin: 0;
+h3 + p {
     text-indent: 0;
 }
 blockquote p::before {
