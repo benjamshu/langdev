@@ -87,7 +87,7 @@ var Dictionary = {
             if (q.pron) s += "pronoun ";
             if (q.n) s += "noun ";
             if (q.v) s += "verb ";
-            s.trim();
+            s = s.trim();
         }
         return s;
     },
@@ -170,8 +170,7 @@ var Dictionary = {
                             break;
                         }
                     }
-                    class_value = class_value.trim();
-                    if (class_value !== "") current_lemma.word_class = class_value;
+                    if (class_value !== "") current_lemma.word_class = class_value.trim();
                     Dictionary.ids[Dictionary.ids.length] = lemma_id;
                     break;
             }
@@ -203,14 +202,19 @@ var Dictionary = {
                 if (current_lemma.lemma_class) {
                     section_html += Dictionary.getHumanReadableWordClass(current_lemma.lemma_class);
                 }
-                section_html += " (";
+                class_value = false;
                 for (j = 0; j < current_lemma.forms.length; j++) {
                     if (current_lemma.forms.item(j).textContent != current_lemma.name) {
-                        if (j !== 0) section_html += "; ";
-                        section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " : <dfn>" + current_lemma.forms.item(j).textContent + "</dfn>";
+                        if (!class_value) {
+                            section_html += " (";
+                            class_value = true;
+                        }
+                        else section_html += ", ";
+                        section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " <dfn>" + current_lemma.forms.item(j).textContent + "</dfn>";
                     }
                 }
-                section_html += ")</p>"
+                if (class_value) section_html += ")";
+                section_html += "</p>"
             }
             else if (current_lemma.type == "affix") {
                 section_html += "<p>affix</p>";
