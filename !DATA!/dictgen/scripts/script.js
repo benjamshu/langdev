@@ -11,7 +11,7 @@ var Dictionary = {
         for (i = 0; i < Dictionary.element.childElementCount; i++) {
             current_element = Dictionary.element.children.item(i);
             if (current_element.tagName !== "SECTION") continue;
-            if (window.location.hash && (window.location.hash === "#:" || (window.location.hash.indexOf(":") === -1 && current_element.id.substring(0,current_element.id.indexOf(":")) === window.location.hash.substr(1)) || current_element.id === window.location.hash.substr(1))) current_element.removeAttribute("hidden");
+            if (window.location.hash && (window.location.hash === "#:" || (window.location.hash.indexOf(":") === -1 && Dictionary.lemmaContainsForm(Dictionary.getLemmaFromId(current_element.id), window.location.hash.substr(1))) || current_element.id === window.location.hash.substr(1))) current_element.removeAttribute("hidden");
             else current_element.setAttribute("hidden", "");
         }
     },
@@ -109,6 +109,13 @@ var Dictionary = {
         script.src = "http://leaf.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/scripts/normalize.js";
     },
     lang: "",
+    lemmaContainsForm: function(lemma, form) {
+        var i;
+        for (i = 0; i < lemma.forms.length; i++) {
+            if (Dictionary.getLemmaName(lemma.forms.item(i).textContent) == form) return true;
+        }
+        return false;
+    },
     lemmas: {},
     lexis: undefined,
     load: function(src) {
@@ -217,7 +224,17 @@ var Dictionary = {
                 section_html += "</small></p>"
             }
             else if (current_lemma.type == "affix") {
-                section_html += "<p><small>affix</small></p>";
+                section_html += "<p><small>affix";
+                if (current_lemma.forms.length > 1) {
+                    section_html += " (";
+                    for (j = 0; j < current_lemma.forms.length; j++) {
+                        if (current_lemma.forms.item(j).textContent != current_lemma.name) {
+                            section_html += "<dfn>" + current_lemma.forms.item(j).textContent + "</dfn>, ";
+                        }
+                    }
+                    section_html = section_html.substr(0, section_html.length-2) + ")";
+                }
+                section_html += "</small></p>";
             }
             section_html += "</header>";
             if (current_lemma.meanings.length > 1) {

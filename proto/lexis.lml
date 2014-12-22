@@ -671,4 +671,18 @@
         <meaning xml:lang="en">precipitation</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>bushó</wordref></etymology>
     </word>
+    <word>
+        <form class="v.cont">buash</form>
+        <meaning xml:lang="en">be windy</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">buáshla</form>
+        <meaning xml:lang="en">blow</meaning>
+        <etymology><wordref>buash</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uabuásh</form>
+        <meaning xml:lang="en">wind; air</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>buash</wordref></etymology>
+    </word>
 </lexis>
