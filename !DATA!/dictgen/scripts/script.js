@@ -98,7 +98,7 @@ var Dictionary = {
         return Dictionary.lemmas[id.split(":")[0]][Number(id.split(":")[1])]
     },
     getLemmaName: function(lemma) {
-        return lemma.replace(/:/g, "-").replace(/^-+|[0-9]+$/g, "");
+        return lemma.replace(/[:'"#\?]/g, "-");
     },
     ids: [],
     init: function() {
