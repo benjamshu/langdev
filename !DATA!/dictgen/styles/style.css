@@ -128,9 +128,6 @@ body {
 #main-header > div {
     position: relative;
 }
-#main-header p, #main-header p + p {
-    margin: 1.5pc 0;
-}
 #splash {
     position: absolute;
     bottom: 0;
@@ -189,6 +186,9 @@ p {
 }
 p + p, h3 + p {
     text-indent: 2.5pc;
+}
+header p, header p + p, header h3 + p {
+    margin: 1.5pc 0;
 }
 blockquote p::before {
     content: open-quote;
