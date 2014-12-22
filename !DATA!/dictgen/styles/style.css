@@ -188,7 +188,7 @@ p + p, h3 + p {
     text-indent: 2.5pc;
 }
 header p, header p + p, header h3 + p {
-    margin: 1.5pc 0;
+    margin: 0 0 1.5pc;
 }
 blockquote p::before {
     content: open-quote;
