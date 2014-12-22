@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="qeh-Latn" xmlns="http://leaf.faint.xyz/lexisml">
-    <meta name="title" xml:lang="en">E. HOPE version 4</meta>
+    <meta name="title" xml:lang="en">□4</meta>
     <meta name="description" xml:lang="en">The fourth version of the e. hope language (one of THE 7C LANGUAGES)_</meta>
     <word>
         <form class="adj" pronunciation="ā">ay</form>
