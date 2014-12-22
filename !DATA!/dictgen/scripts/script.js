@@ -165,12 +165,9 @@ var Dictionary = {
                     class_value = "";
                     for (j = 0; j < current_lemma.forms.length; j++) {
                         if (current_lemma.forms.item(j).hasAttribute("class")) class_value += current_lemma.forms.item(j).getAttribute("class") + " ";
-                        if (current_lemma.forms.item(j).textContent == current_lemma.name) {
-                            current_lemma.lemma_class = current_lemma.forms.item(j).getAttribute("class");
-                            break;
-                        }
+                        if (current_lemma.forms.item(j).textContent == current_lemma.name) current_lemma.lemma_class = current_lemma.forms.item(j).getAttribute("class");
                     }
-                    if (class_value !== "") current_lemma.word_class = class_value.trim();
+                    if (class_value.trim() !== "") current_lemma.word_class = class_value.trim();
                     Dictionary.ids[Dictionary.ids.length] = lemma_id;
                     break;
             }
