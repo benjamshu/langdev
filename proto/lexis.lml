@@ -103,6 +103,11 @@
         <meaning xml:lang="en">'one', either to form bahuvrihis or to denote a specific instance or example</meaning>
         <etymology xml:lang="en">probably related to <wordref>gjo:q</wordref></etymology>
     </affix>
+    <affix>
+        <form>gja-</form>
+        <meaning xml:lang="en">'several', 'many', either to form bahuvrihis or to denote a collection</meaning>
+        <etymology xml:lang="en">probably related to <wordref>gjo:q</wordref></etymology>
+    </affix>
     <word>
         <form class="ptcl.mod.mir">oshó</form>
         <meaning xml:lang="en">mirative modal particle</meaning>
@@ -827,5 +832,13 @@
         <form class="v.cont">gjodóq</form>
         <meaning xml:lang="en">elder</meaning>
         <etymology><wordref>gjo-</wordref> + <wordref>doq</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gjash</form>
+        <meaning xml:lang="en">forest</meaning>
+    </word>
+    <word>
+        <form class="n">gja:l</form>
+        <meaning xml:lang="en">ocean; sea; lake</meaning>
     </word>
 </lexis>
