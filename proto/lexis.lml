@@ -10,7 +10,8 @@
     <meta name="splash" xml:lang="en">my word!</meta> <!-- pun on the fact that i created all of these words -->
     <meta name="splash" xml:lang="en">alpha build!</meta> <!-- pre-release software -->
     <meta name="splash" xml:lang="en">α</meta> <!-- see above -->
-    <meta name="splash" xml:lang="en">filtered!</meta> <!-- notes Dictionary support for searching / filters -->
+    <meta name="splash" xml:lang="en">filtered!</meta> <!-- celebrates Dictionary support for searching / filters -->
+    <meta name="splash" xml:lang="en">multi-form!</meta> <!-- celebrates Dictionary support for multiple word-forms -->
     <affix>
         <form>ío-</form>
         <form>o-</form>
@@ -479,7 +480,7 @@
     </word>
     <word>
         <form class="n">besh</form>
-        <meaning xml:lang="en">maple</meaning>
+        <meaning xml:lang="en">maple tree</meaning>
     </word>
     <word>
         <form class="v.pfv">bua:l</form>
@@ -684,5 +685,73 @@
         <form class="n">uabuásh</form>
         <meaning xml:lang="en">wind; air</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>buash</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">betásh</form>
+        <meaning xml:lang="en">fan</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>buash</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">but</form>
+        <meaning xml:lang="en">bird-foot; claw</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">kat</form>
+        <meaning xml:lang="en">flap; fly</meaning>
+    </word>
+    <word>
+        <form class="v.cont">káte:qg</form>
+        <meaning xml:lang="en">is flying</meaning>
+        <etymology><wordref>kat</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.prog">kátu</form>
+        <meaning xml:lang="en">be taking off, to the skies</meaning>
+        <etymology><wordref>kat</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">bekát</form>
+        <meaning xml:lang="en">wing</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>kat</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">katri</form>
+        <meaning xml:lang="en">bat</meaning>
+        <etymology><wordref>kat</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">bul</form>
+        <meaning xml:lang="en">beech tree</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">buant</form>
+        <meaning xml:lang="en">peck; pick (at something)</meaning>
+    </word>
+    <word>
+        <form class="v.cont">buánte:qg</form>
+        <meaning xml:lang="en">be pecking, picking (at something)</meaning>
+        <etymology><wordref>buant</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">buántri</form>
+        <meaning xml:lang="en">beak</meaning>
+        <etymology><wordref>buant</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">bi:q</form>
+        <meaning xml:lang="en">fly (insect)</meaning>
+    </word>
+    <word>
+        <form class="n">buzh</form>
+        <meaning xml:lang="en">bird</meaning>
+    </word>
+    <word>
+        <form class="v.cont">bi:r</form>
+        <meaning xml:lang="en">be lightweight</meaning>
+    </word>
+    <word>
+        <form class="n">bí:raush</form>
+        <meaning xml:lang="en">feather</meaning>
+        <etymology><wordref>bi:r</wordref> + <wordref>-aush</wordref></etymology>
     </word>
 </lexis>
