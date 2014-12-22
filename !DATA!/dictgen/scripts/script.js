@@ -203,7 +203,7 @@ var Dictionary = {
             current_element.id = Dictionary.ids[i];
             current_element.setAttribute("hidden", "");
             section_html = "<header>";
-            section_html += "<h2><a href='#" + Dictionary.ids[i] + "'><dfn>" + current_lemma.name + "</dfn></a></h2>";
+            section_html += "<h2><dfn><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></dfn></h2>";
             if (current_lemma.type == "word") {
                 section_html += "<p><small>";
                 if (current_lemma.lemma_class) {
