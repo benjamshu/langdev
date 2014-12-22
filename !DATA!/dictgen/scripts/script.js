@@ -195,7 +195,7 @@ var Dictionary = {
             section_html = "<header>";
             section_html += "<h2><a href='#" + Dictionary.ids[i] + "'><dfn>" + current_lemma.name + "</dfn></a></h2>";
             if (current_lemma.type == "word") {
-                section_html += "<p>";
+                section_html += "<p><small>";
                 if (current_lemma.lemma_class) {
                     section_html += Dictionary.getHumanReadableWordClass(current_lemma.lemma_class);
                 }
@@ -211,10 +211,10 @@ var Dictionary = {
                     }
                 }
                 if (class_value) section_html += ")";
-                section_html += "</p>"
+                section_html += "</small></p>"
             }
             else if (current_lemma.type == "affix") {
-                section_html += "<p>affix</p>";
+                section_html += "<p><small>affix</small></p>";
             }
             section_html += "</header>";
             if (current_lemma.meanings.length > 1) {
