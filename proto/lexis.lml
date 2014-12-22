@@ -3,17 +3,14 @@
 <lexis xml:lang="qpt-Latn" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">THE PROTO-LANGUAGE</meta>
     <meta name="description" xml:lang="en">This is like a huge work in progress_ It's not close to done_ And the formatting is probably shitty_ And yeah_ But here you go:</meta>
-    <meta name="splash" xml:lang="en">fantastic!</meta>
-    <meta name="splash" xml:lang="en">so cool!</meta>
-    <meta name="splash" xml:lang="en">from the people!</meta>
-    <meta name="splash" xml:lang="en">base!</meta>
-    <meta name="splash" xml:lang="en">official dictionary!</meta>
-    <meta name="splash" xml:lang="en">my word!</meta>
-    <meta name="splash" xml:lang="en">alpha build!</meta>
-    <meta name="splash" xml:lang="en">α</meta>
-    <meta name="splash" xml:lang="en">frog and toad!</meta>
-    <meta name="splash" xml:lang="en">buzzzz…</meta>
-    <meta name="splash" xml:lang="en">boo!</meta>
+    <meta name="splash" xml:lang="en">fantastic!</meta> <!-- reference to the fact that THE PROTO-LANGUAGE is a "fantasy language" -->
+    <meta name="splash" xml:lang="en">so cool!</meta> <!-- well, it is! -->
+    <meta name="splash" xml:lang="en">from the people!</meta> <!-- a pun on PPL (Proto-Proto-Lexicon) -->
+    <meta name="splash" xml:lang="en">base!</meta> <!-- as in, the starting point -->
+    <meta name="splash" xml:lang="en">my word!</meta> <!-- pun on the fact that i created all of these words -->
+    <meta name="splash" xml:lang="en">alpha build!</meta> <!-- pre-release software -->
+    <meta name="splash" xml:lang="en">α</meta> <!-- see above -->
+    <meta name="splash" xml:lang="en">filtered!</meta> <!-- notes Dictionary support for searching / filters -->
     <affix>
         <form>ío-</form>
         <form>o-</form>
