@@ -41,7 +41,7 @@ var Dictionary = {
         return s;
     },
     getHumanReadableWordClass: function(word_class) {
-        if (!word_class) word_class = "";
+        word_class = Dictionary.string(word_class);
         var class_list = word_class.split(" ");
         var class_item_list = null;
         var i = 0;
@@ -98,7 +98,7 @@ var Dictionary = {
         return Dictionary.lemmas[id.split(":")[0]][Number(id.split(":")[1])]
     },
     getLemmaName: function(lemma) {
-        return lemma.replace(/[:'"#\?]/g, "-");
+        return Dictionary.string(lemma).replace(/[:'"#\?]/g, "-");
     },
     ids: [],
     init: function() {
@@ -166,8 +166,8 @@ var Dictionary = {
                         name: current_element.getAttribute("lemma"),
                         id: lemma_id,
                         word_class: null,
-                        lemma_class: null,
                         lang: current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"),
+                        form: null,
                         forms: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form"),
                         etymology: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "etymology").item(0),
                         meanings: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning")
@@ -175,7 +175,7 @@ var Dictionary = {
                     class_value = "";
                     for (j = 0; j < current_lemma.forms.length; j++) {
                         if (current_lemma.forms.item(j).hasAttribute("class")) class_value += current_lemma.forms.item(j).getAttribute("class") + " ";
-                        if (current_lemma.forms.item(j).textContent == current_lemma.name) current_lemma.lemma_class = current_lemma.forms.item(j).getAttribute("class");
+                        if (current_lemma.forms.item(j).textContent == current_lemma.name) current_lemma.form = current_lemma.forms.item(j);
                     }
                     if (class_value.trim() !== "") current_lemma.word_class = class_value.trim();
                     Dictionary.ids[Dictionary.ids.length] = lemma_id;
@@ -203,38 +203,27 @@ var Dictionary = {
             current_element.id = Dictionary.ids[i];
             current_element.setAttribute("hidden", "");
             section_html = "<header>";
-            section_html += "<h2><dfn><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></dfn></h2>";
+            section_html += "<h2>";
+            section_html += "<dfn><a href='#" + Dictionary.ids[i] + "'>" + current_lemma.name + "</a></dfn>"
+            class_value = "";
+            for (j = 0; j < current_lemma.forms.length; j++) {
+                if (current_lemma.forms.item(j) == current_lemma.form) {
+                    if (current_lemma.forms.item(j).hasAttribute("pronunciation")) section_html += " <small>" + current_lemma.forms.item(j).getAttribute("pronunciation") + "</small>";
+                }
+                else {
+                    if (class_value === "") class_value += " ";
+                    else class_value += ", ";
+                    class_value += (Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " <dfn>" + current_lemma.forms.item(j).textContent + "</dfn>").trim();
+                    if (current_lemma.forms.item(j).hasAttribute("pronunciation")) class_value += " <small>" + Dictionary.string(current_lemma.forms.item(j).getAttribute("pronunciation")) + "</small>";
+                }
+            }
+            if (class_value !== "") class_value += ")";
+            section_html += "</h2>";
             if (current_lemma.type == "word") {
-                section_html += "<p><small>";
-                if (current_lemma.lemma_class) {
-                    section_html += Dictionary.getHumanReadableWordClass(current_lemma.lemma_class);
-                }
-                class_value = false;
-                for (j = 0; j < current_lemma.forms.length; j++) {
-                    if (current_lemma.forms.item(j).textContent != current_lemma.name) {
-                        if (!class_value) {
-                            section_html += " (";
-                            class_value = true;
-                        }
-                        else section_html += ", ";
-                        section_html += Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " <dfn>" + current_lemma.forms.item(j).textContent + "</dfn>";
-                    }
-                }
-                if (class_value) section_html += ")";
-                section_html += "</small></p>"
+                section_html += "<p><small>" + Dictionary.getHumanReadableWordClass(current_lemma.form.getAttribute("class")) + class_value + "</small></p>";
             }
             else if (current_lemma.type == "affix") {
-                section_html += "<p><small>affix";
-                if (current_lemma.forms.length > 1) {
-                    section_html += " (";
-                    for (j = 0; j < current_lemma.forms.length; j++) {
-                        if (current_lemma.forms.item(j).textContent != current_lemma.name) {
-                            section_html += "<dfn>" + current_lemma.forms.item(j).textContent + "</dfn>, ";
-                        }
-                    }
-                    section_html = section_html.substr(0, section_html.length-2) + ")";
-                }
-                section_html += "</small></p>";
+                section_html += "<p><small>" + (Dictionary.getHumanReadableWordClass(current_lemma.form.getAttribute("class")) + " affix").trim() + class_value + "</small></p>";
             }
             section_html += "</header>";
             if (current_lemma.meanings.length > 1) {
@@ -265,6 +254,15 @@ var Dictionary = {
         Dictionary.filter();
     },
     splashes: [],
+    string: function(n) {
+        if (typeof n == "string") {
+            return n;
+        }
+        else if (typeof n == "number") {
+            return String(n);
+        }
+        return "";
+    },
     title: "",
     title_lang: ""
 }
