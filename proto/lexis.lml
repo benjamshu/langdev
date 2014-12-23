@@ -841,4 +841,44 @@
         <form class="n">gja:l</form>
         <meaning xml:lang="en">ocean; sea; lake</meaning>
     </word>
+    <word>
+        <form class="v.cont">ga:r</form>
+        <meaning xml:lang="en">be beside</meaning>
+    </word>
+    <word>
+        <form class="v.prog">gá:rug</form>
+        <meaning xml:lang="en">be coming up beside</meaning>
+        <etymology><wordref>ga:r</wordref> + <wordref>-ug</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gjo:bár</form>
+        <meaning xml:lang="en">the sides</meaning>
+        <etymology><wordref>gjo:-</wordref> + <wordref>ba:r</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">gauq</form>
+        <meaning xml:lang="en">be in(side)</meaning>
+    </word>
+    <word>
+        <form class="v.prog">gáuqug</form>
+        <meaning xml:lang="en">be coming in(side)</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">gásho</form>
+        <meaning xml:lang="en">vomit</meaning>
+        <etymology xml:lang="en">see <wordref xml:lang="qpt-Latn">-sho</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uagásho</form>
+        <meaning xml:lang="en">vomit</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>gásho</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gazh</form>
+        <meaning xml:lang="en">apple; pear</meaning>
+    </word>
+    <word>
+        <form class="n">gi:q</form>
+        <meaning xml:lang="en">spruce tree</meaning>
+    </word>
 </lexis>
