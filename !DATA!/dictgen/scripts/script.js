@@ -211,7 +211,7 @@ var Dictionary = {
                     if (current_lemma.forms.item(j).hasAttribute("pronunciation")) section_html += " <small>" + current_lemma.forms.item(j).getAttribute("pronunciation") + "</small>";
                 }
                 else {
-                    if (class_value === "") class_value += " ";
+                    if (class_value === "") class_value += " (";
                     else class_value += ", ";
                     class_value += (Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " <dfn>" + current_lemma.forms.item(j).textContent + "</dfn>").trim();
                     if (current_lemma.forms.item(j).hasAttribute("pronunciation")) class_value += " <small>" + Dictionary.string(current_lemma.forms.item(j).getAttribute("pronunciation")) + "</small>";
@@ -220,10 +220,10 @@ var Dictionary = {
             if (class_value !== "") class_value += ")";
             section_html += "</h2>";
             if (current_lemma.type == "word") {
-                section_html += "<p><small>" + Dictionary.getHumanReadableWordClass(current_lemma.form.getAttribute("class")) + class_value + "</small></p>";
+                section_html += "<p>" + Dictionary.getHumanReadableWordClass(current_lemma.form.getAttribute("class")) + class_value + "</p>";
             }
             else if (current_lemma.type == "affix") {
-                section_html += "<p><small>" + (Dictionary.getHumanReadableWordClass(current_lemma.form.getAttribute("class")) + " affix").trim() + class_value + "</small></p>";
+                section_html += "<p>" + (Dictionary.getHumanReadableWordClass(current_lemma.form.getAttribute("class")) + " affix").trim() + class_value + "</p>";
             }
             section_html += "</header>";
             if (current_lemma.meanings.length > 1) {
