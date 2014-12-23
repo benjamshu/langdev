@@ -273,7 +273,8 @@ mark::selection {
 }
 small {
     color: #b3b3b3;
-    font-size: inherit;
+    font-size: 1.25pc;
+    line-height: inherit;
 }
 s {
     color: #977630;
