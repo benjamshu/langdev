@@ -1,3 +1,3 @@
-#THE PROTO-LANGUAGE
+#the proto-language
 
-Etymological and grammatical foundation for THE LANGUAGE\_ Not yet complete\_
+Etymological and grammatical foundation for the language. Not yet complete.
