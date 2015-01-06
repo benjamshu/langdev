@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="qpt-Latn" xmlns="http://leaf.faint.xyz/lexisml">
-    <meta name="title" xml:lang="en">THE PROTO-LANGUAGE</meta>
-    <meta name="description" xml:lang="en">This is like a huge work in progress_ It's not close to done_ And the formatting is probably shitty_ And yeah_ But here you go:</meta>
+    <meta name="title" xml:lang="en">the proto-language</meta>
+    <meta name="description" xml:lang="en">This is like a huge work in progress. It's not close to done. And the formatting is probably shitty. And yeah. But here you go:</meta>
     <meta name="splash" xml:lang="en">fantastic!</meta>
     <meta name="splash" xml:lang="en">so cool!</meta>
     <meta name="splash" xml:lang="en">from the people!</meta>
@@ -12,6 +12,7 @@
     <meta name="splash" xml:lang="en">α</meta>
     <meta name="splash" xml:lang="en">filtered!</meta>
     <meta name="splash" xml:lang="en">multi-form!</meta>
+    <meta name="splash" xml:lang="en">high and low!</meta>
     <affix>
         <form>ío-</form>
         <form>o-</form>
@@ -766,7 +767,7 @@
     </word>
     <word>
         <form class="n">daq</form>
-        <meaning xml:lang="en">the core; the root; the centre</meaning>
+        <meaning xml:lang="en">the core; the centre</meaning>
     </word>
     <word>
         <form class="v.cont">ardáq</form>
@@ -880,5 +881,155 @@
     <word>
         <form class="n">gi:q</form>
         <meaning xml:lang="en">spruce tree</meaning>
+    </word>
+    <word>
+        <form class="n">gjo:</form>
+        <meaning xml:lang="en">chin; jawbone</meaning>
+    </word>
+    <word>
+        <form class="n">gel</form>
+        <meaning xml:lang="en">elm tree</meaning>
+    </word>
+    <word>
+        <form class="v.cont">ge:g</form>
+        <meaning xml:lang="en">be below; be down under</meaning>
+    </word>
+    <word>
+        <form class="v.prog">gélug</form>
+        <meaning xml:lang="en">be lowering</meaning>
+        <etymology><wordref>ge:g</wordref> + <wordref>-ug</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">gé:gzha</form>
+        <meaning xml:lang="en">be below</meaning>
+        <etymology><wordref>ge:g</wordref> + <wordref>-zha</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">gé:gtu</form>
+        <meaning xml:lang="en">fall</meaning>
+        <etymology><wordref>ge:g</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">gé:gshu</form>
+        <meaning xml:lang="en">lower</meaning>
+        <etymology><wordref>ge:g</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gelég</form>
+        <meaning xml:lang="en">valley</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>ge:g</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">gru:g</form>
+        <meaning xml:lang="en">follow</meaning>
+    </word>
+    <word>
+        <form class="v.cont">grú:ge:qg</form>
+        <meaning xml:lang="en">be following</meaning>
+        <etymology><wordref>gru:g</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">legrú:g</form>
+        <meaning xml:lang="en">heel</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>gru:g</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">get</form>
+        <meaning xml:lang="en">form the base; be foundational</meaning>
+    </word>
+    <word>
+        <form class="n">legét</form>
+        <meaning xml:lang="en">foundation; root</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>get</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gjon</form>
+        <meaning xml:lang="en">berry</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">gja:l</form>
+        <meaning xml:lang="en">squish</meaning>
+    </word>
+    <word>
+        <form class="n">gjá:lgjo</form>
+        <meaning xml:lang="en">juice</meaning>
+        <etymology><wordref>gja:l</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">giq</form>
+        <meaning xml:lang="en">mango</meaning>
+    </word>
+    <word>
+        <form class="v.cont">goil</form>
+        <meaning xml:lang="en">be thick; be swollen</meaning>
+    </word>
+    <word>
+        <form class="v.prog">goílug</form>
+        <meaning xml:lang="en">become swollen</meaning>
+        <etymology><wordref>goil</wordref> + <wordref>-ug</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">goíltu</form>
+        <meaning xml:lang="en">swell</meaning>
+        <etymology><wordref>goil</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gol</form>
+        <meaning xml:lang="en">liver</meaning>
+    </word>
+    <word>
+        <form class="n">ulguál</form>
+        <meaning xml:lang="en">bile</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>gol</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">goq</form>
+        <meaning xml:lang="en">hear</meaning>
+    </word>
+    <word>
+        <form class="v.cont">argóq</form>
+        <meaning xml:lang="en">be hearing; be listening</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>goq</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">gi:zh</form>
+        <meaning xml:lang="en">be (sexually) penatrating oneself (usu., with another)</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">gúzhla</form>
+        <meaning xml:lang="en">(sexually) penetrate oneself (usu., with another)</meaning>
+        <etymology><wordref>gi:zh</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">begí:zh</form>
+        <meaning xml:lang="en">dildo</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>gi:zh</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">guq</form>
+        <meaning xml:lang="en">swallow</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">gúqri</form>
+        <meaning xml:lang="en">throat; neck (mostly internal)</meaning>
+        <etymology><wordref>guq</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">gro:zh</form>
+        <meaning xml:lang="en">see</meaning>
+    </word>
+    <word>
+        <form class="v.cont">argró:zh</form>
+        <meaning xml:lang="en">be seeing; be looking</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>gro:zh</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">gró:zhri</form>
+        <meaning xml:lang="en">eye; eyeball</meaning>
+        <etymology><wordref>gro:zh</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">guash</form>
+        <meaning xml:lang="en">kill</meaning>
     </word>
 </lexis>
