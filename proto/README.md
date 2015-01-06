@@ -1,3 +1,3 @@
 #the proto-language
 
-Etymological and grammatical foundation for the language. Not yet complete.
+Etymological and grammatical foundation for the language. Work-in-progress.
