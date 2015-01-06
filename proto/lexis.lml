@@ -21,7 +21,7 @@
     <affix>
         <form>ual-</form>
         <form>ua-</form>
-        <meaning xml:lang="en">denotes a related substance, especially a fluid; often forms nouns from verbs_</meaning>
+        <meaning xml:lang="en">denotes a related substance, especially a fluid; often forms nouns from verbs</meaning>
     </affix>
     <affix>
         <form>-ag</form>
@@ -29,7 +29,7 @@
     </affix>
     <affix>
         <form>ar-</form>
-        <meaning xml:lang="en">when attached to verbs, forms a continuous derivative; when used on nouns, forms a continuous verb with approximate meaning 'be X(-like)'; used mostly with features or attributes</meaning>
+        <meaning xml:lang="en">when attached to verbs, forms a continuous derivative; when used on nouns, forms a continuous verb with approximate meaning <mention>be X(-like)</mention>; used mostly with features or attributes</meaning>
     </affix>
     <affix>
         <form>-aush</form>
@@ -45,11 +45,11 @@
     </affix>
     <affix>
         <form>-ob</form>
-        <meaning xml:lang="en">attached to verbs to form progressive derivatives; provides the sense 'be in the process of X-ing'</meaning>
+        <meaning xml:lang="en">attached to verbs to form progressive derivatives; provides the sense <mention>be in the process of X-ing</mention></meaning>
     </affix>
     <affix>
         <form>-ri</form>
-        <meaning xml:lang="en">attached to verbs to form an agent noun or common partaker in the action: 'one who X-es'; used especially with words referring to people or animals</meaning>
+        <meaning xml:lang="en">attached to verbs to form an agent noun or common partaker in the action: <mention>one who X-es</mention>; used especially with words referring to people or animals</meaning>
     </affix>
     <affix>
         <form>-sho</form>
@@ -57,7 +57,7 @@
     </affix>
     <affix>
         <form>-tu</form>
-        <meaning xml:lang="en">when attached to descriptive verbs, forms perfective derivatives with the sense of 'become X'; used to make other verbs resultive ('raise' to 'rise') and perfective</meaning>
+        <meaning xml:lang="en">when attached to descriptive verbs, forms perfective derivatives with the sense of 'become X'; used to make other verbs resultive (<mention>raise</mention> to <mention>rise</mention>) and perfective</meaning>
     </affix>
     <affix>
         <form>-ur</form>
@@ -77,15 +77,15 @@
     </affix>
     <affix>
         <form>qa-</form>
-        <meaning xml:lang="en">with verbs, forms the perfective derivative 'enable X'; used with nouns with the sense 'favoured'</meaning>
+        <meaning xml:lang="en">with verbs, forms the perfective derivative <mention>enable X</mention>; used with nouns with the sense <mention>favoured</mention></meaning>
     </affix>
     <affix>
         <form>-ug</form>
-        <meaning xml:lang="en">used with verbs to create a generic progressive derivative, 'become X'</meaning>
+        <meaning xml:lang="en">used with verbs to create a generic progressive derivative, <mention>become X</mention></meaning>
     </affix>
     <affix>
         <form>-shu</form>
-        <meaning xml:lang="en">with verbs, creates a causative perfective derivatve ('rise' to 'raise')</meaning>
+        <meaning xml:lang="en">with verbs, creates a causative perfective derivatve (<mention>rise</mention> to <mention>raise</mention>)</meaning>
     </affix>
     <affix>
         <form>-zha</form>
@@ -101,13 +101,17 @@
     </affix>
     <affix>
         <form>gjo:-</form>
-        <meaning xml:lang="en">'one', either to form bahuvrihis or to denote a specific instance or example</meaning>
+        <meaning xml:lang="en"><mention>one</mention>, either to form bahuvrihis or to denote a specific instance or example</meaning>
         <etymology xml:lang="en">probably related to <wordref>gjo:q</wordref></etymology>
     </affix>
     <affix>
         <form>gja-</form>
-        <meaning xml:lang="en">'several', 'many', either to form bahuvrihis or to denote a collection</meaning>
+        <meaning xml:lang="en"><mention>several</mention>, <mention>many</mention>, either to form bahuvrihis or to denote a collection</meaning>
         <etymology xml:lang="en">probably related to <wordref>gjo:q</wordref></etymology>
+    </affix>
+    <affix>
+        <form>pi-</form>
+        <meaning xml:lang="en">Used to create diminuatives, often with the sense <mention>small</mention> or <mention>young</mention></meaning>
     </affix>
     <word>
         <form class="ptcl.mod.mir">oshó</form>
@@ -1031,5 +1035,28 @@
     <word>
         <form class="v.pfv">guash</form>
         <meaning xml:lang="en">kill</meaning>
+    </word>
+    <word>
+        <form class="n">pibí:q</form>
+        <meaning xml:lang="en">maggot</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>bi:q</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">zhob</form>
+        <meaning xml:lang="en">give birth</meaning>
+    </word>
+    <word>
+        <form class="v.prog">shózhob</form>
+        <meaning xml:lang="en">be in labour; be in the process of giving birth</meaning>
+        <etymology><wordref>zhob</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">zhual</form>
+        <meaning xml:lang="en">blood</meaning>
+    </word>
+    <word>
+        <form class="v.cont">arzhuál</form>
+        <meaning xml:lang="en">be bleeding</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>zhual</wordref></etymology>
     </word>
 </lexis>
