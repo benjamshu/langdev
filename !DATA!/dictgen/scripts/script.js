@@ -15,7 +15,6 @@ var Dictionary = {
             else current_element.setAttribute("hidden", "");
         }
     },
-    forms: {},
     getHTML: function(e) {
         var i = 0;
         var s = "";
