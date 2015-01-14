@@ -56,7 +56,7 @@ var Dictionary = {
             }
 
             if (q.form) s += "formal ";
-            if (q.ifrm) s += "informal ";
+            if (q.nfrm) s += "informal ";
             if (q.slng) s += "slang ";
             if (q.pfv) s += "perfective ";
             if (q.prog) s += "progressive ";
@@ -79,12 +79,13 @@ var Dictionary = {
                 else if (q.int) s += "interrogative ";
                 else s += "modal ";
             }
-            if (q.det) {
-                if (q.qnt) s += "quantifier ";
-                else if (q.num) s += "numeral ";
-                else if (q.dem) s += "demonstrative ";
-                else s += "determiner ";
-            }
+            if (q.def) s += "definite ";
+            if (q.ndef) s += "indefinite ";
+            if (q.qnt) s += "quantifier ";
+            if (q.num) s += "numeral ";
+            if (q.dem) s += "demonstrative ";
+            if (q.art) s += "article ";
+            if (q.det && !q.qnt && !q.num && !q.dem && !q.art) s += "determiner ";
             if (q.post) s += "post-position ";
             if (q.ptcl) s += "particle ";
             if (q.adj) s += "adjective ";
