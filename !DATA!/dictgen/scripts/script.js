@@ -19,7 +19,7 @@ var Dictionary = {
         var i = 0;
         var s = "";
         var current_node = null;
-        if (e.hasAttribute("usage")) s += "<small>(" + e.getAttribute("usage") + ")</small>";
+        if (e.hasAttribute("usage")) s += "<small>(" + e.getAttribute("usage") + ")</small> ";
         for (i = 0; i < e.childNodes.length; i++) {
             current_node = e.childNodes.item(i);
             if (current_node.nodeType === 3) {
@@ -38,7 +38,7 @@ var Dictionary = {
                 }
             }
         }
-        return s;
+        return s.trim();
     },
     getHumanReadableWordClass: function(word_class) {
         word_class = Dictionary.string(word_class);
