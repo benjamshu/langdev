@@ -32,7 +32,7 @@ var Dictionary = {
                         break;
                     case "etymon":
                     case "mention":
-                        if (current_node.hasAttributeNS("http://www.w3.org/XML/1998/namespace", "lang")) s += "<i lang='" + current_node.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang") + "'>" + current_node.textContent + "</i>";
+                        if (current_node.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang") != e.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang")) s += "<i lang='" + current_node.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang") + "'>" + current_node.textContent + "</i>";
                         else s += "<i>" + current_node.textContent + "</i>";
                         break;
                 }
