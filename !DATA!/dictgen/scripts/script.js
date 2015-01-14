@@ -65,6 +65,7 @@ var Dictionary = {
             if (q.obj) s += "objective ";
             if (q.gen) s += "genitive ";
             if (q.refl) s += "reflexive ";
+            if (q.poss) s += "possessive ";
             if (q["1"]) s += "first-person ";
             if (q["2"]) s += "second-person ";
             if (q["3"]) s += "third-person ";
