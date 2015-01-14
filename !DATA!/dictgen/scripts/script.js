@@ -70,6 +70,9 @@ var Dictionary = {
             if (q.masc) s += "masculine ";
             if (q.fem) s += "feminine ";
             if (q.neut) s += "neuter ";
+            if (q.pst) s += "past-tense";
+            if (q.prs) s += "present-tense";
+            if (q.fut) s += "future-tense";
             if (q.sing) s += "singular ";
             if (q.pl) s += "plural ";
             if (q.inf) s += "infinitive ";
@@ -91,8 +94,11 @@ var Dictionary = {
             if (q.dem) s += "demonstrative ";
             if (q.art) s += "article ";
             if (q.det && !q.qnt && !q.num && !q.dem && !q.art) s += "determiner ";
+            if (q.ints) s += "intensifier ";
             if (q.post) s += "post-position ";
             if (q.ptcl) s += "particle ";
+            if (q.ptcp) s += "participle ";
+            if (q.ger) s += "participle ";
             if (q.adj) s += "adjective ";
             if (q.adv) s += "adverb ";
             if (q.pron) s += "pronoun ";
@@ -220,7 +226,7 @@ var Dictionary = {
                 }
                 else {
                     if (class_value === "") class_value += " (";
-                    else class_value += ", ";
+                    else class_value += "; ";
                     class_value += (Dictionary.getHumanReadableWordClass(current_lemma.forms.item(j).getAttribute("class")) + " <dfn>" + current_lemma.forms.item(j).textContent + "</dfn>").trim();
                     if (current_lemma.forms.item(j).hasAttribute("pronunciation")) class_value += " <small>" + Dictionary.string(current_lemma.forms.item(j).getAttribute("pronunciation")) + "</small>";
                 }

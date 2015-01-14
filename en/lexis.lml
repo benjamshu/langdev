@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="en" xmlns="http://leaf.faint.xyz/lexisml">
+
+    <!--
+STYLE GUIDE NOTES
+(these will be moved into a separate document at some point but i'm putting them here for now)
+
+The use of "the" as a generic is old-fashioned, generalizing/categorizing/problematic, and SHOULD be avoided
+    -->
+
+    <meta name="title">progressive english</meta>
+    <meta name="description">A dictionary and style guide by benjamin russel shoemake (@literallybenjam). Aiming to subvert the Oxfordarchy, shape the language, and have fun.</meta>
+    <meta name="spash">moving forward!</meta>
+    <meta name="spash">intense!</meta>
+
+    <!-- Words i have invented -->
+    <word>
+        <form class="pron.pers.3.sing.nom" pronunciation="vei">vey</form>
+        <form class="pron.pers.3.sing.obj" pronunciation="vei">ve</form>
+        <form class="det.pers.3.sing.poss" pronunciation="vei">vy</form>
+        <form class="pron.pers.3.sing.poss" pronunciation="vei">vyn</form>
+        <form class="pron.pers.3.sing.refl" pronunciation="vei">vyself</form>
+        <meaning>used to refer to a person or other animate being; a nongendred alternative to <wordref>he</wordref> and <wordref>she</wordref></meaning>
+        <etymology>modelled after <wordref>i</wordref>, <wordref>thou</wordref>, with influence from <wordref>they</wordref></etymology>
+    </word>
+
+    <!-- 100 most common words in the OEC; see http://www.oxforddictionaries.com/us/words/the-oec-facts-about-the-language -->
+    <word>
+        <form class="det.art.def ints" pronunciation="stressed: ði; unstressed: ðə">the</form>
+        <meaning class="det.art.def">the definite article; denoting something either specified, unique or commonly known; <mention>the</mention> can also be used generically to denote whole classes, as in <mention>the young person of yesteryear</mention></meaning>
+        <meaning class="det.art.def">used with an adjective to indicate all things which that adjective describes, as in <mention>the wealthy</mention></meaning>
+        <meaning class="det.art.def">used as an alternative to possessives when the possessor is apparent from context, as in <mention>i kissed robin on the nose</mention> (compare <mention>on vy nose</mention>)</meaning>
+        <meaning class="ints" usage="when stressed">an intensifier, denotes something as being best or exemplary</meaning>
+        <etymology>old english <etymon xml:lang="ang">þe</etymon>, from <etymon xml:lang="ang">sē</etymon>, <meaning>that</meaning>, from the PIE root <etymon xml:lang="ine">*so-</etymon></etymology>
+    </word>
+
+    <!-- Other words -->
+    <word>
+        <form class="n.sing n.mass v.1.prs v.2.pl.prs v.3.prs" pronunciation="dʒɛndɚ">gendre</form>
+        <form class="n.pl v.2.sing.prs" pronunciation="dʒɛndɚ">gendres</form>
+        <form class="v.pst ptcp.pst" pronunciation="dʒɛndɚ">gendred</form>
+        <form class="ger ptcp.prs" pronunciation="dʒɛndɚ">gendring</form>
+        <form class="v.fut" pronunciation="dʒɛndɚ">will gendre</form>
+        <meaning class="n" usage="grammar">as a mass noun, a system used in some languages used to clarify the links between words; otherwise, one of the classes utilized by such a system</meaning>
+        <meaning class="n">as a count noun, a socially constructed classification used to assign and predict social roles and behaviours; as a mass noun, the state of having such classification</meaning>
+        <meaning class="v">to assign gendre to</meaning>
+        <etymology>Old french, from latin <etymon xml:lang="lat">genus</etymon>, <meaning>family; kind</meaning>; originally used only as a noun in the grammatical sense, with the social sense probably resulting from the eroticization of the word <wordref>sex</wordref></etymology>
+    </word>
+    <word>
+        <form class="n.sing n.mass v.1.prs v.2.pl.prs v.3.prs" pronunciation="dʒɛndɚ">gender</form>
+        <form class="n.pl v.2.sing.prs" pronunciation="dʒɛndɚ">genders</form>
+        <form class="v.pst ptcp.pst" pronunciation="dʒɛndɚ">gendered</form>
+        <form class="ger ptcp.prs" pronunciation="dʒɛndɚ">gendering</form>
+        <form class="v.fut" pronunciation="dʒɛndɚ">will gender</form>
+        <meaning class="n v">conservative spelling of the word <wordref>gendre</wordref></meaning>
+    </word>
+
+</lexis>
