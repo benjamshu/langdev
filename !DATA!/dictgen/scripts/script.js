@@ -120,7 +120,7 @@ var Dictionary = {
         script.type = "text/javascript";
         script.addEventListener("load", function() {Dictionary.load(document.documentElement.dataset.src + "?" + new Date().getTime())}, false);
         document.head.appendChild(script);
-        script.src = "http://benjam.faint.xyz/langdev/!DATA!/master/!DATA!/LexisML/scripts/normalize.js";
+        script.src = "http://home.benjam.xyz/langdev/!DATA!/master/!DATA!/LexisML/scripts/normalize.js";
     },
     lang: "",
     lemmaContainsForm: function(lemma, form) {
