@@ -55,6 +55,9 @@ var Dictionary = {
                 q[class_item_list[j]] = true;
             }
 
+            if (q.form) s += "formal ";
+            if (q.ifrm) s += "informal ";
+            if (q.slng) s += "slang ";
             if (q.pfv) s += "perfective ";
             if (q.prog) s += "progressive ";
             if (q.cont) s += "continuous ";
