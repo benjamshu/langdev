@@ -19,6 +19,7 @@ var Dictionary = {
         var i = 0;
         var s = "";
         var current_node = null;
+        if (e.hasAttribute("usage")) s += "<small>(" + e.getAttribute("usage") + ")</small>";
         for (i = 0; i < e.childNodes.length; i++) {
             current_node = e.childNodes.item(i);
             if (current_node.nodeType === 3) {
@@ -55,9 +56,6 @@ var Dictionary = {
                 q[class_item_list[j]] = true;
             }
 
-            if (q.form) s += "formal ";
-            if (q.nfrm) s += "informal ";
-            if (q.slng) s += "slang ";
             if (q.pfv) s += "perfective ";
             if (q.prog) s += "progressive ";
             if (q.cont) s += "continuous ";
