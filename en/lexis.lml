@@ -7,6 +7,7 @@ STYLE GUIDE NOTES
 (these will be moved into a separate document at some point but i'm putting them here for now)
 
 The use of "the" as a generic is old-fashioned, generalizing/categorizing/problematic, and SHOULD be avoided
+Prefer "fucking" or "intercourse" over "sex"
     -->
 
     <meta name="title">progressive english</meta>
@@ -16,11 +17,11 @@ The use of "the" as a generic is old-fashioned, generalizing/categorizing/proble
 
     <!-- Words i have invented -->
     <word>
-        <form class="pron.pers.3.sing.nom" pronunciation="veɪ">vey</form>
-        <form class="pron.pers.3.sing.obj" pronunciation="vi">ve</form>
-        <form class="det.pers.3.sing.poss" pronunciation="vaɪ">vy</form>
-        <form class="pron.pers.3.sing.poss" pronunciation="vaɪn">vyn</form>
-        <form class="pron.pers.3.sing.refl" pronunciation="vaɪ'sɛlf">vyself</form>
+        <form class="pron.pers.3.sing.nom.an" pronunciation="veɪ">vey</form>
+        <form class="pron.pers.3.sing.obj.an" pronunciation="vi">ve</form>
+        <form class="det.pers.3.sing.poss.an" pronunciation="vaɪ">vy</form>
+        <form class="pron.pers.3.sing.poss.an" pronunciation="vaɪn">vyn</form>
+        <form class="pron.pers.3.sing.refl.an" pronunciation="vaɪ'sɛlf">vyself</form>
         <meaning>used to refer to a person or other animate being</meaning>
         <etymology>modelled after <wordref>i</wordref>, <wordref>thou</wordref>, with influence from <wordref>they</wordref></etymology>
     </word>
@@ -32,29 +33,70 @@ The use of "the" as a generic is old-fashioned, generalizing/categorizing/proble
         <meaning class="det.art.def">used with an adjective to indicate all things which that adjective describes, as in <mention>the wealthy</mention></meaning>
         <meaning class="det.art.def">used as an alternative to possessives when the possessor is apparent from context, as in <mention>i kissed robin on the nose</mention> (compare <mention>on vy nose</mention>)</meaning>
         <meaning class="ints" usage="when stressed">an intensifier, denotes something as being best or exemplary</meaning>
-        <etymology>old english <etymon xml:lang="ang">þe</etymon>, from <etymon xml:lang="ang">sē</etymon>, <mention>that</mention>, from the PIE root <etymon xml:lang="ine">*so-</etymon></etymology>
+        <etymology>old english <etymon xml:lang="ang">þe</etymon>, from <etymon xml:lang="ang">sē</etymon>, <mention>that</mention>, from the proto–indo-european root <etymon xml:lang="ine">*so-</etymon></etymology>
+    </word>
+    <word>
+        <form class="pron.pers.1.sing.nom" pronunciation="veɪ">i</form>
+        <form class="pron.pers.1.sing.obj" pronunciation="vi">me</form>
+        <form class="det.pers.1.sing.poss" pronunciation="vaɪ">my</form>
+        <form class="pron.pers.1.sing.poss" pronunciation="vaɪn">mine</form>
+        <form class="pron.pers.1.sing.refl" pronunciation="vaɪ'sɛlf">myself</form>
+        <meaning>used by a speker to refer to vyself</meaning>
+        <etymology>old english <etymon xml:lang="ang">ic</etymon>, from proto-germanic <etymon xml:lang="gem">*ek</etymon>, from the proto–indo-european root <etymon xml:lang="ine">*eg-</etymon>; the nominative form was usually written captialized from mid-13c. until recent times</etymology>
+    </word>
+    <word>
+        <form class="pron.pers.3.pl.nom" pronunciation="veɪ">they</form>
+        <form class="pron.pers.3.pl.obj" pronunciation="vi">them</form>
+        <form class="det.pers.3.pl.poss" pronunciation="vaɪ">their</form>
+        <form class="pron.pers.3.pl.poss" pronunciation="vaɪn">theirs</form>
+        <form class="pron.pers.3.pl.refl" pronunciation="vaɪ'sɛlf">theirself</form>
+        <meaning>used to refer to a non-singular number of persons or things</meaning>
+        <etymology>borrowed in middle english (as <etymon>they</etymon>) from a scandanavian source so as to clarify the distinction between it and other pronouns, ultimately from proto-germanic <etymon xml:lang="gem">*þai</etymon>, from proto–indo-european <etymon xml:lang="ine">*to-</etymon></etymology>
     </word>
 
     <!-- Other words -->
     <word>
-        <form class="n.sing n.mass v.prs" pronunciation="dʒɛndɚ">gendre</form>
-        <form class="n.pl v.2.sing.prs">gendres</form>
+        <form class="n.cnt.sing n.mass v.prs" pronunciation="dʒɛndɚ">gendre</form>
+        <form class="n.cnt.pl v.2.sing.prs">gendres</form>
         <form class="v.pst ptcp.pst">gendred</form>
         <form class="ger ptcp.prs">gendring</form>
         <form class="v.fut">will gendre</form>
-        <meaning class="n" usage="grammar">as a mass noun, a system used in some languages used to clarify the links between words; otherwise, one of the classes utilized by such a system</meaning>
-        <meaning class="n">as a count noun, a socially constructed classification used to assign and predict social roles and behaviours; as a mass noun, the state of having such classification</meaning>
+        <meaning class="n.mass" usage="grammar">a system used in some languages used to clarify the links between words</meaning>
+        <meaning class="n.cnt" usage="grammar">one of the classes utilized by such a system</meaning>
+        <meaning class="n.cnt">a socially constructed classification used to assign and predict social roles and behaviours</meaning>
+        <meaning class="n.mass">the state of having such classification</meaning>
         <meaning class="v">to assign gendre to</meaning>
         <etymology>old french, from latin <etymon xml:lang="lat">genus</etymon>, <mention>family; kind</mention>; originally used only as a noun in the grammatical sense, with the social sense probably resulting from the eroticization of the word <wordref>sex</wordref></etymology>
         <aside>Although <mention>gendre</mention> originally had a meaning similar to <wordref>sex</wordref>, in modern times these words usually refer to separate things. Be sure not to use one when you actually mean the other.</aside>
     </word>
     <word>
-        <form class="n.sing n.mass v.prs" pronunciation="dʒɛndɚ">gender</form>
-        <form class="n.pl v.2.sing.prs">genders</form>
+        <form class="n.cnt.sing n.mass v.prs" pronunciation="dʒɛndɚ">gender</form>
+        <form class="n.cnt.pl v.2.sing.prs">genders</form>
         <form class="v.pst ptcp.pst">gendered</form>
         <form class="ger ptcp.prs">gendering</form>
         <form class="v.fut">will gender</form>
         <meaning>conservative spelling of the word <wordref>gendre</wordref></meaning>
+    </word>
+    <word>
+        <form class="pron.pers.2.sing.nom.ifrm" pronunciation="veɪ">thou</form>
+        <form class="pron.pers.2.sing.obj.ifrm" pronunciation="vi">thee</form>
+        <form class="det.pers.2.sing.poss.ifrm" pronunciation="vaɪ">thy</form>
+        <form class="pron.pers.2.sing.poss.ifrm" pronunciation="vaɪn">thine</form>
+        <form class="pron.pers.2.sing.refl.ifrm" pronunciation="vaɪ'sɛlf">thyself</form>
+        <meaning usage="archaic">an informal equivalent to <wordref>you</wordref></meaning>
+        <etymology>old english <etymon xml:lang="ang">þū</etymon>, from proto-germanic, ultimately from proto–indo-european <etymon xml:lang="ine">*túh₂</etymon></etymology>
+    </word>
+    <word>
+        <form class="n.cnt.sing n.mass v.prs" pronunciation="dʒɛndɚ">sex</form>
+        <form class="n.cnt.pl v.2.sing.prs">sexes</form>
+        <form class="v.pst ptcp.pst">sexed</form>
+        <form class="ger ptcp.prs">sexing</form>
+        <form class="v.fut">will sex</form>
+        <meaning class="n.mass">a socially constructed classification used to identify sexual function</meaning>
+        <meaning class="n.cnt">a category as specified by such a classification system</meaning>
+        <meaning class="n.cnt">the group of all members of such a category</meaning>
+        <meaning class="v">assign such a category to something</meaning>
+        <etymology>latin <etymon xml:lang="lat">sexus</etymon>, possibly related to <etymon xml:lang="lat">seco</etymon>, <mention>cut</mention>, in the sense of dividing people into groups</etymology>
     </word>
 
 </lexis>
