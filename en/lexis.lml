@@ -85,7 +85,7 @@ See all <aside>s
         <meaning>conservative spelling of the word <wordref>gendre</wordref></meaning>
     </word>
     <word>
-        <form class="pron.pers.2.sing.nom.ifrm" pronunciation="ðaʊɪ">thou</form>
+        <form class="pron.pers.2.sing.nom.ifrm" pronunciation="ðaʊ">thou</form>
         <form class="pron.pers.2.sing.obj.ifrm" pronunciation="ði">thee</form>
         <form class="det.pers.2.sing.poss.ifrm" pronunciation="ðaɪ">thy</form>
         <form class="pron.pers.2.sing.poss.ifrm" pronunciation="ðaɪn">thyn</form>
@@ -104,7 +104,7 @@ See all <aside>s
         <meaning class="n.cnt">the group of all members of such a category</meaning>
         <meaning class="v">assign such a category to something</meaning>
         <etymology>latin <etymon xml:lang="lat">sexus</etymon>, possibly related to <etymon xml:lang="lat">seco</etymon>, <mention>cut</mention>, in the sense of dividing people into groups</etymology>
-        <aside><mention>Sex</mention> (often in the sense <mention>have sex</mention>, short for <mention>sexual intercourse</mention>) is sometimes used to describe the act of fucking; this usage is discouraged as it can lead to confusion.</aside>
+        <aside><mention>Sex</mention> (often in the sense <mention>have sex</mention>, short for <mention>have sexual intercourse</mention>) is sometimes used to describe the act of fucking; this usage is discouraged as it can lead to confusion.</aside>
         <aside><mention>Sex</mention> is not the same thing as <wordref>gender</wordref>; <mention>sex</mention> focuses on physical markers and sexual function while <mention>gender</mention> focuses on societal roles. Note, however, that the sexual markers and functions prescribed to a sex are culturally defined and may vary depending on context.</aside>
     </word>
 
