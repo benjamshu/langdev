@@ -77,7 +77,7 @@ var Dictionary = {
         for (i = 0; i < Dictionary.element.childElementCount; i++) {
             current_element = Dictionary.element.children.item(i);
             if (current_element.tagName !== "SECTION") continue;
-            if (window.location.hash && ((window.location.hash === "#:" && (!current_element.hasAttribute("hidden") || current_element.getAttribute("hidden") === "false")) || (window.location.hash.indexOf(":") === -1 && Dictionary.lemmaContainsForm(Dictionary.getLemmaFromId(current_element.id), window.location.hash.substr(1))) || current_element.id === window.location.hash.substr(1))) current_element.removeAttribute("hidden");
+            if (window.location.hash && ((window.location.hash === "#:" && !Dictionary.getLemmaFromId(current_element.id).isHidden) || (window.location.hash.indexOf(":") === -1 && Dictionary.lemmaContainsForm(Dictionary.getLemmaFromId(current_element.id), window.location.hash.substr(1))) || current_element.id === window.location.hash.substr(1))) current_element.removeAttribute("hidden");
             else current_element.setAttribute("hidden", "");
         }
     },
@@ -243,6 +243,7 @@ var Dictionary = {
                         type: current_element.tagName,
                         name: current_element.getAttribute("lemma"),
                         id: lemma_id,
+                        isHidden: current_element.hasAttribute("hidden") && current_element.getAttribute("hidden") !== "false",
                         word_class: null,
                         lang: current_element.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang"),
                         form: null,
