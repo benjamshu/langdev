@@ -317,11 +317,11 @@ var Dictionary = {
                 section_html += "</p>";
             }
             if (current_lemma.etymology) section_html += "<h3>etymology</h3><p>" + Dictionary.getHTML(current_lemma.etymology) + "</p>";
+            for (j = 0; j < current_lemma.asides.length; j++) {
+                section_html += "<aside>" + Dictionary.getHTML(current_lemma.asides.item(j)) + "</aside>";
+            }
             current_element.innerHTML = section_html;
             Dictionary.element.appendChild(current_element);
-            for (j = 0; j < current_lemma.asides.length; j++) {
-                section_html += "<aside>" + Dictionary.getHTML(current_lemma.meanings.item(j)) + "</aside>";
-            }
         }
         document.body.textContent = null;
         document.body.appendChild(document.createElement("main").appendChild(Dictionary.element).parentElement);
