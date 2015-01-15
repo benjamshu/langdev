@@ -79,22 +79,22 @@
 /*  PRE-CSS4 SELECTION RULES  */
 
 *::selection {
-    background: #e8e8e8;
+    background: #e5e8ed;
 }
 *::-moz-selection {
-    background: #e8e8e8;
+    background: #e5e8ed;
 }
 mark::selection, mark *::selection {
-    background: #b3b3b3;
+    background: #a6acb1;
 }
 mark::-moz-selection, mark *::-moz-selection {
-    background: #b3b3b3;
+    background: #a6acb1;
 }
 
 /*  ROOT STYLES  */
 
 *:root {
-    color: #484848;
+    color: #51555c;
     font-family: "Junicode", serif;
     font-weight: normal;
     font-size: 1.25pc;
@@ -104,7 +104,7 @@ mark::-moz-selection, mark *::-moz-selection {
     quotes: "“" "”" "‘" "’";
 }
 *:root::selection {
-    background: #e8e8e8;
+    background: #e5e8ed;
 }
 
 /*  PAGE LAYOUT  */
@@ -152,9 +152,14 @@ body {
 
 /*  SECTIONING  */
 
-main, article, section, aside, nav, header, footer {
+main, article, section, nav, header, footer {
     margin: 1.5pc 0;
     padding: 0;
+}
+aside {
+    margin: 1.5pc 1.25pc;
+    padding: .75pc .625pc;
+    background: #d6dae0;
 }
 
 /*  BLOCK-LEVEL ELEMENTS  */
@@ -162,7 +167,7 @@ main, article, section, aside, nav, header, footer {
 h1 {
     margin: 0;
     padding: 0;
-    color: #1c1c1c;
+    color: #1c2027;
     font-size: 5pc;
     font-weight: bold;
     line-height: 6pc;
@@ -171,7 +176,7 @@ h1 {
 h2 {
     margin: 0;
     padding: 0;
-    color: #1c1c1c;
+    color: #1c2027;
     font-size: 2.5pc;
     font-weight: normal;
     line-height: 3pc;
@@ -179,7 +184,7 @@ h2 {
 h3 {
     float: left;
     clear: both;
-    color: #1c1c1c;
+    color: #1c2027;
     margin: 0;
     padding: 0;
     font-size: 1.25pc;
@@ -218,7 +223,7 @@ a[href] {
 }
 a[href]:hover {
     color: #ffffff;
-    background: #1c1c1c;
+    background: #1c2027;
     outline-color: transparent;
     outline-offset: .75pc;
 }
@@ -226,7 +231,7 @@ nav a[href] {
     outline: none;
 }
 b {
-    color: #1c1c1c;
+    color: #1c2027;
     font-weight: bold;
 }
 b::before {
@@ -243,16 +248,16 @@ code::before, code::after {
     content: "'";
 }
 del {
-    color: #d4aa48;
+    color: #436235;
     text-decoration: line-through;
 }
 dfn {
-    color: #1c1c1c;
+    color: #1c2027;
     font-style: inherit;
     font-weight: inherit;
 }
 em {
-    color: #1c1c1c;
+    color: #1c2027;
     font-style: normal;
 }
 em::before, em::after {
@@ -262,26 +267,26 @@ i {
     font-style: italic;
 }
 ins {
-    color: #7c17f4;
+    color: #345990;
     text-decoration: underline;
 }
 mark {
     background: #e8e8e8;
 }
 mark::selection {
-    background: #b3b3b3;
+    background: #a6acb1;
 }
 small {
-    color: #b3b3b3;
+    color: #a6acb1;
     font-size: 1.25pc;
     line-height: inherit;
 }
 s {
-    color: #977630;
+    color: #7b7f85;
     text-decoration: line-through;
 }
 strong {
-    color: #8d192b;
+    color: #8a3756;
     font-weight: inherit;
 }
 sub, sup {
