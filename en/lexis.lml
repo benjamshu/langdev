@@ -7,13 +7,16 @@ STYLE GUIDE NOTES
 (these will be moved into a separate document at some point but i'm putting them here for now)
 
 The use of "the" as a generic is old-fashioned, generalizing/categorizing/problematic, and SHOULD be avoided
-Prefer "fucking" or "intercourse" over "sex"
+Prefer "fucking" over "sex"
+See all <aside>s
     -->
 
     <meta name="title">progressive english</meta>
     <meta name="description">A dictionary and style guide by benjamin russel shoemake (@literallybenjam). Aiming to subvert the Oxfordarchy, shape the language, and have fun.</meta>
     <meta name="splash">moving forward!</meta>
     <meta name="splash">intense!</meta>
+    <meta name="splash">secret!</meta>
+    <meta name="splash">hidden!</meta>
 
     <!-- Words i have invented -->
     <word>
@@ -36,20 +39,24 @@ Prefer "fucking" or "intercourse" over "sex"
         <etymology>old english <etymon xml:lang="ang">þe</etymon>, from <etymon xml:lang="ang">sē</etymon>, <mention>that</mention>, from the proto–indo-european root <etymon xml:lang="ine">*so-</etymon></etymology>
     </word>
     <word>
-        <form class="pron.pers.1.sing.nom" pronunciation="veɪ">i</form>
-        <form class="pron.pers.1.sing.obj" pronunciation="vi">me</form>
-        <form class="det.pers.1.sing.poss" pronunciation="vaɪ">my</form>
-        <form class="pron.pers.1.sing.poss" pronunciation="vaɪn">mine</form>
-        <form class="pron.pers.1.sing.refl" pronunciation="vaɪ'sɛlf">myself</form>
+        <form class="pron.pers.1.sing.nom" pronunciation="aɪ">i</form>
+        <form class="pron.pers.1.sing.obj" pronunciation="mi">me</form>
+        <form class="det.pers.1.sing.poss" pronunciation="maɪ">my</form>
+        <form class="pron.pers.1.sing.poss" pronunciation="maɪn">myn</form>
+        <form class="pron.pers.1.sing.refl" pronunciation="maɪ'sɛlf">myself</form>
         <meaning>used by a speker to refer to vyself</meaning>
         <etymology>old english <etymon xml:lang="ang">ic</etymon>, from proto-germanic <etymon xml:lang="gem">*ek</etymon>, from the proto–indo-european root <etymon xml:lang="ine">*eg-</etymon>; the nominative form was usually written captialized from mid-13c. until recent times</etymology>
     </word>
+    <word hidden="true">
+        <form class="pron.pers.1.sing.poss" pronunciation="maɪn">mine</form>
+        <meaning>conservative spelling of <wordref>myn</wordref></meaning>
+    </word>
     <word>
-        <form class="pron.pers.3.pl.nom" pronunciation="veɪ">they</form>
-        <form class="pron.pers.3.pl.obj" pronunciation="vi">them</form>
-        <form class="det.pers.3.pl.poss" pronunciation="vaɪ">their</form>
-        <form class="pron.pers.3.pl.poss" pronunciation="vaɪn">theirs</form>
-        <form class="pron.pers.3.pl.refl" pronunciation="vaɪ'sɛlf">theirself</form>
+        <form class="pron.pers.3.pl.nom" pronunciation="ðeɪ">they</form>
+        <form class="pron.pers.3.pl.obj" pronunciation="ðɛm">them</form>
+        <form class="det.pers.3.pl.poss" pronunciation="ðɛɚ">their</form>
+        <form class="pron.pers.3.pl.poss" pronunciation="ðɛɚs">theirs</form>
+        <form class="pron.pers.3.pl.refl" pronunciation="ðɛɚ'sɛlf">theirself</form>
         <meaning>used to refer to a non-singular number of persons or things</meaning>
         <etymology>borrowed in middle english (as <etymon>they</etymon>) from a scandanavian source so as to clarify the distinction between it and other pronouns, ultimately from proto-germanic <etymon xml:lang="gem">*þai</etymon>, from proto–indo-european <etymon xml:lang="ine">*to-</etymon></etymology>
     </word>
@@ -69,7 +76,7 @@ Prefer "fucking" or "intercourse" over "sex"
         <etymology>old french, from latin <etymon xml:lang="lat">genus</etymon>, <mention>family; kind</mention>; originally used only as a noun in the grammatical sense, with the social sense probably resulting from the eroticization of the word <wordref>sex</wordref></etymology>
         <aside>Although <mention>gendre</mention> originally had a meaning similar to <wordref>sex</wordref>, in modern times these words usually refer to separate things. Be sure not to use one when you actually mean the other.</aside>
     </word>
-    <word>
+    <word hidden="true">
         <form class="n.cnt.sing n.mass v.prs" pronunciation="dʒɛndɚ">gender</form>
         <form class="n.cnt.pl v.2.sing.prs">genders</form>
         <form class="v.pst ptcp.pst">gendered</form>
@@ -78,16 +85,16 @@ Prefer "fucking" or "intercourse" over "sex"
         <meaning>conservative spelling of the word <wordref>gendre</wordref></meaning>
     </word>
     <word>
-        <form class="pron.pers.2.sing.nom.ifrm" pronunciation="veɪ">thou</form>
-        <form class="pron.pers.2.sing.obj.ifrm" pronunciation="vi">thee</form>
-        <form class="det.pers.2.sing.poss.ifrm" pronunciation="vaɪ">thy</form>
-        <form class="pron.pers.2.sing.poss.ifrm" pronunciation="vaɪn">thine</form>
-        <form class="pron.pers.2.sing.refl.ifrm" pronunciation="vaɪ'sɛlf">thyself</form>
+        <form class="pron.pers.2.sing.nom.ifrm" pronunciation="ðaʊ">thou</form>
+        <form class="pron.pers.2.sing.obj.ifrm" pronunciation="ði">thee</form>
+        <form class="det.pers.2.sing.poss.ifrm" pronunciation="ðaɪ">thy</form>
+        <form class="pron.pers.2.sing.poss.ifrm" pronunciation="ðaɪn">thyn</form>
+        <form class="pron.pers.2.sing.refl.ifrm" pronunciation="ðaɪ'sɛlf">thyself</form>
         <meaning usage="archaic">an informal equivalent to <wordref>you</wordref></meaning>
         <etymology>old english <etymon xml:lang="ang">þū</etymon>, from proto-germanic, ultimately from proto–indo-european <etymon xml:lang="ine">*túh₂</etymon></etymology>
     </word>
     <word>
-        <form class="n.cnt.sing n.mass v.prs" pronunciation="dʒɛndɚ">sex</form>
+        <form class="n.cnt.sing n.mass v.prs" pronunciation="sɛks">sex</form>
         <form class="n.cnt.pl v.2.sing.prs">sexes</form>
         <form class="v.pst ptcp.pst">sexed</form>
         <form class="ger ptcp.prs">sexing</form>
@@ -97,6 +104,8 @@ Prefer "fucking" or "intercourse" over "sex"
         <meaning class="n.cnt">the group of all members of such a category</meaning>
         <meaning class="v">assign such a category to something</meaning>
         <etymology>latin <etymon xml:lang="lat">sexus</etymon>, possibly related to <etymon xml:lang="lat">seco</etymon>, <mention>cut</mention>, in the sense of dividing people into groups</etymology>
+        <aside><mention>Sex</mention> (often in the sense <mention>have sex</mention>, short for <mention>have sexual intercourse</mention>) is sometimes used to describe the act of fucking; this usage is discouraged as it can lead to confusion.</aside>
+        <aside><mention>Sex</mention> is not the same thing as <wordref>gender</wordref>; <mention>sex</mention> focuses on physical markers and sexual function while <mention>gender</mention> focuses on societal roles. Note, however, that the sexual markers and functions prescribed to a sex are culturally defined and may vary depending on context.</aside>
     </word>
 
 </lexis>
