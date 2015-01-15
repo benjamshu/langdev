@@ -318,7 +318,7 @@ var Dictionary = {
             }
             if (current_lemma.etymology) section_html += "<h3>etymology</h3><p>" + Dictionary.getHTML(current_lemma.etymology) + "</p>";
             for (j = 0; j < current_lemma.asides.length; j++) {
-                section_html += "<aside>" + Dictionary.getHTML(current_lemma.asides.item(j)) + "</aside>";
+                section_html += "<aside><p>" + Dictionary.getHTML(current_lemma.asides.item(j)) + "</p></aside>";
             }
             current_element.innerHTML = section_html;
             Dictionary.element.appendChild(current_element);
