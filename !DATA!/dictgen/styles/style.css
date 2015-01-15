@@ -123,6 +123,7 @@ body {
     position: relative;
     margin: 0 0 3pc;
     text-align: center;
+    color: inherit;
 }
 #main-header > div {
     position: relative;
