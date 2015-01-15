@@ -157,7 +157,7 @@ main, article, section, nav, header, footer {
 }
 aside {
     margin: 1.5pc 1.25pc;
-    padding: .75pc .625pc;
+    padding: 1.5pc 1.25pc;
     background: #d6dae0;
 }
 
@@ -198,7 +198,10 @@ p {
     padding: 0 0 0 2.5pc;
     text-indent: -2.5pc;
 }
-h3 + p {
+aside p {
+    text-indent: 2.5pc;
+}
+h3 + p, aside p:first-child {
     text-indent: 0;
 }
 blockquote p::before {
