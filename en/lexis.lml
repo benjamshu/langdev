@@ -21,7 +21,7 @@ The use of "the" as a generic is old-fashioned, generalizing/categorizing/proble
         <form class="det.pers.3.sing.poss" pronunciation="vaɪ">vy</form>
         <form class="pron.pers.3.sing.poss" pronunciation="vaɪn">vyn</form>
         <form class="pron.pers.3.sing.refl" pronunciation="vaɪ'sɛlf">vyself</form>
-        <meaning>used to refer to a person or other animate being; a nongendred alternative to <wordref>he</wordref> and <wordref>she</wordref></meaning>
+        <meaning>used to refer to a person or other animate being</meaning>
         <etymology>modelled after <wordref>i</wordref>, <wordref>thou</wordref>, with influence from <wordref>they</wordref></etymology>
     </word>
 
@@ -45,7 +45,8 @@ The use of "the" as a generic is old-fashioned, generalizing/categorizing/proble
         <meaning class="n" usage="grammar">as a mass noun, a system used in some languages used to clarify the links between words; otherwise, one of the classes utilized by such a system</meaning>
         <meaning class="n">as a count noun, a socially constructed classification used to assign and predict social roles and behaviours; as a mass noun, the state of having such classification</meaning>
         <meaning class="v">to assign gendre to</meaning>
-        <etymology>Old french, from latin <etymon xml:lang="lat">genus</etymon>, <mention>family; kind</mention>; originally used only as a noun in the grammatical sense, with the social sense probably resulting from the eroticization of the word <wordref>sex</wordref></etymology>
+        <etymology>old french, from latin <etymon xml:lang="lat">genus</etymon>, <mention>family; kind</mention>; originally used only as a noun in the grammatical sense, with the social sense probably resulting from the eroticization of the word <wordref>sex</wordref></etymology>
+        <aside>Although <mention>gendre</mention> originally had a meaning similar to <wordref>sex</wordref>, in modern times these words usually refer to separate things. Be sure not to use one when you actually mean the other.</aside>
     </word>
     <word>
         <form class="n.sing n.mass v.prs" pronunciation="dʒɛndɚ">gender</form>

@@ -243,7 +243,8 @@ var Dictionary = {
                         form: null,
                         forms: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "form"),
                         etymology: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "etymology").item(0),
-                        meanings: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning")
+                        meanings: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "meaning"),
+                        asides: current_element.getElementsByTagNameNS("http://leaf.faint.xyz/lexisml", "aside")
                     }
                     class_value = "";
                     for (j = 0; j < current_lemma.forms.length; j++) {
@@ -318,6 +319,9 @@ var Dictionary = {
             if (current_lemma.etymology) section_html += "<h3>etymology</h3><p>" + Dictionary.getHTML(current_lemma.etymology) + "</p>";
             current_element.innerHTML = section_html;
             Dictionary.element.appendChild(current_element);
+            for (j = 0; j < current_lemma.asides.length; j++) {
+                section_html += "<aside>" + Dictionary.getHTML(current_lemma.meanings.item(j)) + "</aside>";
+            }
         }
         document.body.textContent = null;
         document.body.appendChild(document.createElement("main").appendChild(Dictionary.element).parentElement);
