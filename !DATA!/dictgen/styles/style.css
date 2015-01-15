@@ -203,6 +203,7 @@ p {
     text-indent: -2.5pc;
 }
 aside p {
+    padding: 0;
     text-indent: 2.5pc;
 }
 h3 + p, aside p:first-child {
