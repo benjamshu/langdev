@@ -136,11 +136,17 @@ var Dictionary = {
             if (q.masc) s += "masculine ";
             if (q.fem) s += "feminine ";
             if (q.neut) s += "neuter ";
+            if (q.an) s += "animate ";
+            if (q.inan) s += "inanimate ";
+            if (q.form) s += "formal ";
+            if (q.ifrm) s += "informal ";
             if (q.pst) s += "past-tense ";
             if (q.prs) s += "present-tense ";
             if (q.fut) s += "future-tense ";
             if (q.sing) s += "singular ";
             if (q.pl) s += "plural ";
+            if (q.cnt && !q.sing && !q.pl) s += "count ";
+            if (q.mass) s += "mass ";
             if (q.inf) s += "infinitive ";
             if (q.mod) {
                 if (q.mir) s += "mirative ";
@@ -153,7 +159,6 @@ var Dictionary = {
             }
             if (q.def) s += "definite ";
             if (q.ndef) s += "indefinite ";
-            if (q.mass) s += "mass ";
             if (q.pers) s += "personal ";
             if (q.qnt) s += "quantifier ";
             if (q.num) s += "numeral ";
