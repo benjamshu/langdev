@@ -129,7 +129,6 @@ body {
 }
 #main-header p {
     margin: 1.5pc 0;
-    color: #7b7f85;
 }
 #splash {
     position: absolute;
@@ -155,6 +154,9 @@ body {
 main, article, section, nav, header, footer {
     margin: 1.5pc 0;
     padding: 0;
+}
+header {
+    color: #7b7f85;
 }
 aside {
     margin: 1.5pc 1.25pc;
