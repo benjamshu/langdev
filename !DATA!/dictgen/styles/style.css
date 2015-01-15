@@ -188,8 +188,8 @@ h3 {
     float: left;
     clear: both;
     color: #1c2027;
-    margin: 1.5pc 0 0;
-    padding: 0;
+    margin: 0;
+    padding: 1.5pc 0 0;
     font-size: 1.25pc;
     font-weight: bold;
     line-height: 1.5pc;
@@ -206,8 +206,11 @@ aside p {
     padding: 0;
     text-indent: 2.5pc;
 }
-h3 + p, aside p:first-child {
+aside p:first-child {
     text-indent: 0;
+}
+h3 + p {
+    padding: 1.5pc 0 0 2.5pc;
 }
 blockquote p::before {
     content: open-quote;
