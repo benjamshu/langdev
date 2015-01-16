@@ -147,7 +147,6 @@ var Dictionary = {
             if (q.pl) s += "plural ";
             if (q.cnt && !q.sing && !q.pl) s += "count ";
             if (q.mass) s += "mass ";
-            if (q.inf) s += "infinitive ";
             if (q.mod) {
                 if (q.mir) s += "mirative ";
                 else if (q.opt) s += "optative ";
