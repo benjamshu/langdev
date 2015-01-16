@@ -54,9 +54,10 @@ See all <aside>s
         <meaning usage="auxiliary verb">used to form the passive voice</meaning>
         <meaning usage="auxiliary verb">used to form the progressive aspects</meaning>
         <meaning usage="auxiliary verb">used to form the future tenses</meaning>
+        <etymology>old english <etymon xml:lang="ang">bēon</etymon>, from proto–indo-european <etymon xml:lang="ine">*bʰew-</etymon> through proto-germanic; merged with the word for <mention>am/was</mention>, <etymon xml:lang="ang">wesan</etymon>, from proto–indo-european <etymon xml:lang="ine">*h₂wes-</etymon> (in the case of <mention>was</mention>) and <etymon xml:lang="ine">*h₁es-</etymon> (in the case of <mention>am</mention>)</etymology>
     </word>
     <word hidden="true">
-        <form class="v.1.pl.prs v.2.prs v.3.pl.prs" pronunciation="">are</form>
+        <form class="v.1.pl.prs v.2.prs v.3.pl.prs" pronunciation="ɑɹ">are</form>
         <meaning>conservative spelling of <wordref>r</wordref></meaning>
     </word>
     <word>
@@ -80,6 +81,17 @@ See all <aside>s
         <form class="pron.pers.3.pl.refl" pronunciation="ðɛɚ'sɛlf">theirself</form>
         <meaning>used to refer to a non-singular number of persons or things</meaning>
         <etymology>borrowed in middle english (as <etymon>they</etymon>) from a scandanavian source so as to clarify the distinction between it and other pronouns, ultimately from proto-germanic <etymon xml:lang="gem">*þai</etymon>, from proto–indo-european <etymon xml:lang="ine">*to-</etymon></etymology>
+    </word>
+    <word>
+        <form class="adv conj prep" pronunciation="kʌz">cos</form>
+        <meaning class="adv">on the account, for the reason, for the sake (often used with <wordref>of</wordref>)</meaning>
+        <meaning class="conj">on the account that, for the reason that, as can be determined from the fact that</meaning>
+        <meaning class="prep">on account of, cos of</meaning>
+        <etymology>shortened form of <wordref>because</wordref>, from middle english <etymon xml:lang="enm">bi cause</etymon>, <mention>by cause</mention>, modelled after old french <etymon xml:lang="fro">par cause</etymon></etymology>
+    </word>
+    <word hidden="true">
+        <form class="adv conj prep" pronunciation="bɪ'kʌz">because</form>
+        <meaning>conservative spelling of <wordref>cos</wordref></meaning>
     </word>
 
     <!-- Other words -->
@@ -123,7 +135,14 @@ See all <aside>s
         <meaning class="v">assign such a category to something</meaning>
         <etymology>latin <etymon xml:lang="lat">sexus</etymon>, possibly related to <etymon xml:lang="lat">seco</etymon>, <mention>cut</mention>, in the sense of dividing people into groups</etymology>
         <aside><mention>Sex</mention> (often in the sense <mention>have sex</mention>, short for <mention>have sexual intercourse</mention>) is sometimes used to describe the act of fucking; this usage is discouraged as it can lead to confusion.</aside>
-        <aside><mention>Sex</mention> is not the same thing as <wordref>gender</wordref>; <mention>sex</mention> focuses on physical markers and sexual function while <mention>gender</mention> focuses on societal roles. Note, however, that the sexual markers and functions prescribed to a sex are culturally defined and may vary depending on context.</aside>
+        <aside><mention>Sex</mention> is not the same thing as <wordref>gender</wordref>; <mention>sex</mention> focuses on physical markers and sexual function while <mention>gender</mention> focuses on societal roles. Note, howevs, that the sexual markers and functions prescribed to a sex r culturally defined and may vary depending on context.</aside>
+    </word>
+    <word>
+        <form class="adv prep conj" pronunciation="sɪns">since</form>
+        <meaning class="adv">from a (previously specified) time in the past</meaning>
+        <meaning class="prep conj">from the time of/that</meaning>
+        <meaning class="conj"><wordref>cos</wordref></meaning>
+        <etymology>from middle english <etymon xml:lang="enm">synnes</etymon>, a contraction of earlier <etymon xml:lang="enm">sithens</etymon>, from old english <etymon xml:lang="ang">siððan</etymon> (originally <etymon xml:lang="ang">sið ðan</etymon>), <mention>after that</mention></etymology>
     </word>
 
 </lexis>
