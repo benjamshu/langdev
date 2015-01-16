@@ -160,6 +160,7 @@ var Dictionary = {
             if (q.def) s += "definite ";
             if (q.ndef) s += "indefinite ";
             if (q.pers) s += "personal ";
+            if (q.inf) s += "infinitive ";
             if (q.qnt) s += "quantifier ";
             if (q.num) s += "numeral ";
             if (q.dem) s += "demonstrative ";
