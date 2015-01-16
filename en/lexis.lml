@@ -57,7 +57,7 @@ See all <aside>s
         <etymology>old english <etymon xml:lang="ang">bēon</etymon>, from proto–indo-european <etymon xml:lang="ine">*bʰew-</etymon> through proto-germanic; merged with the word for <mention>am/was</mention>, <etymon xml:lang="ang">wesan</etymon>, from proto–indo-european <etymon xml:lang="ine">*h₂wes-</etymon> (in the case of <mention>was</mention>) and <etymon xml:lang="ine">*h₁es-</etymon> (in the case of <mention>am</mention>)</etymology>
     </word>
     <word hidden="true">
-        <form class="v.1.pl.prs v.2.prs v.3.pl.prs" pronunciation="">are</form>
+        <form class="v.1.pl.prs v.2.prs v.3.pl.prs" pronunciation="ɑɹ">are</form>
         <meaning>conservative spelling of <wordref>r</wordref></meaning>
     </word>
     <word>
@@ -141,7 +141,7 @@ See all <aside>s
         <etymology>shortened form of <wordref>because</wordref>, from middle english <etymon xml:lang="enm">bi cause</etymon>, <mention>by cause</mention>, modelled after old french <etymon xml:lang="fro">par cause</etymon></etymology>
     </word>
     <word hidden="true">
-        <form class="adv conj prep" pronunciation="maɪn">because</form>
+        <form class="adv conj prep" pronunciation="bɪ'kʌz">because</form>
         <meaning>conservative spelling of <wordref>cos</wordref></meaning>
     </word>
 
