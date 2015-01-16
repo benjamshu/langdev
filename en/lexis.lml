@@ -82,6 +82,17 @@ See all <aside>s
         <meaning>used to refer to a non-singular number of persons or things</meaning>
         <etymology>borrowed in middle english (as <etymon>they</etymon>) from a scandanavian source so as to clarify the distinction between it and other pronouns, ultimately from proto-germanic <etymon xml:lang="gem">*þai</etymon>, from proto–indo-european <etymon xml:lang="ine">*to-</etymon></etymology>
     </word>
+    <word>
+        <form class="adv conj prep" pronunciation="kʌz">cos</form>
+        <meaning class="adv">on the account, for the reason, for the sake (often used with <wordref>of</wordref>)</meaning>
+        <meaning class="conj">on the account that, for the reason that, as can be determined from the fact that</meaning>
+        <meaning class="prep">on account of, cos of</meaning>
+        <etymology>shortened form of <wordref>because</wordref>, from middle english <etymon xml:lang="enm">bi cause</etymon>, <mention>by cause</mention>, modelled after old french <etymon xml:lang="fro">par cause</etymon></etymology>
+    </word>
+    <word hidden="true">
+        <form class="adv conj prep" pronunciation="bɪ'kʌz">because</form>
+        <meaning>conservative spelling of <wordref>cos</wordref></meaning>
+    </word>
 
     <!-- Other words -->
     <word>
@@ -132,17 +143,6 @@ See all <aside>s
         <meaning class="prep conj">from the time of/that</meaning>
         <meaning class="conj"><wordref>cos</wordref></meaning>
         <etymology>from middle english <etymon xml:lang="enm">synnes</etymon>, a contraction of earlier <etymon xml:lang="enm">sithens</etymon>, from old english <etymon xml:lang="ang">siððan</etymon> (originally <etymon xml:lang="ang">sið ðan</etymon>), <mention>after that</mention></etymology>
-    </word>
-    <word>
-        <form class="adv conj prep" pronunciation="kʌz">cos</form>
-        <meaning class="adv">on the account, for the reason, for the sake (often used with <wordref>of</wordref>)</meaning>
-        <meaning class="conj">on the account that, for the reason that, as can be determined from the fact that</meaning>
-        <meaning class="prep">on account of, cos of</meaning>
-        <etymology>shortened form of <wordref>because</wordref>, from middle english <etymon xml:lang="enm">bi cause</etymon>, <mention>by cause</mention>, modelled after old french <etymon xml:lang="fro">par cause</etymon></etymology>
-    </word>
-    <word hidden="true">
-        <form class="adv conj prep" pronunciation="bɪ'kʌz">because</form>
-        <meaning>conservative spelling of <wordref>cos</wordref></meaning>
     </word>
 
 </lexis>
