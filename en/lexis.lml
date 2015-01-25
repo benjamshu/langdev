@@ -41,7 +41,7 @@ See all <aside>s
     <word>
         <form class="v.inf" pronunciation="bi">be</form>
         <form class="v.1.sing.prs" pronunciation="æm">am</form>
-        <form class="v.1.pl.prs v.2.prs v.3.pl.prs" pronunciation="ɑɹ">r</form>
+        <form class="v.1.pl.prs v.2.prs v.3.pl.prs" pronunciation="ɑɹ">are</form>
         <form class="v.3.sing.prs" pronunciation="ɪz">is</form>
         <form class="v.1.sing.pst v.3.sing.pst" pronunciation="wʌs">was</form>
         <form class="v.1.pl.pst v.2.pst v.3.pl.pst" pronunciation="wɚ">were</form>
@@ -57,8 +57,8 @@ See all <aside>s
         <etymology>old english <etymon xml:lang="ang">bēon</etymon>, from proto–indo-european <etymon xml:lang="ine">*bʰew-</etymon> through proto-germanic; merged with the word for <mention>am/was</mention>, <etymon xml:lang="ang">wesan</etymon>, from proto–indo-european <etymon xml:lang="ine">*h₂wes-</etymon> (in the case of <mention>was</mention>) and <etymon xml:lang="ine">*h₁es-</etymon> (in the case of <mention>am</mention>)</etymology>
     </word>
     <word hidden="true">
-        <form class="v.1.pl.prs v.2.prs v.3.pl.prs" pronunciation="ɑɹ">are</form>
-        <meaning>conservative spelling of <wordref>r</wordref></meaning>
+        <form class="v.1.pl.prs v.2.prs v.3.pl.prs" pronunciation="ɑɹ">r</form>
+        <meaning>renarrative spelling of <wordref>r</wordref></meaning>
     </word>
     <word>
         <form class="pron.pers.1.sing.nom" pronunciation="aɪ">i</form>
