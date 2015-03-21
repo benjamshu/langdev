@@ -13,6 +13,7 @@
     <meta name="splash" xml:lang="en">filtered!</meta>
     <meta name="splash" xml:lang="en">multi-form!</meta>
     <meta name="splash" xml:lang="en">high and low!</meta>
+    <meta name="spalsh" xml:lang="en">filling!</meta>
     <affix>
         <form>ío-</form>
         <form>o-</form>
@@ -112,6 +113,10 @@
     <affix>
         <form>pi-</form>
         <meaning xml:lang="en">used to create diminuatives, often with the sense <mention>small</mention> or <mention>young</mention></meaning>
+    </affix>
+    <affix>
+        <form>-iq</form>
+        <meaning xml:lang="en">attached to verbs to form continuous derivatives; used with actions describing communication or societal affairs</meaning>
     </affix>
     <word>
         <form class="ptcl.mod.mir">oshó</form>
@@ -1093,5 +1098,66 @@
         <form class="n">gjílri</form>
         <meaning xml:lang="en">index finger; digit</meaning>
         <etymology><wordref>gjil</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">ti:d</form>
+        <meaning xml:lang="en">tap; flick; poke</meaning>
+    </word>
+    <word>
+        <form class="v.cont">tí:de:qg</form>
+        <meaning xml:lang="en">be tapping; be poking</meaning>
+        <etymology><wordref>gji:d</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">iogjí:d</form>
+        <meaning xml:lang="en">{finger-, toe-} nail</meaning>
+        <etymology><wordref>ío-</wordref> + {<wordref>ti:d</wordref>, <wordref>glílri</wordref>}</etymology>
+    </word>
+    <word>
+        <form class="v.cont">gjoiq</form>
+        <meaning xml:lang="en">be flirtatious; be making sexual advances</meaning>
+    </word>
+    <word>
+        <form class="v.cont">gjoíqno</form>
+        <meaning xml:lang="en">be flirtatious; be making sexual advances</meaning>
+        <etymology><wordref>gjoiq</wordref> + <wordref>-no</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gjódaq</form>
+        <meaning xml:lang="en">genitals (external)</meaning>
+        <etymology><wordref>gjoiq</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">gjauqg</form>
+        <meaning xml:lang="en">growl; speak gruffly</meaning>
+    </word>
+    <word>
+        <form class="v.cont">gjógiq</form>
+        <meaning xml:lang="en">be growling; be speaking gruffly</meaning>
+        <etymology><wordref>gjauqg</wordref> + <wordref>-iq</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">loig</form>
+        <meaning xml:lang="en">be eating</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">gjoíla</form>
+        <meaning xml:lang="en">eat; consume</meaning>
+        <etymology><wordref>loig</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">gjoílatu</form>
+        <meaning xml:lang="en">fill (one's stomach)</meaning>
+        <etymology><wordref>gjoíla</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.prog">gjoílaub</form>
+        <meaning xml:lang="en">be filling one's stomach; be getting full</meaning>
+        <etymology><wordref>gjoíla</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gjólag</form>
+        <meaning xml:lang="en">belly</meaning>
+        <etymology><wordref>gjoíla</wordref> + <wordref>-ag</wordref></etymology>
     </word>
 </lexis>
