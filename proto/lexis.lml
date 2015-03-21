@@ -1160,4 +1160,96 @@
         <meaning xml:lang="en">belly</meaning>
         <etymology><wordref>gjoíla</wordref> + <wordref>-ag</wordref></etymology>
     </word>
+    <word>
+        <form class="n">luag</form>
+        <meaning xml:lang="en">cliff</meaning>
+    </word>
+    <word>
+        <form class="n">gjomúq</form>
+        <meaning xml:lang="en">lips; vulva</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">paum</form>
+        <meaning xml:lang="en">defacate; poop</meaning>
+    </word>
+    <word>
+        <form class="v.cont">páume:qg</form>
+        <meaning xml:lang="en">be pooping</meaning>
+        <etymology><wordref>paum</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">páumri</form>
+        <meaning xml:lang="en">anus</meaning>
+        <etymology><wordref>paum</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">gjoq</form>
+        <meaning xml:lang="en">head</meaning>
+    </word>
+    <word>
+        <form class="n">pí:qo</form>
+        <meaning xml:lang="en">nut</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>gjoq</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">roish</form>
+        <meaning xml:lang="en">touch</meaning>
+    </word>
+    <word>
+        <form class="v.cont">roíshe:qg</form>
+        <meaning xml:lang="en">be touching</meaning>
+        <etymology><wordref>roish</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">roíshtu</form>
+        <meaning xml:lang="en">feel (physically)</meaning>
+        <etymology><wordref>roish</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">róitua:qg</form>
+        <meaning xml:lang="en">be feeling (physically)</meaning>
+        <etymology><wordref>roíshtu</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">iorí:sh</form>
+        <meaning xml:lang="en">skin</meaning>
+        <etymology><wordref>ío-</wordref> + <wordref>roish</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">gjo:</form>
+        <meaning xml:lang="en">be facing</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">gjó:no</form>
+        <meaning xml:lang="en">face (towards)</meaning>
+        <etymology><wordref>gjo:</wordref> + <wordref>-no</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">ió:</form>
+        <meaning xml:lang="en">face</meaning>
+        <etymology><wordref>ío-</wordref> + <wordref>gjo:</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">gjo:l</form>
+        <meaning xml:lang="en">be sweating</meaning>
+    </word>
+    <word>
+        <form class="n">ua:l</form>
+        <meaning xml:lang="en">sweat</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>gjo:l</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">zhuag</form>
+        <meaning xml:lang="en">be flourishing</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">zhuágla</form>
+        <meaning xml:lang="en">bloom</meaning>
+        <etymology><wordref>zhuag</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">zhuágjo</form>
+        <meaning xml:lang="en">flower</meaning>
+        <etymology><wordref>zhuag</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
 </lexis>
