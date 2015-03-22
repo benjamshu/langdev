@@ -14,6 +14,7 @@
     <meta name="splash" xml:lang="en">multi-form!</meta>
     <meta name="splash" xml:lang="en">high and low!</meta>
     <meta name="spalsh" xml:lang="en">filling!</meta>
+    <!--  AFFIXES  -->
     <affix>
         <form>ío-</form>
         <form>o-</form>
@@ -118,6 +119,7 @@
         <form>-iq</form>
         <meaning xml:lang="en">attached to verbs to form continuous derivatives; used with actions describing communication or societal affairs</meaning>
     </affix>
+    <!--  GRAMMATICAL WORDS  -->
     <word>
         <form class="ptcl.mod.mir">oshó</form>
         <meaning xml:lang="en">mirative modal particle</meaning>
@@ -292,44 +294,10 @@
         <form class="det.dem">nai</form>
         <meaning xml:lang="en">this; that; the</meaning>
     </word>
-    <word>
-        <form class="v.cont">abí:be</form>
-        <meaning xml:lang="en">cattle; large grazing mammals; oxen; buffalo</meaning>
-    </word>
-    <word>
-        <form class="v.cont">aqób</form>
-        <meaning xml:lang="en">be urinating</meaning>
-    </word>
-    <word>
-        <form class="n">abshug</form>
-        <meaning xml:lang="en">domestic cat</meaning>
-    </word>
+    <!--  BÁU:ZHE  -->
     <word>
         <form class="v.pfv">báu:zhe</form>
         <meaning xml:lang="en">lay an egg</meaning>
-    </word>
-    <word>
-        <form class="v.cont">qair</form>
-        <meaning xml:lang="en">(of a human) be sexually mature</meaning>
-    </word>
-    <word>
-        <form class="v.cont">zhir</form>
-        <meaning xml:lang="en">be hairy</meaning>
-    </word>
-    <word>
-        <form class="n">abí:bri</form>
-        <meaning xml:lang="en">domestic cow</meaning>
-        <etymology><wordref>abí:be</wordref> + <wordref>-ri</wordref></etymology>
-    </word>
-    <word>
-        <form class="v.pfv">aqshóbe</form>
-        <meaning xml:lang="en">urinate</meaning>
-        <etymology><wordref>aqób</wordref> + <wordref>-sho</wordref></etymology>
-    </word>
-    <word>
-        <form class="n">aqzháir</form>
-        <meaning xml:lang="en">pubic-hair</meaning>
-        <etymology xml:lang="en"><wordref xml:lang="qpt">qair</wordref>, with influence from <wordref xml:lang="qpt">zhir</wordref></etymology>
     </word>
     <word>
         <form class="v.cont">báu:e:qg</form>
@@ -345,6 +313,51 @@
         <form class="n">obáu:ge</form>
         <meaning xml:lang="en">eggshell</meaning>
         <etymology><wordref>o-</wordref> + <wordref>báu:zhe</wordref> + <wordref>-ag</wordref></etymology>
+    </word>
+    <!--  ABÍ:BE  -->
+    <word>
+        <form class="n">abí:be</form>
+        <meaning xml:lang="en">cattle; large grazing mammals; oxen; buffalo</meaning>
+    </word>
+    <word>
+        <form class="n">abí:bri</form>
+        <meaning xml:lang="en">domestic cow</meaning>
+        <etymology><wordref>abí:be</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  ABSHUG  -->
+    <word>
+        <form class="n">abshug</form>
+        <meaning xml:lang="en">domestic cat</meaning>
+    </word>
+    <!--  AQÓB  -->
+    <word>
+        <form class="v.cont">aqób</form>
+        <meaning xml:lang="en">be urinating</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">aqshóbe</form>
+        <meaning xml:lang="en">urinate</meaning>
+        <etymology><wordref>aqób</wordref> + <wordref>-sho</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">qualób</form>
+        <meaning xml:lang="en">urine</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>aqób</wordref></etymology>
+    </word>
+    <!--  ZHIR  -->
+    <word>
+        <form class="v.cont">zhir</form>
+        <meaning xml:lang="en">be hairy</meaning>
+    <word>
+        <form class="n">zhíraush</form>
+        <meaning xml:lang="en">hair; fur</meaning>
+        <etymology><wordref>zhir</wordref> + <wordref>-aush</wordref></etymology>
+    </word>
+    </word>
+    <!--  QAIR  -->
+    <word>
+        <form class="v.cont">qair</form>
+        <meaning xml:lang="en">(of a human) be sexually mature</meaning>
     </word>
     <word>
         <form class="v.prog">qáirob</form>
@@ -362,15 +375,11 @@
         <etymology><wordref>qair</wordref> + <wordref>-aush</wordref></etymology>
     </word>
     <word>
-        <form class="n">qualób</form>
-        <meaning xml:lang="en">urine</meaning>
-        <etymology><wordref>ual-</wordref> + <wordref>aqób</wordref></etymology>
+        <form class="n">aqzháir</form>
+        <meaning xml:lang="en">pubic-hair</meaning>
+        <etymology xml:lang="en"><wordref xml:lang="qpt">qair</wordref>, with influence from <wordref xml:lang="qpt">zhir</wordref></etymology>
     </word>
-    <word>
-        <form class="n">zhíraush</form>
-        <meaning xml:lang="en">hair; fur</meaning>
-        <etymology><wordref>zhir</wordref> + <wordref>-aush</wordref></etymology>
-    </word>
+    <!--  MAU:Q  -->
     <word>
         <form class="v.cont">mau:q</form>
         <meaning xml:lang="en">be chatting, gossiping, conversing</meaning>
@@ -390,6 +399,7 @@
         <meaning xml:lang="en">speaker; one who is talkative or sociable; one who gossips</meaning>
         <etymology><wordref>mau:q</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  PA:N  -->
     <word>
         <form class="v.cont">pa:n</form>
         <meaning xml:lang="en">be slithering</meaning>
@@ -404,6 +414,7 @@
         <meaning xml:lang="en">snake</meaning>
         <etymology><wordref>pa:n</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  SHAIZH  -->
     <word>
         <form class="v.pfv">shaizh</form>
         <meaning xml:lang="en">erect; construct; build</meaning>
@@ -433,6 +444,7 @@
         <meaning xml:lang="en">be constructed; be man-made</meaning>
         <etymology><wordref>ar-</wordref> + <wordref>shaizh</wordref></etymology>
     </word>
+    <!--  SHA:D  -->
     <word>
         <form class="v.pfv">sha:d</form>
         <meaning xml:lang="en">suck</meaning>
@@ -452,6 +464,7 @@
         <meaning xml:lang="en">wetnurse</meaning>
         <etymology><wordref>qa-</wordref> + <wordref>sha:d</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  SHARÍSH  -->
     <word>
         <form class="v.cont">sharísh</form>
         <meaning xml:lang="en">be healthy</meaning>
@@ -466,10 +479,12 @@
         <meaning xml:lang="en">health</meaning>
         <etymology><wordref>sharísh</wordref> + <wordref>-aush</wordref></etymology>
     </word>
+    <!--  BAM  -->
     <word>
         <form class="n">bam</form>
         <meaning xml:lang="en">rice</meaning>
     </word>
+    <!--  BAUSH  -->
     <word>
         <form class="v.pfv">baush</form>
         <meaning xml:lang="en">hold</meaning>
@@ -494,14 +509,17 @@
         <meaning xml:lang="en">hand</meaning>
         <etymology><wordref>baush</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  BRI:SH  -->
     <word>
         <form class="n">bri:sh</form>
         <meaning xml:lang="en">tree bark</meaning>
     </word>
+    <!--  BESH  -->
     <word>
         <form class="n">besh</form>
         <meaning xml:lang="en">maple tree</meaning>
     </word>
+    <!--  BUA:L  -->
     <word>
         <form class="v.pfv">bua:l</form>
         <meaning xml:lang="en">stick</meaning>
@@ -516,6 +534,7 @@
         <meaning xml:lang="en">juice; sap</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>bua:l</wordref></etymology>
     </word>
+    <!--  BI:T  -->
     <word>
         <form class="v.pfv">bi:t</form>
         <meaning xml:lang="en">split (something)</meaning>
@@ -540,6 +559,7 @@
         <meaning xml:lang="en">split; fork</meaning>
         <etymology><wordref>bí:t</wordref> + <wordref>-tu</wordref> + <wordref>-gjo</wordref></etymology>
     </word>
+    <!--  BU:SH  -->
     <word>
         <form class="v.cont">bu:sh</form>
         <meaning xml:lang="en">be shading</meaning>
@@ -559,6 +579,7 @@
         <meaning xml:lang="en">cloud; foliage</meaning>
         <etymology><wordref>bu:sh</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  BI:R  -->
     <word>
         <form class="v.pfv">bi:r</form>
         <meaning xml:lang="en">shed; especially in terms of trees shedding leaves</meaning>
@@ -573,6 +594,7 @@
         <meaning xml:lang="en">leaf</meaning>
         <etymology><wordref>bi:r</wordref> + <wordref>-ag</wordref></etymology>
     </word>
+    <!--  BIZH  -->
     <word>
         <form class="v.pfv">bizh</form>
         <meaning xml:lang="en">have a child</meaning>
@@ -580,7 +602,9 @@
     <word>
         <form class="n">bízhag</form>
         <meaning xml:lang="en">child</meaning>
+        <etymology><wordref>bizh</wordref> + <wordref>-ag</wordref></etymology>
     </word>
+    <!--  GJAZH  -->
     <word>
         <form class="v.pfv">gjazh</form>
         <meaning xml:lang="en">sprout</meaning>
@@ -594,6 +618,7 @@
         <meaning xml:lang="en">sprout</meaning>
         <etymology><wordref>be-</wordref> + <wordref>gjazh</wordref></etymology>
     </word>
+    <!--  BUAG  -->
     <word>
         <form class="v.cont">buag</form>
         <meaning xml:lang="en">be pregnant</meaning>
@@ -603,6 +628,7 @@
         <meaning xml:lang="en">impregnate</meaning>
         <etymology><wordref>buag</wordref> + <wordref>-shu</wordref></etymology>
     </word>
+    <!--  BRO:G  -->
     <word>
         <form class="v.cont">bro:g</form>
         <meaning xml:lang="en">be high up</meaning>
@@ -632,6 +658,7 @@
         <meaning xml:lang="en">hill</meaning>
         <etymology><wordref>le-</wordref> + <wordref>bro:g</wordref></etymology>
     </word>
+    <!--  BUAN  -->
     <word>
         <form class="v.pfv">buan</form>
         <meaning xml:lang="en">croak</meaning>
@@ -646,6 +673,7 @@
         <meaning xml:lang="en">frog; toad</meaning>
         <etymology><wordref>buan</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  BOIQ  -->
     <word>
         <form class="v.cont">boiq</form>
         <meaning xml:lang="en">be quivering, buzzing</meaning>
@@ -665,6 +693,7 @@
         <meaning xml:lang="en">bee</meaning>
         <etymology><wordref>boiq</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  BOIR  -->
     <word>
         <form class="v.pfv">boir</form>
         <meaning xml:lang="en">bound</meaning>
@@ -674,10 +703,12 @@
         <meaning xml:lang="en">rabbit</meaning>
         <etymology><wordref>boir</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  BUAG  -->
     <word>
         <form class="n">buag</form>
         <meaning xml:lang="en">onion</meaning>
     </word>
+    <!--  BUSHÓ  -->
     <word>
         <form class="v.cont">bushó</form>
         <meaning xml:lang="en">be precipitating</meaning>
@@ -692,6 +723,7 @@
         <meaning xml:lang="en">precipitation</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>bushó</wordref></etymology>
     </word>
+    <!--  BUASH  -->
     <word>
         <form class="v.cont">buash</form>
         <meaning xml:lang="en">be windy</meaning>
@@ -711,10 +743,12 @@
         <meaning xml:lang="en">fan</meaning>
         <etymology><wordref>be-</wordref> + <wordref>buash</wordref></etymology>
     </word>
+    <!--  BUT  -->
     <word>
         <form class="n">but</form>
         <meaning xml:lang="en">bird-foot; claw</meaning>
     </word>
+    <!--  KAT  -->
     <word>
         <form class="v.pfv">kat</form>
         <meaning xml:lang="en">flap; fly</meaning>
@@ -739,10 +773,12 @@
         <meaning xml:lang="en">bat</meaning>
         <etymology><wordref>kat</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  BUL  -->
     <word>
         <form class="n">bul</form>
         <meaning xml:lang="en">beech tree</meaning>
     </word>
+    <!--  BUANT  -->
     <word>
         <form class="v.pfv">buant</form>
         <meaning xml:lang="en">peck; pick (at something)</meaning>
@@ -757,14 +793,22 @@
         <meaning xml:lang="en">beak</meaning>
         <etymology><wordref>buant</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  BI:Q  -->
     <word>
         <form class="n">bi:q</form>
         <meaning xml:lang="en">fly (insect)</meaning>
     </word>
     <word>
+        <form class="n">pibí:q</form>
+        <meaning xml:lang="en">maggot</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>bi:q</wordref></etymology>
+    </word>
+    <!--  BUZH  -->
+    <word>
         <form class="n">buzh</form>
         <meaning xml:lang="en">bird</meaning>
     </word>
+    <!--  BI:R  -->
     <word>
         <form class="v.cont">bi:r</form>
         <meaning xml:lang="en">be lightweight</meaning>
@@ -774,6 +818,7 @@
         <meaning xml:lang="en">feather</meaning>
         <etymology><wordref>bi:r</wordref> + <wordref>-aush</wordref></etymology>
     </word>
+    <!--  DAQ  -->
     <word>
         <form class="n">daq</form>
         <meaning xml:lang="en">the core; the centre</meaning>
@@ -788,6 +833,7 @@
         <meaning xml:lang="en">abdomen; bladder</meaning>
         <etymology><wordref>daq</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  DAZH  -->
     <word>
         <form class="v.cont">dazh</form>
         <meaning xml:lang="en">be shining</meaning>
@@ -807,14 +853,17 @@
         <meaning xml:lang="en">heat</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>dazh</wordref></etymology>
     </word>
+    <!--  DEM  -->
     <word>
         <form class="n">dem</form>
         <meaning xml:lang="en">oak tree</meaning>
     </word>
+    <!--  DIP  -->
     <word>
         <form class="n">dip</form>
         <meaning xml:lang="en">holly tree/shrub</meaning>
     </word>
+    <!--  DIZH  -->
     <word>
         <form class="v.pfv">dizh</form>
         <meaning xml:lang="en">(magically) possess; intoxicate</meaning>
@@ -834,6 +883,7 @@
         <meaning xml:lang="en">be (magically) possessed</meaning>
         <etymology><wordref>dizh</wordref> + <wordref>-tu</wordref></etymology>
     </word>
+    <!--  DOQ  -->
     <word>
         <form class="v.cont">doq</form>
         <meaning xml:lang="en">be old</meaning>
@@ -843,14 +893,17 @@
         <meaning xml:lang="en">elder</meaning>
         <etymology><wordref>gjo-</wordref> + <wordref>doq</wordref></etymology>
     </word>
+    <!--  GJASH  -->
     <word>
         <form class="n">gjash</form>
         <meaning xml:lang="en">forest</meaning>
     </word>
+    <!--  GJA:L  -->
     <word>
         <form class="n">gja:l</form>
         <meaning xml:lang="en">ocean; sea; lake</meaning>
     </word>
+    <!--  GA:R  -->
     <word>
         <form class="v.cont">ga:r</form>
         <meaning xml:lang="en">be beside</meaning>
@@ -865,6 +918,7 @@
         <meaning xml:lang="en">the sides</meaning>
         <etymology><wordref>gjo:-</wordref> + <wordref>ba:r</wordref></etymology>
     </word>
+    <!--  GAUQ  -->
     <word>
         <form class="v.cont">gauq</form>
         <meaning xml:lang="en">be in(side)</meaning>
@@ -872,33 +926,40 @@
     <word>
         <form class="v.prog">gáuqug</form>
         <meaning xml:lang="en">be coming in(side)</meaning>
+        <etymology><wordref>gáuq</wordref> + <wordref>-ug</wordref></etymology>
     </word>
+    <!--  GÁSHO  -->
     <word>
         <form class="v.pfv">gásho</form>
         <meaning xml:lang="en">vomit</meaning>
-        <etymology xml:lang="en">see <wordref xml:lang="qpt">-sho</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="qpt">-sho</wordref></etymology>
     </word>
     <word>
         <form class="n">uagásho</form>
         <meaning xml:lang="en">vomit</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>gásho</wordref></etymology>
     </word>
+    <!--  GAZH  -->
     <word>
         <form class="n">gazh</form>
         <meaning xml:lang="en">apple; pear</meaning>
     </word>
+    <!--  GI:Q  -->
     <word>
         <form class="n">gi:q</form>
         <meaning xml:lang="en">spruce tree</meaning>
     </word>
+    <!--  GJO:  -->
     <word>
         <form class="n">gjo:</form>
         <meaning xml:lang="en">chin; jawbone</meaning>
     </word>
+    <!--  GEL  -->
     <word>
         <form class="n">gel</form>
         <meaning xml:lang="en">elm tree</meaning>
     </word>
+    <!--  GE:Q  -->
     <word>
         <form class="v.cont">ge:g</form>
         <meaning xml:lang="en">be below; be down under</meaning>
@@ -928,6 +989,7 @@
         <meaning xml:lang="en">valley</meaning>
         <etymology><wordref>le-</wordref> + <wordref>ge:g</wordref></etymology>
     </word>
+    <!--  GRU:G  -->
     <word>
         <form class="v.pfv">gru:g</form>
         <meaning xml:lang="en">follow</meaning>
@@ -942,6 +1004,7 @@
         <meaning xml:lang="en">heel</meaning>
         <etymology><wordref>le-</wordref> + <wordref>gru:g</wordref></etymology>
     </word>
+    <!--  GET  -->
     <word>
         <form class="v.cont">get</form>
         <meaning xml:lang="en">form the base; be foundational</meaning>
@@ -951,10 +1014,12 @@
         <meaning xml:lang="en">foundation; root</meaning>
         <etymology><wordref>le-</wordref> + <wordref>get</wordref></etymology>
     </word>
+    <!--  GJON  -->
     <word>
         <form class="n">gjon</form>
         <meaning xml:lang="en">berry</meaning>
     </word>
+    <!--  GJA:L  -->
     <word>
         <form class="v.pfv">gja:l</form>
         <meaning xml:lang="en">squish</meaning>
@@ -964,10 +1029,12 @@
         <meaning xml:lang="en">juice</meaning>
         <etymology><wordref>gja:l</wordref> + <wordref>-gjo</wordref></etymology>
     </word>
+    <!--  GIQ  -->
     <word>
         <form class="n">giq</form>
         <meaning xml:lang="en">mango</meaning>
     </word>
+    <!--  GOIL  -->
     <word>
         <form class="v.cont">goil</form>
         <meaning xml:lang="en">be thick; be swollen</meaning>
@@ -982,6 +1049,7 @@
         <meaning xml:lang="en">swell</meaning>
         <etymology><wordref>goil</wordref> + <wordref>-tu</wordref></etymology>
     </word>
+    <!--  GOL  -->
     <word>
         <form class="n">gol</form>
         <meaning xml:lang="en">liver</meaning>
@@ -991,6 +1059,7 @@
         <meaning xml:lang="en">bile</meaning>
         <etymology><wordref>ual-</wordref> + <wordref>gol</wordref></etymology>
     </word>
+    <!--  GOQ  -->
     <word>
         <form class="v.pfv">goq</form>
         <meaning xml:lang="en">hear</meaning>
@@ -1000,6 +1069,7 @@
         <meaning xml:lang="en">be hearing; be listening</meaning>
         <etymology><wordref>ar-</wordref> + <wordref>goq</wordref></etymology>
     </word>
+    <!--  GI:ZH  -->
     <word>
         <form class="v.cont">gi:zh</form>
         <meaning xml:lang="en">be (sexually) penatrating oneself (usu., with another)</meaning>
@@ -1014,6 +1084,7 @@
         <meaning xml:lang="en">dildo</meaning>
         <etymology><wordref>be-</wordref> + <wordref>gi:zh</wordref></etymology>
     </word>
+    <!--  GUQ  -->
     <word>
         <form class="v.pfv">guq</form>
         <meaning xml:lang="en">swallow</meaning>
@@ -1023,6 +1094,7 @@
         <meaning xml:lang="en">throat; neck (mostly internal)</meaning>
         <etymology><wordref>guq</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  GRO:ZH  -->
     <word>
         <form class="v.pfv">gro:zh</form>
         <meaning xml:lang="en">see</meaning>
@@ -1037,15 +1109,12 @@
         <meaning xml:lang="en">eye; eyeball</meaning>
         <etymology><wordref>gro:zh</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  GUASH  -->
     <word>
         <form class="v.pfv">guash</form>
         <meaning xml:lang="en">kill</meaning>
     </word>
-    <word>
-        <form class="n">pibí:q</form>
-        <meaning xml:lang="en">maggot</meaning>
-        <etymology><wordref>pi-</wordref> + <wordref>bi:q</wordref></etymology>
-    </word>
+    <!--  ZHOB  -->
     <word>
         <form class="v.pfv">zhob</form>
         <meaning xml:lang="en">give birth</meaning>
@@ -1055,6 +1124,7 @@
         <meaning xml:lang="en">be in labour; be in the process of giving birth</meaning>
         <etymology><wordref>zhob</wordref> + <wordref>-ob</wordref></etymology>
     </word>
+    <!--  ZHUAL  -->
     <word>
         <form class="n">zhual</form>
         <meaning xml:lang="en">blood</meaning>
@@ -1064,6 +1134,7 @@
         <meaning xml:lang="en">be bleeding</meaning>
         <etymology><wordref>ar-</wordref> + <wordref>zhual</wordref></etymology>
     </word>
+    <!--  GJAL  -->
     <word>
         <form class="n">gjal</form>
         <meaning xml:lang="en">olive</meaning>
@@ -1072,6 +1143,7 @@
         <form class="n">uagjál</form>
         <meaning xml:lang="en">(olive) oil</meaning>
     </word>
+    <!--  GJEB  -->
     <word>
         <form class="v.cont">gjeb</form>
         <meaning xml:lang="en">be grazing</meaning>
@@ -1081,10 +1153,12 @@
         <meaning xml:lang="en">grass</meaning>
         <etymology><wordref>gjeb</wordref> + <wordref>-ag</wordref></etymology>
     </word>
+    <!--  GJEM  -->
     <word>
         <form class="n">gjem</form>
         <meaning xml:lang="en">larch tree</meaning>
     </word>
+    <!--  GJIL  -->
     <word>
         <form class="v.pfv">gjil</form>
         <meaning xml:lang="en">point</meaning>
@@ -1099,6 +1173,7 @@
         <meaning xml:lang="en">index finger; digit</meaning>
         <etymology><wordref>gjil</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  TI:D  -->
     <word>
         <form class="v.pfv">ti:d</form>
         <meaning xml:lang="en">tap; flick; poke</meaning>
@@ -1113,6 +1188,7 @@
         <meaning xml:lang="en">{finger-, toe-} nail</meaning>
         <etymology><wordref>ío-</wordref> + {<wordref>ti:d</wordref>, <wordref>glílri</wordref>}</etymology>
     </word>
+    <!--  GJOIQ  -->
     <word>
         <form class="v.cont">gjoiq</form>
         <meaning xml:lang="en">be flirtatious; be making sexual advances</meaning>
@@ -1127,6 +1203,7 @@
         <meaning xml:lang="en">genitals (external)</meaning>
         <etymology><wordref>gjoiq</wordref></etymology>
     </word>
+    <!--  GJAUQG  -->
     <word>
         <form class="v.pfv">gjauqg</form>
         <meaning xml:lang="en">growl; speak gruffly</meaning>
@@ -1136,6 +1213,7 @@
         <meaning xml:lang="en">be growling; be speaking gruffly</meaning>
         <etymology><wordref>gjauqg</wordref> + <wordref>-iq</wordref></etymology>
     </word>
+    <!--  LOIG  -->
     <word>
         <form class="v.cont">loig</form>
         <meaning xml:lang="en">be eating</meaning>
@@ -1160,14 +1238,17 @@
         <meaning xml:lang="en">belly</meaning>
         <etymology><wordref>gjoíla</wordref> + <wordref>-ag</wordref></etymology>
     </word>
+    <!--  LUAG  -->
     <word>
         <form class="n">luag</form>
         <meaning xml:lang="en">cliff</meaning>
     </word>
+    <!--  GJOMÚQ  -->
     <word>
         <form class="n">gjomúq</form>
         <meaning xml:lang="en">lips; vulva</meaning>
     </word>
+    <!--  PAUM  -->
     <word>
         <form class="v.pfv">paum</form>
         <meaning xml:lang="en">defacate; poop</meaning>
@@ -1182,6 +1263,7 @@
         <meaning xml:lang="en">anus</meaning>
         <etymology><wordref>paum</wordref> + <wordref>-ri</wordref></etymology>
     </word>
+    <!--  GJOQ  -->
     <word>
         <form class="n">gjoq</form>
         <meaning xml:lang="en">head</meaning>
@@ -1191,6 +1273,7 @@
         <meaning xml:lang="en">nut</meaning>
         <etymology><wordref>pi-</wordref> + <wordref>gjoq</wordref></etymology>
     </word>
+    <!--  ROISH  -->
     <word>
         <form class="v.pfv">roish</form>
         <meaning xml:lang="en">touch</meaning>
@@ -1215,6 +1298,7 @@
         <meaning xml:lang="en">skin</meaning>
         <etymology><wordref>ío-</wordref> + <wordref>roish</wordref></etymology>
     </word>
+    <!--  GJO  -->
     <word>
         <form class="v.cont">gjo:</form>
         <meaning xml:lang="en">be facing</meaning>
@@ -1229,6 +1313,7 @@
         <meaning xml:lang="en">face</meaning>
         <etymology><wordref>ío-</wordref> + <wordref>gjo:</wordref></etymology>
     </word>
+    <!--  GJO:L  -->
     <word>
         <form class="v.cont">gjo:l</form>
         <meaning xml:lang="en">be sweating</meaning>
@@ -1238,6 +1323,7 @@
         <meaning xml:lang="en">sweat</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>gjo:l</wordref></etymology>
     </word>
+    <!--  ZHUAG  -->
     <word>
         <form class="v.cont">zhuag</form>
         <meaning xml:lang="en">be flourishing</meaning>
