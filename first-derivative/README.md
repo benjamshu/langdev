@@ -4,7 +4,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE. Th
 
 ## phonological changes
 
-1.  When a long vowel is followed by a consonant, an <i>e</i> is added to the end (<i>bau:zh</i> > <i>báu:zhe</i>)
+1.  When a long vowel is followed by a consonant in a word-final syllable, an <i>e</i> is added to the end (<i>bau:zh</i> > <i>báu:zhe</i>)
 
 2.  When a long vowel is followed by stop onset, the length of the stop is doubled and the vowel is shortened (<i>arbí:tu</i> > <i>arbíttu</i>)
 
