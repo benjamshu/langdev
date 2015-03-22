@@ -264,7 +264,7 @@ var Dictionary = {
                     break;
             }
         }
-        Dictionary.ids.sort(function (a, b) {return String(a).substr(String(a).search(/[^-' \.#]/)).localeCompare(String(b).substr(String(b).search(/[^-' \.#]/)));});
+        Dictionary.ids.sort(function (a, b) {return String(a).substr(String(a).search(/[^-' \.#:]/)).localeCompare(String(b).substr(String(b).search(/[^-' \.#]/)));});
         Dictionary.element = document.createElement("article");
         document.title = Dictionary.title[1];
         document.getElementsByTagName("title").item(0).lang = Dictionary.title[0];
