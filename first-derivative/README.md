@@ -2,7 +2,7 @@
 
 The first level of evolution and abstraction from the initial PROTO-LANGUAGE. The first derivative helps to normalize the phonology of THE LANGUAGE and give it a unique character. The following general shifts and changes are recorded:
 
-## phonological changes:
+## phonological changes
 
 1.  when a long vowel is followed by a consonant, an <i>e</i> is added to the end (<i>bau:zh</i> > <i>báu:zhe</i>)
 
@@ -30,7 +30,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE. Th
 
 11. Accent is moved to the first syllable of all words
 
-## grammatical/morphological changes:
+## grammatical/morphological changes
 
 1.  <i>-e:qg</i> becomes a marker for the habitual aspect
 
