@@ -10,7 +10,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE. Th
 
 3.  Other long diphthongs are palatalized (<i>au:</i> > <i>aw</i>, <i>ai:</i> > <i>aj</i>, <i>ua:</i> > <i>wa</i>, <i>oi:</i> > <i>oj</i>)
 
-4.  When a syllable coda contains a <i>w</i> or <i>j</i> followed by another consonant, the second consonant is moved into the onset of a new syllable with vowel <i>e</i>
+4.  When a syllable coda contains a <i>w</i> or <i>j</i> followed by another consonant, the second consonant is moved into the onset of a new syllable with nucleus <i>e</i>
 
 5.  <i>j</i> becomes <i>je</i> when followed by a nasal
 
@@ -32,17 +32,24 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE. Th
     * <i>n</i> > <i>d</i> > <i>r</i> > <i>t</i>
     * <i>m</i> > <i>b</i> > <i>p</i> > <i>f</i>
 
-11. All stops in syllable codas are unvoiced
+11. A few more shifts occur:
 
-12. Onsets <i>g</i>, <i>d</i>, <i>b</i> become <i>q</i>, <i>n</i>, <i>m</i> when preceded by an stressed syllable
+    1. Onsets <i>g</i>, <i>d</i>, <i>b</i> become <i>q</i>, <i>n</i>, <i>m</i> when preceded by an stressed syllable
+    2. Onsets <i>k</i>, <i>t</i>, <i>p</i> become <i>g</i>, <i>d</i>, <i>b</i> when preceded by an unstressed syllable
+    3. Codas <i>k</i>, <i>t</i>, <i>p</i> become <i>g</i>, <i>d</i>, <i>b</i> when preceded by a complex (long or diphthong) nucleus
 
-13. Onsets <i>k</i>, <i>t</i>, <i>p</i> become <i>g</i>, <i>d</i>, <i>b</i> when preceded by an unstressed syllable
+12. The following codas are split off into new syllables with the given nuclei:
 
-14. Word-final <i>r</i> becomes <i>n</i>
+    * {<i>g</i>, <i>k</i>, <i>h</i>} : <i>a</i>
+    * {<i>d</i>, <i>t</i>} : <i>i</i>
+    * {<i>b</i>, <i>p</i>, <i>f</i>} : <i>e</i>
+    * {<i>l</i>, <i>r</i>} : <i>u</i>
 
-15. Unaccented <i>e</i> becomes <i>a</i>; accented <i>e</i> becomes <i>/e/</i>
+13. <i>l</i> becomes <i>n</i>
 
-16. Syllable stress is shifted to the first syllable of all roots
+14. Unaccented <i>e</i> becomes <i>a</i>; accented <i>e</i> becomes <i>/e/</i>
+
+15. Syllable stress is shifted to the first syllable of all roots
 
 ## grammatical/morphological changes
 
