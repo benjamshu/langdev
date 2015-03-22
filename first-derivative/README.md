@@ -44,6 +44,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE. Th
     * {<i>d</i>, <i>t</i>} : <i>i</i>
     * {<i>b</i>, <i>p</i>, <i>f</i>} : <i>e</i>
     * {<i>l</i>, <i>r</i>} : <i>u</i>
+    * {<i>j</i>, <i>w</i>} : <i>o</i>
 
 13. <i>l</i> becomes <i>n</i>
 
