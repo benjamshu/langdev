@@ -1,6 +1,6 @@
 # THE PROTO-LANGUAGE
 
-The–proto-language serves to provide the core roots, grammars, and systems for development of the language. It may be effectively utilized as a core for the development of sibling languages or for educational purposes. This document serves as a reference for various aspects of the proto-language and its development.
+THE PROTO-LANGUAGE serves to provide the core roots, grammars, and systems for development of the language. It may be effectively utilized as a core for the development of sibling languages or for educational purposes. This document serves as a reference for various aspects of THE PROTO-LANGUAGE and its development.
 
 Because it defines a proto-language, this document should be considered speculative, third-hand, and for reference purposes only.
 
