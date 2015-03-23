@@ -19,7 +19,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE. Th
 7.  The following changes occur to word-final consonants:
 
     * <i>q</i> is dropped when not preceded by <i>g</i>
-    * {<i>gq</i>, <i>n</i>} becomes <i>q</i>
+    * {<i>qg</i>, <i>n</i>} becomes <i>q</i>
     * <i>d</i> becomes <i>t</i>
 
 8.  <i>r</i> is dropped when preceded by (palato-)alveolar consonants
