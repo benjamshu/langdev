@@ -4,4 +4,6 @@ The second level of evolution and abstraction from the initial PROTO-LANGUAGE. T
 
 ## phonological changes
 
-1.  <i>q</i> merges with <i>n</i>
+1. Syllable stress is shifted to the first syllable of all roots
+
+2.  <i>q</i> merges with <i>n</i>
