@@ -1634,4 +1634,64 @@
         <meaning xml:lang="en">sexual fluids (in particular, semen)</meaning>
         <etymology><wordref>ual-</wordref> + <wordref>muab</wordref></etymology>
     </word>
+    <!--  NAT  -->
+    <word>
+        <form class="n">nat</form>
+        <meaning xml:lang="en">nose</meaning>
+    </word>
+    <!--  NA:D  -->
+    <word>
+        <form class="v.cont">na:d</form>
+        <meaning xml:lang="en">be tasty; be delicious</meaning>
+    </word>
+    <word>
+        <form class="n">ná:daush</form>
+        <meaning xml:lang="en">deliciousness; good-taste</meaning>
+        <etymology><wordref>na:d</wordref> + <wordref>-aush</wordref></etymology>
+    </word>
+    <!--  NO:  -->
+    <word>
+        <form class="v.cont">no:</form>
+        <meaning xml:lang="en">love (another)</meaning>
+    </word>
+    <word>
+        <form class="noun">nua:g</form>
+        <meaning xml:lang="en">friend</meaning>
+        <etymology><wordref>no:</wordref> + <wordref>-ag</wordref></etymology>
+    </word>
+    <word>
+        <form class="noun">qanuá:g</form>
+        <meaning xml:lang="en">lover; relationship-partner; spouse</meaning>
+        <etymology><wordref>qa-</wordref> + <wordref>nuá:g</wordref></etymology>
+    </word>
+    <!--  ROQK  -->
+    <word>
+        <form class="v.cont">roqk</form>
+        <meaning xml:lang="en">be bearded</meaning>
+    </word>
+    <word>
+        <form class="v.prog">róqkug</form>
+        <meaning xml:lang="en">grow a beard</meaning>
+        <etymology><wordref>roqk</wordref> + <wordref>-ug</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uaróqk</form>
+        <meaning xml:lang="en">beard</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>róqk</wordref></etymology>
+    </word>
+    <!--  MO:Q  -->
+    <word>
+        <form class="n">mo:q</form>
+        <meaning xml:lang="en">brain</meaning>
+    </word>
+    <!--  QO:B  -->
+    <word>
+        <form class="v.pfv">qo:b</form>
+        <meaning xml:lang="en">spit</meaning>
+    </word>
+    <word>
+        <form class="n">uaqó:b</form>
+        <meaning xml:lang="en">spit</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>qo:b</wordref></etymology>
+    </word>
 </lexis>
