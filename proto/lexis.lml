@@ -790,7 +790,7 @@
     </word>
     <word>
         <form class="v.cont">buántri</form>
-        <meaning xml:lang="en">beak</meaning>
+        <meaning xml:lang="en">beak; pincer</meaning>
         <etymology><wordref>buant</wordref> + <wordref>-ri</wordref></etymology>
     </word>
     <!--  BI:Q  -->
@@ -1337,5 +1337,126 @@
         <form class="n">zhuágjo</form>
         <meaning xml:lang="en">flower</meaning>
         <etymology><wordref>zhuag</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <!--  KA:N  -->
+    <word>
+        <form class="n">ka:n</form>
+        <meaning xml:lang="en">lizard</meaning>
+    </word>
+    <!--  KATRI  -->
+    <word>
+        <form class="n">kátri</form>
+        <meaning xml:lang="en">arm; limb (of a tree)</meaning>
+        <etymology xml:lang="en">apparent influence from <wordref xml:lang="qpt">-ri</wordref></etymology>
+    </word>
+    <!--  KE:R  -->
+    <word>
+        <form class="v.pfv">ke:r</form>
+        <meaning xml:lang="en">run</meaning>
+    </word>
+    <word>
+        <form class="v.cont">ké:re:qg</form>
+        <meaning xml:lang="en">be running</meaning>
+        <etymology><wordref>ke:r</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.prog">ké:rob</form>
+        <meaning xml:lang="en">be running (towards somewhere)</meaning>
+        <etymology><wordref>ke:r</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">kéteri</form>
+        <meaning xml:lang="en">(wild) horse</meaning>
+        <etymology><wordref>ke:r</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  KOI  -->
+    <word>
+        <form class="n">koi</form>
+        <meaning xml:lang="en">wolf</meaning>
+    </word>
+    <!--  KE:K  -->
+    <word>
+        <form class="n">ke:k</form>
+        <meaning xml:lang="en">wild boar</meaning>
+    </word>
+    <word>
+        <form class="n">piké:k</form>
+        <meaning xml:lang="en">pig</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>ke:k</wordref></etymology>
+    </word>
+    <!--  KIP  -->
+    <word>
+        <form class="n">kip</form>
+        <meaning xml:lang="en">cherry</meaning>
+    </word>
+    <!--  KOQ  -->
+    <word>
+        <form class="n">koq</form>
+        <meaning xml:lang="en">ear</meaning>
+    </word>
+    <!--  KOR  -->
+    <word>
+        <form class="v.cont">kor</form>
+        <meaning xml:lang="en">be playing</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">kórno</form>
+        <meaning xml:lang="en">play</meaning>
+        <etymology><wordref>kor</wordref> + <wordref>-no</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">kóri</form>
+        <meaning xml:lang="en">goat</meaning>
+        <etymology><wordref>kor</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  KUAR  -->
+    <word>
+        <form class="v.pfv">kuar</form>
+        <meaning xml:lang="en">support; provide structure to</meaning>
+    </word>
+    <word>
+        <form class="v.cont">arkuár</form>
+        <meaning xml:lang="en">be supporting; be structuring</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>kuar</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">bekuár</form>
+        <meaning xml:lang="en">rib; structure</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>kuar</wordref></etymology>
+    </word>
+    <!--  KU:M  -->
+    <word>
+        <form class="v.prog">ku:m</form>
+        <meaning xml:lang="en">be in the process of drying or withering</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">kú:mla</form>
+        <meaning xml:lang="en">dry; wither</meaning>
+        <etymology><wordref>ku:m</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">kú:mgjo</form>
+        <meaning xml:lang="en">a withered body or plant; a skeleton</meaning>
+        <etymology><wordref>ku:m</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">pikú:m</form>
+        <meaning xml:lang="en">bone</meaning>
+        <etymolgy><wordref>pi-</wordref> + <wordref>ku:m</wordref></etymolgy>
+    </word>
+    <!--  MOQ  -->
+    <word>
+        <form class="n">moq</form>
+        <meaning xml:lang="en">marrow</meaning>
+    </word>
+    <!--  KUAQG  -->
+    <word>
+        <form class="v.cont">kuaqg</form>
+        <meaning xml:lang="en">be skinny</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">kuáqgtu</form>
+        <meaning xml:lang="en">become skinny</meaning>
+        <etymology><wordref>kuaqg</wordref> + <wordref>-tu</wordref></etymology>
     </word>
 </lexis>
