@@ -818,6 +818,11 @@
         <meaning xml:lang="en">feather</meaning>
         <etymology><wordref>bi:r</wordref> + <wordref>-aush</wordref></etymology>
     </word>
+    <word>
+        <form class="n">labi:r</form>
+        <meaning xml:lang="en">lung</meaning>
+        <etymology xml:lang="en">from <wordref xml:lang="qpt">bi:r</wordref></etymology>
+    </word>
     <!--  DAQ  -->
     <word>
         <form class="n">daq</form>
@@ -1270,7 +1275,7 @@
     </word>
     <word>
         <form class="n">pí:qo</form>
-        <meaning xml:lang="en">nut</meaning>
+        <meaning xml:lang="en">nut; glans</meaning>
         <etymology><wordref>pi-</wordref> + <wordref>gjoq</wordref></etymology>
     </word>
     <!--  ROISH  -->
@@ -1458,5 +1463,60 @@
         <form class="v.pfv">kuáqgtu</form>
         <meaning xml:lang="en">become skinny</meaning>
         <etymology><wordref>kuaqg</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <!--  LAT  -->
+    <word>
+        <form class="n">lat</form>
+        <meaning xml:lang="en">nape</meaning>
+    </word>
+    <!--  LAUK  -->
+    <word>
+        <form class="n">lauk</form>
+        <meaning xml:lang="en">shoulderblade</meaning>
+    </word>
+    <!--  LEW  -->
+    <word>
+        <form class="n">lew</form>
+        <meaning xml:lang="en">willow</meaning>
+    </word>
+    <!--  LEG  -->
+    <word>
+        <form class="n">leg</form>
+        <meaning xml:lang="en">land; earth</meaning>
+    </word>
+    <!--  LAU:M  -->
+    <word>
+        <form class="v.cont">lau:m</form>
+        <meaning xml:lang="en">be concave</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">láu:mtu</form>
+        <meaning xml:lang="en">become concave; cave inward</meaning>
+        <etymology><wordref>laum</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">lému:</form>
+        <meaning xml:lang="en">cave; hollow</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>laum</wordref></etymology>
+    </word>
+    <!--  LOIB  -->
+    <word>
+        <form class="v.pfv">loib</form>
+        <meaning xml:lang="en">sexually come; orgasm</meaning>
+    </word>
+    <word>
+        <form class="n">ualaíb</form>
+        <meaning xml:lang="en">sexual fluids (in particular, semen)</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>loib</wordref></etymology>
+    </word>
+    <!--  LOJ  -->
+    <word>
+        <form class="n">loj</form>
+        <meaning xml:lang="en">eggplant</meaning>
+    </word>
+    <!--  LOR  -->
+    <word>
+        <form class="n">lor</form>
+        <meaning xml:lang="en">fish</meaning>
     </word>
 </lexis>
