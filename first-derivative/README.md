@@ -1,6 +1,6 @@
 # THE LANGUAGE : FIRST DERIVATIVE
 
-The first level of evolution and abstraction from the initial PROTO-LANGUAGE. The first derivative helps to normalize the phonology of THE LANGUAGE and give it a unique character. The following general shifts and changes are recorded:
+The first level of evolution and abstraction from the initial PROTO-LANGUAGE; characters for writing are introduced here. The first derivative helps to normalize the phonology of THE LANGUAGE and give it a unique character. The following general shifts and changes are recorded:
 
 ## phonological changes
 
