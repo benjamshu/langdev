@@ -1499,16 +1499,6 @@
         <meaning xml:lang="en">cave; hollow</meaning>
         <etymology><wordref>le-</wordref> + <wordref>laum</wordref></etymology>
     </word>
-    <!--  LOIB  -->
-    <word>
-        <form class="v.pfv">loib</form>
-        <meaning xml:lang="en">sexually come; orgasm</meaning>
-    </word>
-    <word>
-        <form class="n">ualaíb</form>
-        <meaning xml:lang="en">sexual fluids (in particular, semen)</meaning>
-        <etymology><wordref>ual-</wordref> + <wordref>loib</wordref></etymology>
-    </word>
     <!--  LOJ  -->
     <word>
         <form class="n">loj</form>
@@ -1518,5 +1508,130 @@
     <word>
         <form class="n">lor</form>
         <meaning xml:lang="en">fish</meaning>
+    </word>
+    <!--  MA:G  -->
+    <word>
+        <form class="n">ma:g</form>
+        <meaning xml:lang="en">field; plain; flat area of land</meaning>
+    </word>
+    <!--  MAIZH  -->
+    <word>
+        <form class="v.cont">maizh</form>
+        <meaning xml:lang="en">be poisonous</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">maízhtu</form>
+        <meaning xml:lang="en">spoil</meaning>
+        <etymology><wordref>maizh</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">umadízh</form>
+        <meaning xml:lang="en">poison</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>maizh</wordref></etymology>
+    </word>
+    <!--  ME:G  -->
+    <word>
+        <form class="v.cont">me:g</form>
+        <meaning xml:lang="en">be hungry</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">mé:gtu</form>
+        <meaning xml:lang="en">become hungry; starve</meaning>
+        <etymology><wordref>me:g</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <!--  MER  -->
+    <word>
+        <form class="v.pfv">mer</form>
+        <meaning xml:lang="en">wound</meaning>
+    </word>
+    <word>
+        <form class="v.prog">mérob</form>
+        <meaning xml:lang="en">be in the process of wounding</meaning>
+        <etymology><wordref>mer</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">mérigjo</form>
+        <meaning xml:lang="en">wound</meaning>
+        <etymology><wordref>mer</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">arméri</form>
+        <meaning xml:lang="en">be wounded</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>mérigjo</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">arméritu</form>
+        <meaning xml:lang="en">become wounded</meaning>
+        <etymology><wordref>arméri</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <!--  PUM  -->
+    <word>
+        <form class="v.cont">pum</form>
+        <meaning xml:lang="en">be at the end</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">púmtu</form>
+        <meaning xml:lang="en">end</meaning>
+        <etymology><wordref>pum</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">púmob</form>
+        <meaning xml:lang="en">be ending or wrapping up</meaning>
+        <etymology><wordref>pum</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <!--  MOSH  -->
+    <word>
+        <form class="n">mosh</form>
+        <meaning xml:lang="en">moss</meaning>
+    </word>
+    <!--  MUAL  -->
+    <word>
+        <form class="n">mual</form>
+        <meaning xml:lang="en">spleen</meaning>
+    </word>
+    <!--  MU:N  -->
+    <word>
+        <form class="v.prog">mu:n</form>
+        <meaning xml:lang="en">be dying</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">mú:nla</form>
+        <meaning xml:lang="en">die</meaning>
+        <etymology><wordref>mu:n</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">mú:ngjo</form>
+        <meaning xml:lang="en">death</meaning>
+        <etymology><wordref>mu:n</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <!--  MUQ  -->
+    <word>
+        <form class="n">muq</form>
+        <meaning xml:lang="en">internal genitalia</meaning>
+    </word>
+    <!--  MUR  -->
+    <word>
+        <form class="n">mur</form>
+        <meaning xml:lang="en">the heartbeat; (metaphorically) life</meaning>
+    </word>
+    <word>
+        <form class="v.cont">armúr</form>
+        <meaning xml:lang="en">be alive</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>mur</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">armúrgjo</form>
+        <meaning xml:lang="en">life</meaning>
+        <etymology><wordref>armúr</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <!--  MUAB  -->
+    <word>
+        <form class="v.pfv">muab</form>
+        <meaning xml:lang="en">sexually climax; orgasm</meaning>
+    </word>
+    <word>
+        <form class="n">ualaíb</form>
+        <meaning xml:lang="en">sexual fluids (in particular, semen)</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>muab</wordref></etymology>
     </word>
 </lexis>
