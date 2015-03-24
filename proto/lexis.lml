@@ -144,6 +144,8 @@
         <form class="ptcl.mod.int">ma</form>
         <meaning xml:lang="en">interrogative modal particle</meaning>
     </word>
+    <!--
+    THESE DO NOT EXIST!!! Here for reference and possible conversion into verbs. Dwbi.
     <word>
         <form class="post adv">bu</form>
         <meaning xml:lang="en" class="post">passing across the top of</meaning>
@@ -238,6 +240,7 @@
         <meaning xml:lang="en" class="post">nominative marker</meaning>
         <meaning xml:lang="en" class="adv">in addition to that which has previously been said</meaning>
     </word>
+-->
     <word>
         <form class="det.qnt">gji</form>
         <meaning xml:lang="en">a, an; singular marker</meaning>
@@ -348,11 +351,11 @@
     <word>
         <form class="v.cont">zhir</form>
         <meaning xml:lang="en">be hairy</meaning>
-    <word>
-        <form class="n">zhíraush</form>
-        <meaning xml:lang="en">hair; fur</meaning>
-        <etymology><wordref>zhir</wordref> + <wordref>-aush</wordref></etymology>
-    </word>
+        <word>
+            <form class="n">zhíraush</form>
+            <meaning xml:lang="en">hair; fur</meaning>
+            <etymology><wordref>zhir</wordref> + <wordref>-aush</wordref></etymology>
+        </word>
     </word>
     <!--  QAIR  -->
     <word>

@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="qdd" xmlns="http://leaf.faint.xyz/lexisml">
-    <meta name="title" xml:lang="en">D2 LEXICAL</meta>
-    <meta name="description" xml:lang="en">A collection of all lexical words in the first derivative of THE LANGUAGE</meta>
-    <!--  FOREIGN WORDS  -->
+<lexis xml:lang="qfi" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title">FISANG</meta>
+    <meta name="description" xml:lang="en">A collection of all release-canidate words in FISANG</meta>
     <word>
-        <form class="n">fisaq</form>
+        <form class="n">fisang</form>
         <meaning xml:lang="en">THE LANGUAGE</meaning>
         <etymology xml:lang="en">from english <etyma>fiction</etyma></etymology>
     </word>
     <word>
-        <form class="n">hoqsi</form>
+        <form class="n">hongsi</form>
         <meaning xml:lang="en">character; glyph</meaning>
         <etymology xml:lang="en">from japanese <etyma lang="ja">漢字</etyma> (<mention lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
     </word>
-    <!--  IMITATIVE ORIGIN  -->
     <word>
         <form class="v">zipu</form>
         <meaning xml:lang="en">spit</meaning>
-        <etymology xml:lang="en">from D1 (of imitative origin); replaced PROTO-LANGUAGE <etyma xml:lang="qpt">uaqó:b</etyma></etymology>
+        <etymology xml:lang="en">from D1 (of imitative origin); replaced PROTO-FISANG <etyma xml:lang="qpt">uaqó:b</etyma></etymology>
     </word>
 </lexis>
