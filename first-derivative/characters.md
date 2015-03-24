@@ -52,9 +52,13 @@
 * 老 [U+8001] ro : old; elder
 * 月 [U+6708] ta : moon; month
 * 虫 [U+866B] ta : worm
+* 息 [U+606F] ta : breath; kiss
 * 皮 [U+76AE] ti : flesh; meat
 * 鹿 [U+9E7F] ti : deer; startle
+* 丼 [U+4E3C] ti : bite; food
+* 針 [U+91DD] ti : evergreen
 * 台 [U+53F0] tu : leg; support
+* 肩 [U+80A9] tu : shoulder; carry
 * 羊 [U+7F8A] sa : sheep; shepherd
 * 金 [U+91D1] se : metal; steadfast; steel
 * 遅 [U+9045] si : snail; slow

@@ -22,8 +22,6 @@ Syllable stress is shifted to the first syllable of all roots. In addition, ther
 
     The resulting nasal is pronounced as <i>q</i> when the preceeding consonant (if present, often in a preceeding syllable) is one of the following: <i>g</i>, <i>k</i>, <i>h</i> (but __not__ <i>f</i>), <i>s</i>, <i>z</i>, <i>w</i>; pronounced <i>n</i> otherwise.
 
-Finally, when a syllable ending in <i>i</i> is followed by one beginning with <i>y</i>, the <i>i</i> is not pronounced; the same holds true for <i>w</i> and <i>u</i>
-
 ## changes in syntax
 
 The number of irregular verbs is reduced, and the conjugation-system is simplified and perfected. Classifiers are consolidated and become a closed grammatical class.
