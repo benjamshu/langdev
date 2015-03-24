@@ -10,7 +10,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 3.  When a long vowel is followed by stop onset, the length of the stop is doubled and the vowel is shortened (<i>arbí:tu</i> > <i>arbíttu</i>)
 
-4.  Other long diphthongs are palatalized (<i>au:</i> > <i>aw</i>, <i>ai:</i> > <i>aj</i>, <i>ua:</i> > <i>wa</i>, <i>oi:</i> > <i>oj</i>)
+4.  Other long diphthongs are palatalized (<i>au:</i> > <i>aw</i>, <i>ai:</i> > <i>aj</i>, <i>ua:</i> > <i>wa</i>, <i>oi:</i> > <i>oj</i>); short diphthongs are separated
 
 5.  When a syllable coda contains a <i>w</i> or <i>j</i> followed by another consonant, the second consonant is moved into the onset of a new syllable with nucleus <i>e</i>
 
@@ -52,8 +52,28 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 15. Unaccented <i>e</i> becomes <i>a</i>; accented <i>e</i> becomes <i>/e/</i>
 
-## grammatical/morphological changes
+16. <i>au</i> becomes <i>aw</i>
 
-1.  <i>-e:qg</i> becomes a marker for the habitual aspect
+## changes in syntax
 
-2.  <i>-ug</i> now carries the meaning "become"
+Modal particles are shifted to the ends of words and some affixes detach, forming proper verbal conjugations. Many irregular forms exist, grandfathered in from THE PROTO-LANGUAGE.
+
+Some verbs are grammaticalized into dual-function postposition-adverbs, while some nouns are grammaticalized into classifiers. Noun phrases now consist of the following:
+
+1. Zero or more determiners
+2. Zero or one classifiers
+3. Zero or more relative clauses and postpositional phrases
+4. Exactly one noun
+5. Exactly one noun-case post-position
+
+This word-order is now fairly strict. With the addition of adverbs, general sentence word-order is now as follows:
+
+1. Zero or more noun prhases
+2. One or two verbs
+3. Zero or more adverbs
+
+Noun phrases must come before verbs, but adverbs may exist anywhere outside of a noun phrase.
+
+## orthography
+
+A character-based system of writing (<i lang="qdi">honzi</i>) is introduced, using japanese kanji as it's source. Characters are chosen for either their symbolic meaning or their on'yomi reading.
