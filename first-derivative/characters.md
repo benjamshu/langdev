@@ -5,7 +5,6 @@
 * 肉 [U+8089] bu : vagina; internal genetalia
 * 自 [U+81EA] da : nose
 * 友 [U+53CB] do : friend
-* 犬 [U+72AC] fa : monkey; lemur
 * 竹 [U+7AF9] fa : bamboo
 * 石 [U+77F3] fi : stone; bean
 * 甲 [U+7532] fi : ant; small insect
@@ -50,14 +49,24 @@
 * 刺 [U+523A] ri : thorn; prick; stab
 * 内 [U+5185] ri : alcohol; intoxication
 * 老 [U+8001] ro : old; elder
-* 月 [U+6708] ta : moon; month
-* 虫 [U+866B] ta : worm
-* 皮 [U+76AE] ti : flesh; meat
-* 鹿 [U+9E7F] ti : deer; startle
-* 台 [U+53F0] tu : leg; support
 * 羊 [U+7F8A] sa : sheep; shepherd
 * 金 [U+91D1] se : metal; steadfast; steel
 * 遅 [U+9045] si : snail; slow
 * 投 [U+6295] so : throw; shout; ejaculate
 * 猫 [U+732B] su : cat; feline
+* 月 [U+6708] ta : moon; month
+* 虫 [U+866B] ta : worm
+* 息 [U+606F] ta : breath; kiss
+* 皮 [U+76AE] ti : flesh; meat
+* 鹿 [U+9E7F] ti : deer; startle
+* 丼 [U+4E3C] ti : bite; food
+* 針 [U+91DD] ti : evergreen
+* 台 [U+53F0] tu : leg; support
+* 肩 [U+80A9] tu : shoulder; carry
+* 乳 [U+4E73] u : milk; breast
+* 頂 [U+9802] u : top; crown
+* 犬 [U+72AC] wa : dog
+* 氷 [U+6C37] wa : ice; snow; freeze
+* 汁 [U+6C41] wa : water; liquid; substance
+* 肘 [U+8098] wi : joint; elbow; knee
 * 字 [U+5B57] zi : word; character

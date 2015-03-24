@@ -10,7 +10,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 3.  When a long vowel is followed by stop onset, the length of the stop is doubled and the vowel is shortened (<i>arbí:tu</i> > <i>arbíttu</i>)
 
-4.  Other long diphthongs are palatalized (<i>au:</i> > <i>aw</i>, <i>ai:</i> > <i>aj</i>, <i>ua:</i> > <i>wa</i>, <i>oi:</i> > <i>oj</i>); short diphthongs are separated
+4.  Other long diphthongs are palatalized (<i>au:</i> > <i>a:w</i>, <i>ai:</i> > <i>a:j</i>, <i>ua:</i> > <i>wa:</i>, <i>oi:</i> > <i>o:j</i>); short diphthongs are separated
 
 5.  When a syllable coda contains a <i>w</i> or <i>j</i> followed by another consonant, the second consonant is moved into the onset of a new syllable with nucleus <i>e</i>
 
@@ -26,21 +26,23 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 9.  <i>r</i> is dropped when preceded by (palato-)alveolar consonants
 
-10. <i>zh</i> becomes <i>z</i> (<i>/ʑ/</i>) and <i>sh</i> becomes <i>s</i> (<i>/ɕ/</i>)
+10. <i>i</i> and <i>u</i> become <i>y</i> and <i>u</i> when followed by another vowel
 
-11. Several chain shifts occur:
+11. <i>zh</i> becomes <i>z</i> (<i>/ʑ/</i>) and <i>sh</i> becomes <i>s</i> (<i>/ɕ/</i>)
+
+12. Several chain shifts occur:
 
     * <i>gj</i> > <i>g</i> > <i>k</i> > <i>h</i>
     * <i>n</i> > <i>d</i> > <i>r</i> > <i>t</i>
     * <i>m</i> > <i>b</i> > <i>p</i> > <i>f</i>
 
-12. A few more shifts occur:
+13. A few more shifts occur:
 
     1. Onsets <i>g</i>, <i>d</i>, <i>b</i> become <i>q</i>, <i>n</i>, <i>m</i> when preceded by an stressed syllable
     2. Onsets <i>k</i>, <i>t</i>, <i>p</i> become <i>g</i>, <i>d</i>, <i>b</i> when preceded by an unstressed syllable
     3. Codas <i>k</i>, <i>t</i>, <i>p</i> become <i>g</i>, <i>d</i>, <i>b</i> when preceded by a complex (long or diphthong) nucleus
 
-13. The following codas are split off into new syllables with the given nuclei:
+14. The following codas are split off into new syllables with the given nuclei:
 
     * {<i>g</i>, <i>k</i>, <i>h</i>} : <i>a</i>
     * {<i>d</i>, <i>t</i>} : <i>i</i>
@@ -48,11 +50,11 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
     * {<i>l</i>, <i>r</i>} : <i>u</i>
     * {<i>j</i>, <i>w</i>} : <i>o</i>
 
-14. <i>l</i> becomes <i>n</i>
+15. <i>l</i> becomes <i>n</i>
 
-15. Unaccented <i>e</i> becomes <i>a</i>; accented <i>e</i> becomes <i>/e/</i>
+16. Unaccented <i>e</i> becomes <i>a</i>; accented <i>e</i> becomes <i>/e/</i>
 
-16. <i>au</i> becomes <i>aw</i>
+17. <i>yi</i> and <i>wu</i> are simplified to <i>i</i> and <i>u</i>
 
 ## changes in syntax
 
