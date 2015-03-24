@@ -327,11 +327,6 @@
         <meaning xml:lang="en">domestic cow</meaning>
         <etymology><wordref>abí:be</wordref> + <wordref>-ri</wordref></etymology>
     </word>
-    <!--  ABSHUG  -->
-    <word>
-        <form class="n">abshug</form>
-        <meaning xml:lang="en">domestic cat</meaning>
-    </word>
     <!--  AQÓB  -->
     <word>
         <form class="v.cont">aqób</form>
@@ -900,6 +895,11 @@
         <form class="n">uadázh</form>
         <meaning xml:lang="en">heat</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>dazh</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">ualdári</form>
+        <meaning xml:lang="en">sunlight; gold</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>dázhri</wordref></etymology>
     </word>
     <!--  DEM  -->
     <word>
@@ -2057,6 +2057,11 @@
         <form class="n">rad</form>
         <meaning xml:lang="en">moon; month</meaning>
     </word>
+    <word>
+        <form class="n">aurád</form>
+        <meaning xml:lang="en">moonlight; silver</meaning>
+        <etymology><wordref>au-</wordref> + <wordref>rad</wordref></etymology>
+    </word>
     <!--  RA:R  -->
     <word>
         <form class="n">ra:r</form>
@@ -2104,7 +2109,7 @@
     </word>
     <word>
         <form class="v.pfv">uarím</form>
-        <meaning xml:lang="en">speech; word</meaning>
+        <meaning xml:lang="en">speech; word; language</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>rim</wordref></etymology>
     </word>
     <!--  RI:G  -->
@@ -2191,5 +2196,85 @@
     <word>
         <form class="n">ru:t</form>
         <meaning xml:lang="en">knee</meaning>
+    </word>
+    <!--  SHAT  -->
+    <word>
+        <form class="v.cont">shat</form>
+        <meaning xml:lang="en">be shepherding</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">shátla</form>
+        <meaning xml:lang="en">shepherd</meaning>
+        <etymology><wordref>shat</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">shátag</form>
+        <meaning xml:lang="en">sheep</meaning>
+        <etymology><wordref>shat</wordref> + <wordref>-ag</wordref></etymology>
+    </word>
+    <!--  SHEG  -->
+    <word>
+        <form class="v.cont">sheg</form>
+        <meaning xml:lang="en">be steadfast; be unbendable</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">aushég</form>
+        <meaning xml:lang="en">metal; steel</meaning>
+        <etymology><wordref>au-</wordref> + <wordref>sheg</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">shégri</form>
+        <meaning xml:lang="en">leader; hero</meaning>
+        <etymology><wordref>sheg</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  SHIP  -->
+    <word>
+        <form class="n">ship</form>
+        <meaning xml:lang="en">snail</meaning>
+    </word>
+    <word>
+        <form class="v.cont">arshíp</form>
+        <meaning xml:lang="en">be slow; be moving slowly</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>ship</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">ioshíp</form>
+        <meaning xml:lang="en">snail-shell; spiral</meaning>
+        <etymology><wordref>ío-</wordref> + <wordref>ship</wordref></etymology>
+    </word>
+    <!--  SHI:SH  -->
+    <word>
+        <form class="v.cont">shi:sh</form>
+        <meaning xml:lang="en">be armoured</meaning>
+    </word>
+    <word>
+        <form class="n">beshí:sh</form>
+        <meaning xml:lang="en">armour; shell</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>shi:sh</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">pishí:sh</form>
+        <meaning xml:lang="en">beetle</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>shi:sh</wordref></etymology>
+    </word>
+    <!--  SHOB  -->
+    <word>
+        <form class="v.pfv">shob</form>
+        <meaning xml:lang="en">shout; throw; ejaculate</meaning>
+    </word>
+    <!--  SHOIR  -->
+    <word>
+        <form class="n">shoir</form>
+        <meaning xml:lang="en">placenta</meaning>
+    </word>
+    <!--  SHUG  -->
+    <word>
+        <form class="noun">shug</form>
+        <meaning xml:lang="en">feline</meaning>
+    </word>
+    <word>
+        <form class="n">pishúg</form>
+        <meaning xml:lang="en">domestic cat</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>shug</wordref></etymology>
     </word>
 </lexis>
