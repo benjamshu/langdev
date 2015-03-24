@@ -19,10 +19,4 @@
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
         <etymology xml:lang="en">from english <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from japanese <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
     </word>
-    <!--  IMITATIVE ORIGIN  -->
-    <word>
-        <form class="v">zipu</form>
-        <meaning xml:lang="en">spit</meaning>
-        <etymology xml:lang="en">from D1 (of imitative origin); replaced PROTO-LANGUAGE <etyma xml:lang="qpt">uaqó:b</etyma></etymology>
-    </word>
 </lexis>

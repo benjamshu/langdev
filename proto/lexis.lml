@@ -1992,11 +1992,6 @@
         <form class="n">qar</form>
         <meaning xml:lang="en">peach; plum; apricot</meaning>
     </word>
-    <!--  TASH  -->
-    <word>
-        <form class="v.pfv">tash</form>
-        <meaning xml:lang="en">kiss</meaning>
-    </word>
     <!--  QEG  -->
     <word>
         <form class="n">qeg</form>
@@ -2276,5 +2271,89 @@
         <form class="n">pishúg</form>
         <meaning xml:lang="en">domestic cat</meaning>
         <etymology><wordref>pi-</wordref> + <wordref>shug</wordref></etymology>
+    </word>
+    <!--  TASH  -->
+    <word>
+        <form class="v.pfv">tash</form>
+        <meaning xml:lang="en">breathe</meaning>
+    </word>
+    <word>
+        <form class="v.cont">táshe:qg</form>
+        <meaning xml:lang="en">be breathing; be healthy</meaning>
+        <etymology><wordref>tash</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">táshno</form>
+        <meaning xml:lang="en">kiss</meaning>
+        <etymology><wordref>tash</wordref> + <wordref>-no</wordref></etymology>
+    </word>
+    <!--  TID  -->
+    <word>
+        <form class="v.pfv">tid</form>
+        <meaning xml:lang="en">bite; chew</meaning>
+    </word>
+    <word>
+        <form class="n">tídri</form>
+        <meaning xml:lang="en">tooth; fang</meaning>
+        <etymology><wordref>tid</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">ualtíd</form>
+        <meaning xml:lang="en">food</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>tid</wordref></etymology>
+    </word>
+    <!--  TUQG  -->
+    <word>
+        <form class="v.cont">tuqg</form>
+        <meaning xml:lang="en">be hunting</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">túqgla</form>
+        <meaning xml:lang="en">hunt</meaning>
+        <etymology><wordref>tuqg</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">túqgag</form>
+        <meaning xml:lang="en">prey</meaning>
+        <etymology><wordref>tuqg</wordref> + <wordref>-ag</wordref></etymology>
+    </word>
+    <!--  TIK  -->
+    <word>
+        <form class="n">tik</form>
+        <meaning xml:lang="en">evergreen</meaning>
+    </word>
+    <!--  TIQK  -->
+    <word>
+        <form class="v.cont">tiqk</form>
+        <meaning xml:lang="en">be caring (for someone)</meaning>
+    </word>
+    <word>
+        <form class="v.cont">tíqkri</form>
+        <meaning xml:lang="en">caretaker</meaning>
+    </word>
+    <!--  TU:ZH  -->
+    <word>
+        <form class="n">tu:zh</form>
+        <meaning xml:lang="en">hawk; bird of prey</meaning>
+    </word>
+    <!--  TUK  -->
+    <word>
+        <form class="v.cont">tuk</form>
+        <meaning xml:lang="en">be carrying</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">túkno</form>
+        <meaning xml:lang="en">carry; help</meaning>
+        <etymology><wordref>tuq</wordref> + <wordref>-no</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">túkri</form>
+        <meaning xml:lang="en">shoulder</meaning>
+        <etymology><wordref>tuq</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  TU:M  -->
+    <word>
+        <form class="v.cont">tu:m</form>
+        <meaning xml:lang="en">hip</meaning>
     </word>
 </lexis>
