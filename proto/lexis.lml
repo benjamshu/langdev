@@ -532,6 +532,11 @@
         <form class="n">besh</form>
         <meaning xml:lang="en">maple tree</meaning>
     </word>
+    <word>
+        <form class="n">ualbésh</form>
+        <meaning xml:lang="en">wood</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>besh</wordref></etymology>
+    </word>
     <!--  BUA:L  -->
     <word>
         <form class="v.pfv">bua:l</form>
@@ -1488,7 +1493,7 @@
         <etymology><wordref>le-</wordref> + <wordref>ke:k</wordref></etymology>
     </word>
     <word>
-        <form class="n">piké:k</form>
+        <form class="n">piqé:k</form>
         <meaning xml:lang="en">pig</meaning>
         <etymology><wordref>pi-</wordref> + <wordref>ke:k</wordref></etymology>
     </word>
@@ -1611,6 +1616,16 @@
     <word>
         <form class="n">lor</form>
         <meaning xml:lang="en">fish</meaning>
+    </word>
+    <word>
+        <form class="v.cont">aglór</form>
+        <meaning xml:lang="en">be swimming</meaning>
+        <etymology><wordref>ag-</wordref> + <wordref>lor</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">aglórte</form>
+        <meaning xml:lang="en">swim</meaning>
+        <etymology><wordref>aglór</wordref> + <wordref>-te</wordref></etymology>
     </word>
     <!--  MA:G  -->
     <word>
@@ -1804,7 +1819,7 @@
     </word>
     <word>
         <form class="n">uaqó:b</form>
-        <meaning xml:lang="en">spit</meaning>
+        <meaning xml:lang="en">spit; saliva</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>qo:b</wordref></etymology>
     </word>
     <!--  PAI  -->
@@ -1911,5 +1926,130 @@
     <word>
         <form class="v.pfv">puash</form>
         <meaning xml:lang="en">fart</meaning>
+    </word>
+    <!--  QAD  -->
+    <word>
+        <form class="v.pfv">qad</form>
+        <meaning xml:lang="en">lick</meaning>
+    </word>
+    <word>
+        <form class="v.cont">qáde:qg</form>
+        <meaning xml:lang="en">be licking; be grooming</meaning>
+        <etymology><wordref>qad</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">qádri</form>
+        <meaning xml:lang="en">tongue</meaning>
+        <etymology><wordref>qad</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  QAUQG  -->
+    <word>
+        <form class="v.cont">qauqg</form>
+        <meaning xml:lang="en">be experiencing passion</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">qáuqgla</form>
+        <meaning xml:lang="en">experience passion; be passionate</meaning>
+        <etymology><wordref>qauqg</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">qáuqgaush</form>
+        <meaning xml:lang="en">passion</meaning>
+        <etymology><wordref>qauqg</wordref> + <wordref>-aush</wordref></etymology>
+    </word>
+    <!--  QAIZH  -->
+    <word>
+        <form class="v.pfv">qaizh</form>
+        <meaning xml:lang="en">perform oral sex ({fellatio, cunnilingus})</meaning>
+    </word>
+    <!-- QAUM  -->
+    <word>
+        <form class="v.pfv">qaum</form>
+        <meaning xml:lang="en">lick one's lips; anticipate</meaning>
+    </word>
+    <word>
+        <form class="v.cont">qáumiq</form>
+        <meaning xml:lang="en">be anticipating (something)</meaning>
+        <etymology><wordref>qaum</wordref> + <wordref>-iq</wordref></etymology>
+    </word>
+    <!--  QA:D  -->
+    <word>
+        <form class="v.pfv">qa:d</form>
+        <meaning xml:lang="en">taste; experience a flavour</meaning>
+    </word>
+    <word>
+        <form class="v.cont">arqá:d</form>
+        <meaning xml:lang="en">taste; have a flavour</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>qa:d</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">ualqá:d</form>
+        <meaning xml:lang="en">flavour</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>qa:d</wordref></etymology>
+    </word>
+    <!--  QAR  -->
+    <word>
+        <form class="n">qar</form>
+        <meaning xml:lang="en">peach; plum; apricot</meaning>
+    </word>
+    <!--  TASH  -->
+    <word>
+        <form class="v.pfv">tash</form>
+        <meaning xml:lang="en">kiss</meaning>
+    </word>
+    <!--  QEG  -->
+    <word>
+        <form class="n">qeg</form>
+        <meaning xml:lang="en">body; tree trunk</meaning>
+    </word>
+    <!--  QESH  -->
+    <word>
+        <form class="v.cont">qesh</form>
+        <meaning xml:lang="en">be resting</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">qéshla</form>
+        <meaning xml:lang="en">rest; recover</meaning>
+        <etymology><wordref>qesh</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">qéshob</form>
+        <meaning xml:lang="en">be in the process of recovery</meaning>
+        <etymology><wordref>qesh</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">leqésh</form>
+        <meaning xml:lang="en">bed; palm</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>qesh</wordref></etymology>
+    </word>
+    <!--  QOD  -->
+    <word>
+        <form class="v.cont">qod</form>
+        <meaning xml:lang="en">be multicoloured; be diverse</meaning>
+    </word>
+    <word>
+        <form class="v.cont">uaqód</form>
+        <meaning xml:lang="en">rainbow</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>qod</wordref></etymology>
+    </word>
+    <!--  QOIR  -->
+    <word>
+        <form class="n">qoir</form>
+        <meaning xml:lang="en">chipmunk; squirrel</meaning>
+    </word>
+    <!--  QUT  -->
+    <word>
+        <form class="v.pfv">qut</form>
+        <meaning xml:lang="en">gather</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">qúte:qg</form>
+        <meaning xml:lang="en">be gathering</meaning>
+        <etymology><wordref>qut</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">beqút</form>
+        <meaning xml:lang="en">pouch; scrotum</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>qut</wordref></etymology>
     </word>
 </lexis>
