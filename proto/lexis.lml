@@ -1464,7 +1464,7 @@
     </word>
     <word>
         <form class="v.prog">ké:rob</form>
-        <meaning xml:lang="en">be running (towards somewhere)</meaning>
+        <meaning xml:lang="en">head out; be leaving a location</meaning>
         <etymology><wordref>ke:r</wordref> + <wordref>-ob</wordref></etymology>
     </word>
     <word>
@@ -1835,7 +1835,7 @@
     <!--  PAR  -->
     <word>
         <form class="n">par</form>
-        <meaning xml:lang="en">butterfly; moth</meaning>
+        <meaning xml:lang="en">butterfly</meaning>
     </word>
     <!--  PAIM  -->
     <word>
@@ -2051,5 +2051,145 @@
         <form class="n">beqút</form>
         <meaning xml:lang="en">pouch; scrotum</meaning>
         <etymology><wordref>be-</wordref> + <wordref>qut</wordref></etymology>
+    </word>
+    <!--  RAD  -->
+    <word>
+        <form class="n">rad</form>
+        <meaning xml:lang="en">moon; month</meaning>
+    </word>
+    <!--  RA:R  -->
+    <word>
+        <form class="n">ra:r</form>
+        <meaning xml:lang="en">moth</meaning>
+    </word>
+    <!--  RAQ  -->
+    <word>
+        <form class="n">raq</form>
+        <meaning xml:lang="en">worm</meaning>
+    </word>
+    <!--  RO:B  -->
+    <word>
+        <form class="v.cont">ro:b</form>
+        <meaning xml:lang="en">be menstruating</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">ró:bla</form>
+        <meaning xml:lang="en">experience menarche; come of age</meaning>
+        <etymology><wordref>ro:b</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">urá:l</form>
+        <meaning xml:lang="en">menses</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>ro:b</wordref></etymology>
+    </word>
+    <!--  RIQG  -->
+    <word>
+        <form class="v.pfv">riqg</form>
+        <meaning xml:lang="en">cough</meaning>
+    </word>
+    <word>
+        <form class="v.cont">ríqge:qg</form>
+        <meaning xml:lang="en">have a cough; have a cold</meaning>
+        <etymology><wordref>riqg</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <!--  RIM  -->
+    <word>
+        <form class="v.pfv">rim</form>
+        <meaning xml:lang="en">speak; converse</meaning>
+    </word>
+    <word>
+        <form class="v.cont">rímiq</form>
+        <meaning xml:lang="en">be speaking; be having a conversation</meaning>
+        <etymology><wordref>rim</wordref> + <wordref>-iq</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">uarím</form>
+        <meaning xml:lang="en">speech; word</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>rim</wordref></etymology>
+    </word>
+    <!--  RI:G  -->
+    <word>
+        <form class="v.pfv">ri:g</form>
+        <meaning xml:lang="en">be travelling</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">rí:gte</form>
+        <meaning xml:lang="en">travel; move</meaning>
+        <etymology><wordref>ri:g</wordref> + <wordref>-te</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.prog">rí:gob</form>
+        <meaning xml:lang="en">go (somewhere); approach a place</meaning>
+        <etymology><wordref>ri:g</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">rí:gri</form>
+        <meaning xml:lang="en">traveller</meaning>
+        <etymology><wordref>ri:g</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  RISH  -->
+    <word>
+        <form class="n">rish</form>
+        <meaning xml:lang="en">flesh; meat</meaning>
+    </word>
+    <!--  RIT  -->
+    <word>
+        <form class="v.pfv">rit</form>
+        <meaning xml:lang="en">be startled</meaning>
+    </word>
+    <word>
+        <form class="n">rítri</form>
+        <meaning xml:lang="en">deer</meaning>
+        <etymology><wordref>rit</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">rítshu</form>
+        <meaning xml:lang="en">startle (another)</meaning>
+        <etymology><wordref>rit</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <!--  RASH  -->
+    <word>
+        <form class="v.pfv">rash</form>
+        <meaning xml:lang="en">stir; awaken (oneself)</meaning>
+    </word>
+    <word>
+        <form class="v.prog">ráshob</form>
+        <meaning xml:lang="en">be in the process of waking</meaning>
+        <etymology><wordref>rash</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">ritáshu</form>
+        <meaning xml:lang="en">wake (another)</meaning>
+        <etymology><wordref>rash</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <!--  RUAL  -->
+    <word>
+        <form class="v.cont">rual</form>
+        <meaning xml:lang="en">be flowing</meaning>
+    </word>
+    <word>
+        <form class="n">ruálri</form>
+        <meaning xml:lang="en">river</meaning>
+        <etymology><wordref>rual</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  RUG  -->
+    <word>
+        <form class="v.cont">rug</form>
+        <meaning xml:lang="en">hold up; support</meaning>
+    </word>
+    <word>
+        <form class="n">berúg</form>
+        <meaning xml:lang="en">leg</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>rug</wordref></etymology>
+    </word>
+    <!--  ROI:  -->
+    <word>
+        <form class="n">roi:</form>
+        <meaning xml:lang="en">ankle</meaning>
+    </word>
+    <!--  RU:T  -->
+    <word>
+        <form class="n">ru:t</form>
+        <meaning xml:lang="en">knee</meaning>
     </word>
 </lexis>

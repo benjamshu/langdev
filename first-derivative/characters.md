@@ -7,7 +7,6 @@
 * 友 [U+53CB] do : friend
 * 犬 [U+72AC] fa : monkey; lemur
 * 竹 [U+7AF9] fa : bamboo
-* 虫 [U+866B] fa : moth; butterfly
 * 石 [U+77F3] fi : stone; bean
 * 甲 [U+7532] fi : ant; small insect
 * 小 [U+5C0F] fi : mouse; rat; small mammal
@@ -51,3 +50,8 @@
 * 刺 [U+523A] ri : thorn; prick; stab
 * 内 [U+5185] ri : alcohol; intoxication
 * 老 [U+8001] ro : old; elder
+* 月 [U+6708] ta : moon; month
+* 虫 [U+866B] ta : worm
+* 皮 [U+76AE] ti : flesh; meat
+* 鹿 [U+9E7F] ti : deer; startle
+* 台 [U+53F0] tu : leg; support
