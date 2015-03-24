@@ -1908,6 +1908,11 @@
         <meaning xml:lang="en">be glistening; be sparkling</meaning>
     </word>
     <word>
+        <form class="v.pfv">rádte</form>
+        <meaning xml:lang="en">blink</meaning>
+        <etymology><wordref>rad</wordref> + <wordref>-te</wordref></etymology>
+    </word>
+    <word>
         <form class="v.pfv">rádtu</form>
         <meaning xml:lang="en">blind</meaning>
         <etymology><wordref>rad</wordref> + <wordref>-tu</wordref></etymology>
@@ -2355,5 +2360,55 @@
     <word>
         <form class="v.cont">tu:m</form>
         <meaning xml:lang="en">hip</meaning>
+    </word>
+    <!--  UQOB  -->
+    <word>
+        <form class="v.cont">uqób</form>
+        <meaning xml:lang="en">be aroused</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">uqóbshu</form>
+        <meaning xml:lang="en">arouse (another)</meaning>
+        <etymology><wordref>uqob</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">uqóbshiq</form>
+        <meaning xml:lang="en">be arousing</meaning>
+        <etymology><wordref>uqóbshu</wordref> + <wordref>-iq</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">ualqób</form>
+        <meaning xml:lang="en">vaginal lubrication</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>uqob</wordref></etymology>
+    </word>
+    <!--  RUAG  -->
+    <word>
+        <form class="v.pfv">ruag</form>
+        <meaning xml:lang="en">gurgle</meaning>
+    </word>
+    <!--  RIZH  -->
+    <word>
+        <form class="v.cont">rizh</form>
+        <meaning xml:lang="en">be humping</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">rízhno</form>
+        <meaning xml:lang="en">hump</meaning>
+        <etymology><wordref>rizh</wordref> + <wordref>-no</wordref></etymology>
+    </word>
+    <!--  RUA:L -->
+    <word>
+        <form class="v.cont">rua:l</form>
+        <meaning xml:lang="en">be swaying; be ebbing and flowing</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">ruá:lshu</form>
+        <meaning xml:lang="en">falter</meaning>
+        <etymology><wordref>rua:l</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">ruá:lri</form>
+        <meaning xml:lang="en">wave</meaning>
+        <etymology><wordref>rua:l</wordref> + <wordref>-ri</wordref></etymology>
     </word>
 </lexis>
