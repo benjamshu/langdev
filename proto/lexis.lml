@@ -709,7 +709,12 @@
     <!--  BUAG  -->
     <word>
         <form class="n">buag</form>
-        <meaning xml:lang="en">onion</meaning>
+        <meaning xml:lang="en">onion; leek</meaning>
+    </word>
+    <word>
+        <form class="n">pibuág</form>
+        <meaning xml:lang="en">garlic</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>buág</wordref></etymology>
     </word>
     <!--  BUSHÓ  -->
     <word>
@@ -1464,7 +1469,7 @@
     </word>
     <word>
         <form class="v.pfv">kuáqgtu</form>
-        <meaning xml:lang="en">become skinny</meaning>
+        <meaning xml:lang="en">lose weight</meaning>
         <etymology><wordref>kuaqg</wordref> + <wordref>-tu</wordref></etymology>
     </word>
     <!--  LAT  -->
@@ -1582,6 +1587,11 @@
         <meaning xml:lang="en">be ending or wrapping up</meaning>
         <etymology><wordref>pum</wordref> + <wordref>-ob</wordref></etymology>
     </word>
+    <word>
+        <form class="n">lepúm</form>
+        <meaning xml:lang="en">end; butt</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>pum</wordref></etymology>
+    </word>
     <!--  MOSH  -->
     <word>
         <form class="n">mosh</form>
@@ -1696,5 +1706,90 @@
         <form class="n">uaqó:b</form>
         <meaning xml:lang="en">spit</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>qo:b</wordref></etymology>
+    </word>
+    <!--  PAI  -->
+    <word>
+        <form class="n">pai</form>
+        <meaning xml:lang="en">monkey; lemur</meaning>
+    </word>
+    <!--  PAM  -->
+    <word>
+        <form class="n">pam</form>
+        <meaning xml:lang="en">bamboo</meaning>
+    </word>
+    <!--  PAR  -->
+    <word>
+        <form class="n">par</form>
+        <meaning xml:lang="en">butterfly; moth</meaning>
+    </word>
+    <!--  PAIM  -->
+    <word>
+        <form class="v.pfv">paim</form>
+        <meaning xml:lang="en">sow; plant</meaning>
+    </word>
+    <word>
+        <form class="v.cont">páime:qg</form>
+        <meaning xml:lang="en">be sowing; be planting</meaning>
+        <etymology><wordref>paim</wordref> + <wordref>-e:qg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">pibáim</form>
+        <meaning xml:lang="en">seed; grain</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>paim</wordref></etymology>
+    </word>
+    <!--  PIG  -->
+    <word>
+        <form class="v.cont">pig</form>
+        <meaning xml:lang="en">be hard; be stone-like</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">pígtu</form>
+        <meaning xml:lang="en">harden; stiffen</meaning>
+        <etymology><wordref>pig</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.prog">pígug</form>
+        <meaning xml:lang="en">become hard; form an erection</meaning>
+        <etymology><wordref>pig</wordref> + <wordref>-ug</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">lepíg</form>
+        <meaning xml:lang="en">stone</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>pig</wordref></etymology>
+    </word>
+    <!--  PAUQ  -->
+    <word>
+        <form class="v.pfv">pauq</form>
+        <meaning xml:lang="en">shut; close; sheathe</meaning>
+    </word>
+    <word>
+        <form class="v.prog">páuqob</form>
+        <meaning xml:lang="en">be in the process of closing, shutting, sheathing</meaning>
+        <etymology><wordref>pauq</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">arpáuq</form>
+        <meaning xml:lang="en">be closed; be sheathed</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>pauq</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">arpáu:sh</form>
+        <meaning xml:lang="en">clitoris</meaning>
+        <etymology><wordref>arpauq</wordref> + <wordref>-aush</wordref></etymology>
+    </word>
+    <!--  PIQ  -->
+    <word>
+        <form class="n">piq</form>
+        <meaning xml:lang="en">ant; bug (small)</meaning>
+    </word>
+    <!--  PIR  -->
+    <word>
+        <form class="n">pir</form>
+        <meaning xml:lang="en">mouse; rodent; small mammal</meaning>
+    </word>
+    <!--  PUASH  -->
+    <word>
+        <form class="v.pfv">puash</form>
+        <meaning xml:lang="en">fart</meaning>
     </word>
 </lexis>

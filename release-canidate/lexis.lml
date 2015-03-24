@@ -11,7 +11,12 @@
     <word>
         <form class="n">hongsi</form>
         <meaning xml:lang="en">character; glyph</meaning>
-        <etymology xml:lang="en">from japanese <etyma lang="ja">漢字</etyma> (<mention lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
+        <etymology xml:lang="en">from japanese <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
+    </word>
+    <word>
+        <form class="n">demasi</form>
+        <meaning xml:lang="en">latin letter; latin lettering</meaning>
+        <etymology xml:lang="en">from english <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from japanese <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
     </word>
     <word>
         <form class="v">zipu</form>
