@@ -55,3 +55,9 @@
 * 皮 [U+76AE] ti : flesh; meat
 * 鹿 [U+9E7F] ti : deer; startle
 * 台 [U+53F0] tu : leg; support
+* 羊 [U+7F8A] sa : sheep; shepherd
+* 金 [U+91D1] se : metal; steadfast; steel
+* 遅 [U+9045] si : snail; slow
+* 投 [U+6295] so : throw; shout; ejaculate
+* 猫 [U+732B] su : cat; feline
+* 字 [U+5B57] zi : word; character
