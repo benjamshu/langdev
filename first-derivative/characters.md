@@ -4,6 +4,7 @@
 * 生 [U+751F] bu : heartbeat; pulse; life
 * 肉 [U+8089] bu : vagina; internal genetalia
 * 自 [U+81EA] da : nose
+* 堆 [U+5806] de : pile; heap
 * 友 [U+53CB] do : friend
 * 竹 [U+7AF9] fa : bamboo
 * 石 [U+77F3] fi : stone; bean
@@ -57,6 +58,7 @@
 * 月 [U+6708] ta : moon; month
 * 虫 [U+866B] ta : worm
 * 息 [U+606F] ta : breath; kiss
+* 党 [U+515A] te : group; community; gather(ing)
 * 皮 [U+76AE] ti : flesh; meat
 * 鹿 [U+9E7F] ti : deer; startle
 * 丼 [U+4E3C] ti : bite; food
@@ -69,4 +71,6 @@
 * 氷 [U+6C37] wa : ice; snow; freeze
 * 汁 [U+6C41] wa : water; liquid; substance
 * 肘 [U+8098] wi : joint; elbow; knee
+* 根 [U+6839] za : root; ginger
 * 字 [U+5B57] zi : word; character
+* 毛 [U+6BDB] zi : hair
