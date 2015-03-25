@@ -1074,7 +1074,7 @@
     </word>
     <word>
         <form class="n">legét</form>
-        <meaning xml:lang="en">foundation; root</meaning>
+        <meaning xml:lang="en">foundation; base</meaning>
         <etymology><wordref>le-</wordref> + <wordref>get</wordref></etymology>
     </word>
     <!--  GJON  -->
@@ -2586,5 +2586,130 @@
         <form class="n">lu:sh</form>
         <meaning xml:lang="en">start; crown of the head</meaning>
         <etymology><wordref>le-</wordref> + <wordref>u:sh</wordref></etymology>
+    </word>
+    <!--  ZHAG  -->
+    <word>
+        <form class="n">zhag</form>
+        <meaning xml:lang="en">root; ginger</meaning>
+    </word>
+    <!--  ZHE:QG  -->
+    <word>
+        <form class="v.cont">zhe:qg</form>
+        <meaning xml:lang="en">be growing</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">zhé:qgla</form>
+        <meaning xml:lang="en">grow (up)</meaning>
+        <etymology><wordref>zhe:qg</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.prog">zhé:qgob</form>
+        <meaning xml:lang="en">be maturing</meaning>
+        <etymology><wordref>zhe:qg</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">bezhé:qg</form>
+        <meaning xml:lang="en">plant</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>zhe:qg</wordref></etymology>
+    </word>
+    <!--  ZHID  -->
+    <word>
+        <form class="v.cont">zhid</form>
+        <meaning xml:lang="en">be burning</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">zhídla</form>
+        <meaning xml:lang="en">burn</meaning>
+        <etymology><wordref>zhid</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">zhídri</form>
+        <meaning xml:lang="en">fire</meaning>
+        <etymology><wordref>zhid</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  ZHIL  -->
+    <word>
+        <form class="v.cont">zhil</form>
+        <meaning xml:lang="en">be tied (up)</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">zhílshu</form>
+        <meaning xml:lang="en">tie; knot</meaning>
+        <etymology><wordref>zhil</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">zhílgjo</form>
+        <meaning xml:lang="en">knot</meaning>
+        <etymology><wordref>zhil</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <!--  DEG  -->
+    <word>
+        <form class="v.pfv">deg</form>
+        <meaning xml:lang="en">pile (up)</meaning>
+    </word>
+    <word>
+        <form class="v.cont">ardég</form>
+        <meaning xml:lang="en">be piled (up)</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>deg</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">dégjo</form>
+        <meaning xml:lang="en">pile; heap</meaning>
+        <etymology><wordref>deg</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <!--  TE:QG  -->
+    <word>
+        <form class="v.cont">te:qg</form>
+        <meaning xml:lang="en">be abundant</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">té:qgshu</form>
+        <meaning xml:lang="en">multiply; have children</meaning>
+        <etymology><wordref>te:qg</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <!--  MA:Q  -->
+    <word>
+        <form class="v.pfv">ma:q</form>
+        <meaning xml:lang="en">bundle; bind</meaning>
+    </word>
+    <word>
+        <form class="n">má:qgo</form>
+        <meaning xml:lang="en">bundle; book</meaning>
+        <etymology><wordref>ma:q</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">bemá:q</form>
+        <meaning xml:lang="en">rope; cord</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>ma:q</wordref></etymology>
+    </word>
+    <!--  TEQ  -->
+    <word>
+        <form class="v.pfv">teq</form>
+        <meaning xml:lang="en">gather (together, as a community)</meaning>
+    </word>
+    <word>
+        <form class="v.prog">téqiq</form>
+        <meaning xml:lang="en">be in the process of gathering together (a community)</meaning>
+        <etymology><wordref>teq</wordref> + <wordref>-iq</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">téqgo</form>
+        <meaning xml:lang="en">gathering</meaning>
+        <etymology><wordref>teq</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">téqri</form>
+        <meaning xml:lang="en">community</meaning>
+        <etymology><wordref>teq</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  TE:QG  -->
+    <word>
+        <form class="n">te:qg</form>
+        <meaning xml:lang="en">thing; item</meaning>
+    </word>
+    <!--  TA:SH  -->
+    <word>
+        <form class="v.pfv">ta:sh</form>
+        <meaning xml:lang="en">marry</meaning>
     </word>
 </lexis>
