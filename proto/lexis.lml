@@ -448,6 +448,11 @@
         <meaning xml:lang="en">suck</meaning>
     </word>
     <word>
+        <form class="n">shá:dri</form>
+        <meaning xml:lang="en">leech</meaning>
+        <etymology><wordref>sh:ad</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
         <form class="v.pfv">qashád</form>
         <meaning xml:lang="en">suckle (another)</meaning>
         <etymology><wordref>qa-</wordref> + <wordref>sha:d</wordref></etymology>
@@ -455,12 +460,12 @@
     <word>
         <form class="v.cont">qashádur</form>
         <meaning xml:lang="en">be suckling (another)</meaning>
-        <etymology><wordref>qa-</wordref> + <wordref>sha:d</wordref> + <wordref>-ur</wordref></etymology>
+        <etymology><wordref>qashád</wordref> + <wordref>-ur</wordref></etymology>
     </word>
     <word>
         <form class="n">qashádri</form>
         <meaning xml:lang="en">wetnurse</meaning>
-        <etymology><wordref>qa-</wordref> + <wordref>sha:d</wordref> + <wordref>-ri</wordref></etymology>
+        <etymology><wordref>qashád</wordref> + <wordref>-ri</wordref></etymology>
     </word>
     <!--  SHARÍSH  -->
     <word>
@@ -1333,8 +1338,18 @@
     </word>
     <!--  LUAG  -->
     <word>
-        <form class="n">luag</form>
-        <meaning xml:lang="en">cliff</meaning>
+        <form class="v.pfv">luag</form>
+        <meaning xml:lang="en">cut; break off</meaning>
+    </word>
+    <word>
+        <form class="n">légjo</form>
+        <meaning xml:lang="en">cut; cliff</meaning>
+        <etymology><wordref>luag</wordref> + <wordref>-gjo</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">beluág</form>
+        <meaning xml:lang="en">blade; knife; wedge</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>luag</wordref></etymology>
     </word>
     <!--  GJOMÚQ  -->
     <word>
@@ -1693,8 +1708,8 @@
         <etymology><wordref>pum</wordref> + <wordref>-tu</wordref></etymology>
     </word>
     <word>
-        <form class="v.pfv">púmob</form>
-        <meaning xml:lang="en">be ending or wrapping up</meaning>
+        <form class="v.prog">púmob</form>
+        <meaning xml:lang="en">be finishing or wrapping up</meaning>
         <etymology><wordref>pum</wordref> + <wordref>-ob</wordref></etymology>
     </word>
     <word>
@@ -2410,5 +2425,166 @@
         <form class="n">ruá:lri</form>
         <meaning xml:lang="en">wave</meaning>
         <etymology><wordref>rua:l</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <!--  UAB  -->
+    <word>
+        <form class="n">ua:b</form>
+        <meaning xml:lang="en">dog</meaning>
+    </word>
+    <!--  UAG  -->
+    <word>
+        <form class="n">ua:g</form>
+        <meaning xml:lang="en">cucumber</meaning>
+    </word>
+    <!--  UAK  -->
+    <word>
+        <form class="v.cont">uak</form>
+        <meaning xml:lang="en">be frozen; be cold</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">uákla</form>
+        <meaning xml:lang="en">freeze</meaning>
+        <etymology><wordref>uak</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">ua:lák</form>
+        <meaning xml:lang="en">ice; snow; hail</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>uak</wordref></etymology>
+    </word>
+    <!--  LE:G  -->
+    <word>
+        <form class="n">le:g</form>
+        <meaning xml:lang="en">swamp</meaning>
+    </word>
+    <!--  NA:T  -->
+    <word>
+        <form class="v.cont">na:t</form>
+        <meaning xml:lang="en">(of a nose) be runny; have a runny nose</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">ná:tsho</form>
+        <meaning xml:lang="en">sneeze</meaning>
+        <etymology><wordref>na:t</wordref> + <wordref>-sho</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uanát</form>
+        <meaning xml:lang="en">snot</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>nat</wordref></etymology>
+    </word>
+    <!--  RAUZH  -->
+    <word>
+        <form class="v.cont">rauzh</form>
+        <meaning xml:lang="en">be crying</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">ráuzhno</form>
+        <meaning xml:lang="en">have a cry</meaning>
+        <etymology><wordref>rauzh</wordref> + <wordref>-no</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uarózh</form>
+        <meaning xml:lang="en">tear (from crying)</meaning>
+        <etymology><wordref>ua-</wordref> + <wordref>rauzh</wordref></etymology>
+    </word>
+    <!--  RI:Q  -->
+    <word>
+        <form class="n">ri:q</form>
+        <meaning xml:lang="en">centipede</meaning>
+    </word>
+    <!--  UMIT  -->
+    <word>
+        <!--  to WIT  -->
+        <form class="v.pfv">umit</form>
+        <meaning xml:lang="en">bend</meaning>
+    </word>
+    <word>
+        <form class="v.cont">arumít</form>
+        <meaning xml:lang="en">be bent</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>umit</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">lemít</form>
+        <meaning xml:lang="en">joint; elbow; knee</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>umit</wordref></etymology>
+    </word>
+    <!--  UA:B  -->
+    <word>
+        <form class="v.cont">ua:b</form>
+        <meaning xml:lang="en">be lactating; be producing milk</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">uá:bno</form>
+        <meaning xml:lang="en">nurse</meaning>
+        <etymology><wordref>ua:b</wordref> + <wordref>-no</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">uá:bri</form>
+        <meaning xml:lang="en">woman</meaning>
+        <etymology><wordref>ua:b</wordref> + <wordref>-ri</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">luá:b</form>
+        <meaning xml:lang="en">boob; breast; nipple</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>ua:b</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.cont">ulób</form>
+        <meaning xml:lang="en">milk</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>ua:b</wordref></etymology>
+    </word>
+    <!--  U:QG  -->
+    <word>
+        <form class="v.pfv">u:qg</form>
+        <meaning xml:lang="en">drink</meaning>
+    </word>
+    <word>
+        <form class="n">ua:g</form>
+        <meaning xml:lang="en">drink; liquid; fluid</meaning>
+        <etymology><wordref>ual-</wordref> + <wordref>u:qg</wordref> (+ <wordref>-ag</wordref>?)</etymology>
+    </word>
+    <!--  MOIQ  -->
+    <word>
+        <form class="v.cont">moiq</form>
+        <meaning xml:lang="en">be masturbating</meaning>
+    </word>
+    <word>
+        <form class="v.cont">moíqla</form>
+        <meaning xml:lang="en">masturbate</meaning>
+        <etymology><wordref>moiq</wordref> + <wordref>-la</wordref></etymology>
+    </word>
+    <!--  RU:ZH  -->
+    <word>
+        <form class="v.cont">ru:zh</form>
+        <meaning xml:lang="en">be covering; be obscuring</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">rú:shu</form>
+        <meaning xml:lang="en">cover; mask; lie</meaning>
+        <etymology><wordref>ru:zh</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">berú:zh</form>
+        <meaning xml:lang="en">cover; lid; shirt</meaning>
+        <etymology><wordref>be-</wordref> + <wordref>ru:zh</wordref></etymology>
+    </word>
+    <!--  U:SH  -->
+    <word>
+        <form class="v.cont">u:sh</form>
+        <meaning xml:lang="en">be at the beginning</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">ú:shtu</form>
+        <meaning xml:lang="en">start</meaning>
+        <etymology><wordref>u:sh</wordref> + <wordref>-tu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.prog">ú:shob</form>
+        <meaning xml:lang="en">be starting or setting out</meaning>
+        <etymology><wordref>u:sh</wordref> + <wordref>-ob</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">lu:sh</form>
+        <meaning xml:lang="en">start; crown of the head</meaning>
+        <etymology><wordref>le-</wordref> + <wordref>u:sh</wordref></etymology>
     </word>
 </lexis>
