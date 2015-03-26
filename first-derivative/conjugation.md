@@ -121,3 +121,27 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | w-form | -iu          | -iwe        | -iwa       | -iun                | -iwen              | -iwan             |
 | y-form | -iyu         | -iye        | -iya       | -iyun               | -iyen              | -iyan             |
 | z-form | -izu         | -ize        | -iza       | -zyun               | -zyen              | -zyan             |
+
+## potential (ability)
+
+|  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
+| ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
+| a-form | -Canute      | -Cate       | -Cate      | -Canuten            | -Caten             | -Caten            |
+| e-form | -Cenute      | -Cete       | -Cenate    | -Cenuten            | -Ceten             | -Cenaten          |
+| V-form | -Vute        | -Vete       | -Vate      | -Vuten              | -Veten             | -Vaten            |
+| b-form | -bute        | -bete       | -bate      | -buten              | -beten             | -baten            |
+| d-form | -dute        | -dete       | -date      | -duten              | -deten             | -daten            |
+| f-form | -fute        | -fete       | -fate      | -futen              | -feten             | -faten            |
+| g-form | -gute        | -gete       | -gate      | -guten              | -geten             | -gaten            |
+| h-form | -hute        | -hete       | -hate      | -huten              | -heten             | -haten            |
+| k-form | -kute        | -kete       | -kate      | -kuten              | -keten             | -katen            |
+| m-form | -mute        | -mete       | -mate      | -muten              | -meten             | -maten            |
+| n-form | -nute        | -nete       | -nate      | -nuten              | -neten             | -naten            |
+| p-form | -pute        | -pete       | -pate      | -puten              | -peten             | -paten            |
+| q-form | -qute        | -qete       | -qate      | -quten              | -qeten             | -qaten            |
+| r-form | -rute        | -rete       | -rate      | -ruten              | -reten             | -raten            |
+| s-form | -sute        | -sete       | -sate      | -suten              | -seten             | -saten            |
+| t-form | -tute        | -tee        | -tate      | -tuten              | -teen              | -taten            |
+| w-form | -ute         | -wete       | -wate      | -uten               | -weten             | -waten            |
+| y-form | -yute        | -yete       | -yate      | -yuten              | -yeten             | -yaten            |
+| z-form | -zute        | -zete       | -zate      | -zuten              | -zeten             | -zaten            |
