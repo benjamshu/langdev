@@ -145,3 +145,27 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | w-form | -ute         | -wete       | -wate      | -uten               | -weten             | -waten            |
 | y-form | -yute        | -yete       | -yate      | -yuten              | -yeten             | -yaten            |
 | z-form | -zute        | -zete       | -zate      | -zuten              | -zeten             | -zaten            |
+
+## intention (decision)
+
+|  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
+| ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
+| a-form | -Casu        | -Canesu     | -Casu      | -Casun              | -Canesun           | -Casun            |
+| e-form | -Cesu        | -Cesu       | -Cenasu    | -Cesun              | -Cesun             | -Cenasun          |
+| V-form | -Vusu        | -Vesu       | -Vasu      | -Vusun              | -Vesun             | -Vasun            |
+| b-form | -busu        | -besu       | -basu      | -busun              | -besun             | -basun            |
+| d-form | -dusu        | -desu       | -dasu      | -dusun              | -desun             | -dasun            |
+| f-form | -fusu        | -fesu       | -fasu      | -fusun              | -fesun             | -fasun            |
+| g-form | -gusu        | -gesu       | -gasu      | -gusun              | -gesun             | -gasun            |
+| h-form | -husu        | -hesu       | -hasu      | -husun              | -hesun             | -hasun            |
+| k-form | -kusu        | -kesu       | -kasu      | -kusun              | -kesun             | -kasun            |
+| m-form | -musu        | -mesu       | -masu      | -musun              | -mesun             | -masun            |
+| n-form | -nusu        | -nesu       | -nasu      | -nusun              | -nesun             | -nasun            |
+| p-form | -pusu        | -pesu       | -pasu      | -pusun              | -pesun             | -pasun            |
+| q-form | -qusu        | -qesu       | -qasu      | -qusun              | -qesun             | -qasun            |
+| r-form | -rusu        | -resu       | -rasu      | -rusun              | -resun             | -rasun            |
+| s-form | -susu        | -sesu       | -sasu      | -susun              | -sesun             | -sasun            |
+| t-form | -tusu        | -tesu       | -tasu      | -tusun              | -tesun             | -tasun            |
+| w-form | -usu         | -wesu       | -wasu      | -usun               | -wesun             | -wasun            |
+| y-form | -yusu        | -yesu       | -yasu      | -yusun              | -yesun             | -yasun            |
+| z-form | -zusu        | -zesu       | -zasu      | -zusun              | -zesun             | -zasun            |
