@@ -169,3 +169,27 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | w-form | -usu         | -wesu       | -wasu      | -usun               | -wesun             | -wasun            |
 | y-form | -yusu        | -yesu       | -yasu      | -yusun              | -yesun             | -yasun            |
 | z-form | -zusu        | -zesu       | -zasu      | -zusun              | -zesun             | -zasun            |
+
+## imperative (command)
+
+|  form  | imperfective | (no progressive) | (no perfective) | polite imperfective | (no progressive) | (no perfective) |
+| ------ | ------------ | :--------------: | :-------------: | ------------------- | :--------------: | :-------------: |
+| a-form | -Canuu       |        X         |        X        | -Canuno             |        X         |        X        |
+| e-form | -Cenuu       |        X         |        X        | -Cenuno             |        X         |        X        |
+| V-form | -Vuu         |        X         |        X        | -Vuno               |        X         |        X        |
+| b-form | -buu         |        X         |        X        | -nbuno              |        X         |        X        |
+| d-form | -duu         |        X         |        X        | -nduno              |        X         |        X        |
+| f-form | -fuu         |        X         |        X        | -ffuno              |        X         |        X        |
+| g-form | -guu         |        X         |        X        | -nguno              |        X         |        X        |
+| h-form | -huu         |        X         |        X        | -hhuno              |        X         |        X        |
+| k-form | -kuu         |        X         |        X        | -kkuno              |        X         |        X        |
+| m-form | -muu         |        X         |        X        | -nmuno              |        X         |        X        |
+| n-form | -nuu         |        X         |        X        | -nnuno              |        X         |        X        |
+| p-form | -puu         |        X         |        X        | -ppuno              |        X         |        X        |
+| q-form | -quu         |        X         |        X        | -nquno              |        X         |        X        |
+| r-form | -ruu         |        X         |        X        | -rruno              |        X         |        X        |
+| s-form | -suu         |        X         |        X        | -nsuno              |        X         |        X        |
+| t-form | -tuu         |        X         |        X        | -ttuno              |        X         |        X        |
+| w-form | -uu          |        X         |        X        | -uuno               |        X         |        X        |
+| y-form | -yuu         |        X         |        X        | -iyuno              |        X         |        X        |
+| z-form | -zuu         |        X         |        X        | -nzuno              |        X         |        X        |
