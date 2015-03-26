@@ -50,6 +50,8 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
     * {<i>l</i>, <i>r</i>} : <i>u</i>
     * {<i>j</i>, <i>w</i>} : <i>o</i>
 
+    (Codas which end verbs may be treated differently)
+
 15. <i>l</i> becomes <i>n</i>
 
 16. Unaccented <i>e</i> becomes <i>a</i>; accented <i>e</i> becomes <i>/e/</i>
