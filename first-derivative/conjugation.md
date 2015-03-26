@@ -8,7 +8,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
 | a-form | -Canu        | -Cane       | -Ca        | -Canun              | -Canen             | -Can              |
 | e-form | -Cenu        | -Ce         | -Cena      | -Cenun              | -Cen               | -Cenan            |
-| V-form | -Vu          | -Ve         | -Va        | -Vun                | -Ven               | -Van              |
+| V-form | -u           | -e          | -a         | -un                 | -en                | -an               |
 | b-form | -bu          | -be         | -ba        | -nbun               | -nben              | -nban             |
 | d-form | -du          | -de         | -da        | -ndun               | -nden              | -ndan             |
 | f-form | -fu          | -fe         | -fa        | -ffun               | -ffen              | -ffan             |
@@ -32,7 +32,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
 | a-form | -Canus       | -Canes      | -Cas       | -Canuson            | -Caneson           | -Cason            |
 | e-form | -Cenus       | -Ces        | -Cenas     | -Cenuson            | -Ceson             | -Cenason          |
-| V-form | -Vus         | -Ves        | -Vas       | -Vuson              | -Veson             | -Vason            |
+| V-form | -us          | -es         | -as        | -uson               | -eson              | -ason             |
 | b-form | -bus         | -bes        | -bas       | -buson              | -beson             | -bason            |
 | d-form | -dus         | -des        | -das       | -duson              | -deson             | -dason            |
 | f-form | -fus         | -fes        | -fas       | -fuson              | -feson             | -fason            |
@@ -56,7 +56,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
 | a-form | -Camuena     | -Cameena    | -Camena    | -Camuenna           | -Cameenna          | -Camenna          |
 | e-form | -Cemuena     | -Cemena     | -Cemaena   | -Cemuenna           | -Cemenna           | -Cemaenna         |
-| V-form | -Vumena      | -Vemena     | -Vamena    | -Vumenna            | -Vemenna           | -Vamenna          |
+| V-form | -umena       | -emena      | -amena     | -umenna             | -emenna            | -amenna           |
 | b-form | -bumena      | -bemena     | -bamena    | -bumenna            | -bemenna           | -bamenna          |
 | d-form | -dumena      | -demena     | -damena    | -dumenna            | -demenna           | -damenna          |
 | f-form | -fumena      | -femena     | -famena    | -fumenna            | -femenna           | -famenna          |
@@ -80,7 +80,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
 | a-form | -Caru        | -Caneru     | -Caru      | -Carun              | -Canerun           | -Carun            |
 | e-form | -Ceru        | -Ceru       | -Cenaru    | -Cerun              | -Cerun             | -Cenarun          |
-| V-form | -Vru         | -Veru       | -Varu      | -Vrun               | -Verun             | -Varun            |
+| V-form | -ru          | -eru        | -aru       | -run                | -erun              | -arun             |
 | b-form | -buru        | -beru       | -baru      | -burun              | -berun             | -barun            |
 | d-form | -duru        | -deru       | -daru      | -durun              | -derun             | -darun            |
 | f-form | -furu        | -feru       | -faru      | -furun              | -ferun             | -farun            |
@@ -104,7 +104,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
 | a-form | -Cizu        | -Cize       | -Ciza      | -Canyun             | -Canyen            | -Canyan           |
 | e-form | -Cizu        | -Cize       | -Ciza      | -Cenyun             | -Cenyen            | -Cenyan           |
-| V-form | -Vzu         | -Vze        | -Vza       | -Vyun               | -Vyen              | -Vyan             |
+| V-form | -zu          | -ze         | -za        | -yun                | -yen               | -yan              |
 | b-form | -ibu         | -ibe        | -iba       | -byun               | -byen              | -byan             |
 | d-form | -idu         | -ide        | -ida       | -dyun               | -dyen              | -dyan             |
 | f-form | -ifu         | -ife        | -ifa       | -fyun               | -fyen              | -fyan             |
@@ -128,7 +128,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
 | a-form | -Canute      | -Cate       | -Cate      | -Canuten            | -Caten             | -Caten            |
 | e-form | -Cenute      | -Cete       | -Cenate    | -Cenuten            | -Ceten             | -Cenaten          |
-| V-form | -Vute        | -Vete       | -Vate      | -Vuten              | -Veten             | -Vaten            |
+| V-form | -ute         | -ete        | -ate       | -uten               | -eten              | -aten             |
 | b-form | -bute        | -bete       | -bate      | -buten              | -beten             | -baten            |
 | d-form | -dute        | -dete       | -date      | -duten              | -deten             | -daten            |
 | f-form | -fute        | -fete       | -fate      | -futen              | -feten             | -faten            |
@@ -152,7 +152,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
 | a-form | -Casu        | -Canesu     | -Casu      | -Casun              | -Canesun           | -Casun            |
 | e-form | -Cesu        | -Cesu       | -Cenasu    | -Cesun              | -Cesun             | -Cenasun          |
-| V-form | -Vusu        | -Vesu       | -Vasu      | -Vusun              | -Vesun             | -Vasun            |
+| V-form | -usu         | -esu        | -asu       | -usun               | -esun              | -asun             |
 | b-form | -busu        | -besu       | -basu      | -busun              | -besun             | -basun            |
 | d-form | -dusu        | -desu       | -dasu      | -dusun              | -desun             | -dasun            |
 | f-form | -fusu        | -fesu       | -fasu      | -fusun              | -fesun             | -fasun            |
@@ -176,7 +176,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | ------ | ------------ | :--------------: | :-------------: | ------------------- | :--------------: | :-------------: |
 | a-form | -Canuu       |        X         |        X        | -Canuno             |        X         |        X        |
 | e-form | -Cenuu       |        X         |        X        | -Cenuno             |        X         |        X        |
-| V-form | -Vuu         |        X         |        X        | -Vuno               |        X         |        X        |
+| V-form | -uu          |        X         |        X        | -uno                |        X         |        X        |
 | b-form | -buu         |        X         |        X        | -nbuno              |        X         |        X        |
 | d-form | -duu         |        X         |        X        | -nduno              |        X         |        X        |
 | f-form | -fuu         |        X         |        X        | -ffuno              |        X         |        X        |
