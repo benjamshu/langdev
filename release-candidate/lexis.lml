@@ -2,7 +2,7 @@
 <!DOCTYPE lexis>
 <lexis xml:lang="qfi" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title">FISANG</meta>
-    <meta name="description" xml:lang="en">A collection of all release-canidate words in FISANG</meta>
+    <meta name="description" xml:lang="en">A collection of all release-candidate words in FISANG</meta>
     <word>
         <form class="n">fisang</form>
         <meaning xml:lang="en">THE LANGUAGE</meaning>
