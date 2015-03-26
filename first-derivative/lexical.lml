@@ -2,7 +2,7 @@
 <!DOCTYPE lexis>
 <lexis xml:lang="qdi" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">D1 LEXICAL</meta>
-    <meta name="description" xml:lang="en">A collection of all lexical words in the first derivative of THE LANGUAGE</meta>
+    <meta name="description" xml:lang="en">A collection of all lexical words in the first derivative of THE LANGUAGE. Only irregular conjugations are recorded.</meta>
     <!--  FOREIGN WORDS  -->
     <word>
         <form class="n">fisan</form>
