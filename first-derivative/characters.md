@@ -1,4 +1,4 @@
-# LIST OF D1 CHARACTERS
+# D1 CHARACTERS
 
 ## SPECIAL
 
@@ -36,6 +36,7 @@
 
 * 表 [U+8868] bo : express
 * 旁 [U+65C1] bo : side
+* 妨 [U+59A8] bo : disturb
 
 ### bu
 
@@ -70,6 +71,7 @@
 * 英 [U+82F1] e : petal; english
 * 営 [U+55B6] e : manage
 * 永 [U+6C38] e : eternity
+* 衣 [U+8863] e : clothes
 
 ## F
 
@@ -93,6 +95,7 @@
 
 * 放 [U+653E] fo : release
 * 芳 [U+82B3] fo : beautiful; virtuous
+* 方 [U+65B9] fo : direction
 
 ### fu
 
@@ -109,6 +112,7 @@
 * 油 [U+6CB9] ga : oil
 * 岩 [U+5CA9] ga : rock
 * 芽 [U+82BD] ga : bud; sprout
+* 含 [U+542B] ga : include
 
 ### ge
 
@@ -116,12 +120,14 @@
 * 原 [U+539F] ge : larch tree
 * 芸 [U+82B8] ge : art
 * 件 [U+4EF6] ge : affair
+* 元 [U+5143] ge : jammed in
 
 ### gi
 
 * 点 [U+70B9] gi : point; finger
 * 径 [U+5F84] gi : diameter
 * 技 [U+6280] gi : skill
+* 伎 [U+4F0E] gi : deed
 
 ### go
 
@@ -130,6 +136,7 @@
 * 高 [U+9AD8] go : high
 * 告 [U+544A] go : each
 * 効 [U+52B9] go : effect
+* 合 [U+5408] go : fit
 
 ### gu
 
@@ -137,6 +144,7 @@
 * 求 [U+6C42] gu : request
 * 故 [U+6545] gu : deceased
 * 候 [U+5019] gu : climate
+* 古 [U+53E4] gu : old
 
 ## H
 
@@ -150,6 +158,7 @@
 ### he
 
 * 坂 [U+5742] he : slope
+* 辺 [U+8FBA] he : environs
 
 ### hi
 
@@ -183,6 +192,7 @@
 * 花 [U+82B1] ka : flower
 * 家 [U+5BB6] ka : house
 * 各 [U+5404] ka : each
+* 化 [U+5316] ka : change
 
 ### ke
 
@@ -190,6 +200,7 @@
 * 足 [U+8DB3] ke : foot; base
 * 兄 [U+5144] ke : (older) sibling
 * 券 [U+5238] ke : ticket
+* 介 [U+4ECB] ke : jammed in
 
 ### ki
 
@@ -197,6 +208,8 @@
 * 玉 [U+7389] ki : mango; spherical
 * 気 [U+6C17] ki : air; spirit
 * 季 [U+5B63] ki : season
+* 今 [U+4ECA] ki : now
+* 企 [U+4F01] ki : plan
 
 ### ko
 
@@ -213,6 +226,8 @@
 * 空 [U+7A7A] ku : sky
 * 君 [U+541B] ku : you; monarch
 * 軍 [U+8ECD] ku : army
+* 丘 [U+4E18] ku : hill
+* 攻 [U+653B] ku : aggression
 
 ## M
 
@@ -271,6 +286,7 @@
 * 茄 [U+8304] no : eggplant
 * 貝 [U+8C9D] no : fish; swim
 * 能 [U+80FD] no : bear
+* 弄 [U+5F04] no : tamper with
 
 ### nu
 
@@ -282,6 +298,7 @@
 * 黄 [U+9EC4] o : yellow
 * 央 [U+592E] o : centre
 * 往 [U+5F80] o : journey
+* 汚 [U+6C5A] o : dirty
 
 ## P
 
@@ -330,6 +347,7 @@
 ### qo
 
 * 虹 [U+8679] qo : rainbow; multicoloured; diverse
+* 午 [U+5348] qo : noon
 
 ### qu
 
@@ -343,6 +361,7 @@
 * 団 [U+56E3] ra : core; centre
 * 来 [U+6765] ra : come
 * 旦 [U+65E6] ra : sun; day; shine
+* 礼 [U+793C] ra : thanks
 
 ### re
 
@@ -350,6 +369,7 @@
 * 連 [U+9023] re : connect
 * 例 [U+4F8B] re : example
 * 冷 [U+51B7] re : cool
+* 戻 [U+623B] re : re-
 
 ### ri
 
@@ -365,6 +385,7 @@
 * 良 [U+826F] ro : good
 * 侶 [U+4FB6] ro : companion; follower
 * 料 [U+6599] ro : fee
+* 呂 [U+5442] ro : spine
 
 ### ru
 
@@ -379,6 +400,7 @@
 * 差 [U+5DEE] sa : difference
 * 借 [U+501F] sa : borrow
 * 舎 [U+820E] sa : cottage
+* 且 [U+4E14] sa : moreover
 
 ### se
 
@@ -386,6 +408,8 @@
 * 先 [U+5148] se : previous
 * 赤 [U+8D64] se : red
 * 昔 [U+6614] se : long ago
+* 串 [U+4E32] se : skewer
+* 占 [U+5360] se : fortune-telling
 
 ### si
 
@@ -395,6 +419,7 @@
 * 使 [U+4F7F] si : use
 * 申 [U+7533] si : say
 * 失 [U+5931] si : lose
+* 市 [U+5E02] si : market
 
 ### so
 
@@ -403,6 +428,7 @@
 * 村 [U+6751] so : village
 * 初 [U+521D] so : first
 * 束 [U+675F] so : bundle
+* 井 [U+4E95] so : well
 
 ### su
 
@@ -411,6 +437,7 @@
 * 宿 [U+5BBF] su : inn
 * 刷 [U+5237] su : printing
 * 祝 [U+795D] su : celebrate
+* 汁 [U+6C41] su : soup
 
 ## T
 
@@ -427,6 +454,7 @@
 * 停 [U+505C] te : halt
 * 典 [U+5178] te : code
 * 的 [U+7684] te : target
+* 呈 [U+5448] te : display
 
 ### ti
 
@@ -452,6 +480,7 @@
 * 頂 [U+9802] u : top; crown
 * 雨 [U+96E8] u : rain
 * 宇 [U+5B87] u : eaves
+* 芋 [U+828B] u : potato
 
 ## W
 
@@ -464,6 +493,7 @@
 ### we
 
 * 恵 [U+6075] we : favour; confer kindness
+* 会 [U+4F1A] we : association
 
 ### wi
 
@@ -490,6 +520,7 @@
 
 * 京 [U+4EAC] ye : capital
 * 要 [U+8981] ye : need
+* 言 [U+8A00] ye : say
 
 ### yu
 
@@ -505,6 +536,7 @@
 * 助 [U+52A9] yo : help
 * 勇 [U+52C7] yo : courage
 * 余 [U+4F59] yo : surplus
+* 予 [U+4E88] yo : in advance
 
 ## Z
 
@@ -544,3 +576,4 @@
 ### zu
 * 寸 [U+5BF8] zu : tiny
 * 周 [U+5468] zu : circumference
+* 充 [U+5145] zu : allot
