@@ -5,7 +5,7 @@
     <meta name="description" xml:lang="en">A collection of all lexical words in the first derivative of THE LANGUAGE. Only irregular conjugations are recorded.</meta>
     <!--  FOREIGN WORDS  -->
     <word>
-        <form class="n" pronunciation="fisan">新執筆</form>
+        <form class="n" pronunciation="fisen">新執筆</form>
         <meaning xml:lang="en">THE LANGUAGE</meaning>
         <etymology xml:lang="en">from english <etyma>fiction</etyma></etymology>
     </word>
