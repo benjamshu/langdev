@@ -4,7 +4,15 @@ Characters in D2 are the same as in D1 but for the following changes:
 
 *   <b>中 [U+4E2D] yu</b> is simplified to <b>丨 [U+4E28]</b> and becomes a palatalizer; <b>舌 [U+820C] qa</b> becomes a moraic <i>n</i>; <b>羊 [U+7F8A] sa</b> becomes a moraic <i>s</i>. <b>写 [U+5199] DOUBLE-CONSONANT MARK</b> is simplified as <b>与 [U+4E0E]</b>.
 
-*   <b>芋 [U+828B] u</b> merges with and becomes <b>宇 [U+5B87] u</b>
+*   The following merges take place:
+
+    * <b>芋 [U+828B] u</b> merges with and becomes <b>宇 [U+5B87] u</b>
+
+*   And the following simplifications:
+
+    * <b>新 [U+65B0] fi</b> > <b>亲 [U+4EB2]</b>
+    * <b>執 [U+57F7] sa</b> > <b>丮 [U+4E2E]</b>
+    * <b>筆 [U+7B46] na</b> > <b>聿 [U+807F]</b>
 
 ## reserved characters
 
