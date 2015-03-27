@@ -24,7 +24,7 @@ The following characters are reserved for use only in grammatical words:
 | n~q |  手  |  干  |  丁  |  示  |  十  |
 | s~z |  寸  |  入  |  毛  |  工  |  子  |
 |  g  |  矢  |  牛  |  占  |  牙  |  父  |
-|  k  |  彐  |  儿  |  止  |  匕  |  大  |
+|  k  |  穴  |  儿  |  止  |  匕  |  大  |
 |  w  |  　  |  心  |  火  |  犬  |  魚  |
 |  y  |  爪  |  言  |  　  |  乙  |  艮  |
 
