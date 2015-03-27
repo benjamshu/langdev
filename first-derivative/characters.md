@@ -9,6 +9,7 @@
 * 安 [U+5B89] a : cheap
 * 暗 [U+6697] a : dark
 * 案 [U+6848] a : plan
+* 宛 [U+5B9B] a : allocate
 
 ## B
 
@@ -54,10 +55,12 @@
 ### de
 
 * 堆 [U+5806] de : pile; heap
+* 泥 [U+6CE5] de : mud
 
 ### di
 
 * 帝 [U+5E1D] di : emporer
+* 侍 [U+4F8D] di : waiter
 
 ### do
 
@@ -72,6 +75,7 @@
 * 営 [U+55B6] e : manage
 * 永 [U+6C38] e : eternity
 * 衣 [U+8863] e : clothes
+* 依 [U+4F9D] e : reliant
 
 ## F
 
@@ -84,6 +88,7 @@
 ### fe
 
 * 返 [U+8FD4] fe : repay
+* 併 [U+4F75] fe : combine
 
 ### fi
 
@@ -159,6 +164,7 @@
 
 * 坂 [U+5742] he : slope
 * 辺 [U+8FBA] he : environs
+* 始 [U+59CB] he : begin
 
 ### hi
 
@@ -175,6 +181,7 @@
 ### hu
 
 * 骨 [U+9AA8] hu : bone; skeleton; dry
+* 朽 [U+673D] hu : decay
 
 ## I
 
@@ -193,6 +200,7 @@
 * 家 [U+5BB6] ka : house
 * 各 [U+5404] ka : each
 * 化 [U+5316] ka : change
+* 果 [U+679C] ka : fruit
 
 ### ke
 
@@ -275,6 +283,7 @@
 * 地 [U+5730] ne : ground; earth; land
 * 年 [U+5E74] ne : year
 * 念 [U+5FF5] ne : recall; study
+* 粘 [U+7C98] ne : sticky
 
 ### ni
 
@@ -291,6 +300,7 @@
 ### nu
 
 * 奴 [U+5974] nu : servant
+* 抜 [U+629C] nu : slip out
 
 ## O
 
@@ -299,6 +309,7 @@
 * 央 [U+592E] o : centre
 * 往 [U+5F80] o : journey
 * 汚 [U+6C5A] o : dirty
+* 押 [U+62BC] o : push
 
 ## P
 
@@ -317,6 +328,7 @@
 ### pi
 
 * 児 [U+5150] pi : child
+* 平 [U+5E73] pi : flat
 
 ### po
 
@@ -343,6 +355,9 @@
 * 豚 [U+8C5A] qe : pig
 
 ### qi
+
+* 妊 [U+598A] qi : pregnancy
+* 荷 [U+8377] qi : luggage
 
 ### qo
 
@@ -390,6 +405,7 @@
 ### ru
 
 * 流 [U+6D41] ru : flow
+* 車 [U+8ECA] ru : vehicle; car
 
 ## S
 
@@ -401,6 +417,7 @@
 * 借 [U+501F] sa : borrow
 * 舎 [U+820E] sa : cottage
 * 且 [U+4E14] sa : moreover
+* 作 [U+4F5C] sa : make
 
 ### se
 
@@ -429,6 +446,7 @@
 * 初 [U+521D] so : first
 * 束 [U+675F] so : bundle
 * 井 [U+4E95] so : well
+* 姓 [U+59D3] so : surname
 
 ### su
 
@@ -473,6 +491,7 @@
 
 * 台 [U+53F0] tu : leg; support
 * 肩 [U+80A9] tu : shoulder; carry
+* 吉 [U+5409] tu : good luck
 
 ## U
 
@@ -494,6 +513,7 @@
 
 * 恵 [U+6075] we : favour; confer kindness
 * 会 [U+4F1A] we : association
+* 明 [U+660E] we : bright
 
 ### wi
 
@@ -505,6 +525,7 @@
 
 * 乎 [U+4E4E] wo : exclaim
 * 尾 [U+5C3E] wo : tail
+* 魚 [U+9B5A] wo : fish
 
 ## Y
 
@@ -556,6 +577,7 @@
 * 折 [U+6298] ze : fold
 * 税 [U+7A0E] ze : tax
 * 泉 [U+6CC9] ze : fountain
+* 斉 [U+6589] ze : adjusted
 
 ### zi
 
@@ -572,8 +594,10 @@
 * 常 [U+5E38] zo : normal
 * 序 [U+5E8F] zo : preface
 * 存 [U+5B58] zo : suppose
+* 招 [U+62DB] zo : beckon
 
 ### zu
 * 寸 [U+5BF8] zu : tiny
 * 周 [U+5468] zu : circumference
 * 充 [U+5145] zu : allot
+* 呪 [U+546A] zu : charm
