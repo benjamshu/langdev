@@ -56,7 +56,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 16. Unaccented <i>e</i> becomes <i>a</i>; accented <i>e</i> becomes <i>/e/</i>
 
-17. <i>yi</i> and <i>wu</i> are simplified to <i>i</i> and <i>u</i>
+17. <i>yi</i> and <i>wu</i> are simplified to <i>i</i> and <i>u</i>.
 
 ## changes in syntax
 

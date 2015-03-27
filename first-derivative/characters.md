@@ -6,7 +6,7 @@
 
 ## A
 
-* 安 [U+5B89] a : cheap
+* 按 [U+6309] a : press down
 * 暗 [U+6697] a : dark
 * 案 [U+6848] a : plan
 * 宛 [U+5B9B] a : allocate
@@ -68,6 +68,10 @@
 * 同 [U+540C] do : same
 * 東 [U+6771] do : east
 
+### du
+
+* 豆 [U+8C46] du : beans
+
 ## E
 
 * 泳 [U+6CF3] e : swim
@@ -100,7 +104,6 @@
 
 * 放 [U+653E] fo : release
 * 芳 [U+82B3] fo : beautiful; virtuous
-* 方 [U+65B9] fo : direction
 
 ### fu
 
@@ -397,7 +400,6 @@
 ### ro
 
 * 老 [U+8001] ro : old; elder
-* 良 [U+826F] ro : good
 * 侶 [U+4FB6] ro : companion; follower
 * 料 [U+6599] ro : fee
 * 呂 [U+5442] ro : spine
@@ -426,13 +428,11 @@
 * 赤 [U+8D64] se : red
 * 昔 [U+6614] se : long ago
 * 串 [U+4E32] se : skewer
-* 占 [U+5360] se : fortune-telling
 
 ### si
 
 * 遅 [U+9045] si : snail; slow
 * 糸 [U+7CF8] si : thread
-* 矢 [U+77E2] si : arrow
 * 使 [U+4F7F] si : use
 * 申 [U+7533] si : say
 * 失 [U+5931] si : lose
@@ -445,13 +445,11 @@
 * 村 [U+6751] so : village
 * 初 [U+521D] so : first
 * 束 [U+675F] so : bundle
-* 井 [U+4E95] so : well
 * 姓 [U+59D3] so : surname
 
 ### su
 
 * 猫 [U+732B] su : cat; feline
-* 手 [U+624B] su : hand
 * 宿 [U+5BBF] su : inn
 * 刷 [U+5237] su : printing
 * 祝 [U+795D] su : celebrate
@@ -461,7 +459,6 @@
 
 ### ta
 
-* 月 [U+6708] ta : moon; month
 * 虫 [U+866B] ta : worm
 * 息 [U+606F] ta : breath; kiss
 * 他 [U+4ED6] ta : other
@@ -543,13 +540,6 @@
 * 要 [U+8981] ye : need
 * 言 [U+8A00] ye : say
 
-### yu
-
-* 中 [U+4E2D] yu : inside; middle
-* 春 [U+6625] yu : spring
-* 受 [U+53D7] yu : receive
-* 有 [U+6709] yu : possess
-
 ### yo
 
 * 食 [U+98DF] yo : eat
@@ -558,6 +548,13 @@
 * 勇 [U+52C7] yo : courage
 * 余 [U+4F59] yo : surplus
 * 予 [U+4E88] yo : in advance
+
+### yu
+
+* 中 [U+4E2D] yu : inside; middle
+* 春 [U+6625] yu : spring
+* 受 [U+53D7] yu : receive
+* 有 [U+6709] yu : possess
 
 ## Z
 
@@ -586,7 +583,6 @@
 * 室 [U+5BA4] zi : room
 * 実 [U+5B9F] zi : fruit; reality
 * 史 [U+53F2] zi : history
-* 示 [U+793A] zi : indicate; show
 
 ### zo
 
