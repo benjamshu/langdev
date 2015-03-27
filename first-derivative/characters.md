@@ -99,6 +99,7 @@
 * 石 [U+77F3] fi : stone; bean
 * 甲 [U+7532] fi : ant; small insect
 * 小 [U+5C0F] fi : mouse; rat; small mammal
+* 新 [U+65B0] fi : new
 
 ### fo
 
@@ -279,6 +280,7 @@
 
 * 背 [U+80CC] na : back; nape
 * 奈 [U+5948] na : apple tree
+* 筆 [U+7B46] na : pen
 
 ### ne
 
@@ -420,6 +422,7 @@
 * 舎 [U+820E] sa : cottage
 * 且 [U+4E14] sa : moreover
 * 作 [U+4F5C] sa : make
+* 執 [U+57F7] sa : carry out
 
 ### se
 
