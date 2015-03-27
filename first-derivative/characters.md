@@ -422,7 +422,6 @@
 * 舎 [U+820E] sa : cottage
 * 且 [U+4E14] sa : moreover
 * 作 [U+4F5C] sa : make
-* 執 [U+57F7] sa : carry out
 
 ### se
 
@@ -431,6 +430,7 @@
 * 赤 [U+8D64] se : red
 * 昔 [U+6614] se : long ago
 * 串 [U+4E32] se : skewer
+* 執 [U+57F7] se : carry out
 
 ### si
 

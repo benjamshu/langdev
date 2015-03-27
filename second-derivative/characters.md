@@ -1,18 +1,12 @@
 # D2 CHARACTERS
 
-Characters in D2 are the same as in D1 but for the following changes:
+The following general changes take place between D1 and D2:
 
-*   <b>中 [U+4E2D] yu</b> is simplified to <b>丨 [U+4E28]</b> and becomes a palatalizer; <b>舌 [U+820C] qa</b> becomes a moraic <i>n</i>; <b>羊 [U+7F8A] sa</b> becomes a moraic <i>s</i>. <b>写 [U+5199] DOUBLE-CONSONANT MARK</b> is simplified as <b>与 [U+4E0E]</b>.
+*   <b>中 [U+4E2D] yu</b> becomes a palatalizer; <b>舌 [U+820C] qa</b> becomes a moraic <i>n</i>; <b>羊 [U+7F8A] sa</b> becomes a moraic <i>s</i>.
 
 *   The following merges take place:
 
-    * <b>芋 [U+828B] u</b> merges with and becomes <b>宇 [U+5B87] u</b>
-
-*   And the following simplifications:
-
-    * <b>新 [U+65B0] fi</b> > <b>斤 [U+4EB2]</b>
-    * <b>執 [U+57F7] sa</b> > <b>丸 [U+4E2E]</b>
-    * <b>筆 [U+7B46] na</b> > <b>聿 [U+807F]</b>
+    * <b>芋 [U+828B] u</b> merges with and becomes <b>宇 [U+5B87]</b>
 
 ## reserved characters
 
@@ -34,4 +28,4 @@ The following characters are reserved for use only in grammatical words:
 |  w  |  犬  |  心  |  火  |  魚  |      |
 |  y  |  乙  |  言  |      |  艮  |  爪  |
 
-In instances where these occur in lexical words, they are often replaced
+In instances where these occur in lexical words, they are often replaced.
