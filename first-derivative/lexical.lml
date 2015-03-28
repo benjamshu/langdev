@@ -13,13 +13,13 @@
     <word>
         <form class="n" pronunciation="honzi">本筆字</form>
         <meaning xml:lang="en">character; glyph</meaning>
-        <etymology xml:lang="en">from japanese <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
+        <etymology xml:lang="en">from JAPANESE <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
         <!--  in D2 as SAME  -->
     </word>
     <word>
         <form class="n" pronunciation="remazi">例枚字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
-        <etymology xml:lang="en">from english <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from japanese <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <etymology xml:lang="en">from ENGLISH <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from JAPANESE <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
         <!--  in D2 as SAME  -->
     </word>
     <!--  IMITATIVE ORIGIN  -->

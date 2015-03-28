@@ -14,13 +14,13 @@
     <word>
         <form class="n" pronunciation="hongsi">本舌字</form>
         <meaning xml:lang="en">lexical character</meaning>
-        <etymology xml:lang="en">from japanese <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="qdd">字</wordref> was coined to preserve this old meaning</etymology>
+        <etymology xml:lang="en">from JAPANESE <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="qdd">字</wordref> was coined to preserve this old meaning</etymology>
         <!--  in RC as SAME  -->
     </word>
     <word>
         <form class="n" pronunciation="demasi">例枚字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
-        <etymology xml:lang="en">from english <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from japanese <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <etymology xml:lang="en">from ENGLISH <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from JAPANESE <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
         <!--  in RC as 歹攵字  -->
     </word>
     <word>

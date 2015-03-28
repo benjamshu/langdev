@@ -11,17 +11,22 @@
     <word>
         <form class="n" pronunciation="hongsi">本舌字</form>
         <meaning xml:lang="en">lexical character</meaning>
-        <etymology xml:lang="en">D1 <etyma xml:lang="qdi">本筆字</etyma>, from japanese <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="qrc">字</wordref> was coined to preserve this old meaning</mention></etymology>
+        <etymology xml:lang="en">D1 <etyma xml:lang="qdi">本筆字</etyma>, from JAPANESE <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="qrc">字</wordref> was coined to preserve this old meaning</etymology>
     </word>
     <word>
         <form class="n" pronunciation="zi">字</form>
         <meaning xml:lang="en">character; glyph</meaning>
-        <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">本筆字</etyma>, <i>lexical character</i>, and <etyma xml:lang="qdd">例枚字</etyma>, <i>latin character</i></etymology>
+        <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">本筆字</etyma>, <mention>lexical character</mention>, and <etyma xml:lang="qdd">例枚字</etyma>, <mention>latin character</mention></etymology>
+    </word>
+    <word>
+        <form class="n" pronunciation="iryuzi">云豆丨字</form>
+        <meaning xml:lang="en">ideographic character; HAN character</meaning>
+        <etymology xml:lang="en">from ENGLISH <etyma>ideo-</etyma> (as in <mention>ideograph</mention>) + <wordref xml:lang="qrc">zi</wordref></etymology>
     </word>
     <word>
         <form class="n" pronunciation="demasi">歹攵字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
-        <etymology xml:lang="en">D1 <etyma xml:lang="qdi">例枚字</etyma>, from english <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from japanese <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <etymology xml:lang="en">D1 <etyma xml:lang="qdi">例枚字</etyma>, from ENGLISH <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from JAPANESE <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="kuri">丘寺</form>
