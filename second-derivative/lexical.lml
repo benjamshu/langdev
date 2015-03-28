@@ -4,19 +4,36 @@
     <meta name="title" xml:lang="en">D2 LEXICAL</meta>
     <meta name="description" xml:lang="en">A collection of all lexical words in the second derivative of THE LANGUAGE</meta>
     <!--  FOREIGN WORDS  -->
+    <!--  FROM D1  -->
     <word>
-        <form class="n" pronunciation="fizeng">斤丸舌</form>
+        <form class="n" pronunciation="fizeng">新執舌</form>
         <meaning xml:lang="en">THE LANGUAGE</meaning>
         <etymology xml:lang="en">from english <etyma>fiction</etyma></etymology>
+        <!--  in RC as 斤丸舌  -->
     </word>
     <word>
-        <form class="n">hoqsi</form>
-        <meaning xml:lang="en">character; glyph</meaning>
-        <etymology xml:lang="en">from japanese <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
+        <form class="n" pronunciation="hongsi">本舌字</form>
+        <meaning xml:lang="en">lexical character</meaning>
+        <etymology xml:lang="en">from japanese <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="qdd">字</wordref> was coined to preserve this old meaning</etymology>
+        <!--  in RC as SAME  -->
     </word>
     <word>
-        <form class="n">demasi</form>
+        <form class="n" pronunciation="demasi">例枚字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
         <etymology xml:lang="en">from english <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from japanese <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <!--  in RC as 歹攵字  -->
+    </word>
+    <word>
+        <form class="n" pronunciation="kuri">丘侍</form>
+        <meaning xml:lang="en">aide; assistant</meaning>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">台丘侍</etyma>, <mention>one who stands (by)</mention>, from PL <etyma xml:lang="qpt">rúgur</etyma>, <mention>stand; support oneself</mention></etymology>
+        <!--  in RC as 丘寺  -->
+    </word>
+    <!--  DERIVED WORDS  -->
+    <word>
+        <form class="n" pronunciation="zi">字</form>
+        <meaning xml:lang="en">character; glyph</meaning>
+        <etymology xml:lang="en">from <wordref xml:lang="qdd">本筆字</wordref> and <wordref xml:lang="qdd">例枚字</wordref></etymology>
+        <!--  in RC as SAME  -->
     </word>
 </lexis>

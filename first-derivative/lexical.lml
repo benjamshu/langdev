@@ -8,26 +8,42 @@
         <form class="n" pronunciation="fisen">新執筆</form>
         <meaning xml:lang="en">THE LANGUAGE</meaning>
         <etymology xml:lang="en">from english <etyma>fiction</etyma></etymology>
+        <!--  in D2 as 新執舌  -->
     </word>
     <word>
         <form class="n" pronunciation="honzi">本筆字</form>
         <meaning xml:lang="en">character; glyph</meaning>
         <etymology xml:lang="en">from japanese <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
+        <!--  in D2 as SAME  -->
     </word>
     <word>
         <form class="n" pronunciation="remazi">例枚字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
         <etymology xml:lang="en">from english <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from japanese <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <!--  in D2 as SAME  -->
     </word>
     <!--  IMITATIVE ORIGIN  -->
     <word>
-        <form class="v">sipu</form>
+        <form class="v" pronunciation="sipu">遅文</form>
         <meaning xml:lang="en">spit</meaning>
         <etymology xml:lang="en">of imitative origin; replaced PROTO-LANGUAGE <mention xml:lang="qpt">uaqó:b</mention></etymology>
     </word>
     <word>
-        <form class="n">mjofi</form>
+        <form class="n" pronunciation="myofi">牧中小</form>
         <meaning xml:lang="en">cat</meaning>
-        <etymology xml:lang="en">originally a compound of <etyma xml:lang="qpt">mjo</etyma> (an imitation of a cat's meow) and <etyma xml:lang="qpt">pir</etyma>, <mention>small mammal</mention>; replaced PROTO-LANGUAGE <mention xml:lang="qpt">pishúg</mention></etymology>
+        <etymology xml:lang="en">originally a compound of <etyma xml:lang="qpt">mjo</etyma> (an imitation of a cat's meow) and PL <etyma xml:lang="qpt">pir</etyma>, <mention>small mammal</mention>; replaced PL <mention xml:lang="qpt">pishúg</mention></etymology>
+    </word>
+    <!--  FROM PROTO-  -->
+    <word>
+        <form class="v" pronunciation="tuku-ru">台丘車</form>
+        <meaning xml:lang="en">stand</meaning>
+        <etymology xml:lang="en">from <etyma xml:lang="qpt">rúgur</etyma>, <mention>stand; support oneself</mention></etymology>
+    </word>
+    <!--  DERIVED WORDS  -->
+    <word>
+        <form class="v" pronunciation="tukudi">台丘侍</form>
+        <meaning xml:lang="en">aide; waiter; assistaint</meaning>
+        <etymology xml:lang="en"><wordref xml:lang="qdi">台丘車</wordref> + <etyma xml:lang="qdi">-侍</etyma>, with the sense <mention>one who stands (by)</mention></etymology>
+        <!--  in D2 as 丘侍  -->
     </word>
 </lexis>

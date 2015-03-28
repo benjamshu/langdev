@@ -22,6 +22,12 @@ Syllable stress is shifted to the first syllable of all roots. In addition, ther
 
     The resulting nasal is pronounced as <i>q</i> when the preceeding consonant (if present, often in a preceeding syllable) is one of the following: <i>g</i>, <i>k</i>, <i>h</i> (but __not__ <i>f</i>), <i>s</i>, <i>z</i>, <i>w</i>; pronounced <i>n</i> otherwise.
 
+## word simplifications
+
+The number of syllables in many words is reduced, following a few patterns:
+
+*   When the first mora of a word is a voiceless stop and the second mora is a voiced stop, the first is often dropped
+
 ## changes in syntax
 
 The number of irregular verbs is reduced, and the conjugation-system is simplified and perfected. Classifiers are consolidated and become a closed grammatical class.

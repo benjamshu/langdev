@@ -2,7 +2,7 @@
 
 The following general changes take place between D1 and D2:
 
-*   <b>中 [U+4E2D] yu</b> becomes a palatalizer; <b>舌 [U+820C] qa</b> becomes a moraic <i>n</i>; <b>羊 [U+7F8A] sa</b> becomes a moraic <i>s</i>.
+*   <b>舌 [U+820C] qa</b> is standardized as moraic <i>n</i>; <b>羊 [U+7F8A] sa</b> is standardized as moraic <i>s</i>.
 
 *   The following merges take place:
 

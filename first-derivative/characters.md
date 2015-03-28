@@ -3,6 +3,7 @@
 ## SPECIAL
 
 * 写 [U+5199] DOUBLE-CONSONANT MARK
+* 中 [U+4E2D] PALATALIZER
 
 ## A
 
@@ -554,7 +555,6 @@
 
 ### yu
 
-* 中 [U+4E2D] yu : inside; middle
 * 春 [U+6625] yu : spring
 * 受 [U+53D7] yu : receive
 * 有 [U+6709] yu : possess

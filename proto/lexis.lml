@@ -64,7 +64,7 @@
     </affix>
     <affix>
         <form>-ur</form>
-        <meaning xml:lang="en">attached to verbs to form continuous derivatives; used mostly with actions that occur repetitively or cyclically</meaning>
+        <meaning xml:lang="en">attached to verbs to form continuous derivatives; used mostly with actions that occur repetitively or cyclically; used also to make verbs reflexive</meaning>
     </affix>
     <affix>
         <form>-no</form>
@@ -2196,7 +2196,13 @@
     <!--  RUG  -->
     <word>
         <form class="v.cont">rug</form>
-        <meaning xml:lang="en">hold up; support</meaning>
+        <meaning xml:lang="en">be holding up; be supporting</meaning>
+    </word>
+    <word>
+        <form class="v.cont">rúgur</form>
+        <meaning xml:lang="en">be supporting oneself; be standing</meaning>
+        <etymology><wordref>rug</wordref> + <wordref>-ur</wordref></etymology>
+        <!--  in D1 as 台丘車  -->
     </word>
     <word>
         <form class="n">berúg</form>
