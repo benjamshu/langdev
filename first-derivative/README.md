@@ -36,6 +36,8 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
     * <i>n</i> > <i>d</i> > <i>r</i> > <i>t</i>
     * <i>m</i> > <i>b</i> > <i>p</i> > <i>f</i>
 
+    Note that the shifts <i>k</i> > <i>h</i>, <i>r</i> > <i>t</i>, <i>p</i> > <i>f</i> do not occur when the consonant is word-final.
+
 13. A few more shifts occur:
 
     1. Onsets <i>g</i>, <i>d</i>, <i>b</i> become <i>q</i>, <i>n</i>, <i>m</i> when preceded by an stressed syllable
