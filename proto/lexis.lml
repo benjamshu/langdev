@@ -2719,4 +2719,20 @@
         <form class="v.pfv">ta:sh</form>
         <meaning xml:lang="en">marry</meaning>
     </word>
+    <!--  ZHIPU  -->
+    <word>
+        <form class="n">zhipu</form>
+        <meaning xml:lang="en">tail; brush</meaning>
+    </word>
+    <word>
+        <form class="v.cont">arzhípu</form>
+        <meaning xml:lang="en">be poofy; be fluffy</meaning>
+        <etymology><wordref>ar-</wordref> + <wordref>zhipu</wordref></etymology>
+    </word>
+    <word>
+        <form class="n">zhípuri</form>
+        <meaning xml:lang="en">fox</meaning>
+        <etymology><wordref>zhipu</wordref> + <wordref>-ri</wordref></etymology>
+        <!--  in D1 as 毬末帝  -->
+    </word>
 </lexis>

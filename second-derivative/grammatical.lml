@@ -3,4 +3,11 @@
 <lexis xml:lang="qdd" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">D2 GRAMMATICAL</meta>
     <meta name="description" xml:lang="en">A collection of all grammatical words in the second derivative of THE LANGUAGE.</meta>
+    <word>
+        <form class="post adv" pronunciation="si, zi">毛</form>
+        <meaning xml:lang="en" class="post">nominative marker</meaning>
+        <meaning xml:lang="en" class="post">used to form compound nouns; noun connector</meaning>
+        <meaning xml:lang="en" class="adv">used to terminate an incomplete thought or request input; marks <mention>wh-</mention> questions which ask for more information</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">zhil</etyma>, <mention>be tied (up)</mention>, used figuratively to group words together</etymology>
+    </word>
 </lexis>

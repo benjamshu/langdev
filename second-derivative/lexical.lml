@@ -29,6 +29,12 @@
         <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">台丘侍</etyma>, <mention>one who stands (by)</mention>, from PL <etyma xml:lang="qpt">rúgur</etyma>, <mention>stand; support oneself</mention></etymology>
         <!--  in RC as 丘寺  -->
     </word>
+    <word>
+        <form class="n" pronunciation="zifuri">毬末帝</form>
+        <meaning xml:lang="en">fox</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">zhípuri</etyma>, <mention>one with bushy tail</mention></etymology>
+        <!--  in RC as 才末巾  -->
+    </word>
     <!--  DERIVED WORDS  -->
     <word>
         <form class="n" pronunciation="zi">字</form>
