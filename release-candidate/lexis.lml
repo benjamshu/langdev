@@ -33,4 +33,16 @@
         <meaning xml:lang="en">aide; assistant</meaning>
         <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">台丘侍</etyma>, <mention>one who stands (by)</mention>, from PL <etyma xml:lang="qpt">rúgur</etyma>, <mention>stand; support oneself</mention></etymology>
     </word>
+    <word>
+        <form class="post adv" pronunciation="si, zi">毛</form>
+        <meaning xml:lang="en" class="post">nominative marker</meaning>
+        <meaning xml:lang="en" class="post">used to form compound nouns; noun connector</meaning>
+        <meaning xml:lang="en" class="adv">used to terminate an incomplete thought or request input; marks <mention>wh-</mention> questions which ask for more information</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">zhil</etyma>, <mention>be tied (up)</mention>, used figuratively to group words together</etymology>
+    </word>
+    <word>
+        <form class="n" pronunciation="zifuri">才末巾</form>
+        <meaning xml:lang="en">fox</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">zhípuri</etyma>, <mention>one with bushy tail</mention></etymology>
+    </word>
 </lexis>

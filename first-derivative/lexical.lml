@@ -34,16 +34,26 @@
         <etymology xml:lang="en">originally a compound of <etyma xml:lang="qpt">mjo</etyma> (an imitation of a cat's meow) and PL <etyma xml:lang="qpt">pir</etyma>, <mention>small mammal</mention>; replaced PL <mention xml:lang="qpt">pishúg</mention></etymology>
     </word>
     <!--  FROM PROTO-  -->
+    <affix>
+        <form pronunciation="-di">-侍</form>
+        <meaning xml:lang="en">forms animate agent nouns</meaning>
+        <etymology>from <etyma xml:lang="qpt">-ri</etyma>; became <etyma xml:lang="qpt">-ti</etyma> after stressed syllables and <etyma xml:lang="qpt">-di</etyma> otherwise; this was later codified as <wordref xml:lang="qdi">-侍</wordref> in most instances.</etymology>
+    </affix>
     <word>
         <form class="v" pronunciation="tuku-ru">台丘車</form>
         <meaning xml:lang="en">stand</meaning>
         <etymology xml:lang="en">from <etyma xml:lang="qpt">rúgur</etyma>, <mention>stand; support oneself</mention></etymology>
     </word>
+    <word>
+        <form class="n" pronunciation="zifudi">毬末帝</form>
+        <meaning xml:lang="en">fox</meaning>
+        <etymology xml:lang="en">from <etyma xml:lang="qpt">zhípuri</etyma>, <mention>one with bushy tail</mention></etymology>
+    </word>
     <!--  DERIVED WORDS  -->
     <word>
         <form class="v" pronunciation="tukudi">台丘侍</form>
         <meaning xml:lang="en">aide; waiter; assistaint</meaning>
-        <etymology xml:lang="en"><wordref xml:lang="qdi">台丘車</wordref> + <etyma xml:lang="qdi">-侍</etyma>, with the sense <mention>one who stands (by)</mention></etymology>
+        <etymology xml:lang="en"><wordref xml:lang="qdi">台丘車</wordref> + <wordref xml:lang="qdi">-侍</etyma>, with the sense <mention>one who stands (by)</mention></etymology>
         <!--  in D2 as 丘侍  -->
     </word>
 </lexis>

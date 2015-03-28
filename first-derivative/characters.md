@@ -582,7 +582,7 @@
 ### zi
 
 * 字 [U+5B57] zi : word; character
-* 毛 [U+6BDB] zi : hair
+* 毬 [U+6BDB] zi : sphere; hair
 * 室 [U+5BA4] zi : room
 * 実 [U+5B9F] zi : fruit; reality
 * 史 [U+53F2] zi : history

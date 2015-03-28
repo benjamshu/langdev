@@ -82,7 +82,6 @@ Noun phrases in THE PROTO-LANGUAGE consist of the following:
 1. Zero or more determiners
 2. Zero or more relative clauses
 3. One (or occasionally more) noun(s)
-4. One noun-case post-position
 
 There are three noun-cases in THE PROTO-LANGUAGE: topical, nominative, and objective. Noun phrases in the topical case are placed at the beginning of the sentence. If a nominative phrase is provided but an objective phrase is absent, the topical case may function like the objective. If no nominative phrase is provided, it may function like the nominative.
 
