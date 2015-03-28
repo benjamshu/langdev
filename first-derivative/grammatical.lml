@@ -3,4 +3,9 @@
 <lexis xml:lang="qdi" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">D1 GRAMMATICAL</meta>
     <meta name="description" xml:lang="en">A collection of all grammatical words in the first derivative of THE LANGUAGE. In latin characters because the originals were lost.</meta>
+    <affix>
+        <form pronunciation="-di">-侍</form>
+        <meaning xml:lang="en">forms animate agent nouns</meaning>
+        <etymology>from <etyma xml:lang="qpt">-ri</etyma>; became <etyma xml:lang="qpt">-ti</etyma> after stressed syllables and <etyma xml:lang="qpt">-di</etyma> otherwise; this was later codified as <wordref xml:lang="qdi">-侍</wordref> in most instances.</etymology>
+    </affix>
 </lexis>
