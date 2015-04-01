@@ -49,6 +49,11 @@
         <meaning xml:lang="en">fox</meaning>
         <etymology xml:lang="en">from <etyma xml:lang="qpt">zhípuri</etyma>, <mention>one with bushy tail</mention></etymology>
     </word>
+    <word>
+        <form class="v" pronunciation="ze:go-pu">斉永効文</form>
+        <meaning xml:lang="en">become</meaning>
+        <etymology xml:lang="en">from <etyma xml:lang="qpt">zhé:qgob</etyma>, <mention>be maturing; be growing into</mention>, the progressive derivative of <etyma xml:lang="qpt">zhe:qg</etyma>, <mention>grow</mention></etymology>
+    </word>
     <!--  DERIVED WORDS  -->
     <word>
         <form class="v" pronunciation="tukudi">台丘侍</form>
