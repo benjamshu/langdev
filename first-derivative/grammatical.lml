@@ -16,4 +16,9 @@
         <meaning xml:lang="en" class="adv">repeatedly; often</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">-ur</etyma>, a verb suffix used to note cyclical or reflexive actions, later detached as an adverb/post-position</etymology>
     </word>
+    <word>
+        <form class="post adv" pronunciation="da">代</form>
+        <meaning xml:lang="en" class="post">topic marker</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">ardáq</etyma>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
+    </word>
 </lexis>
