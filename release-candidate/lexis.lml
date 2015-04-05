@@ -19,7 +19,7 @@
         <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">本筆字</etyma>, <mention>lexical character</mention>, and <etyma xml:lang="qdd">例枚字</etyma>, <mention>latin character</mention></etymology>
     </word>
     <word>
-        <form class="n" pronunciation="iryuzi">云豆丨字</form>
+        <form class="n" pronunciation="iryuzi">云丨豆字</form>
         <meaning xml:lang="en">ideographic character; HAN character</meaning>
         <etymology xml:lang="en">from ENGLISH <etyma>ideo-</etyma> (as in <mention>ideograph</mention>) + <wordref xml:lang="qrc">zi</wordref></etymology>
     </word>
@@ -52,9 +52,39 @@
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">-ur</etyma>, a verb suffix used to note cyclical or reflexive actions, later detached as an adverb/post-position</etymology>
     </word>
     <word>
-        <form class="post adv" pronunciation="da">日</form>
+        <form class="post adv" pronunciation="da, ra">日</form>
         <meaning xml:lang="en" class="post">topic marker</meaning>
         <meaning xml:lang="en" class="post">in contrast to</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">ardáq</etyma>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
+    </word>
+    <word>
+        <form class="det.art.def" pronunciation="dai">日月</form>
+        <meaning xml:lang="en">definite article</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">nai</etyma></etymology>
+    </word>
+    <word>
+        <form class="cla.n" pronunciation="ne">干</form>
+        <meaning xml:lang="en">person classifier</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">qeg</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem.med" pronunciation="yozi">艮毛</form>
+        <meaning xml:lang="en">medial demonstrative</meaning>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">食</etyma> + <etyma xml:lang="qdi">毬</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem.prox" pronunciation="du">車</form>
+        <meaning xml:lang="en">proximal demonstrative</meaning>
+        <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">車占</etyma>, from D1 <etyma xml:lang="qdi">雨流</etyma> + <etyma xml:lang="qdi">点抜</etyma></etymology>
+    </word>
+    <word>
+        <form class="pron.1" pronunciation="ging">占舌</form>
+        <meaning xml:lang="en">first-person pronoun</meaning>
+        <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">車占</etyma> + <etyma xml:lang="qdd">干</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cop" pronunciation="tu">戸</form>
+        <meaning xml:lang="en">copula</meaning>
+        <etymology>abbreviated form of D1 <etyma xml:lang="qdi">徒羊台</etyma>, <mention>appear to be; seem like</mention>, from PL <etyma xml:lang="qpt">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="qpt">rozh</etyma>, <mention>eye</mention></etymology>
     </word>
 </lexis>

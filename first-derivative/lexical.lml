@@ -26,33 +26,48 @@
     <word>
         <form class="v" pronunciation="sipu">遅文</form>
         <meaning xml:lang="en">spit</meaning>
-        <etymology xml:lang="en">of imitative origin; replaced PROTO-LANGUAGE <mention xml:lang="qpt">uaqó:b</mention></etymology>
+        <etymology xml:lang="en">of imitative origin; replaced PL <mention xml:lang="qpt">uaqó:b</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="myofi">牧中小</form>
         <meaning xml:lang="en">cat</meaning>
-        <etymology xml:lang="en">originally a compound of <etyma xml:lang="qpt">mjo</etyma> (an imitation of a cat's meow) and PL <etyma xml:lang="qpt">pir</etyma>, <mention>small mammal</mention>; replaced PL <mention xml:lang="qpt">pishúg</mention></etymology>
+        <etymology xml:lang="en">originally a compound of PL <etyma xml:lang="qpt">mjo</etyma> (an imitation of a cat's meow) and PL <etyma xml:lang="qpt">pir</etyma>, <mention>small mammal</mention>; replaced PL <mention xml:lang="qpt">pishúg</mention></etymology>
     </word>
     <!--  FROM PROTO-  -->
     <affix>
         <form pronunciation="-di">-侍</form>
         <meaning xml:lang="en">forms animate agent nouns</meaning>
-        <etymology>from <etyma xml:lang="qpt">-ri</etyma>; became <etyma xml:lang="qpt">-ti</etyma> after stressed syllables and <etyma xml:lang="qpt">-di</etyma> otherwise; this was later codified as <wordref xml:lang="qdi">-侍</wordref> in most instances.</etymology>
+        <etymology>from PL <etyma xml:lang="qpt">-ri</etyma>; became <etyma xml:lang="qpt">-ti</etyma> after stressed syllables and <etyma xml:lang="qpt">-di</etyma> otherwise; this was later codified as <wordref xml:lang="qdi">-侍</wordref> in most instances.</etymology>
     </affix>
     <word>
         <form class="v" pronunciation="tuku-ru">台丘車</form>
         <meaning xml:lang="en">stand</meaning>
-        <etymology xml:lang="en">from <etyma xml:lang="qpt">rúgur</etyma>, <mention>stand; support oneself</mention></etymology>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">rúgur</etyma>, <mention>stand; support oneself</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="zifudi">毬末帝</form>
         <meaning xml:lang="en">fox</meaning>
-        <etymology xml:lang="en">from <etyma xml:lang="qpt">zhípuri</etyma>, <mention>one with bushy tail</mention></etymology>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">zhípuri</etyma>, <mention>one with bushy tail</mention></etymology>
     </word>
     <word>
         <form class="v" pronunciation="ze:go-pu">斉永効文</form>
         <meaning xml:lang="en">become</meaning>
-        <etymology xml:lang="en">from <etyma xml:lang="qpt">zhé:qgob</etyma>, <mention>be maturing; be growing into</mention>, the progressive derivative of <etyma xml:lang="qpt">zhe:qg</etyma>, <mention>grow</mention></etymology>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">zhé:qgob</etyma>, <mention>be maturing; be growing into</mention>, the progressive derivative of <etyma xml:lang="qpt">zhe:qg</etyma>, <mention>grow</mention></etymology>
+    </word>
+    <word>
+        <form class="n" pronunciation="yo">食</form>
+        <meaning xml:lang="en">face</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">ió:</etyma>, a nominalization of <etyma xml:lang="qpt">gjo:</etyma>, <mention>be facing</mention></etymology>
+    </word>
+    <word>
+        <form class="v" pronunciation="gi-nu">点抜</form>
+        <meaning xml:lang="en">point</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">gjil</etyma></etymology>
+    </word>
+    <word>
+        <form class="v" pronunciation="tos-tu">徒羊台</form>
+        <meaning xml:lang="en">appear to be; seem like</meaning>
+        <etymology>from PL <etyma xml:lang="qpt">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="qpt">rozh</etyma>, <mention>eye</mention></etymology>
     </word>
     <!--  DERIVED WORDS  -->
     <word>
@@ -60,5 +75,11 @@
         <meaning xml:lang="en">aide; waiter; assistaint</meaning>
         <etymology xml:lang="en"><wordref xml:lang="qdi">台丘車</wordref> + <wordref xml:lang="qdi">-侍</etyma>, with the sense <mention>one who stands (by)</mention></etymology>
         <!--  in D2 as 丘侍  -->
+    </word>
+    <word>
+        <form class="v.cop" pronunciation="tu">台</form>
+        <meaning xml:lang="en">copula</meaning>
+        <etymology>abbreviated form of <wordref xml:lang="qdi">徒羊台</wordref>, from PL <etyma xml:lang="qpt">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="qpt">rozh</etyma>, <mention>eye</mention></etymology>
+        <!-- in D2 as 戸  -->
     </word>
 </lexis>

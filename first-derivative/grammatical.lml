@@ -21,4 +21,24 @@
         <meaning xml:lang="en" class="post">topic marker</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">ardáq</etyma>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
     </word>
+    <word>
+        <form class="det.art.def" pronunciation="dai">自位</form>
+        <meaning xml:lang="en">definite article</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">nai</etyma></etymology>
+    </word>
+    <word>
+        <form class="cla.n" pronunciation="qe">身</form>
+        <meaning xml:lang="en">person classifier</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">qeg</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem.med" pronunciation="yozi">食毬</form>
+        <meaning xml:lang="en">medial demonstrative</meaning>
+        <etymology xml:lang="en"><etyma xml:lang="qdi">食</etyma> + <wordref xml:lang="qdi">毬</wordref></etymology>
+    </word>
+    <word>
+        <form class="det.dem.prox" pronunciation="urugi">雨流点</form>
+        <meaning xml:lang="en">proximal demonstrative</meaning>
+        <etymology xml:lang="en"><wordref xml:lang="qdi">雨流</wordref> + <etyma xml:lang="qdi">点抜</etyma></etymology>
+    </word>
 </lexis>

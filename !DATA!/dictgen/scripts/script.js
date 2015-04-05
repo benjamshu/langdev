@@ -158,7 +158,11 @@ var Dictionary = {
             }
             if (q.def) s += "definite ";
             if (q.ndef) s += "indefinite ";
+            if (q.prox) s += "proximal ";
+            if (q.med) s += "medial ";
+            if (q.dist) s += "distal ";
             if (q.pers) s += "personal ";
+            if (q.cop) s += "copular ";
             if (q.inf) s += "infinitive ";
             if (q.qnt) s += "quantifier ";
             if (q.num) s += "numeral ";
@@ -177,6 +181,7 @@ var Dictionary = {
             if (q.pron) s += "pronoun ";
             if (q.n) s += "noun ";
             if (q.v) s += "verb ";
+            if (q.cla) s += "classifier ";
             s = s.trim();
         }
         return s;
