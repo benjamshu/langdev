@@ -1189,11 +1189,6 @@
         <etymology><wordref>ar-</wordref> + <wordref>gro:zh</wordref></etymology>
     </word>
     <word>
-        <form class="n">gró:zhri</form>
-        <meaning xml:lang="en">eye; eyeball</meaning>
-        <etymology><wordref>gro:zh</wordref> + <wordref>-ri</wordref></etymology>
-    </word>
-    <word>
         <form class="n">gró:zhag</form>
         <meaning xml:lang="en">image; apparition</meaning>
         <etymology><wordref>gro:zh</wordref> + <wordref>-ag</wordref></etymology>
@@ -1261,6 +1256,7 @@
     <word>
         <form class="v.pfv">gjil</form>
         <meaning xml:lang="en">point</meaning>
+        <!--  in D1 as 点抜  -->
     </word>
     <word>
         <form class="v.cont">gjíle:qg</form>
@@ -1421,6 +1417,7 @@
         <form class="n">ió:</form>
         <meaning xml:lang="en">face</meaning>
         <etymology><wordref>ío-</wordref> + <wordref>gjo:</wordref></etymology>
+        <!--  in D1 as 食  -->
     </word>
     <!--  GJO:L  -->
     <word>
@@ -2017,6 +2014,7 @@
     <word>
         <form class="n">qeg</form>
         <meaning xml:lang="en">body; tree trunk</meaning>
+        <!--  in D1 as 身  -->
     </word>
     <!--  QESH  -->
     <word>
@@ -2734,5 +2732,20 @@
         <meaning xml:lang="en">fox</meaning>
         <etymology><wordref>zhipu</wordref> + <wordref>-ri</wordref></etymology>
         <!--  in D1 as 毬末帝  -->
+    </word>
+    <!--  ROZH  -->
+    <word>
+        <form class="n">rozh</form>
+        <meaning xml:lang="en">eye; eyeball</meaning>
+    </word>
+    <word>
+        <form class="v.pfv">róshu</form>
+        <meaning xml:lang="en">look; glance</meaning>
+        <etymology><wordref>rozh</wordref> + <wordref>-shu</wordref></etymology>
+    </word>
+    <word>
+        <form class="v.pfv">róshutu</form>
+        <meaning xml:lang="en">appear (as); be seen</meaning>
+        <etymology><wordref>róshu</wordref> + <wordref>-tu</wordref></etymology>
     </word>
 </lexis>
