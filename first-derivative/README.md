@@ -26,7 +26,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 9.  <i>r</i> is dropped when preceded by (palato-)alveolar consonants
 
-10. <i>i</i> and <i>u</i> become <i>y</i> and <i>u</i> when followed by another vowel
+10. <i>i</i> and <i>u</i> become <i>y</i> and <i>w</i> when followed by another vowel
 
 11. <i>zh</i> becomes <i>z</i> (<i>/ʑ/</i>) and <i>sh</i> becomes <i>s</i> (<i>/ɕ/</i>)
 
