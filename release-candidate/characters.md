@@ -2,7 +2,7 @@
 
 ## special characters
 
-| double | palat. | ditto  |  -n~q  |   -s   |
+| double | palat. | ditto  |   -n   |   -s   |
 | :----: | :----: | :----: | :----: | :----: |
 |   与   |   丨   |   〃   |   舌   |   羊   |
 
