@@ -20,7 +20,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 8.  The following changes occur to the codas word-final consonants:
 
-    * <i>q</i> is dropped when not preceded by <i>g</i>
+    * <i>q</i> is dropped when not followed by <i>g</i>
     * {<i>qg</i>, <i>n</i>} becomes <i>q</i>
     * <i>d</i> becomes <i>t</i>
 

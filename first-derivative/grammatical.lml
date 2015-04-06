@@ -19,6 +19,8 @@
     <word>
         <form class="post adv" pronunciation="da">代</form>
         <meaning xml:lang="en" class="post">topic marker</meaning>
+        <meaning xml:lang="en" class="post">in relation/contrast to</meaning>
+        <meaning xml:lang="en" class="adv">pertaining to the topic at hand</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">ardáq</etyma>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
     </word>
     <word>
@@ -30,5 +32,17 @@
         <form class="det.dem" pronunciation="yozi">食毬</form>
         <meaning xml:lang="en">demonstrative</meaning>
         <etymology xml:lang="en"><etyma xml:lang="qdi">食</etyma> + <wordref xml:lang="qdi">毬</wordref></etymology>
+    </word>
+    <word>
+        <form class="post adv" pronunciation="ka">各</form>
+        <meaning xml:lang="en" class="post">indirect object marker: to, for</meaning>
+        <meaning xml:lang="en" class="adv">away</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">-ag</etyma>, a verb suffix used to form patient nouns, later detached as an adverb/post-position</etymology>
+    </word>
+    <word>
+        <form class="post adv" pronunciation="pas">米羊</form>
+        <meaning xml:lang="en" class="post">direct object marker</meaning>
+        <meaning xml:lang="en" class="post">possession marker; of</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">baush</etyma>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
     </word>
 </lexis>
