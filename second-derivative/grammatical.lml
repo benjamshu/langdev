@@ -19,7 +19,8 @@
     <word>
         <form class="post adv" pronunciation="da, ra">日</form>
         <meaning xml:lang="en" class="post">topic marker</meaning>
-        <meaning xml:lang="en" class="post">in contrast to</meaning>
+        <meaning xml:lang="en" class="post">in relation/contrast to</meaning>
+        <meaning xml:lang="en" class="adv">pertaining to the topic at hand</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">ardáq</etyma>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
     </word>
     <word>
@@ -36,5 +37,17 @@
         <form class="pron.1" pronunciation="yosne">艮毛干</form>
         <meaning xml:lang="en">first-person pronoun</meaning>
         <etymology xml:lang="en"><wordref xml:lang="qdd">艮毛</wordref> + <wordref xml:lang="qdd">干</wordref></etymology>
+    </word>
+    <word>
+        <form class="post adv" pronunciation="ka">匕</form>
+        <meaning xml:lang="en" class="post">indirect object marker: to, for</meaning>
+        <meaning xml:lang="en" class="adv">away</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">-ag</etyma>, a verb suffix used to form patient nouns, later detached as an adverb/post-position</etymology>
+    </word>
+    <word>
+        <form class="post adv" pronunciation="pa">米</form>
+        <meaning xml:lang="en" class="post">direct object marker</meaning>
+        <meaning xml:lang="en" class="post">possession marker; of</meaning>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">米羊</etyma>, from PL <etyma xml:lang="qpt">baush</etyma>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
     </word>
 </lexis>
