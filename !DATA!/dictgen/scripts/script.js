@@ -139,7 +139,7 @@ var Dictionary = {
             if (q.an) s += "animate ";
             if (q.inan) s += "inanimate ";
             if (q.form) s += "formal ";
-            if (q.ifrm) s += "informal ";
+            if (q.nfrm) s += "informal ";
             if (q.pst) s += "past-tense ";
             if (q.prs) s += "present-tense ";
             if (q.fut) s += "future-tense ";
@@ -156,6 +156,7 @@ var Dictionary = {
                 else if (q.int) s += "interrogative ";
                 else s += "modal ";
             }
+            if (q.prop) s += "proper ";
             if (q.def) s += "definite ";
             if (q.ndef) s += "indefinite ";
             if (q.prox) s += "proximal ";

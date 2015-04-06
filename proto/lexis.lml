@@ -2747,5 +2747,6 @@
         <form class="v.pfv">róshutu</form>
         <meaning xml:lang="en">appear (as); be seen</meaning>
         <etymology><wordref>róshu</wordref> + <wordref>-tu</wordref></etymology>
+        <!--  in D1 as 徒羊台  -->
     </word>
 </lexis>
