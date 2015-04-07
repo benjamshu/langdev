@@ -147,15 +147,14 @@ var Dictionary = {
             if (q.pl) s += "plural ";
             if (q.cnt && !q.sing && !q.pl) s += "count ";
             if (q.mass) s += "mass ";
-            if (q.mod) {
-                if (q.mir) s += "mirative ";
-                else if (q.opt) s += "optative ";
-                else if (q.hort) s += "hortative ";
-                else if (q.perm) s += "permissive ";
-                else if (q.jus) s += "jussive ";
-                else if (q.int) s += "interrogative ";
-                else s += "modal ";
-            }
+            if (q.ind) s += "indicative ";
+            if (q.mir) s += "mirative ";
+            if (q.opt) s += "optative ";
+            if (q.hort) s += "hortative ";
+            if (q.perm) s += "permissive ";
+            if (q.jus) s += "jussive ";
+            if (q.int) s += "interrogative ";
+            if (q.mod && !q.ind && !q.mir && !q.opt && !q.hort && !q.perm && !q.jus && !q.int) s += "modal ";
             if (q.prop) s += "proper ";
             if (q.def) s += "definite ";
             if (q.ndef) s += "indefinite ";
