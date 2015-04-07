@@ -15,13 +15,13 @@
         <form class="n" pronunciation="hongsi">本舌字</form>
         <meaning xml:lang="en">lexical character</meaning>
         <etymology xml:lang="en">from JAPANESE <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="qdd">字</wordref> was coined to preserve this old meaning</etymology>
-        <!--  in RC as SAME  -->
+        <!--  in RC as 本舌⼦  -->
     </word>
     <word>
         <form class="n" pronunciation="demasi">例枚字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
         <etymology xml:lang="en">from ENGLISH <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from JAPANESE <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
-        <!--  in RC as 歹攵字  -->
+        <!--  in RC as 歹攵⼦  -->
     </word>
     <word>
         <form class="n" pronunciation="kuri">丘侍</form>
@@ -36,16 +36,23 @@
         <!--  in RC as 才末巾  -->
     </word>
     <word>
-        <form class="v.cop" pronunciation="tu">台</form>
+        <form class="v.cop.nfrm" pronunciation="tu">戸</form>
         <meaning xml:lang="en">copula</meaning>
         <etymology>abbreviated form of D1 <etyma xml:lang="qdi">徒羊台</etyma>, <mention>appear to be; seem like</mention>, from PL <etyma xml:lang="qpt">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="qpt">rozh</etyma>, <mention>eye</mention></etymology>
         <!--  in RC as SAME  -->
+    </word>
+    <word>
+        <form class="v.cop.frm v.aux.frm" pronunciation="yu-nu">受手</form>
+        <meaning xml:lang="en" form="v.cop.frm">polite copula</meaning>
+        <meaning xml:lang="en" form="v.aux.frm">marks a statement as polite</meaning>
+        <etymology>from D1 <etyma xml:lang="qdi">中台筆</etyma>, polite form of <etyma xml:lang="qdi">台</etyma>; for more information, see <wordref xml:lang="qdd">戸</wordref></etymology>
+        <!--  in RC as 守手  -->
     </word>
     <!--  DERIVED WORDS  -->
     <word>
         <form class="n" pronunciation="zi">字</form>
         <meaning xml:lang="en">character; glyph</meaning>
         <etymology xml:lang="en">from <wordref xml:lang="qdd">本筆字</wordref> and <wordref xml:lang="qdd">例枚字</wordref></etymology>
-        <!--  in RC as SAME  -->
+        <!--  in RC as ⼦  -->
     </word>
 </lexis>
