@@ -36,7 +36,7 @@
         <!--  in RC as 才末巾  -->
     </word>
     <word>
-        <form class="v.cop" pronunciation="tu">戸</form>
+        <form class="v.cop" pronunciation="tu">台</form>
         <meaning xml:lang="en">copula</meaning>
         <etymology>abbreviated form of D1 <etyma xml:lang="qdi">徒羊台</etyma>, <mention>appear to be; seem like</mention>, from PL <etyma xml:lang="qpt">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="qpt">rozh</etyma>, <mention>eye</mention></etymology>
         <!--  in RC as SAME  -->

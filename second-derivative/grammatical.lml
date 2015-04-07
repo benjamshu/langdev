@@ -34,8 +34,8 @@
         <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">食</etyma> + <etyma xml:lang="qdi">毬</etyma>, <mention>which is faced</mention></etymology>
     </word>
     <word>
-        <form class="pron.1" pronunciation="yosne">艮毛干</form>
-        <meaning xml:lang="en">first-person pronoun</meaning>
+        <form class="cla.n" pronunciation="yosne">艮毛干</form>
+        <meaning xml:lang="en">first-person classifier</meaning>
         <etymology xml:lang="en"><wordref xml:lang="qdd">艮毛</wordref> + <wordref xml:lang="qdd">干</wordref></etymology>
     </word>
     <word>
@@ -45,9 +45,9 @@
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">-ag</etyma>, a verb suffix used to form patient nouns, later detached as an adverb/post-position</etymology>
     </word>
     <word>
-        <form class="post adv" pronunciation="pa">米</form>
+        <form class="post adv" pronunciation="fu">人</form>
         <meaning xml:lang="en" class="post">direct object marker</meaning>
         <meaning xml:lang="en" class="post">possession marker; of</meaning>
-        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">米羊</etyma>, from PL <etyma xml:lang="qpt">baush</etyma>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">文羊</etyma>, from PL <etyma xml:lang="qpt">baush</etyma>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
     </word>
 </lexis>
