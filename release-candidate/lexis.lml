@@ -74,9 +74,15 @@
         <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">艮毛</etyma> + <etyma xml:lang="qdd">干</etyma></etymology>
     </word>
     <word>
-        <form class="v.cop" pronunciation="tu">戸</form>
+        <form class="v.cop.nfrm" pronunciation="tu">戸</form>
         <meaning xml:lang="en">copula</meaning>
         <etymology>abbreviated form of D1 <etyma xml:lang="qdi">徒羊台</etyma>, <mention>appear to be; seem like</mention>, from PL <etyma xml:lang="qpt">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="qpt">rozh</etyma>, <mention>eye</mention></etymology>
+    </word>
+    <word>
+        <form class="v.cop.frm v.aux.frm" pronunciation="yu-nu">守手</form>
+        <meaning xml:lang="en" form="v.cop.frm">polite copula</meaning>
+        <meaning xml:lang="en" form="v.aux.frm">marks a statement as polite</meaning>
+        <etymology>from D1 <etyma xml:lang="qdi">中台筆</etyma>, polite form of <etyma xml:lang="qdi">台</etyma>; for more information, see <wordref xml:lang="qrc">戸</wordref></etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="ka">匕</form>
