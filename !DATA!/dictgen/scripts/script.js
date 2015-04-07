@@ -164,6 +164,7 @@ var Dictionary = {
             if (q.pers) s += "personal ";
             if (q.cop) s += "copular ";
             if (q.inf) s += "infinitive ";
+            if (q.aux) s += "auxiliary ";
             if (q.qnt) s += "quantifier ";
             if (q.num) s += "numeral ";
             if (q.dem) s += "demonstrative ";
