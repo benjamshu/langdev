@@ -14,7 +14,7 @@ The following characters are reserved for use only in grammatical words:
 
 |     |  -u  |  -e  |  -i  |  -a  |  -o  |
 | :-- | :--: | :--: | :--: | :--: | :--: |
-|     |  于  |  水  |  月  |  立  |  央  |
+|     |  卜  |  水  |  月  |  立  |  央  |
 |  p  |  文  |  木  |  一  |  米  |  厶  |
 |  b  |  生  |  廾  |  母  |  土  |  旁  |
 |  m  |  无  |  女  |  夕  |  丿  |  勹  |
