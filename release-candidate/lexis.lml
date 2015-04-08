@@ -64,12 +64,12 @@
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">qeg</etyma></etymology>
     </word>
     <word>
-        <form class="det.dem" pronunciation="yozi">艮毛</form>
+        <form class="det.dem" pronunciation="yozi">氏毛</form>
         <meaning xml:lang="en">demonstrative</meaning>
         <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">食</etyma> + <etyma xml:lang="qdi">毬</etyma>, <mention>which is faced</mention></etymology>
     </word>
     <word>
-        <form class="cla.n" pronunciation="yos">艮羊</form>
+        <form class="cla.n" pronunciation="yos">氏羊</form>
         <meaning xml:lang="en">first-person classifier</meaning>
         <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">艮毛</etyma> + <etyma xml:lang="qdd">干</etyma></etymology>
     </word>
