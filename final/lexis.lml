@@ -24,6 +24,11 @@
         <etymology xml:lang="en">D1 <etyma xml:lang="qdi">例枚字</etyma>, from ENGLISH <etyma>roman</etyma>, modelled after <wordref xml:lang="qdi">honzi</wordref> with influence from JAPANESE <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
     </word>
     <word>
+        <form class="n" pronunciation="iryusi">云丨豆字</form>
+        <meaning xml:lang="en">ideographic character; HAN character</meaning>
+        <etymology xml:lang="en">from ENGLISH <etyma>ideo-</etyma> (as in <mention>ideograph</mention>) + <wordref xml:lang="qrc">zi</wordref></etymology>
+    </word>
+    <word>
         <form class="post adv" pronunciation="da, ra">日</form>
         <meaning xml:lang="en" class="post">topic marker</meaning>
         <meaning xml:lang="en" class="post">in relation/contrast to</meaning>
