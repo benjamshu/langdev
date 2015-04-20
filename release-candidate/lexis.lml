@@ -19,7 +19,7 @@
         <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">本筆字</etyma>, <mention>lexical character</mention>, and <etyma xml:lang="qdd">例枚字</etyma>, <mention>latin character</mention></etymology>
     </word>
     <word>
-        <form class="n" pronunciation="iryuzi">云丨豆字</form>
+        <form class="n" pronunciation="iryusi">云丨豆字</form>
         <meaning xml:lang="en">ideographic character; HAN character</meaning>
         <etymology xml:lang="en">from ENGLISH <etyma>ideo-</etyma> (as in <mention>ideograph</mention>) + <wordref xml:lang="qrc">zi</wordref></etymology>
     </word>
