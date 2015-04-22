@@ -10,9 +10,7 @@ Other base characters are considered *combined* with variation selectors if all 
 - The variation selector directly follows the base character
 - The combination is standardized in this document
 
-Combinations of base characters and variation selectors may be represented via a combined code point; for example, `Z-213B` represents the sequence `Z-21 Z-3B`. Note that base characters __cannot__ be combined with more than one variation selector.
-
-Variation selectors which are not combined with base characters __should not__ be rendered.
+Variation selectors which are not combined with base characters __should not__ be rendered. Note that base characters __cannot__ be combined with more than one variation selector.
 
 ## code table : base characters
 
