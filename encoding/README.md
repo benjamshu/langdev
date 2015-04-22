@@ -1,10 +1,10 @@
 # ZIKODU (FIZENG STANDARD ENCODING)
 
-Characters in the ZIKODU are signified by <dfn>code points</dfn>, unique numbers assigned to each grapheme. There are 112 <dfn>base characters</dfn> in ZIKODU; 16 <dfn>variation selectors</dfn> are used to select alternate glyphs. Code points are rendered in hexadecimal, preceeded by the string `Z-`; equivalent UNICODE code points are provided.
+Characters in the ZIKODU are signified by *code points*, unique numbers assigned to each grapheme. There are 112 *base characters* in ZIKODU; 16 *variation selectors* are used to select alternate glyphs. Code points are rendered in hexadecimal, preceeded by the string `Z-`; equivalent UNICODE code points are provided.
 
-The base characters represented by code points `Z-00` through `Z-1F`, in addition to `Z-7F`, are identical to their UNICODE counterparts. These characters are referred to as <dfn>control characters</dfn>, and __may not__ be combined with variation selectors.
+The base characters represented by code points `Z-00` through `Z-1F`, in addition to `Z-7F`, are identical to their UNICODE counterparts. These characters are referred to as *control characters*, and __may not__ be combined with variation selectors.
 
-Other base characters are considered <dfn>combined</dfn> with variation selectors if all of the following are true:
+Other base characters are considered *combined* with variation selectors if all of the following are true:
 
 - The base character is not a control character
 - The variation selector directly follows the base character
