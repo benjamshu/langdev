@@ -201,7 +201,7 @@ Note that base characters __cannot__ be combined with more than one variation se
 |       Z-A2 |    。    | IDEOGRAPHIC FULL STOP                   | U+3002  |
 |       Z-A3 |    与    | FIZENG DOUBLE-CONSONANT MARK            | U+4E0E  |
 |       Z-A4 |    丨    | FIZENG PALATALIZER                      | U+4E28  |
-|       Z-A5 |    々    | FIZENG ITERATION MARK                   | U+3005  |
+|       Z-A5 |    々    | IDEOGRAPHIC ITERATION MARK              | U+3005  |
 |       Z-A6 |    舌    | FIZENG MORAIC N                         | U+820C  |
 |       Z-A7 |    羊    | FIZENG MORAIC S                         | U+7F8A  |
 |       Z-A8 |    �    | VARIATION SELECTOR-1                    | U+3008  |
