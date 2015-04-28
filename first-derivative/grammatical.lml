@@ -25,7 +25,7 @@
     </word>
     <word>
         <form class="cla.n" pronunciation="qe">身</form>
-        <meaning xml:lang="en">person classifier</meaning>
+        <meaning xml:lang="en">classifier for people</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">qeg</etyma></etymology>
     </word>
     <word>
@@ -44,5 +44,10 @@
         <meaning xml:lang="en" class="post">direct object marker</meaning>
         <meaning xml:lang="en" class="post">possession marker; of</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">baush</etyma>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
+    </word>
+    <word>
+        <form class="cla.n" pronunciation="ti">丼</form>
+        <meaning xml:lang="en">classifier for names and words</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">rim</etyma></etymology>
     </word>
 </lexis>

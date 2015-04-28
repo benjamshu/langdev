@@ -2122,10 +2122,15 @@
         <etymology><wordref>rim</wordref> + <wordref>-iq</wordref></etymology>
     </word>
     <word>
-        <form class="v.pfv">uarím</form>
+        <form class="n">uarím</form>
         <meaning xml:lang="en">speech; word; language</meaning>
         <etymology><wordref>ua-</wordref> + <wordref>rim</wordref></etymology>
         <!--  in D1 as 語丼  -->
+    </word>
+    <word>
+        <form class="n">pirím</form>
+        <meaning xml:lang="en">word; saying</meaning>
+        <etymology><wordref>pi-</wordref> + <wordref>rim</wordref></etymology>
     </word>
     <!--  RI:G  -->
     <word>
