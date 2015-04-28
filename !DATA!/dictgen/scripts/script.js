@@ -182,7 +182,7 @@ var Dictionary = {
             if (q.pron) s += "pronoun ";
             if (q.n) s += "noun ";
             if (q.v) s += "verb ";
-            if (q.excl) s += "exclamation ";
+            if (q.inj) s += "interjection ";
             if (q.cla) s += "classifier ";
             s = s.trim();
         }
