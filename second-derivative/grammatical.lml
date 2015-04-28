@@ -28,14 +28,9 @@
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">qeg</etyma></etymology>
     </word>
     <word>
-        <form class="det.dem" pronunciation="yozi">艮毛</form>
-        <meaning xml:lang="en">demonstrative</meaning>
-        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">食</etyma> + <etyma xml:lang="qdi">毬</etyma>, <mention>which is faced</mention></etymology>
-    </word>
-    <word>
-        <form class="cla.n" pronunciation="yosne">艮毛干</form>
+        <form class="cla.n" pronunciation="yosne">食毛干</form>
         <meaning xml:lang="en">first-person classifier</meaning>
-        <etymology xml:lang="en"><wordref xml:lang="qdd">艮毛</wordref> + <wordref xml:lang="qdd">干</wordref></etymology>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">食毬</etyma> + <etyma xml:lang="qdi">身</etyma></etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="ka">匕</form>
@@ -53,5 +48,20 @@
         <form class="cla.n" pronunciation="ti">丼</form>
         <meaning xml:lang="en">classifier for names and words</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">rim</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem.prox" pronunciation="yoi">食月</form>
+        <meaning xml:lang="en">proximal demonstrative</meaning>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">食</etyma> + <etyma xml:lang="qdi">毬</etyma>, <mention>which is faced</mention>, with influence from <wordref xml:lang="qdd">彼月</wordref></etymology>
+    </word>
+    <word>
+        <form class="det.dem.dist" pronunciation="dai">彼月</form>
+        <meaning xml:lang="en">distal demonstrative</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">nai</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem.int" pronunciation="bai">何月</form>
+        <meaning xml:lang="en">interrogative demonstrative</meaning>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">何</etyma> with influence from <wordref xml:lang="qdd">彼月</wordref>; ultimately from PL <etyma xml:lang="qpt">ma</etyma></etymology>
     </word>
 </lexis>
