@@ -126,4 +126,14 @@
         <meaning xml:lang="en">interrogative demonstrative</meaning>
         <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">何</etyma> with influence from <wordref xml:lang="qdd">彼月</wordref>; ultimately from PL <etyma xml:lang="qpt">ma</etyma></etymology>
     </word>
+    <word>
+        <form class="inj" pronunciation="he">又</form>
+        <meaning xml:lang="en">hey</meaning>
+        <etymology>from PL <etyma xml:lang="qpt">e:</etyma></etymology>
+    </word>
+    <word>
+        <form class="inj" pronunciation="e:ro">水水口</form>
+        <meaning xml:lang="en">hello (more formal)</meaning>
+        <etymology>from D1 <etyma xml:lang="qdi">泳泳友祝</etyma>, from PL <etyma xml:lang="qpt">e:</etyma> + <etyma xml:lang="qpt">róshu</etyma>, <mention>hey, look (who it is)</mention></etymology>
+    </word>
 </lexis>

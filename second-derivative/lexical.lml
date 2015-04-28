@@ -61,9 +61,21 @@
         <etymology>from D1 <etyma xml:lang="qdi">語丼</etyma> with influence from <wordref xml:lang="qdd">本舌字</wordref> and <wordref xml:lang="qdd">例枚字</wordref>; from PL <etyma xml:lang="qpt">uarím</etyma>, <mention>speech; word; language</mention>; ultimately from <etyma xml:lang="qpt">rim</etyma>, <mention>speak; converse</mention></etymology>
         <!--  in RC as 吾字  -->
     </word>
+    <word>
+        <form class="inj" pronunciation="he">又</form>
+        <meaning xml:lang="en">hey</meaning>
+        <etymology>from PL <etyma xml:lang="qpt">e:</etyma></etymology>
+        <!--  in RC as SAME  -->
+    </word>
+    <word>
+        <form class="inj" pronunciation="e:ro">水水口</form>
+        <meaning xml:lang="en">hello (more formal)</meaning>
+        <etymology>from D1 <etyma xml:lang="qdi">泳泳友祝</etyma>, from PL <etyma xml:lang="qpt">e:</etyma> + <etyma xml:lang="qpt">róshu</etyma>, <mention>hey, look (who it is)</mention></etymology>
+        <!--  in RC as SAME  -->
+    </word>
     <!--  DERIVED WORDS  -->
     <word>
-        <form class="n" pronunciation="zi">字</form>
+        <form class="cla.n n" pronunciation="zi">字</form>
         <meaning xml:lang="en">character; glyph</meaning>
         <etymology xml:lang="en">from <wordref xml:lang="qdd">本筆字</wordref> and <wordref xml:lang="qdd">例枚字</wordref></etymology>
         <!--  in RC as SAME  -->
