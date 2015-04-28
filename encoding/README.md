@@ -197,13 +197,13 @@ Note that base characters __cannot__ be combined with more than one variation se
 |       Z-9E |    �    | PRIVATE MESSAGE                         | U+009E  |
 |       Z-9F |    �    | APPLICATION PROGRAM COMMAND             | U+009F  |
 |       Z-A0 |    　    | IDEOGRAPHIC SPACE                       | U+3000  |
-|       Z-A6 |    、    | IDEOGRAPHIC COMMA                       | U+3001  |
-|       Z-A7 |    。    | IDEOGRAPHIC FULL STOP                   | U+3002  |
-|       Z-A1 |    与    | FIZENG DOUBLE-CONSONANT MARK            | U+4E0E  |
-|       Z-A2 |    丨    | FIZENG PALATALIZER                      | U+4E28  |
-|       Z-A3 |    々    | FIZENG ITERATION MARK                   | U+3005  |
-|       Z-A4 |    舌    | FIZENG MORAIC N                         | U+820C  |
-|       Z-A5 |    羊    | FIZENG MORAIC S                         | U+7F8A  |
+|       Z-A1 |    、    | IDEOGRAPHIC COMMA                       | U+3001  |
+|       Z-A2 |    。    | IDEOGRAPHIC FULL STOP                   | U+3002  |
+|       Z-A3 |    与    | FIZENG DOUBLE-CONSONANT MARK            | U+4E0E  |
+|       Z-A4 |    丨    | FIZENG PALATALIZER                      | U+4E28  |
+|       Z-A5 |    々    | FIZENG ITERATION MARK                   | U+3005  |
+|       Z-A6 |    舌    | FIZENG MORAIC N                         | U+820C  |
+|       Z-A7 |    羊    | FIZENG MORAIC S                         | U+7F8A  |
 |       Z-A8 |    �    | VARIATION SELECTOR-1                    | U+3008  |
 |       Z-A9 |    �    | VARIATION SELECTOR-2                    | U+3009  |
 |       Z-AA |    �    | VARIATION SELECTOR-3                    | U+300A  |
