@@ -60,7 +60,12 @@
     <word>
         <form class="cla.n" pronunciation="yos">氏羊</form>
         <meaning xml:lang="en">first-person classifier</meaning>
-        <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">艮毛</etyma> + <etyma xml:lang="qdd">干</etyma></etymology>
+        <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">食毛身</etyma>, from D1 <etyma xml:lang="qdi">食毬</etyma> + <etyma xml:lang="qdi">身</etyma></etymology>
+    </word>
+    <word>
+        <form class="cla.n" pronunciation="nuru">弁亦</form>
+        <meaning xml:lang="en">second-person classifier</meaning>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">身</etyma> + <etyma xml:lang="qdi">雨流</etyma></etymology>
     </word>
     <word>
         <form class="v.cop.nfrm" pronunciation="tu">戸</form>
@@ -100,6 +105,21 @@
         <meaning xml:lang="en" form="v.cop.frm">interrogative copula</meaning>
         <meaning xml:lang="en" form="v.aux.frm">marks a statement as interrogative</meaning>
         <etymology>detached from D1 interrogative conjugation suffixes</etymology>
+    </word>
+    <word>
+        <form class="det.dem.prox" pronunciation="yoi">氏月</form>
+        <meaning xml:lang="en">proximal demonstrative</meaning>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">食</etyma> + <etyma xml:lang="qdi">毬</etyma>, <mention>which is faced</mention>, with influence from <etyma xml:lang="qdd">彼月</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem.prox" pronunciation="nui">弁月</form>
+        <meaning xml:lang="en">medial demonstrative</meaning>
+        <etymology xml:lang="en">back-formation from D2 <etyma xml:lang="qdd">其流</etyma> modelled after <etyma xml:lang="qdd">食月</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem.dist" pronunciation="dai">彼月</form>
+        <meaning xml:lang="en">distal demonstrative</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">nai</etyma></etymology>
     </word>
     <word>
         <form class="det.dem.int" pronunciation="bai">可月</form>
