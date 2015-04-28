@@ -16,13 +16,12 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 6.  <i>j</i> becomes <i>je</i> when followed by a nasal
 
-7.  All double consonants are devoiced
+7.  All double and word-final consonants are devoiced
 
 8.  The following changes occur to word-final consonants:
 
     * <i>q</i> is dropped when not followed by <i>g</i>
     * {<i>qg</i>, <i>n</i>} becomes <i>q</i>
-    * <i>d</i> becomes <i>t</i>
 
 9.  <i>r</i> is dropped when preceded by (palato-)alveolar consonants
 
@@ -36,7 +35,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
     * <i>n</i> > <i>d</i> > <i>r</i> > <i>t</i>
     * <i>m</i> > <i>b</i> > <i>p</i> > <i>f</i>
 
-    Note that the shifts <i>k</i> > <i>h</i>, <i>r</i> > <i>t</i>, <i>p</i> > <i>f</i> do not occur when the consonant is word-final.
+    Note that these shifts do not occur when the consonant is word-final.
 
 13. A few more shifts occur:
 
@@ -50,7 +49,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
     * {<i>d</i>, <i>t</i>} : <i>i</i>
     * {<i>b</i>, <i>p</i>, <i>f</i>} : <i>e</i>
     * {<i>l</i>, <i>r</i>} : <i>u</i>
-    * {<i>j</i>, <i>w</i>} : <i>o</i>
+    * {<i>j</i>, <i>w</i>, <i>m</i>} : <i>o</i>
 
     (Codas which end verbs may be treated differently)
 
