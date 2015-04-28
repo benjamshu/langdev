@@ -83,8 +83,8 @@
         <!--  in D2 as 丘侍  -->
     </word>
     <word>
-        <form class="v.cop.nfrm" pronunciation="tu">台</form>
-        <form class="v.cop.form" pronunciation="tyun">中台筆</form>
+        <form class="v.cop.nfrm.ind" pronunciation="tu">台</form>
+        <form class="v.cop.form.ind" pronunciation="tyun">中台筆</form>
         <meaning xml:lang="en">copula</meaning>
         <etymology>abbreviated form of <wordref xml:lang="qdi">徒羊台</wordref>, from PL <etyma xml:lang="qpt">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="qpt">rozh</etyma>, <mention>eye</mention></etymology>
         <!-- in D2 as 戸  -->

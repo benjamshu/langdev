@@ -193,3 +193,27 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | w-form | -uu          |        X         |        X        | -uuno               |        X         |        X        |
 | y-form | -yuu         |        X         |        X        | -iyuno              |        X         |        X        |
 | z-form | -zuu         |        X         |        X        | -nzuno              |        X         |        X        |
+
+## interrogative (question)
+
+|  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
+| ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
+| a-form | -Camua       | -Camea      | -Cama      | -Camuan             | -Camean            | -Caman            |
+| e-form | -Cemua       | -Cema       | -Cemaa     | -Cemuan             | -Ceman             | -Cemaan           |
+| V-form | -uma         | -ema        | -ama       | -uman               | -eman              | -aman             |
+| b-form | -buma        | -bema       | -bama      | -nbuman             | -nbeman            | -nbaman           |
+| d-form | -duma        | -dema       | -dama      | -nduman             | -ndeman            | -ndaman           |
+| f-form | -fuma        | -fema       | -fama      | -ffuman             | -ffeman            | -ffaman           |
+| g-form | -guma        | -gema       | -gama      | -nguman             | -ngeman            | -ngaman           |
+| h-form | -huma        | -hema       | -hama      | -hhuman             | -hheman            | -hhaman           |
+| k-form | -kuma        | -kema       | -kama      | -kkuman             | -kkeman            | -kkaman           |
+| m-form | -mua         | -mea        | -maa       | -nmuan              | -nmean             | -nmaan            |
+| n-form | -numa        | -nema       | -nama      | -nnuman             | -nneman            | -nnaman           |
+| p-form | -puma        | -pema       | -pama      | -ppuman             | -ppeman            | -ppaman           |
+| q-form | -quma        | -qema       | -qama      | -nquman             | -nqeman            | -nqaman           |
+| r-form | -ruma        | -rema       | -rama      | -rruman             | -rreman            | -rraman           |
+| s-form | -suma        | -sema       | -sama      | -nsuman             | -nseman            | -nsaman           |
+| t-form | -tuma        | -tema       | -tama      | -ttuman             | -tteman            | -ttaman           |
+| w-form | -uma         | -wema       | -wama      | -uuman              | -uweman            | -uwaman           |
+| y-form | -yuma        | -yema       | -yama      | -iyuman             | -iyeman            | -iyaman           |
+| z-form | -zuma        | -zema       | -zama      | -nzuman             | -nzeman            | -nzaman           |

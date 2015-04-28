@@ -49,6 +49,13 @@
         <!--  in RC as 守手  -->
     </word>
     <word>
+        <form class="v.cop.int v.aux.int" pronunciation="ma">丿</form>
+        <meaning xml:lang="en" form="v.cop.frm">interrogative copula</meaning>
+        <meaning xml:lang="en" form="v.aux.frm">marks a statement as interrogative</meaning>
+        <etymology>detached from D1 interrogative conjugation suffixes</etymology>
+        <!--  in RC as SAME  -->
+    </word>
+    <word>
         <form class="n" pronunciation="wasi">語字</form>
         <meaning xml:lang="en">name</meaning>
         <etymology>from D1 <etyma xml:lang="qdi">語丼</etyma> with influence from <wordref xml:lang="qdd">本舌字</wordref> and <wordref xml:lang="qdd">例枚字</wordref>; from PL <etyma xml:lang="qpt">uarím</etyma>, <mention>speech; word; language</mention>; ultimately from <etyma xml:lang="qpt">rim</etyma>, <mention>speak; converse</mention></etymology>

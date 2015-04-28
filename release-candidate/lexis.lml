@@ -37,7 +37,6 @@
         <form class="post adv" pronunciation="si, zi">毛</form>
         <meaning xml:lang="en" class="post">nominative marker</meaning>
         <meaning xml:lang="en" class="post">used to form compound nouns; noun connector</meaning>
-        <meaning xml:lang="en" class="adv">used to terminate an incomplete thought or request input; marks <mention>wh-</mention> questions which ask for more information</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">zhil</etyma>, <mention>be tied (up)</mention>, used figuratively to group words together</etymology>
     </word>
     <word>
@@ -95,5 +94,11 @@
         <form class="cla.n" pronunciation="ti">丼</form>
         <meaning xml:lang="en">classifier for names and words</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">rim</etyma></etymology>
+    </word>
+    <word>
+        <form class="v.cop.int v.aux.int" pronunciation="ma">丿</form>
+        <meaning xml:lang="en" form="v.cop.frm">interrogative copula</meaning>
+        <meaning xml:lang="en" form="v.aux.frm">marks a statement as interrogative</meaning>
+        <etymology>detached from D1 interrogative conjugation suffixes</etymology>
     </word>
 </lexis>
