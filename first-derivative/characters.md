@@ -27,7 +27,6 @@
 * 勉 [U+52C9] be : diligence
 * 便 [U+4FBF] be : convenience; letter
 * 別 [U+5225] be : separate
-* 弁 [U+5F01] be : valve
 
 ### bi
 
@@ -309,6 +308,7 @@
 
 * 奴 [U+5974] nu : servant
 * 抜 [U+629C] nu : slip out
+* 其 [U+5176] nu : that; his; her
 
 ## O
 
