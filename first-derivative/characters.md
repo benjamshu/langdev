@@ -19,6 +19,7 @@
 * 馬 [U+99AC] ba : horse
 * 麦 [U+9EA6] ba : wheat
 * 売 [U+58F2] ba : sell
+* 何 [U+4F55] ba : what
 
 ### be
 
@@ -52,6 +53,7 @@
 
 * 自 [U+81EA] da : nose
 * 代 [U+4EE3] da : era; generation
+* 彼 [U+5F7C] da : that
 
 ### de
 
