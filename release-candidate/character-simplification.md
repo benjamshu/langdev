@@ -22,4 +22,5 @@ The following characters from D2 have been simplified in RELEASE-CANDIDATE FIZEN
 * <b>筆 [U+7B46] na</b> > <b>聿 [U+807F]</b>
 * <b>執 [U+57F7] se</b> > <b>丸 [U+4E2E]</b>
 * <b>毬 [U+6BDB] si</b> > <b>才 [U+624D]</b>
+* <b>語 [U+8A9E] wa</b> > <b>吾 [U+543E]</b>
 * <b>受 [U+53D7] yu</b> > <b>守 [U+5B88]</b>

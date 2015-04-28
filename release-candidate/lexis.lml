@@ -96,4 +96,9 @@
         <meaning xml:lang="en" class="post">possession marker; of</meaning>
         <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">人</etyma>, from D1 <etyma xml:lang="qdi">文羊</etyma>, from PL <etyma xml:lang="qpt">baush</etyma>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
     </word>
+    <word>
+        <form class="n" pronunciation="wasi">吾字</form>
+        <meaning xml:lang="en">name</meaning>
+        <etymology>from D1 <etyma xml:lang="qdi">語丼</etyma> with influence from D2 <etyma xml:lang="qdd">本舌字</etyma> and <etyma xml:lang="qdd">例枚字</etyma>; from PL <etyma xml:lang="qpt">uarím</etyma>, <mention>speech; word; language</mention>; ultimately from <etyma xml:lang="qpt">rim</etyma>, <mention>speak; converse</mention></etymology>
+    </word>
 </lexis>
