@@ -171,6 +171,7 @@
 * 坂 [U+5742] he : slope
 * 辺 [U+8FBA] he : environs
 * 始 [U+59CB] he : begin
+* 畏 [U+5582] he : interjection to call attention
 
 ### hi
 
