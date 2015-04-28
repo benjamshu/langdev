@@ -19,7 +19,7 @@ There are 240 *base characters* in ZIKODU; 16 *variation selectors* are used to 
 Code points are rendered in hexadecimal, preceeded by the string `Z-`; equivalent UNICODE code points are provided.
 
 The base characters represented by code points `Z-00` through `Z-9F` are equivalent to their Unicode/Latin-1 counterparts.
-Those represented by code points `Z-00` through `Z-1F` and `Z-7F` through `Z-9F`, are referred to as *control characters*, and __may not__ be combined with variation selectors.
+Those represented by code points `Z-00` through `Z-1F` and `Z-7F` through `Z-9F`, are referred to as *control characters*, and should not be visually rendered.
 
 Other base characters are considered *combined* with variation selectors if all of the following are true:
 
@@ -32,42 +32,67 @@ Combined code points which are not defined in this specification should be rende
 Variation selectors which are not combined with base characters __should not__ be rendered.
 Note that base characters __cannot__ be combined with more than one variation selector.
 
-## code table : base characters
+## compact code tables
+
+### base characters
+
+|      |  +0  |  +1  |  +2  |  +3  |  +4  |  +5  |  +6  |  +7  |  +8  |  +9  |  +A  |  +B  |  +C  |  +D  |  +E  |  +F  |
+| ---: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| Z-00 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| Z-10 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| Z-20 |      |  !   |  "   |  #   |  $   |  %   |  &   |  '   |  (   |  )   |  *   |  +   |  ,   |  -   |  .   |  /   |
+| Z-30 |  0   |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   |  :   |  ;   |  <   |  =   |  >   |  ?   |
+| Z-40 |  @   |  A   |  B   |  C   |  D   |  E   |  F   |  G   |  H   |  I   |  J   |  K   |  L   |  M   |  N   |  O   |
+| Z-50 |  P   |  Q   |  R   |  S   |  T   |  U   |  V   |  W   |  X   |  Y   |  Z   |  [   |  \\  |  ]   |  ^   |  _   |
+| Z-60 |  \`  |  a   |  b   |  c   |  d   |  e   |  f   |  g   |  h   |  i   |  j   |  k   |  l   |  m   |  n   |  o   |
+| Z-70 |  p   |  q   |  r   |  s   |  t   |  u   |  v   |  w   |  x   |  y   |  z   |  {   |&#x7C;|  }   |  ~   |      |
+| Z-80 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| Z-90 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| Z-A0 |  　  |  、  |  。  |  与  |  丨  |  々  |  舌  |  羊  |      |      |      |      |      |      |      |      |
+| Z-B0 |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〃  |      |      |
+| Z-C0 |  〓  |  〓  |  〓  |  〓  |  〓  |  日  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〜  |      |      |
+| Z-D0 |  月  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |      |      |
+| Z-E0 |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〓  |  〰  |      |      |
+| Z-F0 |  卜  |  〓  |  〓  |  〓  |  〓  |  〓  |  戸  |  手  |  〓  |  〓  |  〓  |  〓  |  〓  |  〽  |  「  |  」  |
+
+## expanded code tables
+
+### base characters
 
 | Code Point | Grapheme | Character Name                          | UNICODE |
 | ---------: | :------: | :-------------------------------------- | :------ |
-|       Z-00 |    �    | NULL                                    | U+0000  |
-|       Z-01 |    �    | START OF HEADING                        | U+0001  |
-|       Z-02 |    �    | START OF TEXT                           | U+0002  |
-|       Z-03 |    �    | END OF TEXT                             | U+0003  |
-|       Z-04 |    �    | END OF TRANSMISSION                     | U+0004  |
-|       Z-05 |    �    | ENQUIRY                                 | U+0005  |
-|       Z-06 |    �    | ACKNOWLEDGE                             | U+0006  |
-|       Z-07 |    �    | BELL                                    | U+0007  |
-|       Z-08 |    �    | BACKSPACE                               | U+0008  |
-|       Z-09 |    �    | HORIZONTAL TAB                          | U+0009  |
-|       Z-0A |    �    | LINE FEED                               | U+000A  |
-|       Z-0B |    �    | VERTICAL TAB                            | U+000B  |
-|       Z-0C |    �    | FORM FEED                               | U+000C  |
-|       Z-0D |    �    | CARRIAGE RETURN                         | U+000D  |
-|       Z-0E |    �    | SHIFT OUT                               | U+000E  |
-|       Z-0F |    �    | SHIFT IN                                | U+000F  |
-|       Z-10 |    �    | DATA LINK ESCAPE                        | U+0010  |
-|       Z-11 |    �    | DEVICE CONTROL 1                        | U+0011  |
-|       Z-12 |    �    | DEVICE CONTROL 2                        | U+0012  |
-|       Z-13 |    �    | DEVICE CONTROL 3                        | U+0013  |
-|       Z-14 |    �    | DEVICE CONTROL 4                        | U+0014  |
-|       Z-15 |    �    | NEGATIVE ACKNOWLEDGE                    | U+0015  |
-|       Z-16 |    �    | SYNCHRONOUS IDLE                        | U+0016  |
-|       Z-17 |    �    | END OF TRANSMISSION                     | U+0017  |
-|       Z-18 |    �    | CANCEL                                  | U+0018  |
-|       Z-19 |    �    | END OF MEDIUM                           | U+0019  |
-|       Z-1A |    �    | SUBSTITUTE                              | U+001A  |
-|       Z-1B |    �    | ESCAPE                                  | U+001B  |
-|       Z-1C |    �    | FILE SEPARATOR                          | U+001C  |
-|       Z-1D |    �    | GROUP SEPARATOR                         | U+001D  |
-|       Z-1E |    �    | RECORD SEPARATOR                        | U+001E  |
-|       Z-1F |    �    | UNIT SEPARATOR                          | U+001F  |
+|       Z-00 |          | NULL                                    | U+0000  |
+|       Z-01 |          | START OF HEADING                        | U+0001  |
+|       Z-02 |          | START OF TEXT                           | U+0002  |
+|       Z-03 |          | END OF TEXT                             | U+0003  |
+|       Z-04 |          | END OF TRANSMISSION                     | U+0004  |
+|       Z-05 |          | ENQUIRY                                 | U+0005  |
+|       Z-06 |          | ACKNOWLEDGE                             | U+0006  |
+|       Z-07 |          | BELL                                    | U+0007  |
+|       Z-08 |          | BACKSPACE                               | U+0008  |
+|       Z-09 |          | HORIZONTAL TAB                          | U+0009  |
+|       Z-0A |          | LINE FEED                               | U+000A  |
+|       Z-0B |          | VERTICAL TAB                            | U+000B  |
+|       Z-0C |          | FORM FEED                               | U+000C  |
+|       Z-0D |          | CARRIAGE RETURN                         | U+000D  |
+|       Z-0E |          | SHIFT OUT                               | U+000E  |
+|       Z-0F |          | SHIFT IN                                | U+000F  |
+|       Z-10 |          | DATA LINK ESCAPE                        | U+0010  |
+|       Z-11 |          | DEVICE CONTROL 1                        | U+0011  |
+|       Z-12 |          | DEVICE CONTROL 2                        | U+0012  |
+|       Z-13 |          | DEVICE CONTROL 3                        | U+0013  |
+|       Z-14 |          | DEVICE CONTROL 4                        | U+0014  |
+|       Z-15 |          | NEGATIVE ACKNOWLEDGE                    | U+0015  |
+|       Z-16 |          | SYNCHRONOUS IDLE                        | U+0016  |
+|       Z-17 |          | END OF TRANSMISSION                     | U+0017  |
+|       Z-18 |          | CANCEL                                  | U+0018  |
+|       Z-19 |          | END OF MEDIUM                           | U+0019  |
+|       Z-1A |          | SUBSTITUTE                              | U+001A  |
+|       Z-1B |          | ESCAPE                                  | U+001B  |
+|       Z-1C |          | FILE SEPARATOR                          | U+001C  |
+|       Z-1D |          | GROUP SEPARATOR                         | U+001D  |
+|       Z-1E |          | RECORD SEPARATOR                        | U+001E  |
+|       Z-1F |          | UNIT SEPARATOR                          | U+001F  |
 |       Z-20 |          | SPACE                                   | U+0020  |
 |       Z-21 |    !     | EXCLAMATION MARK                        | U+0021  |
 |       Z-22 |    "     | QUOTATION MARK                          | U+0022  |
@@ -162,40 +187,40 @@ Note that base characters __cannot__ be combined with more than one variation se
 |       Z-7B |    {     | LEFT CURLY BRACKET                      | U+007B  |
 |       Z-7C |  &#x7C;  | VERTICAL LINE                           | U+007C  |
 |       Z-7D |    }     | RIGHT CURLY BRACKET                     | U+007D  |
-|       Z-7E |    _     | TILDE                                   | U+007E  |
-|       Z-7F |    �    | DELETE                                  | U+007F  |
-|       Z-80 |    �    | PADDING CHARACTER                       | U+0080  |
-|       Z-81 |    �    | HIGH OCTET PRESET                       | U+0081  |
-|       Z-82 |    �    | BREAK PERMITTED HERE                    | U+0082  |
-|       Z-83 |    �    | NO BREAK HERE                           | U+0083  |
-|       Z-84 |    �    | INDEX                                   | U+0084  |
-|       Z-85 |    �    | NEXT LINE                               | U+0085  |
-|       Z-86 |    �    | START OF SELECTED AREA                  | U+0086  |
-|       Z-87 |    �    | END OF SELECTED AREA                    | U+0087  |
-|       Z-88 |    �    | CHARACTER TABULATION SET                | U+0088  |
-|       Z-89 |    �    | CHARACTER TABULATION WITH JUSTIFICATION | U+0089  |
-|       Z-8A |    �    | LINE TABULATION SET                     | U+008A  |
-|       Z-8B |    �    | PARTIAL LINE FORWARD                    | U+008B  |
-|       Z-8C |    �    | PARTIAL LINE BACKWARD                   | U+008C  |
-|       Z-8D |    �    | REVERSE LINE FEED                       | U+008D  |
-|       Z-8E |    �    | SINGLE-SHIFT TWO                        | U+008E  |
-|       Z-8F |    �    | SINGLE-SHIFT THREE                      | U+008F  |
-|       Z-90 |    �    | DEVICE CONTROL STRING                   | U+0090  |
-|       Z-91 |    �    | PRIVATE USE 1                           | U+0091  |
-|       Z-92 |    �    | PRIVATE USE 2                           | U+0092  |
-|       Z-93 |    �    | SET TRANSMIT STATE                      | U+0093  |
-|       Z-94 |    �    | CANCEL CHARACTER                        | U+0094  |
-|       Z-95 |    �    | MESSAGE WAITING                         | U+0095  |
-|       Z-96 |    �    | START OF PROTECTED AREA                 | U+0096  |
-|       Z-97 |    �    | END OF PROTECTED AREA                   | U+0097  |
-|       Z-98 |    �    | START OF STRING                         | U+0098  |
-|       Z-99 |    �    | SINGLE GRAPHIC CHARACTER INTRODUCER     | U+0099  |
-|       Z-9A |    �    | SINGLE CHARACTER INTRODUCER             | U+009A  |
-|       Z-9B |    �    | CONTROL SEQUENCE INTRODUCER             | U+009B  |
-|       Z-9C |    �    | STRING TERMINATOR                       | U+009C  |
-|       Z-9D |    �    | OPERATING SYSTEM COMMAND                | U+009D  |
-|       Z-9E |    �    | PRIVATE MESSAGE                         | U+009E  |
-|       Z-9F |    �    | APPLICATION PROGRAM COMMAND             | U+009F  |
+|       Z-7E |    ~     | TILDE                                   | U+007E  |
+|       Z-7F |          | DELETE                                  | U+007F  |
+|       Z-80 |          | PADDING CHARACTER                       | U+0080  |
+|       Z-81 |          | HIGH OCTET PRESET                       | U+0081  |
+|       Z-82 |          | BREAK PERMITTED HERE                    | U+0082  |
+|       Z-83 |          | NO BREAK HERE                           | U+0083  |
+|       Z-84 |          | INDEX                                   | U+0084  |
+|       Z-85 |          | NEXT LINE                               | U+0085  |
+|       Z-86 |          | START OF SELECTED AREA                  | U+0086  |
+|       Z-87 |          | END OF SELECTED AREA                    | U+0087  |
+|       Z-88 |          | CHARACTER TABULATION SET                | U+0088  |
+|       Z-89 |          | CHARACTER TABULATION WITH JUSTIFICATION | U+0089  |
+|       Z-8A |          | LINE TABULATION SET                     | U+008A  |
+|       Z-8B |          | PARTIAL LINE FORWARD                    | U+008B  |
+|       Z-8C |          | PARTIAL LINE BACKWARD                   | U+008C  |
+|       Z-8D |          | REVERSE LINE FEED                       | U+008D  |
+|       Z-8E |          | SINGLE-SHIFT TWO                        | U+008E  |
+|       Z-8F |          | SINGLE-SHIFT THREE                      | U+008F  |
+|       Z-90 |          | DEVICE CONTROL STRING                   | U+0090  |
+|       Z-91 |          | PRIVATE USE 1                           | U+0091  |
+|       Z-92 |          | PRIVATE USE 2                           | U+0092  |
+|       Z-93 |          | SET TRANSMIT STATE                      | U+0093  |
+|       Z-94 |          | CANCEL CHARACTER                        | U+0094  |
+|       Z-95 |          | MESSAGE WAITING                         | U+0095  |
+|       Z-96 |          | START OF PROTECTED AREA                 | U+0096  |
+|       Z-97 |          | END OF PROTECTED AREA                   | U+0097  |
+|       Z-98 |          | START OF STRING                         | U+0098  |
+|       Z-99 |          | SINGLE GRAPHIC CHARACTER INTRODUCER     | U+0099  |
+|       Z-9A |          | SINGLE CHARACTER INTRODUCER             | U+009A  |
+|       Z-9B |          | CONTROL SEQUENCE INTRODUCER             | U+009B  |
+|       Z-9C |          | STRING TERMINATOR                       | U+009C  |
+|       Z-9D |          | OPERATING SYSTEM COMMAND                | U+009D  |
+|       Z-9E |          | PRIVATE MESSAGE                         | U+009E  |
+|       Z-9F |          | APPLICATION PROGRAM COMMAND             | U+009F  |
 |       Z-A0 |    　    | IDEOGRAPHIC SPACE                       | U+3000  |
 |       Z-A1 |    、    | IDEOGRAPHIC COMMA                       | U+3001  |
 |       Z-A2 |    。    | IDEOGRAPHIC FULL STOP                   | U+3002  |
@@ -204,14 +229,14 @@ Note that base characters __cannot__ be combined with more than one variation se
 |       Z-A5 |    々    | IDEOGRAPHIC ITERATION MARK              | U+3005  |
 |       Z-A6 |    舌    | FIZENG MORAIC N                         | U+820C  |
 |       Z-A7 |    羊    | FIZENG MORAIC S                         | U+7F8A  |
-|       Z-A8 |    �    | VARIATION SELECTOR-1                    | U+3008  |
-|       Z-A9 |    �    | VARIATION SELECTOR-2                    | U+3009  |
-|       Z-AA |    �    | VARIATION SELECTOR-3                    | U+300A  |
-|       Z-AB |    �    | VARIATION SELECTOR-4                    | U+300B  |
-|       Z-AC |    �    | VARIATION SELECTOR-5                    | U+300C  |
-|       Z-AD |    �    | VARIATION SELECTOR-6                    | U+300D  |
-|       Z-AE |    �    | VARIATION SELECTOR-7                    | U+300E  |
-|       Z-AF |    �    | VARIATION SELECTOR-8                    | U+300F  |
+|       Z-A8 |          | VARIATION SELECTOR-1                    | U+3008  |
+|       Z-A9 |          | VARIATION SELECTOR-2                    | U+3009  |
+|       Z-AA |          | VARIATION SELECTOR-3                    | U+300A  |
+|       Z-AB |          | VARIATION SELECTOR-4                    | U+300B  |
+|       Z-AC |          | VARIATION SELECTOR-5                    | U+300C  |
+|       Z-AD |          | VARIATION SELECTOR-6                    | U+300D  |
+|       Z-AE |          | VARIATION SELECTOR-7                    | U+300E  |
+|       Z-AF |          | VARIATION SELECTOR-8                    | U+300F  |
 |       Z-B0 |    〓    | FIZENG RESERVED CHARACTER O             | U+XXXX  |
 |       Z-B1 |    〓    | FIZENG RESERVED CHARACTER PO            | U+XXXX  |
 |       Z-B2 |    〓    | FIZENG RESERVED CHARACTER BO            | U+XXXX  |
@@ -226,8 +251,8 @@ Note that base characters __cannot__ be combined with more than one variation se
 |       Z-BB |    〓    | FIZENG RESERVED CHARACTER WO            | U+XXXX  |
 |       Z-BC |    〓    | FIZENG RESERVED CHARACTER YO            | U+XXXX  |
 |       Z-BD |    〃    | DITTO MARK                              | U+3003  |
-|       Z-BE |    �    | VARIATION SELECTOR-9                    | U+3010  |
-|       Z-BF |    �    | VARIATION SELECTOR-10                   | U+3011  |
+|       Z-BE |          | VARIATION SELECTOR-9                    | U+3010  |
+|       Z-BF |          | VARIATION SELECTOR-10                   | U+3011  |
 |       Z-C0 |    〓    | FIZENG RESERVED CHARACTER A             | U+XXXX  |
 |       Z-C1 |    〓    | FIZENG RESERVED CHARACTER PA            | U+XXXX  |
 |       Z-C2 |    〓    | FIZENG RESERVED CHARACTER BA            | U+XXXX  |
@@ -242,8 +267,8 @@ Note that base characters __cannot__ be combined with more than one variation se
 |       Z-CB |    〓    | FIZENG RESERVED CHARACTER WA            | U+XXXX  |
 |       Z-CC |    〓    | FIZENG RESERVED CHARACTER YA            | U+XXXX  |
 |       Z-CD |    〜    | WAVE DASH                               | U+301C  |
-|       Z-CE |    �    | VARIATION SELECTOR-11                   | U+3014  |
-|       Z-CF |    �    | VARIATION SELECTOR-12                   | U+3015  |
+|       Z-CE |          | VARIATION SELECTOR-11                   | U+3014  |
+|       Z-CF |          | VARIATION SELECTOR-12                   | U+3015  |
 |       Z-D0 |    月    | FIZENG RESERVED CHARACTER I             | U+6708  |
 |       Z-D1 |    〓    | FIZENG RESERVED CHARACTER PI            | U+XXXX  |
 |       Z-D2 |    〓    | FIZENG RESERVED CHARACTER BI            | U+XXXX  |
@@ -258,8 +283,8 @@ Note that base characters __cannot__ be combined with more than one variation se
 |       Z-DB |    〓    | FIZENG RESERVED CHARACTER WI            | U+XXXX  |
 |       Z-DC |    〓    | FIZENG RESERVED CHARACTER YI            | U+XXXX  |
 |       Z-DD |    〓    | GETA MARK                               | U+3013  |
-|       Z-DE |    �    | VARIATION SELECTOR-13                   | U+XXXX  |
-|       Z-DF |    �    | VARIATION SELECTOR-14                   | U+XXXX  |
+|       Z-DE |          | VARIATION SELECTOR-13                   | U+XXXX  |
+|       Z-DF |          | VARIATION SELECTOR-14                   | U+XXXX  |
 |       Z-E0 |    〓    | FIZENG RESERVED CHARACTER E             | U+XXXX  |
 |       Z-E1 |    〓    | FIZENG RESERVED CHARACTER PE            | U+XXXX  |
 |       Z-E2 |    〓    | FIZENG RESERVED CHARACTER BE            | U+XXXX  |
@@ -274,8 +299,8 @@ Note that base characters __cannot__ be combined with more than one variation se
 |       Z-EB |    〓    | FIZENG RESERVED CHARACTER WE            | U+XXXX  |
 |       Z-EC |    〓    | FIZENG RESERVED CHARACTER YE            | U+XXXX  |
 |       Z-ED |    〰    | WAVY DASH                               | U+3030  |
-|       Z-EE |    �    | VARIATION SELECTOR-15                   | U+3018  |
-|       Z-EF |    �    | VARIATION SELECTOR-16                   | U+3019  |
+|       Z-EE |          | VARIATION SELECTOR-15                   | U+3018  |
+|       Z-EF |          | VARIATION SELECTOR-16                   | U+3019  |
 |       Z-F0 |    卜    | FIZENG RESERVED CHARACTER U             | U+535C  |
 |       Z-F1 |    〓    | FIZENG RESERVED CHARACTER PU            | U+XXXX  |
 |       Z-F2 |    〓    | FIZENG RESERVED CHARACTER BU            | U+XXXX  |
