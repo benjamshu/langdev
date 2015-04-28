@@ -101,4 +101,9 @@
         <meaning xml:lang="en" form="v.aux.frm">marks a statement as interrogative</meaning>
         <etymology>detached from D1 interrogative conjugation suffixes</etymology>
     </word>
+    <word>
+        <form class="det.dem.int" pronunciation="bai">可月</form>
+        <meaning xml:lang="en">interrogative demonstrative</meaning>
+        <etymology xml:lang="en">from D1 <etyma xml:lang="qdi">何</etyma> with influence from <wordref xml:lang="qdd">彼月</wordref>; ultimately from PL <etyma xml:lang="qpt">ma</etyma></etymology>
+    </word>
 </lexis>

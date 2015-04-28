@@ -29,7 +29,7 @@
     </word>
     <word>
         <form class="det.dem" pronunciation="yozi">食毬</form>
-        <meaning xml:lang="en">demonstrative</meaning>
+        <meaning xml:lang="en">proximal demonstrative</meaning>
         <etymology xml:lang="en"><etyma xml:lang="qdi">食</etyma> + <wordref xml:lang="qdi">毬</wordref></etymology>
     </word>
     <word>
@@ -48,5 +48,15 @@
         <form class="cla.n" pronunciation="ti">丼</form>
         <meaning xml:lang="en">classifier for names and words</meaning>
         <etymology xml:lang="en">from PL <etyma xml:lang="qpt">rim</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem" pronunciation="dai">彼位</form>
+        <meaning xml:lang="en">distal demonstrative</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">nai</etyma></etymology>
+    </word>
+    <word>
+        <form class="det.dem" pronunciation="ba">何</form>
+        <meaning xml:lang="en">interrogative demonstrative</meaning>
+        <etymology xml:lang="en">from PL <etyma xml:lang="qpt">ma</etyma></etymology>
     </word>
 </lexis>
