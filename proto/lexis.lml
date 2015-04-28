@@ -2757,7 +2757,8 @@
     </word>
     <!--  E:  -->
     <word>
-        <form class="excl">e:</form>
+        <form class="inj">e:</form>
         <meaning xml:lang="en">hey</meaning>
+        <!--  in D1 as 畏  -->
     </word>
 </lexis>

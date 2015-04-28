@@ -75,6 +75,17 @@
         <etymology>from PL <etyma xml:lang="qpt">uarím</etyma>, <mention>speech; word; language</mention>; ultimately from <etyma xml:lang="qpt">rim</etyma>, <mention>speak; converse</mention></etymology>
         <!--  in D2 as 語字  -->
     </word>
+    <word>
+        <form class="inj" pronunciation="he">畏</form>
+        <meaning xml:lang="en">hey</meaning>
+        <etymology>from PL <etyma xml:lang="qpt">e:</etyma></etymology>
+        <!--  in D2 as 又  -->
+    </word>
+    <word>
+        <form class="inj" pronunciation="e:dosu">泳泳友祝</form>
+        <meaning xml:lang="en">hello (more formal)</meaning>
+        <etymology>from PL <etyma xml:lang="qpt">e:</etyma> + <etyma xml:lang="qpt">róshu</etyma>, <mention>hey, look (who it is)</mention></etymology>
+    </word>
     <!--  DERIVED WORDS  -->
     <word>
         <form class="v" pronunciation="tukudi">台丘侍</form>
