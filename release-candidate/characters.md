@@ -2,9 +2,9 @@
 
 ## special characters
 
-| double | palat. | ditto  |   -n   |   -s   |
+| double | palat. | iter8n |   -n   |   -s   |
 | :----: | :----: | :----: | :----: | :----: |
-|   与   |   丨   |   〃   |   舌   |   羊   |
+|   与   |   丨   |   々   |   舌   |   羊   |
 
 ## reserved characters
 
@@ -22,7 +22,7 @@
 |  g  |  矢  |  牛  |  占  |  牙  |  父  |
 |  k  |  穴  |  儿  |  止  |  匕  |  大  |
 |  w  |  　  |  几  |  火  |  犬  |  ⾓  |
-|  y  |  爪  |  ⾆  |  　  |  乙  |  艮  |
+|  y  |  爪  |  后  |  　  |  乙  |  艮  |
 
 ## 本舌字 [HONGSI]
 

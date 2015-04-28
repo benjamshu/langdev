@@ -11,7 +11,7 @@ The following characters from D2 have been simplified in RELEASE-CANDIDATE FIZEN
 * <b>米 [U+7C73] RESERVED pa</b> > <b>⽲ [U+79BE]</b>
 * <b>心 [U+5FC3] RESERVED we</b> > <b>几 [U+51E0]</b>
 * <b>魚 [U+9B5A] RESERVED wo</b> > <b>⾓ [U+89D2]</b>
-* <b>言 [U+8A00] RESERVED ye</b> > <b>⾆ [U+820C]</b>
+* <b>言 [U+8A00] RESERVED ye</b> > <b>后 [U+540E]</b>
 * <b>何 [U+4F55] ba</b> > <b>可 [U+53EF]</b>
 * <b>彼 [U+5F7C] da</b> > <b>仏 [U+4ECF]</b>
 * <b>例 [U+4F8B] de</b> > <b>歹 [U+6B79]</b>

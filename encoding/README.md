@@ -1,24 +1,36 @@
 # ZIKODU (FIZENG STANDARD ENCODING)
 
+## notice
+
+__ZIKODU is presently still a work in progress.
+As FIZENG develops and more characters are added to its syllabary, the code tables below may change or expand.
+The following information is provided for reference purposes only.__
+
 ## rationale
 
-ZIKODU exists to provide an encoding scheme such that every character in FIZENG can be encoded in only two bytes. Furthermore, ZIKODU provides an organizational system for FIZENG characters which makes more sense with the language than the traditional ordering through UNICODE. ZIKODU is an 8-bit extension to US-ASCII; pure ASCII text will be encoded unmodified.
+ZIKODU exists to provide an encoding scheme such that every character in FIZENG can be encoded in only two bytes.
+Furthermore, ZIKODU provides an organizational system for FIZENG characters which makes more sense with the language than the traditional ordering through UNICODE.
+ZIKODU is an 8-bit extension to US-ASCII; pure ASCII text will be encoded unmodified.
 
 ## basic explanation
 
-Characters in the ZIKODU are signified by *code points*, unique numbers assigned to each grapheme. There are 112 *base characters* in ZIKODU; 16 *variation selectors* are used to select alternate glyphs. Code points are rendered in hexadecimal, preceeded by the string `Z-`; equivalent UNICODE code points are provided.
+Characters in ZIKODU are signified by *code points*, unique numbers assigned to each grapheme.
+There are 240 *base characters* in ZIKODU; 16 *variation selectors* are used to select alternate glyphs.
+Code points are rendered in hexadecimal, preceeded by the string `Z-`; equivalent UNICODE code points are provided.
 
-The base characters represented by code points `Z-00` through `Z-9F` are equivalent to their Unicode/Latin-1 counterparts. Those represented by code points `Z-00` through `Z-1F` and `Z-7F` through `Z-9F`, are referred to as *control characters*, and __may not__ be combined with variation selectors.
+The base characters represented by code points `Z-00` through `Z-9F` are equivalent to their Unicode/Latin-1 counterparts.
+Those represented by code points `Z-00` through `Z-1F` and `Z-7F` through `Z-9F`, are referred to as *control characters*, and __may not__ be combined with variation selectors.
 
 Other base characters are considered *combined* with variation selectors if all of the following are true:
 
 - The base character is not a control character
 - The variation selector directly follows the base character
-- The combination is standardized in this document
 
 Base + variation combinations may be written with a *combined code point*.
+Combined code points which are not defined in this specification should be rendered as Z+DD 〓 GETA MARK.
 
-Variation selectors which are not combined with base characters __should not__ be rendered. Note that base characters __cannot__ be combined with more than one variation selector.
+Variation selectors which are not combined with base characters __should not__ be rendered.
+Note that base characters __cannot__ be combined with more than one variation selector.
 
 ## code table : base characters
 
@@ -184,99 +196,99 @@ Variation selectors which are not combined with base characters __should not__ b
 |       Z-9D |    �    | OPERATING SYSTEM COMMAND                | U+009D  |
 |       Z-9E |    �    | PRIVATE MESSAGE                         | U+009E  |
 |       Z-9F |    �    | APPLICATION PROGRAM COMMAND             | U+009F  |
-|       Z-A0 |    �    |                                         | U+XXXX  |
-|       Z-A1 |    �    |                                         | U+XXXX  |
-|       Z-A2 |    �    |                                         | U+XXXX  |
-|       Z-A3 |    �    |                                         | U+XXXX  |
-|       Z-A4 |    �    |                                         | U+XXXX  |
-|       Z-A5 |    �    |                                         | U+XXXX  |
-|       Z-A6 |    �    |                                         | U+XXXX  |
-|       Z-A7 |    �    |                                         | U+XXXX  |
-|       Z-A8 |    �    |                                         | U+XXXX  |
-|       Z-A9 |    �    |                                         | U+XXXX  |
-|       Z-AA |    �    |                                         | U+XXXX  |
-|       Z-AB |    �    |                                         | U+XXXX  |
-|       Z-AC |    �    |                                         | U+XXXX  |
-|       Z-AD |    �    |                                         | U+XXXX  |
-|       Z-AE |    �    |                                         | U+XXXX  |
-|       Z-AF |    �    |                                         | U+XXXX  |
-|       Z-B0 |    �    |                                         | U+XXXX  |
-|       Z-B1 |    �    |                                         | U+XXXX  |
-|       Z-B2 |    �    |                                         | U+XXXX  |
-|       Z-B3 |    �    |                                         | U+XXXX  |
-|       Z-B4 |    �    |                                         | U+XXXX  |
-|       Z-B5 |    �    |                                         | U+XXXX  |
-|       Z-B6 |    �    |                                         | U+XXXX  |
-|       Z-B7 |    �    |                                         | U+XXXX  |
-|       Z-B8 |    �    |                                         | U+XXXX  |
-|       Z-B9 |    �    |                                         | U+XXXX  |
-|       Z-BA |    �    |                                         | U+XXXX  |
-|       Z-BB |    �    |                                         | U+XXXX  |
-|       Z-BC |    �    |                                         | U+XXXX  |
-|       Z-BD |    �    |                                         | U+XXXX  |
-|       Z-BE |    �    |                                         | U+XXXX  |
-|       Z-BF |    �    |                                         | U+XXXX  |
-|       Z-C0 |    �    |                                         | U+XXXX  |
-|       Z-C1 |    �    |                                         | U+XXXX  |
-|       Z-C2 |    �    |                                         | U+XXXX  |
-|       Z-C3 |    �    |                                         | U+XXXX  |
-|       Z-C4 |    �    |                                         | U+XXXX  |
-|       Z-C5 |    �    |                                         | U+XXXX  |
-|       Z-C6 |    �    |                                         | U+XXXX  |
-|       Z-C7 |    �    |                                         | U+XXXX  |
-|       Z-C8 |    �    |                                         | U+XXXX  |
-|       Z-C9 |    �    |                                         | U+XXXX  |
-|       Z-CA |    �    |                                         | U+XXXX  |
-|       Z-CB |    �    |                                         | U+XXXX  |
-|       Z-CC |    �    |                                         | U+XXXX  |
-|       Z-CD |    �    |                                         | U+XXXX  |
-|       Z-CE |    �    |                                         | U+XXXX  |
-|       Z-CF |    �    |                                         | U+XXXX  |
-|       Z-D0 |    �    |                                         | U+XXXX  |
-|       Z-D1 |    �    |                                         | U+XXXX  |
-|       Z-D2 |    �    |                                         | U+XXXX  |
-|       Z-D3 |    �    |                                         | U+XXXX  |
-|       Z-D4 |    �    |                                         | U+XXXX  |
-|       Z-D5 |    �    |                                         | U+XXXX  |
-|       Z-D6 |    �    |                                         | U+XXXX  |
-|       Z-D7 |    �    |                                         | U+XXXX  |
-|       Z-D8 |    �    |                                         | U+XXXX  |
-|       Z-D9 |    �    |                                         | U+XXXX  |
-|       Z-DA |    �    |                                         | U+XXXX  |
-|       Z-DB |    �    |                                         | U+XXXX  |
-|       Z-DC |    �    |                                         | U+XXXX  |
-|       Z-DD |    �    |                                         | U+XXXX  |
-|       Z-DE |    �    |                                         | U+XXXX  |
-|       Z-DF |    �    |                                         | U+XXXX  |
-|       Z-E0 |    �    |                                         | U+XXXX  |
-|       Z-E1 |    �    |                                         | U+XXXX  |
-|       Z-E2 |    �    |                                         | U+XXXX  |
-|       Z-E3 |    �    |                                         | U+XXXX  |
-|       Z-E4 |    �    |                                         | U+XXXX  |
-|       Z-E5 |    �    |                                         | U+XXXX  |
-|       Z-E6 |    �    |                                         | U+XXXX  |
-|       Z-E7 |    �    |                                         | U+XXXX  |
-|       Z-E8 |    �    |                                         | U+XXXX  |
-|       Z-E9 |    �    |                                         | U+XXXX  |
-|       Z-EA |    �    |                                         | U+XXXX  |
-|       Z-EB |    �    |                                         | U+XXXX  |
-|       Z-EC |    �    |                                         | U+XXXX  |
-|       Z-ED |    �    |                                         | U+XXXX  |
-|       Z-EE |    �    |                                         | U+XXXX  |
-|       Z-EF |    �    |                                         | U+XXXX  |
-|       Z-F0 |    �    |                                         | U+XXXX  |
-|       Z-F1 |    �    |                                         | U+XXXX  |
-|       Z-F2 |    �    |                                         | U+XXXX  |
-|       Z-F3 |    �    |                                         | U+XXXX  |
-|       Z-F4 |    �    |                                         | U+XXXX  |
-|       Z-F5 |    �    |                                         | U+XXXX  |
-|       Z-F6 |    �    |                                         | U+XXXX  |
-|       Z-F7 |    �    |                                         | U+XXXX  |
-|       Z-F8 |    �    |                                         | U+XXXX  |
-|       Z-F9 |    �    |                                         | U+XXXX  |
-|       Z-FA |    �    |                                         | U+XXXX  |
-|       Z-FB |    �    |                                         | U+XXXX  |
-|       Z-FC |    �    |                                         | U+XXXX  |
-|       Z-FD |    �    |                                         | U+XXXX  |
-|       Z-FE |    �    |                                         | U+XXXX  |
-|       Z-FF |    �    |                                         | U+XXXX  |
+|       Z-A0 |    　    | IDEOGRAPHIC SPACE                       | U+3000  |
+|       Z-A6 |    、    | IDEOGRAPHIC COMMA                       | U+3001  |
+|       Z-A7 |    。    | IDEOGRAPHIC FULL STOP                   | U+3002  |
+|       Z-A1 |    与    | FIZENG DOUBLE-CONSONANT MARK            | U+4E0E  |
+|       Z-A2 |    丨    | FIZENG PALATALIZER                      | U+4E28  |
+|       Z-A3 |    々    | FIZENG ITERATION MARK                   | U+3005  |
+|       Z-A4 |    舌    | FIZENG MORAIC N                         | U+820C  |
+|       Z-A5 |    羊    | FIZENG MORAIC S                         | U+7F8A  |
+|       Z-A8 |    �    | VARIATION SELECTOR-1                    | U+3008  |
+|       Z-A9 |    �    | VARIATION SELECTOR-2                    | U+3009  |
+|       Z-AA |    �    | VARIATION SELECTOR-3                    | U+300A  |
+|       Z-AB |    �    | VARIATION SELECTOR-4                    | U+300B  |
+|       Z-AC |    �    | VARIATION SELECTOR-5                    | U+300C  |
+|       Z-AD |    �    | VARIATION SELECTOR-6                    | U+300D  |
+|       Z-AE |    �    | VARIATION SELECTOR-7                    | U+300E  |
+|       Z-AF |    �    | VARIATION SELECTOR-8                    | U+300F  |
+|       Z-B0 |    〓    | FIZENG RESERVED CHARACTER O             | U+XXXX  |
+|       Z-B1 |    〓    | FIZENG RESERVED CHARACTER PO            | U+XXXX  |
+|       Z-B2 |    〓    | FIZENG RESERVED CHARACTER BO            | U+XXXX  |
+|       Z-B3 |    〓    | FIZENG RESERVED CHARACTER MO            | U+XXXX  |
+|       Z-B4 |    〓    | FIZENG RESERVED CHARACTER HO            | U+XXXX  |
+|       Z-B5 |    〓    | FIZENG RESERVED CHARACTER DO            | U+XXXX  |
+|       Z-B6 |    〓    | FIZENG RESERVED CHARACTER TO            | U+XXXX  |
+|       Z-B7 |    〓    | FIZENG RESERVED CHARACTER NO            | U+XXXX  |
+|       Z-B8 |    〓    | FIZENG RESERVED CHARACTER SO            | U+XXXX  |
+|       Z-B9 |    〓    | FIZENG RESERVED CHARACTER GO            | U+XXXX  |
+|       Z-BA |    〓    | FIZENG RESERVED CHARACTER KO            | U+XXXX  |
+|       Z-BB |    〓    | FIZENG RESERVED CHARACTER WO            | U+XXXX  |
+|       Z-BC |    〓    | FIZENG RESERVED CHARACTER YO            | U+XXXX  |
+|       Z-BD |    〃    | DITTO MARK                              | U+3003  |
+|       Z-BE |    �    | VARIATION SELECTOR-9                    | U+3010  |
+|       Z-BF |    �    | VARIATION SELECTOR-10                   | U+3011  |
+|       Z-C0 |    〓    | FIZENG RESERVED CHARACTER A             | U+XXXX  |
+|       Z-C1 |    〓    | FIZENG RESERVED CHARACTER PA            | U+XXXX  |
+|       Z-C2 |    〓    | FIZENG RESERVED CHARACTER BA            | U+XXXX  |
+|       Z-C3 |    〓    | FIZENG RESERVED CHARACTER MA            | U+XXXX  |
+|       Z-C4 |    〓    | FIZENG RESERVED CHARACTER HA            | U+XXXX  |
+|       Z-C5 |    日    | FIZENG RESERVED CHARACTER DA            | U+65E5  |
+|       Z-C6 |    〓    | FIZENG RESERVED CHARACTER TA            | U+XXXX  |
+|       Z-C7 |    〓    | FIZENG RESERVED CHARACTER NA            | U+XXXX  |
+|       Z-C8 |    〓    | FIZENG RESERVED CHARACTER SA            | U+XXXX  |
+|       Z-C9 |    〓    | FIZENG RESERVED CHARACTER GA            | U+XXXX  |
+|       Z-CA |    〓    | FIZENG RESERVED CHARACTER KA            | U+XXXX  |
+|       Z-CB |    〓    | FIZENG RESERVED CHARACTER WA            | U+XXXX  |
+|       Z-CC |    〓    | FIZENG RESERVED CHARACTER YA            | U+XXXX  |
+|       Z-CD |    〜    | WAVE DASH                               | U+301C  |
+|       Z-CE |    �    | VARIATION SELECTOR-11                   | U+3014  |
+|       Z-CF |    �    | VARIATION SELECTOR-12                   | U+3015  |
+|       Z-D0 |    月    | FIZENG RESERVED CHARACTER I             | U+6708  |
+|       Z-D1 |    〓    | FIZENG RESERVED CHARACTER PI            | U+XXXX  |
+|       Z-D2 |    〓    | FIZENG RESERVED CHARACTER BI            | U+XXXX  |
+|       Z-D3 |    〓    | FIZENG RESERVED CHARACTER MI            | U+XXXX  |
+|       Z-D4 |    〓    | FIZENG RESERVED CHARACTER HI            | U+XXXX  |
+|       Z-D5 |    〓    | FIZENG RESERVED CHARACTER DI            | U+XXXX  |
+|       Z-D6 |    〓    | FIZENG RESERVED CHARACTER TI            | U+XXXX  |
+|       Z-D7 |    〓    | FIZENG RESERVED CHARACTER NI            | U+XXXX  |
+|       Z-D8 |    〓    | FIZENG RESERVED CHARACTER SI            | U+XXXX  |
+|       Z-D9 |    〓    | FIZENG RESERVED CHARACTER GI            | U+XXXX  |
+|       Z-DA |    〓    | FIZENG RESERVED CHARACTER KI            | U+XXXX  |
+|       Z-DB |    〓    | FIZENG RESERVED CHARACTER WI            | U+XXXX  |
+|       Z-DC |    〓    | FIZENG RESERVED CHARACTER YI            | U+XXXX  |
+|       Z-DD |    〓    | GETA MARK                               | U+3013  |
+|       Z-DE |    �    | VARIATION SELECTOR-13                   | U+XXXX  |
+|       Z-DF |    �    | VARIATION SELECTOR-14                   | U+XXXX  |
+|       Z-E0 |    〓    | FIZENG RESERVED CHARACTER E             | U+XXXX  |
+|       Z-E1 |    〓    | FIZENG RESERVED CHARACTER PE            | U+XXXX  |
+|       Z-E2 |    〓    | FIZENG RESERVED CHARACTER BE            | U+XXXX  |
+|       Z-E3 |    〓    | FIZENG RESERVED CHARACTER ME            | U+XXXX  |
+|       Z-E4 |    〓    | FIZENG RESERVED CHARACTER HE            | U+XXXX  |
+|       Z-E5 |    〓    | FIZENG RESERVED CHARACTER DE            | U+XXXX  |
+|       Z-E6 |    〓    | FIZENG RESERVED CHARACTER TE            | U+XXXX  |
+|       Z-E7 |    〓    | FIZENG RESERVED CHARACTER NE            | U+XXXX  |
+|       Z-E8 |    〓    | FIZENG RESERVED CHARACTER SE            | U+XXXX  |
+|       Z-E9 |    〓    | FIZENG RESERVED CHARACTER GE            | U+XXXX  |
+|       Z-EA |    〓    | FIZENG RESERVED CHARACTER KE            | U+XXXX  |
+|       Z-EB |    〓    | FIZENG RESERVED CHARACTER WE            | U+XXXX  |
+|       Z-EC |    〓    | FIZENG RESERVED CHARACTER YE            | U+XXXX  |
+|       Z-ED |    〰    | WAVY DASH                               | U+3030  |
+|       Z-EE |    �    | VARIATION SELECTOR-15                   | U+3018  |
+|       Z-EF |    �    | VARIATION SELECTOR-16                   | U+3019  |
+|       Z-F0 |    卜    | FIZENG RESERVED CHARACTER U             | U+535C  |
+|       Z-F1 |    〓    | FIZENG RESERVED CHARACTER PU            | U+XXXX  |
+|       Z-F2 |    〓    | FIZENG RESERVED CHARACTER BU            | U+XXXX  |
+|       Z-F3 |    〓    | FIZENG RESERVED CHARACTER MU            | U+XXXX  |
+|       Z-F4 |    〓    | FIZENG RESERVED CHARACTER HU            | U+XXXX  |
+|       Z-F5 |    〓    | FIZENG RESERVED CHARACTER DU            | U+XXXX  |
+|       Z-F6 |    戸    | FIZENG RESERVED CHARACTER TU            | U+6238  |
+|       Z-F7 |    手    | FIZENG RESERVED CHARACTER NU            | U+624B  |
+|       Z-F8 |    〓    | FIZENG RESERVED CHARACTER SU            | U+XXXX  |
+|       Z-F9 |    〓    | FIZENG RESERVED CHARACTER GU            | U+XXXX  |
+|       Z-FA |    〓    | FIZENG RESERVED CHARACTER KU            | U+XXXX  |
+|       Z-FB |    〓    | FIZENG RESERVED CHARACTER WU            | U+XXXX  |
+|       Z-FC |    〓    | FIZENG RESERVED CHARACTER YU            | U+XXXX  |
+|       Z-FD |    〽    | PART ALTERATION MARK                    | U+303D  |
+|       Z-FE |    「    | LEFT CORNER BRACKET                     | U+300C  |
+|       Z-FF |    」    | RIGHT CORNER BRACKET                    | U+300D  |

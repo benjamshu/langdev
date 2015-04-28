@@ -2,9 +2,9 @@
 
 ## special characters
 
-| double | palat. | ditto  |   -n   |   -s   |
+| double | palat. | iter8n |   -n   |   -s   |
 | :----: | :----: | :----: | :----: | :----: |
-|   　   |   丨   |   　   |   舌   |   羊   |
+|   与   |   丨   |   々   |   舌   |   羊   |
 
 ## reserved characters
 
@@ -22,7 +22,7 @@
 |  g  |  　  |  　  |  　  |  　  |  　  |
 |  k  |  　  |  　  |  　  |  　  |  　  |
 |  w  |  　  |  　  |  　  |  　  |  　  |
-|  y  |  　  |  ⾆  |  　  |  　  |  　  |
+|  y  |  　  |  　  |  　  |  　  |  　  |
 
 ## 本舌字 [HONGSI]
 
