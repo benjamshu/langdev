@@ -509,6 +509,7 @@
 * 犬 [U+72AC] wa : dog
 * 氷 [U+6C37] wa : ice; snow; freeze
 * 汁 [U+6C41] wa : water; liquid; substance
+* 語 [U+8A9E] wa : language
 
 ### we
 

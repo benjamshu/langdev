@@ -18,7 +18,7 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 7.  All double consonants are devoiced
 
-8.  The following changes occur to the codas word-final consonants:
+8.  The following changes occur to word-final consonants:
 
     * <i>q</i> is dropped when not followed by <i>g</i>
     * {<i>qg</i>, <i>n</i>} becomes <i>q</i>
