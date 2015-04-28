@@ -48,6 +48,12 @@
         <etymology>from D1 <etyma xml:lang="qdi">中台筆</etyma>, polite form of <etyma xml:lang="qdi">台</etyma>; for more information, see <wordref xml:lang="qdd">戸</wordref></etymology>
         <!--  in RC as 守手  -->
     </word>
+    <word>
+        <form class="n" pronunciation="wasi">語字</form>
+        <meaning xml:lang="en">name</meaning>
+        <etymology>from D1 <etyma xml:lang="qdi">語丼</etyma> with influence from <wordref xml:lang="qdd">本舌字</wordref> and <wordref xml:lang="qdd">例枚字</wordref>; from PL <etyma xml:lang="qpt">uarím</etyma>, <mention>speech; word; language</mention>; ultimately from <etyma xml:lang="qpt">rim</etyma>, <mention>speak; converse</mention></etymology>
+        <!--  in RC as 吾字  -->
+    </word>
     <!--  DERIVED WORDS  -->
     <word>
         <form class="n" pronunciation="zi">字</form>
