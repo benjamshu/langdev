@@ -14,7 +14,7 @@
         <etymology xml:lang="en">D1 <etyma xml:lang="qdi">本筆字</etyma>, from JAPANESE <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="qfi">字</wordref> was coined to preserve this old meaning</etymology>
     </word>
     <word>
-        <form class="n" pronunciation="zi">字</form>
+        <form class="n cla.n" pronunciation="zi">字</form>
         <meaning xml:lang="en">character; glyph</meaning>
         <etymology xml:lang="en">from D2 <etyma xml:lang="qdd">本筆字</etyma>, <mention>lexical character</mention>, and <etyma xml:lang="qdd">例枚字</etyma>, <mention>latin character</mention></etymology>
     </word>
