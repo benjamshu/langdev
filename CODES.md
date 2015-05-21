@@ -1,6 +1,6 @@
 # CODES #
 
-This document lists all private-use language codes in use by LANGDEV languages.
+This document lists all language codes in use by LANGDEV languages.
 Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are considered obsolete.
 
 ## Sevensi: ##
