@@ -1,14 +1,15 @@
 # CODES #
 
 This document lists all language codes in use by LANGDEV languages.
-Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are considered obsolete.
+Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are considered obsolete (but may be found in old development materials).
 
 ## Sevensi: ##
 
 - `art-x-svi` : generic
 - `qlr` `art-x-svi-lrexx` : LREX
-- `x-XX-jl` `x-jl` `qjl` `art-x-svi-xxxjl` : JÄSTŪGAY I–VII
-- `x-XX-jt` `x-jt` `qjt` `art-x-svi-xxxjt` : JÄSTŪGAY VIII+
+- `x-XX-jl` `x-jl` `x-jt-proto` `qjl` `art-x-svi-xxxjl` : JÄSTŪGAY I–VII
+- `x-XX-jt` `x-jt` `x-jt-ancient` `qjt` `art-x-svi-xxxjt` : JÄSTŪGAY VIII
+- `x-jt` `qjt` `art-x-svi-xxxjt` : JÄSTŪGAY VIV
 - `qeh` `art-x-svi-ehope` : E. HOPE
 - `art-x-svi-proto` : PROTO-SEVENSI
 

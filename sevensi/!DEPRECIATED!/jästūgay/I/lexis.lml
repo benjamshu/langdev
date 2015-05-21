@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="qjl-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-svi-xxxjl" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">JÄSTŪGAY version I</meta>
     <meta name="description" xml:lang="en">The first version of JÄSTŪGAY contained only three words: a generic pro-form, <mention>stop</mention> (also, <mention>no</mention>), and <mention>go</mention> (also, <mention>yes</mention>)_ No formal grammar was ever developed_</meta>
     <word>
