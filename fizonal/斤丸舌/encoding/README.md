@@ -35,7 +35,7 @@ Other base characters are considered *combined* with variation selectors if all 
 - The variation selector directly follows the base character
 
 Base-and-variation-character combinations are considered *variant characters*.
-Variant characters which are not defined in this specification should be rendered as Z+DD 〓 GETA MARK.
+Variant characters which are not defined in this specification should be rendered as either their corresponding base character or Z+DD 〓 GETA MARK.
 
 Variation selectors which are not combined with base characters __should not__ be rendered.
 Note that base characters __cannot__ be combined with more than one variation selector.

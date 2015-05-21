@@ -1,8 +1,9 @@
-# THE LANGUAGE : SECOND DERIVATIVE
+# 斤丸舌 : SECOND DERIVATIVE
 
-The second level of evolution and abstraction from the initial PROTO-LANGUAGE. The second derivative helps to simplify THE PROTO-LANGUAGE and make it easier to write.
+The second level of evolution and abstraction from the initial PROTO-LANGUAGE.
+The second derivative helps to simplify THE PROTO-LANGUAGE and make it easier to write.
 
-## phonological changes
+## Phonological changes: ##
 
 Syllable stress is shifted to the first syllable of all roots. In addition, there are *many* consonant merges:
 
@@ -22,16 +23,16 @@ Syllable stress is shifted to the first syllable of all roots. In addition, ther
 
     The resulting nasal is pronounced as <i>q</i> when the preceeding consonant (if present, often in a preceeding syllable) is one of the following: <i>g</i>, <i>k</i>, <i>h</i> (but __not__ <i>f</i>), <i>s</i>, <i>z</i>, <i>w</i>; pronounced <i>n</i> otherwise.
 
-## word simplifications
+## Word simplifications: ##
 
 The number of syllables in many words is reduced, following a few patterns:
 
 *   When the first mora of a word is a voiceless stop and the second mora is a voiced stop, the first is often dropped
 
-## changes in syntax
+## Changes in syntax: ##
 
 The number of irregular verbs is reduced, and the conjugation-system is simplified and perfected. Classifiers are consolidated and become a closed grammatical class.
 
-## orthography
+## Orthography: ##
 
 The character-based system of writing of D1 is consolidated into a syllabary. Some characters are reserved for use in grammatical words, to make reading easier, although these may be grandfathered in with some lexical words.

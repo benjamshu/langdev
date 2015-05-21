@@ -1,8 +1,10 @@
-# THE LANGUAGE : FIRST DERIVATIVE
+# 斤丸舌 : FIRST DERIVATIVE #
 
-The first level of evolution and abstraction from the initial PROTO-LANGUAGE; characters for writing are introduced here. The first derivative helps to normalize the phonology of THE LANGUAGE and give it a unique character. The following general shifts and changes are recorded:
+The first level of evolution and abstraction from PROTO-FIZONAL; characters for writing are introduced here.
+The first derivative helps to normalize the phonology of THE LANGUAGE and give it a unique character.
+The following general shifts and changes are recorded:
 
-## phonological changes
+## Phonological changes: ##
 
 1.  When a long vowel ends a word, it is palatalized (<i>a:</i> > <i>aw</i>, <i>e:</i> > <i>ew</i>, <i>i</i> > <i>ij</i> <i>o:</i> > <i>ow</i>, <i>u:</i> > <i>uw</i>)
 
@@ -59,11 +61,13 @@ The first level of evolution and abstraction from the initial PROTO-LANGUAGE; ch
 
 17. <i>yi</i> and <i>wu</i> are simplified to <i>i</i> and <i>u</i>.
 
-## changes in syntax
+## Changes in syntax: ##
 
-Modal particles are shifted to the ends of words and some affixes detach, forming proper verbal conjugations. Many irregular forms exist, grandfathered in from THE PROTO-LANGUAGE.
+Modal particles are shifted to the ends of words and some affixes detach, forming proper verbal conjugations.
+Many irregular forms exist, grandfathered in from PROTO-FIZONAL.
 
-Some verbs are grammaticalized into dual-function postposition-adverbs, while some nouns are grammaticalized into classifiers. Noun phrases now consist of the following:
+Some verbs are grammaticalized into dual-function postposition-adverbs, while some nouns are grammaticalized into classifiers.
+Noun phrases now consist of the following:
 
 1. Zero or more determiners
 2. Zero or one classifiers
@@ -71,7 +75,8 @@ Some verbs are grammaticalized into dual-function postposition-adverbs, while so
 4. Exactly one noun
 5. Exactly one noun-case post-position
 
-This word-order is now fairly strict. With the addition of adverbs, general sentence word-order is now as follows:
+This word-order is now fairly strict.
+With the addition of adverbs, general sentence word-order is now as follows:
 
 1. Zero or more noun prhases
 2. One or two verbs
@@ -79,6 +84,6 @@ This word-order is now fairly strict. With the addition of adverbs, general sent
 
 Noun phrases must come before verbs, but adverbs may exist anywhere outside of a noun phrase.
 
-## orthography
+## Orthography: ##
 
 A character-based system of writing (<i lang="qdi">honzi</i>) is introduced, using japanese kanji as it's source. Characters are chosen for either their symbolic meaning or their on'yomi reading.
