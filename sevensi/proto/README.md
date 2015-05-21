@@ -8,3 +8,31 @@ PROTO-SEVENSI is derived from a collection of independent languages developed be
 You can find those [here](../!DEPRECIATED!).
 
 Because it defines a proto-language, this document should be considered speculative, third-hand, and for reference purposes only.
+
+## Orthography: ##
+
+PROTO-SEVENSI uses korean hangul as its writing system. Some sounds have changed to match sevensian phonology.
+
+### Initials: ###
+
+| s  | d  | hh | t  | w  | h  | j  | z  | g  | v  | f  | zh | m  | p  | -  |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| ㅅ | ㄷ | ㅊ | ㅌ | ㅁ | ㅎ | ㅈ | ㅆ | ㄱ | ㅃ | ㄸ | ㅉ | ㄴ | ㅍ | ㅇ |
+
+### Medials: ###
+
+| uh | ä  | ei | e  | iy | i  | oi | ō  | au | ū  |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| ㅓ | ㅏ | ㅐ | ㅔ | ㅚ | ㅣ | ㅢ | ㅗ | ㅡ | ㅜ |
+
+### Finals: ###
+
+| s  | d  | hh | t  | l  | n  |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| ㅅ | ㄷ | ㅊ | ㅌ | ㄹ | ㄴ |
+
+### Punctuation: ###
+
+| .  | ,  | !  | ?  | :  | ;  | … |    | ‘’ | “” | () | [] |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| 。 | 、 | ！ | ？ | ： | ； | … | ・ |「」|『』|（）|［］|
