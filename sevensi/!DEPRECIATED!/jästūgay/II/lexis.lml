@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="qjl-Latn" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-svi-xxxjl" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">JÄSTŪGAY version II</meta>
     <meta name="description" xml:lang="en">Version II of JÄSTŪGAY follows directly from the first, expanding only slightly the lexicon_ No formal grammar was ever developed_</meta>
     <word>
         <form class="pron.dem">sō</form>
-        <etymology xml:lang="en">from I <etymon xml:lang="qjl-Latn">sā</etymon></etymology>
+        <etymology xml:lang="en">from I <etymon xml:lang="art-x-svi-xxxjl">sā</etymon></etymology>
         <meaning xml:lang="en">this/that</meaning>
     </word>
     <word>
@@ -22,7 +22,7 @@
     </word>
     <word>
         <form class="excl">do</form>
-        <etymology xml:lang="en">from I <etymon xml:lang="qjl-Latn">doi</etymon></etymology>
+        <etymology xml:lang="en">from I <etymon xml:lang="art-x-svi-xxxjl">doi</etymon></etymology>
         <meaning xml:lang="en">yes</meaning>
     </word>
     <word>
@@ -32,12 +32,12 @@
     </word>
     <word>
         <form class="excl">ta</form>
-        <etymology xml:lang="en">from I <etymon xml:lang="qjl-Latn">aht</etymon></etymology>
+        <etymology xml:lang="en">from I <etymon xml:lang="art-x-svi-xxxjl">aht</etymon></etymology>
         <meaning xml:lang="en">no</meaning>
     </word>
     <word>
         <form class="v">ahtoi</form>
-        <etymology xml:lang="en">from I <etymon xml:lang="qjl-Latn">aht</etymon>, with influence from <etymon xml:lang="qjl-Latn">doi</etymon></etymology>
+        <etymology xml:lang="en">from I <etymon xml:lang="art-x-svi-xxxjl">aht</etymon>, with influence from <etymon xml:lang="art-x-svi-xxxjl">doi</etymon></etymology>
         <meaning xml:lang="en">stop</meaning>
     </word>
 </lexis>

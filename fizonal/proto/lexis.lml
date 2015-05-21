@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="qpt" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-fiz-proto" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">proto-fizonal</meta>
     <meta name="description" xml:lang="en">This is like a huge work in progress. It's not close to done. And the formatting is probably shitty. And yeah. But here you go:</meta>
     <meta name="splash" xml:lang="en">fantastic!</meta>
@@ -376,7 +376,7 @@
     <word>
         <form class="n">aqzháir</form>
         <meaning xml:lang="en">pubic-hair</meaning>
-        <etymology xml:lang="en"><wordref xml:lang="qpt">qair</wordref>, with influence from <wordref xml:lang="qpt">zhir</wordref></etymology>
+        <etymology xml:lang="en"><wordref xml:lang="art-x-fiz-proto">qair</wordref>, with influence from <wordref xml:lang="art-x-fiz-proto">zhir</wordref></etymology>
     </word>
     <!--  MAU:Q  -->
     <word>
@@ -865,7 +865,7 @@
     <word>
         <form class="n">labi:r</form>
         <meaning xml:lang="en">lung</meaning>
-        <etymology xml:lang="en">from <wordref xml:lang="qpt">bi:r</wordref></etymology>
+        <etymology xml:lang="en">from <wordref xml:lang="art-x-fiz-proto">bi:r</wordref></etymology>
     </word>
     <!--  DAQ  -->
     <word>
@@ -996,7 +996,7 @@
     <word>
         <form class="v.pfv">gásho</form>
         <meaning xml:lang="en">vomit</meaning>
-        <etymology xml:lang="en">related to <wordref xml:lang="qpt">-sho</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-fiz-proto">-sho</wordref></etymology>
     </word>
     <word>
         <form class="n">uagásho</form>
@@ -1463,7 +1463,7 @@
     <word>
         <form class="n">kátri</form>
         <meaning xml:lang="en">arm; limb (of a tree)</meaning>
-        <etymology xml:lang="en">apparent influence from <wordref xml:lang="qpt">-ri</wordref></etymology>
+        <etymology xml:lang="en">apparent influence from <wordref xml:lang="art-x-fiz-proto">-ri</wordref></etymology>
     </word>
     <!--  KE:R  -->
     <word>
