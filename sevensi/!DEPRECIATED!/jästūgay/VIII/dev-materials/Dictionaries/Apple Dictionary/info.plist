@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Jästūgā to English Dictionary</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.dictionary.x-XX-jt</string>
+	<key>CFBundleName</key>
+	<string>Jästūgā</string>
+	<key>CFBundleShortVersionString</key>
+	<string>20120301</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>To the extent possible under law, Benjamin Shoemake has waived all copyright and related or neighboring rights to this work. This work was published from the United States.</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>BJMNS</string>
+	<key>DCSDictionaryFrontMatterReferenceID</key>
+	<string>front_back_matter</string>
+</dict>
+</plist>
