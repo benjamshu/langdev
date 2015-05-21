@@ -25,7 +25,7 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 ## Fluîne: ##
 
 - `art-x-flu` : generic
-- `qfl` `art-x-flu-proto` : PROTO-FLUîNE
+- `art-x-flu-proto` : PROTO-FLUîNE
 
 ## Misc: ##
 
