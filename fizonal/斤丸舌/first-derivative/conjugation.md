@@ -1,8 +1,9 @@
-# D1 VERB CONJUGATION
+# D1 VERB CONJUGATION #
 
-This is a rough guideline only. Some verbs might be highly irregular.
+This is a rough guideline only.
+Some verbs might be highly irregular.
 
-## indicative (plain)
+## Indicative (plain): ##
 
 |  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
@@ -26,7 +27,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | y-form | -yu          | -ye         | -ya        | -iyun               | -iyen              | -iyan             |
 | z-form | -zu          | -ze         | -za        | -nzun               | -nzen              | -nzan             |
 
-## mirative (surprise)
+## Mirative (surprise): ##
 
 |  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
@@ -50,7 +51,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | y-form | -yus         | -yes        | -yas       | -yuson              | -yeson             | -yason            |
 | z-form | -zus         | -zes        | -zas       | -zuson              | -zeson             | -zason            |
 
-## optative (wish)
+## Optative (wish): ##
 
 |  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
@@ -74,7 +75,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | y-form | -myuena      | -myeena     | -myaena    | -myuenna            | -myeenna           | -myaenna          |
 | z-form | -zumena      | -zemena     | -zamena    | -zumenna            | -zemenna           | -zamenna          |
 
-## permissive (permission)
+## Permissive (permission): ##
 
 |  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
@@ -98,7 +99,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | y-form | -yuru        | -yeru       | -yaru      | -yurun              | -yerun             | -yarun            |
 | z-form | -zuru        | -zeru       | -zaru      | -zurun              | -zerun             | -zarun            |
 
-## jussive (promise; command)
+## Jussive (promise; command): ##
 
 |  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
@@ -122,7 +123,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | y-form | -iyu         | -iye        | -iya       | -iyun               | -iyen              | -iyan             |
 | z-form | -izu         | -ize        | -iza       | -zyun               | -zyen              | -zyan             |
 
-## potential (ability)
+## Potential (ability): ##
 
 |  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
@@ -146,7 +147,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | y-form | -yute        | -yete       | -yate      | -yuten              | -yeten             | -yaten            |
 | z-form | -zute        | -zete       | -zate      | -zuten              | -zeten             | -zaten            |
 
-## intention (decision)
+## Intention (decision): ##
 
 |  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |
@@ -170,7 +171,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | y-form | -yusu        | -yesu       | -yasu      | -yusun              | -yesun             | -yasun            |
 | z-form | -zusu        | -zesu       | -zasu      | -zusun              | -zesun             | -zasun            |
 
-## imperative (command)
+## Imperative (command): ##
 
 |  form  | imperfective | (no progressive) | (no perfective) | polite imperfective | (no progressive) | (no perfective) |
 | ------ | ------------ | :--------------: | :-------------: | ------------------- | :--------------: | :-------------: |
@@ -194,7 +195,7 @@ This is a rough guideline only. Some verbs might be highly irregular.
 | y-form | -yuu         |        X         |        X        | -iyuno              |        X         |        X        |
 | z-form | -zuu         |        X         |        X        | -nzuno              |        X         |        X        |
 
-## interrogative (question)
+## Interrogative (question): ##
 
 |  form  | imperfective | progressive | perfective | polite imperfective | polite progressive | polite perfective |
 | ------ | ------------ | ----------- | ---------- | ------------------- | ------------------ | ----------------- |

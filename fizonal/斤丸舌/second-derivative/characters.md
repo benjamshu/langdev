@@ -1,4 +1,4 @@
-# D2 CHARACTERS
+# D2 CHARACTERS #
 
 The following general changes take place between D1 and D2:
 
@@ -8,7 +8,7 @@ The following general changes take place between D1 and D2:
 
     * <b>芋 [U+828B] u</b> merges with and becomes <b>宇 [U+5B87]</b>
 
-## reserved characters
+## Reserved characters: ##
 
 The following characters are reserved for use only in grammatical words:
 
