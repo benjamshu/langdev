@@ -30,3 +30,4 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 ## Misc: ##
 
 - ~~`qol`~~ `art-x-oen` : THE OLD LANGUAGE
+- `en-x-alt` : ALT-ENGLISH
