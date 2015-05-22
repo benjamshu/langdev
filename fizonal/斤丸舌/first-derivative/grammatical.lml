@@ -7,56 +7,56 @@
         <form class="post adv" pronunciation="zi">毬</form>
         <meaning xml:lang="en" class="post">nominative marker</meaning>
         <meaning xml:lang="en" class="post">used to form compound nouns; noun connector</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">zhil</etyma>, <mention>be tied (up)</mention>, used figuratively to group words together</etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">zhil</etymon>, <mention>be tied (up)</mention>, used figuratively to group words together</etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="uru">雨流</form>
         <meaning xml:lang="en" class="post">reflexive marker</meaning>
         <meaning xml:lang="en" class="adv">repeatedly; often</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">-ur</etyma>, a verb suffix used to note cyclical or reflexive actions, later detached as an adverb/post-position</etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">-ur</etymon>, a verb suffix used to note cyclical or reflexive actions, later detached as an adverb/post-position</etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="da">代</form>
         <meaning xml:lang="en" class="post">topic marker</meaning>
         <meaning xml:lang="en" class="post">in relation/contrast to</meaning>
         <meaning xml:lang="en" class="adv">pertaining to the topic at hand</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">ardáq</etyma>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">ardáq</etymon>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
     </word>
     <word>
         <form class="cla.n" pronunciation="qe">身</form>
         <meaning xml:lang="en">classifier for people</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">qeg</etyma></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">qeg</etymon></etymology>
     </word>
     <word>
         <form class="det.dem" pronunciation="yozi">食毬</form>
         <meaning xml:lang="en">proximal demonstrative</meaning>
-        <etymology xml:lang="en"><etyma xml:lang="art-x-fi-1der">食</etyma> + <wordref xml:lang="art-x-fi-1der">毬</wordref></etymology>
+        <etymology xml:lang="en"><etymon xml:lang="art-x-fi-1der">食</etymon> + <wordref xml:lang="art-x-fi-1der">毬</wordref></etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="ka">各</form>
         <meaning xml:lang="en" class="post">indirect object marker: to, for</meaning>
         <meaning xml:lang="en" class="adv">away</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">-ag</etyma>, a verb suffix used to form patient nouns, later detached as an adverb/post-position</etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">-ag</etymon>, a verb suffix used to form patient nouns, later detached as an adverb/post-position</etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="pus">文羊</form>
         <meaning xml:lang="en" class="post">direct object marker</meaning>
         <meaning xml:lang="en" class="post">possession marker; of</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">baush</etyma>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">baush</etymon>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
     </word>
     <word>
         <form class="cla.n" pronunciation="ti">丼</form>
         <meaning xml:lang="en">classifier for names and words</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">rim</etyma></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">rim</etymon></etymology>
     </word>
     <word>
         <form class="det.dem" pronunciation="dai">彼位</form>
         <meaning xml:lang="en">distal demonstrative</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">nai</etyma></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">nai</etymon></etymology>
     </word>
     <word>
         <form class="det.dem" pronunciation="ba">何</form>
         <meaning xml:lang="en">interrogative demonstrative</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">ma</etyma></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">ma</etymon></etymology>
     </word>
 </lexis>

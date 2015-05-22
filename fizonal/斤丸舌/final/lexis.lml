@@ -6,75 +6,75 @@
     <word>
         <form class="n" pronunciation="fizeng">斤丸舌</form>
         <meaning xml:lang="en">THE LANGUAGE</meaning>
-        <etymology xml:lang="en">D1 <etyma xml:lang="art-x-fi-1der">新執筆</etyma>, from english <etyma>fiction</etyma></etymology>
+        <etymology xml:lang="en">D1 <etymon xml:lang="art-x-fi-1der">新執筆</etymon>, from english <etymon>fiction</etymon></etymology>
     </word>
     <word>
         <form class="n" pronunciation="hongsi">本舌字</form>
         <meaning xml:lang="en">lexical character</meaning>
-        <etymology xml:lang="en">D1 <etyma xml:lang="art-x-fi-1der">本筆字</etyma>, from JAPANESE <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="art-x-fi">字</wordref> was coined to preserve this old meaning</etymology>
+        <etymology xml:lang="en">D1 <etymon xml:lang="art-x-fi-1der">本筆字</etymon>, from JAPANESE <etymon xml:lang="ja">漢字</etymon> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="art-x-fi">字</wordref> was coined to preserve this old meaning</etymology>
     </word>
     <word>
         <form class="n cla.n" pronunciation="zi">字</form>
         <meaning xml:lang="en">character; glyph</meaning>
-        <etymology xml:lang="en">from D2 <etyma xml:lang="art-x-fi-2der">本筆字</etyma>, <mention>lexical character</mention>, and <etyma xml:lang="art-x-fi-2der">例枚字</etyma>, <mention>latin character</mention></etymology>
+        <etymology xml:lang="en">from D2 <etymon xml:lang="art-x-fi-2der">本筆字</etymon>, <mention>lexical character</mention>, and <etymon xml:lang="art-x-fi-2der">例枚字</etymon>, <mention>latin character</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="demasi">歹攵字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
-        <etymology xml:lang="en">D1 <etyma xml:lang="art-x-fi-1der">例枚字</etyma>, from ENGLISH <etyma>roman</etyma>, modelled after <wordref xml:lang="art-x-fi-1der">honzi</wordref> with influence from JAPANESE <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <etymology xml:lang="en">D1 <etymon xml:lang="art-x-fi-1der">例枚字</etymon>, from ENGLISH <etymon>roman</etymon>, modelled after <wordref xml:lang="art-x-fi-1der">honzi</wordref> with influence from JAPANESE <etymon xml:lang="ja">ローマ字</etymon> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="iryusi">云丨豆字</form>
         <meaning xml:lang="en">ideographic character; HAN character</meaning>
-        <etymology xml:lang="en">from ENGLISH <etyma>ideo-</etyma> (as in <mention>ideograph</mention>) + <wordref xml:lang="art-x-fi-release">zi</wordref></etymology>
+        <etymology xml:lang="en">from ENGLISH <etymon>ideo-</etymon> (as in <mention>ideograph</mention>) + <wordref xml:lang="art-x-fi-release">zi</wordref></etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="da, ra">日</form>
         <meaning xml:lang="en" class="post">topic marker</meaning>
         <meaning xml:lang="en" class="post">in relation/contrast to</meaning>
         <meaning xml:lang="en" class="adv">pertaining to the topic at hand</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">ardáq</etyma>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">ardáq</etymon>, <mention>be core, central</mention>, used to mark the core point of a sentence</etymology>
     </word>
     <word>
         <form class="cla.n" pronunciation="yos">氏羊</form>
         <meaning xml:lang="en">first-person classifier</meaning>
-        <etymology xml:lang="en">from D2 <etyma xml:lang="art-x-fi-2der">艮毛</etyma> + <etyma xml:lang="art-x-fi-2der">干</etyma></etymology>
+        <etymology xml:lang="en">from D2 <etymon xml:lang="art-x-fi-2der">艮毛</etymon> + <etymon xml:lang="art-x-fi-2der">干</etymon></etymology>
     </word>
     <word>
         <form class="v.cop.nfrm" pronunciation="tu">戸</form>
         <meaning xml:lang="en">copula</meaning>
-        <etymology>abbreviated form of D1 <etyma xml:lang="art-x-fi-1der">徒羊台</etyma>, <mention>appear to be; seem like</mention>, from PL <etyma xml:lang="art-x-fiz-proto">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="art-x-fiz-proto">rozh</etyma>, <mention>eye</mention></etymology>
+        <etymology>abbreviated form of D1 <etymon xml:lang="art-x-fi-1der">徒羊台</etymon>, <mention>appear to be; seem like</mention>, from PL <etymon xml:lang="art-x-fiz-proto">róshutu</etymon>, <mention>appear (as)</mention>, ultimately from <etymon xml:lang="art-x-fiz-proto">rozh</etymon>, <mention>eye</mention></etymology>
     </word>
     <word>
         <form class="v.cop.frm v.aux.frm" pronunciation="yu-nu">守手</form>
         <meaning xml:lang="en" form="v.cop.frm">polite copula</meaning>
         <meaning xml:lang="en" form="v.aux.frm">marks a statement as polite</meaning>
-        <etymology>from D1 <etyma xml:lang="art-x-fi-1der">中台筆</etyma>, polite form of <etyma xml:lang="art-x-fi-1der">台</etyma>; for more information, see <wordref xml:lang="art-x-fi">戸</wordref></etymology>
+        <etymology>from D1 <etymon xml:lang="art-x-fi-1der">中台筆</etymon>, polite form of <etymon xml:lang="art-x-fi-1der">台</etymon>; for more information, see <wordref xml:lang="art-x-fi">戸</wordref></etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="u">卜</form>
         <meaning xml:lang="en" class="post">direct object marker</meaning>
         <meaning xml:lang="en" class="post">possession marker; of</meaning>
-        <etymology xml:lang="en">from D2 <etyma xml:lang="art-x-fi-2der">人</etyma>, from D1 <etyma xml:lang="art-x-fi-1der">文羊</etyma>, from PL <etyma xml:lang="art-x-fiz-proto">baush</etyma>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
+        <etymology xml:lang="en">from D2 <etymon xml:lang="art-x-fi-2der">人</etymon>, from D1 <etymon xml:lang="art-x-fi-1der">文羊</etymon>, from PL <etymon xml:lang="art-x-fiz-proto">baush</etymon>, <mention>hold</mention>, first used to mark possession and then later recycled as a general-purpose direct object marker</etymology>
     </word>
     <word>
         <form class="n" pronunciation="wasi">吾字</form>
         <meaning xml:lang="en">name</meaning>
-        <etymology>from D1 <etyma xml:lang="art-x-fi-1der">語丼</etyma> with influence from D2 <etyma xml:lang="art-x-fi-2der">本舌字</etyma> and <etyma xml:lang="art-x-fi-2der">例枚字</etyma>; from PL <etyma xml:lang="art-x-fiz-proto">uarím</etyma>, <mention>speech; word; language</mention>; ultimately from <etyma xml:lang="art-x-fiz-proto">rim</etyma>, <mention>speak; converse</mention></etymology>
+        <etymology>from D1 <etymon xml:lang="art-x-fi-1der">語丼</etymon> with influence from D2 <etymon xml:lang="art-x-fi-2der">本舌字</etymon> and <etymon xml:lang="art-x-fi-2der">例枚字</etymon>; from PL <etymon xml:lang="art-x-fiz-proto">uarím</etymon>, <mention>speech; word; language</mention>; ultimately from <etymon xml:lang="art-x-fiz-proto">rim</etymon>, <mention>speak; converse</mention></etymology>
     </word>
     <word>
         <form class="cla.n" pronunciation="ti">丼</form>
         <meaning xml:lang="en">classifier for names and words</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">rim</etyma></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">rim</etymon></etymology>
     </word>
     <word>
         <form class="det.dem.int" pronunciation="bai">可月</form>
         <meaning xml:lang="en">interrogative demonstrative</meaning>
-        <etymology xml:lang="en">from D1 <etyma xml:lang="art-x-fi-1der">何</etyma> with influence from <wordref xml:lang="art-x-fi-2der">彼月</wordref>; ultimately from PL <etyma xml:lang="art-x-fiz-proto">ma</etyma></etymology>
+        <etymology xml:lang="en">from D1 <etymon xml:lang="art-x-fi-1der">何</etymon> with influence from <wordref xml:lang="art-x-fi-2der">彼月</wordref>; ultimately from PL <etymon xml:lang="art-x-fiz-proto">ma</etymon></etymology>
     </word>
     <word>
         <form class="cla.n" pronunciation="nuru">弁亦</form>
         <meaning xml:lang="en">second-person classifier</meaning>
-        <etymology xml:lang="en">from D1 <etyma xml:lang="art-x-fi-1der">身</etyma> + <etyma xml:lang="art-x-fi-1der">雨流</etyma></etymology>
+        <etymology xml:lang="en">from D1 <etymon xml:lang="art-x-fi-1der">身</etymon> + <etymon xml:lang="art-x-fi-1der">雨流</etymon></etymology>
     </word>
 </lexis>

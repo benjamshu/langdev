@@ -7,19 +7,19 @@
     <word>
         <form class="n" pronunciation="fisen">新執筆</form>
         <meaning xml:lang="en">THE LANGUAGE</meaning>
-        <etymology xml:lang="en">from english <etyma>fiction</etyma></etymology>
+        <etymology xml:lang="en">from english <etymon>fiction</etymon></etymology>
         <!--  in D2 as 新執舌  -->
     </word>
     <word>
         <form class="n" pronunciation="honzi">本筆字</form>
         <meaning xml:lang="en">character; glyph</meaning>
-        <etymology xml:lang="en">from JAPANESE <etyma xml:lang="ja">漢字</etyma> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
+        <etymology xml:lang="en">from JAPANESE <etymon xml:lang="ja">漢字</etymon> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention></etymology>
         <!--  in D2 as SAME  -->
     </word>
     <word>
         <form class="n" pronunciation="remazi">例枚字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
-        <etymology xml:lang="en">from ENGLISH <etyma>roman</etyma>, modelled after <wordref xml:lang="art-x-fi-1der">honzi</wordref> with influence from JAPANESE <etyma xml:lang="ja">ローマ字</etyma> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <etymology xml:lang="en">from ENGLISH <etymon>roman</etymon>, modelled after <wordref xml:lang="art-x-fi-1der">honzi</wordref> with influence from JAPANESE <etymon xml:lang="ja">ローマ字</etymon> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
         <!--  in D2 as SAME  -->
     </word>
     <!--  IMITATIVE ORIGIN  -->
@@ -31,73 +31,73 @@
     <word>
         <form class="n" pronunciation="myofi">中牧小</form>
         <meaning xml:lang="en">cat</meaning>
-        <etymology xml:lang="en">originally a compound of PL <etyma xml:lang="art-x-fiz-proto">mjo</etyma> (an imitation of a cat's meow) and PL <etyma xml:lang="art-x-fiz-proto">pir</etyma>, <mention>small mammal</mention>; replaced PL <mention xml:lang="art-x-fiz-proto">pishúg</mention></etymology>
+        <etymology xml:lang="en">originally a compound of PL <etymon xml:lang="art-x-fiz-proto">mjo</etymon> (an imitation of a cat's meow) and PL <etymon xml:lang="art-x-fiz-proto">pir</etymon>, <mention>small mammal</mention>; replaced PL <mention xml:lang="art-x-fiz-proto">pishúg</mention></etymology>
     </word>
     <!--  FROM PROTO-  -->
     <affix>
         <form pronunciation="-di">-侍</form>
         <meaning xml:lang="en">forms animate agent nouns</meaning>
-        <etymology>from PL <etyma xml:lang="art-x-fiz-proto">-ri</etyma>; became <etyma xml:lang="art-x-fiz-proto">-ti</etyma> after stressed syllables and <etyma xml:lang="art-x-fiz-proto">-di</etyma> otherwise; this was later codified as <wordref xml:lang="art-x-fi-1der">-侍</wordref> in most instances.</etymology>
+        <etymology>from PL <etymon xml:lang="art-x-fiz-proto">-ri</etymon>; became <etymon xml:lang="art-x-fiz-proto">-ti</etymon> after stressed syllables and <etymon xml:lang="art-x-fiz-proto">-di</etymon> otherwise; this was later codified as <wordref xml:lang="art-x-fi-1der">-侍</wordref> in most instances.</etymology>
     </affix>
     <word>
         <form class="v" pronunciation="tuku-ru">台丘車</form>
         <meaning xml:lang="en">stand</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">rúgur</etyma>, <mention>stand; support oneself</mention></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">rúgur</etymon>, <mention>stand; support oneself</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="zifudi">毬末帝</form>
         <meaning xml:lang="en">fox</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">zhípuri</etyma>, <mention>one with bushy tail</mention></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">zhípuri</etymon>, <mention>one with bushy tail</mention></etymology>
     </word>
     <word>
         <form class="v" pronunciation="ze:go-pu">斉永効文</form>
         <meaning xml:lang="en">become</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">zhé:qgob</etyma>, <mention>be maturing; be growing into</mention>, the progressive derivative of <etyma xml:lang="art-x-fiz-proto">zhe:qg</etyma>, <mention>grow</mention></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">zhé:qgob</etymon>, <mention>be maturing; be growing into</mention>, the progressive derivative of <etymon xml:lang="art-x-fiz-proto">zhe:qg</etymon>, <mention>grow</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="yo">食</form>
         <meaning xml:lang="en">face</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">ió:</etyma>, a nominalization of <etyma xml:lang="art-x-fiz-proto">gjo:</etyma>, <mention>be facing</mention></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">ió:</etymon>, a nominalization of <etymon xml:lang="art-x-fiz-proto">gjo:</etymon>, <mention>be facing</mention></etymology>
     </word>
     <word>
         <form class="v" pronunciation="gi-nu">点抜</form>
         <meaning xml:lang="en">point</meaning>
-        <etymology xml:lang="en">from PL <etyma xml:lang="art-x-fiz-proto">gjil</etyma></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">gjil</etymon></etymology>
     </word>
     <word>
         <form class="v" pronunciation="tos-tu">徒羊台</form>
         <meaning xml:lang="en">appear to be; seem like</meaning>
-        <etymology>from PL <etyma xml:lang="art-x-fiz-proto">róshutu</etyma>, <mention>appear (as)</mention>; ultimately from <etyma xml:lang="art-x-fiz-proto">rozh</etyma>, <mention>eye</mention></etymology>
+        <etymology>from PL <etymon xml:lang="art-x-fiz-proto">róshutu</etymon>, <mention>appear (as)</mention>; ultimately from <etymon xml:lang="art-x-fiz-proto">rozh</etymon>, <mention>eye</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="wati">語丼</form>
         <meaning xml:lang="en">name</meaning>
-        <etymology>from PL <etyma xml:lang="art-x-fiz-proto">uarím</etyma>, <mention>speech; word; language</mention>; ultimately from <etyma xml:lang="art-x-fiz-proto">rim</etyma>, <mention>speak; converse</mention></etymology>
+        <etymology>from PL <etymon xml:lang="art-x-fiz-proto">uarím</etymon>, <mention>speech; word; language</mention>; ultimately from <etymon xml:lang="art-x-fiz-proto">rim</etymon>, <mention>speak; converse</mention></etymology>
         <!--  in D2 as 語字  -->
     </word>
     <word>
         <form class="inj" pronunciation="he">畏</form>
         <meaning xml:lang="en">hey</meaning>
-        <etymology>from PL <etyma xml:lang="art-x-fiz-proto">e:</etyma></etymology>
+        <etymology>from PL <etymon xml:lang="art-x-fiz-proto">e:</etymon></etymology>
         <!--  in D2 as 又  -->
     </word>
     <word>
         <form class="inj" pronunciation="e:dosu">泳泳友祝</form>
         <meaning xml:lang="en">hello (more formal)</meaning>
-        <etymology>from PL <etyma xml:lang="art-x-fiz-proto">e:</etyma> + <etyma xml:lang="art-x-fiz-proto">róshu</etyma>, <mention>hey, look (who it is)</mention></etymology>
+        <etymology>from PL <etymon xml:lang="art-x-fiz-proto">e:</etymon> + <etymon xml:lang="art-x-fiz-proto">róshu</etymon>, <mention>hey, look (who it is)</mention></etymology>
     </word>
     <!--  DERIVED WORDS  -->
     <word>
         <form class="v" pronunciation="tukudi">台丘侍</form>
         <meaning xml:lang="en">aide; waiter; assistaint</meaning>
-        <etymology xml:lang="en"><wordref xml:lang="art-x-fi-1der">台丘車</wordref> + <wordref xml:lang="art-x-fi-1der">-侍</etyma>, with the sense <mention>one who stands (by)</mention></etymology>
+        <etymology xml:lang="en"><wordref xml:lang="art-x-fi-1der">台丘車</wordref> + <wordref xml:lang="art-x-fi-1der">-侍</etymon>, with the sense <mention>one who stands (by)</mention></etymology>
         <!--  in D2 as 丘侍  -->
     </word>
     <word>
         <form class="v.cop.nfrm.ind" pronunciation="tu">台</form>
         <form class="v.cop.form.ind" pronunciation="tyun">中台筆</form>
         <meaning xml:lang="en">copula</meaning>
-        <etymology>abbreviated form of <wordref xml:lang="art-x-fi-1der">徒羊台</wordref>, from PL <etyma xml:lang="art-x-fiz-proto">róshutu</etyma>, <mention>appear (as)</mention>, ultimately from <etyma xml:lang="art-x-fiz-proto">rozh</etyma>, <mention>eye</mention></etymology>
+        <etymology>abbreviated form of <wordref xml:lang="art-x-fi-1der">徒羊台</wordref>, from PL <etymon xml:lang="art-x-fiz-proto">róshutu</etymon>, <mention>appear (as)</mention>, ultimately from <etymon xml:lang="art-x-fiz-proto">rozh</etymon>, <mention>eye</mention></etymology>
         <!-- in D2 as 戸  -->
     </word>
 </lexis>
