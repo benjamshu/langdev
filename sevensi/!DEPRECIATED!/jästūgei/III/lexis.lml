@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="art-x-jl-3ver" xmlns="http://leaf.faint.xyz/lexisml">
-    <meta name="title" xml:lang="en">JÄSTŪGEI version III</meta>
-    <meta name="description" xml:lang="en">Version III of JÄSTŪGEI expands the lexicon of the second_ No formal grammar was ever developed_</meta>
+    <meta name="title" xml:lang="en">JĀSTULÆ III</meta>
+    <meta name="description" xml:lang="en">Version III of JÄSTŪGEI expands the lexicon of the second. No formal grammar was ever developed.</meta>
     <word>
         <form class="pron.dem">sō</form>
         <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-jl-3ver">sā</mention> class of words, which refer to people and pronouns</etymology>

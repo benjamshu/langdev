@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="art-x-jl-5ver" xmlns="http://leaf.faint.xyz/lexisml">
-    <meta name="title" xml:lang="en">JÄSTŪGEI version V</meta>
-    <meta name="description" xml:lang="en">The fifth version of JÄSTŪGEI marks a significant expansion over the fourth, with pronunciations for the first time explicitly defined_ No formal grammar was ever developed_</meta>
+    <meta name="title" xml:lang="en">JĀSTULÆ V</meta>
+    <meta name="description" xml:lang="en">The fifth version of JÄSTŪGEI marks a significant expansion over the fourth, with pronunciations for the first time explicitly defined. No formal grammar was ever developed.</meta>
     <word>
         <form class="n" pronunciation="hīahtsē">hiatsi</form>
         <etymology>IV <etymon xml:lang="art-x-jtl-4ver">daehi</etymon> + <etymon xml:lang="art-x-jtl-4ver">datsi</etymon></etymology>
