@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
 <lexis xml:lang="art-x-svi-xxxjl" xmlns="http://leaf.faint.xyz/lexisml">
-    <meta name="title" xml:lang="en">JÄSTŪGAY version IV</meta>
-    <meta name="description" xml:lang="en">Version IV of JÄSTŪGAY expands the lexicon of the third_ The first four versions of JÄSTŪGAY were developed within a very short window of one another (possibly all on the same day) and can be taken as something of a unit_ In version IV, pronunciations became muddled, and so are only approximated here_ No formal grammar for this version of the language was developed_</meta>
+    <meta name="title" xml:lang="en">JÄSTŪGEI version IV</meta>
+    <meta name="description" xml:lang="en">Version IV of JÄSTŪGEI expands the lexicon of the third_ The first four versions of JÄSTŪGEI were developed within a very short window of one another (possibly all on the same day) and can be taken as something of a unit_ In version IV, pronunciations became muddled, and so are only approximated here_ No formal grammar for this version of the language was developed_</meta>
     <word>
         <form class="n" pronunciation="/dɔtsi/">datsi</form>
         <etymology xml:lang="en">from III <etymon xml:lang="art-x-svi-xxxjl">dāsoi</etymon>; in the <mention xml:lang="art-x-svi-xxxjl">da</mention> class of words, which refer to good things</etymology>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="art-x-svi-xxxjt" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">JÄSTŪGEI version VIV</meta>
+    <meta name="description" xml:lang="en">An attempt to revise VIII which never made it very far</meta>
+    <word>
+        <form class="adj n">deihätsō</form>
+        <etymology xml:lang="en">From Proto-Jästūgei <etymon xml:lang="art-x-svi-xxxjl">dāhatso</etymon>, <mention>gatherer</mention>, a title derived from <etymon xml:lang="art-x-svi-xxxjl">de'o</etymon> (orig. <etymon xml:lang="art-x-svi-xxxjl">doi</etymon>), <mention>go</mention> and <etymon xml:lang="art-x-svi-xxxjl">hīatsē</etymon> (orig. <etymon xml:lang="art-x-svi-xxxjl">hīahtsē</etymon>), <mention>edible plant</mention></etymology>
+        <meaning class="adj" xml:lang="en">being a collector; sentimental</meaning>
+        <meaning class="n" xml:lang="en">a collector or gatherer of materials</meaning>
+    </word>
+    <word>
+        <form class="adj n">deitäd</form>
+        <etymology xml:lang="en">From Proto-Jästūgei <etymon xml:lang="art-x-svi-xxxjl">dātād</etymon>, formed by affixing <etymon xml:lang="art-x-svi-xxxjl">dæ</etymon>, from <etymon lang="art-x-svi-xxxjl">dā</etymon>, <mention>good</mention>, to the beginning of <etymon xml:lang="art-x-svi-xxxjl">tꝏæd</etymon>, <mention>person</mention></etymology>
+        <meaning class="adj" xml:lang="en">friendly</meaning>
+        <meaning class="n" xml:lang="en">a friend</meaning>
+    </word>
+    <word>
+        <form class="adj n">eit</form>
+        <etymology xml:lang="en">From Ancient Jästūgei <span lang="art-x-svi-xxxjt">æt</span>, a simplification of Proto-Jästūgei <span lang="art-x-svi-xxxjt">sæd dāt</span>, <mention>good female</mention></etymology>
+        <meaning class="adj" xml:lang="en">having not had sexual intercourse</meaning>
+        <meaning class="n" xml:lang="en">a person who has not had sexual intercourse; a virgin</meaning>
+        <aside xml:lang="en">Note: <wordref lang="art-x-svi-xxxjt">eit</wordref> was originally considered offensive (emasculating) when used to describe men; this stigma has only recently faded</aside>
+    </word>
+</lexis>
