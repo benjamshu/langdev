@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="art-x-fi-2der" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-fiz-2der" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">D2 LEXICAL</meta>
     <meta name="description" xml:lang="en">A collection of all lexical words in the second derivative of THE LANGUAGE</meta>
     <!--  FOREIGN WORDS  -->
@@ -14,38 +14,38 @@
     <word>
         <form class="n" pronunciation="hongsi">本舌字</form>
         <meaning xml:lang="en">lexical character</meaning>
-        <etymology xml:lang="en">from JAPANESE <etymon xml:lang="ja">漢字</etymon> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="art-x-fi-2der">字</wordref> was coined to preserve this old meaning</etymology>
+        <etymology xml:lang="en">from JAPANESE <etymon xml:lang="ja">漢字</etymon> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="art-x-fiz-2der">字</wordref> was coined to preserve this old meaning</etymology>
         <!--  in RC as SAME  -->
     </word>
     <word>
         <form class="n" pronunciation="demasi">例枚字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
-        <etymology xml:lang="en">from ENGLISH <etymon>roman</etymon>, modelled after <wordref xml:lang="art-x-fi-1der">honzi</wordref> with influence from JAPANESE <etymon xml:lang="ja">ローマ字</etymon> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <etymology xml:lang="en">from ENGLISH <etymon>roman</etymon>, modelled after <wordref xml:lang="art-x-fiz-1der">honzi</wordref> with influence from JAPANESE <etymon xml:lang="ja">ローマ字</etymon> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
         <!--  in RC as 歹攵字  -->
     </word>
     <word>
         <form class="n" pronunciation="kuri">丘侍</form>
         <meaning xml:lang="en">aide; assistant</meaning>
-        <etymology xml:lang="en">from D1 <etymon xml:lang="art-x-fi-1der">台丘侍</etymon>, <mention>one who stands (by)</mention>, from PL <etymon xml:lang="art-x-fiz-proto">rúgur</etymon>, <mention>stand; support oneself</mention></etymology>
+        <etymology xml:lang="en">from D1 <etymon xml:lang="art-x-fiz-1der">台丘侍</etymon>, <mention>one who stands (by)</mention>, from PL <etymon xml:lang="art-x-fzn-proto">rúgur</etymon>, <mention>stand; support oneself</mention></etymology>
         <!--  in RC as 丘寺  -->
     </word>
     <word>
         <form class="n" pronunciation="zifuri">毬末帝</form>
         <meaning xml:lang="en">fox</meaning>
-        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fiz-proto">zhípuri</etymon>, <mention>one with bushy tail</mention></etymology>
+        <etymology xml:lang="en">from PL <etymon xml:lang="art-x-fzn-proto">zhípuri</etymon>, <mention>one with bushy tail</mention></etymology>
         <!--  in RC as 才末巾  -->
     </word>
     <word>
         <form class="v.cop.nfrm" pronunciation="tu">戸</form>
         <meaning xml:lang="en">copula</meaning>
-        <etymology>abbreviated form of D1 <etymon xml:lang="art-x-fi-1der">徒羊台</etymon>, <mention>appear to be; seem like</mention>, from PL <etymon xml:lang="art-x-fiz-proto">róshutu</etymon>, <mention>appear (as)</mention>, ultimately from <etymon xml:lang="art-x-fiz-proto">rozh</etymon>, <mention>eye</mention></etymology>
+        <etymology>abbreviated form of D1 <etymon xml:lang="art-x-fiz-1der">徒羊台</etymon>, <mention>appear to be; seem like</mention>, from PL <etymon xml:lang="art-x-fzn-proto">róshutu</etymon>, <mention>appear (as)</mention>, ultimately from <etymon xml:lang="art-x-fzn-proto">rozh</etymon>, <mention>eye</mention></etymology>
         <!--  in RC as SAME  -->
     </word>
     <word>
         <form class="v.cop.frm v.aux.frm" pronunciation="yu-nu">受手</form>
         <meaning xml:lang="en" form="v.cop.frm">polite copula</meaning>
         <meaning xml:lang="en" form="v.aux.frm">marks a statement as polite</meaning>
-        <etymology>from D1 <etymon xml:lang="art-x-fi-1der">中台筆</etymon>, polite form of <etymon xml:lang="art-x-fi-1der">台</etymon>; for more information, see <wordref xml:lang="art-x-fi-2der">戸</wordref></etymology>
+        <etymology>from D1 <etymon xml:lang="art-x-fiz-1der">中台筆</etymon>, polite form of <etymon xml:lang="art-x-fiz-1der">台</etymon>; for more information, see <wordref xml:lang="art-x-fiz-2der">戸</wordref></etymology>
         <!--  in RC as 守手  -->
     </word>
     <word>
@@ -58,26 +58,26 @@
     <word>
         <form class="n" pronunciation="wasi">語字</form>
         <meaning xml:lang="en">name</meaning>
-        <etymology>from D1 <etymon xml:lang="art-x-fi-1der">語丼</etymon> with influence from <wordref xml:lang="art-x-fi-2der">本舌字</wordref> and <wordref xml:lang="art-x-fi-2der">例枚字</wordref>; from PL <etymon xml:lang="art-x-fiz-proto">uarím</etymon>, <mention>speech; word; language</mention>; ultimately from <etymon xml:lang="art-x-fiz-proto">rim</etymon>, <mention>speak; converse</mention></etymology>
+        <etymology>from D1 <etymon xml:lang="art-x-fiz-1der">語丼</etymon> with influence from <wordref xml:lang="art-x-fiz-2der">本舌字</wordref> and <wordref xml:lang="art-x-fiz-2der">例枚字</wordref>; from PL <etymon xml:lang="art-x-fzn-proto">uarím</etymon>, <mention>speech; word; language</mention>; ultimately from <etymon xml:lang="art-x-fzn-proto">rim</etymon>, <mention>speak; converse</mention></etymology>
         <!--  in RC as 吾字  -->
     </word>
     <word>
         <form class="inj" pronunciation="he">又</form>
         <meaning xml:lang="en">hey</meaning>
-        <etymology>from PL <etymon xml:lang="art-x-fiz-proto">e:</etymon></etymology>
+        <etymology>from PL <etymon xml:lang="art-x-fzn-proto">e:</etymon></etymology>
         <!--  in RC as SAME  -->
     </word>
     <word>
         <form class="inj" pronunciation="e:ro">水水口</form>
         <meaning xml:lang="en">hello (more formal)</meaning>
-        <etymology>from D1 <etymon xml:lang="art-x-fi-1der">泳泳友祝</etymon>, from PL <etymon xml:lang="art-x-fiz-proto">e:</etymon> + <etymon xml:lang="art-x-fiz-proto">róshu</etymon>, <mention>hey, look (who it is)</mention></etymology>
+        <etymology>from D1 <etymon xml:lang="art-x-fiz-1der">泳泳友祝</etymon>, from PL <etymon xml:lang="art-x-fzn-proto">e:</etymon> + <etymon xml:lang="art-x-fzn-proto">róshu</etymon>, <mention>hey, look (who it is)</mention></etymology>
         <!--  in RC as SAME  -->
     </word>
     <!--  DERIVED WORDS  -->
     <word>
         <form class="cla.n n" pronunciation="zi">字</form>
         <meaning xml:lang="en">character; glyph</meaning>
-        <etymology xml:lang="en">from <wordref xml:lang="art-x-fi-2der">本筆字</wordref> and <wordref xml:lang="art-x-fi-2der">例枚字</wordref></etymology>
+        <etymology xml:lang="en">from <wordref xml:lang="art-x-fiz-2der">本筆字</wordref> and <wordref xml:lang="art-x-fiz-2der">例枚字</wordref></etymology>
         <!--  in RC as SAME  -->
     </word>
 </lexis>

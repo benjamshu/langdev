@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="art-x-svi-xxxjl" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-jl-3ver" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">JÄSTŪGEI version III</meta>
     <meta name="description" xml:lang="en">Version III of JÄSTŪGEI expands the lexicon of the second_ No formal grammar was ever developed_</meta>
     <word>
         <form class="pron.dem">sō</form>
-        <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-svi-xxxjl">sā</mention> class of words, which refer to people and pronouns</etymology>
+        <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-jl-3ver">sā</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">this/that/they/you/i</meaning>
     </word>
     <word>
         <form class="n">say</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">sā</etymon>; in the <mention xml:lang="art-x-svi-xxxjl">sā</mention> class of words, which refer to people and pronouns</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">sā</etymon>; in the <mention xml:lang="art-x-jl-3ver">sā</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">animal</meaning>
     </word>
     <word>
         <form class="pron.pers.3">sē</form>
-        <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-svi-xxxjl">sā</mention> class of words, which refer to people and pronouns</etymology>
+        <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-jl-3ver">sā</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">he/she/they</meaning>
     </word>
     <word>
         <form class="pron.pers.2">sed</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">sē</etymon>; in the <mention xml:lang="art-x-svi-xxxjl">sā</mention> class of words, which refer to people and pronouns</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">sē</etymon>; in the <mention xml:lang="art-x-jl-3ver">sā</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">you</meaning>
     </word>
     <word>
         <form class="pron.pers.1">sī</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">sē</etymon>; in the <mention xml:lang="art-x-svi-xxxjl">sā</mention> class of words, which refer to people and pronouns</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">sē</etymon>; in the <mention xml:lang="art-x-jl-3ver">sā</mention> class of words, which refer to people and pronouns</etymology>
         <meaning xml:lang="en">me</meaning>
     </word>
     <word>
         <form class="excl">dō</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">do</etymon>; in the <mention xml:lang="art-x-svi-xxxjl">dō</mention> class of words, which refer to good things</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">do</etymon>; in the <mention xml:lang="art-x-jl-3ver">dō</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">yes</meaning>
     </word>
     <word>
         <form class="adj">dā</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">do</etymon>; in the <mention xml:lang="art-x-svi-xxxjl">dō</mention> class of words, which refer to good things</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">do</etymon>; in the <mention xml:lang="art-x-jl-3ver">dō</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">good</meaning>
     </word>
     <word>
         <form class="v">doi</form>
-        <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-svi-xxxjl">dō</mention> class of words, which refer to good things</etymology>
+        <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-jl-3ver">dō</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">go</meaning>
     </word>
     <word>
         <form class="n">dāsoi</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">do</etymon> + <etymon xml:lang="art-x-svi-xxxjl">sā</etymon> (literally, <mention>good animal</mention>); in the <mention xml:lang="art-x-svi-xxxjl">dō</mention> class of words, which refer to good things</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">do</etymon> + <etymon xml:lang="art-x-jl-2ver">sā</etymon> (literally, <mention>good animal</mention>); in the <mention xml:lang="art-x-jl-3ver">dō</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">food</meaning>
     </word>
     <word>
         <form class="adj">dahi</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">do</etymon>, with possible influence from III <wordref xml:lang="art-x-svi-xxxjl">ōhi</wordref>; in the <mention xml:lang="art-x-svi-xxxjl">dō</mention> class of words, which refer to good things</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">do</etymon>, with possible influence from III <wordref xml:lang="art-x-jl-3ver">ōhi</wordref>; in the <mention xml:lang="art-x-jl-3ver">dō</mention> class of words, which refer to good things</etymology>
         <meaning xml:lang="en">alive</meaning>
     </word>
     <word>
         <form class="excl">ta</form>
-        <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-svi-xxxjl">ta</mention> class of words, which refer to bad things</etymology>
+        <etymology xml:lang="en">from II; in the <mention xml:lang="art-x-jl-3ver">ta</mention> class of words, which refer to bad things</etymology>
         <meaning xml:lang="en">no</meaning>
     </word>
     <word>
         <form class="v">toi</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">ahtoi</etymon>; in the <mention xml:lang="art-x-svi-xxxjl">ta</mention> class of words, which refer to bad things</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">ahtoi</etymon>; in the <mention xml:lang="art-x-jl-3ver">ta</mention> class of words, which refer to bad things</etymology>
         <meaning xml:lang="en">stop</meaning>
     </word>
     <word>
         <form class="adj">tē</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">ta</etymon>; in the <mention xml:lang="art-x-svi-xxxjl">ta</mention> class of words, which refer to bad things</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">ta</etymon>; in the <mention xml:lang="art-x-jl-3ver">ta</mention> class of words, which refer to bad things</etymology>
         <meaning xml:lang="en">bad</meaning>
     </word>
     <word>
         <form class="adj">tehi</form>
-        <etymology xml:lang="en">from II <etymon xml:lang="art-x-svi-xxxjl">ta</etymon>, with possible influence from III <wordref xml:lang="art-x-svi-xxxjl">ōhi</wordref>; in the <mention xml:lang="art-x-svi-xxxjl">ta</mention> class of words, which refer to bad things</etymology>
+        <etymology xml:lang="en">from II <etymon xml:lang="art-x-jl-2ver">ta</etymon>, with possible influence from III <wordref xml:lang="art-x-jl-3ver">ōhi</wordref>; in the <mention xml:lang="art-x-jl-3ver">ta</mention> class of words, which refer to bad things</etymology>
         <meaning xml:lang="en">dead</meaning>
     </word>
     <word>

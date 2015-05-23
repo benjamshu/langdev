@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="art-x-svi-xxxjl" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-jl-5ver" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">JÄSTŪGEI version V</meta>
     <meta name="description" xml:lang="en">The fifth version of JÄSTŪGEI marks a significant expansion over the fourth, with pronunciations for the first time explicitly defined_ No formal grammar was ever developed_</meta>
     <word>
         <form class="n" pronunciation="hīahtsē">hiatsi</form>
-        <etymology>IV <etymon>daehi</etymon> + <etymon>datsi</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">daehi</etymon> + <etymon xml:lang="art-x-jtl-4ver">datsi</etymon></etymology>
         <meaning xml:lang="en">plant-foodstuffs</meaning>
     </word>
     <word>
         <form class="n" pronunciation="taudsē">taudsi</form>
-        <etymology>IV <etymon>tauhi</etymon> + <etymon>datsi</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">tauhi</etymon> + <etymon xml:lang="art-x-jtl-4ver">datsi</etymon></etymology>
         <meaning xml:lang="en">meat</meaning>
     </word>
     <word>
         <form class="n" pronunciation="dāsō">daeso</form>
-        <etymology>IV <etymon>dahso</etymon> &lt; <etymon>daehi</etymon> + <etymon>so</etymon>, <mention>lifestuff</mention></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">dahso</etymon> &lt; <etymon xml:lang="art-x-jtl-4ver">daehi</etymon> + <etymon xml:lang="art-x-jtl-4ver">so</etymon>, <mention>lifestuff</mention></etymology>
         <meaning xml:lang="en">water</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="dāhē">dahie</form>
-        <etymology>IV <etymon>daehi</etymon> &lt; <etymon>da</etymon> + <etymon>hie</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">daehi</etymon> &lt; <etymon xml:lang="art-x-jtl-4ver">da</etymon> + <etymon xml:lang="art-x-jtl-4ver">hie</etymon></etymology>
         <meaning xml:lang="en">alive; living</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="tauhē">tauhie</form>
-        <etymology>IV <etymon>tauhi</etymon> &lt; <etymon>tau</etymon> + <etymon>hie</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">tauhi</etymon> &lt; <etymon xml:lang="art-x-jtl-4ver">tau</etymon> + <etymon xml:lang="art-x-jtl-4ver">hie</etymon></etymology>
         <meaning xml:lang="en">dead</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="aūtē">autie</form>
-        <etymology>IV <etymon>taut</etymon> + <etymon>hie</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">taut</etymon> + <etymon xml:lang="art-x-jtl-4ver">hie</etymon></etymology>
         <meaning xml:lang="en">sick, injured</meaning>
     </word>
     <word>
         <form class="excl" pronunciation="dao">dao</form>
-        <etymology>IV <etymon>doh</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">doh</etymon></etymology>
         <meaning xml:lang="en">yes</meaning>
     </word>
     <word>
         <form class="v" pronunciation="dōt">dot</form>
-        <etymology>IV <etymon>doh</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">doh</etymon></etymology>
         <meaning xml:lang="en">is</meaning>
     </word>
     <word>
         <form class="adv" pronunciation="tū">tu</form>
-        <etymology>IV <etymon>tau</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">tau</etymon></etymology>
         <meaning xml:lang="en">no</meaning>
     </word>
     <word>
         <form class="excl" pronunciation="tū">tu</form>
-        <etymology>IV <etymon>tau</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">tau</etymon></etymology>
         <meaning xml:lang="en">no</meaning>
     </word>
     <word>
         <form class="v" pronunciation="tōhē">tohe</form>
-        <etymology>IV <etymon>tau</etymon> + <etymon>ohe</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">tau</etymon> + <etymon xml:lang="art-x-jtl-4ver">ohe</etymon></etymology>
         <meaning xml:lang="en">is not</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="dæt">daet</form>
-        <etymology>III <etymon>da</etymon></etymology>
+        <etymology>III <etymon xml:lang="art-x-jtl-3ver">da</etymon></etymology>
         <meaning xml:lang="en">good</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="tāt">tate</form>
-        <etymology>IV <etymon>taut</etymon>; <etymon>tau</etymon> + <etymon>daet</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">taut</etymon>; <etymon xml:lang="art-x-jtl-4ver">tau</etymon> + <etymon xml:lang="art-x-jtl-4ver">daet</etymon></etymology>
         <meaning xml:lang="en">bad</meaning>
     </word>
     <word>
         <form class="n pron.dem" pronunciation="sō">so</form>
-        <etymology>I <etymon>sa</etymon></etymology>
+        <etymology>I <etymon xml:lang="art-x-jtl-1ver">sa</etymon></etymology>
         <meaning xml:lang="en">this or that; an item</meaning>
     </word>
     <word>
         <form class="n" pronunciation="sæhē">saihe</form>
-        <etymology>IV <etymon>say</etymon> + <etymon>hie</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">say</etymon> + <etymon xml:lang="art-x-jtl-4ver">hie</etymon></etymology>
         <meaning xml:lang="en">animal</meaning>
     </word>
     <word>
         <form class="pron.pers.3.fem.sing" pronunciation="sæ">sae</form>
-        <etymology>IV <etymon>saed</etymon>; <etymon>se</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">saed</etymon>; <etymon xml:lang="art-x-jtl-4ver">se</etymon></etymology>
         <meaning xml:lang="en">she</meaning>
     </word>
     <word>
         <form class="pron.pers.3.masc.sing" pronunciation="sū">su</form>
-        <etymology>IV <etymon>saut</etymon>; <etymon>se</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">saut</etymon>; <etymon xml:lang="art-x-jtl-4ver">se</etymon></etymology>
         <meaning xml:lang="en">he</meaning>
     </word>
     <word>
         <form class="pron.pers.3.pl" pronunciation="sedt">sedt</form>
-        <etymology>IV <etymon>saed</etymon>; <etymon>saut</etymon>; <etymon>se</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">saed</etymon>; <etymon xml:lang="art-x-jtl-4ver">saut</etymon>; <etymon xml:lang="art-x-jtl-4ver">se</etymon></etymology>
         <meaning xml:lang="en">they</meaning>
     </word>
     <word>
         <form class="pron.pers.2" pronunciation="sēd">seed</form>
-        <etymology>IV <etymon>sed</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">sed</etymon></etymology>
         <meaning xml:lang="en">you</meaning>
     </word>
     <word>
         <form class="pron.pers.1" pronunciation="sī">sie</form>
-        <etymology>IV <etymon>si</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">si</etymon></etymology>
         <meaning xml:lang="en">me</meaning>
     </word>
     <word>
@@ -110,27 +110,27 @@
     </word>
     <word>
         <form class="adj" pronunciation="sūt">suet</form>
-        <etymology>IV <etymon>saut</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">saut</etymon></etymology>
         <meaning xml:lang="en">male</meaning>
     </word>
     <word>
         <form class="v" pronunciation="ō·wēh">o'weh</form>
-        <etymology>IV <etymon>ohe</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">ohe</etymon></etymology>
         <meaning xml:lang="en">do</meaning>
     </word>
     <word>
         <form class="v" pronunciation="dō">doe</form>
-        <etymology>IV <etymon>doh</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">doh</etymon></etymology>
         <meaning xml:lang="en">go</meaning>
     </word>
     <word>
         <form class="v" pronunciation="tō·hē">to'he</form>
-        <etymology>IV <etymon>to'e</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">to'e</etymon></etymology>
         <meaning xml:lang="en">stop</meaning>
     </word>
     <word>
         <form class="adv" pronunciation="dehō">deho</form>
-        <etymology>I <etymon>doi</etymon>; IV <etymon>ohe</etymon></etymology>
+        <etymology>I <etymon xml:lang="art-x-jtl-1ver">doi</etymon>; IV <etymon xml:lang="art-x-jtl-4ver">ohe</etymon></etymology>
         <meaning xml:lang="en">quickly</meaning>
     </word>
     <word>
@@ -145,27 +145,27 @@
     </word>
     <word>
         <form class="v" pronunciation="ōhdsō">ohdso</form>
-        <etymology>IV <etymon>odso</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">odso</etymon></etymology>
         <meaning xml:lang="en">drink</meaning>
     </word>
     <word>
         <form class="n" pronunciation="hē·ī">he'i</form>
-        <etymology>IV <etymon>hie</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">hie</etymon></etymology>
         <meaning xml:lang="en">life</meaning>
     </word>
     <word>
         <form class="n" pronunciation="tau·ī">tau'i</form>
-        <etymology>IV <etymon>tau</etymon> + <etymon>hie</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">tau</etymon> + <etymon xml:lang="art-x-jtl-4ver">hie</etymon></etymology>
         <meaning xml:lang="en">death</meaning>
     </word>
     <word>
         <form class="v" pronunciation="hōā">hoi</form>
-        <etymology>IV <etymon>hie</etymon> + <etymon>ohe</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">hie</etymon> + <etymon xml:lang="art-x-jtl-4ver">ohe</etymon></etymology>
         <meaning xml:lang="en">make</meaning>
     </word>
     <word>
         <form class="v" pronunciation="aūhē">auhi</form>
-        <etymology>IV <etymon>taut</etymon> + <etymon>ohe</etymon> + <etymon>hie</etymon></etymology>
+        <etymology>IV <etymon xml:lang="art-x-jtl-4ver">taut</etymon> + <etymon xml:lang="art-x-jtl-4ver">ohe</etymon> + <etymon xml:lang="art-x-jtl-4ver">hie</etymon></etymology>
         <meaning xml:lang="en">destroy</meaning>
     </word>
 </lexis>
