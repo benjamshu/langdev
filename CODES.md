@@ -33,7 +33,7 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 
 ####  jästūgei  ####
 
-- ~~`x-XX-jt` `x-jt` `x-jt-ancient` `qjt`~~ `art-x-jst` : JÄSTŪGEI (generic)
+- ~~`x-XX-jt` `x-jt` `qjt`~~ `art-x-jst` : JÄSTŪGEI (generic)
 - ~~`x-XX-jt` `x-jt` `x-jt-ancient` `qjt`~~ `art-x-jst-8ver` : JÄSTŪGĀ VIII
 - ~~`x-jt` `qjt`~~ `art-x-jst-9ver` : JÄSTŪGEI VIV
 
