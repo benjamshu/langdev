@@ -15,7 +15,7 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 - ~~`qlr`~~ `art-x-lrx-2ver` : LREX 2
 - ~~`qlr`~~ `art-x-lrx-3ver` : LREX 3
 - ~~`qlr`~~ `art-x-lrx-4ver` : LREX 4
-- ~~`qlr`~~ `art-x-lrx-5ver` : LREX 5
+- ~~`qlr`~~ `art-x-lrx-5ver` : LREX 5 [implied by `art-x-lrx`]
 - ~~`qlr`~~ `art-x-lrx-6ver` : LREX 6
 
 ###  jästūgei  ###
@@ -29,12 +29,12 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-4ver` : JĀSTULÆ IV
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-5ver` : JĀSTULÆ V
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-6ver` : JĀSTULÆ VI
-- ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-7ver` : JĀSTULÆ VII
+- ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-7ver` : JĀSTULÆ VII [implied by `art-x-jtl`]
 
 ####  jästūgei  ####
 
 - ~~`x-XX-jt` `x-jt` `qjt`~~ `art-x-jst` : JÄSTŪGEI (generic)
-- ~~`x-XX-jt` `x-jt` `x-jt-ancient` `qjt`~~ `art-x-jst-8ver` : JÄSTŪGĀ VIII
+- ~~`x-XX-jt` `x-jt` `x-jt-ancient` `qjt`~~ `art-x-jst-8ver` : JÄSTŪGĀ VIII [implied by `art-x-jst`]
 - ~~`x-jt` `qjt`~~ `art-x-jst-9ver` : JÄSTŪGEI VIV
 
 ###  e. hope  ###
@@ -43,16 +43,20 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 - ~~`qeh`~~ `art-x-eho-1ver` : E. HOPE □1
 - ~~`qeh`~~ `art-x-eho-2ver` : E. HOPE □2
 - ~~`qeh`~~ `art-x-eho-3ver` : E. HOPE □3
-- ~~`qeh`~~ `art-x-eho-4ver` : E. HOPE □4
+- ~~`qeh`~~ `art-x-eho-4ver` : E. HOPE □4 [implied by `art-x-eho`]
 
 ##  Fizonal:  ##
 
 - `art-x-fzn` : generic
 - ~~`qpt`~~ `art-x-fzn-proto` : PROTO-FIZONAL
-- ~~`qfi`~~ `art-x-fiz` : 斤丸舌 (final)
+
+###  斤丸舌  ###
+
+- ~~`qfi`~~ `art-x-fiz` : generic
 - ~~`qdi`~~ `art-x-fiz-1der` : FIRST-DERIVATIVE 斤丸舌
 - ~~`qdd`~~ `art-x-fiz-2der` : SECOND-DERIVATIVE 斤丸舌
 - ~~`qrc`~~ `art-x-fiz-release` : RELEASE-CANIDATE 斤丸舌
+- ~~`qfi`~~ `art-x-fiz-final` : FINAL 斤丸舌 [implied by `art-x-fiz`]
 
 ##  Fluîne:  ##
 
