@@ -68,5 +68,22 @@
     <meta name="splash" xml:lang="en">Extensible!</meta>
     <meta name="splash" xml:lang="en">Marked up!</meta>
     <meta name="splash" xml:lang="en">Language!</meta>
-
+    <word>
+        <form class="adj n">대핱소</form>
+        <etymology>jst-9ver</etymology>
+        <meaning class="adj" xml:lang="en">being a collector; sentimental</meaning>
+        <meaning class="n" xml:lang="en">a collector or gatherer of materials</meaning>
+    </word>
+    <word>
+        <form class="adj n">대탇</form>
+        <etymology>jst-9ver</etymology>
+        <meaning class="adj" xml:lang="en">friendly</meaning>
+        <meaning class="n" xml:lang="en">a friend</meaning>
+    </word>
+    <word>
+        <form class="adj n">앹</form>
+        <etymology>jst-9ver</etymology>
+        <meaning class="adj" xml:lang="en">having not had sexual intercourse</meaning>
+        <meaning class="n" xml:lang="en">a person who has not had sexual intercourse; a virgin</meaning>
+    </word>
 </lexis>
