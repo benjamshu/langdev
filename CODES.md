@@ -20,6 +20,10 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 
 ###  jästūgei  ###
 
+- ~~`x-XX-jt` `x-jt` `qjt`~~ `art-x-jst` : JÄSTŪGEI (generic)
+- ~~`x-XX-jt` `x-jt` `x-jt-ancient` `qjt`~~ `art-x-jst-8ver` : JÄSTŪGĀ VIII [implied by `art-x-jst`]
+- ~~`x-jt` `qjt`~~ `art-x-jst-9ver` : JÄSTŪGEI VIV
+
 ####  jāstulæ  ####
 
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl` : JĀSTULÆ I-VII (generic)
@@ -30,12 +34,6 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-5ver` : JĀSTULÆ V
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-6ver` : JĀSTULÆ VI
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-7ver` : JĀSTULÆ VII [implied by `art-x-jtl`]
-
-####  jästūgei  ####
-
-- ~~`x-XX-jt` `x-jt` `qjt`~~ `art-x-jst` : JÄSTŪGEI (generic)
-- ~~`x-XX-jt` `x-jt` `x-jt-ancient` `qjt`~~ `art-x-jst-8ver` : JÄSTŪGĀ VIII [implied by `art-x-jst`]
-- ~~`x-jt` `qjt`~~ `art-x-jst-9ver` : JÄSTŪGEI VIV
 
 ###  e. hope  ###
 
