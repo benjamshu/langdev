@@ -1,0 +1,2 @@
+*.lml linguist-language="xml"
+**/dev-materials/** linguist-documentation
