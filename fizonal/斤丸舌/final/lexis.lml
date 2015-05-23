@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="art-x-fiz" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-fiz-final" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title">斤丸舌</meta>
     <meta name="description" xml:lang="en">A collection of all release-candidate words in 斤丸舌</meta>
     <word>
@@ -11,7 +11,7 @@
     <word>
         <form class="n" pronunciation="hongsi">本舌字</form>
         <meaning xml:lang="en">lexical character</meaning>
-        <etymology xml:lang="en">D1 <etymon xml:lang="art-x-fiz-1der">本筆字</etymon>, from JAPANESE <etymon xml:lang="ja">漢字</etymon> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="art-x-fiz">字</wordref> was coined to preserve this old meaning</etymology>
+        <etymology xml:lang="en">D1 <etymon xml:lang="art-x-fiz-1der">本筆字</etymon>, from JAPANESE <etymon xml:lang="ja">漢字</etymon> (<mention xml:lang="ja-Latn">kanji</mention>), <mention>HAN character</mention>; originally, this word simply meant <mention>character</mention>, but it was later made to refer only to non-reserved lexical characters; <wordref xml:lang="art-x-fiz-final">字</wordref> was coined to preserve this old meaning</etymology>
     </word>
     <word>
         <form class="n cla.n" pronunciation="zi">字</form>
@@ -21,12 +21,12 @@
     <word>
         <form class="n" pronunciation="demasi">歹攵字</form>
         <meaning xml:lang="en">latin letter; latin lettering</meaning>
-        <etymology xml:lang="en">D1 <etymon xml:lang="art-x-fiz-1der">例枚字</etymon>, from ENGLISH <etymon>roman</etymon>, modelled after <wordref xml:lang="art-x-fiz-1der">honzi</wordref> with influence from JAPANESE <etymon xml:lang="ja">ローマ字</etymon> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
+        <etymology xml:lang="en">D1 <etymon xml:lang="art-x-fiz-1der">例枚字</etymon>, from ENGLISH <etymon>roman</etymon>, modelled after <etymon xml:lang="art-x-fiz-1der">本筆字</etymon> with influence from JAPANESE <etymon xml:lang="ja">ローマ字</etymon> (<mention xml:lang="ja-Latn">rōmaji</mention>), <mention>ROME character</mention></etymology>
     </word>
     <word>
         <form class="n" pronunciation="iryusi">云丨豆字</form>
         <meaning xml:lang="en">ideographic character; HAN character</meaning>
-        <etymology xml:lang="en">from ENGLISH <etymon>ideo-</etymon> (as in <mention>ideograph</mention>) + <wordref xml:lang="art-x-fiz-release">zi</wordref></etymology>
+        <etymology xml:lang="en">from ENGLISH <etymon>ideo-</etymon> (as in <mention>ideograph</mention>) + <wordref xml:lang="art-x-fiz-final">zi</wordref></etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="da, ra">日</form>
@@ -49,7 +49,7 @@
         <form class="v.cop.frm v.aux.frm" pronunciation="yu-nu">守手</form>
         <meaning xml:lang="en" form="v.cop.frm">polite copula</meaning>
         <meaning xml:lang="en" form="v.aux.frm">marks a statement as polite</meaning>
-        <etymology>from D1 <etymon xml:lang="art-x-fiz-1der">中台筆</etymon>, polite form of <etymon xml:lang="art-x-fiz-1der">台</etymon>; for more information, see <wordref xml:lang="art-x-fiz">戸</wordref></etymology>
+        <etymology>from D1 <etymon xml:lang="art-x-fiz-1der">中台筆</etymon>, polite form of <etymon xml:lang="art-x-fiz-1der">台</etymon>; for more information, see <wordref xml:lang="art-x-fiz-final">戸</wordref></etymology>
     </word>
     <word>
         <form class="post adv" pronunciation="u">卜</form>
