@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="art-x-svi-xxxjl" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-jl-1ver" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">JÄSTŪGEI version I</meta>
     <meta name="description" xml:lang="en">The first version of JÄSTŪGEI contained only three words: a generic pro-form, <mention>stop</mention> (also, <mention>no</mention>), and <mention>go</mention> (also, <mention>yes</mention>)_ No formal grammar was ever developed_</meta>
     <word>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE lexis>
-<lexis xml:lang="art-x-svi-lrexx" xmlns="http://leaf.faint.xyz/lexisml">
+<lexis xml:lang="art-x-lrx-5ver" xmlns="http://leaf.faint.xyz/lexisml">
     <meta name="title" xml:lang="en">LREX version 5</meta>
     <meta name="description" xml:lang="en">The fifth version of the lrex language (one of THE 7C LANGUAGES)_</meta>
     <word>
@@ -9,17 +9,17 @@
     </word>
     <word>
         <form class="adj" pronunciation="äl+hǽ">alhǽ</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">aln</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">aln</wordref></etymology>
         <meaning xml:lang="en">pleasant</meaning>
     </word>
     <word>
         <form class="pron" pronunciation="äl+wā">alwei</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">aln</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">aln</wordref></etymology>
         <meaning xml:lang="en">something</meaning>
     </word>
     <word>
         <form class="adv" pronunciation="älht">alht</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">aln</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">aln</wordref></etymology>
         <meaning xml:lang="en">moderately</meaning>
     </word>
     <word>
@@ -32,12 +32,12 @@
     </word>
     <word>
         <form class="adj" pronunciation="hō+wǽ·ə">hohwǽ'uh</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">hoin</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">hoin</wordref></etymology>
         <meaning xml:lang="en">calm</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="hœ+ten">hoiten</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">hoin</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">hoin</wordref></etymology>
         <meaning xml:lang="en">relaxing</meaning>
     </word>
     <word>
@@ -46,22 +46,22 @@
     </word>
     <word>
         <form class="adj" pronunciation="eln+hǽ">elnhǽ</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">ee</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">ee</wordref></etymology>
         <meaning xml:lang="en">great</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="eln+hœ">elnhoi</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">ee</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">ee</wordref></etymology>
         <meaning xml:lang="en">peaceful</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="eln+hən">elnhun</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">ee</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">ee</wordref></etymology>
         <meaning xml:lang="en">horrible</meaning>
     </word>
     <word>
         <form class="adj" pronunciation="eln+yīh">elnyih</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">ee</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">ee</wordref></etymology>
         <meaning xml:lang="en">very frightening</meaning>
     </word>
     <word>
@@ -74,12 +74,12 @@
     </word>
     <word>
         <form class="v" pronunciation="kœ+whǽ">koewhǽ</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">koen</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">koen</wordref></etymology>
         <meaning xml:lang="en">stop/wait</meaning>
     </word>
     <word>
         <form class="v" pronunciation="kœ+tə">koeta</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">koen</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">koen</wordref></etymology>
         <meaning xml:lang="en">quit</meaning>
     </word>
     <word>
@@ -88,7 +88,7 @@
     </word>
     <word>
         <form class="v" pronunciation="täh+ǽ">tehǽ</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">tawen</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">tawen</wordref></etymology>
         <meaning xml:lang="en">go</meaning>
     </word>
     <word>
@@ -97,7 +97,7 @@
     </word>
     <word>
         <form class="adj" pronunciation="wäh+nā">wahnei</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">wah</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">wah</wordref></etymology>
         <meaning xml:lang="en">surprising</meaning>
     </word>
     <word>
@@ -106,7 +106,7 @@
     </word>
     <word>
         <form class="v" pronunciation="rā+whǽ">raewhǽ</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">rie</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">rie</wordref></etymology>
         <meaning xml:lang="en">shoo</meaning>
     </word>
     <word>
@@ -119,17 +119,17 @@
     </word>
     <word>
         <form class="pron.pers.2" pronunciation="ō+nō">ono</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">ohn</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">ohn</wordref></etymology>
         <meaning xml:lang="en">you</meaning>
     </word>
     <word>
         <form class="pron.pers.1.sing" pronunciation="ʒō">jo</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">ohn</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">ohn</wordref></etymology>
         <meaning xml:lang="en">me/i</meaning>
     </word>
     <word>
         <form class="pron.pers.3" pronunciation="ōhn+wā">ohnwei</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">ohn</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">ohn</wordref></etymology>
         <meaning xml:lang="en">they/he/she</meaning>
     </word>
     <word>
@@ -142,7 +142,7 @@
     </word>
     <word>
         <form class="v" pronunciation="sǽ+kōn">sǽkon</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">sǽna</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">sǽna</wordref></etymology>
         <meaning xml:lang="en">are/is not</meaning>
     </word>
     <word>
@@ -151,12 +151,12 @@
     </word>
     <word>
         <form class="v adj" pronunciation="tē+wǽn">teewǽn</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">teen</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">teen</wordref></etymology>
         <meaning xml:lang="en">live/alive</meaning>
     </word>
     <word>
         <form class="v adj" pronunciation="tā+kō+wǽn">tekowǽn</form>
-        <etymology xml:lang="en">related to <wordref xml:lang="art-x-svi-lrexx">teen</wordref></etymology>
+        <etymology xml:lang="en">related to <wordref xml:lang="art-x-lrx-5ver">teen</wordref></etymology>
         <meaning xml:lang="en">die/dead</meaning>
     </word>
 </lexis>
