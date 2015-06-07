@@ -1,4 +1,4 @@
-# LANGDEV #
+# The LANGDEV Project #
 
 GitHub repo for all language development by [@literallybenjam](http://twitter.com/literallybenjam).
 Top-level folders are for language families; you can find out more information by clicking on them.
