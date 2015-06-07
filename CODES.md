@@ -56,6 +56,10 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 - ~~`qrc`~~ `art-x-fiz-release` : RELEASE-CANIDATE 斤丸舌
 - ~~`qfi`~~ `art-x-fiz-final` : FINAL 斤丸舌 [implied by `art-x-fiz`]
 
+###  2dev  ###
+
+- `art-x-fzn-x-2dev` : FIZONAL SECOND-IN-DEVELOPMENT
+
 ##  Fluîne:  ##
 
 - `art-x-flu` : generic
