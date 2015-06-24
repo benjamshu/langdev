@@ -24,7 +24,7 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 - ~~`x-XX-jt` `x-jt` `x-jt-ancient` `qjt`~~ `art-x-jst-8ver` : JÄSTŪGĀ VIII [implied by `art-x-jst`]
 - ~~`x-jt` `qjt`~~ `art-x-jst-9ver` : JÄSTŪGEI VIV
 
-####  jāstulæ  ####
+####  jāstulæ (proto-jästūgei)  ####
 
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl` : JĀSTULÆ I-VII (generic)
 - ~~`x-XX-jl` `x-jl` `x-jt-proto` `qjl`~~ `art-x-jtl-1ver` : JĀSTULÆ I
