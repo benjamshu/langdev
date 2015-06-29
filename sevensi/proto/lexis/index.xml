@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE lexis>
-<lexis xml:lang="art-x-svi-proto" xmlns="http://leaf.faint.xyz/lexisml">
-    <meta name="title" xml:lang="en">proto-sevensi</meta>
-    <meta name="description" xml:lang="en">PROTO-SEVENSI is derived from a collection of independent languages developed between 2009 and 2012.</meta>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-proto">
+
+    <!--  METADATA  -->
+    <meta type="title" xml:lang="en">PROTO-SEVENSI</meta>
+    <meta type="description" xml:lang="en">PROTO-SEVENSI is derived from a collection of independent languages developed between 2009 and 2012.</meta>
     <meta name="splash" xml:lang="en">Official Dictionary!</meta>
     <meta name="splash" xml:lang="en">It's Awesome!</meta>
     <meta name="splash" xml:lang="en">I'm sorry…</meta>
@@ -68,22 +69,10 @@
     <meta name="splash" xml:lang="en">Extensible!</meta>
     <meta name="splash" xml:lang="en">Marked up!</meta>
     <meta name="splash" xml:lang="en">Language!</meta>
-    <word>
-        <form class="adj n">대핱소</form>
-        <etymology>jst-9ver</etymology>
-        <meaning class="adj" xml:lang="en">being a collector; sentimental</meaning>
-        <meaning class="n" xml:lang="en">a collector or gatherer of materials</meaning>
-    </word>
-    <word>
-        <form class="adj n">대탇</form>
-        <etymology>jst-9ver</etymology>
-        <meaning class="adj" xml:lang="en">friendly</meaning>
-        <meaning class="n" xml:lang="en">a friend</meaning>
-    </word>
-    <word>
-        <form class="adj n">앹</form>
-        <etymology>jst-9ver</etymology>
-        <meaning class="adj" xml:lang="en">having not had sexual intercourse</meaning>
-        <meaning class="n" xml:lang="en">a person who has not had sexual intercourse; a virgin</meaning>
-    </word>
+
+    <!--  ENTRIES  -->
+    <item lemma="대핱소" src="words/대핱소.xml"/>
+    <item lemma="대탇" src="words/대탇.xml"/>
+    <item lemma="앹" src="words/앹.xml"/>
+
 </lexis>
