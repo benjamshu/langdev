@@ -1,5 +1,7 @@
 # CHARACTERS IN USE
 
+See also [ZIKODU](../encoding) for a more organized list.
+
 ## special characters
 
 | double | palat. | iter8n |   -n   |   -s   |
