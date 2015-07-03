@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-release">
+    <lemma>氏羊</lemma>
+    <pron>yos</pron>
+    <entry>
+        <etymology xml:lang="en">from D2 <html:i xml:lang="art-x-fiz-2der">艮毛</html:i> + <html:i xml:lang="art-x-fiz-2der">干</html:i></etymology>
+        <section>
+            <heading xml:lang="en">classifier</heading>
+            <def xml:lang="en">first-person classifier</def>
+        </section>
+    </entry>
+</word>
