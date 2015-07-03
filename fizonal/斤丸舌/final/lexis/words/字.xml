@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-final">
+    <lemma>字</lemma>
+    <pron>zi</pron>
+    <entry>
+        <etymology xml:lang="en">from D2 <html:i xml:lang="art-x-fiz-2der">本筆字</html:i>, <html:i>lexical character</html:i>, and <html:i xml:lang="art-x-fiz-2der">例枚字</html:i>, <html:i>latin character</html:i></etymology>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">character; glyph</def>
+        </section>
+    </entry>
+</word>
