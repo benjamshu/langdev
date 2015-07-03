@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-final">
+    <lemma>斤丸舌</lemma>
+    <pron>fizeng</pron>
+    <entry>
+        <etymology xml:lang="en">D1 <html:i xml:lang="art-x-fiz-1der">新執筆</html:i>, from english <html:i>fiction</html:i></etymology>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">THE LANGUAGE</def>
+        </section>
+    </entry>
+</word>
