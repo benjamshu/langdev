@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-release">
+    <lemma>云丨豆字</lemma>
+    <pron>iryusi</pron>
+    <entry>
+        <etymology xml:lang="en">from ENGLISH <html:i>ideo-</html:i> (as in <html:i>ideograph</html:i>) + <html:a href="字.xml"><html:i xml:lang="art-x-fiz-release">字</html:i></html:a></etymology>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">ideographic character; HAN character</def>
+        </section>
+    </entry>
+</word>
