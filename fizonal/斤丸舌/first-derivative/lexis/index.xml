@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-proto">
+
+    <!--  METADATA  -->
+    <meta name="title" xml:lang="en">D1</meta>
+    <meta name="description" xml:lang="en">A lexicon for the first derivative of THE LANGUAGE. Only irregular conjugations are recorded.</meta>
+
+    <!--  ENTRIES  -->
+    <item lemma="新執筆" src="words/新執筆.xml"/>
+    <item lemma="本筆字" src="words/本筆字.xml"/>
+    <item lemma="例枚字" src="words/例枚字.xml"/>
+    <item lemma="遅文" src="words/遅文.xml"/>
+    <item lemma="中牧小" src="words/中牧小.xml"/>
+    <item lemma="-侍" src="words/-侍.xml"/>
+    <item lemma="台丘車" src="words/台丘車.xml"/>
+    <item lemma="毬末帝" src="words/毬末帝.xml"/>
+    <item lemma="斉永効文" src="words/斉永効文.xml"/>
+    <item lemma="食" src="words/食.xml"/>
+    <item lemma="点抜" src="words/点抜.xml"/>
+    <item lemma="徒羊台" src="words/徒羊台.xml"/>
+    <item lemma="語丼" src="words/語丼.xml"/>
+    <item lemma="畏" src="words/畏.xml"/>
+    <item lemma="泳泳友祝" src="words/泳泳友祝.xml"/>
+    <item lemma="台丘侍" src="words/台丘侍.xml"/>
+    <item lemma="台" src="words/台.xml"/>
+
+</lexis>

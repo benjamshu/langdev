@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-proto">
+    <lemma>台丘侍</lemma>
+    <pron>tukudi</pron>
+    <entry>
+        <etymology xml:lang="en"><html:a href="台丘車.xml"><html:i xml:lang="art-x-fiz-1der">台丘車</html:i></html:a> + <html:a href="-侍.xml"><html:i xml:lang="art-x-fiz-1der">-侍</html:i></html:a>, with the sense <html:i>one who stands (by)</html:i></etymology>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">aide; waiter; assistaint</def>
+        </section>
+    </entry>
+</word>
+<!--  in D2 as 丘侍  -->
