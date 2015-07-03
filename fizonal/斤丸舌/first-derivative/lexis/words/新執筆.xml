@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-proto">
+    <lemma>新執筆</lemma>
+    <pron>fisen</pron>
+    <entry>
+        <etymology xml:lang="en">from english <html:i>fiction</html:i></etymology>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">THE LANGUAGE</def>
+        </section>
+    </entry>
+</word>
+<!--  in D2 as 新執舌  -->

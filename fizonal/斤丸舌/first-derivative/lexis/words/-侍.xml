@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-proto">
+    <lemma>-侍</lemma>
+    <pron>-di</pron>
+    <entry>
+        <etymology xml:lang="en">from PL <html:i xml:lang="art-x-fzn-proto">-ri</html:i>; became <html:i xml:lang="art-x-fzn-proto">-ti</html:i> after stressed syllables and <html:i xml:lang="art-x-fzn-proto">-di</html:i> otherwise; this was later codified as <html:a xml:lang="art-x-fiz-1der" href="-侍.xml">-侍</html:a> in most instances.</etymology>
+        <section>
+            <heading xml:lang="en">affix</heading>
+            <def xml:lang="en">forms animate agent nouns</def>
+        </section>
+    </entry>
+</word>
