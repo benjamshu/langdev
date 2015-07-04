@@ -2,8 +2,8 @@
 <lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-2der">
 
     <!--  METADATA  -->
-    <meta name="title" xml:lang="en">D1</meta>
-    <meta name="description" xml:lang="en">A lexicon for the second derivative of THE LANGUAGE</meta>
+    <meta type="title" xml:lang="en">D1</meta>
+    <meta type="description" xml:lang="en">A lexicon for the second derivative of THE LANGUAGE</meta>
 
     <!--  ENTRIES  -->
     <item lemma="新執舌" src="words/新執舌.xml"/>

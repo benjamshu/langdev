@@ -2,8 +2,8 @@
 <lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-1der">
 
     <!--  METADATA  -->
-    <meta name="title" xml:lang="en">D1</meta>
-    <meta name="description" xml:lang="en">A lexicon for the first derivative of THE LANGUAGE. Only irregular conjugations are recorded.</meta>
+    <meta type="title" xml:lang="en">D1</meta>
+    <meta type="description" xml:lang="en">A lexicon for the first derivative of THE LANGUAGE. Only irregular conjugations are recorded.</meta>
 
     <!--  ENTRIES  -->
     <item lemma="新執筆" src="words/新執筆.xml"/>
