@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-2der">
+    <lemma>例枚字</lemma>
+    <pron>demasi</pron>
+    <entry>
+        <etymology xml:lang="en">from ENGLISH <html:i>roman</html:i>, modelled after D1 <html:i xml:lang="art-x-fiz-1der">honzi</html:i> with influence from JAPANESE <html:i xml:lang="ja">ローマ字</html:i> (<html:i xml:lang="ja-Latn">rōmaji</html:i>), <html:i>ROME character</html:i></etymology>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">latin letter; latin lettering</def>
+        </section>
+    </entry>
+</word>
+<!--  in RC as 歹攵字  -->
