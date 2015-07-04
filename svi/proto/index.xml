@@ -4,73 +4,73 @@
     <!--  METADATA  -->
     <meta type="title" xml:lang="en">PROTO-SEVENSI</meta>
     <meta type="description" xml:lang="en">PROTO-SEVENSI is derived from a collection of independent languages developed between 2009 and 2012.</meta>
-    <meta name="splash" xml:lang="en">Official Dictionary!</meta>
-    <meta name="splash" xml:lang="en">It's Awesome!</meta>
-    <meta name="splash" xml:lang="en">I'm sorry…</meta>
-    <meta name="splash" xml:lang="en">My word!</meta>
-    <meta name="splash" xml:lang="en">Unicode!</meta>
-    <meta name="splash" xml:lang="en">Constantly growing!</meta>
-    <meta name="splash" xml:lang="en">Now organic!</meta>
-    <meta name="splash" xml:lang="en">Derive this!</meta>
-    <meta name="splash" xml:lang="en">y'</meta>
-    <meta name="splash" xml:lang="en">Something different!</meta>
-    <meta name="splash" xml:lang="en">Thank you!</meta>
-    <meta name="splash" xml:lang="en">Not my fault!</meta>
-    <meta name="splash" xml:lang="en">Safe!</meta>
-    <meta name="splash" xml:lang="en">Refreshing!</meta>
-    <meta name="splash" xml:lang="en">What's this?</meta>
-    <meta name="splash" xml:lang="en">Sevensi is evolving!</meta>
-    <meta name="splash" xml:lang="en">ECHO!</meta>
-    <meta name="splash" xml:lang="en">…echo…</meta>
-    <meta name="splash" xml:lang="en">Look inside!</meta>
-    <meta name="splash" xml:lang="en">Learn it!</meta>
-    <meta name="splash" xml:lang="en">Synergy!</meta>
-    <meta name="splash" xml:lang="en">Not parasitic!</meta>
-    <meta name="splash" xml:lang="en">Symbiotic!</meta>
-    <meta name="splash" xml:lang="en">Non-toxic!</meta>
-    <meta name="splash" xml:lang="en">Fancy!</meta>
-    <meta name="splash" xml:lang="en">Animated!</meta>
-    <meta name="splash" xml:lang="en">Hid</meta>
-    <meta name="splash" xml:lang="en">den</meta>
-    <meta name="splash" xml:lang="en">Mess</meta>
-    <meta name="splash" xml:lang="en">age!</meta>
-    <meta name="splash" xml:lang="en">With taste!</meta>
-    <meta name="splash" xml:lang="en">Sounds good!</meta>
-    <meta name="splash" xml:lang="en">Emotional!</meta>
-    <meta name="splash" xml:lang="en">Abstract!</meta>
-    <meta name="splash" xml:lang="en">Not mouldy!</meta>
-    <meta name="splash" xml:lang="en">It's time!</meta>
-    <meta name="splash" xml:lang="en">Count me in!</meta>
-    <meta name="splash" xml:lang="en">You animal!</meta>
-    <meta name="splash" xml:lang="en">A tool!</meta>
-    <meta name="splash" xml:lang="en">Pretty!</meta>
-    <meta name="splash" xml:lang="en">Musical!</meta>
-    <meta name="splash" xml:lang="en">Building!</meta>
-    <meta name="splash" xml:lang="en">A work of art!</meta>
-    <meta name="splash" xml:lang="en">Yes!</meta>
-    <meta name="splash" xml:lang="en">Modified!</meta>
-    <meta name="splash" xml:lang="en">Action!</meta>
-    <meta name="splash" xml:lang="en">β!</meta>
-    <meta name="splash" xml:lang="en">Together!</meta>
-    <meta name="splash" xml:lang="en">Vulgar!</meta>
-    <meta name="splash" xml:lang="en">Not Roman!</meta>
-    <meta name="splash" xml:lang="en">Moving!</meta>
-    <meta name="splash" xml:lang="en">Detailed!</meta>
-    <meta name="splash" xml:lang="en">Spiritual!</meta>
-    <meta name="splash" xml:lang="en">New and Improved!</meta>
-    <meta name="splash" xml:lang="en">With class!</meta>
-    <meta name="splash" xml:lang="en">Scripted!</meta>
-    <meta name="splash" xml:lang="en">In line!</meta>
-    <meta name="splash" xml:lang="en">Splash!</meta>
-    <meta name="splash" xml:lang="en">Compact!</meta>
-    <meta name="splash" xml:lang="en">Portable!</meta>
-    <meta name="splash" xml:lang="en">New!</meta>
-    <meta name="splash" xml:lang="en">Redux!</meta>
-    <meta name="splash" xml:lang="en">Extensible!</meta>
-    <meta name="splash" xml:lang="en">Marked up!</meta>
-    <meta name="splash" xml:lang="en">Language!</meta>
-    <meta name="splash" xml:lang="en">Tagged!</meta>
-    <meta name="splash" xml:lang="en">Sourced!</meta>
+    <meta type="splash" xml:lang="en">Official Dictionary!</meta>
+    <meta type="splash" xml:lang="en">It's Awesome!</meta>
+    <meta type="splash" xml:lang="en">I'm sorry…</meta>
+    <meta type="splash" xml:lang="en">My word!</meta>
+    <meta type="splash" xml:lang="en">Unicode!</meta>
+    <meta type="splash" xml:lang="en">Constantly growing!</meta>
+    <meta type="splash" xml:lang="en">Now organic!</meta>
+    <meta type="splash" xml:lang="en">Derive this!</meta>
+    <meta type="splash" xml:lang="en">y'</meta>
+    <meta type="splash" xml:lang="en">Something different!</meta>
+    <meta type="splash" xml:lang="en">Thank you!</meta>
+    <meta type="splash" xml:lang="en">Not my fault!</meta>
+    <meta type="splash" xml:lang="en">Safe!</meta>
+    <meta type="splash" xml:lang="en">Refreshing!</meta>
+    <meta type="splash" xml:lang="en">What's this?</meta>
+    <meta type="splash" xml:lang="en">Sevensi is evolving!</meta>
+    <meta type="splash" xml:lang="en">ECHO!</meta>
+    <meta type="splash" xml:lang="en">…echo…</meta>
+    <meta type="splash" xml:lang="en">Look inside!</meta>
+    <meta type="splash" xml:lang="en">Learn it!</meta>
+    <meta type="splash" xml:lang="en">Synergy!</meta>
+    <meta type="splash" xml:lang="en">Not parasitic!</meta>
+    <meta type="splash" xml:lang="en">Symbiotic!</meta>
+    <meta type="splash" xml:lang="en">Non-toxic!</meta>
+    <meta type="splash" xml:lang="en">Fancy!</meta>
+    <meta type="splash" xml:lang="en">Animated!</meta>
+    <meta type="splash" xml:lang="en">Hid</meta>
+    <meta type="splash" xml:lang="en">den</meta>
+    <meta type="splash" xml:lang="en">Mess</meta>
+    <meta type="splash" xml:lang="en">age!</meta>
+    <meta type="splash" xml:lang="en">With taste!</meta>
+    <meta type="splash" xml:lang="en">Sounds good!</meta>
+    <meta type="splash" xml:lang="en">Emotional!</meta>
+    <meta type="splash" xml:lang="en">Abstract!</meta>
+    <meta type="splash" xml:lang="en">Not mouldy!</meta>
+    <meta type="splash" xml:lang="en">It's time!</meta>
+    <meta type="splash" xml:lang="en">Count me in!</meta>
+    <meta type="splash" xml:lang="en">You animal!</meta>
+    <meta type="splash" xml:lang="en">A tool!</meta>
+    <meta type="splash" xml:lang="en">Pretty!</meta>
+    <meta type="splash" xml:lang="en">Musical!</meta>
+    <meta type="splash" xml:lang="en">Building!</meta>
+    <meta type="splash" xml:lang="en">A work of art!</meta>
+    <meta type="splash" xml:lang="en">Yes!</meta>
+    <meta type="splash" xml:lang="en">Modified!</meta>
+    <meta type="splash" xml:lang="en">Action!</meta>
+    <meta type="splash" xml:lang="en">β!</meta>
+    <meta type="splash" xml:lang="en">Together!</meta>
+    <meta type="splash" xml:lang="en">Vulgar!</meta>
+    <meta type="splash" xml:lang="en">Not Roman!</meta>
+    <meta type="splash" xml:lang="en">Moving!</meta>
+    <meta type="splash" xml:lang="en">Detailed!</meta>
+    <meta type="splash" xml:lang="en">Spiritual!</meta>
+    <meta type="splash" xml:lang="en">New and Improved!</meta>
+    <meta type="splash" xml:lang="en">With class!</meta>
+    <meta type="splash" xml:lang="en">Scripted!</meta>
+    <meta type="splash" xml:lang="en">In line!</meta>
+    <meta type="splash" xml:lang="en">Splash!</meta>
+    <meta type="splash" xml:lang="en">Compact!</meta>
+    <meta type="splash" xml:lang="en">Portable!</meta>
+    <meta type="splash" xml:lang="en">New!</meta>
+    <meta type="splash" xml:lang="en">Redux!</meta>
+    <meta type="splash" xml:lang="en">Extensible!</meta>
+    <meta type="splash" xml:lang="en">Marked up!</meta>
+    <meta type="splash" xml:lang="en">Language!</meta>
+    <meta type="splash" xml:lang="en">Tagged!</meta>
+    <meta type="splash" xml:lang="en">Sourced!</meta>
 
     <!--  TAGS  -->
 
