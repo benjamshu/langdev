@@ -69,26 +69,101 @@
     <meta name="splash" xml:lang="en">Extensible!</meta>
     <meta name="splash" xml:lang="en">Marked up!</meta>
     <meta name="splash" xml:lang="en">Language!</meta>
+    <meta name="splash" xml:lang="en">Tagged!</meta>
+    <meta name="splash" xml:lang="en">Sourced!</meta>
+
+    <!--  TAGS  -->
+
+    <!--  Source tracking: -->
+
+    <taggroup name="Source">
+        <tag xml:lang="en" value="lrx-1ver">Lrex 1</tag>
+        <tag xml:lang="en" value="lrx-2ver">Lrex 2</tag>
+        <tag xml:lang="en" value="lrx-3ver">Lrex 3</tag>
+        <tag xml:lang="en" value="lrx-4ver">Lrex 4</tag>
+        <tag xml:lang="en" value="lrx-5ver">Lrex 5</tag>
+        <tag xml:lang="en" value="lrx-6ver">Lrex 6</tag>
+        <tag xml:lang="en" value="jtl-1ver">Jāstulæ I</tag>
+        <tag xml:lang="en" value="jtl-2ver">Jāstulæ II</tag>
+        <tag xml:lang="en" value="jtl-3ver">Jāstulæ III</tag>
+        <tag xml:lang="en" value="jtl-4ver">Jāstulæ IV</tag>
+        <tag xml:lang="en" value="jtl-5ver">Jāstulæ V</tag>
+        <tag xml:lang="en" value="jtl-6ver">Jāstulæ VI</tag>
+        <tag xml:lang="en" value="jtl-7ver">Jāstulæ VII</tag>
+        <tag xml:lang="en" value="jst-8ver">Jästūgay VIII</tag>
+        <tag xml:lang="en" value="jst-9ver">Jästūgei VIV</tag>
+        <tag xml:lang="en" value="eho-1ver">□ 1</tag>
+        <tag xml:lang="en" value="eho-2ver">□ 2</tag>
+        <tag xml:lang="en" value="eho-3ver">□ 3</tag>
+        <tag xml:lang="en" value="eho-4ver">□ 4</tag>
+    </taggroup>
+
+    <!--  From jst-8ver:  -->
+    <taggroup name="Nouns/Adjectives">
+        <tag xml:lang="en" value="ppl">People</tag>
+        <tag xml:lang="en" value="body">Body parts</tag>
+        <tag xml:lang="en" value="clothing">Clothing</tag>
+        <tag xml:lang="en" value="biorhythms">Biorhythms</tag>
+        <tag xml:lang="en" value="sight">Sight</tag>
+        <tag xml:lang="en" value="touch">Touch</tag>
+        <tag xml:lang="en" value="taste">Taste</tag>
+        <tag xml:lang="en" value="smell">Smell</tag>
+        <tag xml:lang="en" value="hearing">Hearing</tag>
+        <tag xml:lang="en" value="emotn">Emotions and feelings</tag>
+        <tag xml:lang="en" value="life">Life and death</tag>
+        <tag xml:lang="en" value="abstracts">Abstracts</tag>
+        <tag xml:lang="en" value="lang">Language</tag>
+        <tag xml:lang="en" value="time">Time</tag>
+        <tag xml:lang="en" value="numbers">Numbers</tag>
+        <tag xml:lang="en" value="submat">Substances/materials</tag>
+        <tag xml:lang="en" value="easky">Earth and sky</tag>
+        <tag xml:lang="en" value="natoc">Natural occurances</tag>
+        <tag xml:lang="en" value="names">Names</tag>
+        <tag xml:lang="en" value="qualcon">Qualities and conditions</tag>
+        <tag xml:lang="en" value="locn">Location</tag>
+        <tag xml:lang="en" value="pron">Pronouns</tag>
+        <tag xml:lang="en" value="face">Facial expressions</tag>
+        <tag xml:lang="en" value="anim">Animals</tag>
+        <tag xml:lang="en" value="plant">Plants</tag>
+        <tag xml:lang="en" value="food">Food and drink</tag>
+        <tag xml:lang="en" value="tool">Tools</tag>
+        <tag xml:lang="en" value="jwlry">Jewelry</tag>
+        <tag xml:lang="en" value="inst">Instruments</tag>
+        <tag xml:lang="en" value="build">Buildings and structures</tag>
+        <tag xml:lang="en" value="dist">Distance and measure</tag>
+        <tag xml:lang="en" value="art">Art and culture</tag>
+    </taggroup>
+    <taggroup name="Grammatical words">
+        <tag xml:lang="en" value="yn">Yes and no</tag>
+        <tag xml:lang="en" value="conj">Conjunctions</tag>
+        <tag xml:lang="en" value="fix">Affixes</tag>
+        <tag xml:lang="en" value="tense">Tense markers</tag>
+        <tag xml:lang="en" value="mood">Modal markers</tag>
+        <tag xml:lang="en" value="article">Articles</tag>
+        <tag xml:lang="en" value="intrj">Interjections</tag>
+        <tag xml:lang="en" value="postp">Postpositions</tag>
+    </taggroup>
+    <tag xml:lang="en" value="verb">Verbs</tag>
 
     <!--  ENTRIES  -->
-    <item lemma="대핱소" src="words/대핱소.xml"/>
-    <item lemma="대탇" src="words/대탇.xml"/>
-    <item lemma="앹" src="words/앹.xml"/>
-    <item lemma="테매엔" src="words/테매엔.xml"/>
-    <item lemma="미타매" src="words/미타매.xml"/>
-    <item lemma="미구" src="words/미구.xml"/>
-    <item lemma="테고" src="words/테고.xml"/>
-    <item lemma="앋채" src="words/앋채.xml"/>
-    <item lemma="처텐" src="words/처텐.xml"/>
-    <item lemma="엔처" src="words/엔처.xml"/>
-    <item lemma="거태" src="words/거태.xml"/>
-    <item lemma="마내" src="words/마내.xml"/>
-    <item lemma="엍" src="words/엍.xml"/>
-    <item lemma="온" src="words/온.xml"/>
-    <item lemma="도고탣" src="words/도고탣.xml"/>
-    <item lemma="도마투" src="words/도마투.xml"/>
-    <item lemma="핱띠" src="words/핱띠.xml"/>
-    <item lemma="호도마" src="words/호도마.xml"/>
-    <item lemma="잣투개" src="words/잣투개.xml"/>
+    <item src="words/대핱소.xml" tag="jst-9ver, ppl, qualcon">대핱소</item>
+    <item src="words/대탇.xml" tag="jst-9ver, ppl, qualcon">대탇</item>
+    <item src="words/앹.xml" tag="jst-9ver, ppl">앹</item>
+    <item src="words/테매엔.xml" tag="lrx-6ver, life">테매엔</item>
+    <item src="words/미타매.xml" tag="lrx-6ver, food">미타매</item>
+    <item src="words/미구.xml" tag="lrex-6ver, food">미구</item>
+    <item src="words/테고.xml" tag="lrex-6ver, life">테고</item>
+    <item src="words/앋채.xml" tag="lrex-5ver, qualcon">앋채</item>
+    <item src="words/처텐.xml" tag="lrex-5ver, emotn">처텐</item>
+    <item src="words/엔처.xml" tag="lrex-5ver, emotn">엔처</item>
+    <item src="words/거태.xml" tag="lrex-5ver, verb">거태</item>
+    <item src="words/마내.xml" tag="lrex-5ver, emotn">마내</item>
+    <item src="words/엍.xml" tag="eho-4ver, qualcon">엍</item>
+    <item src="words/온.xml" tag="eho-4ver, emotn">온</item>
+    <item src="words/도고탣.xml" tag="jst-8ver, ppl">도고탣</item>
+    <item src="words/도마투.xml" tag="jst-8ver, ppl, qualcon">도마투</item>
+    <item src="words/핱띠.xml" tag="jst-8ver, ppl">핱띠</item>
+    <item src="words/호도마.xml" tag="jst-8ver, ppl, qualcon">호도마</item>
+    <item src="words/잣투개.xml" tag="jst-8ver, lang">잣투개</item>
 
 </lexis>
