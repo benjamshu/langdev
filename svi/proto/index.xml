@@ -4,152 +4,91 @@
     <!--  METADATA  -->
     <meta type="title" xml:lang="en">PROTO-SEVENSI</meta>
     <meta type="description" xml:lang="en">PROTO-SEVENSI is derived from a collection of independent languages developed between 2009 and 2012.</meta>
-    <meta type="splash" xml:lang="en">Official Dictionary!</meta>
-    <meta type="splash" xml:lang="en">It's Awesome!</meta>
-    <meta type="splash" xml:lang="en">I'm sorry…</meta>
-    <meta type="splash" xml:lang="en">My word!</meta>
-    <meta type="splash" xml:lang="en">Unicode!</meta>
-    <meta type="splash" xml:lang="en">Constantly growing!</meta>
-    <meta type="splash" xml:lang="en">Now organic!</meta>
-    <meta type="splash" xml:lang="en">Derive this!</meta>
-    <meta type="splash" xml:lang="en">y'</meta>
-    <meta type="splash" xml:lang="en">Something different!</meta>
-    <meta type="splash" xml:lang="en">Thank you!</meta>
-    <meta type="splash" xml:lang="en">Not my fault!</meta>
-    <meta type="splash" xml:lang="en">Safe!</meta>
-    <meta type="splash" xml:lang="en">Refreshing!</meta>
-    <meta type="splash" xml:lang="en">What's this?</meta>
-    <meta type="splash" xml:lang="en">Sevensi is evolving!</meta>
-    <meta type="splash" xml:lang="en">ECHO!</meta>
-    <meta type="splash" xml:lang="en">…echo…</meta>
-    <meta type="splash" xml:lang="en">Look inside!</meta>
-    <meta type="splash" xml:lang="en">Learn it!</meta>
-    <meta type="splash" xml:lang="en">Synergy!</meta>
-    <meta type="splash" xml:lang="en">Not parasitic!</meta>
-    <meta type="splash" xml:lang="en">Symbiotic!</meta>
-    <meta type="splash" xml:lang="en">Non-toxic!</meta>
-    <meta type="splash" xml:lang="en">Fancy!</meta>
-    <meta type="splash" xml:lang="en">Animated!</meta>
-    <meta type="splash" xml:lang="en">Hid</meta>
-    <meta type="splash" xml:lang="en">den</meta>
-    <meta type="splash" xml:lang="en">Mess</meta>
-    <meta type="splash" xml:lang="en">age!</meta>
-    <meta type="splash" xml:lang="en">With taste!</meta>
-    <meta type="splash" xml:lang="en">Sounds good!</meta>
-    <meta type="splash" xml:lang="en">Emotional!</meta>
-    <meta type="splash" xml:lang="en">Abstract!</meta>
-    <meta type="splash" xml:lang="en">Not mouldy!</meta>
-    <meta type="splash" xml:lang="en">It's time!</meta>
-    <meta type="splash" xml:lang="en">Count me in!</meta>
-    <meta type="splash" xml:lang="en">You animal!</meta>
-    <meta type="splash" xml:lang="en">A tool!</meta>
-    <meta type="splash" xml:lang="en">Pretty!</meta>
-    <meta type="splash" xml:lang="en">Musical!</meta>
-    <meta type="splash" xml:lang="en">Building!</meta>
-    <meta type="splash" xml:lang="en">A work of art!</meta>
-    <meta type="splash" xml:lang="en">Yes!</meta>
-    <meta type="splash" xml:lang="en">Modified!</meta>
-    <meta type="splash" xml:lang="en">Action!</meta>
-    <meta type="splash" xml:lang="en">β!</meta>
-    <meta type="splash" xml:lang="en">Together!</meta>
-    <meta type="splash" xml:lang="en">Vulgar!</meta>
-    <meta type="splash" xml:lang="en">Not Roman!</meta>
-    <meta type="splash" xml:lang="en">Moving!</meta>
-    <meta type="splash" xml:lang="en">Detailed!</meta>
-    <meta type="splash" xml:lang="en">Spiritual!</meta>
-    <meta type="splash" xml:lang="en">New and Improved!</meta>
-    <meta type="splash" xml:lang="en">With class!</meta>
-    <meta type="splash" xml:lang="en">Scripted!</meta>
-    <meta type="splash" xml:lang="en">In line!</meta>
-    <meta type="splash" xml:lang="en">Splash!</meta>
-    <meta type="splash" xml:lang="en">Compact!</meta>
-    <meta type="splash" xml:lang="en">Portable!</meta>
-    <meta type="splash" xml:lang="en">New!</meta>
-    <meta type="splash" xml:lang="en">Redux!</meta>
-    <meta type="splash" xml:lang="en">Extensible!</meta>
-    <meta type="splash" xml:lang="en">Marked up!</meta>
-    <meta type="splash" xml:lang="en">Language!</meta>
-    <meta type="splash" xml:lang="en">Tagged!</meta>
-    <meta type="splash" xml:lang="en">Sourced!</meta>
-
-    <!--  TAGS  -->
-
-    <!--  Source tracking: -->
-
-    <taggroup name="Source">
-        <tag xml:lang="en" value="lrx-5ver">Lrex 5</tag>
-        <tag xml:lang="en" value="lrx-6ver">Lrex 6</tag>
-        <tag xml:lang="en" value="jst-8ver">Jästūgay VIII</tag>
-        <tag xml:lang="en" value="jst-9ver">Jästūgei VIV</tag>
-        <tag xml:lang="en" value="eho-4ver">□ 4</tag>
-    </taggroup>
-
-    <!--  From jst-8ver:  -->
-    <taggroup name="Nouns/Adjectives">
-        <tag xml:lang="en" value="ppl">People</tag>
-        <tag xml:lang="en" value="body">Body parts</tag>
-        <tag xml:lang="en" value="clothing">Clothing</tag>
-        <tag xml:lang="en" value="biorhythms">Biorhythms</tag>
-        <tag xml:lang="en" value="sight">Sight</tag>
-        <tag xml:lang="en" value="touch">Touch</tag>
-        <tag xml:lang="en" value="taste">Taste</tag>
-        <tag xml:lang="en" value="smell">Smell</tag>
-        <tag xml:lang="en" value="hearing">Hearing</tag>
-        <tag xml:lang="en" value="emotn">Emotions and feelings</tag>
-        <tag xml:lang="en" value="life">Life and death</tag>
-        <tag xml:lang="en" value="abstracts">Abstracts</tag>
-        <tag xml:lang="en" value="lang">Language</tag>
-        <tag xml:lang="en" value="time">Time</tag>
-        <tag xml:lang="en" value="numbers">Numbers</tag>
-        <tag xml:lang="en" value="submat">Substances/materials</tag>
-        <tag xml:lang="en" value="easky">Earth and sky</tag>
-        <tag xml:lang="en" value="natoc">Natural occurances</tag>
-        <tag xml:lang="en" value="names">Names</tag>
-        <tag xml:lang="en" value="qualcon">Qualities and conditions</tag>
-        <tag xml:lang="en" value="locn">Location</tag>
-        <tag xml:lang="en" value="pron">Pronouns</tag>
-        <tag xml:lang="en" value="face">Facial expressions</tag>
-        <tag xml:lang="en" value="anim">Animals</tag>
-        <tag xml:lang="en" value="plant">Plants</tag>
-        <tag xml:lang="en" value="food">Food and drink</tag>
-        <tag xml:lang="en" value="tool">Tools</tag>
-        <tag xml:lang="en" value="jwlry">Jewelry</tag>
-        <tag xml:lang="en" value="inst">Instruments</tag>
-        <tag xml:lang="en" value="build">Buildings and structures</tag>
-        <tag xml:lang="en" value="dist">Distance and measure</tag>
-        <tag xml:lang="en" value="art">Art and culture</tag>
-    </taggroup>
-    <taggroup name="Grammatical words">
-        <tag xml:lang="en" value="yn">Yes and no</tag>
-        <tag xml:lang="en" value="conj">Conjunctions</tag>
-        <tag xml:lang="en" value="fix">Affixes</tag>
-        <tag xml:lang="en" value="tense">Tense markers</tag>
-        <tag xml:lang="en" value="mood">Modal markers</tag>
-        <tag xml:lang="en" value="article">Articles</tag>
-        <tag xml:lang="en" value="intrj">Interjections</tag>
-        <tag xml:lang="en" value="postp">Postpositions</tag>
-    </taggroup>
-    <tag xml:lang="en" value="verb">Verbs</tag>
+    <meta name="splash" xml:lang="en">Official Dictionary!</meta>
+    <meta name="splash" xml:lang="en">It's Awesome!</meta>
+    <meta name="splash" xml:lang="en">I'm sorry…</meta>
+    <meta name="splash" xml:lang="en">My word!</meta>
+    <meta name="splash" xml:lang="en">Unicode!</meta>
+    <meta name="splash" xml:lang="en">Constantly growing!</meta>
+    <meta name="splash" xml:lang="en">Now organic!</meta>
+    <meta name="splash" xml:lang="en">Derive this!</meta>
+    <meta name="splash" xml:lang="en">y'</meta>
+    <meta name="splash" xml:lang="en">Something different!</meta>
+    <meta name="splash" xml:lang="en">Thank you!</meta>
+    <meta name="splash" xml:lang="en">Not my fault!</meta>
+    <meta name="splash" xml:lang="en">Safe!</meta>
+    <meta name="splash" xml:lang="en">Refreshing!</meta>
+    <meta name="splash" xml:lang="en">What's this?</meta>
+    <meta name="splash" xml:lang="en">Sevensi is evolving!</meta>
+    <meta name="splash" xml:lang="en">ECHO!</meta>
+    <meta name="splash" xml:lang="en">…echo…</meta>
+    <meta name="splash" xml:lang="en">Look inside!</meta>
+    <meta name="splash" xml:lang="en">Learn it!</meta>
+    <meta name="splash" xml:lang="en">Synergy!</meta>
+    <meta name="splash" xml:lang="en">Not parasitic!</meta>
+    <meta name="splash" xml:lang="en">Symbiotic!</meta>
+    <meta name="splash" xml:lang="en">Non-toxic!</meta>
+    <meta name="splash" xml:lang="en">Fancy!</meta>
+    <meta name="splash" xml:lang="en">Animated!</meta>
+    <meta name="splash" xml:lang="en">Hid</meta>
+    <meta name="splash" xml:lang="en">den</meta>
+    <meta name="splash" xml:lang="en">Mess</meta>
+    <meta name="splash" xml:lang="en">age!</meta>
+    <meta name="splash" xml:lang="en">With taste!</meta>
+    <meta name="splash" xml:lang="en">Sounds good!</meta>
+    <meta name="splash" xml:lang="en">Emotional!</meta>
+    <meta name="splash" xml:lang="en">Abstract!</meta>
+    <meta name="splash" xml:lang="en">Not mouldy!</meta>
+    <meta name="splash" xml:lang="en">It's time!</meta>
+    <meta name="splash" xml:lang="en">Count me in!</meta>
+    <meta name="splash" xml:lang="en">You animal!</meta>
+    <meta name="splash" xml:lang="en">A tool!</meta>
+    <meta name="splash" xml:lang="en">Pretty!</meta>
+    <meta name="splash" xml:lang="en">Musical!</meta>
+    <meta name="splash" xml:lang="en">Building!</meta>
+    <meta name="splash" xml:lang="en">A work of art!</meta>
+    <meta name="splash" xml:lang="en">Yes!</meta>
+    <meta name="splash" xml:lang="en">Modified!</meta>
+    <meta name="splash" xml:lang="en">Action!</meta>
+    <meta name="splash" xml:lang="en">β!</meta>
+    <meta name="splash" xml:lang="en">Together!</meta>
+    <meta name="splash" xml:lang="en">Vulgar!</meta>
+    <meta name="splash" xml:lang="en">Not Roman!</meta>
+    <meta name="splash" xml:lang="en">Moving!</meta>
+    <meta name="splash" xml:lang="en">Detailed!</meta>
+    <meta name="splash" xml:lang="en">Spiritual!</meta>
+    <meta name="splash" xml:lang="en">New and Improved!</meta>
+    <meta name="splash" xml:lang="en">With class!</meta>
+    <meta name="splash" xml:lang="en">Scripted!</meta>
+    <meta name="splash" xml:lang="en">In line!</meta>
+    <meta name="splash" xml:lang="en">Splash!</meta>
+    <meta name="splash" xml:lang="en">Compact!</meta>
+    <meta name="splash" xml:lang="en">Portable!</meta>
+    <meta name="splash" xml:lang="en">New!</meta>
+    <meta name="splash" xml:lang="en">Redux!</meta>
+    <meta name="splash" xml:lang="en">Extensible!</meta>
+    <meta name="splash" xml:lang="en">Marked up!</meta>
+    <meta name="splash" xml:lang="en">Language!</meta>
 
     <!--  ENTRIES  -->
-    <item src="words/대핱소.xml" tag="jst-9ver ppl qualcon">대핱소</item>
-    <item src="words/대탇.xml" tag="jst-9ver ppl qualcon">대탇</item>
-    <item src="words/앹.xml" tag="jst-9ver ppl">앹</item>
-    <item src="words/테매엔.xml" tag="lrx-6ver life">테매엔</item>
-    <item src="words/미타매.xml" tag="lrx-6ver food">미타매</item>
-    <item src="words/미구.xml" tag="lrx-6ver food">미구</item>
-    <item src="words/테고.xml" tag="lrx-6ver life">테고</item>
-    <item src="words/앋채.xml" tag="lrx-5ver qualcon">앋채</item>
-    <item src="words/처텐.xml" tag="lrx-5ver emotn">처텐</item>
-    <item src="words/엔처.xml" tag="lrx-5ver emotn">엔처</item>
-    <item src="words/거태.xml" tag="lrx-5ver verb">거태</item>
-    <item src="words/마내.xml" tag="lrx-5ver emotn">마내</item>
-    <item src="words/엍.xml" tag="eho-4ver qualcon">엍</item>
-    <item src="words/온.xml" tag="eho-4ver emotn">온</item>
-    <item src="words/도고탣.xml" tag="jst-8ver ppl">도고탣</item>
-    <item src="words/도마투.xml" tag="jst-8ver ppl qualcon">도마투</item>
-    <item src="words/핱띠.xml" tag="jst-8ver ppl">핱띠</item>
-    <item src="words/호도마.xml" tag="jst-8ver ppl qualcon">호도마</item>
-    <item src="words/잣투개.xml" tag="jst-8ver lang">잣투개</item>
+    <item lemma="대핱소" src="words/대핱소.xml"/>
+    <item lemma="대탇" src="words/대탇.xml"/>
+    <item lemma="앹" src="words/앹.xml"/>
+    <item lemma="테매엔" src="words/테매엔.xml"/>
+    <item lemma="미타매" src="words/미타매.xml"/>
+    <item lemma="미구" src="words/미구.xml"/>
+    <item lemma="테고" src="words/테고.xml"/>
+    <item lemma="앋채" src="words/앋채.xml"/>
+    <item lemma="처텐" src="words/처텐.xml"/>
+    <item lemma="엔처" src="words/엔처.xml"/>
+    <item lemma="거태" src="words/거태.xml"/>
+    <item lemma="마내" src="words/마내.xml"/>
+    <item lemma="엍" src="words/엍.xml"/>
+    <item lemma="온" src="words/온.xml"/>
+    <item lemma="도고탣" src="words/도고탣.xml"/>
+    <item lemma="도마투" src="words/도마투.xml"/>
+    <item lemma="핱띠" src="words/핱띠.xml"/>
+    <item lemma="호도마" src="words/호도마.xml"/>
+    <item lemma="잣투개" src="words/잣투개.xml"/>
 
 </lexis>
