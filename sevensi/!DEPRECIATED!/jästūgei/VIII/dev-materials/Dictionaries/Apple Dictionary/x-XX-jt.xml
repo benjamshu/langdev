@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="x-XX-jt.css"?>
 <!--
 	Jästūgā Official Dictionary | BJMNS
 -->
@@ -86,7 +87,7 @@
 	<div>
 		<p><span class="part_of_speech">adjective</span> : of the Jästūgā culture</p>
 			<ul><li>written in the Language</li></ul>
-		<p><span class="part_of_speech">noun</span> : 
+		<p><span class="part_of_speech">noun</span> :
 			<p><span class="phrase">äzhuh jästūgā</span> : the Language</p>
 			<p><span class="phrase">zhā jästūgā</span> : a speaker of the Language or someone of the Jāstūgā culture</p>
 			<p><span class="phrase">puh jāstūgā</span> : the Jāstūgā people</p>
@@ -379,7 +380,7 @@
 		<p><span class="part_of_speech">noun</span> : a shoulder</p>
 			<ul>
 				<li>a part of a garment designed to cover the shoulder</li>
-				<li>a part of something with a similar shape or position to the human shoulder</li> 
+				<li>a part of something with a similar shape or position to the human shoulder</li>
 			</ul>
 	</div>
 </d:entry>
