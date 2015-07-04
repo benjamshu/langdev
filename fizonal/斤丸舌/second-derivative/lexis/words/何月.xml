@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-2der">
+    <lemma>何月</lemma>
+    <pron>bai</pron>
+    <entry>
+        <etymology xml:lang="en">from D1 <html:i xml:lang="art-x-fiz-1der">何</html:i> with influence from <html:a href="彼月.xml"><html:i xml:lang="art-x-fiz-2der">彼月</html:i></html:a>; ultimately from PL <html:i xml:lang="art-x-fzn-proto">ma</html:i></etymology>
+        <section>
+            <heading xml:lang="en">demonstrative</heading>
+            <def xml:lang="en">interrogative demonstrative</def>
+        </section>
+    </entry>
+</word>

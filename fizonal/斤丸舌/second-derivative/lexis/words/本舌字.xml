@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-2der">
+    <lemma>本舌字</lemma>
+    <pron>hongsi</pron>
+    <entry>
+        <etymology xml:lang="en">from JAPANESE <html:i xml:lang="ja">漢字</html:i> (<html:i xml:lang="ja-Latn">kanji</html:i>), <html:i>HAN character</html:i>; originally, this word simply meant <html:i>character</html:i>, but it was later made to refer only to non-reserved lexical characters; <a href="字.xml"><html:i xml:lang="art-x-fiz-2der">字</html:i></a> was coined to preserve this old meaning</html:i>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">lexical character</def>
+        </section>
+    </entry>
+</word>
+<!--  in RC as SAME  -->
