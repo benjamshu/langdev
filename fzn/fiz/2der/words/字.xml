@@ -3,7 +3,7 @@
     <lemma>字</lemma>
     <pron>zi</pron>
     <entry>
-        <etymology xml:lang="en">from <html:a href="本筆字.xml"><html:i xml:lang="art-x-fiz-2der">本筆字</html:i></html:a> and <html:a href="例枚字.xml"><html:i xml:lang="art-x-fiz-2der">例枚字</html:i></html:a></etymology>
+        <etymology xml:lang="en">from <wordref><html:i xml:lang="art-x-fiz-2der">本筆字</html:i></wordref> and <wordref><html:i xml:lang="art-x-fiz-2der">例枚字</html:i></wordref></etymology>
         <section>
             <heading xml:lang="en">noun</heading>
             <def xml:lang="en">character; glyph</def>
