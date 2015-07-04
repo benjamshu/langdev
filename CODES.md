@@ -43,6 +43,10 @@ Use `art-x-` tags when you can; `q--` tags are depreciated; other tags are consi
 - ~~`qeh`~~ `art-x-eho-3ver` : E. HOPE □3
 - ~~`qeh`~~ `art-x-eho-4ver` : E. HOPE □4 [implied by `art-x-eho`]
 
+###  1dev  ###
+
+- `art-x-svi-x-1dev` : SEVENSI FIRST-IN-DEVELOPMENT
+
 ##  Fizonal:  ##
 
 - `art-x-fzn` : generic
