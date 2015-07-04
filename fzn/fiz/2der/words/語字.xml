@@ -3,7 +3,7 @@
     <lemma>語字</lemma>
     <pron>wasi</pron>
     <entry>
-        <etymology xml:lang="en">from D1 <html:i xml:lang="art-x-fiz-1der">語丼</html:i> with influence from <html:a href="本舌字.xml"><html:i xml:lang="art-x-fiz-2der">本舌字</html:i></html:a> and <html:a href="例枚字.xml"><html:i xml:lang="art-x-fiz-2der">例枚字</html:i></html:a>; from PL <html:i xml:lang="art-x-fzn-proto">uarím</html:i>, <html:i>speech; word; language</html:i>; ultimately from <html:i xml:lang="art-x-fzn-proto">rim</html:i>, <html:i>speak; converse</html:i></etymology>
+        <etymology xml:lang="en">from D1 <html:i xml:lang="art-x-fiz-1der">語丼</html:i> with influence from <wordref><html:i xml:lang="art-x-fiz-2der">本舌字</html:i></wordref> and <wordref><html:i xml:lang="art-x-fiz-2der">例枚字</html:i></wordref>; from PL <html:i xml:lang="art-x-fzn-proto">uarím</html:i>, <html:i>speech; word; language</html:i>; ultimately from <html:i xml:lang="art-x-fzn-proto">rim</html:i>, <html:i>speak; converse</html:i></etymology>
         <section>
             <heading xml:lang="en">noun</heading>
             <def xml:lang="en">name</def>
