@@ -77,24 +77,10 @@
     <!--  Source tracking: -->
 
     <taggroup name="Source">
-        <tag xml:lang="en" value="lrx-1ver">Lrex 1</tag>
-        <tag xml:lang="en" value="lrx-2ver">Lrex 2</tag>
-        <tag xml:lang="en" value="lrx-3ver">Lrex 3</tag>
-        <tag xml:lang="en" value="lrx-4ver">Lrex 4</tag>
         <tag xml:lang="en" value="lrx-5ver">Lrex 5</tag>
         <tag xml:lang="en" value="lrx-6ver">Lrex 6</tag>
-        <tag xml:lang="en" value="jtl-1ver">Jāstulæ I</tag>
-        <tag xml:lang="en" value="jtl-2ver">Jāstulæ II</tag>
-        <tag xml:lang="en" value="jtl-3ver">Jāstulæ III</tag>
-        <tag xml:lang="en" value="jtl-4ver">Jāstulæ IV</tag>
-        <tag xml:lang="en" value="jtl-5ver">Jāstulæ V</tag>
-        <tag xml:lang="en" value="jtl-6ver">Jāstulæ VI</tag>
-        <tag xml:lang="en" value="jtl-7ver">Jāstulæ VII</tag>
         <tag xml:lang="en" value="jst-8ver">Jästūgay VIII</tag>
         <tag xml:lang="en" value="jst-9ver">Jästūgei VIV</tag>
-        <tag xml:lang="en" value="eho-1ver">□ 1</tag>
-        <tag xml:lang="en" value="eho-2ver">□ 2</tag>
-        <tag xml:lang="en" value="eho-3ver">□ 3</tag>
         <tag xml:lang="en" value="eho-4ver">□ 4</tag>
     </taggroup>
 
