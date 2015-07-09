@@ -17,7 +17,7 @@ PROTO-SEVENSI uses korean hangul as its writing system. Some sounds have changed
 
 | s  | d  | hh | t  | w  | h  | j  | z  | g  | v  | f  | zh | m  | p  | -  |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| ㅅ | ㄷ | ㅊ | ㅌ | ㅁ | ㅎ | ㅈ | ㅆ | ㄱ | ㅂ | ㄸ | ㅉ | ㄴ | ㅍ | ㅇ |
+| ㅅ | ㄷ | ㅋ | ㅌ | ㅁ | ㅎ | ㅊ | ㅆ | ㄱ | ㅃ | ㅍ | ㅈ | ㄴ | ㅂ | ㅇ |
 
 ### Medials: ###
 
@@ -27,9 +27,9 @@ PROTO-SEVENSI uses korean hangul as its writing system. Some sounds have changed
 
 ### Finals: ###
 
-| s  | d  | hh | t  | l  | n  |
+| s  | d  | hh | t  | l  | ng |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| ㅅ | ㄷ | ㅊ | ㅌ | ㄹ | ㄴ |
+| ㅅ | ㄷ | ㅋ | ㅌ | ㄹ | ㅇ |
 
 ### Punctuation: ###
 
