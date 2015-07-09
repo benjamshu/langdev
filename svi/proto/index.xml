@@ -149,21 +149,21 @@
     <item src="words/대핱소.xml" tag="jst-9ver ppl qualcon">대핱소</item>
     <item src="words/대탇.xml" tag="jst-9ver ppl qualcon">대탇</item>
     <item src="words/앹.xml" tag="jst-9ver ppl">앹</item>
-    <item src="words/테매엔.xml" tag="lrx-6ver life">테매엔</item>
+    <item src="words/테매앵.xml" tag="lrx-6ver life">테매앵</item>
     <item src="words/미타매.xml" tag="lrx-6ver food">미타매</item>
     <item src="words/미구.xml" tag="lrx-6ver food">미구</item>
     <item src="words/테고.xml" tag="lrx-6ver life">테고</item>
-    <item src="words/앋채.xml" tag="lrx-5ver qualcon">앋채</item>
-    <item src="words/처텐.xml" tag="lrx-5ver emotn">처텐</item>
-    <item src="words/엔처.xml" tag="lrx-5ver emotn">엔처</item>
+    <item src="words/앋채.xml" tag="lrx-5ver qualcon">앋캐</item>
+    <item src="words/처텡.xml" tag="lrx-5ver emotn">커텡</item>
+    <item src="words/엥처.xml" tag="lrx-5ver emotn">엥커</item>
     <item src="words/거태.xml" tag="lrx-5ver verb">거태</item>
     <item src="words/마내.xml" tag="lrx-5ver emotn">마내</item>
     <item src="words/엍.xml" tag="eho-4ver qualcon">엍</item>
-    <item src="words/온.xml" tag="eho-4ver emotn">온</item>
+    <item src="words/옹.xml" tag="eho-4ver emotn">옹</item>
     <item src="words/도고탣.xml" tag="jst-8ver ppl">도고탣</item>
     <item src="words/도마투.xml" tag="jst-8ver ppl qualcon">도마투</item>
-    <item src="words/핱띠.xml" tag="jst-8ver ppl">핱띠</item>
+    <item src="words/핱띠.xml" tag="jst-8ver ppl">핱피</item>
     <item src="words/호도마.xml" tag="jst-8ver ppl qualcon">호도마</item>
-    <item src="words/잣투개.xml" tag="jst-8ver lang">잣투개</item>
+    <item src="words/잣투개.xml" tag="jst-8ver lang">찻투개</item>
 
 </lexis>
