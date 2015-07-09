@@ -71,24 +71,24 @@
     <meta name="splash" xml:lang="en">Language!</meta>
 
     <!--  ENTRIES  -->
-    <item lemma="대핱소" src="words/대핱소.xml"/>
-    <item lemma="대탇" src="words/대탇.xml"/>
-    <item lemma="앹" src="words/앹.xml"/>
-    <item lemma="테매엔" src="words/테매엔.xml"/>
-    <item lemma="미타매" src="words/미타매.xml"/>
-    <item lemma="미구" src="words/미구.xml"/>
-    <item lemma="테고" src="words/테고.xml"/>
-    <item lemma="앋채" src="words/앋채.xml"/>
-    <item lemma="처텐" src="words/처텐.xml"/>
-    <item lemma="엔처" src="words/엔처.xml"/>
-    <item lemma="거태" src="words/거태.xml"/>
-    <item lemma="마내" src="words/마내.xml"/>
-    <item lemma="엍" src="words/엍.xml"/>
-    <item lemma="온" src="words/온.xml"/>
-    <item lemma="도고탣" src="words/도고탣.xml"/>
-    <item lemma="도마투" src="words/도마투.xml"/>
-    <item lemma="핱띠" src="words/핱띠.xml"/>
-    <item lemma="호도마" src="words/호도마.xml"/>
-    <item lemma="잣투개" src="words/잣투개.xml"/>
+    <item src="words/대핱소.xml" tag="jst-9ver ppl qualcon">대핱소</item>
+    <item src="words/대탇.xml" tag="jst-9ver ppl qualcon">대탇</item>
+    <item src="words/앹.xml" tag="jst-9ver ppl">앹</item>
+    <item src="words/테매앵.xml" tag="lrx-6ver life">테매앵</item>
+    <item src="words/미타매.xml" tag="lrx-6ver food">미타매</item>
+    <item src="words/미구.xml" tag="lrx-6ver food">미구</item>
+    <item src="words/테고.xml" tag="lrx-6ver life">테고</item>
+    <item src="words/앋채.xml" tag="lrx-5ver qualcon">앋캐</item>
+    <item src="words/처텡.xml" tag="lrx-5ver emotn">커텡</item>
+    <item src="words/엥처.xml" tag="lrx-5ver emotn">엥커</item>
+    <item src="words/거태.xml" tag="lrx-5ver verb">거태</item>
+    <item src="words/마내.xml" tag="lrx-5ver emotn">마내</item>
+    <item src="words/엍.xml" tag="eho-4ver qualcon">엍</item>
+    <item src="words/옹.xml" tag="eho-4ver emotn">옹</item>
+    <item src="words/도고탣.xml" tag="jst-8ver ppl">도고탣</item>
+    <item src="words/도마투.xml" tag="jst-8ver ppl qualcon">도마투</item>
+    <item src="words/핱띠.xml" tag="jst-8ver ppl">핱피</item>
+    <item src="words/호도마.xml" tag="jst-8ver ppl qualcon">호도마</item>
+    <item src="words/잣투개.xml" tag="jst-8ver lang">찻투개</item>
 
 </lexis>
