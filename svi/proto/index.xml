@@ -139,7 +139,7 @@
     <item src="words/미타매.xml" tag="lrx-6ver food">미타매</item>
     <item src="words/미구.xml" tag="lrx-6ver food">미구</item>
     <item src="words/테고.xml" tag="lrx-6ver life">테고</item>
-    <item src="words/앋채.xml" tag="lrx-5ver qualcon">앋캐</item>
+    <item src="words/앋캐.xml" tag="lrx-5ver qualcon">앋캐</item>
     <item src="words/처텡.xml" tag="lrx-5ver emotn">커텡</item>
     <item src="words/엥처.xml" tag="lrx-5ver emotn">엥커</item>
     <item src="words/거태.xml" tag="lrx-5ver verb">거태</item>
