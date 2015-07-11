@@ -1,0 +1,5 @@
+#  SEVENSI FIRST-IN-DEVELOPMENT : PROTO–SUB-BRANCH  #
+
+##  Description:  ##
+
+The SEVENSI FIRST-IN-DEVELOPMENT PROTO–SUB-BRANCH is a branch of PROTO-SEVENSI to be used for FIRST-IN-DEVELOPMENT language generation.

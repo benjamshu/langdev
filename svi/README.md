@@ -13,6 +13,7 @@ In 2015, the lexicons generated during this early development were combined into
 - PROTO-SEVENSI : Collection under common orthography and grammar
 - --  LANGUAGES SPLIT  --
 - FIRST-IN-DEVELOPMENT :
+    - DEV1PT : PROTO–SUB-BRANCH
     - DEV1D1 : Grammatical standardization
     - DEV1D2 : Phonological standardization
     - DEV1RC : Release-canidate
