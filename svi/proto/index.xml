@@ -71,30 +71,17 @@
     <meta type="splash" xml:lang="en">Language!</meta>
     <meta type="splash" xml:lang="en">Tagged!</meta>
     <meta type="splash" xml:lang="en">Sourced!</meta>
+    <meta type="splash" xml:lang="en">#alt!</meta>
 
     <!--  TAGS  -->
 
     <!--  Source tracking: -->
 
     <taggroup name="Source">
-        <tag xml:lang="en" value="lrx-1ver">Lrex 1</tag>
-        <tag xml:lang="en" value="lrx-2ver">Lrex 2</tag>
-        <tag xml:lang="en" value="lrx-3ver">Lrex 3</tag>
-        <tag xml:lang="en" value="lrx-4ver">Lrex 4</tag>
         <tag xml:lang="en" value="lrx-5ver">Lrex 5</tag>
         <tag xml:lang="en" value="lrx-6ver">Lrex 6</tag>
-        <tag xml:lang="en" value="jtl-1ver">Jāstulæ I</tag>
-        <tag xml:lang="en" value="jtl-2ver">Jāstulæ II</tag>
-        <tag xml:lang="en" value="jtl-3ver">Jāstulæ III</tag>
-        <tag xml:lang="en" value="jtl-4ver">Jāstulæ IV</tag>
-        <tag xml:lang="en" value="jtl-5ver">Jāstulæ V</tag>
-        <tag xml:lang="en" value="jtl-6ver">Jāstulæ VI</tag>
-        <tag xml:lang="en" value="jtl-7ver">Jāstulæ VII</tag>
         <tag xml:lang="en" value="jst-8ver">Jästūgay VIII</tag>
         <tag xml:lang="en" value="jst-9ver">Jästūgei VIV</tag>
-        <tag xml:lang="en" value="eho-1ver">□ 1</tag>
-        <tag xml:lang="en" value="eho-2ver">□ 2</tag>
-        <tag xml:lang="en" value="eho-3ver">□ 3</tag>
         <tag xml:lang="en" value="eho-4ver">□ 4</tag>
     </taggroup>
 
@@ -108,7 +95,7 @@
         <tag xml:lang="en" value="touch">Touch</tag>
         <tag xml:lang="en" value="taste">Taste</tag>
         <tag xml:lang="en" value="smell">Smell</tag>
-        <tag xml:lang="en" value="hearing">Hearing</tag>
+        <tag xml:lang="en" value="sound">Sound</tag>
         <tag xml:lang="en" value="emotn">Emotions and feelings</tag>
         <tag xml:lang="en" value="life">Life and death</tag>
         <tag xml:lang="en" value="abstracts">Abstracts</tag>
@@ -129,9 +116,10 @@
         <tag xml:lang="en" value="tool">Tools</tag>
         <tag xml:lang="en" value="jwlry">Jewelry</tag>
         <tag xml:lang="en" value="inst">Instruments</tag>
-        <tag xml:lang="en" value="build">Buildings and structures</tag>
+        <tag xml:lang="en" value="const">Buildings and constructions</tag>
         <tag xml:lang="en" value="dist">Distance and measure</tag>
         <tag xml:lang="en" value="art">Art and culture</tag>
+        <tag xml:lang="en" value="group">Groups and organizations</tag>
     </taggroup>
     <taggroup name="Grammatical words">
         <tag xml:lang="en" value="yn">Yes and no</tag>
@@ -146,24 +134,185 @@
     <tag xml:lang="en" value="verb">Verbs</tag>
 
     <!--  ENTRIES  -->
-    <item src="words/대핱소.xml" tag="jst-9ver ppl qualcon">대핱소</item>
-    <item src="words/대탇.xml" tag="jst-9ver ppl qualcon">대탇</item>
-    <item src="words/앹.xml" tag="jst-9ver ppl">앹</item>
-    <item src="words/테매앵.xml" tag="lrx-6ver life">테매앵</item>
-    <item src="words/미타매.xml" tag="lrx-6ver food">미타매</item>
-    <item src="words/미구.xml" tag="lrx-6ver food">미구</item>
-    <item src="words/테고.xml" tag="lrx-6ver life">테고</item>
-    <item src="words/앋채.xml" tag="lrx-5ver qualcon">앋캐</item>
-    <item src="words/처텡.xml" tag="lrx-5ver emotn">커텡</item>
-    <item src="words/엥처.xml" tag="lrx-5ver emotn">엥커</item>
-    <item src="words/거태.xml" tag="lrx-5ver verb">거태</item>
-    <item src="words/마내.xml" tag="lrx-5ver emotn">마내</item>
-    <item src="words/엍.xml" tag="eho-4ver qualcon">엍</item>
-    <item src="words/옹.xml" tag="eho-4ver emotn">옹</item>
-    <item src="words/도고탣.xml" tag="jst-8ver ppl">도고탣</item>
-    <item src="words/도마투.xml" tag="jst-8ver ppl qualcon">도마투</item>
-    <item src="words/핱띠.xml" tag="jst-8ver ppl">핱피</item>
-    <item src="words/호도마.xml" tag="jst-8ver ppl qualcon">호도마</item>
-    <item src="words/잣투개.xml" tag="jst-8ver lang">찻투개</item>
+    <item src="words/대핱소.xml" tag="jst-9ver ppl qualcon">
+        <lemma>대핱소</lemma>
+        <alt>dāhätsō</alt>
+        <!--  collector; sentimental  -->
+    </item>
+    <item src="words/대탇.xml" tag="jst-9ver ppl qualcon">
+        <lemma>대탇</lemma>
+        <alt>dātäd</alt>
+        <!--  friendly; friend  -->
+    </item>
+    <item src="words/앹.xml" tag="jst-9ver ppl">
+        <lemma>앹</lemma>
+        <alt>eit</alt>
+        <!--  virgin  -->
+    </item>
+    <item src="words/테매앙.xml" tag="lrx-6ver life">
+        <lemma>테매앙</lemma>
+        <alt>tëwāung</alt>
+        <!--  alive; life  -->
+    </item>
+    <item src="words/미타매.xml" tag="lrx-6ver food">
+        <lemma>미타매</lemma>
+        <alt>wituwā</alt>
+        <!--  refreshing; water  -->
+    </item>
+    <item src="words/미구.xml" tag="lrx-6ver food">
+        <lemma>미구</lemma>
+        <alt>wigū</alt>
+        <!--  filling; food  -->
+    </item>
+    <item src="words/테고.xml" tag="lrx-6ver life">
+        <lemma>테고</lemma>
+        <alt>tëgō</alt>
+        <!--  dying; death  -->
+    </item>
+    <item src="words/앋캐.xml" tag="lrx-5ver qualcon">
+        <lemma>앋캐</lemma>
+        <alt>ädhhā</alt>
+        <!--  pleasant; pleasantry  -->
+    </item>
+    <item src="words/커텡.xml" tag="lrx-5ver emotn">
+        <lemma>커텡</lemma>
+        <alt>hhuëng</alt>
+        <!--  relaxing; relaxation  -->
+    </item>
+    <item src="words/엥커.xml" tag="lrx-5ver emotn">
+        <lemma>엥커</lemma>
+        <alt>ënghhu</alt>
+        <!--  peaceful; peace  -->
+    </item>
+    <item src="words/거태.xml" tag="lrx-5ver verb">
+        <lemma>거태</lemma>
+        <alt>guttā</alt>
+        <!--  quit; give up  -->
+    </item>
+    <item src="words/마내.xml" tag="lrx-5ver emotn">
+        <lemma>마내</lemma>
+        <alt>wämā</alt>
+        <!--  surprising; surprise  -->
+    </item>
+    <item src="words/엍.xml" tag="eho-4ver qualcon">
+        <lemma>엍</lemma>
+        <alt>ut</alt>
+        <!--  quick; speed  -->
+    </item>
+    <item src="words/옹.xml" tag="eho-4ver emotn">
+        <lemma>옹</lemma>
+        <alt>ōng</alt>
+        <!--  careful; caution  -->
+    </item>
+    <item src="words/도고탣.xml" tag="jst-8ver ppl">
+        <lemma>도고탣</lemma>
+        <alt>dōgōtād</alt>
+        <!--  adult  -->
+    </item>
+    <item src="words/도마투.xml" tag="jst-8ver ppl qualcon">
+        <lemma>도마투</lemma>
+        <alt>dōwätū</alt>
+        <!--  small; cute; baby  -->
+    </item>
+    <item src="words/핱피.xml" tag="jst-8ver ppl">
+        <lemma>핱피</lemma>
+        <alt>hätfi</alt>
+        <!--  skilled; craftsman  -->
+    </item>
+    <item src="words/호도마.xml" tag="jst-8ver ppl qualcon">
+        <lemma>호도마</lemma>
+        <alt>hōdōwä</alt>
+        <!--  chief; most important; leader  -->
+    </item>
+    <item src="words/찻투개.xml" tag="jst-8ver lang">
+        <lemma>찻투개</lemma>
+        <alt>jästūgā</alt>
+        <!--  the LANGUAGE; the CULTURE  -->
+    </item>
+    <item src="words/추망텓.xml" tag="jst-8ver ppl qualcon">
+        <lemma>추망텓</lemma>
+        <alt>jūwängtëd</alt>
+        <!--  caring; caretaker  -->
+    </item>
+    <item src="words/옽파훋.xml" tag="jst-8ver ppl qualcon">
+        <lemma>옽파훋</lemma>
+        <alt>ōtfähūd</alt>
+        <!--  mute  -->
+    </item>
+    <item src="words/생텓.xml" tag="jst-8ver ppl">
+        <lemma>생텓</lemma>
+        <alt>sāngtëd</alt>
+        <!--  womanly; woman  -->
+    </item>
+    <item src="words/태카틔.xml" tag="jst-8ver ppl qualcon">
+        <lemma>태카틔</lemma>
+        <alt>tāhhätoi</alt>
+        <!--  protective; guardian  -->
+    </item>
+    <item src="words/태타.xml" tag="jst-8ver ppl group qualcon">
+        <lemma>태타</lemma>
+        <alt>tātä</alt>
+        <!--  military; organized; disciplined  -->
+    </item>
+    <item src="words/틑새.xml" tag="jst-8ver ppl">
+        <lemma>틑새</lemma>
+        <alt>tautsā</alt>
+        <!--  hunter  -->
+    </item>
+    <item src="words/토태도.xml" tag="jst-8ver ppl qualcon">
+        <lemma>토태도</lemma>
+        <alt>tōtādō</alt>
+        <!--  immature; older child  -->
+    </item>
+    <item src="words/토텓.xml" tag="jst-8ver ppl qualcon">
+        <lemma>토텓</lemma>
+        <alt>tōtëd</alt>
+        <!--  childish; younger child  -->
+    </item>
+    <item src="words/토주태.xml" tag="jst-8ver ppl qualcon">
+        <lemma>토주태</lemma>
+        <alt>tōzhūtā</alt>
+        <!--  youthful and mature; young adult  -->
+    </item>
+    <item src="words/투앧.xml" tag="jst-8ver ppl body">
+        <lemma>투앧</lemma>
+        <alt>tūād</alt>
+        <!--  body; person  -->
+    </item>
+    <item src="words/투다파.xml" tag="jst-8ver ppl qualcon">
+        <lemma>투다파</lemma>
+        <alt>tūdäfä</alt>
+        <!--  elder; wise  -->
+    </item>
+    <item src="words/쎄텓.xml" tag="jst-8ver ppl qualcon">
+        <lemma>쎄텓</lemma>
+        <alt>zëtëd</alt>
+        <!--  man; manly  -->
+    </item>
+    <item src="words/닫히.xml" tag="jst-8ver body lang sound">
+        <lemma>닫히</lemma>
+        <alt>dädhi</alt>
+        <!--  throat; throaty; accent; speech-pattern  -->
+    </item>
+    <item src="words/대초포토.xml" tag="jst-8ver ppl body qualcon">
+        <lemma>대초포토</lemma>
+        <alt>dājōfōtō</alt>
+        <!--  ear; good-listener  -->
+    </item>
+    <item src="words/대옫매.xml" tag="jst-8ver body anim const">
+        <lemma>대옫매</lemma>
+        <alt>dāōdwā</alt>
+        <!--  vertebrate; spine; supporting framework  -->
+    </item>
+    <item src="words/대우새소.xml" tag="jst-8ver body const">
+        <lemma>대우새소</lemma>
+        <alt>dāūsāsō</alt>
+        <!--  joint; jointed  -->
+    </item>
+    <item src="words/도타도.xml" tag="jst-8ver body qualcon ppl">
+        <lemma>도타도</lemma>
+        <alt>dōtädō</alt>
+        <!--  head; principal; in-charge  -->
+    </item>
 
 </lexis>
