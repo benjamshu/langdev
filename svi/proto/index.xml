@@ -73,60 +73,79 @@
     <!--  ENTRIES  -->
     <item src="words/대핱소.xml" tag="jst-9ver ppl qualcon">
         <lemma>대핱소</lemma>
+        <alt>deihätsō</alt>
     </item>
     <item src="words/대탇.xml" tag="jst-9ver ppl qualcon">
         <lemma>대탇</lemma>
+        <alt>deitäd</alt>
     </item>
     <item src="words/앹.xml" tag="jst-9ver ppl">
         <lemma>앹</lemma>
+        <alt>eit</alt>
     </item>
     <item src="words/테매앵.xml" tag="lrx-6ver life">
-        <lemma>테매앵</lemma>
+        <lemma>테매앙</lemma>
+        <alt>teweiung</alt>
     </item>
     <item src="words/미타매.xml" tag="lrx-6ver food">
         <lemma>미타매</lemma>
+        <alt>wituwei</alt>
     </item>
     <item src="words/미구.xml" tag="lrx-6ver food">
         <lemma>미구</lemma>
+        <alt>wigū</alt>
     </item>
     <item src="words/테고.xml" tag="lrx-6ver life">
         <lemma>테고</lemma>
+        <alt>tegō</alt>
     </item>
     <item src="words/앋캐.xml" tag="lrx-5ver qualcon">
         <lemma>앋캐</lemma>
+        <alt>ädhhei</alt>
     </item>
     <item src="words/커텡.xml" tag="lrx-5ver emotn">
         <lemma>커텡</lemma>
+        <alt>hhuteng</alt>
     </item>
     <item src="words/엥커.xml" tag="lrx-5ver emotn">
         <lemma>엥커</lemma>
+        <alt>enghhu</alt>
     </item>
     <item src="words/거태.xml" tag="lrx-5ver verb">
         <lemma>거태</lemma>
+        <alt>guttei</alt>
     </item>
     <item src="words/마내.xml" tag="lrx-5ver emotn">
         <lemma>마내</lemma>
+        <alt>wämei</alt>
     </item>
     <item src="words/엍.xml" tag="eho-4ver qualcon">
         <lemma>엍</lemma>
+        <alt>ut</alt>
     </item>
     <item src="words/옹.xml" tag="eho-4ver emotn">
         <lemma>옹</lemma>
+        <alt>ōng</alt>
     </item>
     <item src="words/도고탣.xml" tag="jst-8ver ppl">
         <lemma>도고탣</lemma>
+        <alt>dōgōteid</alt>
     </item>
     <item src="words/도마투.xml" tag="jst-8ver ppl qualcon">
         <lemma>도마투</lemma>
+        <alt>dōwätū</alt>
     </item>
     <item src="words/핱피.xml" tag="jst-8ver ppl">
         <lemma>핱피</lemma>
+        <alt>hätfi</alt>
     </item>
     <item src="words/호도마.xml" tag="jst-8ver ppl qualcon">
         <lemma>호도마</lemma>
+        <alt>hōdōwä</alt>
     </item>
     <item src="words/찻투개.xml" tag="jst-8ver lang">
         <lemma>찻투개</lemma>
+        <alt>jästūgei</alt>
     </item>
 
 </lexis>
