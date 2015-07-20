@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-proto">
+
+    <!--  METADATA  -->
+    <meta type="title" xml:lang="en">PROTO-SEVENSI</meta>
+    <meta type="description" xml:lang="en">PROTO-SEVENSI is derived from a collection of independent languages developed between 2009 and 2012. This dictionary contains the x-1dev branch of the language.</meta>
+    <meta type="splash" xml:lang="en">git checkout -b</meta>
+    <meta type="splash" xml:lang="en">It's building!</meta>
+    <meta type="splash" xml:lang="en">Leggo!</meta>
+    <meta type="splash" xml:lang="en">Blocked!</meta>
+    <meta type="splash" xml:lang="en">Abridged!</meta>
+
+    <!--  TAGS  -->
+
+    <!--  Source tracking: -->
+
+    <taggroup name="Source">
+        <tag xml:lang="en" value="lrx-5ver">Lrex 5</tag>
+        <tag xml:lang="en" value="lrx-6ver">Lrex 6</tag>
+        <tag xml:lang="en" value="jst-8ver">Jästūgay VIII</tag>
+        <tag xml:lang="en" value="jst-9ver">Jästūgei VIV</tag>
+        <tag xml:lang="en" value="eho-4ver">□ 4</tag>
+    </taggroup>
+
+    <!--  From jst-8ver:  -->
+    <taggroup name="Nouns/Adjectives">
+        <tag xml:lang="en" value="ppl">People</tag>
+        <tag xml:lang="en" value="body">Body parts</tag>
+        <tag xml:lang="en" value="clothing">Clothing</tag>
+        <tag xml:lang="en" value="biorhythms">Biorhythms</tag>
+        <tag xml:lang="en" value="sight">Sight</tag>
+        <tag xml:lang="en" value="touch">Touch</tag>
+        <tag xml:lang="en" value="taste">Taste</tag>
+        <tag xml:lang="en" value="smell">Smell</tag>
+        <tag xml:lang="en" value="sound">Sound</tag>
+        <tag xml:lang="en" value="emotn">Emotions and feelings</tag>
+        <tag xml:lang="en" value="life">Life and death</tag>
+        <tag xml:lang="en" value="abstracts">Abstracts</tag>
+        <tag xml:lang="en" value="lang">Language</tag>
+        <tag xml:lang="en" value="time">Time</tag>
+        <tag xml:lang="en" value="numbers">Numbers</tag>
+        <tag xml:lang="en" value="submat">Substances/materials</tag>
+        <tag xml:lang="en" value="easky">Earth and sky</tag>
+        <tag xml:lang="en" value="natoc">Natural occurances</tag>
+        <tag xml:lang="en" value="names">Names</tag>
+        <tag xml:lang="en" value="qualcon">Qualities and conditions</tag>
+        <tag xml:lang="en" value="locn">Location</tag>
+        <tag xml:lang="en" value="pron">Pronouns</tag>
+        <tag xml:lang="en" value="face">Facial expressions</tag>
+        <tag xml:lang="en" value="anim">Animals</tag>
+        <tag xml:lang="en" value="plant">Plants</tag>
+        <tag xml:lang="en" value="food">Food and drink</tag>
+        <tag xml:lang="en" value="tool">Tools</tag>
+        <tag xml:lang="en" value="jwlry">Jewelry</tag>
+        <tag xml:lang="en" value="inst">Instruments</tag>
+        <tag xml:lang="en" value="const">Buildings and constructions</tag>
+        <tag xml:lang="en" value="dist">Distance and measure</tag>
+        <tag xml:lang="en" value="art">Art and culture</tag>
+        <tag xml:lang="en" value="group">Groups and organizations</tag>
+    </taggroup>
+    <taggroup name="Grammatical words">
+        <tag xml:lang="en" value="yn">Yes and no</tag>
+        <tag xml:lang="en" value="conj">Conjunctions</tag>
+        <tag xml:lang="en" value="fix">Affixes</tag>
+        <tag xml:lang="en" value="tense">Tense markers</tag>
+        <tag xml:lang="en" value="mood">Modal markers</tag>
+        <tag xml:lang="en" value="article">Articles</tag>
+        <tag xml:lang="en" value="intrj">Interjections</tag>
+        <tag xml:lang="en" value="postp">Postpositions</tag>
+    </taggroup>
+    <tag xml:lang="en" value="verb">Verbs</tag>
+
+</lexis>
