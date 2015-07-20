@@ -89,7 +89,7 @@
     <taggroup name="Nouns/Adjectives">
         <tag xml:lang="en" value="ppl">People</tag>
         <tag xml:lang="en" value="body">Body parts</tag>
-        <tag xml:lang="en" value="clothing">Clothing</tag>
+        <tag xml:lang="en" value="cloth">Clothing</tag>
         <tag xml:lang="en" value="biorhythms">Biorhythms</tag>
         <tag xml:lang="en" value="sight">Sight</tag>
         <tag xml:lang="en" value="touch">Touch</tag>
@@ -107,12 +107,12 @@
         <tag xml:lang="en" value="natoc">Natural occurances</tag>
         <tag xml:lang="en" value="names">Names</tag>
         <tag xml:lang="en" value="qualcon">Qualities and conditions</tag>
-        <tag xml:lang="en" value="locn">Location</tag>
+        <tag xml:lang="en" value="loc8n">Location</tag>
         <tag xml:lang="en" value="pron">Pronouns</tag>
         <tag xml:lang="en" value="face">Facial expressions</tag>
         <tag xml:lang="en" value="anim">Animals</tag>
         <tag xml:lang="en" value="plant">Plants</tag>
-        <tag xml:lang="en" value="food">Food and drink</tag>
+        <tag xml:lang="en" value="foodr">Food and drink</tag>
         <tag xml:lang="en" value="tool">Tools</tag>
         <tag xml:lang="en" value="jwlry">Jewelry</tag>
         <tag xml:lang="en" value="inst">Instruments</tag>
@@ -154,12 +154,12 @@
         <alt>tëwāung</alt>
         <!--  alive; life  -->
     </item>
-    <item src="words/미타매.xml" tag="lrx-6ver food">
+    <item src="words/미타매.xml" tag="lrx-6ver foodr">
         <lemma>미타매</lemma>
         <alt>wituwā</alt>
         <!--  refreshing; water  -->
     </item>
-    <item src="words/미구.xml" tag="lrx-6ver food">
+    <item src="words/미구.xml" tag="lrx-6ver foodr">
         <lemma>미구</lemma>
         <alt>wigū</alt>
         <!--  filling; food  -->
@@ -313,6 +313,81 @@
         <lemma>도타도</lemma>
         <alt>dōtädō</alt>
         <!--  head; principal; in-charge  -->
+    </item>
+    <item src="words/도토푀.xml" tag="jst-8ver body sound">
+        <lemma>도토푀</lemma>
+        <alt>dōtōfiy</alt>
+        <!--  nasaly; nose  -->
+    </item>
+    <item src="words/도핕쾨.xml" tag="jst-8ver body">
+        <lemma>도핕쾨</lemma>
+        <alt>dōfithhiy</alt>
+        <!--  hip  -->
+    </item>
+    <item src="words/도마키.xml" tag="jst-8ver body qualcon loc8n">
+        <lemma>도마키</lemma>
+        <alt>dōwähhiy</alt>
+        <!--  heart; central; integral  -->
+    </item>
+    <item src="words/에댕.xml" tag="jst-8ver body cloth">
+        <lemma>에댕</lemma>
+        <alt>ädāng</alt>
+        <!--  boob  -->
+    </item>
+    <item src="words/해도쇠.xml" tag="jst-8ver body ppl">
+        <lemma>해도쇠</lemma>
+        <alt>hādōsō</alt>
+        <!--  eye; visual-learner  -->
+    </item>
+    <item src="words/해도소.xml" tag="jst-8ver body submat">
+        <lemma>해도소</lemma>
+        <alt>hādōsō</alt>
+        <!--  bloody; blood; bloodshed  -->
+    </item>
+    <item src="words/캐포히.xml" tag="jst-8ver body qualcon">
+        <lemma>캐포히</lemma>
+        <alt>hhāfōhiy</alt>
+        <!--  chest; torso; core  -->
+    </item>
+    <item src="words/해숱매.xml" tag="jst-8ver body qualcon cloth">
+        <lemma>해숱매</lemma>
+        <alt>hāsūtwā</alt>
+        <!--  shoulder; on the edge  -->
+    </item>
+    <item src="words/호토.xml" tag="jst-8ver body qualcon">
+        <lemma>호토</lemma>
+        <alt>hōtō</alt>
+        <!--  hair; hairy  -->
+    </item>
+    <item src="words/호배초.xml" tag="jst-8ver body qualcon loc8n">
+        <lemma>호배초</lemma>
+        <alt>hōpājō</alt>
+        <!--  foot; start; base  -->
+    </item>
+    <item src="words/호부새토.xml" tag="jst-8ver body">
+        <lemma>호부새토</lemma>
+        <alt>hōpūsātō</alt>
+        <!--  lung; respiratory  -->
+    </item>
+    <item src="words/코수앧.xml" tag="jst-8ver body const">
+        <lemma>코수앧</lemma>
+        <alt>hhōsūād</alt>
+        <!--  bone; bony; frame; support  -->
+    </item>
+    <item src="words/오묕피.xml" tag="jst-8ver body">
+        <lemma>오묕피</lemma>
+        <alt>ōwiytfi</alt>
+        <!--  tooth; toothy; toothed  -->
+    </item>
+    <item src="words/새토.xml" tag="jst-8ver body const">
+        <lemma>새토</lemma>
+        <alt>sātō</alt>
+        <!--  leg; limbed; support  -->
+    </item>
+    <item src="words/사트새.xml" tag="jst-8ver body qualcon foodr">
+        <lemma>사트새</lemma>
+        <alt>sätausā</alt>
+        <!--  meat; muscular; flesh  -->
     </item>
 
 </lexis>
