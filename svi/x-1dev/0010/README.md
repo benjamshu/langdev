@@ -27,8 +27,8 @@ This remains *l* in the word-final position, and is sometimes pronounced /tl/ in
 
 Syllable codas may now include any letter in the orthography.
 Note that *ㅇ*, normally null, represents *ng* in the coda.
-Syllable codas are limited to a single letter, with the exception of *l*, which may be followed another in some circumstances.
-(This comes from *l*'s original purpose as an affix-separator.)
+Syllable codas are limited to a single letter, with the exception of *ㄹ*, which may be followed another in some circumstances.
+(This comes from *ㄹ*'s original purpose as an affix-separator.)
 
 ## Orthography: ##
 
