@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="art-x-lrx-0004" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">LREX version 4</meta>
+    <meta name="description" xml:lang="en">The fourth version of the lrex language (one of THE 7C LANGUAGES)_</meta>
+    <word>
+        <form class="v" pronunciation="kō+whǽ">kohwhǽ</form>
+        <meaning xml:lang="en">stop/wait</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="tä+whǽ">tawhǽ</form>
+        <meaning xml:lang="en">go</meaning>
+    </word>
+    <word>
+        <form class="excl" pronunciation="ōh+wī">ohwy</form>
+        <meaning xml:lang="en">a surprised exclamation</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="wä+wā">wahwei</form>
+        <meaning xml:lang="en">surprising</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="rē">rie</form>
+        <meaning xml:lang="en">leave</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="kō+tī">kotai</form>
+        <meaning xml:lang="en">quit</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="rä+whǽ">rawhǽ</form>
+        <meaning xml:lang="en">shoo</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="hā">hae</form>
+        <meaning xml:lang="en">good</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="ah+ǽ">ahǽ</form>
+        <meaning xml:lang="en">pleasant</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="ē+hā">eehae</form>
+        <meaning xml:lang="en">great</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="ē+hớ">eehoi</form>
+        <meaning xml:lang="en">peaceful</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="hō+wǽ·ī">hohwǽ'ihy</form>
+        <meaning xml:lang="en">calm</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="hōē+tə">hoita</form>
+        <meaning xml:lang="en">relaxing</meaning>
+    </word>
+    <word>
+        <form class="pron.dem" pronunciation="ä+wā">awei</form>
+        <meaning xml:lang="en">something (this/that)</meaning>
+    </word>
+    <word>
+        <form class="pron.pers" pronunciation="ə+wā">uhwei</form>
+        <meaning xml:lang="en">he/she/they</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="än">ahn</form>
+        <meaning xml:lang="en">bad</meaning>
+    </word>
+    <word>
+        <form class="excl det" pronunciation="kō">koe</form>
+        <meaning xml:lang="en">no</meaning>
+    </word>
+    <word>
+        <form class="excl det" pronunciation="täw">taw</form>
+        <meaning xml:lang="en">yes</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="ī">iy</form>
+        <meaning xml:lang="en">scary</meaning>
+    </word>
+    <word>
+        <form class="adv" pronunciation="ē">ee</form>
+        <meaning xml:lang="en">very</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="ēn">een</form>
+        <meaning xml:lang="en">very bad / horrible</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="ē+yīh">eeyih</form>
+        <meaning xml:lang="en">very frightening</meaning>
+    </word>
+    <affix>
+        <form pronunciation="ä">a-</form>
+        <meaning xml:lang="en">somewhat/one</meaning>
+    </affix>
+    <word>
+        <form class="adv" pronunciation="ät">aht</form>
+        <meaning xml:lang="en">moderately</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="wä">wah</form>
+        <meaning xml:lang="en">different/strange</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="whǽ">whǽ</form>
+        <meaning xml:lang="en">go</meaning>
+    </word>
+</lexis>
