@@ -10,11 +10,15 @@ In 2015, the lexicons generated during this early development were combined into
 ##  Roadmap:  ##
 
 - !DEPRECIATED! : Base for THE SEVENSI LANGUAGES
-- PROTO-SEVENSI : Collection under common orthography and grammar
-- --  LANGUAGES SPLIT  --
-- FIRST-IN-DEVELOPMENT :
-    - DEV1PT : PROTO–SUB-BRANCH
-    - DEV1D1 : Grammatical standardization
-    - DEV1D2 : Phonological standardization
-    - DEV1RC : Release-canidate
-    - DEV1FI : Final release
+- VIV : Collection under common orthography and grammar
+- "Classical" :
+    - VIV : Regional variant
+    - X : Grammatical standardization
+    - XI : Phonological standardization
+    - XII : Release-candidate
+- "Vernacular" :
+    - XII : Slightly different tack from "Classical"
+    - XIII : Grammatical simplifications
+    - XIV : Release-candidate
+- "Modern" :
+    - XV : Release-canidate; final grammars and phonology
