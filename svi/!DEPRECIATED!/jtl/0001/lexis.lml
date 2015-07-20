@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="art-x-jtl-0001" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">JĀSTULÆ I</meta>
+    <meta name="description" xml:lang="en">The first version of JÄSTŪGEI contained only three words: a generic pro-form, <mention>stop</mention> (also, <mention>no</mention>), and <mention>go</mention> (also, <mention>yes</mention>). No formal grammar was ever developed.</meta>
+    <word>
+        <form class="pron">sā</form>
+        <meaning xml:lang="en">this/that/they/you/i</meaning>
+    </word>
+    <word>
+        <form class="v">doi</form>
+        <meaning xml:lang="en">go</meaning>
+    </word>
+    <word>
+        <form class="v">aht</form>
+        <meaning xml:lang="en">stop</meaning>
+    </word>
+</lexis>

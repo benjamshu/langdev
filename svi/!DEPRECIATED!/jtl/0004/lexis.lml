@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="art-x-jtl-0004" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">JĀSTULÆ IV</meta>
+    <meta name="description" xml:lang="en">Version IV of JÄSTŪGEI expands the lexicon of the third. The first four versions of JÄSTŪGEI were developed within a very short window of one another (possibly all on the same day) and can be taken as something of a unit. In version IV, pronunciations became muddled, and so are only approximated here. No formal grammar for this version of the language was developed.</meta>
+    <word>
+        <form class="n" pronunciation="/dɔtsi/">datsi</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">dāsoi</etymon>; in the <mention xml:lang="art-x-jtl-0004">da</mention> class of words, which refer to good things</etymology>
+        <meaning xml:lang="en">food</meaning>
+    </word>
+    <word>
+        <form class="n" pronunciation="dɔːsəʊ">dahsō</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">dāsoi</etymon>, <mention>food</mention>; in the <mention xml:lang="art-x-jtl-0004">da</mention> class of words, which refer to good things</etymology>
+        <meaning xml:lang="en">water; also used for other fluids</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="deɪhaɪ">daehi</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">dahi</etymon> with influence from <etymon xml:lang="art-x-jtl-0003">ōhi</etymon>, <mention>do</mention>; in the <mention xml:lang="art-x-jtl-0004">da</mention> class of words, which refer to good things</etymology>
+        <meaning xml:lang="en">alive</meaning>
+    </word>
+    <word>
+        <form class="excl" pronunciation="dəʊ">doh</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">do</etymon>; in the <mention xml:lang="art-x-jtl-0004">da</mention> class of words, which refer to good things</etymology>
+        <meaning xml:lang="en">yes</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="deɪt">daet</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">dā</etymon>; in the <mention xml:lang="art-x-jtl-0004">da</mention> class of words, which refer to good things</etymology>
+        <meaning xml:lang="en">good</meaning>
+    </word>
+    <word>
+        <form class="excl" pronunciation="taʊ">tau</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">ta</etymon>; in the <mention xml:lang="art-x-jtl-0004">ta</mention> class of words, which refer to bad things</etymology>
+        <meaning xml:lang="en">no</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="taʊhaɪ">tauhi</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">tehi</etymon> with influence from <etymon xml:lang="art-x-jtl-0003">ōhi</etymon>, <mention>do</mention>; in the <mention xml:lang="art-x-jtl-0004">ta</mention> class of words, which refer to bad things</etymology>
+        <meaning xml:lang="en">dead</meaning>
+    </word>
+    <word>
+        <form class="adj" pronunciation="taʊt">taut</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">tē</etymon>; in the <mention xml:lang="art-x-jtl-0004">ta</mention> class of words, which refer to bad things</etymology>
+        <meaning xml:lang="en">bad</meaning>
+    </word>
+    <word>
+        <form class="pron.dem" pronunciation="səʊ">sō</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="art-x-jtl-0004">say</mention> class of words, which refer to people and pronouns</etymology>
+        <meaning xml:lang="en">this/that</meaning>
+    </word>
+    <word>
+        <form class="n" pronunciation="seɪ">say</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="art-x-jtl-0004">say</mention> class of words, which refer to people and pronouns</etymology>
+        <meaning xml:lang="en">animal</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.3" pronunciation="si">sē</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="art-x-jtl-0004">say</mention> class of words, which refer to people and pronouns</etymology>
+        <meaning xml:lang="en">he/she/they</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.2" pronunciation="sɛd">sed</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="art-x-jtl-0004">say</mention> class of words, which refer to people and pronouns</etymology>
+        <meaning xml:lang="en">you</meaning>
+    </word>
+    <word>
+        <form class="pron.pers.1" pronunciation="saɪ">sī</form>
+        <etymology xml:lang="en">from III; in the <mention xml:lang="art-x-jtl-0004">say</mention> class of words, which refer to people and pronouns</etymology>
+        <meaning xml:lang="en">me</meaning>
+    </word>
+    <word>
+        <form class="n" pronunciation="seɪd">saed</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">sē</etymon>; in the <mention xml:lang="art-x-jtl-0004">say</mention> class of words, which refer to people and pronouns</etymology>
+        <meaning xml:lang="en">girl</meaning>
+    </word>
+    <word>
+        <form class="n" pronunciation="saʊt">saut</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">sē</etymon>; in the <mention xml:lang="art-x-jtl-0004">say</mention> class of words, which refer to people and pronouns</etymology>
+        <meaning xml:lang="en">boy</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="əʊhi">ōhē</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">ōhī</etymon>; in the <mention xml:lang="art-x-jtl-0004">ōhē</mention> class of words, which refer to life and actions</etymology>
+        <meaning xml:lang="en">do</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="dəʊ">doh</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">doi</etymon>; in the <mention xml:lang="art-x-jtl-0004">ōhē</mention> class of words, which refer to life and actions</etymology>
+        <meaning xml:lang="en">go</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="təʊʔi">tō'ē</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">toi</etymon>; in the <mention xml:lang="art-x-jtl-0004">ōhē</mention> class of words, which refer to life and actions</etymology>
+        <meaning xml:lang="en">stop</meaning>
+    </word>
+    <word>
+        <form class="n" pronunciation="haɪi">hie</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">hie</etymon>; in the <mention xml:lang="art-x-jtl-0004">ōhē</mention> class of words, which refer to life and actions</etymology>
+        <meaning xml:lang="en">life</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="əʊtsi">ōhtsi</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">ōhī</etymon> + <etymon xml:lang="art-x-jtl-0003">dāsoi</etymon>, <mention>do food</mention>; in the <mention xml:lang="art-x-jtl-0004">ōhē</mention> class of words, which refer to life and actions</etymology>
+        <meaning xml:lang="en">eat</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="əʊdsəʊ">ōdsō</form>
+        <etymology xml:lang="en">from III <etymon xml:lang="art-x-jtl-0003">ōhī</etymon> + <etymon xml:lang="art-x-jtl-0003">dāsoi</etymon>, <mention>do food</mention>; in the <mention xml:lang="art-x-jtl-0004">ōhē</mention> class of words, which refer to life and actions</etymology>
+        <meaning xml:lang="en">drink</meaning>
+    </word>
+</lexis>

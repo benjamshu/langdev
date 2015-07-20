@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="art-x-eho-0002" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">□2</meta>
+    <meta name="description" xml:lang="en">The second version of the e. hope language (one of THE 7C LANGUAGES)_</meta>
+    <word>
+        <form class="v" pronunciation="bä">ba</form>
+        <meaning xml:lang="en">do</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="ō">o</form>
+        <etymology>□1</etymology>
+        <meaning xml:lang="en">go</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="ū">uw</form>
+        <etymology>□1 <etymon xml:lang="art-x-eho-0001">o</etymon></etymology>
+        <meaning xml:lang="en">come</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="äh">ah</form>
+        <etymology>□1 <etymon xml:lang="art-x-eho-0001">aht</etymon></etymology>
+        <meaning xml:lang="en">wait</meaning>
+    </word>
+    <word>
+        <form class="v" pronunciation="ät">aat</form>
+        <etymology>□1 <etymon xml:lang="art-x-eho-0001">aht</etymon></etymology>
+        <meaning xml:lang="en">stay/stop</meaning>
+    </word>
+</lexis>
