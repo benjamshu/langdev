@@ -15,14 +15,14 @@
     <!--  Source tracking: -->
 
     <taggroup name="Source">
-        <tag xml:lang="en" value="lrx-5ver">Lrex 5</tag>
-        <tag xml:lang="en" value="lrx-6ver">Lrex 6</tag>
-        <tag xml:lang="en" value="jst-8ver">Jästūgay VIII</tag>
-        <tag xml:lang="en" value="jst-9ver">Jästūgei VIV</tag>
-        <tag xml:lang="en" value="eho-4ver">□ 4</tag>
+        <tag xml:lang="en" value="lrex-0005">Lrex 5</tag>
+        <tag xml:lang="en" value="lrx-0006">Lrex 6</tag>
+        <tag xml:lang="en" value="jst-0008">Jästūgay VIII</tag>
+        <tag xml:lang="en" value="jst-0009">Jästūgei VIV</tag>
+        <tag xml:lang="en" value="eho-0004">□ 4</tag>
     </taggroup>
 
-    <!--  From jst-8ver:  -->
+    <!--  From jst-0008:  -->
     <taggroup name="Nouns/Adjectives">
         <tag xml:lang="en" value="ppl">People</tag>
         <tag xml:lang="en" value="body">Body parts</tag>
