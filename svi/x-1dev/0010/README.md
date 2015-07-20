@@ -1,13 +1,13 @@
-#  SEVENSI FIRST-IN-DEVELOPMENT : FIRST DERIVATIVE  #
+#  SEVENSI FIRST-IN-DEVELOPMENT X  #
 
 The first level of evolution and abstraction from PROTO-SEVENSI; in which the grammars are formalized and the phonology is brought better under control.
 
-##  Changes from PROTO- and previous:  ##
+##  Changes from VIV and previous:  ##
 
 ###  gramatical gender and nasalization  ###
 
 In JÄSTŪGĀ/JÄSTŪGEI VIII, a nasalized *ā* sound was used to indicate feminine connotations in a small subset of words.
-These feminine connotations were reduced in VIV, and the nasalization was detached into a word-final *-ng*.
+These feminine connotations were largely removed in VIV, and the nasalization was detached into a word-final *-ng*.
 SEVENSI FIRST-IN-DEVELOPMENT lacks any grammatical gender and this nasalization pattern has expanded to other syllables.
 
 ###  splits and merges  ###
