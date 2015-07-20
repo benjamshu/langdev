@@ -7,7 +7,7 @@ Tags of the form `art-x-*-*ver` are no longer supported, use `art-x-*-000*` inst
 ##  Sevensi:  ##
 
 - `art-x-svi` : generic
-- ~~`art-x-svi-proto`~~ : PROTO-SEVENSI
+- ~~`art-x-svi-proto`~~ `art-x-svi-0009` : SEVENSI VIV (PROTO-SEVENSI)
 
 ###  lrex  ###
 
