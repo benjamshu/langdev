@@ -72,6 +72,10 @@
     <meta type="splash" xml:lang="en">Tagged!</meta>
     <meta type="splash" xml:lang="en">Sourced!</meta>
     <meta type="splash" xml:lang="en">#alt!</meta>
+    <meta type="splash" xml:lang="en">Alphanumeritizable!</meta>
+    <meta type="splash" xml:lang="en">Ordered!</meta>
+    <meta type="splash" xml:lang="en">Versioned!</meta>
+    <meta type="splash" xml:lang="en">Words!</meta>
 
     <!--  TAGS  -->
 
@@ -90,7 +94,7 @@
         <tag xml:lang="en" value="ppl">People</tag>
         <tag xml:lang="en" value="body">Body parts</tag>
         <tag xml:lang="en" value="cloth">Clothing</tag>
-        <tag xml:lang="en" value="biorhythms">Biorhythms</tag>
+        <tag xml:lang="en" value="bior">Biorhythms and body processes</tag>
         <tag xml:lang="en" value="sight">Sight</tag>
         <tag xml:lang="en" value="touch">Touch</tag>
         <tag xml:lang="en" value="taste">Taste</tag>
@@ -98,7 +102,7 @@
         <tag xml:lang="en" value="sound">Sound</tag>
         <tag xml:lang="en" value="emotn">Emotions and feelings</tag>
         <tag xml:lang="en" value="life">Life and death</tag>
-        <tag xml:lang="en" value="abstracts">Abstracts</tag>
+        <tag xml:lang="en" value="abs">Abstracts</tag>
         <tag xml:lang="en" value="lang">Language</tag>
         <tag xml:lang="en" value="time">Time</tag>
         <tag xml:lang="en" value="numbers">Numbers</tag>
@@ -388,6 +392,106 @@
         <lemma>사트새</lemma>
         <alt>sätausā</alt>
         <!--  meat; muscular; flesh  -->
+    </item>
+    <item src="words/샅해이.xml" tag="jst-0008 body">
+        <lemma>샅해이</lemma>
+        <alt>säthāi</alt>
+        <!--  placenta  -->
+    </item>
+    <item src="words/솣.xml" tag="jst-0008 body qualcon">
+        <lemma>솣</lemma>
+        <alt>sōj</alt>
+        <!--  tongue; talkative  -->
+    </item>
+    <item src="words/소채.xml" tag="jst-0008 body qualcon">
+        <lemma>소채</lemma>
+        <alt>sōjā</alt>
+        <!--  finger; long-fingered; slender object  -->
+    </item>
+    <item src="words/소머.xml" tag="jst-0008 body qualcon cloth">
+        <lemma>소머</lemma>
+        <alt>sōwuh</alt>
+        <!--  skin; naked; covering  -->
+    </item>
+    <item src="words/서호미.xml" tag="jst-0008 body art">
+        <lemma>서호미</lemma>
+        <alt>suhōwi</alt>
+        <!--  hand; artistic work  -->
+    </item>
+    <item src="words/서매.xml" tag="jst-0008 body const">
+        <lemma>서매</lemma>
+        <alt>suwā</alt>
+        <!--  arm  -->
+    </item>
+    <item src="words/재토무.xml" tag="jst-0008 body">
+        <lemma>재토무</lemma>
+        <alt>zhātōwū</alt>
+        <!--  vulva; vagina  -->
+    </item>
+    <item src="words/츼토.xml" tag="jst-0008 body">
+        <lemma>츼토</lemma>
+        <alt>joitō</alt>
+        <!--  penis  -->
+    </item>
+    <item src="words/좉시.xml" tag="jst-0008 body">
+        <lemma>좉시</lemma>
+        <alt>zhōtsi</alt>
+        <!--  mouth; opening  -->
+    </item>
+    <item src="words/우소토.xml" tag="jst-0008 cloth">
+        <lemma>우소토</lemma>
+        <alt>ūsōtō</alt>
+        <!--  pants  -->
+    </item>
+    <item src="words/다토소.xml" tag="jst-0008 cloth">
+        <lemma>다토소</lemma>
+        <alt>dätōsō</alt>
+        <!--  shoe  -->
+    </item>
+    <item src="words/도모다.xml" tag="jst-0008 cloth">
+        <lemma>도모다</lemma>
+        <alt>dōwōdä</alt>
+        <!--  shirt; covering  -->
+    </item>
+    <item src="words/더타대.xml" tag="jst-0008 cloth tool const">
+        <lemma>더타대</lemma>
+        <alt>dutädā</alt>
+        <!--  hat; lid  -->
+    </item>
+    <item src="words/치태더.xml" tag="jst-0008 cloth">
+        <lemma>치태더</lemma>
+        <alt>zhitāduh</alt>
+        <!--  masked; mask  -->
+    </item>
+    <item src="words/토대.xml" tag="jst-0008 cloth">
+        <lemma>토대</lemma>
+        <alt>tōdā</alt>
+        <!--  clothed; clothing  -->
+    </item>
+    <item src="words/대푸소.xml" tag="jst-0008 emotn bior">
+        <lemma>대푸소</lemma>
+        <alt>dāfūsō</alt>
+        <!--  thirsty; thirst  -->
+    </item>
+    <item src="words/도토가.xml" tag="jst-0008 emotn bior">
+        <lemma>도토가</lemma>
+        <alt>dōtōgä</alt>
+        <!--  tired; sleep  -->
+    </item>
+    <item src="words/초숱.xml" tag="jst-0008 bior submat">
+        <lemma>초숱</lemma>
+        <alt>zhōsūt</alt>
+        <!--  poop  -->
+    </item>
+    <item src="words/생지.xml" tag="jst-0008 bior submat">
+        <lemma>생지</lemma>
+        <alt>sāngzhi</alt>
+        <!--  menstruation; menses  -->
+    </item>
+    <item src="words/싵기.xml" tag="jst-0008 emotn bior">
+        <lemma>싵기</lemma>
+        <alt>sitgi</alt>
+        <!--  hungry; hunger  -->
     </item>
 
 </lexis>
