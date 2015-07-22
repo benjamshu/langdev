@@ -4,7 +4,7 @@ THE SEVENSI LANGUAGES get their title from the fact that they were initially dev
 *Highly* generative, they were my first attempt at a geographically- and culturally-independent language.
 Initial development took place from 2009-2012; you can find lexicons from this period in [the !DEPRECIATED! folder](!DEPRECIATED!).
 
-In 2015, the lexicons generated during this early development were combined into a new [SEVENSI VIV](0009), and development began anew.
+In 2015, the lexicons generated during this early development were combined into [SEVENSI VIV](0009), and development began anew.
 
 
 ##  Roadmap:  ##
