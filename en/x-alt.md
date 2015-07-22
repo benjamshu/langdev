@@ -7,6 +7,7 @@ words they *don't* teach you in school
 - **boi** : boy, but with redeeming aspects
 - **copulous** : _copious_ + _populous_; abundant to an impossible-to-ignore degree
 - **dude** : idiot boy who buys into dumb masculinity shit
+- **durnk** : _drunk_, only more drunk
 - **façbook** : facebook, as an institution or structure as opposed to a community or service
 - **🔥🚶** : (also _hotman_) somebody who's rly rad
 - **hungers** : _hungry_, only more endearing
