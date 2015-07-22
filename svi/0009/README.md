@@ -27,9 +27,9 @@ PROTO-SEVENSI uses korean hangul as its writing system. Some sounds have changed
 
 ### Finals: ###
 
-| s  | d  | hh | t  | l  | ng |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| ㅅ | ㄷ | ㅋ | ㅌ | ㄹ | ㅇ |
+| s  | d  | hh | t  | ds | l  | ng |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| ㅅ | ㄷ | ㅋ | ㅌ | ㅊ | ㄹ | ㅇ |
 
 ### Punctuation: ###
 
