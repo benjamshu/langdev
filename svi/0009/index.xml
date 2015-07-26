@@ -153,13 +153,13 @@
         <alt>eit</alt>
         <!--  virgin  -->
     </item>
-    <item src="words/테매앙.xml" tag="lrx-0006 life">
-        <lemma>테매앙</lemma>
+    <item src="words/테매엉.xml" tag="lrx-0006 life">
+        <lemma>테매엉</lemma>
         <alt>tëwāung</alt>
         <!--  alive; life  -->
     </item>
-    <item src="words/미타매.xml" tag="lrx-0006 foodr">
-        <lemma>미타매</lemma>
+    <item src="words/미터매.xml" tag="lrx-0006 foodr">
+        <lemma>미터매</lemma>
         <alt>wituwā</alt>
         <!--  refreshing; water  -->
     </item>
