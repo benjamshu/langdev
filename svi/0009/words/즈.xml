@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-0009">
-    <lemma>미타매</lemma>
+    <lemma>즈</lemma>
     <entry>
-        <etymology>lrx-0006</etymology>
+        <etymology>jst-0008</etymology>
         <section>
             <heading xml:lang="en">adjective</heading>
-            <def xml:lang="en">refreshing</def>
+            <def xml:lang="en">warmly coloured</def>
         </section>
         <section>
             <heading xml:lang="en">noun</heading>
-            <def xml:lang="en">water</def>
+            <def xml:lang="en">a warm colour</def>
         </section>
     </entry>
 </word>
