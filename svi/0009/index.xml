@@ -493,5 +493,121 @@
         <alt>sitgi</alt>
         <!--  hungry; hunger  -->
     </item>
+    <item src="words/괴페옽.xml" tag="jst-0008 qualcon sight">
+        <lemma>괴페웉</lemma>
+        <alt>giyfëūt</alt>
+        <!--  purple  -->
+    </item>
+    <item src="words/대히터.xml" tag="jst-0008 qualcon sight">
+        <lemma>대히터</lemma>
+        <alt>dāhituh</alt>
+        <!--  transparent; translucent; pure; faultless; unobscured; clear  -->
+    </item>
+    <item src="words/도외멭.xml" tag="jst-0008 qualcon sight">
+        <lemma>도외멭</lemma>
+        <alt>fōzi</alt>
+        <!--  brown  -->
+    </item>
+    <item src="words/포씨.xml" tag="jst-0008 qualcon sight">
+        <lemma>포씨</lemma>
+        <alt>fōzi</alt>
+        <!--  visible; vision  -->
+    </item>
+    <item src="words/회어.xml" tag="jst-0008 qualcon sight">
+        <lemma>회어</lemma>
+        <alt>hiyuh</alt>
+        <!--  green; vegitated  -->
+    </item>
+    <item src="words/회퍼.xml" tag="jst-0008 qualcon sight">
+        <lemma>회퍼</lemma>
+        <alt>hiyfuh</alt>
+        <!--  luminous; light  -->
+    </item>
+    <item src="words/츠티.xml" tag="jst-0008 qualcon sight">
+        <lemma>츠티</lemma>
+        <alt>jauti</alt>
+        <!--  blue  -->
+    </item>
+    <item src="words/믙.xml" tag="jst-0008 qualcon sight">
+        <lemma>믙</lemma>
+        <alt>waut</alt>
+        <!--  grey  -->
+    </item>
+    <item src="words/어트.xml" tag="jst-0008 qualcon sight">
+        <lemma>어트</lemma>
+        <alt>utau</alt>
+        <!--  dark; black  -->
+    </item>
+    <item src="words/즈.xml" tag="jst-0008 touch sight">
+        <lemma>즈</lemma>
+        <alt>zhau</alt>
+        <!--  warmly coloured  -->
+    </item>
+    <item src="words/쟁대.xml" tag="jst-0008 qualcon sight">
+        <lemma>쟁대</lemma>
+        <alt>zhāngdā</alt>
+        <!--  light; white  -->
+    </item>
+    <item src="words/호파시.xml" tag="jst-0008 qualcon touch ">
+        <lemma>호파시</lemma>
+        <alt>hōfäsi</alt>
+        <!--  sensitive; physical feeling  -->
+    </item>
+    <item src="words/턷쇠.xml" tag="jst-0008 touch emotn">
+        <lemma>턷쇠</lemma>
+        <alt>tudsiy</alt>
+        <!--  painful; pain  -->
+    </item>
+    <item src="words/대툍.xml" tag="jst-0008 qualcon taste">
+        <lemma>대툍</lemma>
+        <alt>dātiyt</alt>
+        <!--  sour; sourness  -->
+    </item>
+    <item src="words/도최도.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>도최도</lemma>
+        <alt>dōjiydō</alt>
+        <!--  sweet; sweetness; sugar  -->
+    </item>
+    <item src="words/초마셑.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>초마셑</lemma>
+        <alt>jōwäsët</alt>
+        <!--  salty; saltiness; salt  -->
+    </item>
+    <item src="words/브피.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>브피</lemma>
+        <alt>paufi</alt>
+        <alt>dātiyt</alt>
+        <!--  spicy; spiciness; spice  -->
+    </item>
+    <item src="words/소픠죄.xml" tag="jst-0008 qualcon taste">
+        <lemma>소픠죄</lemma>
+        <alt>sōfoizhiy</alt>
+        <!--  bitter; bitterness  -->
+    </item>
+    <item src="words/오최.xml" tag="jst-0008 qualcon smell">
+        <lemma>오최</lemma>
+        <alt>ōjiy</alt>
+        <!--  smelly; scent  -->
+    </item>
+    <item src="words/도바치.xml" tag="jst-0008 qualcon sound">
+        <lemma>도바치</lemma>
+        <alt>dōpäji</alt>
+        <!--  loud; noisy; rude; obnoxious; noise  -->
+    </item>
+    <item src="words/포주소.xml" tag="jst-0008 qualcon sound">
+        <lemma>포주소</lemma>
+        <alt>fōzhūsō</alt>
+        <!--  quiet; shy; modest; silence  -->
+    </item>
+    <item src="words/재배.xml" tag="jst-0008 sound">
+        <lemma>재배</lemma>
+        <alt>zhāpā</alt>
+        <!--  sound  -->
+    </item>
+    <item src="words/자새.xml" tag="jst-0008 sound lang">
+        <lemma>자새</lemma>
+        <alt>zhäsā</alt>
+        <!--  talkative; speech  -->
+    </item>
 
 </lexis>
