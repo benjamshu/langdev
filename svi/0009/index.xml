@@ -79,6 +79,7 @@
     <meta type="splash" xml:lang="en">Itemized!</meta>
     <meta type="splash" xml:lang="en">Hashtag!</meta>
     <meta type="splash" xml:lang="en">#galpals</meta>
+    <meta type="splash" xml:lang="en">Aliens!</meta>
 
     <!--  TAGS  -->
 
@@ -116,7 +117,7 @@
         <tag xml:lang="en" value="qualcon">Qualities and conditions</tag>
         <tag xml:lang="en" value="loc8n">Location</tag>
         <tag xml:lang="en" value="pron">Pronouns</tag>
-        <tag xml:lang="en" value="face">Facial expressions</tag>
+        <tag xml:lang="en" value="expr">Facial expressions</tag>
         <tag xml:lang="en" value="anim">Animals</tag>
         <tag xml:lang="en" value="plant">Plants</tag>
         <tag xml:lang="en" value="foodr">Food and drink</tag>
@@ -1212,6 +1213,201 @@
         <lemma>싙</lemma>
         <alt>soit</alt>
         <!--  male; masculinity  -->
+    </item>
+    <item src="words/팓.xml" tag="jst-0008 qualcon">
+        <lemma>팓</lemma>
+        <alt>fäd</alt>
+        <!--  hard; difficult; difficulty  -->
+    </item>
+    <item src="words/오푸.xml" tag="jst-0008 qualcon">
+        <lemma>오푸</lemma>
+        <alt>ōfū</alt>
+        <!--  soft; gentle  -->
+    </item>
+    <item src="words/킡.xml" tag="jst-0008 qualcon">
+        <lemma>킡</lemma>
+        <alt>hhoit</alt>
+        <!--  rough; tactless; unpolished; crude  -->
+    </item>
+    <item src="words/댓.xml" tag="jst-0008 qualcon">
+        <lemma>댓</lemma>
+        <alt>dās</alt>
+        <!--  smooth; tactful; polished; finished; tact  -->
+    </item>
+    <item src="words/조시.xml" tag="jst-0008 qualcon abs">
+        <lemma>조시</lemma>
+        <alt>zhōsi</alt>
+        <!--  hot; heat  -->
+    </item>
+    <item src="words/의탓.xml" tag="jst-0008 qualcon">
+        <lemma>의탓</lemma>
+        <alt>oitäs</alt>
+        <!--  cold  -->
+    </item>
+    <item src="words/키머.xml" tag="jst-0008 qualcon">
+        <lemma>키머</lemma>
+        <alt>hhiwuh</alt>
+        <!--  flexible; open  -->
+    </item>
+    <item src="words/줃소.xml" tag="jst-0008 qualcon abs">
+        <lemma>줃소</lemma>
+        <alt>zhūdsō</alt>
+        <!--  beautiful; beauty  -->
+    </item>
+    <item src="words/콭죄.xml" tag="jst-0008 qualcon abs">
+        <lemma>콭죄</lemma>
+        <alt>hhōtzhiy</alt>
+        <!--  ugly; undesirable  -->
+    </item>
+    <item src="words/대토미.xml" tag="jst-0008 expr">
+        <lemma>대토미</lemma>
+        <alt>dātōwi</alt>
+        <!--  smiling; smile  -->
+    </item>
+    <item src="words/조태.xml" tag="jst-0008 expr">
+        <lemma>조태</lemma>
+        <alt>zhōtā</alt>
+        <!--  frowning; frown  -->
+    </item>
+    <item src="words/더새토.xml" tag="jst-0008 sound lang expr">
+        <lemma>더새토</lemma>
+        <alt>dusātō</alt>
+        <!--  laughing; laughter  -->
+    </item>
+    <item src="words/도채.xml" tag="jst-0008 expr">
+        <lemma>도채</lemma>
+        <alt>dōjā</alt>
+        <!--  crying; tear  -->
+    </item>
+    <item src="words/대토소.xml" tag="jst-0008 anim">
+        <lemma>대토소</lemma>
+        <alt>dātōsō</alt>
+        <!--  wolf  -->
+    </item>
+    <item src="words/조조.xml" tag="jst-0008 anim">
+        <lemma>조조</lemma>
+        <alt>zhōzhō</alt>
+        <!--  frog  -->
+    </item>
+    <item src="words/조패.xml" tag="jst-0008 anim">
+        <lemma>조패</lemma>
+        <alt>zhōfā</alt>
+        <!--  snake  -->
+    </item>
+    <item src="words/그쇠.xml" tag="jst-0008 anim">
+        <lemma>그쇠</lemma>
+        <alt>gausiy</alt>
+        <!--  salamander  -->
+    </item>
+    <item src="words/고서.xml" tag="jst-0008 anim">
+        <lemma>고서</lemma>
+        <alt>gōsuh</alt>
+        <!--  bird  -->
+    </item>
+    <item src="words/호투시.xml" tag="jst-0008 anim qualcon">
+        <lemma>호투시</lemma>
+        <alt>hōtūsi</alt>
+        <!--  crab; withdrawn  -->
+    </item>
+    <item src="words/대잩.xml" tag="jst-0008 anim qualcon">
+        <lemma>대잩</lemma>
+        <alt>dāzhät</alt>
+        <!--  fish; reclusive  -->
+    </item>
+    <item src="words/타피.xml" tag="jst-0008 anim">
+        <lemma>타피</lemma>
+        <alt>täfi</alt>
+        <!--  insect  -->
+    </item>
+    <item src="words/대디.xml" tag="jst-0008 anim">
+        <lemma>대디</lemma>
+        <alt>dādi</alt>
+        <!--  hare; leporid  -->
+    </item>
+    <item src="words/개오.xml" tag="jst-0008 anim">
+        <lemma>개오</lemma>
+        <alt>gāō</alt>
+        <!--  small mammal  -->
+    </item>
+    <item src="words/타그.xml" tag="jst-0008 anim">
+        <lemma>타그</lemma>
+        <alt>tägau</alt>
+        <!--  mouse; rat  -->
+    </item>
+    <item src="words/도푀.xml" tag="jst-0008 anim">
+        <lemma>도푀</lemma>
+        <alt>dōfiy</alt>
+        <!--  bear  -->
+    </item>
+    <item src="words/샅수이.xml" tag="jst-0008 anim">
+        <lemma>샅수이</lemma>
+        <alt>sätsūi</alt>
+        <!--  deer  -->
+    </item>
+    <item src="words/다티.xml" tag="jst-0008 anim">
+        <lemma>다티</lemma>
+        <alt>zhäti</alt>
+        <!--  animal  -->
+    </item>
+    <item src="words/코피.xml" tag="jst-0008 anim">
+        <lemma>코피</lemma>
+        <alt>hhōfi</alt>
+        <!--  cow  -->
+    </item>
+    <item src="words/프씨.xml" tag="jst-0008 anim qualcon">
+        <lemma>프씨</lemma>
+        <alt>fauzi</alt>
+        <!--  pig; humble  -->
+    </item>
+    <item src="words/다지.xml" tag="jst-0008 anim qualcon">
+        <lemma>다지</lemma>
+        <alt>dätzhi</alt>
+        <!--  fox; swift; nimble; clever  -->
+    </item>
+    <item src="words/회앝.xml" tag="jst-0008 plant qualcon">
+        <lemma>회앝</lemma>
+        <alt>hiyät</alt>
+        <!--  vegetated; vegetation  -->
+    </item>
+    <item src="words/드죝.xml" tag="jst-0008 plant qualcon">
+        <lemma>드죝</lemma>
+        <alt>dauzhiyt</alt>
+        <!--  flowery; elaborate; decorated; flower  -->
+    </item>
+    <item src="words/오푀.xml" tag="jst-0008 plant qualcon">
+        <lemma>오푀</lemma>
+        <alt>ōfiy</alt>
+        <!--  bush; complex; chaotic; overgrown  -->
+    </item>
+    <item src="words/도퇴앝.xml" tag="jst-0008 plant qualcon">
+        <lemma>도퇴앝</lemma>
+        <alt>dōtiyät</alt>
+        <!--  forested; tree  -->
+    </item>
+    <item src="words/외오태.xml" tag="jst-0008 plant qualcon ppl">
+        <lemma>외오태</lemma>
+        <alt>iyōtā</alt>
+        <!--  sprout; new; fresh  -->
+    </item>
+    <item src="words/싵.xml" tag="jst-0008 foodr qualcon">
+        <lemma>싵</lemma>
+        <alt>sit</alt>
+        <!--  edible; food  -->
+    </item>
+    <item src="words/회피.xml" tag="jst-0008 foodr">
+        <lemma>회피</lemma>
+        <alt>hiyfi</alt>
+        <!--  vegetable  -->
+    </item>
+    <item src="words/새피.xml" tag="jst-0008 foodr">
+        <lemma>새피</lemma>
+        <alt>sāfi</alt>
+        <!--  meat  -->
+    </item>
+    <item src="words/퇻피.xml" tag="jst-0008 foodr">
+        <lemma>퇻피</lemma>
+        <alt>tiydfi</alt>
+        <!--  fruit  -->
     </item>
 
 </lexis>
