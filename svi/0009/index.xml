@@ -609,5 +609,180 @@
         <alt>zhäsā</alt>
         <!--  talkative; speech  -->
     </item>
+    <item src="words/보마.xml" tag="jst-0008 sound art">
+        <lemma>보마</lemma>
+        <alt>pōwä</alt>
+        <!--  music; piece of music; melodic; musical  -->
+    </item>
+    <item src="words/재오.xml" tag="jst-0008 emotn">
+        <lemma>재오</lemma>
+        <alt>zhāō</alt>
+        <!--  emotion; emotional  -->
+    </item>
+    <item src="words/도대.xml" tag="jst-0008 emotn qualcon">
+        <lemma>도대</lemma>
+        <alt>dōdā</alt>
+        <!--  happy; happiness  -->
+    </item>
+    <item src="words/토배.xml" tag="jst-0008 emotn qualcon">
+        <lemma>토배</lemma>
+        <alt>tōpā</alt>
+        <!--  angry; anger  -->
+    </item>
+    <item src="words/킈포.xml" tag="jst-0008 emotn qualcon">
+        <lemma>킈포</lemma>
+        <alt>hhoifō</alt>
+        <!--  sad; sadness  -->
+    </item>
+    <item src="words/호타초.xml" tag="jst-0008 emotn qualcon">
+        <lemma>호타초</lemma>
+        <alt>hōtäjō</alt>
+        <!--  frustrated; frustration  -->
+    </item>
+    <item src="words/호죋.xml" tag="jst-0008 emotn qualcon">
+        <lemma>호죋</lemma>
+        <alt>hōzhiyd</alt>
+        <!--  loving; love  -->
+    </item>
+    <item src="words/추맹도새.xml" tag="jst-0008 emotn qualcon">
+        <lemma>추맹도새</lemma>
+        <alt>jūwāngdōsā</alt>
+        <!--  awe; awed  -->
+    </item>
+    <item src="words/모매.xml" tag="jst-0008 emotn qualcon">
+        <lemma>모매</lemma>
+        <alt>wōwā</alt>
+        <!--  calm; peaceful; peacefulness  -->
+    </item>
+    <item src="words/즈처.xml" tag="jst-0008 emotn qualcon">
+        <lemma>즈처</lemma>
+        <alt>zhaujuh</alt>
+        <!--  passionate; passion  -->
+    </item>
+    <item src="words/대오시.xml" tag="jst-0008 emotn qualcon">
+        <lemma>대오시</lemma>
+        <alt>dāōsi</alt>
+        <!--  excited; excitement  -->
+    </item>
+    <item src="words/하미.xml" tag="jst-0008 life qualcon">
+        <lemma>하미</lemma>
+        <alt>häwi</alt>
+        <!--  alive; life  -->
+    </item>
+    <item src="words/해.xml" tag="jst-0008 abs qualcon">
+        <lemma>해</lemma>
+        <alt>hā</alt>
+        <!--  energized; energy  -->
+    </item>
+    <item src="words/파이.xml" tag="jst-0008 life qualcon">
+        <lemma>파이</lemma>
+        <alt>fäi</alt>
+        <!--  dead; death  -->
+    </item>
+    <item src="words/갘미.xml" tag="jst-0008 life qualcon">
+        <lemma>갘미</lemma>
+        <alt>dähhwi</alt>
+        <!--  health; healthy  -->
+    </item>
+    <item src="words/타키.xml" tag="jst-0008 life qualcon">
+        <lemma>타키</lemma>
+        <alt>tähhi</alt>
+        <!--  dying  -->
+    </item>
+    <item src="words/아티.xml" tag="jst-0008 life qualcon">
+        <lemma>아티</lemma>
+        <alt>äti</alt>
+        <!--  sick; sickness  -->
+    </item>
+    <item src="words/펟소.xml" tag="jst-0008 life qualcon">
+        <lemma>펟소</lemma>
+        <alt>fëdsō</alt>
+        <!--  injured; injury  -->
+    </item>
+    <item src="words/초.xml" tag="jst-0008 abs qualcon">
+        <lemma>초</lemma>
+        <alt>jō</alt>
+        <!--  moral; accurate; true; correct  -->
+    </item>
+    <item src="words/자포.xml" tag="jst-0008 abs qualcon">
+        <lemma>자포</lemma>
+        <alt>zhäfō</alt>
+        <!--  immoral; inacurate; false; incorrect  -->
+    </item>
+    <item src="words/다포.xml" tag="jst-0008 abs qualcon">
+        <lemma>다포</lemma>
+        <alt>däfō</alt>
+        <!--  knowledgable; knowledge  -->
+    </item>
+    <item src="words/츠퍼.xml" tag="jst-0008 abs qualcon">
+        <lemma>츠퍼</lemma>
+        <alt>jaufuh</alt>
+        <!--  powerful; power  -->
+    </item>
+    <item src="words/소주맏.xml" tag="jst-0008 abs qualcon">
+        <lemma>소주맏</lemma>
+        <alt>sōzhūwäd</alt>
+        <!--  beautiful; beauty  -->
+    </item>
+    <item src="words/호시.xml" tag="jst-0008 abs qualcon">
+        <lemma>호시</lemma>
+        <alt>hōsi</alt>
+        <!--  trusting; trust  -->
+    </item>
+    <item src="words/대그머.xml" tag="jst-0008 abs qualcon">
+        <lemma>대그머</lemma>
+        <alt>dāgauwuh</alt>
+        <!--  hopeful; hope  -->
+    </item>
+    <item src="words/토줕새.xml" tag="jst-0008 lang dist qualcon">
+        <lemma>토줕새</lemma>
+        <alt>tōzhūtsā</alt>
+        <!--  brief; word  -->
+    </item>
+    <item src="words/도재토.xml" tag="jst-0008 lang abs qualcon">
+        <lemma>도재토</lemma>
+        <alt>dōzhātō</alt>
+        <!--  purposeful; meaningful; statement  -->
+    </item>
+    <item src="words/빁.xml" tag="jst-0008 time qualcon">
+        <lemma>빁</lemma>
+        <alt>poit</alt>
+        <!--  momentary; moment; time  -->
+    </item>
+    <item src="words/희버.xml" tag="jst-0008 time">
+        <lemma>희버</lemma>
+        <alt>hoipuh</alt>
+        <!--  midday; day; diurnal  -->
+    </item>
+    <item src="words/쟁재.xml" tag="jst-0008 time">
+        <lemma>쟁재</lemma>
+        <alt>zhāngzhā</alt>
+        <!--  nighttime; night; nocturnal  -->
+    </item>
+    <item src="words/애대.xml" tag="jst-0008 time">
+        <lemma>애대</lemma>
+        <alt>ādā</alt>
+        <!--  month; monthly  -->
+    </item>
+    <item src="words/도피터.xml" tag="jst-0008 time">
+        <lemma>도피터</lemma>
+        <alt>dōfiytuh</alt>
+        <!--  morning  -->
+    </item>
+    <item src="words/퍼모퍼.xml" tag="jst-0008 time life qualcon">
+        <lemma>퍼모퍼</lemma>
+        <alt>fuwōfuh</alt>
+        <!--  evening  -->
+    </item>
+    <item src="words/서픠.xml" tag="jst-0008 time">
+        <lemma>서픠</lemma>
+        <alt>supoi</alt>
+        <!--  current; presently  -->
+    </item>
+    <item src="words/즽.xml" tag="jst-0008 time">
+        <lemma>즽</lemma>
+        <alt>zhoit</alt>
+        <!--  future  -->
+    </item>
 
 </lexis>
