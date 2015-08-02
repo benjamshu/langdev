@@ -76,6 +76,9 @@
     <meta type="splash" xml:lang="en">Ordered!</meta>
     <meta type="splash" xml:lang="en">Versioned!</meta>
     <meta type="splash" xml:lang="en">Words!</meta>
+    <meta type="splash" xml:lang="en">Itemized!</meta>
+    <meta type="splash" xml:lang="en">Hashtag!</meta>
+    <meta type="splash" xml:lang="en">#galpals</meta>
 
     <!--  TAGS  -->
 
@@ -791,11 +794,12 @@
         <alt>pusä</alt>
         <!--  past  -->
     </item>
-    <item src="words/조.xml" tag="jst-0008 # qualcon">
+    <item src="words/조.xml" tag="jst-0008 # qualcon pron">
         <lemma>조</lemma>
         <alt>zhō</alt>
         <alt>1</alt>
         <!--  first; one  -->
+        <!--  medial demonstrative  -->
     </item>
     <item src="words/못.xml" tag="jst-0008 # qualcon">
         <lemma>못</lemma>
@@ -988,6 +992,226 @@
         <lemma>탱</lemma>
         <alt>tāng</alt>
         <!--  autumn  -->
+    </item>
+    <item src="words/외오태회어.xml" tag="jst-0008 name">
+        <lemma>외오태회어</lemma>
+        <alt>iyōtāhiyuh</alt>
+        <!--  chloe  -->
+    </item>
+    <item src="words/외오태회어.xml" tag="jst-0008 name">
+        <lemma>외오</lemma>
+        <alt>iyō</alt>
+        <!--  chloe  -->
+    </item>
+    <item src="words/대.xml" tag="jst-0008 qualcon">
+        <lemma>대</lemma>
+        <alt>dā</alt>
+        <!--  quick; nimble; clever; speed  -->
+    </item>
+    <item src="words/턷.xml" tag="jst-0008 qualcon">
+        <lemma>턷</lemma>
+        <alt>tūd</alt>
+        <!--  slow; sloth  -->
+    </item>
+    <item src="words/초파.xml" tag="jst-0008 qualcon">
+        <lemma>초파</lemma>
+        <alt>jōfä</alt>
+        <!--  grand; great  -->
+    </item>
+    <item src="words/포무.xml" tag="jst-0008 qualcon">
+        <lemma>포무</lemma>
+        <alt>fōwū</alt>
+        <!--  small; unimportant  -->
+    </item>
+    <item src="words/고바.xml" tag="jst-0008 qualcon">
+        <lemma>고바</lemma>
+        <alt>gōpä</alt>
+        <!--  strong; strength  -->
+    </item>
+    <item src="words/타무.xml" tag="jst-0008 qualcon">
+        <lemma>타무</lemma>
+        <alt>täwū</alt>
+        <!--  weak; weakness  -->
+    </item>
+    <item src="words/대베.xml" tag="jst-0008 qualcon">
+        <lemma>대베</lemma>
+        <alt>dāpë</alt>
+        <!--  good  -->
+    </item>
+    <item src="words/탵.xml" tag="jst-0008 qualcon">
+        <lemma>탵</lemma>
+        <alt>tāt</alt>
+        <!--  bad  -->
+    </item>
+    <item src="words/므머.xml" tag="jst-0008 qualcon">
+        <lemma>므머</lemma>
+        <alt>wauwuh</alt>
+        <!--  wise; wisdonm  -->
+    </item>
+    <item src="words/대터조.xml" tag="jst-0008 qualcon">
+        <lemma>대터조</lemma>
+        <alt>dātäzhō</alt>
+        <!--  stupid  -->
+    </item>
+    <item src="words/타조.xml" tag="jst-0008 qualcon">
+        <lemma>타조</lemma>
+        <alt>täzhō</alt>
+        <!--  foolish  -->
+    </item>
+    <item src="words/토탴호.xml" tag="jst-0008 qualcon">
+        <lemma>토탴호</lemma>
+        <alt>tōtāhhho</alt>
+        <!--  hardworking; determined; determination  -->
+    </item>
+    <item src="words/툳푸.xml" tag="jst-0008 qualcon">
+        <lemma>툳푸</lemma>
+        <alt>tūdfū</alt>
+        <!--  lazy  -->
+    </item>
+    <item src="words/앜노.xml" tag="jst-0008 qualcon lang">
+        <lemma>앜노</lemma>
+        <alt>ähhmō</alt>
+        <!--  sharp; harsh; direct  -->
+    </item>
+    <item src="words/캐소.xml" tag="jst-0008 qualcon loc8n">
+        <lemma>캐소</lemma>
+        <alt>hhāsō</alt>
+        <!--  front; leading  -->
+    </item>
+    <item src="words/서사.xml" tag="jst-0008 qualcon loc8n">
+        <lemma>서사</lemma>
+        <alt>susä</alt>
+        <!--  back; trailing  -->
+    </item>
+    <item src="words/퇴핻.xml" tag="jst-0008 loc8n">
+        <lemma>퇴핻</lemma>
+        <alt>tiyhād</alt>
+        <!--  side  -->
+    </item>
+    <item src="words/되터.xml" tag="jst-0008 loc8n">
+        <lemma>되터</lemma>
+        <alt>diytuh</alt>
+        <!--  top  -->
+    </item>
+    <item src="words/의서.xml" tag="jst-0008 loc8n">
+        <lemma>의서</lemma>
+        <alt>oisuh</alt>
+        <!--  bottom  -->
+    </item>
+    <item src="words/뵈.xml" tag="jst-0008 loc8n">
+        <lemma>뵈</lemma>
+        <alt>piy</alt>
+        <!--  right  -->
+    </item>
+    <item src="words/되.xml" tag="jst-0008 loc8n">
+        <lemma>되</lemma>
+        <alt>diy</alt>
+        <!--  left  -->
+    </item>
+    <item src="words/자토.xml" tag="jst-0008 loc8n qualcon abs">
+        <lemma>자토</lemma>
+        <alt>zhätō</alt>
+        <!--  near; relevant  -->
+    </item>
+    <item src="words/소초.xml" tag="jst-0008 loc8n qualcon abs">
+        <lemma>소초</lemma>
+        <alt>sōjō</alt>
+        <!--  far; irrelevant  -->
+    </item>
+    <item src="words/죄.xml" tag="jst-0008 pron">
+        <lemma>죄</lemma>
+        <alt>zhiy</alt>
+        <!--  first person pronoun  -->
+    </item>
+    <item src="words/어맫.xml" tag="jst-0008 pron">
+        <lemma>어맫</lemma>
+        <alt>uwād</alt>
+        <!--  second person pronoun  -->
+    </item>
+    <item src="words/애.xml" tag="jst-0008 pron">
+        <lemma>애</lemma>
+        <alt>ā</alt>
+        <!--  animate third person pronoun  -->
+    </item>
+    <item src="words/졷.xml" tag="jst-0008 pron">
+        <lemma>졷</lemma>
+        <alt>zhōd</alt>
+        <!--  inanimate third person pronoun  -->
+    </item>
+    <item src="words/섵.xml" tag="jst-0008 pron">
+        <lemma>섵</lemma>
+        <alt>sut</alt>
+        <!--  proximal demonstrative  -->
+    </item>
+    <item src="words/소.xml" tag="jst-0008 pron">
+        <lemma>소</lemma>
+        <alt>sū</alt>
+        <!--  distal demonstrative  -->
+    </item>
+    <item src="words/터회.xml" tag="jst-0008 pron">
+        <lemma>터회</lemma>
+        <alt>suhiy</alt>
+        <!--  proximal locational pronoun  -->
+    </item>
+    <item src="words/도쇠.xml" tag="jst-0008 pron">
+        <lemma>도쇠</lemma>
+        <alt>dōsiy</alt>
+        <!--  medial locational pronoun  -->
+    </item>
+    <item src="words/섿.xml" tag="jst-0008 pron">
+        <lemma>섿</lemma>
+        <alt>sëd</alt>
+        <!--  distal locational pronoun  -->
+    </item>
+    <item src="words/푀.xml" tag="jst-0008 pron">
+        <lemma>푀</lemma>
+        <alt>fiy</alt>
+        <!--  animate interrogative pronoun  -->
+    </item>
+    <item src="words/퐅.xml" tag="jst-0008 pron">
+        <lemma>퐅</lemma>
+        <alt>fōt</alt>
+        <!--  inanimate interrogative pronoun  -->
+    </item>
+    <item src="words/대짙.xml" tag="jst-0008 life">
+        <lemma>대짙</lemma>
+        <alt>dāzhit</alt>
+        <!--  starving; starvation  -->
+    </item>
+    <item src="words/오대소.xml" tag="jst-0008 life">
+        <lemma>오대소</lemma>
+        <alt>ōdāsō</alt>
+        <!--  thirst; thirsty  -->
+    </item>
+    <item src="words/도탓패.xml" tag="jst-0008 life">
+        <lemma>도탓패</lemma>
+        <alt>dōtäsfā</alt>
+        <!--  exhausted; exhaustion  -->
+    </item>
+    <item src="words/으터.xml" tag="jst-0008 qualcon">
+        <lemma>으터</lemma>
+        <alt>autuh</alt>
+        <!--  broken  -->
+    </item>
+    <item src="words/토마.xml" tag="jst-0008 life dist">
+        <lemma>토마</lemma>
+        <alt>tūwä</alt>
+        <!--  old; aged; age  -->
+    </item>
+    <item src="words/오탣.xml" tag="jst-0008 life">
+        <lemma>오탣</lemma>
+        <alt>ōtād</alt>
+        <!--  young; youth  -->
+    </item>
+    <item src="words/앵.xml" tag="jst-0008 qualcon ppl">
+        <lemma>앵</lemma>
+        <alt>āng</alt>
+        <!--  female; femininity  -->
+    </item>
+    <item src="words/싙.xml" tag="jst-0008 qualcon ppl">
+        <lemma>싙</lemma>
+        <alt>soit</alt>
+        <!--  male; masculinity  -->
     </item>
 
 </lexis>
