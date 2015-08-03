@@ -109,7 +109,7 @@
         <tag xml:lang="en" value="abs">Abstracts</tag>
         <tag xml:lang="en" value="lang">Language</tag>
         <tag xml:lang="en" value="time">Time</tag>
-        <tag xml:lang="en" value="#">Numbers</tag>
+        <tag xml:lang="en" value="quant">Numbers and quantity</tag>
         <tag xml:lang="en" value="submat">Substances/materials</tag>
         <tag xml:lang="en" value="easky">Earth and sky</tag>
         <tag xml:lang="en" value="natoc">Natural occurances</tag>
@@ -620,10 +620,11 @@
         <alt>pōwä</alt>
         <!--  music; piece of music; melodic; musical  -->
     </item>
-    <item src="words/재오.xml" tag="jst-0008 emotn">
+    <item src="words/재오.xml" tag="jst-0008 emotn sound art inst">
         <lemma>재오</lemma>
         <alt>zhāō</alt>
         <!--  emotion; emotional  -->
+        <!--  orchestral; string  -->
     </item>
     <item src="words/도대.xml" tag="jst-0008 emotn qualcon">
         <lemma>도대</lemma>
@@ -795,50 +796,50 @@
         <alt>pusä</alt>
         <!--  past  -->
     </item>
-    <item src="words/조.xml" tag="jst-0008 # qualcon pron">
+    <item src="words/조.xml" tag="jst-0008 quant qualcon pron">
         <lemma>조</lemma>
         <alt>zhō</alt>
         <alt>1</alt>
         <!--  first; one  -->
         <!--  medial demonstrative  -->
     </item>
-    <item src="words/못.xml" tag="jst-0008 # qualcon">
+    <item src="words/못.xml" tag="jst-0008 quant qualcon">
         <lemma>못</lemma>
         <alt>wōs</alt>
         <alt>2</alt>
         <!--  second; two  -->
     </item>
-    <item src="words/고추.xml" tag="jst-0008 # qualcon">
+    <item src="words/고추.xml" tag="jst-0008 quant qualcon">
         <lemma>고추</lemma>
         <alt>gōjū</alt>
         <alt>3</alt>
         <!--  third; three  -->
     </item>
-    <item src="words/자패.xml" tag="jst-0008 # qualcon">
+    <item src="words/자패.xml" tag="jst-0008 quant qualcon">
         <lemma>자패</lemma>
         <alt>zhäfā</alt>
         <alt>4</alt>
         <!--  fourth; four  -->
     </item>
-    <item src="words/맽.xml" tag="jst-0008 # qualcon">
+    <item src="words/맽.xml" tag="jst-0008 quant qualcon">
         <lemma>맽</lemma>
         <alt>wāt</alt>
         <alt>5</alt>
         <!--  fifth; five  -->
     </item>
-    <item src="words/소보.xml" tag="jst-0008 # qualcon">
+    <item src="words/소보.xml" tag="jst-0008 quant qualcon">
         <lemma>소보</lemma>
         <alt>sōpō</alt>
         <alt>6</alt>
         <!--  sixth; six  -->
     </item>
-    <item src="words/챁.xml" tag="jst-0008 # qualcon">
+    <item src="words/챁.xml" tag="jst-0008 quant qualcon">
         <lemma>챁</lemma>
         <alt>jät</alt>
         <alt>7</alt>
         <!--  seventh; seven  -->
     </item>
-    <item src="words/생토.xml" tag="jst-0008 # qualcon">
+    <item src="words/생토.xml" tag="jst-0008 quant qualcon">
         <lemma>생토</lemma>
         <alt>sāngtō</alt>
         <alt>8</alt>
@@ -1408,6 +1409,212 @@
         <lemma>퇻피</lemma>
         <alt>tiydfi</alt>
         <!--  fruit  -->
+    </item>
+    <item src="words/포태시.xml" tag="jst-0008 foodr">
+        <lemma>포태시</lemma>
+        <alt>fōtāsi</alt>
+        <!--  rice  -->
+    </item>
+    <item src="words/대쿁서.xml" tag="jst-0008 foodr">
+        <lemma>대쿁서</lemma>
+        <alt>dāhhiytsuh</alt>
+        <!--  apple  -->
+    </item>
+    <item src="words/댇새.xml" tag="jst-0008 foodr">
+        <lemma>댇새</lemma>
+        <alt>dādsā</alt>
+        <!--  citrus  -->
+    </item>
+    <item src="words/토푀시.xml" tag="jst-0008 foodr">
+        <lemma>토푀시</lemma>
+        <alt>tōfiytsi</alt>
+        <!--  compound berry  -->
+    </item>
+    <item src="words/옫새오.xml" tag="jst-0008 foodr qualcon">
+        <lemma>옫새오</lemma>
+        <alt>ōdsāō</alt>
+        <!--  alcoholic; alcohol  -->
+    </item>
+    <item src="words/트매.xml" tag="jst-0008 tool">
+        <lemma>트매</lemma>
+        <alt>tauwā</alt>
+        <!--  weapon  -->
+    </item>
+    <item src="words/오뫼.xml" tag="jst-0008 tool qualcon">
+        <lemma>오뫼</lemma>
+        <alt>ōwiy</alt>
+        <!--  sharp; blade  -->
+    </item>
+    <item src="words/거쇠.xml" tag="jst-0008 tool">
+        <lemma>거쇠</lemma>
+        <alt>gusiy</alt>
+        <!--  spear  -->
+    </item>
+    <item src="words/으푙.xml" tag="jst-0008 tool">
+        <lemma>으푙</lemma>
+        <alt>aufiyt</alt>
+        <!--  knife  -->
+    </item>
+    <item src="words/호퍼도.xml" tag="jst-0008 tool">
+        <lemma>호퍼도</lemma>
+        <alt>hōfädō</alt>
+        <!--  wheel  -->
+    </item>
+    <item src="words/호팯소.xml" tag="jst-0008 tool const">
+        <lemma>호팯소</lemma>
+        <alt>hōfādsō</alt>
+        <!--  wheeled cart  -->
+    </item>
+    <item src="words/돝쇠토.xml" tag="jst-0008 tool">
+        <lemma>돝쇠토</lemma>
+        <alt>dōtsiytō</alt>
+        <!--  pot  -->
+    </item>
+    <item src="words/다짙시.xml" tag="jst-0008 jwlry">
+        <lemma>다짙시</lemma>
+        <alt>däzhitsi</alt>
+        <!--  necklace  -->
+    </item>
+    <item src="words/서딭새.xml" tag="jst-0008 jwlry">
+        <lemma>서딭새</lemma>
+        <alt>suditsā</alt>
+        <!--  bracelet  -->
+    </item>
+    <item src="words/오묕시.xml" tag="jst-0008 jwlry">
+        <lemma>오묕시</lemma>
+        <alt>ōwiytsi</alt>
+        <!--  body piercing  -->
+    </item>
+    <item src="words/채소터.xml" tag="jst-0008 inst sound art">
+        <lemma>채소터</lemma>
+        <alt>jāsōtuh</alt>
+        <!--  drum; percussive  -->
+    </item>
+    <item src="words/도매.xml" tag="jst-0008 inst sound art">
+        <lemma>도매</lemma>
+        <alt>dōwā</alt>
+        <!--  flute  -->
+    </item>
+    <item src="words/오잿.xml" tag="jst-0008 submat">
+        <lemma>오잿</lemma>
+        <alt>ōzhās</alt>
+        <!--  dirt; dirty  -->
+    </item>
+    <item src="words/토조.xml" tag="jst-0008 submat tool">
+        <lemma>토조</lemma>
+        <alt>tōzhō</alt>
+        <!--  cloth  -->
+        <!--  mapped; map  -->
+    </item>
+    <item src="words/소수티.xml" tag="jst-0008 submat">
+        <lemma>소수티</lemma>
+        <alt>sōsūti</alt>
+        <!--  leather  -->
+    </item>
+    <item src="words/줃.xml" tag="jst-0008 qualcon">
+        <lemma>줃</lemma>
+        <alt>zhūd</alt>
+        <!--  fine; okay; acceptable  -->
+    </item>
+    <item src="words/읕피.xml" tag="jst-0008 qualcon">
+        <lemma>읕피</lemma>
+        <alt>autfi</alt>
+        <!--  dangerous; danger  -->
+    </item>
+    <item src="words/배조.xml" tag="jst-0008 loc8n qualcon">
+        <lemma>배조</lemma>
+        <alt>pāzhō</alt>
+        <!--  initial; beginning; start  -->
+    </item>
+    <item src="words/잩조.xml" tag="jst-0008 loc8n qualcon">
+        <lemma>잩조</lemma>
+        <alt>zhätsō</alt>
+        <!--  terminal; finish; end  -->
+    </item>
+    <item src="words/자태조.xml" tag="jst-0008 quant">
+        <lemma>자태조</lemma>
+        <alt>zhätāzhō</alt>
+        <!--  more; greater  -->
+    </item>
+    <item src="words/듯.xml" tag="jst-0008 quant">
+        <lemma>듯</lemma>
+        <alt>daus</alt>
+        <!--  less; lesser  -->
+    </item>
+    <item src="words/읒.xml" tag="jst-0008 pron">
+        <lemma>읒</lemma>
+        <alt>aust</alt>
+        <!--  another  -->
+    </item>
+    <item src="words/두마.xml" tag="jst-0008 const">
+        <lemma>두마</lemma>
+        <alt>dūwä</alt>
+        <!--  room  -->
+    </item>
+    <item src="words/두맽사.xml" tag="jst-0008 const">
+        <lemma>두맽사</lemma>
+        <alt>dūwātsä</alt>
+        <!--  city  -->
+    </item>
+    <item src="words/대조.xml" tag="jst-0008 art">
+        <lemma>대조</lemma>
+        <alt>dāzhō</alt>
+        <!--  story; narrative  -->
+    </item>
+    <item src="words/퐅초.xml" tag="jst-0008 dist">
+        <lemma>퐅초</lemma>
+        <alt>fōtjō</alt>
+        <!--  long; length  -->
+    </item>
+    <item src="words/팤싴.xml" tag="jst-0008 art lang">
+        <lemma>팤싴</lemma>
+        <alt>fähhsihh</alt>
+        <!--  draft  -->
+    </item>
+    <item src="words/매듸저.xml" tag="jst-0008 lang">
+        <lemma>매듸저</lemma>
+        <alt>wādoizhuh</alt>
+        <!--  name  -->
+    </item>
+    <item src="words/두.xml" tag="jst-0008 yn">
+        <lemma>두</lemma>
+        <alt>dū</alt>
+        <!--  yea  -->
+    </item>
+    <item src="words/포.xml" tag="jst-0008 yn">
+        <lemma>포</lemma>
+        <alt>fō</alt>
+        <!--  nay  -->
+    </item>
+    <item src="words/패.xml" tag="jst-0008 conj">
+        <lemma>패</lemma>
+        <alt>fā</alt>
+        <!--  for; because  -->
+    </item>
+    <item src="words/드.xml" tag="jst-0008 conj">
+        <lemma>드</lemma>
+        <alt>dau</alt>
+        <!--  just as… so  -->
+    </item>
+    <item src="words/XX.xml" tag="jst-0008 conj">
+        <lemma>옫</lemma>
+        <alt>ōd</alt>
+        <!--  yet; although  -->
+    </item>
+    <item src="words/오.xml" tag="jst-0008 conj">
+        <lemma>오</lemma>
+        <alt>ō</alt>
+        <!--  but  -->
+    </item>
+    <item src="words/시.xml" tag="jst-0008 conj">
+        <lemma>시</lemma>
+        <alt>si</alt>
+        <!--  so  -->
+    </item>
+    <item src="words/믜.xml" tag="jst-0008 conj">
+        <lemma>믜</lemma>
+        <alt>woi</alt>
+        <!--  and  -->
     </item>
 
 </lexis>
