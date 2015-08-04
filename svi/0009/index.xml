@@ -80,6 +80,7 @@
     <meta type="splash" xml:lang="en">Hashtag!</meta>
     <meta type="splash" xml:lang="en">#galpals</meta>
     <meta type="splash" xml:lang="en">Aliens!</meta>
+    <meta type="splash" xml:lang="en">Feature Complete!</meta>
 
     <!--  TAGS  -->
 
@@ -128,6 +129,7 @@
         <tag xml:lang="en" value="dist">Distance and measure</tag>
         <tag xml:lang="en" value="art">Art and culture</tag>
         <tag xml:lang="en" value="group">Groups and organizations</tag>
+        <tag xml:lang="en" value="actn">Actions and activities</tag>
     </taggroup>
     <taggroup name="Grammatical words">
         <tag xml:lang="en" value="yn">Yes and no</tag>
@@ -138,6 +140,7 @@
         <tag xml:lang="en" value="article">Articles</tag>
         <tag xml:lang="en" value="intrj">Interjections</tag>
         <tag xml:lang="en" value="adp">Adpositions</tag>
+        <tag xml:lang="en" value="cla">Classifiers</tag>
     </taggroup>
     <tag xml:lang="en" value="verb">Verbs</tag>
 
@@ -2092,6 +2095,106 @@
         <lemma>새도</lemma>
         <alt>sādō</alt>
         <!--  bring  -->
+    </item>
+    <item src="words/쾨호.xml" tag="jst-0008 name">
+        <lemma>쾨호</lemma>
+        <alt>hhiyhō</alt>
+        <!--  light  -->
+    </item>
+    <item src="words/대토.xml" tag="jst-0008 body">
+        <lemma>대토</lemma>
+        <alt>dātō</alt>
+        <!--  wing  -->
+    </item>
+    <item src="words/태으풑.xml" tag="jst-0008 body">
+        <lemma>태으풑</lemma>
+        <alt>tāaufūt</alt>
+        <!--  feather  -->
+    </item>
+    <item src="words/태파.xml" tag="jst-0008 name">
+        <lemma>태파</lemma>
+        <alt>tāfä</alt>
+        <!--  feather  -->
+    </item>
+    <item src="words/도파.xml" tag="jst-0008 qualcon dist">
+        <lemma>도파</lemma>
+        <alt>dōfuh</alt>
+        <!--  tall; high; height  -->
+    </item>
+    <item src="words/카툇.xml" tag="jst-0008 emotn qualcon">
+        <lemma>자툇</lemma>
+        <alt>zhätiys</alt>
+        <!--  empathy; empathetic; condolences  -->
+    </item>
+    <item src="words/퍁처대.xml" tag="jst-0008 verb">
+        <lemma>퍁처대</lemma>
+        <alt>fātjudā</alt>
+        <!--  concern; mind  -->
+    </item>
+    <item src="words/스더.xml" tag="jst-0008 verb">
+        <lemma>스더</lemma>
+        <alt>sauduh</alt>
+        <!--  exchange  -->
+    </item>
+    <item src="words/조프.xml" tag="jst-0008 abs">
+        <lemma>조프</lemma>
+        <alt>zhōfau</alt>
+        <!--  valuable; value  -->
+    </item>
+    <item src="words/조읏.xml" tag="jst-0008 verb">
+        <lemma>조읏</lemma>
+        <alt>zhōaus</alt>
+        <!--  appreciate  -->
+    </item>
+    <item src="words/태.xml" tag="jst-0008 ppl">
+        <lemma>태</lemma>
+        <alt>tā</alt>
+        <!--  honorific  -->
+    </item>
+    <item src="words/트포.xml" tag="jst-0008 pron abs">
+        <lemma>트포</lemma>
+        <alt>taufō</alt>
+        <!--  nothing  -->
+    </item>
+    <item src="words/틔즈.xml" tag="jst-0008 pron abs">
+        <lemma>틔즈</lemma>
+        <alt>toizhau</alt>
+        <!--  everything; all  -->
+    </item>
+    <item src="words/므.xml" tag="jst-0008 conj">
+        <lemma>므</lemma>
+        <alt>wau</alt>
+        <!--  to  -->
+    </item>
+    <item src="words/트닼.xml" tag="jst-0008 verb life">
+        <lemma>트닼</lemma>
+        <alt>tōdähh</alt>
+        <!--  live  -->
+    </item>
+    <item src="words/엌못.xml" tag="jst-0008 verb sight lang">
+        <lemma>엌못</lemma>
+        <alt>uhhwōs</alt>
+        <!--  show; present  -->
+    </item>
+    <item src="words/조쇠.xml" tag="jst-0008 cla">
+        <lemma>조쇠</lemma>
+        <alt>zhōsiy</alt>
+        <!--  generic classifier  -->
+    </item>
+    <item src="words/자퍼.xml" tag="jst-0008 qualcon abs">
+        <lemma>자퍼</lemma>
+        <alt>zhäfuh</alt>
+        <!--  partitioned; fragmented; thing; piece  -->
+    </item>
+    <item src="words/오매쿠에.xml" tag="jst-0008 actn">
+        <lemma>오매쿠에</lemma>
+        <alt>ōwāhhūë</alt>
+        <!--  practiced; practice  -->
+    </item>
+    <item src="words/톸호.xml" tag="jst-0008 ppl qualcon">
+        <lemma>톸호</lemma>
+        <alt>tōhhhō</alt>
+        <!--  studious; student  -->
     </item>
 
 </lexis>
