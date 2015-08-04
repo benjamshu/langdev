@@ -1156,10 +1156,11 @@
         <alt>suhiy</alt>
         <!--  proximal locational pronoun  -->
     </item>
-    <item src="words/도쇠.xml" tag="jst-0008 pron">
+    <item src="words/도쇠.xml" tag="jst-0008 pron verb">
         <lemma>도쇠</lemma>
         <alt>dōsiy</alt>
         <!--  medial locational pronoun  -->
+        <!--  arrive (at)  -->
     </item>
     <item src="words/섿.xml" tag="jst-0008 pron">
         <lemma>섿</lemma>
@@ -1381,7 +1382,7 @@
         <alt>ōfiy</alt>
         <!--  bush; complex; chaotic; overgrown  -->
     </item>
-    <item src="words/도퇴앝.xml" tag="jst-0008 plant qualcon">
+    <item src="words/도퇴앝.xml" tag="jst-0008 plant easky qualcon">
         <lemma>도퇴앝</lemma>
         <alt>dōtiyät</alt>
         <!--  forested; tree  -->
@@ -1826,6 +1827,271 @@
         <lemma>으히</lemma>
         <alt>auhi</alt>
         <!--  destroy  -->
+    </item>
+    <item src="words/드섵.xml" tag="jst-0008 verb">
+        <lemma>드섵</lemma>
+        <alt>dausut</alt>
+        <!--  give  -->
+    </item>
+    <item src="words/대오소.xml" tag="jst-0008 verb">
+        <lemma>대오소</lemma>
+        <alt>dāōsō</alt>
+        <!--  take  -->
+    </item>
+    <item src="words/도회.xml" tag="jst-0008 verb">
+        <lemma>도회</lemma>
+        <alt>dōhiy</alt>
+        <!--  have  -->
+    </item>
+    <item src="words/트소.xml" tag="jst-0008 verb">
+        <lemma>트소</lemma>
+        <alt>tausō</alt>
+        <!--  want  -->
+    </item>
+    <item src="words/다샡.xml" tag="jst-0008 verb">
+        <lemma>다샡</lemma>
+        <alt>däsāt</alt>
+        <!--  need  -->
+    </item>
+    <item src="words/더도마.xml" tag="jst-0008 verb">
+        <lemma>더도마</lemma>
+        <alt>dudōwä</alt>
+        <!--  grow  -->
+    </item>
+    <item src="words/오서.xml" tag="jst-0008 verb">
+        <lemma>오서</lemma>
+        <alt>ōsuh</alt>
+        <!--  use  -->
+    </item>
+    <item src="words/재소.xml" tag="jst-0008 verb touch">
+        <lemma>재소</lemma>
+        <alt>zhāsō</alt>
+        <!--  touch; feel  -->
+    </item>
+    <item src="words/차새토.xml" tag="jst-0008 verb lang">
+        <lemma>차새토</lemma>
+        <alt>jäsātō</alt>
+        <!--  speak  -->
+    </item>
+    <item src="words/도토마.xml" tag="jst-0008 verb bior">
+        <lemma>도토마</lemma>
+        <alt>dōtōwä</alt>
+        <!--  sleep  -->
+    </item>
+    <item src="words/호모시.xml" tag="jst-0008 verb sight">
+        <lemma>호모시</lemma>
+        <alt>hōwōsi</alt>
+        <!--  see  -->
+    </item>
+    <item src="words/도맽.xml" tag="jst-0008 verb">
+        <lemma>도맽</lemma>
+        <alt>dōwāt</alt>
+        <!--  mix  -->
+    </item>
+    <item src="words/토토.xml" tag="jst-0008 verb">
+        <lemma>토토</lemma>
+        <alt>tōtō</alt>
+        <!--  enable  -->
+    </item>
+    <item src="words/드태오.xml" tag="jst-0008 verb">
+        <lemma>드태오</lemma>
+        <alt>dautāō</alt>
+        <!--  fly  -->
+    </item>
+    <item src="words/다욷.xml" tag="jst-0008 verb">
+        <lemma>다욷</lemma>
+        <alt>däūd</alt>
+        <!--  grab  -->
+    </item>
+    <item src="words/포애소.xml" tag="jst-0008 verb">
+        <lemma>포애소</lemma>
+        <alt>fōāsō</alt>
+        <!--  drop  -->
+    </item>
+    <item src="words/이드퇴.xml" tag="jst-0008 verb">
+        <lemma>이드퇴</lemma>
+        <alt>idautiy</alt>
+        <!--  attack  -->
+    </item>
+    <item src="words/아틋.xml" tag="jst-0008 verb emotn life">
+        <lemma>아틋</lemma>
+        <alt>ätaus</alt>
+        <!--  hurt  -->
+    </item>
+    <item src="words/쇠태.xml" tag="jst-0008 verb">
+        <lemma>쇠태</lemma>
+        <alt>siytā</alt>
+        <!--  punch  -->
+    </item>
+    <item src="words/시퇴.xml" tag="jst-0008 verb">
+        <lemma>시퇴</lemma>
+        <alt>sitiy</alt>
+        <!--  kick  -->
+    </item>
+    <item src="words/토태.xml" tag="jst-0008 verb">
+        <lemma>토태</lemma>
+        <alt>tōtā</alt>
+        <!--  depart (from)  -->
+    </item>
+    <item src="words/코머티.xml" tag="jst-0008 verb life">
+        <lemma>코머티</lemma>
+        <alt>hhōwuti</alt>
+        <!--  kill  -->
+    </item>
+    <item src="words/되태조.xml" tag="jst-0008 verb">
+        <lemma>되태조</lemma>
+        <alt>diytāzhō</alt>
+        <!--  raise  -->
+    </item>
+    <item src="words/퍁초소.xml" tag="jst-0008 verb">
+        <lemma>퍁초소</lemma>
+        <alt>fātjōsō</alt>
+        <!--  draw (in)  -->
+    </item>
+    <item src="words/퍼타소.xml" tag="jst-0008 verb art">
+        <lemma>퍼타소</lemma>
+        <alt>futäsō</alt>
+        <!--  draw; illustrate  -->
+    </item>
+    <item src="words/드도.xml" tag="jst-0008 verb">
+        <lemma>드도</lemma>
+        <alt>daudō</alt>
+        <!--  pull  -->
+    </item>
+    <item src="words/죄즈.xml" tag="jst-0008 qualcon">
+        <lemma>죄즈</lemma>
+        <alt>zhiyzhau</alt>
+        <!--  together; collected  -->
+    </item>
+    <item src="words/보.xml" tag="jst-0008 conj">
+        <lemma>보</lemma>
+        <alt>pō</alt>
+        <!--  while  -->
+    </item>
+    <item src="words/잨소.xml" tag="jst-0008 name">
+        <lemma>잨소</lemma>
+        <alt>zhähhsō</alt>
+        <!--  "sharp beauty"  -->
+    </item>
+    <item src="words/대버.xml" tag="jst-0008 const easky">
+        <lemma>대버</lemma>
+        <alt>dāhhuh</alt>
+        <!--  house; habitat  -->
+    </item>
+    <item src="words/새빝.xml" tag="jst-0008 const">
+        <lemma>새빝</lemma>
+        <alt>sāhhit</alt>
+        <!--  store; grocery  -->
+    </item>
+    <item src="words/바토.xml" tag="jst-0008 ppl">
+        <lemma>바토</lemma>
+        <alt>pätō</alt>
+        <!--  father  -->
+    </item>
+    <item src="words/외조.xml" tag="jst-0008 verb">
+        <lemma>외조</lemma>
+        <alt>iyzhō</alt>
+        <!--  meet  -->
+    </item>
+    <item src="words/드커.xml" tag="jst-0008 const">
+        <lemma>드커</lemma>
+        <alt>dauhhuh</alt>
+        <!--  brothel  -->
+    </item>
+    <item src="words/자새투애.xml" tag="jst-0008 name">
+        <lemma>자새투애</lemma>
+        <alt>zhäsātūā</alt>
+        <!--  "heard by the spirits"  -->
+    </item>
+    <item src="words/자새투애.xml" tag="jst-0008 name">
+        <lemma>자새</lemma>
+        <alt>zhäsā</alt>
+        <!--  "heard by the spirits"  -->
+    </item>
+    <item src="words/그토.xml" tag="jst-0008 ppl">
+        <lemma>그토</lemma>
+        <alt>gautō</alt>
+        <!--  prostitute  -->
+    </item>
+    <item src="words/톸포.xml" tag="jst-0008 verb">
+        <lemma>톸포</lemma>
+        <alt>tōhhfō</alt>
+        <!--  fuck  -->
+    </item>
+    <item src="words/다우펕.xml" tag="jst-0008 dist">
+        <lemma>다우펕</lemma>
+        <alt>däūfut</alt>
+        <!--  portion  -->
+    </item>
+    <item src="words/트저.xml" tag="jst-0008 lang">
+        <lemma>트저</lemma>
+        <alt>tauzhuh</alt>
+        <!--  syllable  -->
+    </item>
+    <item src="words/도커.xml" tag="jst-0008 qualcon lang">
+        <lemma>도커</lemma>
+        <alt>dōwuh</alt>
+        <!--  roman; romanized; romanization  -->
+    </item>
+    <item src="words/사외패.xml" tag="jst-0008 verb">
+        <lemma>사외패</lemma>
+        <alt>säiyfā</alt>
+        <!--  move  -->
+    </item>
+    <item src="words/쇠패두매.xml" tag="jst-0008 const tool">
+        <lemma>쇠패두매</lemma>
+        <alt>siyfādūwā</alt>
+        <!--  bus  -->
+    </item>
+    <item src="words/해미옷.xml" tag="jst-0008 verb">
+        <lemma>해미옷</lemma>
+        <alt>hāwiōs</alt>
+        <!--  hunt  -->
+    </item>
+    <item src="words/아모.xml" tag="jst-0008 verb lang">
+        <lemma>아모</lemma>
+        <alt>äwō</alt>
+        <!--  ask  -->
+    </item>
+    <item src="words/다우.xml" tag="jst-0008 verb">
+        <lemma>다우</lemma>
+        <alt>däū</alt>
+        <!--  break up  -->
+    </item>
+    <item src="words/으애오.xml" tag="jst-0008 verb">
+        <lemma>으애오</lemma>
+        <alt>auāō</alt>
+        <!--  detail  -->
+    </item>
+    <item src="words/읔.xml" tag="jst-0008 adp">
+        <lemma>읔</lemma>
+        <alt>auhh</alt>
+        <!--  for  -->
+    </item>
+    <item src="words/채소.xml" tag="jst-0008 name">
+        <lemma>채소</lemma>
+        <alt>jāsō</alt>
+        <!--  "is felt"  -->
+    </item>
+    <item src="words/어태오.xml" tag="jst-0008 verb">
+        <lemma>어태오</lemma>
+        <alt>utāō</alt>
+        <!--  storm  -->
+    </item>
+    <item src="words/투.xml" tag="jst-0008 verb">
+        <lemma>투</lemma>
+        <alt>tū</alt>
+        <!--  like  -->
+    </item>
+    <item src="words/태긋.xml" tag="jst-0008 verb">
+        <lemma>태긋</lemma>
+        <alt>tāgaus</alt>
+        <!--  mean; intend  -->
+    </item>
+    <item src="words/새도.xml" tag="jst-0008 verb">
+        <lemma>새도</lemma>
+        <alt>sādō</alt>
+        <!--  bring  -->
     </item>
 
 </lexis>
