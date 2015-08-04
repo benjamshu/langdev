@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-0009">
-    <lemma>도쇠</lemma>
-    <entry>
-        <etymology>jst-0008</etymology>
-        <section>
-            <heading xml:lang="en">pronoun</heading>
-            <def xml:lang="en">medial locational pronoun</def>
-        </section>
-    </entry>
+    <lemma>시퇴</lemma>
     <entry>
         <etymology>jst-0008</etymology>
         <section>
             <heading xml:lang="en">verb</heading>
-            <def xml:lang="en">arrive (at)</def>
+            <def xml:lang="en">kick</def>
         </section>
     </entry>
 </word>
