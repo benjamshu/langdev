@@ -27,9 +27,9 @@ SEVENSI VIV uses korean hangul as its writing system. Some sounds have changed t
 
 ### Finals: ###
 
-| s  | d  | hh | t  | ds | l  | ng |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| ㅅ | ㄷ | ㅋ | ㅌ | ㅊ | ㄹ | ㅇ |
+| s  | d  | hh | t  | ds | st | l  | ng |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| ㅅ | ㄷ | ㅋ | ㅌ | ㅊ | ㅈ | ㄹ | ㅇ |
 
 ### Punctuation: ###
 
