@@ -12,16 +12,16 @@ SEVENSI FIRST-IN-DEVELOPMENT lacks any grammatical gender and this nasalization 
 
 ###  splits and merges  ###
 
-The sounds *m* and *w* have merged, recorded with the letter *ㅁ*.
-Some instances of *m* have instead split off as a new consonant, *n* which retains the traditional letter (*ㄴ*).
+The sound \*m has shifted to /n/ in many cases.
+The sounds \*z and \*zh have merged as /ʑ/, while \*j has shifted to /dʑ/.
+\*f has been voiced in many cases and merged with /v/.
+Some instances of \*t have split off as /ɾ/.
+This remains /l/ in the word-final position, and is sometimes pronounced /tl/ in the middle of words.
 
-The sounds *z* and *zh* have merged as /ʑ/, recorded with the letter *ㅈ*.
-*j* has shifted to /dʑ/, retaining its orthography.
+The consonants \*g, \*d, \*p, \*j now have voiced, unvoiced, and aspirated forms.
+\*h has largely been dropped, while \*x has been devoiced in many instances as /h/.
 
-*v* has been devoiced and merged orthographically with *f* under *ㅍ*.
-
-Some instances of *t* have split off as *r*, recored with *ㄹ*.
-This remains *l* in the word-final position, and is sometimes pronounced /tl/ in the middle of words.
+The vowel \*au has evolved to /ɒ/.
 
 ###  codas  ###
 
@@ -29,6 +29,7 @@ Syllable codas may now include any letter in the orthography.
 Note that *ㅇ*, normally null, represents *ng* in the coda.
 Syllable codas are limited to a single letter, with the exception of *ㄹ*, which may be followed another in some circumstances.
 (This comes from *ㄹ*'s original purpose as an affix-separator.)
+In word-final compound codas, the second letter is not pronounced.
 
 ## Orthography: ##
 
