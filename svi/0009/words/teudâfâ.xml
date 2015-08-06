@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-0009">
-    <lemma>토텓</lemma>
+    <lemma>*teudâfâ</lemma>
     <entry>
         <etymology>jst-0008</etymology>
         <section>
             <heading xml:lang="en">adjective</heading>
-            <def xml:lang="en">childish</def>
+            <def xml:lang="en">exhibiting age and wisdom</def>
         </section>
         <section>
             <heading xml:lang="en">noun</heading>
-            <def xml:lang="en">a younger child</def>
+            <def xml:lang="en">an elder</def>
         </section>
     </entry>
 </word>
