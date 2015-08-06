@@ -81,6 +81,7 @@
     <meta type="splash" xml:lang="en">#galpals</meta>
     <meta type="splash" xml:lang="en">Aliens!</meta>
     <meta type="splash" xml:lang="en">Feature Complete!</meta>
+    <meta type="splash" xml:lang="en">Dia-critical!</meta>
 
     <!--  TAGS  -->
 
@@ -144,74 +145,60 @@
     <tag xml:lang="en" value="verb">Verbs</tag>
 
     <!--  ENTRIES  -->
-    <item src="words/대핱소.xml" tag="jst-0009 ppl qualcon">
-        <lemma>대핱소</lemma>
-        <alt>dāhätsō</alt>
+    <item src="words/deihâtsô.xml" tag="jst-0009 ppl qualcon">
+        <lemma>*deihâtsô</lemma>
         <!--  collector; sentimental  -->
     </item>
-    <item src="words/대탇.xml" tag="jst-0009 ppl qualcon">
-        <lemma>대탇</lemma>
-        <alt>dātäd</alt>
+    <item src="words/deitâd.xml" tag="jst-0009 ppl qualcon">
+        <lemma>*deitâd</lemma>
         <!--  friendly; friend  -->
     </item>
-    <item src="words/앹.xml" tag="jst-0009 ppl">
-        <lemma>앹</lemma>
-        <alt>eit</alt>
+    <item src="words/eit.xml" tag="jst-0009 ppl">
+        <lemma>*eit</lemma>
         <!--  virgin  -->
     </item>
-    <item src="words/테매엉.xml" tag="lrx-0006 life">
-        <lemma>테매엉</lemma>
-        <alt>tëwāung</alt>
+    <item src="words/têweiûn.xml" tag="lrx-0006 life">
+        <lemma>*têweiûn</lemma>
         <!--  alive; life  -->
     </item>
-    <item src="words/미터매.xml" tag="lrx-0006 foodr">
-        <lemma>미터매</lemma>
-        <alt>wituwā</alt>
+    <item src="words/wîtûwei.xml" tag="lrx-0006 foodr">
+        <lemma>*wîtûwei</lemma>
         <!--  refreshing; water  -->
     </item>
-    <item src="words/미구.xml" tag="lrx-0006 foodr">
-        <lemma>미구</lemma>
-        <alt>wigū</alt>
+    <item src="words/wîgeu.xml" tag="lrx-0006 foodr">
+        <lemma>*wîgeu</lemma>
         <!--  filling; food  -->
     </item>
-    <item src="words/테고.xml" tag="lrx-0006 life">
-        <lemma>테고</lemma>
-        <alt>tëgō</alt>
+    <item src="words/têgô.xml" tag="lrx-0006 life">
+        <lemma>*têgô</lemma>
         <!--  dying; death  -->
     </item>
-    <item src="words/앋캐.xml" tag="lrex-0005 qualcon">
-        <lemma>앋캐</lemma>
-        <alt>ädhhā</alt>
+    <item src="words/âdxei.xml" tag="lrex-0005 qualcon">
+        <lemma>*âdxei</lemma>
         <!--  pleasant; pleasantry  -->
     </item>
-    <item src="words/커텡.xml" tag="lrex-0005 emotn">
-        <lemma>커텡</lemma>
-        <alt>hhuëng</alt>
+    <item src="words/xûên.xml" tag="lrex-0005 emotn">
+        <lemma>*xûên</lemma>
         <!--  relaxing; relaxation  -->
     </item>
-    <item src="words/엥커.xml" tag="lrex-0005 emotn">
-        <lemma>엥커</lemma>
-        <alt>ënghhu</alt>
+    <item src="words/ênxeu.xml" tag="lrex-0005 emotn">
+        <lemma>*ênxeu</lemma>
         <!--  peaceful; peace  -->
     </item>
-    <item src="words/거태.xml" tag="lrex-0005 verb">
-        <lemma>거태</lemma>
-        <alt>guttā</alt>
+    <item src="words/gûttei.xml" tag="lrex-0005 verb">
+        <lemma>*gûttei</lemma>
         <!--  quit; give up  -->
     </item>
-    <item src="words/마내.xml" tag="lrex-0005 emotn">
-        <lemma>마내</lemma>
-        <alt>wämā</alt>
+    <item src="words/wâmei.xml" tag="lrex-0005 emotn">
+        <lemma>*wâmei</lemma>
         <!--  surprising; surprise  -->
     </item>
-    <item src="words/엍.xml" tag="eho-0004 qualcon">
-        <lemma>엍</lemma>
-        <alt>ut</alt>
+    <item src="words/ût.xml" tag="eho-0004 qualcon">
+        <lemma>*ût</lemma>
         <!--  quick; speed  -->
     </item>
-    <item src="words/옹.xml" tag="eho-0004 emotn">
-        <lemma>옹</lemma>
-        <alt>ōng</alt>
+    <item src="words/ôn.xml" tag="eho-0004 emotn">
+        <lemma>*ôn</lemma>
         <!--  careful; caution  -->
     </item>
     <item src="words/도고탣.xml" tag="jst-0008 ppl">
