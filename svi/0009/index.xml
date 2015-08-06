@@ -295,132 +295,106 @@
     </item>
     <item src="words/dôfîtxai.xml" tag="jst-0008 body">
         <lemma>*dôfîtxai</lemma>
-        <alt>dōfithhiy</alt>
         <!--  hip  -->
     </item>
-    <item src="words/도마키.xml" tag="jst-0008 body qualcon loc8n">
-        <lemma>도마키</lemma>
-        <alt>dōwähhiy</alt>
+    <item src="words/dôwâxai.xml" tag="jst-0008 body qualcon loc8n">
+        <lemma>*dôwâxai</lemma>
         <!--  heart; central; integral  -->
     </item>
-    <item src="words/에댕.xml" tag="jst-0008 body cloth">
-        <lemma>에댕</lemma>
-        <alt>ädāng</alt>
+    <item src="words/âdein.xml" tag="jst-0008 body cloth">
+        <lemma>*âdein</lemma>
         <!--  boob  -->
     </item>
-    <item src="words/해도쇠.xml" tag="jst-0008 body ppl">
-        <lemma>해도쇠</lemma>
-        <alt>hādōsō</alt>
+    <item src="words/heidôsai.xml" tag="jst-0008 body ppl">
+        <lemma>*heidôsai</lemma>
         <!--  eye; visual-learner  -->
     </item>
-    <item src="words/해도소.xml" tag="jst-0008 body submat">
-        <lemma>해도소</lemma>
-        <alt>hādōsō</alt>
+    <item src="words/heidôsô.xml" tag="jst-0008 body submat">
+        <lemma>*heidôsô</lemma>
         <!--  bloody; blood; bloodshed  -->
     </item>
-    <item src="words/캐포히.xml" tag="jst-0008 body qualcon">
-        <lemma>캐포히</lemma>
-        <alt>hhāfōhiy</alt>
+    <item src="words/xeifôhai.xml" tag="jst-0008 body qualcon">
+        <lemma>*xeifôhai</lemma>
         <!--  chest; torso; core  -->
     </item>
-    <item src="words/해숱매.xml" tag="jst-0008 body qualcon cloth">
-        <lemma>해숱매</lemma>
-        <alt>hāsūtwā</alt>
+    <item src="words/heiseutwei.xml" tag="jst-0008 body qualcon cloth">
+        <lemma>*heiseutwei</lemma>
         <!--  shoulder; on the edge  -->
     </item>
-    <item src="words/호토.xml" tag="jst-0008 body qualcon">
-        <lemma>호토</lemma>
-        <alt>hōtō</alt>
+    <item src="words/hôtô.xml" tag="jst-0008 body qualcon">
+        <lemma>*hôtô</lemma>
         <!--  hair; hairy  -->
     </item>
-    <item src="words/호배초.xml" tag="jst-0008 body qualcon loc8n">
-        <lemma>호배초</lemma>
-        <alt>hōpājō</alt>
+    <item src="words/hôpeijô.xml" tag="jst-0008 body qualcon loc8n">
+        <lemma>*hôpeijô</lemma>
         <!--  foot; start; base  -->
     </item>
-    <item src="words/호부새토.xml" tag="jst-0008 body">
-        <lemma>호부새토</lemma>
-        <alt>hōpūsātō</alt>
+    <item src="words/hôpeuseitô.xml" tag="jst-0008 body">
+        <lemma>*hôpeuseitô</lemma>
         <!--  lung; respiratory  -->
     </item>
-    <item src="words/코수앧.xml" tag="jst-0008 body const">
-        <lemma>코수앧</lemma>
-        <alt>hhōsūād</alt>
+    <item src="words/xôseueid.xml" tag="jst-0008 body const">
+        <lemma>*xôseueid</lemma>
         <!--  bone; bony; frame; support  -->
     </item>
-    <item src="words/오묕피.xml" tag="jst-0008 body">
-        <lemma>오묕피</lemma>
-        <alt>ōwiytfi</alt>
+    <item src="words/ôwaitfî.xml" tag="jst-0008 body">
+        <lemma>*ôwaitfî</lemma>
         <!--  tooth; toothy; toothed  -->
     </item>
-    <item src="words/새토.xml" tag="jst-0008 body const">
-        <lemma>새토</lemma>
-        <alt>sātō</alt>
+    <item src="words/seitô.xml" tag="jst-0008 body const">
+        <lemma>*seitô</lemma>
         <!--  leg; limbed; support  -->
     </item>
-    <item src="words/사트새.xml" tag="jst-0008 body qualcon foodr">
-        <lemma>사트새</lemma>
-        <alt>sätausā</alt>
+    <item src="words/sâtausei.xml" tag="jst-0008 body qualcon foodr">
+        <lemma>*sâtausei</lemma>
         <!--  meat; muscular; flesh  -->
     </item>
-    <item src="words/샅해이.xml" tag="jst-0008 body">
-        <lemma>샅해이</lemma>
-        <alt>säthāi</alt>
+    <item src="words/sâtheiî.xml" tag="jst-0008 body">
+        <lemma>*sâtheiî</lemma>
         <!--  placenta  -->
     </item>
-    <item src="words/솣.xml" tag="jst-0008 body qualcon">
-        <lemma>솣</lemma>
-        <alt>sōj</alt>
+    <item src="words/sôds.xml" tag="jst-0008 body qualcon">
+        <lemma>*sôds</lemma>
         <!--  tongue; talkative  -->
     </item>
-    <item src="words/소채.xml" tag="jst-0008 body qualcon">
-        <lemma>소채</lemma>
-        <alt>sōjā</alt>
+    <item src="words/sôjei.xml" tag="jst-0008 body qualcon">
+        <lemma>*sôjei</lemma>
         <!--  finger; long-fingered; slender object  -->
     </item>
-    <item src="words/소머.xml" tag="jst-0008 body qualcon cloth">
-        <lemma>소머</lemma>
-        <alt>sōwuh</alt>
+    <item src="words/sôwû.xml" tag="jst-0008 body qualcon cloth">
+        <lemma>*sôwû</lemma>
         <!--  skin; naked; covering  -->
     </item>
-    <item src="words/서호미.xml" tag="jst-0008 body art">
-        <lemma>서호미</lemma>
-        <alt>suhōwi</alt>
+    <item src="words/sûhôwî.xml" tag="jst-0008 body art">
+        <lemma>*sûhôwî</lemma>
         <!--  hand; artistic work  -->
     </item>
-    <item src="words/서매.xml" tag="jst-0008 body const">
-        <lemma>서매</lemma>
-        <alt>suwā</alt>
+    <item src="words/sûwei.xml" tag="jst-0008 body const">
+        <lemma>*sûwei</lemma>
         <!--  arm  -->
     </item>
-    <item src="words/재토무.xml" tag="jst-0008 body">
-        <lemma>재토무</lemma>
-        <alt>zhātōwū</alt>
+    <item src="words/ʒeitôweu.xml" tag="jst-0008 body">
+        <lemma>*ʒeitôweu</lemma>
         <!--  vulva; vagina  -->
     </item>
-    <item src="words/츼토.xml" tag="jst-0008 body">
-        <lemma>츼토</lemma>
-        <alt>joitō</alt>
+    <item src="words/joitô.xml" tag="jst-0008 body">
+        <lemma>*joitô</lemma>
         <!--  penis  -->
     </item>
-    <item src="words/좉시.xml" tag="jst-0008 body">
-        <lemma>좉시</lemma>
-        <alt>zhōtsi</alt>
+    <item src="words/ʒôtsî.xml" tag="jst-0008 body">
+        <lemma>*ʒôtsî</lemma>
         <!--  mouth; opening  -->
     </item>
-    <item src="words/우소토.xml" tag="jst-0008 cloth">
-        <lemma>우소토</lemma>
-        <alt>ūsōtō</alt>
+    <item src="words/eusôtô.xml" tag="jst-0008 cloth">
+        <lemma>*eusôtô</lemma>
         <!--  pants  -->
     </item>
-    <item src="words/다토소.xml" tag="jst-0008 cloth">
-        <lemma>다토소</lemma>
-        <alt>dätōsō</alt>
+    <item src="words/dâtôsô.xml" tag="jst-0008 cloth">
+        <lemma>*dâtôsô</lemma>
         <!--  shoe  -->
     </item>
-    <item src="words/도모다.xml" tag="jst-0008 cloth">
-        <lemma>도모다</lemma>
-        <alt>dōwōdä</alt>
+    <item src="words/dôwôdâ.xml" tag="jst-0008 cloth">
+        <lemma>*dôwôdâ</lemma>
         <!--  shirt; covering  -->
     </item>
     <item src="words/더타대.xml" tag="jst-0008 cloth tool const">
