@@ -11,28 +11,23 @@ Because SEVENSI VIV is a proto-language, this document should be considered spec
 
 ## Orthography: ##
 
-SEVENSI VIV uses korean hangul as its writing system. Some sounds have changed to match sevensian phonology.
+SEVENSI VIV is commonly represented with the following romanizations.
+Note that pronuciations are approximate.
 
 ### Initials: ###
 
-| s  | d  | hh | t  | w  | h  | j  | z  | g  | v  | f  | zh | m  | p  | -  |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| ㅅ | ㄷ | ㅋ | ㅌ | ㅁ | ㅎ | ㅊ | ㅆ | ㄱ | ㅃ | ㅍ | ㅈ | ㄴ | ㅂ | ㅇ |
+| \*s | \*d | \*x | \*t | \*w | \*h | \*j | \*z | \*g | \*v | \*f | \*ʒ | \*m | \*p | \*n |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| /s/ | /d/ | /x/ | /t/ | /w/ | /h/ | /dʒ/| /z/ | /g/ | /v/ | /f/ | /ʒ/ | /m/ | /p/ | /ŋ/ |
 
 ### Medials: ###
 
-| uh | ä  | ei | e  | iy | i  | oi | ō  | au | ū  |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| ㅓ | ㅏ | ㅐ | ㅔ | ㅚ | ㅣ | ㅢ | ㅗ | ㅡ | ㅜ |
+| \*û | \*â | \*ei | \*ê | \*ai | \*î | \*oi | \*ô | \*au | \*û |
+| :-: | :-: | :--: | :-: | :--: | :-: | :--: | :-: | :--: | :-: |
+| /ə/ | /ɑ/ | /eɪ/ | /e/ | /ʌɪ/ | /i/ | /ɔɪ/ | /o/ | /aʊ/ | /u/ |
 
 ### Finals: ###
 
-| s  | d  | hh | t  | ds | st | l  | ng |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| ㅅ | ㄷ | ㅋ | ㅌ | ㅊ | ㅈ | ㄹ | ㅇ |
-
-### Punctuation: ###
-
-| .  | ,  | !  | ?  | :  | ;  | … |    | ‘’ | “” | () | [] |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 。 | 、 | ！ | ？ | ： | ； | … | ・ |「」|『』|（）|［］|
+| \*s | \*d | \*x | \*t | \*ds | \*st | \*l | \*n |
+| :-: | :-: | :-: | :-: | :--: | :--: | :-: | :-: |
+| /s/ | /d/ | /x/ | /t/ | /dʒ/ | /ʒ/  | /l/ | /ŋ/ |
