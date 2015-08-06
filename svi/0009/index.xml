@@ -201,123 +201,100 @@
         <lemma>*ôn</lemma>
         <!--  careful; caution  -->
     </item>
-    <item src="words/도고탣.xml" tag="jst-0008 ppl">
-        <lemma>도고탣</lemma>
-        <alt>dōgōtād</alt>
+    <item src="words/dôgôteid.xml" tag="jst-0008 ppl">
+        <lemma>*dôgôteid</lemma>
         <!--  adult  -->
     </item>
-    <item src="words/도마투.xml" tag="jst-0008 ppl qualcon">
-        <lemma>도마투</lemma>
-        <alt>dōwätū</alt>
+    <item src="words/dôwâteu.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*dôwâteu</lemma>
         <!--  small; cute; baby  -->
     </item>
-    <item src="words/핱피.xml" tag="jst-0008 ppl">
-        <lemma>핱피</lemma>
-        <alt>hätfi</alt>
+    <item src="words/hâtfî.xml" tag="jst-0008 ppl">
+        <lemma>*hâtfî</lemma>
         <!--  skilled; craftsman  -->
     </item>
-    <item src="words/호도마.xml" tag="jst-0008 ppl qualcon">
-        <lemma>호도마</lemma>
-        <alt>hōdōwä</alt>
+    <item src="words/hôdôwâ.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*hôdôwâ</lemma>
         <!--  chief; most important; leader  -->
     </item>
-    <item src="words/찻투개.xml" tag="jst-0008 lang">
-        <lemma>찻투개</lemma>
-        <alt>jästūgā</alt>
+    <item src="words/jâsteugei.xml" tag="jst-0008 lang">
+        <lemma>*jâsteugei</lemma>
         <!--  the LANGUAGE; the CULTURE  -->
     </item>
-    <item src="words/추망텓.xml" tag="jst-0008 ppl qualcon">
-        <lemma>추망텓</lemma>
-        <alt>jūwängtëd</alt>
+    <item src="words/jeuwântêd.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*jeuwântêd</lemma>
         <!--  caring; caretaker  -->
     </item>
-    <item src="words/옽파훋.xml" tag="jst-0008 ppl qualcon">
-        <lemma>옽파훋</lemma>
-        <alt>ōtfähūd</alt>
+    <item src="words/ôtfâheud.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*ôtfâheud</lemma>
         <!--  mute  -->
     </item>
-    <item src="words/생텓.xml" tag="jst-0008 ppl">
-        <lemma>생텓</lemma>
-        <alt>sāngtëd</alt>
+    <item src="words/seintêd.xml" tag="jst-0008 ppl">
+        <lemma>*seintêd</lemma>
         <!--  womanly; woman  -->
     </item>
-    <item src="words/태카틔.xml" tag="jst-0008 ppl qualcon">
-        <lemma>태카틔</lemma>
-        <alt>tāhhätoi</alt>
+    <item src="words/teixâtoi.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*teixâtoi</lemma>
         <!--  protective; guardian  -->
     </item>
-    <item src="words/태타.xml" tag="jst-0008 ppl group qualcon">
-        <lemma>태타</lemma>
-        <alt>tātä</alt>
+    <item src="words/teitâ.xml" tag="jst-0008 ppl group qualcon">
+        <lemma>*teitâ</lemma>
         <!--  military; organized; disciplined  -->
     </item>
-    <item src="words/틑새.xml" tag="jst-0008 ppl">
-        <lemma>틑새</lemma>
-        <alt>tautsā</alt>
+    <item src="words/tautsei.xml" tag="jst-0008 ppl">
+        <lemma>*tautsei</lemma>
         <!--  hunter  -->
     </item>
-    <item src="words/토태도.xml" tag="jst-0008 ppl qualcon">
-        <lemma>토태도</lemma>
-        <alt>tōtādō</alt>
+    <item src="words/tôteidô.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*tôteidô</lemma>
         <!--  immature; older child  -->
     </item>
-    <item src="words/토텓.xml" tag="jst-0008 ppl qualcon">
-        <lemma>토텓</lemma>
-        <alt>tōtëd</alt>
+    <item src="words/tôtêd.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*tôtêd</lemma>
         <!--  childish; younger child  -->
     </item>
-    <item src="words/토주태.xml" tag="jst-0008 ppl qualcon">
-        <lemma>토주태</lemma>
-        <alt>tōzhūtā</alt>
+    <item src="words/tôʒeutei.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*tôʒeutei</lemma>
         <!--  youthful and mature; young adult  -->
     </item>
-    <item src="words/투앧.xml" tag="jst-0008 ppl body">
-        <lemma>투앧</lemma>
-        <alt>tūād</alt>
+    <item src="words/teueid.xml" tag="jst-0008 ppl body">
+        <lemma>*teueid</lemma>
         <!--  body; person  -->
     </item>
-    <item src="words/투다파.xml" tag="jst-0008 ppl qualcon">
-        <lemma>투다파</lemma>
-        <alt>tūdäfä</alt>
+    <item src="words/teudâfâ.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*teudâfâ</lemma>
         <!--  elder; wise  -->
     </item>
-    <item src="words/쎄텓.xml" tag="jst-0008 ppl qualcon">
-        <lemma>쎄텓</lemma>
-        <alt>zëtëd</alt>
+    <item src="words/zêtêd.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*zêtêd</lemma>
         <!--  man; manly  -->
     </item>
-    <item src="words/닫히.xml" tag="jst-0008 body lang sound">
-        <lemma>닫히</lemma>
-        <alt>dädhi</alt>
+    <item src="words/dâdhî.xml" tag="jst-0008 body lang sound">
+        <lemma>*dâdhî</lemma>
         <!--  throat; throaty; accent; speech-pattern  -->
     </item>
-    <item src="words/대초포토.xml" tag="jst-0008 ppl body qualcon">
-        <lemma>대초포토</lemma>
-        <alt>dājōfōtō</alt>
+    <item src="words/deijôfôtô.xml" tag="jst-0008 ppl body qualcon">
+        <lemma>*deijôfôtô</lemma>
         <!--  ear; good-listener  -->
     </item>
-    <item src="words/대옫매.xml" tag="jst-0008 body anim const">
-        <lemma>대옫매</lemma>
-        <alt>dāōdwā</alt>
+    <item src="words/deiôdwei.xml" tag="jst-0008 body anim const">
+        <lemma>*deiôdwei</lemma>
         <!--  vertebrate; spine; supporting framework  -->
     </item>
-    <item src="words/대우새소.xml" tag="jst-0008 body const">
-        <lemma>대우새소</lemma>
-        <alt>dāūsāsō</alt>
+    <item src="words/deieuseisô.xml" tag="jst-0008 body const">
+        <lemma>*deieuseisô</lemma>
         <!--  joint; jointed  -->
     </item>
-    <item src="words/도타도.xml" tag="jst-0008 body qualcon ppl">
-        <lemma>도타도</lemma>
-        <alt>dōtädō</alt>
+    <item src="words/dôtâdô.xml" tag="jst-0008 body qualcon ppl">
+        <lemma>*dôtâdô</lemma>
         <!--  head; principal; in-charge  -->
     </item>
-    <item src="words/도토푀.xml" tag="jst-0008 body sound">
-        <lemma>도토푀</lemma>
-        <alt>dōtōfiy</alt>
+    <item src="words/dôtôfai.xml" tag="jst-0008 body sound">
+        <lemma>*dôtôfai</lemma>
         <!--  nasaly; nose  -->
     </item>
-    <item src="words/도핕쾨.xml" tag="jst-0008 body">
-        <lemma>도핕쾨</lemma>
+    <item src="words/dôfîtxai.xml" tag="jst-0008 body">
+        <lemma>*dôfîtxai</lemma>
         <alt>dōfithhiy</alt>
         <!--  hip  -->
     </item>
