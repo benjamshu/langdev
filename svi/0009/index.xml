@@ -82,6 +82,8 @@
     <meta type="splash" xml:lang="en">Aliens!</meta>
     <meta type="splash" xml:lang="en">Feature Complete!</meta>
     <meta type="splash" xml:lang="en">Dia-critical!</meta>
+    <meta type="splash" xml:lang="en">Die!</meta>
+    <meta type="splash" xml:lang="en">Critical Hit!</meta>
 
     <!--  TAGS  -->
 
@@ -397,133 +399,107 @@
         <lemma>*dôwôdâ</lemma>
         <!--  shirt; covering  -->
     </item>
-    <item src="words/더타대.xml" tag="jst-0008 cloth tool const">
-        <lemma>더타대</lemma>
-        <alt>dutädā</alt>
+    <item src="words/dûtâdei.xml" tag="jst-0008 cloth tool const">
+        <lemma>*dûtâdei</lemma>
         <!--  hat; lid  -->
     </item>
-    <item src="words/치태더.xml" tag="jst-0008 cloth">
-        <lemma>치태더</lemma>
-        <alt>zhitāduh</alt>
+    <item src="words/ʒîteidû.xml" tag="jst-0008 cloth">
+        <lemma>*ʒîteidû</lemma>
         <!--  masked; mask  -->
     </item>
-    <item src="words/토대.xml" tag="jst-0008 cloth">
-        <lemma>토대</lemma>
-        <alt>tōdā</alt>
+    <item src="words/tôdei.xml" tag="jst-0008 cloth">
+        <lemma>*tôdei</lemma>
         <!--  clothed; clothing  -->
     </item>
-    <item src="words/대푸소.xml" tag="jst-0008 emotn bior">
-        <lemma>대푸소</lemma>
-        <alt>dāfūsō</alt>
+    <item src="words/deifeusô.xml" tag="jst-0008 emotn bior">
+        <lemma>*deifeusô</lemma>
         <!--  thirsty; thirst  -->
     </item>
-    <item src="words/도토가.xml" tag="jst-0008 emotn bior">
-        <lemma>도토가</lemma>
-        <alt>dōtōgä</alt>
+    <item src="words/dôtôgâ.xml" tag="jst-0008 emotn bior">
+        <lemma>*dôtôgâ</lemma>
         <!--  tired; sleep  -->
     </item>
-    <item src="words/초숱.xml" tag="jst-0008 bior submat">
-        <lemma>초숱</lemma>
-        <alt>zhōsūt</alt>
+    <item src="words/ʒôseut.xml" tag="jst-0008 bior submat">
+        <lemma>*ʒôseut</lemma>
         <!--  poop  -->
     </item>
-    <item src="words/생지.xml" tag="jst-0008 bior submat">
-        <lemma>생지</lemma>
-        <alt>sāngzhi</alt>
+    <item src="words/seinʒî.xml" tag="jst-0008 bior submat">
+        <lemma>*seinʒî</lemma>
         <!--  menstruation; menses  -->
     </item>
-    <item src="words/싵기.xml" tag="jst-0008 emotn bior">
-        <lemma>싵기</lemma>
-        <alt>sitgi</alt>
+    <item src="words/sîtgî.xml" tag="jst-0008 emotn bior">
+        <lemma>*sîtgî</lemma>
         <!--  hungry; hunger  -->
     </item>
-    <item src="words/괴페웉.xml" tag="jst-0008 qualcon sight">
-        <lemma>괴페웉</lemma>
-        <alt>giyfëūt</alt>
+    <item src="words/gaifêeut.xml" tag="jst-0008 qualcon sight">
+        <lemma>*gaifêeut</lemma>
         <!--  purple  -->
     </item>
-    <item src="words/대히터.xml" tag="jst-0008 qualcon sight">
-        <lemma>대히터</lemma>
-        <alt>dāhituh</alt>
+    <item src="words/deihîtû.xml" tag="jst-0008 qualcon sight">
+        <lemma>*deihîtû</lemma>
         <!--  transparent; translucent; pure; faultless; unobscured; clear  -->
     </item>
-    <item src="words/도외멭.xml" tag="jst-0008 qualcon sight">
-        <lemma>도외멭</lemma>
-        <alt>fōzi</alt>
+    <item src="words/dôaiwêt.xml" tag="jst-0008 qualcon sight">
+        <lemma>*dôaiwêt</lemma>
         <!--  brown  -->
     </item>
-    <item src="words/포씨.xml" tag="jst-0008 qualcon sight">
-        <lemma>포씨</lemma>
-        <alt>fōzi</alt>
+    <item src="words/fôzî.xml" tag="jst-0008 qualcon sight">
+        <lemma>*fôzî</lemma>
         <!--  visible; vision  -->
     </item>
-    <item src="words/회어.xml" tag="jst-0008 qualcon sight">
-        <lemma>회어</lemma>
-        <alt>hiyuh</alt>
+    <item src="words/haiû.xml" tag="jst-0008 qualcon sight">
+        <lemma>*haiû</lemma>
         <!--  green; vegitated  -->
     </item>
-    <item src="words/회퍼.xml" tag="jst-0008 qualcon sight">
-        <lemma>회퍼</lemma>
-        <alt>hiyfuh</alt>
+    <item src="words/haifû.xml" tag="jst-0008 qualcon sight">
+        <lemma>*haifû</lemma>
         <!--  luminous; light  -->
     </item>
-    <item src="words/츠티.xml" tag="jst-0008 qualcon sight">
-        <lemma>츠티</lemma>
-        <alt>jauti</alt>
+    <item src="words/jautî.xml" tag="jst-0008 qualcon sight">
+        <lemma>*jautî</lemma>
         <!--  blue  -->
     </item>
-    <item src="words/믙.xml" tag="jst-0008 qualcon sight">
-        <lemma>믙</lemma>
-        <alt>waut</alt>
+    <item src="words/waut.xml" tag="jst-0008 qualcon sight">
+        <lemma>*waut</lemma>
         <!--  grey  -->
     </item>
-    <item src="words/어트.xml" tag="jst-0008 qualcon sight natoc">
-        <lemma>어트</lemma>
-        <alt>utau</alt>
+    <item src="words/ûtau.xml" tag="jst-0008 qualcon sight natoc">
+        <lemma>*ûtau</lemma>
         <!--  dark; black  -->
         <!--  stormy; storm  -->
     </item>
-    <item src="words/즈.xml" tag="jst-0008 touch sight easky submat qualcon adp">
-        <lemma>즈</lemma>
-        <alt>zhau</alt>
+    <item src="words/ʒau.xml" tag="jst-0008 touch sight easky submat qualcon adp">
+        <lemma>*ʒau</lemma>
         <!--  warmly coloured  -->
         <!--  airy; open; free; air  -->
         <!--  with  -->
     </item>
-    <item src="words/쟁대.xml" tag="jst-0008 qualcon sight">
-        <lemma>쟁대</lemma>
-        <alt>zhāngdā</alt>
+    <item src="words/ʒeindei.xml" tag="jst-0008 qualcon sight">
+        <lemma>*ʒeindei</lemma>
         <!--  light; white  -->
     </item>
-    <item src="words/호파시.xml" tag="jst-0008 qualcon touch ">
-        <lemma>호파시</lemma>
-        <alt>hōfäsi</alt>
+    <item src="words/hôfâsî.xml" tag="jst-0008 qualcon touch ">
+        <lemma>*hôfâsî</lemma>
         <!--  sensitive; physical feeling  -->
     </item>
-    <item src="words/턷쇠.xml" tag="jst-0008 touch emotn">
-        <lemma>턷쇠</lemma>
-        <alt>tudsiy</alt>
+    <item src="words/tûdai.xml" tag="jst-0008 touch emotn">
+        <lemma>*tûdai</lemma>
         <!--  painful; pain  -->
     </item>
-    <item src="words/대툍.xml" tag="jst-0008 qualcon taste">
-        <lemma>대툍</lemma>
-        <alt>dātiyt</alt>
+    <item src="words/deitait.xml" tag="jst-0008 qualcon taste">
+        <lemma>*deitait</lemma>
         <!--  sour; sourness  -->
     </item>
-    <item src="words/도최도.xml" tag="jst-0008 qualcon taste foodr">
-        <lemma>도최도</lemma>
-        <alt>dōjiydō</alt>
+    <item src="words/dôjaidô.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>*dôjaidô</lemma>
         <!--  sweet; sweetness; sugar  -->
     </item>
-    <item src="words/초마셑.xml" tag="jst-0008 qualcon taste foodr">
-        <lemma>초마셑</lemma>
-        <alt>jōwäsët</alt>
+    <item src="words/jôwâsêt.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>*jôwâsêt</lemma>
         <!--  salty; saltiness; salt  -->
     </item>
-    <item src="words/브피.xml" tag="jst-0008 qualcon taste foodr">
-        <lemma>브피</lemma>
-        <alt>paufi</alt>
-        <alt>dātiyt</alt>
+    <item src="words/paufî.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>*paufî</lemma>
         <!--  spicy; spiciness; spice  -->
     </item>
     <item src="words/소픠죄.xml" tag="jst-0008 qualcon taste">
