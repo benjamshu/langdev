@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-0009">
-    <lemma>회어</lemma>
+    <lemma>*deitait</lemma>
     <entry>
         <etymology>jst-0008</etymology>
         <section>
             <heading xml:lang="en">adjective</heading>
-            <def xml:lang="en">coloured green</def>
-            <def xml:lang="en">having large amounts of plant matter</def>
+            <def xml:lang="en">sour</def>
         </section>
         <section>
             <heading xml:lang="en">noun</heading>
-            <def xml:lang="en">green</def>
+            <def xml:lang="en">sourness</def>
         </section>
     </entry>
 </word>
