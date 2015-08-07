@@ -502,125 +502,101 @@
         <lemma>*paufî</lemma>
         <!--  spicy; spiciness; spice  -->
     </item>
-    <item src="words/소픠죄.xml" tag="jst-0008 qualcon taste">
-        <lemma>소픠죄</lemma>
-        <alt>sōfoizhiy</alt>
+    <item src="words/sôfoiʒai.xml" tag="jst-0008 qualcon taste">
+        <lemma>*sôfoiʒai</lemma>
         <!--  bitter; bitterness  -->
     </item>
-    <item src="words/오최.xml" tag="jst-0008 qualcon smell">
-        <lemma>오최</lemma>
-        <alt>ōjiy</alt>
+    <item src="words/ôjai.xml" tag="jst-0008 qualcon smell">
+        <lemma>*ôjai</lemma>
         <!--  smelly; scent  -->
     </item>
-    <item src="words/도바치.xml" tag="jst-0008 qualcon sound">
-        <lemma>도바치</lemma>
-        <alt>dōpäji</alt>
+    <item src="words/dôpâjî.xml" tag="jst-0008 qualcon sound">
+        <lemma>*dôpâjî</lemma>
         <!--  loud; noisy; rude; obnoxious; noise  -->
     </item>
-    <item src="words/포주소.xml" tag="jst-0008 qualcon sound">
-        <lemma>포주소</lemma>
-        <alt>fōzhūsō</alt>
+    <item src="words/fôʒeusô.xml" tag="jst-0008 qualcon sound">
+        <lemma>*fôʒeusô</lemma>
         <!--  quiet; shy; modest; silence  -->
     </item>
-    <item src="words/재배.xml" tag="jst-0008 sound">
-        <lemma>재배</lemma>
-        <alt>zhāpā</alt>
+    <item src="words/ʒeipei.xml" tag="jst-0008 sound">
+        <lemma>*ʒeipei</lemma>
         <!--  sound  -->
     </item>
-    <item src="words/자새.xml" tag="jst-0008 sound lang">
-        <lemma>자새</lemma>
-        <alt>zhäsā</alt>
+    <item src="words/ʒâsei.xml" tag="jst-0008 sound lang">
+        <lemma>*ʒâsei</lemma>
         <!--  talkative; speech  -->
     </item>
-    <item src="words/보마.xml" tag="jst-0008 sound art">
-        <lemma>보마</lemma>
-        <alt>pōwä</alt>
+    <item src="words/pôwâ.xml" tag="jst-0008 sound art">
+        <lemma>*pôwâ</lemma>
         <!--  music; piece of music; melodic; musical  -->
     </item>
-    <item src="words/재오.xml" tag="jst-0008 emotn sound art inst">
-        <lemma>재오</lemma>
-        <alt>zhāō</alt>
+    <item src="words/ʒeiô.xml" tag="jst-0008 emotn sound art inst">
+        <lemma>*ʒeiô</lemma>
         <!--  emotion; emotional  -->
         <!--  orchestral; string  -->
     </item>
-    <item src="words/도대.xml" tag="jst-0008 emotn qualcon">
-        <lemma>도대</lemma>
-        <alt>dōdā</alt>
+    <item src="words/dôdei.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*dôdei</lemma>
         <!--  happy; happiness  -->
     </item>
-    <item src="words/토배.xml" tag="jst-0008 emotn qualcon">
-        <lemma>토배</lemma>
-        <alt>tōpā</alt>
+    <item src="words/tôpei.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*tôpei</lemma>
         <!--  angry; anger  -->
     </item>
-    <item src="words/킈포.xml" tag="jst-0008 emotn qualcon">
-        <lemma>킈포</lemma>
-        <alt>hhoifō</alt>
+    <item src="words/xoifô.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*xoifô</lemma>
         <!--  sad; sadness  -->
     </item>
-    <item src="words/호타초.xml" tag="jst-0008 emotn qualcon">
-        <lemma>호타초</lemma>
-        <alt>hōtäjō</alt>
+    <item src="words/hôtâjô.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*hôtâjô</lemma>
         <!--  frustrated; frustration  -->
     </item>
-    <item src="words/호죋.xml" tag="jst-0008 emotn qualcon">
-        <lemma>호죋</lemma>
-        <alt>hōzhiyd</alt>
+    <item src="words/hôʒaid.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*hôʒaid</lemma>
         <!--  loving; love  -->
     </item>
-    <item src="words/추맹도새.xml" tag="jst-0008 emotn qualcon">
-        <lemma>추맹도새</lemma>
-        <alt>jūwāngdōsā</alt>
+    <item src="words/jeuweindôsei.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*jeuweindôsei</lemma>
         <!--  awe; awed  -->
     </item>
-    <item src="words/모매.xml" tag="jst-0008 emotn qualcon">
-        <lemma>모매</lemma>
-        <alt>wōwā</alt>
+    <item src="words/wôwei.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*wôwei</lemma>
         <!--  calm; peaceful; peacefulness  -->
     </item>
-    <item src="words/즈처.xml" tag="jst-0008 emotn qualcon">
-        <lemma>즈처</lemma>
-        <alt>zhaujuh</alt>
+    <item src="words/ʒaujû.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*ʒaujû</lemma>
         <!--  passionate; passion  -->
     </item>
-    <item src="words/대오시.xml" tag="jst-0008 emotn qualcon">
-        <lemma>대오시</lemma>
-        <alt>dāōsi</alt>
+    <item src="words/deiôsî.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*deiôsî</lemma>
         <!--  excited; excitement  -->
     </item>
-    <item src="words/하미.xml" tag="jst-0008 life qualcon">
-        <lemma>하미</lemma>
-        <alt>häwi</alt>
+    <item src="words/hâwî.xml" tag="jst-0008 life qualcon">
+        <lemma>*hâwî</lemma>
         <!--  alive; life  -->
     </item>
-    <item src="words/해.xml" tag="jst-0008 abs qualcon">
-        <lemma>해</lemma>
-        <alt>hā</alt>
+    <item src="words/hei.xml" tag="jst-0008 abs qualcon">
+        <lemma>*hei</lemma>
         <!--  energized; energy  -->
     </item>
-    <item src="words/파이.xml" tag="jst-0008 life qualcon">
-        <lemma>파이</lemma>
-        <alt>fäi</alt>
+    <item src="words/fâî.xml" tag="jst-0008 life qualcon">
+        <lemma>*fâî</lemma>
         <!--  dead; death  -->
     </item>
-    <item src="words/갘미.xml" tag="jst-0008 life qualcon">
-        <lemma>갘미</lemma>
-        <alt>dähhwi</alt>
+    <item src="words/dâxwî.xml" tag="jst-0008 life qualcon">
+        <lemma>*dâxwî</lemma>
         <!--  health; healthy  -->
     </item>
-    <item src="words/타키.xml" tag="jst-0008 life qualcon">
-        <lemma>타키</lemma>
-        <alt>tähhi</alt>
+    <item src="words/tâxî.xml" tag="jst-0008 life qualcon">
+        <lemma>*tâxî</lemma>
         <!--  dying  -->
     </item>
-    <item src="words/아티.xml" tag="jst-0008 life qualcon">
-        <lemma>아티</lemma>
-        <alt>äti</alt>
+    <item src="words/âtî.xml" tag="jst-0008 life qualcon">
+        <lemma>*âtî</lemma>
         <!--  sick; sickness  -->
     </item>
-    <item src="words/펟소.xml" tag="jst-0008 life qualcon">
-        <lemma>펟소</lemma>
-        <alt>fëdsō</alt>
+    <item src="words/fêdsô.xml" tag="jst-0008 life qualcon">
+        <lemma>*fêdsô</lemma>
         <!--  injured; injury  -->
     </item>
     <item src="words/초.xml" tag="jst-0008 abs qualcon name">
