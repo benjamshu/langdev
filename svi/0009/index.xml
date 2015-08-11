@@ -599,253 +599,205 @@
         <lemma>*fêdsô</lemma>
         <!--  injured; injury  -->
     </item>
-    <item src="words/초.xml" tag="jst-0008 abs qualcon name">
-        <lemma>초</lemma>
-        <alt>jō</alt>
+    <item src="words/jô.xml" tag="jst-0008 abs qualcon name">
+        <lemma>*jô</lemma>
         <!--  moral; accurate; true; correct  -->
     </item>
-    <item src="words/자포.xml" tag="jst-0008 abs qualcon">
-        <lemma>자포</lemma>
-        <alt>zhäfō</alt>
+    <item src="words/ʒâfô.xml" tag="jst-0008 abs qualcon">
+        <lemma>*ʒâfô</lemma>
         <!--  immoral; inacurate; false; incorrect  -->
     </item>
-    <item src="words/다포.xml" tag="jst-0008 abs qualcon">
-        <lemma>다포</lemma>
-        <alt>däfō</alt>
+    <item src="words/dâfô.xml" tag="jst-0008 abs qualcon">
+        <lemma>*dâfô</lemma>
         <!--  knowledgable; knowledge  -->
     </item>
-    <item src="words/츠퍼.xml" tag="jst-0008 abs qualcon">
-        <lemma>츠퍼</lemma>
-        <alt>jaufuh</alt>
+    <item src="words/jaufû.xml" tag="jst-0008 abs qualcon">
+        <lemma>*jaufû</lemma>
         <!--  powerful; power  -->
     </item>
-    <item src="words/소주맏.xml" tag="jst-0008 abs qualcon">
-        <lemma>소주맏</lemma>
-        <alt>sōzhūwäd</alt>
+    <item src="words/sôʒeuwâd.xml" tag="jst-0008 abs qualcon">
+        <lemma>*sôʒeuwâd</lemma>
         <!--  beautiful; beauty  -->
     </item>
-    <item src="words/호시.xml" tag="jst-0008 abs qualcon">
-        <lemma>호시</lemma>
-        <alt>hōsi</alt>
+    <item src="words/hôsî.xml" tag="jst-0008 abs qualcon">
+        <lemma>*hôsî</lemma>
         <!--  trusting; trust  -->
     </item>
-    <item src="words/대그머.xml" tag="jst-0008 abs qualcon">
-        <lemma>대그머</lemma>
-        <alt>dāgauwuh</alt>
+    <item src="words/deigauwû.xml" tag="jst-0008 abs qualcon">
+        <lemma>*deigauwû</lemma>
         <!--  hopeful; hope  -->
     </item>
-    <item src="words/토줕새.xml" tag="jst-0008 lang dist qualcon">
-        <lemma>토줕새</lemma>
-        <alt>tōzhūtsā</alt>
+    <item src="words/tôʒeutsei.xml" tag="jst-0008 lang dist qualcon">
+        <lemma>*tôʒeutsei</lemma>
         <!--  brief; word  -->
     </item>
-    <item src="words/도재토.xml" tag="jst-0008 lang abs qualcon">
-        <lemma>도재토</lemma>
-        <alt>dōzhātō</alt>
+    <item src="words/dôʒeitô.xml" tag="jst-0008 lang abs qualcon">
+        <lemma>*dôʒeitô</lemma>
         <!--  purposeful; meaningful; statement  -->
     </item>
-    <item src="words/빁.xml" tag="jst-0008 time qualcon">
-        <lemma>빁</lemma>
-        <alt>poit</alt>
+    <item src="words/poit.xml" tag="jst-0008 time qualcon">
+        <lemma>*poit</lemma>
         <!--  momentary; moment; time  -->
     </item>
-    <item src="words/희버.xml" tag="jst-0008 time dist">
-        <lemma>희버</lemma>
-        <alt>hoipuh</alt>
+    <item src="words/hoipû.xml" tag="jst-0008 time dist">
+        <lemma>*hoipû</lemma>
         <!--  midday; day; diurnal  -->
     </item>
-    <item src="words/쟁재.xml" tag="jst-0008 time">
-        <lemma>쟁재</lemma>
-        <alt>zhāngzhā</alt>
+    <item src="words/ʒeinʒei.xml" tag="jst-0008 time">
+        <lemma>*ʒeinʒei</lemma>
         <!--  nighttime; night; nocturnal  -->
     </item>
-    <item src="words/애대.xml" tag="jst-0008 time dist">
-        <lemma>애대</lemma>
-        <alt>ādā</alt>
+    <item src="words/eidei.xml" tag="jst-0008 time dist">
+        <lemma>*eidei</lemma>
         <!--  month; monthly  -->
     </item>
-    <item src="words/도피터.xml" tag="jst-0008 time">
-        <lemma>도피터</lemma>
-        <alt>dōfiytuh</alt>
+    <item src="words/dôfaitû.xml" tag="jst-0008 time">
+        <lemma>*dôfaitû</lemma>
         <!--  morning  -->
     </item>
-    <item src="words/퍼모퍼.xml" tag="jst-0008 time life qualcon">
-        <lemma>퍼모퍼</lemma>
-        <alt>fuwōfuh</alt>
+    <item src="words/fûwôfû.xml" tag="jst-0008 time life qualcon">
+        <lemma>*fûwôfû</lemma>
         <!--  evening  -->
     </item>
-    <item src="words/서픠.xml" tag="jst-0008 time">
-        <lemma>서픠</lemma>
-        <alt>supoi</alt>
+    <item src="words/sûpoi.xml" tag="jst-0008 time">
+        <lemma>*sûpoi</lemma>
         <!--  current; presently  -->
     </item>
-    <item src="words/즽.xml" tag="jst-0008 time">
-        <lemma>즽</lemma>
-        <alt>zhoit</alt>
+    <item src="words/ʒoit.xml" tag="jst-0008 time">
+        <lemma>*ʒoit</lemma>
         <!--  future  -->
     </item>
-    <item src="words/버사.xml" tag="jst-0008 time">
-        <lemma>버사</lemma>
-        <alt>pusä</alt>
+    <item src="words/pûsâ.xml" tag="jst-0008 time">
+        <lemma>*pûsâ</lemma>
         <!--  past  -->
     </item>
-    <item src="words/조.xml" tag="jst-0008 quant qualcon pron">
-        <lemma>조</lemma>
-        <alt>zhō</alt>
+    <item src="words/ʒô.xml" tag="jst-0008 quant qualcon pron">
+        <lemma>*ʒô</lemma>
         <alt>1</alt>
         <!--  first; one  -->
         <!--  medial demonstrative  -->
     </item>
-    <item src="words/못.xml" tag="jst-0008 quant qualcon">
-        <lemma>못</lemma>
-        <alt>wōs</alt>
+    <item src="words/wôs.xml" tag="jst-0008 quant qualcon">
+        <lemma>*wôs</lemma>
         <alt>2</alt>
         <!--  second; two  -->
     </item>
-    <item src="words/고추.xml" tag="jst-0008 quant qualcon">
-        <lemma>고추</lemma>
-        <alt>gōjū</alt>
+    <item src="words/gôjeu.xml" tag="jst-0008 quant qualcon">
+        <lemma>*gôjeu</lemma>
         <alt>3</alt>
         <!--  third; three  -->
     </item>
-    <item src="words/자패.xml" tag="jst-0008 quant qualcon">
-        <lemma>자패</lemma>
-        <alt>zhäfā</alt>
+    <item src="words/ʒâfei.xml" tag="jst-0008 quant qualcon">
+        <lemma>*ʒâfei</lemma>
         <alt>4</alt>
         <!--  fourth; four  -->
     </item>
-    <item src="words/맽.xml" tag="jst-0008 quant qualcon">
-        <lemma>맽</lemma>
-        <alt>wāt</alt>
+    <item src="words/weit.xml" tag="jst-0008 quant qualcon">
+        <lemma>*weit</lemma>
         <alt>5</alt>
         <!--  fifth; five  -->
     </item>
-    <item src="words/소보.xml" tag="jst-0008 quant qualcon">
-        <lemma>소보</lemma>
-        <alt>sōpō</alt>
+    <item src="words/sôpô.xml" tag="jst-0008 quant qualcon">
+        <lemma>*sôpô</lemma>
         <alt>6</alt>
         <!--  sixth; six  -->
     </item>
-    <item src="words/챁.xml" tag="jst-0008 quant qualcon">
-        <lemma>챁</lemma>
-        <alt>jät</alt>
+    <item src="words/jât.xml" tag="jst-0008 quant qualcon">
+        <lemma>*jât</lemma>
         <alt>7</alt>
         <!--  seventh; seven  -->
     </item>
-    <item src="words/생토.xml" tag="jst-0008 quant qualcon">
-        <lemma>생토</lemma>
-        <alt>sāngtō</alt>
+    <item src="words/seintô.xml" tag="jst-0008 quant qualcon">
+        <lemma>*seintô</lemma>
         <alt>8</alt>
         <!--  eighth; eight  -->
     </item>
-    <item src="words/대소.xml" tag="jst-0008 submat qualcon">
-        <lemma>대소</lemma>
-        <alt>dāsō</alt>
+    <item src="words/deisô.xml" tag="jst-0008 submat qualcon">
+        <lemma>*deisô</lemma>
         <!--  fluid; watery; water  -->
     </item>
-    <item src="words/페멭.xml" tag="jst-0008 submat">
-        <lemma>페멭</lemma>
-        <alt>fëwët</alt>
+    <item src="words/fêwêt.xml" tag="jst-0008 submat">
+        <lemma>*fêwêt</lemma>
         <!--  wood  -->
     </item>
-    <item src="words/보자소.xml" tag="jst-0008 submat easky">
-        <lemma>보자소</lemma>
-        <alt>pōzhäsō</alt>
+    <item src="words/pôʒâsô.xml" tag="jst-0008 submat easky">
+        <lemma>*pôʒâsô</lemma>
         <!--  stone; rock  -->
     </item>
-    <item src="words/보저.xml" tag="jst-0008 easky qualcon">
-        <lemma>보저</lemma>
-        <alt>pōzhuh</alt>
+    <item src="words/pôʒû.xml" tag="jst-0008 easky qualcon">
+        <lemma>*pôʒû</lemma>
         <!--  ground; earthy  -->
     </item>
-    <item src="words/즈시.xml" tag="jst-0008 easky submat natoc">
-        <lemma>즈시</lemma>
-        <alt>dausi</alt>
+    <item src="words/dausî.xml" tag="jst-0008 easky submat natoc">
+        <lemma>*dausî</lemma>
         <!--  burning; fire; flame  -->
     </item>
-    <item src="words/도저.xml" tag="jst-0008 submat">
-        <lemma>도저</lemma>
-        <alt>dōzhuh</alt>
+    <item src="words/dôʒû.xml" tag="jst-0008 submat">
+        <lemma>*dôʒû</lemma>
         <!--  metal  -->
     </item>
-    <item src="words/토푸소.xml" tag="jst-0008 submat">
-        <lemma>토푸소</lemma>
-        <alt>tōfūsō</alt>
+    <item src="words/tôfeusô.xml" tag="jst-0008 submat">
+        <lemma>*tôfeusô</lemma>
         <!--  clay  -->
     </item>
-    <item src="words/드터.xml" tag="jst-0008 easky qualcon loc8n">
-        <lemma>드터</lemma>
-        <alt>dautuh</alt>
+    <item src="words/dautû.xml" tag="jst-0008 easky qualcon loc8n">
+        <lemma>*dautû</lemma>
         <!--  sky; skyward  -->
     </item>
-    <item src="words/킈터.xml" tag="jst-0008 easky qualcon">
-        <lemma>쾨터</lemma>
-        <alt>hhiytuh</alt>
+    <item src="words/xaitû.xml" tag="jst-0008 easky qualcon">
+        <lemma>*xaitû</lemma>
         <!--  lunar; moon  -->
     </item>
-    <item src="words/토파이.xml" tag="jst-0008 easky qualcon">
-        <lemma>토파이</lemma>
-        <alt>tōfäi</alt>
+    <item src="words/tôfâî.xml" tag="jst-0008 easky qualcon">
+        <lemma>*tôfâî</lemma>
         <!--  star; astral; guiding  -->
     </item>
-    <item src="words/호재.xml" tag="jst-0008 easky">
-        <lemma>호재</lemma>
-        <alt>hōzhā</alt>
+    <item src="words/hôʒei.xml" tag="jst-0008 easky">
+        <lemma>*hôʒei</lemma>
         <!--  land  -->
     </item>
-    <item src="words/투대소.xml" tag="jst-0008 easky">
-        <lemma>투대소</lemma>
-        <alt>tūdāsō</alt>
+    <item src="words/teudeisô.xml" tag="jst-0008 easky">
+        <lemma>*teudeisô</lemma>
         <!--  river; creek  -->
     </item>
-    <item src="words/듸파소.xml" tag="jst-0008 easky">
-        <lemma>듸파소</lemma>
-        <alt>doifäsō</alt>
+    <item src="words/doifâsô.xml" tag="jst-0008 easky">
+        <lemma>*doifâsô</lemma>
         <!--  sea; ocean  -->
     </item>
-    <item src="words/토무도.xml" tag="jst-0008 easky">
-        <lemma>토무도</lemma>
-        <alt>tōwūdō</alt>
+    <item src="words/tôweudô.xml" tag="jst-0008 easky">
+        <lemma>*tôweudô</lemma>
         <!--  lake; pond  -->
     </item>
-    <item src="words/도맡새.xml" tag="jst-0008 easky qualcon">
-        <lemma>도맡새</lemma>
-        <alt>dōwätsā</alt>
+    <item src="words/dôwâtsei.xml" tag="jst-0008 easky qualcon">
+        <lemma>*dôwâtsei</lemma>
         <!--  mountain; mountainous  -->
     </item>
-    <item src="words/토풑재.xml" tag="jst-0008 easky qualcon">
-        <lemma>토풑재</lemma>
-        <alt>tōfūtzhā</alt>
+    <item src="words/tôfeutʒei.xml" tag="jst-0008 easky qualcon">
+        <lemma>*tôfeutʒei</lemma>
         <!--  valley; indented; indentation  -->
     </item>
-    <item src="words/대소재.xml" tag="jst-0008 easky qualcon">
-        <lemma>대소재</lemma>
-        <alt>dāsōzhā</alt>
+    <item src="words/deisôʒei.xml" tag="jst-0008 easky qualcon">
+        <lemma>*deisôʒei</lemma>
         <!--  island; isolated  -->
     </item>
-    <item src="words/구버.xml" tag="jst-0008 easky qualcon">
-        <lemma>구버</lemma>
-        <alt>gūpuh</alt>
+    <item src="words/geupû.xml" tag="jst-0008 easky qualcon">
+        <lemma>*geupû</lemma>
         <!--  earthly; world  -->
     </item>
-    <item src="words/드토새.xml" tag="jst-0008 easky natoc abs">
-        <lemma>드토새</lemma>
-        <alt>dautōsā</alt>
+    <item src="words/dautôsei.xml" tag="jst-0008 easky natoc abs">
+        <lemma>*dautôsei</lemma>
         <!--  weather; atmosphere  -->
     </item>
-    <item src="words/대타소.xml" tag="jst-0008 easky natoc qualcon">
-        <lemma>대타소</lemma>
-        <alt>dātäsō</alt>
+    <item src="words/deitâsô.xml" tag="jst-0008 easky natoc qualcon">
+        <lemma>*deitâsô</lemma>
         <!--  cloudy; cloud  -->
     </item>
-    <item src="words/도재.xml" tag="jst-0008 natoc qualcon">
-        <lemma>도재</lemma>
-        <alt>dōzhā</alt>
+    <item src="words/dôʒei.xml" tag="jst-0008 natoc qualcon">
+        <lemma>*dôʒei</lemma>
         <!--  rainy; rain; raindrop  -->
     </item>
-    <item src="words/도텃.xml" tag="jst-0008 natoc qualcon">
-        <lemma>도텃</lemma>
-        <alt>dōtus</alt>
+    <item src="words/dôtûs.xml" tag="jst-0008 natoc qualcon">
+        <lemma>*dôtûs</lemma>
         <!--  snowy; snow; snowflake  -->
     </item>
     <item src="words/초매.xml" tag="jst-0008 natoc qualcon">
