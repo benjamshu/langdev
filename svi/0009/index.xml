@@ -800,124 +800,101 @@
         <lemma>*dôtûs</lemma>
         <!--  snowy; snow; snowflake  -->
     </item>
-    <item src="words/초매.xml" tag="jst-0008 natoc qualcon">
-        <lemma>초매</lemma>
-        <alt>jōwā</alt>
+    <item src="words/jôwei.xml" tag="jst-0008 natoc qualcon">
+        <lemma>*jôwei</lemma>
         <!--  windy; wind  -->
     </item>
-    <item src="words/조펏.xml" tag="jst-0008 natoc qualcon">
-        <lemma>조펏</lemma>
-        <alt>jōfus</alt>
+    <item src="words/jôfûs.xml" tag="jst-0008 natoc qualcon">
+        <lemma>*jôfûs</lemma>
         <!--  hailing; hail; hailstone  -->
     </item>
-    <item src="words/즈서.xml" tag="jst-0008 natoc">
-        <lemma>즈서</lemma>
-        <alt>zhausuh</alt>
+    <item src="words/ʒausû.xml" tag="jst-0008 natoc">
+        <lemma>*ʒausû</lemma>
         <!--  lightning  -->
     </item>
-    <item src="words/해비.xml" tag="jst-0008 natoc easky qualcon">
-        <lemma>해비</lemma>
-        <alt>hāpi</alt>
+    <item src="words/heipî.xml" tag="jst-0008 natoc easky qualcon">
+        <lemma>*heipî</lemma>
         <!--  vernal; spring  -->
     </item>
-    <item src="words/쾨마.xml" tag="jst-0008 natoc easky dist qualcon">
-        <lemma>쾨마</lemma>
-        <alt>hhiywä</alt>
+    <item src="words/xaiwâ.xml" tag="jst-0008 natoc easky dist qualcon">
+        <lemma>*xaiwâ</lemma>
         <!--  annual; estival; year; summer  -->
     </item>
-    <item src="words/타앵기.xml" tag="jst-0008 natoc easky qualcon">
-        <lemma>타앵기</lemma>
-        <alt>täāngi</alt>
+    <item src="words/tâeingî.xml" tag="jst-0008 natoc easky qualcon">
+        <lemma>*tâeingî</lemma>
         <!--  autumnal; autumn  -->
     </item>
-    <item src="words/앵더.xml" tag="jst-0008 natoc easky qualcon">
-        <lemma>앵더</lemma>
-        <alt>āngduh</alt>
+    <item src="words/eindû.xml" tag="jst-0008 natoc easky qualcon">
+        <lemma>*eindû</lemma>
         <!--  hibernal; winter  -->
     </item>
-    <item src="words/탱.xml" tag="jst-0008 name">
-        <lemma>탱</lemma>
-        <alt>tāng</alt>
+    <item src="words/tein.xml" tag="jst-0008 name">
+        <lemma>*tein</lemma>
         <!--  autumn  -->
     </item>
-    <item src="words/외오태회어.xml" tag="jst-0008 name">
-        <lemma>외오태회어</lemma>
-        <alt>iyōtāhiyuh</alt>
+    <item src="words/aiôteihaiû.xml" tag="jst-0008 name">
+        <lemma>*aiôteihaiû</lemma>
         <!--  chloe  -->
     </item>
-    <item src="words/외오태회어.xml" tag="jst-0008 name">
-        <lemma>외오</lemma>
-        <alt>iyō</alt>
+    <item src="words/aiôteihaiû.xml" tag="jst-0008 name">
+        <lemma>*aiô</lemma>
         <!--  chloe  -->
     </item>
-    <item src="words/대.xml" tag="jst-0008 qualcon">
-        <lemma>대</lemma>
-        <alt>dā</alt>
+    <item src="words/dei.xml" tag="jst-0008 qualcon">
+        <lemma>*dei</lemma>
         <!--  quick; nimble; clever; speed  -->
     </item>
-    <item src="words/턷.xml" tag="jst-0008 qualcon">
-        <lemma>턷</lemma>
-        <alt>tūd</alt>
+    <item src="words/teud.xml" tag="jst-0008 qualcon">
+        <lemma>*teud</lemma>
         <!--  slow; sloth  -->
     </item>
-    <item src="words/초파.xml" tag="jst-0008 qualcon">
-        <lemma>초파</lemma>
+    <item src="words/jôfâ.xml" tag="jst-0008 qualcon">
+        <lemma>*jôfâ</lemma>
         <alt>jōfä</alt>
         <!--  grand; great  -->
     </item>
-    <item src="words/포무.xml" tag="jst-0008 qualcon">
-        <lemma>포무</lemma>
-        <alt>fōwū</alt>
+    <item src="words/fôweu.xml" tag="jst-0008 qualcon">
+        <lemma>*fôweu</lemma>
         <!--  small; unimportant  -->
     </item>
-    <item src="words/고바.xml" tag="jst-0008 qualcon">
-        <lemma>고바</lemma>
-        <alt>gōpä</alt>
+    <item src="words/gôpâ.xml" tag="jst-0008 qualcon">
+        <lemma>*gôpâ</lemma>
         <!--  strong; strength  -->
     </item>
-    <item src="words/타무.xml" tag="jst-0008 qualcon">
-        <lemma>타무</lemma>
-        <alt>täwū</alt>
+    <item src="words/tâweu.xml" tag="jst-0008 qualcon">
+        <lemma>*tâweu</lemma>
         <!--  weak; weakness  -->
     </item>
-    <item src="words/대베.xml" tag="jst-0008 qualcon">
-        <lemma>대베</lemma>
-        <alt>dāpë</alt>
+    <item src="words/deipê.xml" tag="jst-0008 qualcon">
+        <lemma>*deipê</lemma>
         <!--  good  -->
     </item>
-    <item src="words/탵.xml" tag="jst-0008 qualcon">
-        <lemma>탵</lemma>
-        <alt>tāt</alt>
+    <item src="words/teit.xml" tag="jst-0008 qualcon">
+        <lemma>*teit</lemma>
         <!--  bad  -->
     </item>
-    <item src="words/므머.xml" tag="jst-0008 qualcon">
-        <lemma>므머</lemma>
-        <alt>wauwuh</alt>
+    <item src="words/wauwû.xml" tag="jst-0008 qualcon">
+        <lemma>*wauwû</lemma>
         <!--  wise; wisdonm  -->
     </item>
-    <item src="words/대터조.xml" tag="jst-0008 qualcon">
-        <lemma>대터조</lemma>
-        <alt>dātäzhō</alt>
+    <item src="words/deitâʒô.xml" tag="jst-0008 qualcon">
+        <lemma>*deitâʒô</lemma>
         <!--  stupid  -->
     </item>
-    <item src="words/타조.xml" tag="jst-0008 qualcon">
-        <lemma>타조</lemma>
-        <alt>täzhō</alt>
+    <item src="words/tâʒô.xml" tag="jst-0008 qualcon">
+        <lemma>*tâʒô</lemma>
         <!--  foolish  -->
     </item>
-    <item src="words/토탴호.xml" tag="jst-0008 qualcon">
-        <lemma>토탴호</lemma>
-        <alt>tōtāhhho</alt>
+    <item src="words/tôteixhô.xml" tag="jst-0008 qualcon">
+        <lemma>*tôteixhô</lemma>
         <!--  hardworking; determined; determination  -->
     </item>
-    <item src="words/툳푸.xml" tag="jst-0008 qualcon">
-        <lemma>툳푸</lemma>
-        <alt>tūdfū</alt>
+    <item src="words/teudfeu.xml" tag="jst-0008 qualcon">
+        <lemma>*teudfeu</lemma>
         <!--  lazy  -->
     </item>
-    <item src="words/앜노.xml" tag="jst-0008 qualcon lang">
-        <lemma>앜노</lemma>
-        <alt>ähhmō</alt>
+    <item src="words/âxmô.xml" tag="jst-0008 qualcon lang">
+        <lemma>*âxmô</lemma>
         <!--  sharp; harsh; direct  -->
     </item>
     <item src="words/캐소.xml" tag="jst-0008 qualcon loc8n">
