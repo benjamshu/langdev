@@ -999,129 +999,104 @@
         <lemma>*teuwâ</lemma>
         <!--  old; aged; age  -->
     </item>
-    <item src="words/오탣.xml" tag="jst-0008 life">
-        <lemma>오탣</lemma>
-        <alt>ōtād</alt>
+    <item src="words/ôteid.xml" tag="jst-0008 life">
+        <lemma>*ôteid</lemma>
         <!--  young; youth  -->
     </item>
-    <item src="words/앵.xml" tag="jst-0008 qualcon ppl">
-        <lemma>앵</lemma>
-        <alt>āng</alt>
+    <item src="words/ein.xml" tag="jst-0008 qualcon ppl">
+        <lemma>*ein</lemma>
         <!--  female; femininity  -->
     </item>
-    <item src="words/싙.xml" tag="jst-0008 qualcon ppl">
-        <lemma>싙</lemma>
-        <alt>soit</alt>
+    <item src="words/soit.xml" tag="jst-0008 qualcon ppl">
+        <lemma>*soit</lemma>
         <!--  male; masculinity  -->
     </item>
-    <item src="words/팓.xml" tag="jst-0008 qualcon">
-        <lemma>팓</lemma>
-        <alt>fäd</alt>
+    <item src="words/fâd.xml" tag="jst-0008 qualcon">
+        <lemma>*fâd</lemma>
         <!--  hard; difficult; difficulty  -->
     </item>
-    <item src="words/오푸.xml" tag="jst-0008 qualcon">
-        <lemma>오푸</lemma>
-        <alt>ōfū</alt>
+    <item src="words/ôfeu.xml" tag="jst-0008 qualcon">
+        <lemma>*ôfeu</lemma>
         <!--  soft; gentle  -->
     </item>
-    <item src="words/킡.xml" tag="jst-0008 qualcon">
-        <lemma>킡</lemma>
-        <alt>hhoit</alt>
+    <item src="words/xoit.xml" tag="jst-0008 qualcon">
+        <lemma>*xoit</lemma>
         <!--  rough; tactless; unpolished; crude  -->
     </item>
-    <item src="words/댓.xml" tag="jst-0008 qualcon">
-        <lemma>댓</lemma>
-        <alt>dās</alt>
+    <item src="words/deis.xml" tag="jst-0008 qualcon">
+        <lemma>*deis</lemma>
         <!--  smooth; tactful; polished; finished; tact  -->
     </item>
-    <item src="words/조시.xml" tag="jst-0008 qualcon abs">
-        <lemma>조시</lemma>
-        <alt>zhōsi</alt>
+    <item src="words/ʒôsî.xml" tag="jst-0008 qualcon abs">
+        <lemma>*ʒôsî</lemma>
         <!--  hot; heat  -->
     </item>
-    <item src="words/의탓.xml" tag="jst-0008 qualcon">
-        <lemma>의탓</lemma>
-        <alt>oitäs</alt>
+    <item src="words/oitâs.xml" tag="jst-0008 qualcon">
+        <lemma>*oitâs</lemma>
         <!--  cold  -->
     </item>
-    <item src="words/키머.xml" tag="jst-0008 qualcon">
-        <lemma>키머</lemma>
-        <alt>hhiwuh</alt>
+    <item src="words/xîwû.xml" tag="jst-0008 qualcon">
+        <lemma>*xîwû</lemma>
         <!--  flexible; open  -->
     </item>
-    <item src="words/줃소.xml" tag="jst-0008 qualcon abs">
-        <lemma>줃소</lemma>
-        <alt>zhūdsō</alt>
+    <item src="words/ʒeudsô.xml" tag="jst-0008 qualcon abs">
+        <lemma>*ʒeudsô</lemma>
         <!--  beautiful; beauty  -->
     </item>
-    <item src="words/콭죄.xml" tag="jst-0008 qualcon abs">
-        <lemma>콭죄</lemma>
-        <alt>hhōtzhiy</alt>
+    <item src="words/xôtʒai.xml" tag="jst-0008 qualcon abs">
+        <lemma>*xôtʒai</lemma>
         <!--  ugly; undesirable  -->
     </item>
-    <item src="words/대토미.xml" tag="jst-0008 expr">
-        <lemma>대토미</lemma>
-        <alt>dātōwi</alt>
+    <item src="words/deitôwî.xml" tag="jst-0008 expr">
+        <lemma>*deitôwî</lemma>
         <!--  smiling; smile  -->
     </item>
-    <item src="words/조태.xml" tag="jst-0008 expr">
-        <lemma>조태</lemma>
-        <alt>zhōtā</alt>
+    <item src="words/ʒôtei.xml" tag="jst-0008 expr">
+        <lemma>*ʒôtei</lemma>
         <!--  frowning; frown  -->
     </item>
-    <item src="words/더새토.xml" tag="jst-0008 sound lang expr">
-        <lemma>더새토</lemma>
-        <alt>dusātō</alt>
+    <item src="words/dûseitô.xml" tag="jst-0008 sound lang expr">
+        <lemma>*dûseitô</lemma>
         <!--  laughing; laughter  -->
     </item>
-    <item src="words/도채.xml" tag="jst-0008 expr">
-        <lemma>도채</lemma>
-        <alt>dōjā</alt>
+    <item src="words/dôjei.xml" tag="jst-0008 expr">
+        <lemma>*dôjei</lemma>
         <!--  crying; tear  -->
     </item>
-    <item src="words/대토소.xml" tag="jst-0008 anim">
-        <lemma>대토소</lemma>
-        <alt>dātōsō</alt>
+    <item src="words/deitôsô.xml" tag="jst-0008 anim">
+        <lemma>*deitôsô</lemma>
         <!--  wolf  -->
     </item>
-    <item src="words/조조.xml" tag="jst-0008 anim">
-        <lemma>조조</lemma>
-        <alt>zhōzhō</alt>
+    <item src="words/ʒôʒô.xml" tag="jst-0008 anim">
+        <lemma>*ʒôʒô</lemma>
         <!--  frog  -->
     </item>
-    <item src="words/조패.xml" tag="jst-0008 anim">
-        <lemma>조패</lemma>
-        <alt>zhōfā</alt>
+    <item src="words/ʒôfei.xml" tag="jst-0008 anim">
+        <lemma>*ʒôfei</lemma>
         <!--  snake  -->
     </item>
-    <item src="words/그쇠.xml" tag="jst-0008 anim">
-        <lemma>그쇠</lemma>
-        <alt>gausiy</alt>
+    <item src="words/gausai.xml" tag="jst-0008 anim">
+        <lemma>*gausai</lemma>
         <!--  salamander  -->
     </item>
-    <item src="words/고서.xml" tag="jst-0008 anim">
-        <lemma>고서</lemma>
-        <alt>gōsuh</alt>
+    <item src="words/gôsû.xml" tag="jst-0008 anim">
+        <lemma>*gôsû</lemma>
         <!--  bird  -->
     </item>
-    <item src="words/호투시.xml" tag="jst-0008 anim qualcon">
-        <lemma>호투시</lemma>
-        <alt>hōtūsi</alt>
+    <item src="words/hôteusî.xml" tag="jst-0008 anim qualcon">
+        <lemma>*hôteusî</lemma>
         <!--  crab; withdrawn  -->
     </item>
-    <item src="words/대잩.xml" tag="jst-0008 anim qualcon">
-        <lemma>대잩</lemma>
-        <alt>dāzhät</alt>
+    <item src="words/deiʒât.xml" tag="jst-0008 anim qualcon">
+        <lemma>*deiʒât</lemma>
         <!--  fish; reclusive  -->
     </item>
-    <item src="words/타피.xml" tag="jst-0008 anim">
-        <lemma>타피</lemma>
-        <alt>täfi</alt>
+    <item src="words/tâfî.xml" tag="jst-0008 anim">
+        <lemma>*tâfî</lemma>
         <!--  insect  -->
     </item>
-    <item src="words/대디.xml" tag="jst-0008 anim">
-        <lemma>대디</lemma>
-        <alt>dādi</alt>
+    <item src="words/deidî.xml" tag="jst-0008 anim">
+        <lemma>*deidî</lemma>
         <!--  hare; leporid  -->
     </item>
     <item src="words/개오.xml" tag="jst-0008 anim">
