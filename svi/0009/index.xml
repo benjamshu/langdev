@@ -1398,129 +1398,104 @@
         <lemma>*ôhai</lemma>
         <!--  hello  -->
     </item>
-    <item src="words/즈재.xml" tag="jst-0008 easky abs">
-        <lemma>즈재</lemma>
-        <alt>zhauzhā</alt>
+    <item src="words/ʒauʒei.xml" tag="jst-0008 easky abs">
+        <lemma>*ʒauʒei</lemma>
         <!--  aura; atmosphere  -->
     </item>
-    <item src="words/투즈애.xml" tag="jst-0008 ppl abs">
-        <lemma>투즈애</lemma>
-        <alt>tūzhauā</alt>
+    <item src="words/teuʒauei.xml" tag="jst-0008 ppl abs">
+        <lemma>*teuʒauei</lemma>
         <!--  spirit; presence  -->
     </item>
-    <item src="words/듸매.xml" tag="jst-0008 foodr">
-        <lemma>듸매</lemma>
-        <alt>doiwā</alt>
+    <item src="words/doiwei.xml" tag="jst-0008 foodr">
+        <lemma>*doiwei</lemma>
         <!--  coffee  -->
     </item>
-    <item src="words/외재오.xml" tag="jst-0008 foodr">
-        <lemma>외재오</lemma>
-        <alt>iyzhāō</alt>
+    <item src="words/aiʒeiô.xml" tag="jst-0008 foodr">
+        <lemma>*aiʒeiô</lemma>
         <!--  bread  -->
     </item>
-    <item src="words/좈.xml" tag="jst-0008 adp">
-        <lemma>좈</lemma>
-        <alt>zhōhh</alt>
+    <item src="words/ʒôx.xml" tag="jst-0008 adp">
+        <lemma>*ʒôx</lemma>
         <!--  to  -->
     </item>
-    <item src="words/쇠.xml" tag="jst-0008 adp">
-        <lemma>쇠</lemma>
-        <alt>siy</alt>
+    <item src="words/sai.xml" tag="jst-0008 adp">
+        <lemma>*sai</lemma>
         <!--  from  -->
     </item>
-    <item src="words/저포.xml" tag="jst-0008 adp">
-        <lemma>저포</lemma>
-        <alt>zhufō</alt>
+    <item src="words/ʒûfô.xml" tag="jst-0008 adp">
+        <lemma>*ʒûfô</lemma>
         <!--  in; into  -->
     </item>
-    <item src="words/텈디.xml" tag="jst-0008 adp">
-        <lemma>텈디</lemma>
-        <alt>tähhdi</alt>
+    <item src="words/tâxdî.xml" tag="jst-0008 adp">
+        <lemma>*tâxdî</lemma>
         <!--  out (of)  -->
     </item>
-    <item src="words/외어.xml" tag="jst-0008 adp">
-        <lemma>외어</lemma>
-        <alt>iyuh</alt>
+    <item src="words/aiû.xml" tag="jst-0008 adp">
+        <lemma>*aiû</lemma>
         <!--  on; onto  -->
     </item>
-    <item src="words/토서.xml" tag="jst-0008 adp">
-        <lemma>토서</lemma>
-        <alt>tōsuh</alt>
+    <item src="words/tôsû.xml" tag="jst-0008 adp">
+        <lemma>*tôsû</lemma>
         <!--  off (of)  -->
     </item>
-    <item src="words/앧.xml" tag="jst-0008 adp">
-        <lemma>앧</lemma>
-        <alt>ād</alt>
+    <item src="words/eid.xml" tag="jst-0008 adp">
+        <lemma>*eid</lemma>
         <!--  around  -->
     </item>
-    <item src="words/애오.xml" tag="jst-0008 adp">
-        <lemma>애오</lemma>
-        <alt>āō</alt>
+    <item src="words/eiô.xml" tag="jst-0008 adp">
+        <lemma>*eiô</lemma>
         <!--  through  -->
     </item>
-    <item src="words/곳.xml" tag="jst-0008 adp">
-        <lemma>곳</lemma>
-        <alt>gōs</alt>
+    <item src="words/gôs.xml" tag="jst-0008 adp">
+        <lemma>*gôs</lemma>
         <!--  above  -->
     </item>
-    <item src="words/애소.xml" tag="jst-0008 adp">
-        <lemma>애소</lemma>
-        <alt>āsō</alt>
+    <item src="words/eisô.xml" tag="jst-0008 adp">
+        <lemma>*eisô</lemma>
         <!--  below  -->
     </item>
-    <item src="words/애외.xml" tag="jst-0008 adp">
-        <lemma>애외</lemma>
-        <alt>āiy</alt>
+    <item src="words/eiai.xml" tag="jst-0008 adp">
+        <lemma>*eiai</lemma>
         <!--  between  -->
     </item>
-    <item src="words/아애되.xml" tag="jst-0008 adp">
-        <lemma>아애되</lemma>
-        <alt>äādiy</alt>
+    <item src="words/âeidai.xml" tag="jst-0008 adp">
+        <lemma>*âeidai</lemma>
         <!--  beside  -->
     </item>
-    <item src="words/애조.xml" tag="jst-0008 adp">
-        <lemma>애조</lemma>
-        <alt>āzhō</alt>
+    <item src="words/eiʒô.xml" tag="jst-0008 adp">
+        <lemma>*eiʒô</lemma>
         <!--  of  -->
     </item>
-    <item src="words/애푀.xml" tag="jst-0008 adp">
-        <lemma>애푀</lemma>
-        <alt>āfiy</alt>
+    <item src="words/eifai.xml" tag="jst-0008 adp">
+        <lemma>*eifai</lemma>
         <!--  at  -->
     </item>
-    <item src="words/돝.xml" tag="jst-0008 verb">
-        <lemma>돝</lemma>
-        <alt>dōt</alt>
+    <item src="words/dôt.xml" tag="jst-0008 verb">
+        <lemma>*dôt</lemma>
         <!--  is  -->
     </item>
-    <item src="words/호매.xml" tag="jst-0008 verb">
-        <lemma>호매</lemma>
-        <alt>hōwā</alt>
+    <item src="words/hôwei.xml" tag="jst-0008 verb">
+        <lemma>*hôwei</lemma>
         <!--  do  -->
     </item>
-    <item src="words/대오.xml" tag="jst-0008 verb">
-        <lemma>대오</lemma>
-        <alt>dāō</alt>
+    <item src="words/deiô.xml" tag="jst-0008 verb">
+        <lemma>*deiô</lemma>
         <!--  go (to)  -->
     </item>
-    <item src="words/테오.xml" tag="jst-0008 verb">
-        <lemma>테오</lemma>
-        <alt>tëō</alt>
+    <item src="words/têô.xml" tag="jst-0008 verb">
+        <lemma>*têô</lemma>
         <!--  stop  -->
     </item>
-    <item src="words/옽시.xml" tag="jst-0008 verb foodr">
-        <lemma>옽시</lemma>
-        <alt>ōtsi</alt>
+    <item src="words/ôtsî.xml" tag="jst-0008 verb foodr">
+        <lemma>*ôtsî</lemma>
         <!--  eat  -->
     </item>
-    <item src="words/옫소.xml" tag="jst-0008 verb foodr">
-        <lemma>옫소</lemma>
-        <alt>ōdsō</alt>
+    <item src="words/ôdsô.xml" tag="jst-0008 verb foodr">
+        <lemma>*ôdsô</lemma>
         <!--  drink  -->
     </item>
-    <item src="words/코미.xml" tag="jst-0008 verb const">
-        <lemma>코미</lemma>
-        <alt>hhōwi</alt>
+    <item src="words/xôwî.xml" tag="jst-0008 verb const">
+        <lemma>*xôwî</lemma>
         <!--  make  -->
     </item>
     <item src="words/으히.xml" tag="jst-0008 verb">
