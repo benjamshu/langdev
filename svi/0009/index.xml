@@ -84,6 +84,9 @@
     <meta type="splash" xml:lang="en">Dia-critical!</meta>
     <meta type="splash" xml:lang="en">Die!</meta>
     <meta type="splash" xml:lang="en">Critical Hit!</meta>
+    <meta type="splash" xml:lang="en">Newer!</meta>
+    <meta type="splash" xml:lang="en">Symmetric!</meta>
+    <meta type="splash" xml:lang="en">Revised!</meta>
 
     <!--  TAGS  -->
 
@@ -1337,7 +1340,7 @@
         <lemma>*ʒâ</lemma>
         <!--  or  -->
     </item>
-    <item src="words/*-l'xû.xml" tag="jst-0008 fix">
+    <item src="words/-l'xû.xml" tag="jst-0008 fix">
         <lemma>*-l'xû</lemma>
         <!--  participle  -->
     </item>
@@ -1598,129 +1601,104 @@
         <lemma>*feitjôsô</lemma>
         <!--  draw (in)  -->
     </item>
-    <item src="words/퍼타소.xml" tag="jst-0008 verb art">
-        <lemma>퍼타소</lemma>
-        <alt>futäsō</alt>
+    <item src="words/fûtâsô.xml" tag="jst-0008 verb art">
+        <lemma>*fûtâsô</lemma>
         <!--  draw; illustrate  -->
     </item>
-    <item src="words/드도.xml" tag="jst-0008 verb">
-        <lemma>드도</lemma>
-        <alt>daudō</alt>
+    <item src="words/daudô.xml" tag="jst-0008 verb">
+        <lemma>*daudô</lemma>
         <!--  pull  -->
     </item>
-    <item src="words/죄즈.xml" tag="jst-0008 qualcon">
-        <lemma>죄즈</lemma>
-        <alt>zhiyzhau</alt>
+    <item src="words/ʒaiʒau.xml" tag="jst-0008 qualcon">
+        <lemma>*ʒaiʒau</lemma>
         <!--  together; collected  -->
     </item>
-    <item src="words/보.xml" tag="jst-0008 conj">
-        <lemma>보</lemma>
-        <alt>pō</alt>
+    <item src="words/pô.xml" tag="jst-0008 conj">
+        <lemma>*pô</lemma>
         <!--  while  -->
     </item>
-    <item src="words/잨소.xml" tag="jst-0008 name">
-        <lemma>잨소</lemma>
-        <alt>zhähhsō</alt>
+    <item src="words/ʒâxsô.xml" tag="jst-0008 name">
+        <lemma>*ʒâxsô</lemma>
         <!--  "sharp beauty"  -->
     </item>
-    <item src="words/대버.xml" tag="jst-0008 const easky">
-        <lemma>대버</lemma>
-        <alt>dāhhuh</alt>
+    <item src="words/deixû.xml" tag="jst-0008 const easky">
+        <lemma>*deixû</lemma>
         <!--  house; habitat  -->
     </item>
-    <item src="words/새빝.xml" tag="jst-0008 const">
-        <lemma>새빝</lemma>
-        <alt>sāhhit</alt>
+    <item src="words/seixît.xml" tag="jst-0008 const">
+        <lemma>*seixît</lemma>
         <!--  store; grocery  -->
     </item>
-    <item src="words/바토.xml" tag="jst-0008 ppl">
-        <lemma>바토</lemma>
-        <alt>pätō</alt>
+    <item src="words/pâtô.xml" tag="jst-0008 ppl">
+        <lemma>*pâtô</lemma>
         <!--  father  -->
     </item>
-    <item src="words/외조.xml" tag="jst-0008 verb">
-        <lemma>외조</lemma>
-        <alt>iyzhō</alt>
+    <item src="words/aiʒô.xml" tag="jst-0008 verb">
+        <lemma>*aiʒô</lemma>
         <!--  meet  -->
     </item>
-    <item src="words/드커.xml" tag="jst-0008 const">
-        <lemma>드커</lemma>
-        <alt>dauhhuh</alt>
+    <item src="words/dauxû.xml" tag="jst-0008 const">
+        <lemma>*dauxû</lemma>
         <!--  brothel  -->
     </item>
-    <item src="words/자새투애.xml" tag="jst-0008 name">
-        <lemma>자새투애</lemma>
-        <alt>zhäsātūā</alt>
+    <item src="words/ʒâseiteuei.xml" tag="jst-0008 name">
+        <lemma>*ʒâseiteuei</lemma>
         <!--  "heard by the spirits"  -->
     </item>
-    <item src="words/자새투애.xml" tag="jst-0008 name">
-        <lemma>자새</lemma>
-        <alt>zhäsā</alt>
+    <item src="words/ʒâseiteuei.xml" tag="jst-0008 name">
+        <lemma>*ʒâsei</lemma>
         <!--  "heard by the spirits"  -->
     </item>
-    <item src="words/그토.xml" tag="jst-0008 ppl">
-        <lemma>그토</lemma>
-        <alt>gautō</alt>
+    <item src="words/gautô.xml" tag="jst-0008 ppl">
+        <lemma>*gautô</lemma>
         <!--  prostitute  -->
     </item>
-    <item src="words/톸포.xml" tag="jst-0008 verb">
-        <lemma>톸포</lemma>
-        <alt>tōhhfō</alt>
+    <item src="words/tôxfô.xml" tag="jst-0008 verb">
+        <lemma>*tôxfô</lemma>
         <!--  fuck  -->
     </item>
-    <item src="words/다우펕.xml" tag="jst-0008 dist">
-        <lemma>다우펕</lemma>
-        <alt>däūfut</alt>
+    <item src="words/dâeufût.xml" tag="jst-0008 dist">
+        <lemma>*dâeufût</lemma>
         <!--  portion  -->
     </item>
-    <item src="words/트저.xml" tag="jst-0008 lang">
-        <lemma>트저</lemma>
-        <alt>tauzhuh</alt>
+    <item src="words/tauʒû.xml" tag="jst-0008 lang">
+        <lemma>*tauʒû</lemma>
         <!--  syllable  -->
     </item>
-    <item src="words/도커.xml" tag="jst-0008 qualcon lang">
-        <lemma>도커</lemma>
-        <alt>dōwuh</alt>
+    <item src="words/dôwû.xml" tag="jst-0008 qualcon lang">
+        <lemma>*dôwû</lemma>
         <!--  roman; romanized; romanization  -->
     </item>
-    <item src="words/사외패.xml" tag="jst-0008 verb">
-        <lemma>사외패</lemma>
-        <alt>säiyfā</alt>
+    <item src="words/sâaifei.xml" tag="jst-0008 verb">
+        <lemma>*sâaifei</lemma>
         <!--  move  -->
     </item>
-    <item src="words/쇠패두매.xml" tag="jst-0008 const tool">
-        <lemma>쇠패두매</lemma>
-        <alt>siyfādūwā</alt>
+    <item src="words/saifeideuwei.xml" tag="jst-0008 const tool">
+        <lemma>*saifeideuwei</lemma>
         <!--  bus  -->
     </item>
-    <item src="words/해미옷.xml" tag="jst-0008 verb">
-        <lemma>해미옷</lemma>
-        <alt>hāwiōs</alt>
+    <item src="words/heiwîôs.xml" tag="jst-0008 verb">
+        <lemma>*heiwîôs</lemma>
         <!--  hunt  -->
     </item>
-    <item src="words/아모.xml" tag="jst-0008 verb lang">
-        <lemma>아모</lemma>
-        <alt>äwō</alt>
+    <item src="words/âwô.xml" tag="jst-0008 verb lang">
+        <lemma>*âwô</lemma>
         <!--  ask  -->
     </item>
-    <item src="words/다우.xml" tag="jst-0008 verb">
-        <lemma>다우</lemma>
-        <alt>däū</alt>
+    <item src="words/dâeu.xml" tag="jst-0008 verb">
+        <lemma>*dâeu</lemma>
         <!--  break up  -->
     </item>
-    <item src="words/으애오.xml" tag="jst-0008 verb">
-        <lemma>으애오</lemma>
-        <alt>auāō</alt>
+    <item src="words/aueiô.xml" tag="jst-0008 verb">
+        <lemma>*aueiô</lemma>
         <!--  detail  -->
     </item>
-    <item src="words/읔.xml" tag="jst-0008 adp">
-        <lemma>읔</lemma>
-        <alt>auhh</alt>
+    <item src="words/aux.xml" tag="jst-0008 adp">
+        <lemma>*aux</lemma>
         <!--  for  -->
     </item>
-    <item src="words/채소.xml" tag="jst-0008 name">
-        <lemma>채소</lemma>
-        <alt>jāsō</alt>
+    <item src="words/jeisô.xml" tag="jst-0008 name">
+        <lemma>*jeisô</lemma>
         <!--  "is felt"  -->
     </item>
     <item src="words/어태오.xml" tag="jst-0008 verb">
