@@ -897,130 +897,106 @@
         <lemma>*âxmô</lemma>
         <!--  sharp; harsh; direct  -->
     </item>
-    <item src="words/캐소.xml" tag="jst-0008 qualcon loc8n">
-        <lemma>캐소</lemma>
-        <alt>hhāsō</alt>
+    <item src="words/xeisô.xml" tag="jst-0008 qualcon loc8n">
+        <lemma>*xeisô</lemma>
         <!--  front; leading  -->
     </item>
-    <item src="words/서사.xml" tag="jst-0008 qualcon loc8n">
-        <lemma>서사</lemma>
-        <alt>susä</alt>
+    <item src="words/sûsâ.xml" tag="jst-0008 qualcon loc8n">
+        <lemma>*sûsâ</lemma>
         <!--  back; trailing  -->
     </item>
-    <item src="words/퇴핻.xml" tag="jst-0008 loc8n">
-        <lemma>퇴핻</lemma>
-        <alt>tiyhād</alt>
+    <item src="words/taiheid.xml" tag="jst-0008 loc8n">
+        <lemma>*taiheid</lemma>
         <!--  side  -->
     </item>
-    <item src="words/되터.xml" tag="jst-0008 loc8n">
-        <lemma>되터</lemma>
-        <alt>diytuh</alt>
+    <item src="words/daitû.xml" tag="jst-0008 loc8n">
+        <lemma>*daitû</lemma>
         <!--  top  -->
     </item>
-    <item src="words/의서.xml" tag="jst-0008 loc8n">
-        <lemma>의서</lemma>
+    <item src="words/oisû.xml" tag="jst-0008 loc8n">
+        <lemma>*oisû</lemma>
         <alt>oisuh</alt>
         <!--  bottom  -->
     </item>
-    <item src="words/뵈.xml" tag="jst-0008 loc8n">
-        <lemma>뵈</lemma>
-        <alt>piy</alt>
+    <item src="words/pai.xml" tag="jst-0008 loc8n">
+        <lemma>*pai</lemma>
         <!--  right  -->
     </item>
-    <item src="words/되.xml" tag="jst-0008 loc8n">
-        <lemma>되</lemma>
-        <alt>diy</alt>
+    <item src="words/dai.xml" tag="jst-0008 loc8n">
+        <lemma>*dai</lemma>
         <!--  left  -->
     </item>
-    <item src="words/자토.xml" tag="jst-0008 loc8n qualcon abs">
-        <lemma>자토</lemma>
-        <alt>zhätō</alt>
+    <item src="words/ʒâtô.xml" tag="jst-0008 loc8n qualcon abs">
+        <lemma>*ʒâtô</lemma>
         <!--  near; relevant  -->
     </item>
-    <item src="words/소초.xml" tag="jst-0008 loc8n qualcon abs">
-        <lemma>소초</lemma>
-        <alt>sōjō</alt>
+    <item src="words/sôjô.xml" tag="jst-0008 loc8n qualcon abs">
+        <lemma>*sôjô</lemma>
         <!--  far; irrelevant  -->
     </item>
-    <item src="words/죄.xml" tag="jst-0008 pron">
-        <lemma>죄</lemma>
-        <alt>zhiy</alt>
+    <item src="words/ʒai.xml" tag="jst-0008 pron">
+        <lemma>*ʒai</lemma>
         <!--  first person pronoun  -->
     </item>
-    <item src="words/어맫.xml" tag="jst-0008 pron">
-        <lemma>어맫</lemma>
-        <alt>uwād</alt>
+    <item src="words/ûweid.xml" tag="jst-0008 pron">
+        <lemma>*ûweid</lemma>
         <!--  second person pronoun  -->
     </item>
-    <item src="words/애.xml" tag="jst-0008 pron">
-        <lemma>애</lemma>
-        <alt>ā</alt>
+    <item src="words/ei.xml" tag="jst-0008 pron">
+        <lemma>*ei</lemma>
         <!--  animate third person pronoun  -->
     </item>
-    <item src="words/졷.xml" tag="jst-0008 pron">
-        <lemma>졷</lemma>
-        <alt>zhōd</alt>
+    <item src="words/ʒôd.xml" tag="jst-0008 pron">
+        <lemma>*ʒôd</lemma>
         <!--  inanimate third person pronoun  -->
     </item>
-    <item src="words/섵.xml" tag="jst-0008 pron">
-        <lemma>섵</lemma>
-        <alt>sut</alt>
+    <item src="words/sût.xml" tag="jst-0008 pron">
+        <lemma>*sût</lemma>
         <!--  proximal demonstrative  -->
     </item>
-    <item src="words/소.xml" tag="jst-0008 pron">
-        <lemma>소</lemma>
-        <alt>sū</alt>
+    <item src="words/seu.xml" tag="jst-0008 pron">
+        <lemma>*seu</lemma>
         <!--  distal demonstrative  -->
     </item>
-    <item src="words/터회.xml" tag="jst-0008 pron">
-        <lemma>터회</lemma>
-        <alt>suhiy</alt>
+    <item src="words/sûhai.xml" tag="jst-0008 pron">
+        <lemma>*sûhai</lemma>
         <!--  proximal locational pronoun  -->
     </item>
-    <item src="words/도쇠.xml" tag="jst-0008 pron verb">
-        <lemma>도쇠</lemma>
-        <alt>dōsiy</alt>
+    <item src="words/dôsai.xml" tag="jst-0008 pron verb">
+        <lemma>*dôsai</lemma>
         <!--  medial locational pronoun  -->
         <!--  arrive (at)  -->
     </item>
-    <item src="words/섿.xml" tag="jst-0008 pron">
-        <lemma>섿</lemma>
-        <alt>sëd</alt>
+    <item src="words/sêd.xml" tag="jst-0008 pron">
+        <lemma>*sêd</lemma>
         <!--  distal locational pronoun  -->
     </item>
-    <item src="words/푀.xml" tag="jst-0008 pron">
-        <lemma>푀</lemma>
-        <alt>fiy</alt>
+    <item src="words/fai.xml" tag="jst-0008 pron">
+        <lemma>*fai</lemma>
         <!--  animate interrogative pronoun  -->
     </item>
-    <item src="words/퐅.xml" tag="jst-0008 pron">
-        <lemma>퐅</lemma>
-        <alt>fōt</alt>
+    <item src="words/fôt.xml" tag="jst-0008 pron">
+        <lemma>*fôt</lemma>
         <!--  inanimate interrogative pronoun  -->
     </item>
-    <item src="words/대짙.xml" tag="jst-0008 life">
-        <lemma>대짙</lemma>
-        <alt>dāzhit</alt>
+    <item src="words/deiʒît.xml" tag="jst-0008 life">
+        <lemma>*deiʒît</lemma>
         <!--  starving; starvation  -->
     </item>
-    <item src="words/오대소.xml" tag="jst-0008 life">
-        <lemma>오대소</lemma>
-        <alt>ōdāsō</alt>
+    <item src="words/ôdeisô.xml" tag="jst-0008 life">
+        <lemma>*ôdeisô</lemma>
         <!--  thirst; thirsty  -->
     </item>
-    <item src="words/도탓패.xml" tag="jst-0008 life">
-        <lemma>도탓패</lemma>
-        <alt>dōtäsfā</alt>
+    <item src="words/dôtâsfei.xml" tag="jst-0008 life">
+        <lemma>*dôtâsfei</lemma>
         <!--  exhausted; exhaustion  -->
     </item>
-    <item src="words/으터.xml" tag="jst-0008 qualcon">
-        <lemma>으터</lemma>
-        <alt>autuh</alt>
+    <item src="words/autû.xml" tag="jst-0008 qualcon">
+        <lemma>*autû</lemma>
         <!--  broken  -->
     </item>
-    <item src="words/토마.xml" tag="jst-0008 life dist">
-        <lemma>토마</lemma>
-        <alt>tūwä</alt>
+    <item src="words/teuwâ.xml" tag="jst-0008 life dist">
+        <lemma>*teuwâ</lemma>
         <!--  old; aged; age  -->
     </item>
     <item src="words/오탣.xml" tag="jst-0008 life">
