@@ -68,6 +68,15 @@
 
     <!--  Verb-tense  -->
 
+    <item src="words/-l'gô.xml" tag="affix verb-tense">
+        <lemma>*-l'gô</lemma>
+        <!--  past tense  -->
+    </item>
+    <item src="words/-l'â.xml" tag="affix verb-tense">
+        <lemma>*-l'â</lemma>
+        <!--  future tense  -->
+    </item>
+
     <!--  Verb-mood  -->
 
     <item src="words/euxl'-.xml" tag="affix verb-mood">
