@@ -1199,130 +1199,106 @@
         <lemma>*gusai</lemma>
         <!--  spear  -->
     </item>
-    <item src="words/으푙.xml" tag="jst-0008 tool">
-        <lemma>으푙</lemma>
-        <alt>aufiyt</alt>
+    <item src="words/aufait.xml" tag="jst-0008 tool">
+        <lemma>*aufait</lemma>
         <!--  knife  -->
     </item>
-    <item src="words/호퍼도.xml" tag="jst-0008 tool">
-        <lemma>호퍼도</lemma>
-        <alt>hōfädō</alt>
+    <item src="words/hôfâdô.xml" tag="jst-0008 tool">
+        <lemma>*hôfâdô</lemma>
         <!--  wheel  -->
     </item>
-    <item src="words/호팯소.xml" tag="jst-0008 tool const">
-        <lemma>호팯소</lemma>
-        <alt>hōfādsō</alt>
+    <item src="words/hôfeidsô.xml" tag="jst-0008 tool const">
+        <lemma>*hôfeidsô</lemma>
         <!--  wheeled cart  -->
     </item>
-    <item src="words/돝쇠토.xml" tag="jst-0008 tool">
-        <lemma>돝쇠토</lemma>
-        <alt>dōtsiytō</alt>
+    <item src="words/dôtsaitô.xml" tag="jst-0008 tool">
+        <lemma>*dôtsaitô</lemma>
         <!--  pot  -->
     </item>
-    <item src="words/다짙시.xml" tag="jst-0008 jwlry">
-        <lemma>다짙시</lemma>
-        <alt>däzhitsi</alt>
+    <item src="words/dâʒîtsî.xml" tag="jst-0008 jwlry">
+        <lemma>*dâʒîtsî</lemma>
         <!--  necklace  -->
     </item>
-    <item src="words/서딭새.xml" tag="jst-0008 jwlry">
-        <lemma>서딭새</lemma>
-        <alt>suditsā</alt>
+    <item src="words/sûdîtsei.xml" tag="jst-0008 jwlry">
+        <lemma>*sûdîtsei</lemma>
         <!--  bracelet  -->
     </item>
-    <item src="words/오묕시.xml" tag="jst-0008 jwlry">
-        <lemma>오묕시</lemma>
-        <alt>ōwiytsi</alt>
+    <item src="words/ôwaitsî.xml" tag="jst-0008 jwlry">
+        <lemma>*ôwaitsî</lemma>
         <!--  body piercing  -->
     </item>
-    <item src="words/채소터.xml" tag="jst-0008 inst sound art">
-        <lemma>채소터</lemma>
-        <alt>jāsōtuh</alt>
+    <item src="words/jeisôtû.xml" tag="jst-0008 inst sound art">
+        <lemma>*jeisôtû</lemma>
         <!--  drum; percussive  -->
     </item>
-    <item src="words/도매.xml" tag="jst-0008 inst sound art">
-        <lemma>도매</lemma>
+    <item src="words/dôwei.xml" tag="jst-0008 inst sound art">
+        <lemma>*dôwei</lemma>
         <alt>dōwā</alt>
         <!--  flute  -->
     </item>
-    <item src="words/오잿.xml" tag="jst-0008 submat">
-        <lemma>오잿</lemma>
-        <alt>ōzhās</alt>
+    <item src="words/ôʒeis.xml" tag="jst-0008 submat">
+        <lemma>*ôʒeis</lemma>
         <!--  dirt; dirty  -->
     </item>
-    <item src="words/토조.xml" tag="jst-0008 submat tool">
-        <lemma>토조</lemma>
-        <alt>tōzhō</alt>
+    <item src="words/tôʒô.xml" tag="jst-0008 submat tool">
+        <lemma>*tôʒô</lemma>
         <!--  cloth  -->
         <!--  mapped; map  -->
     </item>
-    <item src="words/소수티.xml" tag="jst-0008 submat">
-        <lemma>소수티</lemma>
-        <alt>sōsūti</alt>
+    <item src="words/sôseutî.xml" tag="jst-0008 submat">
+        <lemma>*sôseutî</lemma>
         <!--  leather  -->
     </item>
-    <item src="words/줃.xml" tag="jst-0008 qualcon">
-        <lemma>줃</lemma>
-        <alt>zhūd</alt>
+    <item src="words/ʒeud.xml" tag="jst-0008 qualcon">
+        <lemma>*ʒeud</lemma>
         <!--  fine; okay; acceptable  -->
     </item>
-    <item src="words/읕피.xml" tag="jst-0008 qualcon">
-        <lemma>읕피</lemma>
-        <alt>autfi</alt>
+    <item src="words/autfî.xml" tag="jst-0008 qualcon">
+        <lemma>*autfî</lemma>
         <!--  dangerous; danger  -->
     </item>
-    <item src="words/배조.xml" tag="jst-0008 loc8n qualcon">
-        <lemma>배조</lemma>
-        <alt>pāzhō</alt>
+    <item src="words/peiʒô.xml" tag="jst-0008 loc8n qualcon">
+        <lemma>*peiʒô</lemma>
         <!--  initial; beginning; start  -->
     </item>
-    <item src="words/잩조.xml" tag="jst-0008 loc8n qualcon">
-        <lemma>잩조</lemma>
-        <alt>zhätsō</alt>
+    <item src="words/ʒâtsô.xml" tag="jst-0008 loc8n qualcon">
+        <lemma>*ʒâtsô</lemma>
         <!--  terminal; finish; end  -->
     </item>
-    <item src="words/자태조.xml" tag="jst-0008 quant">
-        <lemma>자태조</lemma>
-        <alt>zhätāzhō</alt>
+    <item src="words/ʒâteiʒô.xml" tag="jst-0008 quant">
+        <lemma>*ʒâteiʒô</lemma>
         <!--  more; greater  -->
     </item>
-    <item src="words/듯.xml" tag="jst-0008 quant">
-        <lemma>듯</lemma>
-        <alt>daus</alt>
+    <item src="words/daus.xml" tag="jst-0008 quant">
+        <lemma>*daus</lemma>
         <!--  less; lesser  -->
     </item>
-    <item src="words/읒.xml" tag="jst-0008 pron">
-        <lemma>읒</lemma>
-        <alt>aust</alt>
+    <item src="words/aust.xml" tag="jst-0008 pron">
+        <lemma>*aust</lemma>
         <!--  another  -->
     </item>
-    <item src="words/두마.xml" tag="jst-0008 const">
-        <lemma>두마</lemma>
-        <alt>dūwä</alt>
+    <item src="words/deuwâ.xml" tag="jst-0008 const">
+        <lemma>*deuwâ</lemma>
         <!--  room  -->
     </item>
-    <item src="words/두맽사.xml" tag="jst-0008 const">
-        <lemma>두맽사</lemma>
-        <alt>dūwātsä</alt>
+    <item src="words/deuweitsâ.xml" tag="jst-0008 const">
+        <lemma>*deuweitsâ</lemma>
         <!--  city  -->
     </item>
-    <item src="words/대조.xml" tag="jst-0008 art">
-        <lemma>대조</lemma>
-        <alt>dāzhō</alt>
+    <item src="words/deiʒô.xml" tag="jst-0008 art">
+        <lemma>*deiʒô</lemma>
         <!--  story; narrative  -->
     </item>
-    <item src="words/퐅초.xml" tag="jst-0008 dist">
-        <lemma>퐅초</lemma>
-        <alt>fōtjō</alt>
+    <item src="words/fôtjô.xml" tag="jst-0008 dist">
+        <lemma>*fôtjô</lemma>
         <!--  long; length  -->
     </item>
-    <item src="words/팤싴.xml" tag="jst-0008 art lang">
-        <lemma>팤싴</lemma>
-        <alt>fähhsihh</alt>
+    <item src="words/fâxsîx.xml" tag="jst-0008 art lang">
+        <lemma>*fâxsîx</lemma>
         <!--  draft  -->
     </item>
-    <item src="words/매듸저.xml" tag="jst-0008 lang">
-        <lemma>매듸저</lemma>
-        <alt>wādoizhuh</alt>
+    <item src="words/weidoiʒû.xml" tag="jst-0008 lang">
+        <lemma>*weidoiʒû</lemma>
         <!--  name  -->
     </item>
     <item src="words/두.xml" tag="jst-0008 yn">
