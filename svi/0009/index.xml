@@ -1099,129 +1099,104 @@
         <lemma>*deidî</lemma>
         <!--  hare; leporid  -->
     </item>
-    <item src="words/개오.xml" tag="jst-0008 anim">
-        <lemma>개오</lemma>
-        <alt>gāō</alt>
+    <item src="words/geiô.xml" tag="jst-0008 anim">
+        <lemma>*geiô</lemma>
         <!--  small mammal  -->
     </item>
-    <item src="words/타그.xml" tag="jst-0008 anim">
-        <lemma>타그</lemma>
-        <alt>tägau</alt>
+    <item src="words/tâgau.xml" tag="jst-0008 anim">
+        <lemma>*tâgau</lemma>
         <!--  mouse; rat  -->
     </item>
-    <item src="words/도푀.xml" tag="jst-0008 anim">
-        <lemma>도푀</lemma>
-        <alt>dōfiy</alt>
+    <item src="words/dôfiy.xml" tag="jst-0008 anim">
+        <lemma>*dôfiy</lemma>
         <!--  bear  -->
     </item>
-    <item src="words/샅수이.xml" tag="jst-0008 anim">
-        <lemma>샅수이</lemma>
-        <alt>sätsūi</alt>
+    <item src="words/sâtseuî.xml" tag="jst-0008 anim">
+        <lemma>*sâtseuî</lemma>
         <!--  deer  -->
     </item>
-    <item src="words/다티.xml" tag="jst-0008 anim">
-        <lemma>다티</lemma>
-        <alt>zhäti</alt>
+    <item src="words/ʒâtî.xml" tag="jst-0008 anim">
+        <lemma>*ʒâtî</lemma>
         <!--  animal  -->
     </item>
-    <item src="words/코피.xml" tag="jst-0008 anim">
-        <lemma>코피</lemma>
-        <alt>hhōfi</alt>
+    <item src="words/xôfî.xml" tag="jst-0008 anim">
+        <lemma>*xôfî</lemma>
         <!--  cow  -->
     </item>
-    <item src="words/프씨.xml" tag="jst-0008 anim qualcon">
-        <lemma>프씨</lemma>
-        <alt>fauzi</alt>
+    <item src="words/fauzî.xml" tag="jst-0008 anim qualcon">
+        <lemma>*fauzî</lemma>
         <!--  pig; humble  -->
     </item>
-    <item src="words/다지.xml" tag="jst-0008 anim qualcon">
-        <lemma>다지</lemma>
-        <alt>dätzhi</alt>
+    <item src="words/dâtʒî.xml" tag="jst-0008 anim qualcon">
+        <lemma>*dâtʒî</lemma>
         <!--  fox; swift; nimble; clever  -->
     </item>
-    <item src="words/회앝.xml" tag="jst-0008 plant qualcon">
-        <lemma>회앝</lemma>
-        <alt>hiyät</alt>
+    <item src="words/haiât.xml" tag="jst-0008 plant qualcon">
+        <lemma>*haiât</lemma>
         <!--  vegetated; vegetation  -->
     </item>
-    <item src="words/드죝.xml" tag="jst-0008 plant qualcon">
-        <lemma>드죝</lemma>
-        <alt>dauzhiyt</alt>
+    <item src="words/dauʒait.xml" tag="jst-0008 plant qualcon">
+        <lemma>*dauʒait</lemma>
         <!--  flowery; elaborate; decorated; flower  -->
     </item>
-    <item src="words/오푀.xml" tag="jst-0008 plant qualcon">
-        <lemma>오푀</lemma>
-        <alt>ōfiy</alt>
+    <item src="words/ôfai.xml" tag="jst-0008 plant qualcon">
+        <lemma>*ôfai</lemma>
         <!--  bush; complex; chaotic; overgrown  -->
     </item>
-    <item src="words/도퇴앝.xml" tag="jst-0008 plant easky qualcon">
-        <lemma>도퇴앝</lemma>
-        <alt>dōtiyät</alt>
+    <item src="words/dôtaiât.xml" tag="jst-0008 plant easky qualcon">
+        <lemma>*dôtaiât</lemma>
         <!--  forested; tree  -->
     </item>
-    <item src="words/외오태.xml" tag="jst-0008 plant qualcon ppl">
-        <lemma>외오태</lemma>
-        <alt>iyōtā</alt>
+    <item src="words/aiôtei.xml" tag="jst-0008 plant qualcon ppl">
+        <lemma>*aiôtei</lemma>
         <!--  sprout; new; fresh  -->
     </item>
-    <item src="words/싵.xml" tag="jst-0008 foodr qualcon">
-        <lemma>싵</lemma>
-        <alt>sit</alt>
+    <item src="words/sît.xml" tag="jst-0008 foodr qualcon">
+        <lemma>*sît</lemma>
         <!--  edible; food  -->
     </item>
-    <item src="words/회피.xml" tag="jst-0008 foodr">
-        <lemma>회피</lemma>
-        <alt>hiyfi</alt>
+    <item src="words/haifî.xml" tag="jst-0008 foodr">
+        <lemma>*haifî</lemma>
         <!--  vegetable  -->
     </item>
-    <item src="words/새피.xml" tag="jst-0008 foodr">
-        <lemma>새피</lemma>
-        <alt>sāfi</alt>
+    <item src="words/seifî.xml" tag="jst-0008 foodr">
+        <lemma>*seifî</lemma>
         <!--  meat  -->
     </item>
-    <item src="words/퇻피.xml" tag="jst-0008 foodr">
-        <lemma>퇻피</lemma>
-        <alt>tiydfi</alt>
+    <item src="words/taidfî.xml" tag="jst-0008 foodr">
+        <lemma>*taidfî</lemma>
         <!--  fruit  -->
     </item>
-    <item src="words/포태시.xml" tag="jst-0008 foodr">
-        <lemma>포태시</lemma>
-        <alt>fōtāsi</alt>
+    <item src="words/fôteisî.xml" tag="jst-0008 foodr">
+        <lemma>*fôteisî</lemma>
         <!--  rice  -->
     </item>
-    <item src="words/대쿁서.xml" tag="jst-0008 foodr">
-        <lemma>대쿁서</lemma>
-        <alt>dāhhiytsuh</alt>
+    <item src="words/deixaitsû.xml" tag="jst-0008 foodr">
+        <lemma>*deixaitsû</lemma>
         <!--  apple  -->
     </item>
-    <item src="words/댇새.xml" tag="jst-0008 foodr">
-        <lemma>댇새</lemma>
-        <alt>dādsā</alt>
+    <item src="words/deidsei.xml" tag="jst-0008 foodr">
+        <lemma>*deidsei</lemma>
         <!--  citrus  -->
     </item>
-    <item src="words/토푀시.xml" tag="jst-0008 foodr">
-        <lemma>토푀시</lemma>
-        <alt>tōfiytsi</alt>
+    <item src="words/tôfaitsî.xml" tag="jst-0008 foodr">
+        <lemma>*tôfaitsî</lemma>
         <!--  compound berry  -->
     </item>
-    <item src="words/옫새오.xml" tag="jst-0008 foodr qualcon">
-        <lemma>옫새오</lemma>
-        <alt>ōdsāō</alt>
+    <item src="words/ôdseiô.xml" tag="jst-0008 foodr qualcon">
+        <lemma>*ôdseiô</lemma>
         <!--  alcoholic; alcohol  -->
     </item>
-    <item src="words/트매.xml" tag="jst-0008 tool">
-        <lemma>트매</lemma>
-        <alt>tauwā</alt>
+    <item src="words/tauwei.xml" tag="jst-0008 tool">
+        <lemma>*tauwei</lemma>
         <!--  weapon  -->
     </item>
-    <item src="words/오뫼.xml" tag="jst-0008 tool qualcon">
-        <lemma>오뫼</lemma>
-        <alt>ōwiy</alt>
+    <item src="words/ôwai.xml" tag="jst-0008 tool qualcon">
+        <lemma>*ôwai</lemma>
         <!--  sharp; blade  -->
     </item>
-    <item src="words/거쇠.xml" tag="jst-0008 tool">
-        <lemma>거쇠</lemma>
-        <alt>gusiy</alt>
+    <item src="words/gusai.xml" tag="jst-0008 tool">
+        <lemma>*gusai</lemma>
         <!--  spear  -->
     </item>
     <item src="words/으푙.xml" tag="jst-0008 tool">
