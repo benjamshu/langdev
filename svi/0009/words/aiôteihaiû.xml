@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-0009">
-    <lemma>외오태회어</lemma>
+    <lemma>*aiôteihaiû</lemma>
     <entry>
         <etymology>jst-0008</etymology>
         <section>
             <heading xml:lang="en">proper noun</heading>
-            <alts xml:lang="en">dim. <html:i xml:lang="art-x-svi-0009">외오</html:i></alts>
+            <alts xml:lang="en">dim. <html:i xml:lang="art-x-svi-0009">*aiô</html:i></alts>
             <def xml:lang="en">feminine given name</def>
         </section>
     </entry>
