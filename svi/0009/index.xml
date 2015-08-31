@@ -1301,124 +1301,101 @@
         <lemma>*weidoiʒû</lemma>
         <!--  name  -->
     </item>
-    <item src="words/두.xml" tag="jst-0008 yn">
-        <lemma>두</lemma>
-        <alt>dū</alt>
+    <item src="words/deu.xml" tag="jst-0008 yn">
+        <lemma>*deu</lemma>
         <!--  yea  -->
     </item>
-    <item src="words/포.xml" tag="jst-0008 yn">
-        <lemma>포</lemma>
-        <alt>fō</alt>
+    <item src="words/fô.xml" tag="jst-0008 yn">
+        <lemma>*fô</lemma>
         <!--  nay  -->
     </item>
-    <item src="words/패.xml" tag="jst-0008 conj">
-        <lemma>패</lemma>
-        <alt>fā</alt>
+    <item src="words/fei.xml" tag="jst-0008 conj">
+        <lemma>*fei</lemma>
         <!--  for; because  -->
     </item>
-    <item src="words/드.xml" tag="jst-0008 conj">
-        <lemma>드</lemma>
-        <alt>dau</alt>
+    <item src="words/dau.xml" tag="jst-0008 conj">
+        <lemma>*dau</lemma>
         <!--  just as… so  -->
     </item>
-    <item src="words/XX.xml" tag="jst-0008 conj">
-        <lemma>옫</lemma>
-        <alt>ōd</alt>
+    <item src="words/ôd.xml" tag="jst-0008 conj">
+        <lemma>*ôd</lemma>
         <!--  yet; although  -->
     </item>
-    <item src="words/오.xml" tag="jst-0008 conj">
-        <lemma>오</lemma>
-        <alt>ō</alt>
+    <item src="words/ô.xml" tag="jst-0008 conj">
+        <lemma>*ô</lemma>
         <!--  but  -->
     </item>
-    <item src="words/시.xml" tag="jst-0008 conj">
-        <lemma>시</lemma>
-        <alt>si</alt>
+    <item src="words/sî.xml" tag="jst-0008 conj">
+        <lemma>*sî</lemma>
         <!--  so  -->
     </item>
-    <item src="words/믜.xml" tag="jst-0008 conj">
-        <lemma>믜</lemma>
-        <alt>woi</alt>
+    <item src="words/woi.xml" tag="jst-0008 conj">
+        <lemma>*woi</lemma>
         <!--  and  -->
     </item>
-    <item src="words/자.xml" tag="jst-0008 conj">
-        <lemma>자</lemma>
-        <alt>zhä</alt>
+    <item src="words/ʒâ.xml" tag="jst-0008 conj">
+        <lemma>*ʒâ</lemma>
         <!--  or  -->
     </item>
-    <item src="words/-ㄹ커.xml" tag="jst-0008 fix">
-        <lemma>-ㄹ커</lemma>
-        <alt>-l'hhuh</alt>
+    <item src="words/*-l'xû.xml" tag="jst-0008 fix">
+        <lemma>*-l'xû</lemma>
         <!--  participle  -->
     </item>
-    <item src="words/-ㄹ토.xml" tag="jst-0008 fix">
-        <lemma>-ㄹ토</lemma>
+    <item src="words/-l'tô.xml" tag="jst-0008 fix">
+        <lemma>*-l'tô</lemma>
         <alt>-l'tō</alt>
         <!--  agent  -->
     </item>
-    <item src="words/옼ㄹ-.xml" tag="jst-0008 fix mood">
-        <lemma>옼ㄹ-</lemma>
-        <alt>ūhhl'-</alt>
+    <item src="words/euxl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*euxl'-</lemma>
         <!--  optative; permissive  -->
     </item>
-    <item src="words/알-.xml" tag="jst-0008 fix mood">
-        <lemma>알-</lemma>
-        <alt>äl'-</alt>
+    <item src="words/âl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*âl'-</lemma>
         <!--  mirative  -->
     </item>
-    <item src="words/옫ㄹ-.xml" tag="jst-0008 fix mood">
-        <lemma>옫ㄹ-</lemma>
-        <alt>ōdl'-</alt>
+    <item src="words/ôdl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*ôdl'-</lemma>
         <!--  assumptive; hortative  -->
     </item>
-    <item src="words/둘-.xml" tag="jst-0008 fix mood">
-        <lemma>둘-</lemma>
-        <alt>dūl'-</alt>
+    <item src="words/deul'-.xml" tag="jst-0008 fix mood">
+        <lemma>*deul'-</lemma>
         <!--  alethic; jussive  -->
     </item>
-    <item src="words/푈-.xml" tag="jst-0008 fix mood">
-        <lemma>푈-</lemma>
-        <alt>fiyl'-</alt>
+    <item src="words/fail'-.xml" tag="jst-0008 fix mood">
+        <lemma>*fail'-</lemma>
         <!--  negatory  -->
     </item>
-    <item src="words/잿ㄹ-.xml" tag="jst-0008 fix mood">
-        <lemma>잿ㄹ-</lemma>
-        <alt>zhāsl'-</alt>
+    <item src="words/ʒeisl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*ʒeisl'-</lemma>
         <!--  renarrative  -->
     </item>
-    <item src="words/턷ㄹ-.xml" tag="jst-0008 fix mood">
-        <lemma>턷ㄹ-</lemma>
-        <alt>tädl'-</alt>
+    <item src="words/tâdl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*tâdl'-</lemma>
         <!--  commissive  -->
     </item>
-    <item src="words/-ㄹ.xml" tag="jst-0008 fix mood">
-        <lemma>-ㄹ</lemma>
-        <alt>-'l</alt>
+    <item src="words/-l.xml" tag="jst-0008 fix mood">
+        <lemma>*-l</lemma>
         <!--  imperative  -->
     </item>
-    <item src="words/-ㄹ괴.xml" tag="jst-0008 fix mood">
-        <lemma>-ㄹ괴</lemma>
-        <alt>-l'giy</alt>
+    <item src="words/-l'gai.xml" tag="jst-0008 fix mood">
+        <lemma>*-l'gai</lemma>
         <!--  infinitive  -->
     </item>
-    <item src="words/버.xml" tag="jst-0008 article">
-        <lemma>버</lemma>
-        <alt>puh</alt>
+    <item src="words/pû.xml" tag="jst-0008 article">
+        <lemma>*pû</lemma>
         <!--  the  -->
     </item>
-    <item src="words/재.xml" tag="jst-0008 article">
-        <lemma>재</lemma>
-        <alt>zhā</alt>
+    <item src="words/ʒei.xml" tag="jst-0008 article">
+        <lemma>*ʒei</lemma>
         <!--  a; an; some  -->
     </item>
-    <item src="words/아저.xml" tag="jst-0008 article">
-        <lemma>아저</lemma>
-        <alt>äzhuh</alt>
+    <item src="words/âʒû.xml" tag="jst-0008 article">
+        <lemma>*âʒû</lemma>
         <!--  the (proper)  -->
     </item>
-    <item src="words/오회.xml" tag="jst-0008 intrj">
-        <lemma>오회</lemma>
-        <alt>ōhiy</alt>
+    <item src="words/ôhai.xml" tag="jst-0008 intrj">
+        <lemma>*ôhai</lemma>
         <!--  hello  -->
     </item>
     <item src="words/즈재.xml" tag="jst-0008 easky abs">
