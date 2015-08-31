@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-svi-0009">
-    <lemma>드죝</lemma>
+    <lemma>*dôfiy</lemma>
     <entry>
         <etymology>jst-0008</etymology>
         <section>
             <heading xml:lang="en">adjective</heading>
-            <def xml:lang="en">flowery</def>
-            <def xml:lang="en">elaborate or full of adornment</def>
+            <def xml:lang="en">bearlike</def>
         </section>
         <section>
             <heading xml:lang="en">noun</heading>
-            <def xml:lang="en">a flowering plant</def>
-            <def xml:lang="en">a flower</def>
+            <def xml:lang="en">a bear</def>
         </section>
     </entry>
 </word>
