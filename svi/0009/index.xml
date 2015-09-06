@@ -1347,7 +1347,6 @@
     </item>
     <item src="words/-l'tô.xml" tag="jst-0008 fix">
         <lemma>*-l'tô</lemma>
-        <alt>-l'tō</alt>
         <!--  agent  -->
     </item>
     <item src="words/euxl'-.xml" tag="jst-0008 fix mood">
