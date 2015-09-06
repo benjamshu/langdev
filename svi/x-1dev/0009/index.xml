@@ -14,6 +14,7 @@
 
     <taggroup name="Morphological categories">
         <tag xml:lang="en" value="word">Word</tag>
+        <tag xml:lang="en" value="clitic">Clitic</tag>
         <tag xml:lang="en" value="affix">Affix</tag>
     </taggroup>
     <taggroup name="Grammatical categories">
@@ -66,6 +67,43 @@
 
     <!--  Conjunctions  -->
 
+    <item src="words/fei.xml" tag="jst-0008 conj">
+        <lemma>*fei</lemma>
+        <!--  for; because  -->
+    </item>
+    <item src="words/dau.xml" tag="jst-0008 conj">
+        <lemma>*dau</lemma>
+        <!--  just as… so  -->
+    </item>
+    <item src="words/ôd.xml" tag="jst-0008 conj">
+        <lemma>*ôd</lemma>
+        <!--  yet; although  -->
+    </item>
+    <item src="words/ô.xml" tag="jst-0008 conj">
+        <lemma>*ô</lemma>
+        <!--  but  -->
+    </item>
+    <item src="words/sî.xml" tag="jst-0008 conj">
+        <lemma>*sî</lemma>
+        <!--  so  -->
+    </item>
+    <item src="words/woi.xml" tag="jst-0008 conj">
+        <lemma>*woi</lemma>
+        <!--  and  -->
+    </item>
+    <item src="words/ʒâ.xml" tag="jst-0008 conj">
+        <lemma>*ʒâ</lemma>
+        <!--  or  -->
+    </item>
+    <item src="words/pô.xml" tag="jst-0008 conj">
+        <lemma>*pô</lemma>
+        <!--  while  -->
+    </item>
+    <item src="words/wau.xml" tag="jst-0008 conj">
+        <lemma>*wau</lemma>
+        <!--  to  -->
+    </item>
+
     <!--  Verb-tense  -->
 
     <item src="words/-l'gô.xml" tag="affix verb-tense">
@@ -113,6 +151,7 @@
     </item>
 
     <!--  Verb-derivation  -->
+
     <item src="words/-l'gai.xml" tag="affix verb-derivation">
         <lemma>*-l'gai</lemma>
         <!--  infinitive  -->
@@ -125,6 +164,11 @@
     <!--  Noun-case  -->
 
     <!--  Noun-derivation  -->
+
+    <item src="words/-l'tô.xml" tag="affix noun-derivation">
+        <lemma>*-l'tô</lemma>
+        <!--  agent  -->
+    </item>
 
     <!--  Verbs  -->
 
