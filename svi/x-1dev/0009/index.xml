@@ -9,6 +9,12 @@
     <meta type="splash" xml:lang="en">Leggo!</meta>
     <meta type="splash" xml:lang="en">Blocked!</meta>
     <meta type="splash" xml:lang="en">Abridged!</meta>
+    <meta type="splash" xml:lang="en">Rooted!</meta>
+    <meta type="splash" xml:lang="en">Fixed!</meta>
+    <meta type="splash" xml:lang="en">Root!</meta>
+    <meta type="splash" xml:lang="en">Lemma:</meta>
+    <meta type="splash" xml:lang="en">Attributed!</meta>
+    <meta type="splash" xml:lang="en">Referenced!</meta>
 
     <!--  TAGS  -->
 
@@ -30,35 +36,37 @@
         <tag xml:lang="en" value="nominal-case">Nominal-case</tag>
         <tag xml:lang="en" value="nominal-derivation">Nominal-derivation</tag>
     </taggroup>
-    <taggroup name="Syntactic categories">
+    <taggroup name="Lexical categories">
+        <tag xml:lang="en" value="attributive">Attributive</tag>
+        <tag xml:lang="en" value="referential">Referential</tag>
     </taggroup>
 
     <!--  Articles  -->
 
-    <item src="words/pû.xml" tag="word article">
+    <item src="words/pû.xml" tag="article word">
         <lemma>*pû</lemma>
         <!--  the  -->
     </item>
-    <item src="words/ʒei.xml" tag="word article">
+    <item src="words/ʒei.xml" tag="article word">
         <lemma>*ʒei</lemma>
         <!--  a; an; some  -->
     </item>
-    <item src="words/âʒû.xml" tag="word article">
+    <item src="words/âʒû.xml" tag="article word">
         <lemma>*âʒû</lemma>
         <!--  the (proper)  -->
     </item>
 
     <!--  Interjections  -->
 
-    <item src="words/ôhai.xml" tag="word interjection">
+    <item src="words/ôhai.xml" tag="interjection word">
         <lemma>*ôhai</lemma>
         <!--  hello  -->
     </item>
-    <item src="words/deu.xml" tag="word interjection">
+    <item src="words/deu.xml" tag="interjection word">
         <lemma>*deu</lemma>
         <!--  yea  -->
     </item>
-    <item src="words/fô.xml" tag="word interjection">
+    <item src="words/fô.xml" tag="interjection word">
         <lemma>*fô</lemma>
         <!--  nay  -->
     </item>
@@ -67,96 +75,96 @@
 
     <!--  Conjunctions  -->
 
-    <item src="words/fei.xml" tag="jst-0008 conj">
+    <item src="words/fei.xml" tag="conjunction word">
         <lemma>*fei</lemma>
         <!--  for; because  -->
     </item>
-    <item src="words/dau.xml" tag="jst-0008 conj">
+    <item src="words/dau.xml" tag="conjunction word">
         <lemma>*dau</lemma>
         <!--  just as… so  -->
     </item>
-    <item src="words/ôd.xml" tag="jst-0008 conj">
+    <item src="words/ôd.xml" tag="conjunction word">
         <lemma>*ôd</lemma>
         <!--  yet; although  -->
     </item>
-    <item src="words/ô.xml" tag="jst-0008 conj">
+    <item src="words/ô.xml" tag="conjunction word">
         <lemma>*ô</lemma>
         <!--  but  -->
     </item>
-    <item src="words/sî.xml" tag="jst-0008 conj">
+    <item src="words/sî.xml" tag="conjunction word">
         <lemma>*sî</lemma>
         <!--  so  -->
     </item>
-    <item src="words/woi.xml" tag="jst-0008 conj">
+    <item src="words/woi.xml" tag="conjunction word">
         <lemma>*woi</lemma>
         <!--  and  -->
     </item>
-    <item src="words/ʒâ.xml" tag="jst-0008 conj">
+    <item src="words/ʒâ.xml" tag="conjunction word">
         <lemma>*ʒâ</lemma>
         <!--  or  -->
     </item>
-    <item src="words/pô.xml" tag="jst-0008 conj">
+    <item src="words/pô.xml" tag="conjunction word">
         <lemma>*pô</lemma>
         <!--  while  -->
     </item>
-    <item src="words/wau.xml" tag="jst-0008 conj">
+    <item src="words/wau.xml" tag="conjunction word">
         <lemma>*wau</lemma>
         <!--  to  -->
     </item>
 
     <!--  Verb-tense  -->
 
-    <item src="words/-l'gô.xml" tag="affix verb-tense">
+    <item src="words/-l'gô.xml" tag="verb-tense affix">
         <lemma>*-l'gô</lemma>
         <!--  past tense  -->
     </item>
-    <item src="words/-l'â.xml" tag="affix verb-tense">
+    <item src="words/-l'â.xml" tag="verb-tense affix">
         <lemma>*-l'â</lemma>
         <!--  future tense  -->
     </item>
 
     <!--  Verb-mood  -->
 
-    <item src="words/euxl'-.xml" tag="affix verb-mood">
+    <item src="words/euxl'-.xml" tag="verb-mood affix">
         <lemma>*euxl'-</lemma>
         <!--  optative; permissive  -->
     </item>
-    <item src="words/âl'-.xml" tag="affix verb-mood">
+    <item src="words/âl'-.xml" tag="verb-mood affix">
         <lemma>*âl'-</lemma>
         <!--  mirative  -->
     </item>
-    <item src="words/ôdl'-.xml" tag="affix verb-mood">
+    <item src="words/ôdl'-.xml" tag="verb-mood affix">
         <lemma>*ôdl'-</lemma>
         <!--  assumptive; hortative  -->
     </item>
-    <item src="words/deul'-.xml" tag="affix verb-mood">
+    <item src="words/deul'-.xml" tag="verb-mood affix">
         <lemma>*deul'-</lemma>
         <!--  alethic; jussive  -->
     </item>
-    <item src="words/fail'-.xml" tag="affix verb-mood">
+    <item src="words/fail'-.xml" tag="verb-mood affix">
         <lemma>*fail'-</lemma>
         <!--  negatory  -->
     </item>
-    <item src="words/ʒeisl'-.xml" tag="affix verb-mood">
+    <item src="words/ʒeisl'-.xml" tag="verb-mood affix">
         <lemma>*ʒeisl'-</lemma>
         <!--  renarrative  -->
     </item>
-    <item src="words/tâdl'-.xml" tag="affix verb-mood">
+    <item src="words/tâdl'-.xml" tag="verb-mood affix">
         <lemma>*tâdl'-</lemma>
         <!--  commissive  -->
     </item>
-    <item src="words/-l.xml" tag="affix verb-mood">
+    <item src="words/-l.xml" tag="verb-mood affix">
         <lemma>*-l</lemma>
         <!--  imperative  -->
     </item>
 
     <!--  Verb-derivation  -->
 
-    <item src="words/-l'gai.xml" tag="affix verb-derivation">
+    <item src="words/-l'gai.xml" tag="verb-derivation affix">
         <lemma>*-l'gai</lemma>
         <!--  infinitive  -->
     </item>
-    <item src="words/-l'xû.xml" tag="affix verb-derivation">
+    <item src="words/-l'xû.xml" tag="verb-derivation affix">
         <lemma>*-l'xû</lemma>
         <!--  participle  -->
     </item>
@@ -165,7 +173,7 @@
 
     <!--  Noun-derivation  -->
 
-    <item src="words/-l'tô.xml" tag="affix noun-derivation">
+    <item src="words/-l'tô.xml" tag="noun-derivation affix">
         <lemma>*-l'tô</lemma>
         <!--  agent  -->
     </item>
