@@ -12,62 +12,166 @@
 
     <!--  TAGS  -->
 
-    <!--  Source tracking: -->
-
-    <taggroup name="Source">
-        <tag xml:lang="en" value="lrex-0005">Lrex 5</tag>
-        <tag xml:lang="en" value="lrx-0006">Lrex 6</tag>
-        <tag xml:lang="en" value="jst-0008">Jästūgay VIII</tag>
-        <tag xml:lang="en" value="jst-0009">Jästūgei VIV</tag>
-        <tag xml:lang="en" value="eho-0004">□ 4</tag>
+    <taggroup name="Morphological categories">
+        <tag xml:lang="en" value="word">Word</tag>
+        <tag xml:lang="en" value="clitic">Clitic</tag>
+        <tag xml:lang="en" value="affix">Affix</tag>
+    </taggroup>
+    <taggroup name="Grammatical categories">
+        <tag xml:lang="en" value="article">Article</tag>
+        <tag xml:lang="en" value="interjection">Interjection</tag>
+        <tag xml:lang="en" value="post-position">Post-position</tag>
+        <tag xml:lang="en" value="conjunction">Conjunction</tag>
+        <tag xml:lang="en" value="verb">Verb</tag>
+        <tag xml:lang="en" value="verb-tense">Verb-tense</tag>
+        <tag xml:lang="en" value="verb-mood">Verb-mood</tag>
+        <tag xml:lang="en" value="verb-derivation">Verb-derivation</tag>
+        <tag xml:lang="en" value="nominal">Nominal</tag>
+        <tag xml:lang="en" value="nominal-case">Nominal-case</tag>
+        <tag xml:lang="en" value="nominal-derivation">Nominal-derivation</tag>
+    </taggroup>
+    <taggroup name="Syntactic categories">
     </taggroup>
 
-    <!--  From jst-0008:  -->
-    <taggroup name="Nouns/Adjectives">
-        <tag xml:lang="en" value="ppl">People</tag>
-        <tag xml:lang="en" value="body">Body parts</tag>
-        <tag xml:lang="en" value="clothing">Clothing</tag>
-        <tag xml:lang="en" value="biorhythms">Biorhythms</tag>
-        <tag xml:lang="en" value="sight">Sight</tag>
-        <tag xml:lang="en" value="touch">Touch</tag>
-        <tag xml:lang="en" value="taste">Taste</tag>
-        <tag xml:lang="en" value="smell">Smell</tag>
-        <tag xml:lang="en" value="sound">Sound</tag>
-        <tag xml:lang="en" value="emotn">Emotions and feelings</tag>
-        <tag xml:lang="en" value="life">Life and death</tag>
-        <tag xml:lang="en" value="abstracts">Abstracts</tag>
-        <tag xml:lang="en" value="lang">Language</tag>
-        <tag xml:lang="en" value="time">Time</tag>
-        <tag xml:lang="en" value="numbers">Numbers</tag>
-        <tag xml:lang="en" value="submat">Substances/materials</tag>
-        <tag xml:lang="en" value="easky">Earth and sky</tag>
-        <tag xml:lang="en" value="natoc">Natural occurances</tag>
-        <tag xml:lang="en" value="names">Names</tag>
-        <tag xml:lang="en" value="qualcon">Qualities and conditions</tag>
-        <tag xml:lang="en" value="locn">Location</tag>
-        <tag xml:lang="en" value="pron">Pronouns</tag>
-        <tag xml:lang="en" value="face">Facial expressions</tag>
-        <tag xml:lang="en" value="anim">Animals</tag>
-        <tag xml:lang="en" value="plant">Plants</tag>
-        <tag xml:lang="en" value="food">Food and drink</tag>
-        <tag xml:lang="en" value="tool">Tools</tag>
-        <tag xml:lang="en" value="jwlry">Jewelry</tag>
-        <tag xml:lang="en" value="inst">Instruments</tag>
-        <tag xml:lang="en" value="const">Buildings and constructions</tag>
-        <tag xml:lang="en" value="dist">Distance and measure</tag>
-        <tag xml:lang="en" value="art">Art and culture</tag>
-        <tag xml:lang="en" value="group">Groups and organizations</tag>
-    </taggroup>
-    <taggroup name="Grammatical words">
-        <tag xml:lang="en" value="yn">Yes and no</tag>
-        <tag xml:lang="en" value="conj">Conjunctions</tag>
-        <tag xml:lang="en" value="fix">Affixes</tag>
-        <tag xml:lang="en" value="tense">Tense markers</tag>
-        <tag xml:lang="en" value="mood">Modal markers</tag>
-        <tag xml:lang="en" value="article">Articles</tag>
-        <tag xml:lang="en" value="intrj">Interjections</tag>
-        <tag xml:lang="en" value="postp">Postpositions</tag>
-    </taggroup>
-    <tag xml:lang="en" value="verb">Verbs</tag>
+    <!--  Articles  -->
+
+    <item src="words/pû.xml" tag="word article">
+        <lemma>*pû</lemma>
+        <!--  the  -->
+    </item>
+    <item src="words/ʒei.xml" tag="word article">
+        <lemma>*ʒei</lemma>
+        <!--  a; an; some  -->
+    </item>
+    <item src="words/âʒû.xml" tag="word article">
+        <lemma>*âʒû</lemma>
+        <!--  the (proper)  -->
+    </item>
+
+    <!--  Interjections  -->
+
+    <item src="words/ôhai.xml" tag="word interjection">
+        <lemma>*ôhai</lemma>
+        <!--  hello  -->
+    </item>
+    <item src="words/deu.xml" tag="word interjection">
+        <lemma>*deu</lemma>
+        <!--  yea  -->
+    </item>
+    <item src="words/fô.xml" tag="word interjection">
+        <lemma>*fô</lemma>
+        <!--  nay  -->
+    </item>
+
+    <!--  Post-positions  -->
+
+    <!--  Conjunctions  -->
+
+    <item src="words/fei.xml" tag="jst-0008 conj">
+        <lemma>*fei</lemma>
+        <!--  for; because  -->
+    </item>
+    <item src="words/dau.xml" tag="jst-0008 conj">
+        <lemma>*dau</lemma>
+        <!--  just as… so  -->
+    </item>
+    <item src="words/ôd.xml" tag="jst-0008 conj">
+        <lemma>*ôd</lemma>
+        <!--  yet; although  -->
+    </item>
+    <item src="words/ô.xml" tag="jst-0008 conj">
+        <lemma>*ô</lemma>
+        <!--  but  -->
+    </item>
+    <item src="words/sî.xml" tag="jst-0008 conj">
+        <lemma>*sî</lemma>
+        <!--  so  -->
+    </item>
+    <item src="words/woi.xml" tag="jst-0008 conj">
+        <lemma>*woi</lemma>
+        <!--  and  -->
+    </item>
+    <item src="words/ʒâ.xml" tag="jst-0008 conj">
+        <lemma>*ʒâ</lemma>
+        <!--  or  -->
+    </item>
+    <item src="words/pô.xml" tag="jst-0008 conj">
+        <lemma>*pô</lemma>
+        <!--  while  -->
+    </item>
+    <item src="words/wau.xml" tag="jst-0008 conj">
+        <lemma>*wau</lemma>
+        <!--  to  -->
+    </item>
+
+    <!--  Verb-tense  -->
+
+    <item src="words/-l'gô.xml" tag="affix verb-tense">
+        <lemma>*-l'gô</lemma>
+        <!--  past tense  -->
+    </item>
+    <item src="words/-l'â.xml" tag="affix verb-tense">
+        <lemma>*-l'â</lemma>
+        <!--  future tense  -->
+    </item>
+
+    <!--  Verb-mood  -->
+
+    <item src="words/euxl'-.xml" tag="affix verb-mood">
+        <lemma>*euxl'-</lemma>
+        <!--  optative; permissive  -->
+    </item>
+    <item src="words/âl'-.xml" tag="affix verb-mood">
+        <lemma>*âl'-</lemma>
+        <!--  mirative  -->
+    </item>
+    <item src="words/ôdl'-.xml" tag="affix verb-mood">
+        <lemma>*ôdl'-</lemma>
+        <!--  assumptive; hortative  -->
+    </item>
+    <item src="words/deul'-.xml" tag="affix verb-mood">
+        <lemma>*deul'-</lemma>
+        <!--  alethic; jussive  -->
+    </item>
+    <item src="words/fail'-.xml" tag="affix verb-mood">
+        <lemma>*fail'-</lemma>
+        <!--  negatory  -->
+    </item>
+    <item src="words/ʒeisl'-.xml" tag="affix verb-mood">
+        <lemma>*ʒeisl'-</lemma>
+        <!--  renarrative  -->
+    </item>
+    <item src="words/tâdl'-.xml" tag="affix verb-mood">
+        <lemma>*tâdl'-</lemma>
+        <!--  commissive  -->
+    </item>
+    <item src="words/-l.xml" tag="affix verb-mood">
+        <lemma>*-l</lemma>
+        <!--  imperative  -->
+    </item>
+
+    <!--  Verb-derivation  -->
+
+    <item src="words/-l'gai.xml" tag="affix verb-derivation">
+        <lemma>*-l'gai</lemma>
+        <!--  infinitive  -->
+    </item>
+    <item src="words/-l'xû.xml" tag="affix verb-derivation">
+        <lemma>*-l'xû</lemma>
+        <!--  participle  -->
+    </item>
+
+    <!--  Noun-case  -->
+
+    <!--  Noun-derivation  -->
+
+    <item src="words/-l'tô.xml" tag="affix noun-derivation">
+        <lemma>*-l'tô</lemma>
+        <!--  agent  -->
+    </item>
+
+    <!--  Verbs  -->
+
+    <!--  Nominals  -->
 
 </lexis>

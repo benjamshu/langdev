@@ -1347,7 +1347,6 @@
     </item>
     <item src="words/-l'tô.xml" tag="jst-0008 fix">
         <lemma>*-l'tô</lemma>
-        <alt>-l'tō</alt>
         <!--  agent  -->
     </item>
     <item src="words/euxl'-.xml" tag="jst-0008 fix mood">
@@ -1800,6 +1799,14 @@
     <item src="words/tôxhô.xml" tag="jst-0008 ppl qualcon">
         <lemma>*tôxhô</lemma>
         <!--  studious; student  -->
+    </item>
+    <item src="words/-l'gô.xml" tag="affix verb-tense">
+        <lemma>*-l'gô</lemma>
+        <!--  past tense  -->
+    </item>
+    <item src="words/-l'â.xml" tag="affix verb-tense">
+        <lemma>*-l'â</lemma>
+        <!--  future tense  -->
     </item>
 
 </lexis>
