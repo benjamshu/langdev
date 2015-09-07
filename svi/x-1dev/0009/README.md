@@ -1,4 +1,4 @@
-#  SEVENSI FIRST-IN-DEVELOPMENT :: VIV  #
+#  SEVENSI FIRST-IN-DEVELOPMENT VIV  #
 
 ##  Description:  ##
 

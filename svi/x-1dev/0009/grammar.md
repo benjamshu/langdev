@@ -1,4 +1,4 @@
-#  SEVENSI FIRST-IN-DEVELOPMENT :: PROTO–SUB-BRANCH :: GRAMMAR  #
+#  SEVENSI FIRST-IN-DEVELOPMENT VIV :: GRAMMAR  #
 
 The grammar of SEVENSI FIRST-IN-DEVELOPMENT VIV diverges somewhat from that of JÄSTŪGEI VIII.
 This document aims to serve as an overview to how sentences are roughly constructed.
