@@ -294,6 +294,48 @@
         <alt>*-xâtei</alt>
         <!--  protective; guardian  -->
     </item>
+    <item src="words/teudâfâ.xml" tag="attributive referential nominal word">
+        <lemma>*teudâfâ</lemma>
+        <alt>*teudâ-</alt>
+        <alt>*-teu</alt>
+        <!--  elder; wise  -->
+    </item>
+    <item src="words/teueid.xml" tag="referential nominal word">
+        <lemma>*teueid</lemma>
+        <alt>*teuei-</alt>
+        <alt>*-tûd</alt>
+        <!--  body  -->
+    </item>
+    <item src="words/ʒauei.xml" tag="attributive referential nominal word">
+        <lemma>*ʒauei</lemma>
+        <alt>*ʒauei-</alt>
+        <alt>*-ʒau</alt>
+        <!--  atmosphere; spiritual; aura  -->
+    </item>
+    <item src="words/tôtêd.xml" tag="attributive referential nominal word">
+        <lemma>*tôtêd</lemma>
+        <alt>*tôtê-</alt>
+        <alt>*-tô</alt>
+        <!--  child; childish; foolish  -->
+    </item>
+    <item src="words/tôxhô.xml" tag="attributive referential nominal word">
+        <lemma>*tôxhô</lemma>
+        <alt>*tôx-</alt>
+        <alt>*-tôô</alt>
+        <!--  student; studious  -->
+    </item>
+    <item src="words/tôʒeutei.xml" tag="attributive referential nominal word">
+        <lemma>*tôʒeutei</lemma>
+        <alt>*ʒeut-</alt>
+        <alt>*-ʒei</alt>
+        <!--  young; youth  -->
+    </item>
+    <item src="words/zêtêd.xml" tag="attributive referential nominal word">
+        <lemma>*zêtêd</lemma>
+        <alt>*zêt-</alt>
+        <alt>*-zêd</alt>
+        <!--  man; manly  -->
+    </item>
 
     <!--  Names  -->
 
