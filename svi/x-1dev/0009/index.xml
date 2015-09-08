@@ -182,4 +182,60 @@
 
     <!--  Nominals  -->
 
+    <item src="words/deihâtsô.xml" tag="attributive referential nominal word">
+        <lemma>*deihâtsô</lemma>
+        <alt>*deih-</alt>
+        <alt>*-deitsô</alt>
+        <!--  collector, brought-together, sentimental  -->
+    </item>
+    <item src="words/deijôfôtô.xml" tag="attributive referential nominal word">
+        <lemma>*deijôfôtô</lemma>
+        <alt>*deij-</alt>
+        <alt>*-eijô</alt>
+        <!--  ear, listening, audible  -->
+    </item>
+    <item src="words/deitâd.xml" tag="attributive referential nominal word">
+        <lemma>*deitâd</lemma>
+        <alt>*ei-</alt>
+        <alt>*-eitâd</alt>
+        <!--  friendly, friend  -->
+    </item>
+    <item src="words/dôgôteid.xml" tag="attributive referential nominal word">
+        <lemma>*dôgôteid</lemma>
+        <alt>*dôgô-</alt>
+        <alt>*-gôteid</alt>
+        <!--  adult  -->
+    </item>
+    <item src="words/dôtâdô.xml" tag="attributive referential nominal word">
+        <lemma>*dôtâdô</lemma>
+        <alt>*tâdô-</alt>
+        <alt>*-dô</alt>
+        <alt>*-tdô</alt>
+        <!--  head; principal; chief; most important  -->
+    </item>
+    <item src="words/dôwâteu.xml" tag="attributive referential nominal word">
+        <lemma>*dôwâteu</lemma>
+        <alt>*dôwât-</alt>
+        <alt>*-wâ</alt>
+        <!--  baby; cute; small  -->
+    </item>
+    <item src="words/ein.xml" tag="attributive referential nominal word">
+        <lemma>*ein</lemma>
+        <alt>*ein-</alt>
+        <alt>*-nei</alt>
+        <!--  female; feminine  -->
+    </item>
+    <item src="words/hâtfî.xml" tag="attributive referential nominal word">
+        <lemma>*hâtfî</lemma>
+        <alt>*hât-</alt>
+        <alt>*-âfî</alt>
+        <!--  skilled; artisan  -->
+    </item>
+    <item src="words/heidôsai.xml" tag="attributive referential nominal word">
+        <lemma>*heidôsai</lemma>
+        <alt>*heidô-</alt>
+        <alt>*-eisai</alt>
+        <!--  eye; visual  -->
+    </item>
+
 </lexis>
