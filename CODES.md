@@ -4,10 +4,10 @@ This document lists all language codes in use by LANGDEV languages.
 Use `art-x-` tags when you can; `q--` tags are depreciated but may be used in situations where subtags are not supported; other tags are considered obsolete (but may be found in old development materials).
 Tags of the form `art-x-*-*ver` are no longer supported, use `art-x-*-000*` instead.
 
-##  Sevensi:  ##
+##  Jastu-Sevensi:  ##
 
-- `art-x-svi` : generic
-- ~~`art-x-svi-proto`~~ `art-x-svi-0009` : SEVENSI VIV (PROTO-SEVENSI)
+- `art-x-jsv` : generic
+- ~~`art-x-svi-proto` `art-x-svi-0009`~~ `art-x-jsv-0009` : JASTU-SEVENSI VIV (PROTO-SEVENSI)
 
 ###  lrex  ###
 
@@ -44,9 +44,18 @@ Tags of the form `art-x-*-*ver` are no longer supported, use `art-x-*-000*` inst
 - ~~`qeh` `art-x-eho-3ver`~~ `art-x-eho-0003` : E. HOPE □3
 - ~~`qeh` `art-x-eho-4ver`~~ `art-x-eho-0004` : E. HOPE □4 [implied by `art-x-eho`]
 
-###  1dev  ###
+###  sevensi  ###
 
-- `art-x-svi-x-1dev` : SEVENSI FIRST-IN-DEVELOPMENT
+- `art-x-svi` : generic (modern)
+
+####  old sevensi  ####
+
+- `art-x-osv` : generic
+- `art-x-osv-0009` : OLD SEVENSI VIV
+
+####  middle sevensi  ####
+
+- `art-x-osm` : generic
 
 ##  Fizonal:  ##
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*dôtâdô</lemma>
+    <entry>
+        <etymology>jst-0009</etymology>
+        <section>
+            <heading xml:lang="en">adjective</heading>
+            <def xml:lang="en">of the head</def>
+            <def xml:lang="en">principal</def>
+        </section>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">a head</def>
+            <def xml:lang="en">a person in charge</def>
+            <def xml:lang="en">the most important step</def>
+        </section>
+    </entry>
+</word>

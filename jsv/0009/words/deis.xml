@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*deis</lemma>
+    <entry>
+        <etymology>jst-0008</etymology>
+        <section>
+            <heading xml:lang="en">adjective</heading>
+            <def xml:lang="en">smooth</def>
+            <def xml:lang="en">tactful</def>
+            <def xml:lang="en">polished; finished</def>
+        </section>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">smoothness</def>
+            <def xml:lang="en">tact</def>
+            <def xml:lang="en">level of completion</def>
+        </section>
+    </entry>
+</word>

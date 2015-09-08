@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*deul'-</lemma>
+    <entry>
+        <etymology>jst-0008</etymology>
+        <section>
+            <heading xml:lang="en">affix</heading>
+            <def xml:lang="en">conjugates a verb in the alethic mood</def>
+            <def xml:lang="en">(+<html:i xml:lang="art-x-jsv-0009">ㄹ</html:i>) conjugates a verb in the jussive mood</def>
+        </section>
+        <aside xml:lang="en">The alethic mood is used to show that the information has been logically proven to be truthful; for example, all mathematical statements are alethic. The jussive mood is used for orders and to stress that the party in question has no other choice. Both words can be represented by the word <html:i>shall</html:i> in English (<html:i>One plus one shall equal two</html:i>/<html:i>He shall do his duty</html:i>).</aside>
+    </entry>
+</word>
