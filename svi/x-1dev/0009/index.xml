@@ -35,6 +35,7 @@
         <tag xml:lang="en" value="nominal">Nominal</tag>
         <tag xml:lang="en" value="nominal-case">Nominal-case</tag>
         <tag xml:lang="en" value="nominal-derivation">Nominal-derivation</tag>
+        <tag xml:lang="en" value="name">Name</tag>
     </taggroup>
     <taggroup name="Lexical categories">
         <tag xml:lang="en" value="attributive">Attributive</tag>
@@ -237,5 +238,7 @@
         <alt>*-eisai</alt>
         <!--  eye; visual  -->
     </item>
+
+    <!--  Names  -->
 
 </lexis>
