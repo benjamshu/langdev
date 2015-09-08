@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*deitâʒô</lemma>
+    <entry>
+        <etymology>jst-0008</etymology>
+        <section>
+            <heading xml:lang="en">adjective</heading>
+            <def xml:lang="en">stupid</def>
+        </section>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">stupidity</def>
+        </section>
+        <aside>
+            Usage of <html:i xml:lang="art-x-jsv-0009">*deitâʒô</html:i> is considered offensive; use <wordref xml:lang="art-x-jsv-0009">*tâʒô</wordref> for a more polite alternative
+        </aside>
+    </entry>
+</word>

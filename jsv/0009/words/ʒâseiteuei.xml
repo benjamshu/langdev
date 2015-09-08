@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*ʒâseiteuei</lemma>
+    <entry>
+        <etymology>jst-0008</etymology>
+        <section>
+            <alts xml:lang="en">dim. <html:i xml:lang="art-x-jsv-0009">*ʒâsei</html:i></alts>
+            <heading xml:lang="en">proper noun</heading>
+            <def xml:lang="en">feminine given name</def>
+        </section>
+    </entry>
+</word>

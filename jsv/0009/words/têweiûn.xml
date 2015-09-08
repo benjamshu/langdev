@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*têweiûn</lemma>
+    <entry>
+        <etymology>lrx-0006</etymology>
+        <section>
+            <heading xml:lang="en">adjective</heading>
+            <def xml:lang="en">alive</def>
+        </section>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">life</def>
+        </section>
+    </entry>
+</word>
