@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*euxl'-</lemma>
+    <entry>
+        <etymology>jst-0008</etymology>
+        <section>
+            <heading xml:lang="en">affix</heading>
+            <def xml:lang="en">conjugates a verb in the optative mood</def>
+            <def xml:lang="en">(+<html:i xml:lang="art-x-jsv-0009">ㄹ</html:i>) conjugates a verb in the permissive mood</def>
+        </section>
+        <aside xml:lang="en">The optative mood is used to express hopes and wishes <html:i>(it would be nice if…)</html:i>, and the permissive mood is used to signify that an action is permitted <html:i>(it is alright if…)</html:i></aside>
+    </entry>
+</word>
