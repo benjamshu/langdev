@@ -21,3 +21,19 @@ In 2015, the lexicons generated during this early development were combined into
     - XIII : Grammatical simplifications
     - XIV : Traditional
     - XV : Release-canidate; final grammars and phonology
+
+##  Orthographic history:  ##
+
+1. Purely representational sketches are canonized into pictographs and ideograms.
+
+2. Ideographic system expands; many symbols take on an alternate phonological meaning for use with grammatical words or affixes.
+
+3. In the Philosophical Period, the alphabet is developed to allow military orders to be communicated to sometimes-illiterate troops. It does not gain widespread adoption outside of the military.
+
+4. Post–Philosophical Period, the presence of the Classics and implementation of meritocratic structures result in a more widespread investment in literacy and accessibility. The alphabet is commonly used in casual writings but is still looked down upon by the elite.
+
+5. New Nation declares the alphabet the official writing system and dismisses the ideographic system as archaic and a relic of the privileged elite. The Classics are translated into alphabetic characters for common consumption.
+
+6. Many ideographic works are destroyed during the Dark Ages, making a complete reconstruction of ideographic Sevensi impossible.
+
+7. Hangul is adopted as the official Sevensi alphabet, and many modern features such as spaces and punctuation marks are incorporated.
