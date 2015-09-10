@@ -336,6 +336,18 @@
         <alt>*-zêd</alt>
         <!--  man; manly  -->
     </item>
+    <item src="words/âdein.xml" tag="referential nominal word">
+        <lemma>*âdein</lemma>
+        <alt>*âdei-</alt>
+        <alt>*-âdên</alt>
+        <!--  boob  -->
+    </item>
+    <item src="words/dâdhî.xml" tag="referential nominal word">
+        <lemma>*dâdhî</lemma>
+        <alt>*dâd-</alt>
+        <alt>*-dhî</alt>
+        <!--  throat  -->
+    </item>
 
     <!--  Names  -->
 
