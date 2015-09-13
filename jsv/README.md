@@ -6,6 +6,7 @@ Initial development took place from 2009-2012; you can find lexicons from this p
 
 In 2015, the lexicons generated during this early development were combined into [JASTU-SEVENSI VIV](0009), and development began anew.
 
+Documentation and back-development for SEVENSI and its ancestors takes place at <https://github.com/literallybenjam/7c/>.
 
 ##  Roadmap:  ##
 
