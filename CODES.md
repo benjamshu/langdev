@@ -53,10 +53,10 @@ Tags of the form `art-x-*-*ver` are no longer supported, use `art-x-*-000*` inst
 
 - `art-x-svi` : generic (modern)
 
-####  old sevensi  ####
+####  classical sevensi  ####
 
 - `art-x-osv` : generic
-- `art-x-osv-0009` : OLD SEVENSI VIV
+- `art-x-osv-0009` : CLASSICAL SEVENSI VIV
 
 ####  middle sevensi  ####
 

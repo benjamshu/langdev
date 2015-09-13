@@ -1,6 +1,6 @@
-#  OLD SEVENSI VIV  #
+#  CLASSICAL SEVENSI VIV  #
 
 ##  Description:  ##
 
-OLD SEVENSI VIV is a branch of JASTU-SEVENSI VIV to be used for OLD SEVENSI language generation.
-Despite its name, it should be considered "PROTO–OLD SEVENSI" and not part of the language proper.
+CLASSICAL SEVENSI VIV is a branch of JASTU-SEVENSI VIV to be used for CLASSICAL SEVENSI language generation.
+Despite its name, it should be considered a proto-language and not part of the language proper.

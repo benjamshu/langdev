@@ -12,7 +12,7 @@ Documentation and back-development for SEVENSI and its ancestors takes place at 
 
 - !DEPRECIATED! : Base for THE JASTU-SEVENSI LANGUAGES
 - VIV : Collection under common orthography and grammar
-- OLD SEVENSI :
+- CLASSICAL SEVENSI :
     - VIV : Regional variant
     - X : Grammatical standardization
     - XI : Phonological standardization
