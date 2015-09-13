@@ -2,8 +2,8 @@
 <lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0009">
 
     <!--  METADATA  -->
-    <meta type="title" xml:lang="en">OLD SEVENSI VIV</meta>
-    <meta type="description" xml:lang="en">SEVENSI VIV is derived from a collection of independent languages developed between 2009 and 2012. This dictionary contains the OLD SEVENSI variant.</meta>
+    <meta type="title" xml:lang="en">CLASSICAL SEVENSI VIV</meta>
+    <meta type="description" xml:lang="en">SEVENSI VIV is derived from a collection of independent languages developed between 2009 and 2012. This dictionary contains the CLASSICAL SEVENSI variant.</meta>
     <meta type="splash" xml:lang="en">git checkout -b</meta>
     <meta type="splash" xml:lang="en">It's building!</meta>
     <meta type="splash" xml:lang="en">Leggo!</meta>
@@ -293,6 +293,120 @@
         <alt>*teix-</alt>
         <alt>*-xâtei</alt>
         <!--  protective; guardian  -->
+    </item>
+    <item src="words/teudâfâ.xml" tag="attributive referential nominal word">
+        <lemma>*teudâfâ</lemma>
+        <alt>*teudâ-</alt>
+        <alt>*-teu</alt>
+        <!--  elder; wise  -->
+    </item>
+    <item src="words/teueid.xml" tag="referential nominal word">
+        <lemma>*teueid</lemma>
+        <alt>*teuei-</alt>
+        <alt>*-tûd</alt>
+        <!--  body  -->
+    </item>
+    <item src="words/ʒauei.xml" tag="attributive referential nominal word">
+        <lemma>*ʒauei</lemma>
+        <alt>*ʒauei-</alt>
+        <alt>*-ʒau</alt>
+        <!--  atmosphere; spiritual; aura  -->
+    </item>
+    <item src="words/tôtêd.xml" tag="attributive referential nominal word">
+        <lemma>*tôtêd</lemma>
+        <alt>*tôtê-</alt>
+        <alt>*-tô</alt>
+        <!--  child; childish; foolish  -->
+    </item>
+    <item src="words/tôxhô.xml" tag="attributive referential nominal word">
+        <lemma>*tôxhô</lemma>
+        <alt>*tôx-</alt>
+        <alt>*-tôô</alt>
+        <!--  student; studious  -->
+    </item>
+    <item src="words/tôʒeutei.xml" tag="attributive referential nominal word">
+        <lemma>*tôʒeutei</lemma>
+        <alt>*ʒeut-</alt>
+        <alt>*-ʒei</alt>
+        <!--  young; youth  -->
+    </item>
+    <item src="words/zêtêd.xml" tag="attributive referential nominal word">
+        <lemma>*zêtêd</lemma>
+        <alt>*zêt-</alt>
+        <alt>*-zêd</alt>
+        <!--  man; manly  -->
+    </item>
+    <item src="words/âdein.xml" tag="referential nominal word">
+        <lemma>*âdein</lemma>
+        <alt>*âdei-</alt>
+        <alt>*-âdên</alt>
+        <!--  boob  -->
+    </item>
+    <item src="words/dâdhî.xml" tag="referential nominal word">
+        <lemma>*dâdhî</lemma>
+        <alt>*dâd-</alt>
+        <alt>*-dhî</alt>
+        <!--  throat  -->
+    </item>
+    <item src="words/deieuseisô.xml" tag="attributive referential nominal word">
+        <lemma>*deieuseisô</lemma>
+        <alt>*deieu-</alt>
+        <alt>*-deisô</alt>
+        <!--  joint  -->
+    </item>
+    <item src="words/deiôdwei.xml" tag="attributive referential nominal word">
+        <lemma>*deiôdwei</lemma>
+        <alt>*deiôd-</alt>
+        <alt>*-dwei</alt>
+        <!--  spine  -->
+    </item>
+    <item src="words/deitô.xml" tag="attributive referential nominal word">
+        <lemma>*deitô</lemma>
+        <alt>*deitô-</alt>
+        <alt>*-dtô</alt>
+        <!--  wing; flight  -->
+    </item>
+    <item src="words/dôfîtxai.xml" tag="referential nominal word">
+        <lemma>*dôfîtxai</lemma>
+        <alt>*dôfîx-</alt>
+        <alt>*-dxai</alt>
+        <!--  hip  -->
+    </item>
+    <item src="words/dôtôfai.xml" tag="referential nominal word">
+        <lemma>*dôtôfai</lemma>
+        <alt>*dôfai-</alt>
+        <alt>*-tôfai</alt>
+        <!--  nose  -->
+    </item>
+    <item src="words/dôwâxai.xml" tag="attributive referential nominal word">
+        <lemma>*dôwâxai</lemma>
+        <alt>*dôwâx-</alt>
+        <alt>*-xai</alt>
+        <!--  heart  -->
+    </item>
+    <item src="words/heidôsô.xml" tag="attributive referential nominal word">
+        <lemma>*heidôsô</lemma>
+        <alt>*heidsô-</alt>
+        <alt>*-sô</alt>
+        <!--  blood  -->
+    </item>
+    <item src="words/heiseutwei.xml" tag="attributive referential nominal word">
+        <lemma>*heiseutwei</lemma>
+        <alt>*heiseu-</alt>
+        <alt>*-swei</alt>
+        <!--  shoulder; edge  -->
+    </item>
+    <item src="words/hôpeijô.xml" tag="attributive referential nominal word">
+        <lemma>*hôpeijô</lemma>
+        <alt>*hôpei-</alt>
+        <alt>*-hôjô</alt>
+        <!--  foot; base; start  -->
+    </item>
+    <item src="words/hôtô.xml" tag="attributive referential nominal word">
+        <lemma>*hôtô</lemma>
+        <alt>*hôtô-</alt>
+        <alt>*-hôtô</alt>
+        <!--  hair  -->
     </item>
 
     <!--  Names  -->
