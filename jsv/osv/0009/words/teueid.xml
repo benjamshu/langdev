@@ -4,8 +4,9 @@
     <entry>
         <section>
             <heading xml:lang="en">nominal</heading>
-            <alts xml:lang="en">root: <html:i xml:lang="art-x-osv-0009">*teuei-</html:i>; affix: <html:i xml:lang="art-x-osv-0009">*-tûd</html:i></alts>
+            <alts xml:lang="en">root: <html:i xml:lang="art-x-osv-0009">*teuei-</html:i>; affix: <html:i xml:lang="art-x-osv-0009">*-teid</html:i></alts>
             <def xml:lang="en">body</def>
+            <def xml:lang="en">person</def>
             <def xml:lang="en">(as an affix) bodily</def>
         </section>
     </entry>
