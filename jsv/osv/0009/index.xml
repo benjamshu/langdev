@@ -553,7 +553,70 @@
         <alt>*ʒôst-</alt>
         <alt>*ʒôʒ-</alt>
         <alt>*-ʒeut</alt>
-        <!--  hunger  -->
+        <!--  poop  -->
+    </item>
+    <item src="words/deihîtû.xml" tag="attributive nominal word">
+        <lemma>*deihîtû</lemma>
+        <alt>*deihî-</alt>
+        <alt>*-eihtû</alt>
+        <!--  clear  -->
+    </item>
+    <item src="words/dôaiwêt.xml" tag="attributive nominal word">
+        <lemma>*dôaiwêt</lemma>
+        <alt>*dôai-</alt>
+        <alt>*-dôwêt</alt>
+        <!--  brown  -->
+    </item>
+    <item src="words/fôzî.xml" tag="attributive referential nominal word">
+        <lemma>*fôzî</lemma>
+        <alt>*fôzî-</alt>
+        <alt>*-fôzî</alt>
+        <!--  brown  -->
+    </item>
+    <item src="words/gaifêeut.xml" tag="attributive nominal word">
+        <lemma>*gaifêeut</lemma>
+        <alt>*gaifê-</alt>
+        <alt>*-gaifeut</alt>
+        <!--  purple  -->
+    </item>
+    <item src="words/haifû.xml" tag="attributive referential nominal word">
+        <lemma>*haifû</lemma>
+        <alt>*haifû-</alt>
+        <alt>*-aifû</alt>
+        <!--  light  -->
+    </item>
+    <item src="words/jautî.xml" tag="attributive nominal word">
+        <lemma>*jautî</lemma>
+        <alt>*jaut-</alt>
+        <alt>*-jau</alt>
+        <!--  blue  -->
+    </item>
+    <item src="words/ûtau.xml" tag="attributive referential nominal word">
+        <lemma>*ûtau</lemma>
+        <alt>*ût-</alt>
+        <alt>*-au</alt>
+        <!--  black  -->
+        <alt>*tau-</alt>
+        <alt>*-tau</alt>
+        <!--  storm  -->
+    </item>
+    <item src="words/waut.xml" tag="attributive nominal word">
+        <lemma>*waut</lemma>
+        <alt>*waut-</alt>
+        <alt>*-wau</alt>
+        <!--  grey  -->
+    </item>
+    <item src="words/ʒau.xml" tag="attributive referential nominal word">
+        <lemma>*ʒau</lemma>
+        <alt>*ʒau-</alt>
+        <alt>*-ʒau</alt>
+        <!--  warmly coloured; air  -->
+    </item>
+    <item src="words/ʒeindei.xml" tag="attributive nominal word">
+        <lemma>*ʒeindei</lemma>
+        <alt>*ʒein-</alt>
+        <alt>*-eidei</alt>
+        <!--  white  -->
     </item>
 
     <!--  Names  -->
