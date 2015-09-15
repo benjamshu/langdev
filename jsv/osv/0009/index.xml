@@ -494,6 +494,36 @@
         <alt>*-ʒî</alt>
         <!--  mouth  -->
     </item>
+    <item src="words/dôwôdâ.xml" tag="referential nominal word">
+        <lemma>*dôwôdâ</lemma>
+        <alt>*dôwô-</alt>
+        <alt>*-dwâ</alt>
+        <!--  shirt  -->
+    </item>
+    <item src="words/dûtâdei.xml" tag="referential nominal word">
+        <lemma>*dûtâdei</lemma>
+        <alt>*dûtâd-</alt>
+        <alt>*-dûdei</alt>
+        <!--  hat  -->
+    </item>
+    <item src="words/eusôtô.xml" tag="referential nominal word">
+        <lemma>*eusôtô</lemma>
+        <alt>*eusô-</alt>
+        <alt>*-sôtô</alt>
+        <!--  pants  -->
+    </item>
+    <item src="words/tôdei.xml" tag="attributive referential nominal word">
+        <lemma>*tôdei</lemma>
+        <alt>*tôdei-</alt>
+        <alt>*-tdei</alt>
+        <!--  clothed; clothing  -->
+    </item>
+    <item src="words/ʒîteidû.xml" tag="attributive referential nominal word">
+        <lemma>*ʒîteidû</lemma>
+        <alt>*ʒîtdû-</alt>
+        <alt>*-ʒeidû</alt>
+        <!--  mask; masked  -->
+    </item>
 
     <!--  Names  -->
 
