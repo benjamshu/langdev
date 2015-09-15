@@ -14,7 +14,7 @@ CLASSICAL SEVENSI lacks any grammatical gender and this nasalization pattern has
 
 The sound \*m has shifted to /n/ in many cases.
 The sounds \*z and \*zh have merged as /ʑ/, while \*j has shifted to /dʑ/.
-\*f has been voiced in many cases and merged with /v/.
+\*f has been voiced in many cases as /v/.
 Some instances of \*t have split off as /ɾ/.
 This remains /l/ in the word-final position, and is sometimes pronounced /tl/ in the middle of words.
 
