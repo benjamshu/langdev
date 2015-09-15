@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0009">
+    <lemma>*sôj</lemma>
+    <entry>
+        <section>
+            <heading xml:lang="en">nominal</heading>
+            <alts xml:lang="en">also <html:i xml:lang="art-x-osv-0009">*sôds</html:i>; root: <html:i xml:lang="art-x-osv-0009">*sôd(s)-</html:i>; affix: <html:i xml:lang="art-x-osv-0009">*-dsô</html:i></alts>
+            <def xml:lang="en">tongue</def>
+            <def xml:lang="en">talkative</def>
+        </section>
+    </entry>
+</word>

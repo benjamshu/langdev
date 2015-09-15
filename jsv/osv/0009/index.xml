@@ -303,7 +303,7 @@
     <item src="words/teueid.xml" tag="referential nominal word">
         <lemma>*teueid</lemma>
         <alt>*teuei-</alt>
-        <alt>*-tûd</alt>
+        <alt>*-teid</alt>
         <!--  body  -->
     </item>
     <item src="words/ʒauei.xml" tag="attributive referential nominal word">
@@ -407,6 +407,153 @@
         <alt>*hôtô-</alt>
         <alt>*-hôtô</alt>
         <!--  hair  -->
+    </item>
+    <item src="words/joitô.xml" tag="referential nominal word">
+        <lemma>*joitô</lemma>
+        <alt>*joiô-</alt>
+        <alt>*-oitô</alt>
+        <!--  penis  -->
+    </item>
+    <item src="words/ôwaitfî.xml" tag="attributive referential nominal word">
+        <lemma>*ôwaitfî</lemma>
+        <alt>*ôwaiî-</alt>
+        <alt>*-tfî</alt>
+        <!--  tooth  -->
+    </item>
+    <item src="words/sâtausei.xml" tag="attributive referential nominal word">
+        <lemma>*sâtausei</lemma>
+        <alt>*sâtau-</alt>
+        <alt>*-tsei</alt>
+        <!--  muscle; muscular  -->
+    </item>
+    <item src="words/seitô.xml" tag="attributive referential nominal word">
+        <lemma>*seitô</lemma>
+        <alt>*seitô-</alt>
+        <alt>*-tsô</alt>
+        <!--  leg; limbed  -->
+    </item>
+    <item src="words/sôj.xml" tag="attributive referential nominal word">
+        <lemma>*sôj</lemma>
+        <alt>*sôds</alt>
+        <alt>*sôd-</alt>
+        <alt>*sôds-</alt>
+        <alt>*-dsô</alt>
+        <!--  tongue; talkative  -->
+    </item>
+    <item src="words/sôjei.xml" tag="referential nominal word">
+        <lemma>*sôjei</lemma>
+        <alt>*sôj-</alt>
+        <alt>*-dsei</alt>
+        <!--  finger  -->
+    </item>
+    <item src="words/sôwû.xml" tag="attributive referential nominal word">
+        <lemma>*sôwû</lemma>
+        <alt>*sû-</alt>
+        <alt>*-sû</alt>
+        <!--  skin; naked  -->
+    </item>
+    <item src="words/sûhôwî.xml" tag="attributive referential nominal word">
+        <lemma>*sûhôwî</lemma>
+        <alt>*sûwî-</alt>
+        <alt>*-swî</alt>
+        <!--  hand  -->
+    </item>
+    <item src="words/sûwei.xml" tag="referential nominal word">
+        <lemma>*sûwei</lemma>
+        <alt>*sûei-</alt>
+        <alt>*-swei</alt>
+        <!--  arm  -->
+    </item>
+    <item src="words/teiaufeut.xml" tag="referential nominal word">
+        <lemma>*teiaufeut</lemma>
+        <alt>*teifeu-</alt>
+        <alt>*-faut</alt>
+        <!--  feather  -->
+    </item>
+    <item src="words/xeifôhai.xml" tag="attributive referential nominal word">
+        <lemma>*xeifôhai</lemma>
+        <alt>*xeifô-</alt>
+        <alt>*-xai</alt>
+        <!--  chest; core  -->
+    </item>
+    <item src="words/xôseueid.xml" tag="attributive referential nominal word">
+        <lemma>*xôseueid</lemma>
+        <alt>*xôsei-</alt>
+        <alt>*-xseid</alt>
+        <!--  bone  -->
+    </item>
+    <item src="words/ʒeitôweu.xml" tag="referential nominal word">
+        <lemma>*ʒeitôweu</lemma>
+        <alt>*ʒeitô-</alt>
+        <alt>*-ʒôweu</alt>
+        <!--  bone  -->
+    </item>
+    <item src="words/ʒôtsî.xml" tag="referential nominal word">
+        <lemma>*ʒôtsî</lemma>
+        <alt>*ʒôt-</alt>
+        <alt>*-ʒî</alt>
+        <!--  mouth  -->
+    </item>
+    <item src="words/dôwôdâ.xml" tag="referential nominal word">
+        <lemma>*dôwôdâ</lemma>
+        <alt>*dôwô-</alt>
+        <alt>*-dwâ</alt>
+        <!--  shirt  -->
+    </item>
+    <item src="words/dûtâdei.xml" tag="referential nominal word">
+        <lemma>*dûtâdei</lemma>
+        <alt>*dûtâd-</alt>
+        <alt>*-dûdei</alt>
+        <!--  hat  -->
+    </item>
+    <item src="words/eusôtô.xml" tag="referential nominal word">
+        <lemma>*eusôtô</lemma>
+        <alt>*eusô-</alt>
+        <alt>*-sôtô</alt>
+        <!--  pants  -->
+    </item>
+    <item src="words/tôdei.xml" tag="attributive referential nominal word">
+        <lemma>*tôdei</lemma>
+        <alt>*tôdei-</alt>
+        <alt>*-tdei</alt>
+        <!--  clothed; clothing  -->
+    </item>
+    <item src="words/ʒîteidû.xml" tag="attributive referential nominal word">
+        <lemma>*ʒîteidû</lemma>
+        <alt>*ʒîtdû-</alt>
+        <alt>*-ʒeidû</alt>
+        <!--  mask; masked  -->
+    </item>
+    <item src="words/deifeusô.xml" tag="attributive referential nominal word">
+        <lemma>*deifeusô</lemma>
+        <alt>*deifeu-</alt>
+        <alt>*-deisô</alt>
+        <!--  thirst  -->
+    </item>
+    <item src="words/dôtôgâ.xml" tag="attributive referential nominal word">
+        <lemma>*dôtôgâ</lemma>
+        <alt>*dôtgâ-</alt>
+        <alt>*-dôgâ</alt>
+        <!--  tired; sleep  -->
+    </item>
+    <item src="words/seinʒî.xml" tag="attributive referential nominal word">
+        <lemma>*seinʒî</lemma>
+        <alt>*sein-</alt>
+        <alt>*-nʒî</alt>
+        <!--  menstruation  -->
+    </item>
+    <item src="words/sîtgî.xml" tag="attributive referential nominal word">
+        <lemma>*sîtgî</lemma>
+        <alt>*sît-</alt>
+        <alt>*-tgî</alt>
+        <!--  hunger  -->
+    </item>
+    <item src="words/ʒôseut.xml" tag="attributive referential nominal word">
+        <lemma>*ʒôseut</lemma>
+        <alt>*ʒôst-</alt>
+        <alt>*ʒôʒ-</alt>
+        <alt>*-ʒeut</alt>
+        <!--  hunger  -->
     </item>
 
     <!--  Names  -->
