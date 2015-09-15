@@ -648,7 +648,7 @@
         <alt>*-jôsê</alt>
         <!--  salt; salty  -->
     </item>
-    <item src="words/paufî.xml" tag="attributive nominal word">
+    <item src="words/paufî.xml" tag="attributive referential nominal word">
         <lemma>*paufî</lemma>
         <alt>*pauî-</alt>
         <alt>*-pau</alt>
@@ -659,6 +659,12 @@
         <alt>*sôʒai-</alt>
         <alt>*-sʒai</alt>
         <!--  bitter  -->
+    </item>
+    <item src="words/ôjai.xml" tag="attributive referential nominal word">
+        <lemma>*ôjai</lemma>
+        <alt>*ôjai-</alt>
+        <alt>*-jai</alt>
+        <!--  scent; smelly  -->
     </item>
 
     <!--  Names  -->
