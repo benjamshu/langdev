@@ -524,6 +524,37 @@
         <alt>*-ʒeidû</alt>
         <!--  mask; masked  -->
     </item>
+    <item src="words/deifeusô.xml" tag="attributive referential nominal word">
+        <lemma>*deifeusô</lemma>
+        <alt>*deifeu-</alt>
+        <alt>*-deisô</alt>
+        <!--  thirst  -->
+    </item>
+    <item src="words/dôtôgâ.xml" tag="attributive referential nominal word">
+        <lemma>*dôtôgâ</lemma>
+        <alt>*dôtgâ-</alt>
+        <alt>*-dôgâ</alt>
+        <!--  tired; sleep  -->
+    </item>
+    <item src="words/seinʒî.xml" tag="attributive referential nominal word">
+        <lemma>*seinʒî</lemma>
+        <alt>*sein-</alt>
+        <alt>*-nʒî</alt>
+        <!--  menstruation  -->
+    </item>
+    <item src="words/sîtgî.xml" tag="attributive referential nominal word">
+        <lemma>*sîtgî</lemma>
+        <alt>*sît-</alt>
+        <alt>*-tgî</alt>
+        <!--  hunger  -->
+    </item>
+    <item src="words/ʒôseut.xml" tag="attributive referential nominal word">
+        <lemma>*ʒôseut</lemma>
+        <alt>*ʒôst-</alt>
+        <alt>*ʒôʒ-</alt>
+        <alt>*-ʒeut</alt>
+        <!--  hunger  -->
+    </item>
 
     <!--  Names  -->
 
