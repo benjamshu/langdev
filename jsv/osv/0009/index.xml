@@ -618,6 +618,18 @@
         <alt>*-eidei</alt>
         <!--  white  -->
     </item>
+    <item src="words/hôfâsî.xml" tag="attributive referential nominal word">
+        <lemma>*hôfâsî</lemma>
+        <alt>*hôfâ-</alt>
+        <alt>*-ôsî</alt>
+        <!--  touch  -->
+    </item>
+    <item src="words/tûdai.xml" tag="attributive referential nominal word">
+        <lemma>*tûdai</lemma>
+        <alt>*tûd-</alt>
+        <alt>*-ûdai</alt>
+        <!--  pain  -->
+    </item>
 
     <!--  Names  -->
 
