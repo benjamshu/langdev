@@ -630,6 +630,42 @@
         <alt>*-ûdai</alt>
         <!--  pain  -->
     </item>
+    <item src="words/deitait.xml" tag="attributive nominal word">
+        <lemma>*deitait</lemma>
+        <alt>*deit-</alt>
+        <alt>*-dtait</alt>
+        <!--  sour  -->
+    </item>
+    <item src="words/dôjaidô.xml" tag="attributive referential nominal word">
+        <lemma>*dôjaidô</lemma>
+        <alt>*dôjai-</alt>
+        <alt>*-dôjô</alt>
+        <!--  sweet; sugar  -->
+    </item>
+    <item src="words/jôwâsêt.xml" tag="attributive referential nominal word">
+        <lemma>*jôwâsêt</lemma>
+        <alt>*jôsêt-</alt>
+        <alt>*-jôsê</alt>
+        <!--  salt; salty  -->
+    </item>
+    <item src="words/paufî.xml" tag="attributive referential nominal word">
+        <lemma>*paufî</lemma>
+        <alt>*pauî-</alt>
+        <alt>*-pau</alt>
+        <!--  spice; spicy-hot  -->
+    </item>
+    <item src="words/sôfoiʒai.xml" tag="attributive nominal word">
+        <lemma>*sôfoiʒai</lemma>
+        <alt>*sôʒai-</alt>
+        <alt>*-sʒai</alt>
+        <!--  bitter  -->
+    </item>
+    <item src="words/ôjai.xml" tag="attributive referential nominal word">
+        <lemma>*ôjai</lemma>
+        <alt>*ôjai-</alt>
+        <alt>*-jai</alt>
+        <!--  scent; smelly  -->
+    </item>
 
     <!--  Names  -->
 

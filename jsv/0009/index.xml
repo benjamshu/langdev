@@ -88,6 +88,7 @@
     <meta type="splash" xml:lang="en">Symmetric!</meta>
     <meta type="splash" xml:lang="en">Revised!</meta>
     <meta type="splash" xml:lang="en">Post-alternative!</meta>
+    <meta type="splash" xml:lang="en">Tense!</meta>
 
     <!--  TAGS  -->
 
@@ -143,6 +144,7 @@
         <tag xml:lang="en" value="conj">Conjunctions</tag>
         <tag xml:lang="en" value="fix">Affixes</tag>
         <tag xml:lang="en" value="mood">Modal markers</tag>
+        <tag xml:lang="en" value="verb-tense">Verb tense</tag>
         <tag xml:lang="en" value="article">Articles</tag>
         <tag xml:lang="en" value="intrj">Interjections</tag>
         <tag xml:lang="en" value="adp">Adpositions</tag>
