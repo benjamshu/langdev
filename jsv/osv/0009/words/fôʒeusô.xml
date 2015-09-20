@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0009">
+    <lemma>*fôʒeusô</lemma>
+    <entry>
+        <section>
+            <heading xml:lang="en">nominal</heading>
+            <alts xml:lang="en">root: <html:i xml:lang="art-x-osv-0009">*fôʒô-</html:i>; affix: <html:i xml:lang="art-x-osv-0009">*-ʒeusô</html:i></alts>
+            <def xml:lang="en">quiet</def>
+            <def xml:lang="en">silence</def>
+            <def xml:lang="en">shy</def>
+            <def xml:lang="en">modest</def>
+        </section>
+    </entry>
+</word>
