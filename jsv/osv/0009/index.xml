@@ -666,6 +666,48 @@
         <alt>*-jai</alt>
         <!--  scent; smelly  -->
     </item>
+    <item src="words/dôpâjî.xml" tag="attributive referential nominal word">
+        <lemma>*dôpâjî</lemma>
+        <alt>*dôjî-</alt>
+        <alt>*-pâjî</alt>
+        <!--  noise; noisy; loud; rude; obnoxious  -->
+    </item>
+    <item src="words/dûseitô.xml" tag="attributive referential nominal word">
+        <lemma>*dûseitô</lemma>
+        <alt>*dûsei-</alt>
+        <alt>*-dûstô</alt>
+        <!--  laughter  -->
+    </item>
+    <item src="words/fôʒeusô.xml" tag="attributive referential nominal word">
+        <lemma>*fôʒeusô</lemma>
+        <alt>*fôʒô-</alt>
+        <alt>*-ʒeusô</alt>
+        <!--  silence; quiet; shy; modest  -->
+    </item>
+    <item src="words/pôwâ.xml" tag="attributive referential nominal word">
+        <lemma>*pôwâ</lemma>
+        <alt>*pôwâ-</alt>
+        <alt>*-pôwâ</alt>
+        <!--  melodic; music  -->
+    </item>
+    <item src="words/ʒâsei.xml" tag="attributive referential nominal word">
+        <lemma>*ʒâsei</lemma>
+        <alt>*ʒâs-</alt>
+        <alt>*-sʒei</alt>
+        <!--  talkative; speech  -->
+    </item>
+    <item src="words/ʒeiô.xml" tag="attributive referential nominal word">
+        <lemma>*ʒeiô</lemma>
+        <alt>*ʒeiô-</alt>
+        <alt>*-ʒô</alt>
+        <!--  emotional; emotion  -->
+    </item>
+    <item src="words/ʒeipei.xml" tag="referential nominal word">
+        <lemma>*ʒeipei</lemma>
+        <alt>*ʒei-</alt>
+        <alt>*-jei</alt>
+        <!--  sound  -->
+    </item>
 
     <!--  Names  -->
 
