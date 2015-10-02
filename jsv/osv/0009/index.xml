@@ -708,6 +708,85 @@
         <alt>*-jei</alt>
         <!--  sound  -->
     </item>
+    <item src="words/deiôsî.xml" tag="attributive referential nominal word">
+        <lemma>*deiôsî</lemma>
+        <alt>*deis-</alt>
+        <alt>*-ôsî</alt>
+        <!--  excited; excitement  -->
+    </item>
+    <item src="words/dôdei.xml" tag="attributive referential nominal word">
+        <lemma>*dôdei</lemma>
+        <alt>*dôdei-</alt>
+        <alt>*-ôdei</alt>
+        <!--  happy; happiness  -->
+    </item>
+    <item src="words/ênxeu.xml" tag="attributive referential nominal word">
+        <lemma>*ênxeu</lemma>
+        <alt>*ênx-</alt>
+        <alt>*-neu</alt>
+        <!--  peaceful; peace  -->
+    </item>
+    <item src="words/hôtâjô.xml" tag="attributive referential nominal word">
+        <lemma>*hôtâjô</lemma>
+        <alt>*hôtjô-</alt>
+        <alt>*-tjô</alt>
+        <alt>*-jô</alt>
+        <!--  frustrated; frustration  -->
+    </item>
+    <item src="words/jeuweindôsei.xml" tag="attributive referential nominal word">
+        <lemma>*jeuweindôsei</lemma>
+        <alt>*jeuwei-</alt>
+        <alt>*-einsei</alt>
+        <!--  awed; awe  -->
+    </item>
+    <item src="words/ôn.xml" tag="attributive referential nominal word">
+        <lemma>*ôn</lemma>
+        <alt>*ôn-</alt>
+        <alt>*-ôn</alt>
+        <!--  awed; awe  -->
+    </item>
+    <item src="words/tôpei.xml" tag="attributive referential nominal word">
+        <lemma>*tôpei</lemma>
+        <alt>*pei-</alt>
+        <alt>*-pei</alt>
+        <!--  angry; anger  -->
+    </item>
+    <item src="words/wâmei.xml" tag="attributive referential nominal word">
+        <lemma>*wâmei</lemma>
+        <alt>*wâ-</alt>
+        <alt>*-mei</alt>
+        <!--  surprise; surprising  -->
+    </item>
+    <item src="words/wôwei.xml" tag="attributive referential nominal word">
+        <lemma>*wôwei</lemma>
+        <alt>*wô-</alt>
+        <alt>*-wei</alt>
+        <!--  calm; calmness  -->
+    </item>
+    <item src="words/xoifô.xml" tag="attributive referential nominal word">
+        <lemma>*xoifô</lemma>
+        <alt>*xoi-</alt>
+        <alt>*-xfô</alt>
+        <!--  sad; sadness  -->
+    </item>
+    <item src="words/xûên.xml" tag="attributive referential nominal word">
+        <lemma>*xûên</lemma>
+        <alt>*xûê-</alt>
+        <alt>*-ûên</alt>
+        <!--  relaxing; relaxation  -->
+    </item>
+    <item src="words/ʒâtais.xml" tag="attributive referential nominal word">
+        <lemma>*ʒâtais</lemma>
+        <alt>*ʒâtai-</alt>
+        <alt>*-tais</alt>
+        <!--  empathetic; empathy; condolences  -->
+    </item>
+    <item src="words/ʒaujû.xml" tag="attributive referential nominal word">
+        <lemma>*ʒaujû</lemma>
+        <alt>*ʒau-</alt>
+        <alt>*-ʒû</alt>
+        <!--  passion; passionate  -->
+    </item>
 
     <!--  Names  -->
 
