@@ -12,12 +12,6 @@ In JÄSTŪGĀ/JÄSTŪGEI VIII, a nasalized *ā* sound was used to indicate femin
 These feminine connotations were largely removed in VIV, and the nasalization was detached into a word-final *-ng*.
 CLASSICAL SEVENSI lacks any grammatical gender and this nasalization pattern has expanded to other syllables.
 
-###  vowel harmony  ###
-
-Words are now harmonized according to the polarity of their stressed syllable.
-Before harmonization, positive vowels are iotized where possible.
-Words whose stressed syllable is neutral are not harmonized.
-
 ###  codas  ###
 
 Syllable codas may now include any letter in the orthography.
@@ -61,6 +55,12 @@ The consonants \*d, \*g, \*j, and \*p split into voiced, aspirated, and devoiced
 4. Otherwise, the consonant is devoiced.
 
 Note that these rules are somewhat flexible, especially when dealing with affixes.
+
+####  harmonization
+
+Words are now harmonized according to the polarity of their stressed syllable.
+Before harmonization, positive vowels are iotized where possible.
+Words whose stressed syllable is neutral are not harmonized.
 
 ## Orthography: ##
 
