@@ -17,6 +17,8 @@
     <meta type="splash" xml:lang="en">Referenced!</meta>
     <meta type="splash" xml:lang="en">Selective!</meta>
     <meta type="splash" xml:lang="en">In two flavours!</meta>
+    <meta type="splash" xml:lang="en">Good enough!</meta>
+    <meta type="splash" xml:lang="en">(Mostly) complete!</meta>
 
     <!--  TAGS  -->
 
@@ -31,7 +33,7 @@
         <tag xml:lang="en" value="postposition-adjectival">Adjectival postposition</tag>
         <tag xml:lang="en" value="postposition-adverbial">Adverbial postposition</tag>
         <tag xml:lang="en" value="conjunction">Conjunction</tag>
-        <tag xml:lang="en" value="verb">Verb</tag>
+        <tag xml:lang="en" value="verbal">Verbal</tag>
         <tag xml:lang="en" value="verb-tense">Verb-tense</tag>
         <tag xml:lang="en" value="verb-mood">Verb-mood</tag>
         <tag xml:lang="en" value="verb-derivation">Verb-derivation</tag>
@@ -253,7 +255,176 @@
         <!--  honorific  -->
     </item>
 
-    <!--  Verbs  -->
+    <!--  Verbals  -->
+
+    <item src="words/aiʒô.xml" tag="verbal word">
+        <lemma>*aiʒô</lemma>
+        <alt>*aiʒ-</alt>
+        <alt>*-aiʒô</alt>
+        <!--  meet  -->
+    </item>
+    <item src="words/âtaus.xml" tag="verbal word">
+        <lemma>*âtaus</lemma>
+        <alt>*âtau-</alt>
+        <alt>*-taus</alt>
+        <!--  hurt  -->
+    </item>
+    <item src="words/aueiô.xml" tag="verbal word">
+        <lemma>*auhî</lemma>
+        <alt>*au-</alt>
+        <alt>*-auhî</alt>
+        <!--  destroy  -->
+    </item>
+    <item src="words/âwô.xml" tag="verbal word">
+        <lemma>*âwô</lemma>
+        <alt>*âwô-</alt>
+        <alt>*-âwô</alt>
+        <!--  ask  -->
+    </item>
+    <item src="words/dâeud.xml" tag="verbal word">
+        <lemma>*dâeud</lemma>
+        <alt>*dau-</alt>
+        <alt>*-eud</alt>
+        <!--  grab  -->
+    </item>
+    <item src="words/dauteiô.xml" tag="verbal word">
+        <lemma>*dauteiô</lemma>
+        <alt>*dautei-</alt>
+        <alt>*-teiô</alt>
+        <!--  fly  -->
+    </item>
+    <item src="words/deiô.xml" tag="verbal word">
+        <lemma>*deiô</lemma>
+        <alt>*dei-</alt>
+        <alt>*-deiô</alt>
+        <!--  go to  -->
+    </item>
+    <item src="words/deiôsô.xml" tag="verbal word">
+        <lemma>*deiôsô</lemma>
+        <alt>*deis-</alt>
+        <alt>*-deisô</alt>
+        <!--  take  -->
+    </item>
+    <item src="words/dôhai.xml" tag="verbal word">
+        <lemma>*dôhai</lemma>
+        <alt>*dôx-</alt>
+        <alt>*-dôhai</alt>
+        <!--  have  -->
+    </item>
+    <item src="words/dôt.xml" tag="verbal word">
+        <lemma>*dôt</lemma>
+        <alt>*dôt-</alt>
+        <alt>*-dôt</alt>
+        <!--  is  -->
+    </item>
+    <item src="words/dôtôwâ.xml" tag="verbal word">
+        <lemma>*dôtôwâ</lemma>
+        <alt>*dôtô-</alt>
+        <alt>*-dôwâ</alt>
+        <!--  sleep  -->
+    </item>
+    <item src="words/dûdôwâ.xml" tag="verbal word">
+        <lemma>*dûdôwâ</lemma>
+        <alt>*dûdô-</alt>
+        <alt>*-dûwâ</alt>
+        <!--  grow  -->
+    </item>
+    <item src="words/feitjûdei.xml" tag="verbal word">
+        <lemma>*feitjûdei</lemma>
+        <alt>*feijû-</alt>
+        <alt>*-jûdei</alt>
+        <!--  concern; mind  -->
+    </item>
+    <item src="words/fôeisô.xml" tag="verbal word">
+        <lemma>*fôeisô</lemma>
+        <alt>*fôei-</alt>
+        <alt>*-weisô</alt>
+        <!--  drop  -->
+    </item>
+    <item src="words/gûttei.xml" tag="verbal word">
+        <lemma>*gûttei</lemma>
+        <alt>*gût-</alt>
+        <alt>*-ûtei</alt>
+        <!--  quit; give up  -->
+    </item>
+    <item src="words/heiwîôs.xml" tag="verbal word">
+        <lemma>*heiwîôs</lemma>
+        <alt>*heiwô-</alt>
+        <alt>*-wîôs</alt>
+        <!--  hunt  -->
+    </item>
+    <item src="words/hôwei.xml" tag="verbal word">
+        <lemma>*hôwei</lemma>
+        <alt>*hôwei-</alt>
+        <alt>*-auei</alt>
+        <!--  do  -->
+    </item>
+    <item src="words/hôwôsî.xml" tag="verbal word">
+        <lemma>*hôwôsî</lemma>
+        <alt>*hôwôs-</alt>
+        <alt>*-auôsî</alt>
+        <!--  see  -->
+    </item>
+    <item src="words/ôdsô.xml" tag="verbal word">
+        <lemma>*ôdsô</lemma>
+        <alt>*ôds-</alt>
+        <alt>*-ôdsô</alt>
+        <!--  drink  -->
+    </item>
+    <item src="words/ôsû.xml" tag="verbal word">
+        <lemma>*ôsû</lemma>
+        <alt>*ôsû-</alt>
+        <alt>*-ôsû</alt>
+        <!--  use  -->
+    </item>
+    <item src="words/sâaifei.xml" tag="verbal word">
+        <lemma>*sâaifei</lemma>
+        <alt>*sâai-</alt>
+        <alt>*-aifei</alt>
+        <!--  move  -->
+    </item>
+    <item src="words/seidô.xml" tag="verbal word">
+        <lemma>*seidô</lemma>
+        <alt>*seid-</alt>
+        <alt>*-seidô</alt>
+        <!--  bring  -->
+    </item>
+    <item src="words/tausô.xml" tag="verbal word">
+        <lemma>*tausô</lemma>
+        <alt>*taus-</alt>
+        <alt>*-ausô</alt>
+        <!--  want  -->
+    </item>
+    <item src="words/têô.xml" tag="verbal word">
+        <lemma>*têô</lemma>
+        <alt>*têô-</alt>
+        <alt>*-têô</alt>
+        <!--  stop  -->
+    </item>
+    <item src="words/tôdâx.xml" tag="verbal word">
+        <lemma>*tôdâx</lemma>
+        <alt>*tôdâ-</alt>
+        <alt>*-dâx</alt>
+        <!--  live  -->
+    </item>
+    <item src="words/ûxwôs.xml" tag="verbal word">
+        <lemma>*ûxwôs</lemma>
+        <alt>*ûxwô-</alt>
+        <alt>*-ûxôs</alt>
+        <!--  show; present  -->
+    </item>
+    <item src="words/xôwî.xml" tag="verbal word">
+        <lemma>*xôwî</lemma>
+        <alt>*xôwî-</alt>
+        <alt>*-xwî</alt>
+        <!--  make  -->
+    </item>
+    <item src="words/ʒeisô.xml" tag="verbal word">
+        <lemma>*ʒeisô</lemma>
+        <alt>*ʒeis-</alt>
+        <alt>*-eisô</alt>
+        <!--  touch; feel  -->
+    </item>
 
     <!--  Nominals  -->
 
