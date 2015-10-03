@@ -17,11 +17,6 @@ Documentation and back-development for SEVENSI and its ancestors takes place at 
     - X : Grammatical standardization
     - XI : Phonological standardization
     - XII : Release-candidate
-- MODERN SEVENSI :
-    - XII : Slightly different tack from "Classical"
-    - XIII : Grammatical simplifications
-    - XIV : Traditional
-    - XV : Release-canidate; final grammars and phonology
 
 ##  Orthographic history:  ##
 
