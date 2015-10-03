@@ -1691,7 +1691,7 @@
         <lemma>*dâeu</lemma>
         <!--  break up  -->
     </item>
-    <item src="words/aueiô.xml" tag="jst-0008 verb">
+    <item src="words/aueiô.xml" tag="jst-0008 qualcon">
         <lemma>*aueiô</lemma>
         <!--  detail  -->
     </item>
