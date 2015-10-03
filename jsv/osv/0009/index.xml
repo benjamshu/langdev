@@ -36,6 +36,8 @@
         <tag xml:lang="en" value="nominal-case">Nominal-case</tag>
         <tag xml:lang="en" value="nominal-derivation">Nominal-derivation</tag>
         <tag xml:lang="en" value="nominal-honorific">Nominal-honorific</tag>
+        <tag xml:lang="en" value="quantity">Quantity</tag>
+        <tag xml:lang="en" value="pronominal">Pro-nominal</tag>
         <tag xml:lang="en" value="name">Name</tag>
     </taggroup>
     <taggroup name="Lexical categories">
@@ -992,6 +994,69 @@
         <alt>*ʒein-</alt>
         <alt>*-einʒei</alt>
         <!--  night; nocturnal  -->
+    </item>
+
+    <!--  Quantities  -->
+
+    <item src="words/daus.xml" tag="attributive referential quantity word">
+        <lemma>*daus</lemma>
+        <alt>*dau-</alt>
+        <alt>*-aus</alt>
+        <!--  less  -->
+    </item>
+    <item src="words/ʒâteiʒô.xml" tag="attributive referential quantity word">
+        <lemma>*ʒâteiʒô</lemma>
+        <alt>*ʒâtei-</alt>
+        <alt>*-tei</alt>
+        <!--  more  -->
+    </item>
+    <item src="words/ʒô.xml" tag="attributive referential quantity pronominal word">
+        <lemma>*ʒô</lemma>
+        <alt>*ʒô-</alt>
+        <alt>*-ʒô</alt>
+        <!--  one; medial demonstrative  -->
+    </item>
+    <item src="words/wôs.xml" tag="attributive referential quantity word">
+        <lemma>*wôs</lemma>
+        <alt>*wôs-</alt>
+        <alt>*-ôs</alt>
+        <!--  two  -->
+    </item>
+    <item src="words/gôjeu.xml" tag="attributive referential quantity word">
+        <lemma>*gôjeu</lemma>
+        <alt>*gôj-</alt>
+        <alt>*-jeu</alt>
+        <!--  three  -->
+    </item>
+    <item src="words/ʒâfei.xml" tag="attributive referential quantity word">
+        <lemma>*ʒâfei</lemma>
+        <alt>*ʒâfei-</alt>
+        <alt>*-âfei</alt>
+        <!--  four  -->
+    </item>
+    <item src="words/weit.xml" tag="attributive referential quantity word">
+        <lemma>*weit</lemma>
+        <alt>*weit-</alt>
+        <alt>*-eit</alt>
+        <!--  five  -->
+    </item>
+    <item src="words/sôpô.xml" tag="attributive referential quantity word">
+        <lemma>*sôpô</lemma>
+        <alt>*sôpô-</alt>
+        <alt>*-pô</alt>
+        <!--  six  -->
+    </item>
+    <item src="words/jât.xml" tag="attributive referential quantity word">
+        <lemma>*jât</lemma>
+        <alt>*jâ-</alt>
+        <alt>*-jât</alt>
+        <!--  seven  -->
+    </item>
+    <item src="words/seintô.xml" tag="attributive referential quantity word">
+        <lemma>*seintô</lemma>
+        <alt>*sein-</alt>
+        <alt>*-eintô</alt>
+        <!--  eight  -->
     </item>
 
     <!--  Names  -->
