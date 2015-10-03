@@ -1229,6 +1229,12 @@
         <alt>*-xû</alt>
         <!--  flexible  -->
     </item>
+    <item src="words/peiʒô.xml" tag="attributive referential nominal word">
+        <lemma>*peiʒô</lemma>
+        <alt>*pei-</alt>
+        <alt>*-eiʒô</alt>
+        <!--  initial; beginning  -->
+    </item>
 
     <!--  Quantities  -->
 
@@ -1291,6 +1297,57 @@
         <alt>*sein-</alt>
         <alt>*-eintô</alt>
         <!--  eight  -->
+    </item>
+
+    <!--  Pro-nominals  -->
+
+    <item src="words/aust.xml" tag="pronominal word">
+        <lemma>*aust</lemma>
+        <!--  another  -->
+    </item>
+    <item src="words/sût.xml" tag="pronominal word">
+        <lemma>*sût</lemma>
+        <!--  proximal demonstrative pronoun  -->
+    </item>
+    <item src="words/seu.xml" tag="pronominal word">
+        <lemma>*seu</lemma>
+        <!--  distal demonstrative pronoun  -->
+    </item>
+    <item src="words/sûhai.xml" tag="pronominal word">
+        <lemma>*sûhai</lemma>
+        <!--  proximal locational pronoun  -->
+    </item>
+    <item src="words/dôsai.xml" tag="pronominal word">
+        <lemma>*dôsai</lemma>
+        <!--  medial locational pronoun  -->
+    </item>
+    <item src="words/sêd.xml" tag="pronominal word">
+        <lemma>*sêd</lemma>
+        <!--  distal locational pronoun  -->
+    </item>
+    <item src="words/ʒai.xml" tag="pronominal word">
+        <lemma>*ʒai</lemma>
+        <!--  first-person pronoun  -->
+    </item>
+    <item src="words/ûweid.xml" tag="pronominal word">
+        <lemma>*ûweid</lemma>
+        <!--  second-person pronoun  -->
+    </item>
+    <item src="words/ei.xml" tag="pronominal word">
+        <lemma>*ei</lemma>
+        <!--  animate third-person pronoun  -->
+    </item>
+    <item src="words/ʒôd.xml" tag="pronominal word">
+        <lemma>*ʒôd</lemma>
+        <!--  inanimate third-person pronoun  -->
+    </item>
+    <item src="words/fai.xml" tag="pronominal word">
+        <lemma>*fai</lemma>
+        <!--  animate interrogative pronoun  -->
+    </item>
+    <item src="words/fôt.xml" tag="pronominal word">
+        <lemma>*fôt</lemma>
+        <!--  inanimate interrogative pronoun  -->
     </item>
 
     <!--  Names  -->
