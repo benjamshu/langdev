@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0009">
+    <lemma>*deis</lemma>
+    <entry>
+        <section>
+            <heading xml:lang="en">nominal</heading>
+            <alts xml:lang="en">root: <html:i xml:lang="art-x-osv-0009">*deis-</html:i>; affix: <html:i xml:lang="art-x-osv-0009">*-eis</html:i></alts>
+            <def xml:lang="en">smooth; polished</def>
+            <def xml:lang="en">tactful</def>
+        </section>
+    </entry>
+</word>

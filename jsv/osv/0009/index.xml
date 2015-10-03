@@ -1133,6 +1133,102 @@
         <alt>*-xtû</alt>
         <!--  lunar; moon  -->
     </item>
+    <item src="words/dei.xml" tag="attributive referential nominal word">
+        <lemma>*dei</lemma>
+        <alt>*dei-</alt>
+        <alt>*-dei</alt>
+        <!--  quick; nimble; clever; speed  -->
+    </item>
+    <item src="words/teud.xml" tag="attributive nominal word">
+        <lemma>*teud</lemma>
+        <alt>*teu-</alt>
+        <alt>*-eud</alt>
+        <!--  slow  -->
+    </item>
+    <item src="words/jôfâ.xml" tag="attributive nominal word">
+        <lemma>*jôfâ</lemma>
+        <alt>*jô-</alt>
+        <alt>*-ôfâ</alt>
+        <!--  grand; great  -->
+    </item>
+    <item src="words/fôweu.xml" tag="attributive nominal word">
+        <lemma>*fôweu</lemma>
+        <alt>*fô-</alt>
+        <alt>*-feu</alt>
+        <!--  small; unimportant  -->
+    </item>
+    <item src="words/gôpâ.xml" tag="attributive referential nominal word">
+        <lemma>*gôpâ</lemma>
+        <alt>*gô-</alt>
+        <alt>*-ôpâ</alt>
+        <!--  strong; strength  -->
+    </item>
+    <item src="words/tâweu.xml" tag="attributive nominal word">
+        <lemma>*tâweu</lemma>
+        <alt>*tau-</alt>
+        <alt>*-teu</alt>
+        <!--  weak  -->
+    </item>
+    <item src="words/deipê.xml" tag="attributive nominal word">
+        <lemma>*deipê</lemma>
+        <alt>*dei-</alt>
+        <alt>*-eipê</alt>
+        <!--  good  -->
+    </item>
+    <item src="words/tâʒô.xml" tag="attributive nominal word">
+        <lemma>*tâʒô</lemma>
+        <alt>*tâʒô-</alt>
+        <alt>*-tʒô</alt>
+        <!--  foolish  -->
+    </item>
+    <item src="words/tôteixhô.xml" tag="attributive nominal word">
+        <lemma>*tôteixhô</lemma>
+        <alt>*tôteix-</alt>
+        <alt>*-teixhô</alt>
+        <!--  hardworking  -->
+    </item>
+    <item src="words/autû.xml" tag="attributive nominal word">
+        <lemma>*autû</lemma>
+        <alt>*aut-</alt>
+        <alt>*-autû</alt>
+        <!--  broken  -->
+    </item>
+    <item src="words/fâd.xml" tag="attributive nominal word">
+        <lemma>*fâd</lemma>
+        <alt>*fâd-</alt>
+        <alt>*-fâd</alt>
+        <!--  hard; difficult  -->
+    </item>
+    <item src="words/ôfeu.xml" tag="attributive nominal word">
+        <lemma>*ôfeu</lemma>
+        <alt>*ôfeu-</alt>
+        <alt>*-feu</alt>
+        <!--  soft; gentle  -->
+    </item>
+    <item src="words/xoit.xml" tag="attributive nominal word">
+        <lemma>*xoit</lemma>
+        <alt>*xoi-</alt>
+        <alt>*-xoit</alt>
+        <!--  rough; crude  -->
+    </item>
+    <item src="words/deis.xml" tag="attributive nominal word">
+        <lemma>*deis</lemma>
+        <alt>*deis-</alt>
+        <alt>*-eis</alt>
+        <!--  smooth; tactful; polished  -->
+    </item>
+    <item src="words/oitâs.xml" tag="attributive nominal word">
+        <lemma>*oitâs</lemma>
+        <alt>*oitâ-</alt>
+        <alt>*-tâs</alt>
+        <!--  cold  -->
+    </item>
+    <item src="words/xîwû.xml" tag="attributive nominal word">
+        <lemma>*xîwû</lemma>
+        <alt>*xî-</alt>
+        <alt>*-xû</alt>
+        <!--  flexible  -->
+    </item>
 
     <!--  Quantities  -->
 
