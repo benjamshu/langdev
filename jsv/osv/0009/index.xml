@@ -34,7 +34,6 @@
         <tag xml:lang="en" value="verb-mood">Verb-mood</tag>
         <tag xml:lang="en" value="verb-derivation">Verb-derivation</tag>
         <tag xml:lang="en" value="nominal">Nominal</tag>
-        <tag xml:lang="en" value="nominal-case">Nominal-case</tag>
         <tag xml:lang="en" value="nominal-derivation">Nominal-derivation</tag>
         <tag xml:lang="en" value="nominal-honorific">Nominal-honorific</tag>
         <tag xml:lang="en" value="quantity">Quantity</tag>
@@ -173,8 +172,6 @@
         <lemma>*-l'xû</lemma>
         <!--  participle  -->
     </item>
-
-    <!--  Noun-case  -->
 
     <!--  Nominal-derivation  -->
 
