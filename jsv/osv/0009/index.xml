@@ -15,6 +15,10 @@
     <meta type="splash" xml:lang="en">Lemma:</meta>
     <meta type="splash" xml:lang="en">Attributed!</meta>
     <meta type="splash" xml:lang="en">Referenced!</meta>
+    <meta type="splash" xml:lang="en">Selective!</meta>
+    <meta type="splash" xml:lang="en">In two flavours!</meta>
+    <meta type="splash" xml:lang="en">Good enough!</meta>
+    <meta type="splash" xml:lang="en">(Mostly) complete!</meta>
 
     <!--  TAGS  -->
 
@@ -26,14 +30,14 @@
     <taggroup name="Grammatical categories">
         <tag xml:lang="en" value="article">Article</tag>
         <tag xml:lang="en" value="interjection">Interjection</tag>
-        <tag xml:lang="en" value="post-position">Post-position</tag>
+        <tag xml:lang="en" value="postposition-adjectival">Adjectival postposition</tag>
+        <tag xml:lang="en" value="postposition-adverbial">Adverbial postposition</tag>
         <tag xml:lang="en" value="conjunction">Conjunction</tag>
-        <tag xml:lang="en" value="verb">Verb</tag>
+        <tag xml:lang="en" value="verbal">Verbal</tag>
         <tag xml:lang="en" value="verb-tense">Verb-tense</tag>
         <tag xml:lang="en" value="verb-mood">Verb-mood</tag>
         <tag xml:lang="en" value="verb-derivation">Verb-derivation</tag>
         <tag xml:lang="en" value="nominal">Nominal</tag>
-        <tag xml:lang="en" value="nominal-case">Nominal-case</tag>
         <tag xml:lang="en" value="nominal-derivation">Nominal-derivation</tag>
         <tag xml:lang="en" value="nominal-honorific">Nominal-honorific</tag>
         <tag xml:lang="en" value="quantity">Quantity</tag>
@@ -75,7 +79,71 @@
         <!--  nay  -->
     </item>
 
-    <!--  Post-positions  -->
+    <!--  Adjectival postpositions  -->
+
+    <item src="words/eiʒô.xml" tag="postposition-adjectival word">
+        <lemma>*eiʒô</lemma>
+        <!--  of  -->
+    </item>
+    <item src="words/âeidai.xml" tag="postposition-adjectival word">
+        <lemma>*âeidai</lemma>
+        <!--  beside  -->
+    </item>
+    <item src="words/aiû.xml" tag="postposition-adjectival word">
+        <lemma>*aiû</lemma>
+        <!--  on  -->
+    </item>
+    <item src="words/aux.xml" tag="postposition-adjectival word">
+        <lemma>*aux</lemma>
+        <!--  for  -->
+    </item>
+    <item src="words/eiai.xml" tag="postposition-adjectival word">
+        <lemma>*eiai</lemma>
+        <!--  between  -->
+    </item>
+    <item src="words/eisô.xml" tag="postposition-adjectival word">
+        <lemma>*eisô</lemma>
+        <!--  below  -->
+    </item>
+    <item src="words/gôs.xml" tag="postposition-adjectival word">
+        <lemma>*gôs</lemma>
+        <!--  above  -->
+    </item>
+    <item src="words/tôsû.xml" tag="postposition-adjectival word">
+        <lemma>*tôsû</lemma>
+        <!--  off of  -->
+    </item>
+    <item src="words/ʒûfô.xml" tag="postposition-adjectival word">
+        <lemma>*ʒûfô</lemma>
+        <!--  in  -->
+    </item>
+    <item src="words/tâxdî.xml" tag="postposition-adjectival word">
+        <lemma>*tâxdî</lemma>
+        <!--  out of  -->
+    </item>
+
+    <!--  Adverbial postpositions  -->
+
+    <item src="words/eid.xml" tag="postposition-adverbial word">
+        <lemma>*eid</lemma>
+        <!--  around  -->
+    </item>
+    <item src="words/eifai.xml" tag="postposition-adverbial word">
+        <lemma>*eifai</lemma>
+        <!--  at  -->
+    </item>
+    <item src="words/eiô.xml" tag="postposition-adverbial word">
+        <lemma>*eiô</lemma>
+        <!--  through  -->
+    </item>
+    <item src="words/sai.xml" tag="postposition-adverbial word">
+        <lemma>*sai</lemma>
+        <!--  from  -->
+    </item>
+    <item src="words/ʒôx.xml" tag="postposition-adverbial word">
+        <lemma>*ʒôx</lemma>
+        <!--  to  -->
+    </item>
 
     <!--  Conjunctions  -->
 
@@ -173,8 +241,6 @@
         <!--  participle  -->
     </item>
 
-    <!--  Noun-case  -->
-
     <!--  Nominal-derivation  -->
 
     <item src="words/-l'tô.xml" tag="nominal-derivation affix">
@@ -189,7 +255,176 @@
         <!--  honorific  -->
     </item>
 
-    <!--  Verbs  -->
+    <!--  Verbals  -->
+
+    <item src="words/aiʒô.xml" tag="verbal word">
+        <lemma>*aiʒô</lemma>
+        <alt>*aiʒ-</alt>
+        <alt>*-aiʒô</alt>
+        <!--  meet  -->
+    </item>
+    <item src="words/âtaus.xml" tag="verbal word">
+        <lemma>*âtaus</lemma>
+        <alt>*âtau-</alt>
+        <alt>*-taus</alt>
+        <!--  hurt  -->
+    </item>
+    <item src="words/aueiô.xml" tag="verbal word">
+        <lemma>*auhî</lemma>
+        <alt>*au-</alt>
+        <alt>*-auhî</alt>
+        <!--  destroy  -->
+    </item>
+    <item src="words/âwô.xml" tag="verbal word">
+        <lemma>*âwô</lemma>
+        <alt>*âwô-</alt>
+        <alt>*-âwô</alt>
+        <!--  ask  -->
+    </item>
+    <item src="words/dâeud.xml" tag="verbal word">
+        <lemma>*dâeud</lemma>
+        <alt>*dau-</alt>
+        <alt>*-eud</alt>
+        <!--  grab  -->
+    </item>
+    <item src="words/dauteiô.xml" tag="verbal word">
+        <lemma>*dauteiô</lemma>
+        <alt>*dautei-</alt>
+        <alt>*-teiô</alt>
+        <!--  fly  -->
+    </item>
+    <item src="words/deiô.xml" tag="verbal word">
+        <lemma>*deiô</lemma>
+        <alt>*dei-</alt>
+        <alt>*-deiô</alt>
+        <!--  go to  -->
+    </item>
+    <item src="words/deiôsô.xml" tag="verbal word">
+        <lemma>*deiôsô</lemma>
+        <alt>*deis-</alt>
+        <alt>*-deisô</alt>
+        <!--  take  -->
+    </item>
+    <item src="words/dôhai.xml" tag="verbal word">
+        <lemma>*dôhai</lemma>
+        <alt>*dôx-</alt>
+        <alt>*-dôhai</alt>
+        <!--  have  -->
+    </item>
+    <item src="words/dôt.xml" tag="verbal word">
+        <lemma>*dôt</lemma>
+        <alt>*dôt-</alt>
+        <alt>*-dôt</alt>
+        <!--  is  -->
+    </item>
+    <item src="words/dôtôwâ.xml" tag="verbal word">
+        <lemma>*dôtôwâ</lemma>
+        <alt>*dôtô-</alt>
+        <alt>*-dôwâ</alt>
+        <!--  sleep  -->
+    </item>
+    <item src="words/dûdôwâ.xml" tag="verbal word">
+        <lemma>*dûdôwâ</lemma>
+        <alt>*dûdô-</alt>
+        <alt>*-dûwâ</alt>
+        <!--  grow  -->
+    </item>
+    <item src="words/feitjûdei.xml" tag="verbal word">
+        <lemma>*feitjûdei</lemma>
+        <alt>*feijû-</alt>
+        <alt>*-jûdei</alt>
+        <!--  concern; mind  -->
+    </item>
+    <item src="words/fôeisô.xml" tag="verbal word">
+        <lemma>*fôeisô</lemma>
+        <alt>*fôei-</alt>
+        <alt>*-weisô</alt>
+        <!--  drop  -->
+    </item>
+    <item src="words/gûttei.xml" tag="verbal word">
+        <lemma>*gûttei</lemma>
+        <alt>*gût-</alt>
+        <alt>*-ûtei</alt>
+        <!--  quit; give up  -->
+    </item>
+    <item src="words/heiwîôs.xml" tag="verbal word">
+        <lemma>*heiwîôs</lemma>
+        <alt>*heiwô-</alt>
+        <alt>*-wîôs</alt>
+        <!--  hunt  -->
+    </item>
+    <item src="words/hôwei.xml" tag="verbal word">
+        <lemma>*hôwei</lemma>
+        <alt>*hôwei-</alt>
+        <alt>*-auei</alt>
+        <!--  do  -->
+    </item>
+    <item src="words/hôwôsî.xml" tag="verbal word">
+        <lemma>*hôwôsî</lemma>
+        <alt>*hôwôs-</alt>
+        <alt>*-auôsî</alt>
+        <!--  see  -->
+    </item>
+    <item src="words/ôdsô.xml" tag="verbal word">
+        <lemma>*ôdsô</lemma>
+        <alt>*ôds-</alt>
+        <alt>*-ôdsô</alt>
+        <!--  drink  -->
+    </item>
+    <item src="words/ôsû.xml" tag="verbal word">
+        <lemma>*ôsû</lemma>
+        <alt>*ôsû-</alt>
+        <alt>*-ôsû</alt>
+        <!--  use  -->
+    </item>
+    <item src="words/sâaifei.xml" tag="verbal word">
+        <lemma>*sâaifei</lemma>
+        <alt>*sâai-</alt>
+        <alt>*-aifei</alt>
+        <!--  move  -->
+    </item>
+    <item src="words/seidô.xml" tag="verbal word">
+        <lemma>*seidô</lemma>
+        <alt>*seid-</alt>
+        <alt>*-seidô</alt>
+        <!--  bring  -->
+    </item>
+    <item src="words/tausô.xml" tag="verbal word">
+        <lemma>*tausô</lemma>
+        <alt>*taus-</alt>
+        <alt>*-ausô</alt>
+        <!--  want  -->
+    </item>
+    <item src="words/têô.xml" tag="verbal word">
+        <lemma>*têô</lemma>
+        <alt>*têô-</alt>
+        <alt>*-têô</alt>
+        <!--  stop  -->
+    </item>
+    <item src="words/tôdâx.xml" tag="verbal word">
+        <lemma>*tôdâx</lemma>
+        <alt>*tôdâ-</alt>
+        <alt>*-dâx</alt>
+        <!--  live  -->
+    </item>
+    <item src="words/ûxwôs.xml" tag="verbal word">
+        <lemma>*ûxwôs</lemma>
+        <alt>*ûxwô-</alt>
+        <alt>*-ûxôs</alt>
+        <!--  show; present  -->
+    </item>
+    <item src="words/xôwî.xml" tag="verbal word">
+        <lemma>*xôwî</lemma>
+        <alt>*xôwî-</alt>
+        <alt>*-xwî</alt>
+        <!--  make  -->
+    </item>
+    <item src="words/ʒeisô.xml" tag="verbal word">
+        <lemma>*ʒeisô</lemma>
+        <alt>*ʒeis-</alt>
+        <alt>*-eisô</alt>
+        <!--  touch; feel  -->
+    </item>
 
     <!--  Nominals  -->
 
@@ -608,7 +843,7 @@
         <alt>*-wau</alt>
         <!--  grey  -->
     </item>
-    <item src="words/ʒau.xml" tag="attributive referential nominal word">
+    <item src="words/ʒau.xml" tag="attributive referential nominal postposition word">
         <lemma>*ʒau</lemma>
         <alt>*ʒau-</alt>
         <alt>*-ʒau</alt>
@@ -1354,6 +1589,126 @@
         <alt>*dôtai-</alt>
         <alt>*-taiât</alt>
         <!--  tree; forested  -->
+    </item>
+    <item src="words/aiʒeiô.xml" tag="referential nominal word">
+        <lemma>*aiʒeiô</lemma>
+        <alt>*aiʒei-</alt>
+        <alt>*-ʒeiô</alt>
+        <!--  bread  -->
+    </item>
+    <item src="words/deidsei.xml" tag="referential nominal word">
+        <lemma>*deidsei</lemma>
+        <alt>*deids-</alt>
+        <alt>*-dsei</alt>
+        <!--  citrus fruit  -->
+    </item>
+    <item src="words/deixaitsû.xml" tag="referential nominal word">
+        <lemma>*deixaitsû</lemma>
+        <alt>*deix-</alt>
+        <alt>*-aitsû</alt>
+        <!--  apple  -->
+    </item>
+    <item src="words/doiwei.xml" tag="referential nominal word">
+        <lemma>*doiwei</lemma>
+        <alt>*dauei-</alt>
+        <alt>*-oiwei</alt>
+        <!--  coffee  -->
+    </item>
+    <item src="words/fôteisî.xml" tag="referential nominal word">
+        <lemma>*fôteisî</lemma>
+        <alt>*fôtei-</alt>
+        <alt>*-fôtsî</alt>
+        <!--  rice  -->
+    </item>
+    <item src="words/haifî.xml" tag="attributive referential nominal word">
+        <lemma>*haifî</lemma>
+        <alt>*hai-</alt>
+        <alt>*-fî</alt>
+        <!--  vegetable  -->
+    </item>
+    <item src="words/ôdseiô.xml" tag="attributive referential nominal word">
+        <lemma>*ôdseiô</lemma>
+        <alt>*ôdsei-</alt>
+        <alt>*-deiô</alt>
+        <!--  alcohol; alcoholic  -->
+    </item>
+    <item src="words/sît.xml" tag="attributive referential nominal word">
+        <lemma>*sît</lemma>
+        <alt>*sî-</alt>
+        <alt>*-sît</alt>
+        <!--  food; edible  -->
+    </item>
+    <item src="words/taidfî.xml" tag="referential nominal word">
+        <lemma>*taidfî</lemma>
+        <alt>*taid-</alt>
+        <alt>*-aidî</alt>
+        <!--  fruit  -->
+    </item>
+    <item src="words/tôfaitsî.xml" tag="referential nominal word">
+        <lemma>*tôfaitsî</lemma>
+        <alt>*tôfai-</alt>
+        <alt>*-faitsî</alt>
+        <!--  compound berry  -->
+    </item>
+    <item src="words/wîgeu.xml" tag="attributive referential nominal word">
+        <lemma>*wîgeu</lemma>
+        <alt>*wîgeu-</alt>
+        <alt>*-îgeu</alt>
+        <!--  filling; food  -->
+    </item>
+    <item src="words/wîtûwei.xml" tag="attributive referential nominal word">
+        <lemma>*wîtûwei</lemma>
+        <alt>*wîtû-</alt>
+        <alt>*-tûwei</alt>
+        <!--  refreshing; water  -->
+    </item>
+    <item src="words/aufait.xml" tag="referential nominal word">
+        <lemma>*aufait</lemma>
+        <alt>*aufai-</alt>
+        <alt>*-fait</alt>
+        <!--  knife  -->
+    </item>
+    <item src="words/gusai.xml" tag="referential nominal word">
+        <lemma>*gusai</lemma>
+        <alt>*gus-</alt>
+        <alt>*-usai</alt>
+        <!--  spear  -->
+    </item>
+    <item src="words/hôfâdô.xml" tag="referential nominal word">
+        <lemma>*hôfâdô</lemma>
+        <alt>*hôfâ-</alt>
+        <alt>*-fâdô</alt>
+        <!--  wheel  -->
+    </item>
+    <item src="words/ôwai.xml" tag="attributive referential nominal word">
+        <lemma>*ôwai</lemma>
+        <alt>*ôwai-</alt>
+        <alt>*-wai</alt>
+        <!--  sharp; blade  -->
+    </item>
+    <item src="words/tauwei.xml" tag="referential nominal word">
+        <lemma>*tauwei</lemma>
+        <alt>*tau-</alt>
+        <alt>*-ûwei</alt>
+        <!--  weapon  -->
+    </item>
+    <item src="words/deuwâ.xml" tag="referential nominal word">
+        <lemma>*deuwâ</lemma>
+        <alt>*deu-</alt>
+        <alt>*-ûwâ</alt>
+        <!--  room  -->
+    </item>
+    <item src="words/dôfû.xml" tag="attributive referential nominal word">
+        <lemma>*dôfû</lemma>
+        <alt>*dôfû-</alt>
+        <alt>*-ôfû</alt>
+        <!--  tall; height  -->
+    </item>
+    <item src="words/fôtjô.xml" tag="attributive referential nominal word">
+        <lemma>*fôtjô</lemma>
+        <alt>*fôt-</alt>
+        <alt>*-ôtjô</alt>
+        <!--  long; length  -->
     </item>
 
     <!--  Quantities  -->
