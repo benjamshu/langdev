@@ -944,6 +944,55 @@
         <alt>*-sʒî</alt>
         <!--  hot; heat  -->
     </item>
+    <item src="words/âxmô.xml" tag="attributive nominal word">
+        <lemma>*âxmô</lemma>
+        <alt>*âx-</alt>
+        <alt>*-xmô</alt>
+        <!--  sharp; harsh  -->
+    </item>
+    <item src="words/jâsteugei.xml" tag="attributive referential nominal word">
+        <lemma>*jâsteugei</lemma>
+        <alt>*jâsteu-</alt>
+        <alt>*-sgei</alt>
+        <!--  language; linguistic  -->
+    </item>
+    <item src="words/weidoiʒû.xml" tag="referential nominal word">
+        <lemma>*weidoiʒû</lemma>
+        <alt>*weidʒû-</alt>
+        <alt>*-doiʒû</alt>
+        <!--  name  -->
+    </item>
+    <item src="words/dôfaitû.xml" tag="referential nominal word">
+        <lemma>*dôfaitû</lemma>
+        <alt>*dôfai-</alt>
+        <alt>*-fait</alt>
+        <!--  morning  -->
+    </item>
+    <item src="words/eidei.xml" tag="attributive referential nominal word">
+        <lemma>*eidei</lemma>
+        <alt>*ei-</alt>
+        <alt>*eid-</alt>
+        <alt>*-ei</alt>
+        <!--  month; monthly  -->
+    </item>
+    <item src="words/hoipû.xml" tag="attributive referential nominal word">
+        <lemma>*hoipû</lemma>
+        <alt>*hoi-</alt>
+        <alt>*-oipû</alt>
+        <!--  day; diurnal; midday  -->
+    </item>
+    <item src="words/poit.xml" tag="attributive referential nominal word">
+        <lemma>*poit</lemma>
+        <alt>*poi-</alt>
+        <alt>*-poi</alt>
+        <!--  moment; momentary  -->
+    </item>
+    <item src="words/ʒeinʒei.xml" tag="attributive referential nominal word">
+        <lemma>*ʒeinʒei</lemma>
+        <alt>*ʒein-</alt>
+        <alt>*-einʒei</alt>
+        <!--  night; nocturnal  -->
+    </item>
 
     <!--  Names  -->
 
