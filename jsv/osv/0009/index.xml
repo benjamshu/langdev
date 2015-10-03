@@ -1235,6 +1235,126 @@
         <alt>*-eiʒô</alt>
         <!--  initial; beginning  -->
     </item>
+    <item src="words/deitôwî.xml" tag="attributive referential nominal word">
+        <lemma>*deitôwî</lemma>
+        <alt>*deit-</alt>
+        <alt>*-tôwî</alt>
+        <!--  smile; smiling  -->
+    </item>
+    <item src="words/dôjei.xml" tag="attributive referential nominal word">
+        <lemma>*dôjei</lemma>
+        <alt>*dôj-</alt>
+        <alt>*-ôjei</alt>
+        <!--  crying; tear  -->
+    </item>
+    <item src="words/ʒôtei.xml" tag="attributive referential nominal word">
+        <lemma>*ʒôtei</lemma>
+        <alt>*ʒôt-</alt>
+        <alt>*-ôtei</alt>
+        <!--  frowning; frown  -->
+    </item>
+    <item src="words/dâtʒî.xml" tag="attributive referential nominal word">
+        <lemma>*dâtʒî</lemma>
+        <alt>*dât-</alt>
+        <alt>*-âtʒî</alt>
+        <!--  fox; swift; nimble; clever  -->
+    </item>
+    <item src="words/deidî.xml" tag="referential nominal word">
+        <lemma>*deidî</lemma>
+        <alt>*deid-</alt>
+        <alt>*-eidî</alt>
+        <!--  leproid; hare  -->
+    </item>
+    <item src="words/deitôsô.xml" tag="referential nominal word">
+        <lemma>*deitôsô</lemma>
+        <alt>*deitô-</alt>
+        <alt>*-eitôsô</alt>
+        <!--  wolf  -->
+    </item>
+    <item src="words/deiʒât.xml" tag="attributive referential nominal word">
+        <lemma>*deiʒât</lemma>
+        <alt>*deiʒâ-</alt>
+        <alt>*-ʒât</alt>
+        <!--  fish; reclusive  -->
+    </item>
+    <item src="words/fauzî.xml" tag="attributive referential nominal word">
+        <lemma>*fauzî</lemma>
+        <alt>*fau-</alt>
+        <alt>*-auzî</alt>
+        <!--  pig; humble  -->
+    </item>
+    <item src="words/geiô.xml" tag="referential nominal word">
+        <lemma>*geiô</lemma>
+        <alt>*gei-</alt>
+        <alt>*-eiô</alt>
+        <!--  small mammal  -->
+    </item>
+    <item src="words/gôsû.xml" tag="referential nominal word">
+        <lemma>*gôsû</lemma>
+        <alt>*gôs-</alt>
+        <alt>*-ôsû</alt>
+        <!--  bird  -->
+    </item>
+    <item src="words/hôteusî.xml" tag="attributive referential nominal word">
+        <lemma>*hôteusî</lemma>
+        <alt>*hôteu-</alt>
+        <alt>*-teusî</alt>
+        <!--  crab; withdrawn  -->
+    </item>
+    <item src="words/sâtseuî.xml" tag="referential nominal word">
+        <lemma>*sâtseuî</lemma>
+        <alt>*sâtseu-</alt>
+        <alt>*-seuî</alt>
+        <!--  deer  -->
+    </item>
+    <item src="words/tâfî.xml" tag="referential nominal word">
+        <lemma>*tâfî</lemma>
+        <alt>*tâ-</alt>
+        <alt>*-âfî</alt>
+        <!--  insect  -->
+    </item>
+    <item src="words/tâgau.xml" tag="referential nominal word">
+        <lemma>*tâgau</lemma>
+        <alt>*tau-</alt>
+        <alt>*-âgau</alt>
+        <!--  mouse; rat  -->
+    </item>
+    <item src="words/xôfî.xml" tag="referential nominal word">
+        <lemma>*xôfî</lemma>
+        <alt>*xôfî-</alt>
+        <alt>*-ôfî</alt>
+        <!--  cow  -->
+    </item>
+    <item src="words/ʒâtî.xml" tag="referential nominal word">
+        <lemma>*ʒâtî</lemma>
+        <alt>*ʒât-</alt>
+        <alt>*-âtî</alt>
+        <!--  animal  -->
+    </item>
+    <item src="words/aiôtei.xml" tag="referential nominal word">
+        <lemma>*aiôtei</lemma>
+        <alt>*aiôt-</alt>
+        <alt>*-ôtei</alt>
+        <!--  sprout  -->
+    </item>
+    <item src="words/dauʒait.xml" tag="attributive referential nominal word">
+        <lemma>*dauʒait</lemma>
+        <alt>*dauʒai-</alt>
+        <alt>*-ʒait</alt>
+        <!--  flowery; elaborate; flower  -->
+    </item>
+    <item src="words/ôfai.xml" tag="attributive referential nominal word">
+        <lemma>*ôfai</lemma>
+        <alt>*ôfai-</alt>
+        <alt>*-fai</alt>
+        <!--  bush; complex; overgrown  -->
+    </item>
+    <item src="words/dôtaiât.xml" tag="attributive referential nominal word">
+        <lemma>*dôtaiât</lemma>
+        <alt>*dôtai-</alt>
+        <alt>*-taiât</alt>
+        <!--  tree; forested  -->
+    </item>
 
     <!--  Quantities  -->
 
