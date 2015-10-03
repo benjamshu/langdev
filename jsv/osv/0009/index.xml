@@ -995,6 +995,60 @@
         <alt>*-einʒei</alt>
         <!--  night; nocturnal  -->
     </item>
+    <item src="words/dausî.xml" tag="attributive referential nominal word">
+        <lemma>*dausî</lemma>
+        <alt>*dau-</alt>
+        <alt>*-dsî</alt>
+        <!--  burning; fire; flame  -->
+    </item>
+    <item src="words/deisô.xml" tag="attributive referential nominal word">
+        <lemma>*deisô</lemma>
+        <alt>*deis-</alt>
+        <alt>*-eisô</alt>
+        <!--  fluid; water  -->
+    </item>
+    <item src="words/dôʒû.xml" tag="attributive referential nominal word">
+        <lemma>*dôʒû</lemma>
+        <alt>*dôʒû-</alt>
+        <alt>*-ôʒû</alt>
+        <!--  metallic; metal  -->
+    </item>
+    <item src="words/fêwêt.xml" tag="attributive referential nominal word">
+        <lemma>*fêwêt</lemma>
+        <alt>*fêwê-</alt>
+        <alt>*-euêt</alt>
+        <!--  wooden; wood  -->
+    </item>
+    <item src="words/ôʒeis.xml" tag="attributive referential nominal word">
+        <lemma>*ôʒeis</lemma>
+        <alt>*ôʒei-</alt>
+        <alt>*-ʒeis</alt>
+        <!--  dirt; dirty  -->
+    </item>
+    <item src="words/pôʒâsô.xml" tag="attributive referential nominal word">
+        <lemma>*pôʒâsô</lemma>
+        <alt>*pôʒâ-</alt>
+        <alt>*-pôsô</alt>
+        <!--  stone; rock  -->
+    </item>
+    <item src="words/sôseutî.xml" tag="attributive referential nominal word">
+        <lemma>*sôseutî</lemma>
+        <alt>*sôseu-</alt>
+        <alt>*-seutî</alt>
+        <!--  leather  -->
+    </item>
+    <item src="words/tôfeusô.xml" tag="attributive referential nominal word">
+        <lemma>*tôfeusô</lemma>
+        <alt>*tôfeu-</alt>
+        <alt>*-feusô</alt>
+        <!--  clay  -->
+    </item>
+    <item src="words/tôʒô.xml" tag="attributive referential nominal word">
+        <lemma>*tôʒô</lemma>
+        <alt>*tôʒô-</alt>
+        <alt>*-tʒô</alt>
+        <!--  cloth  -->
+    </item>
 
     <!--  Quantities  -->
 
