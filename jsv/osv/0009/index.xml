@@ -1049,6 +1049,90 @@
         <alt>*-tʒô</alt>
         <!--  cloth  -->
     </item>
+    <item src="words/dôtûs.xml" tag="attributive referential nominal word">
+        <lemma>*dôtûs</lemma>
+        <alt>*dôtû-</alt>
+        <alt>*-tûs</alt>
+        <!--  snow; snowy  -->
+    </item>
+    <item src="words/dôʒei.xml" tag="attributive referential nominal word">
+        <lemma>*dôʒei</lemma>
+        <alt>*ôʒei-</alt>
+        <alt>*-ôʒei</alt>
+        <!--  rain; rainy  -->
+    </item>
+    <item src="words/eindû.xml" tag="attributive referential nominal word">
+        <lemma>*eindû</lemma>
+        <alt>*ein-</alt>
+        <alt>*-ndû</alt>
+        <!--  hibernal; winter  -->
+    </item>
+    <item src="words/heipî.xml" tag="attributive referential nominal word">
+        <lemma>*heipî</lemma>
+        <alt>*hei-</alt>
+        <alt>*-eipî</alt>
+        <!--  vernal; spring  -->
+    </item>
+    <item src="words/jôwei.xml" tag="attributive referential nominal word">
+        <lemma>*jôwei</lemma>
+        <alt>*joi-</alt>
+        <alt>*-joi</alt>
+        <!--  windy; wind  -->
+    </item>
+    <item src="words/tâeingî.xml" tag="attributive referential nominal word">
+        <lemma>*tâeingî</lemma>
+        <alt>*tein-</alt>
+        <alt>*-eingî</alt>
+        <!--  autumnal; autumn  -->
+    </item>
+    <item src="words/xaiwâ.xml" tag="attributive referential nominal word">
+        <lemma>*xaiwâ</lemma>
+        <alt>*xai-</alt>
+        <alt>*-aiâ</alt>
+        <!--  estival; summer; annual; yearly  -->
+    </item>
+    <item src="words/ʒausû.xml" tag="attributive referential nominal word">
+        <lemma>*ʒausû</lemma>
+        <alt>*ʒaus-</alt>
+        <alt>*-ausû</alt>
+        <!--  flash; lightning  -->
+    </item>
+    <item src="words/dautû.xml" tag="attributive referential nominal word">
+        <lemma>*dautû</lemma>
+        <alt>*dâû-</alt>
+        <alt>*-autû</alt>
+        <!--  sky; skyward  -->
+    </item>
+    <item src="words/deixû.xml" tag="referential nominal word">
+        <lemma>*deixû</lemma>
+        <alt>*deix-</alt>
+        <alt>*-eixû</alt>
+        <!--  house; habitat  -->
+    </item>
+    <item src="words/geupû.xml" tag="attributive referential nominal word">
+        <lemma>*geupû</lemma>
+        <alt>*geu-</alt>
+        <alt>*-gû</alt>
+        <!--  earth; earthly  -->
+    </item>
+    <item src="words/hôʒei.xml" tag="referential nominal word">
+        <lemma>*hôʒei</lemma>
+        <alt>*hôʒei-</alt>
+        <alt>*-ôʒei</alt>
+        <!--  land  -->
+    </item>
+    <item src="words/tôfâî.xml" tag="attributive referential nominal word">
+        <lemma>*tôfâî</lemma>
+        <alt>*tôfâ-</alt>
+        <alt>*-fâî</alt>
+        <!--  astral; star  -->
+    </item>
+    <item src="words/xaitû.xml" tag="attributive referential nominal word">
+        <lemma>*xaitû</lemma>
+        <alt>*xai-</alt>
+        <alt>*-xtû</alt>
+        <!--  lunar; moon  -->
+    </item>
 
     <!--  Quantities  -->
 
