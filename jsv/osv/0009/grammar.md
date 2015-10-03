@@ -23,8 +23,8 @@ CLASSICAL SEVENSI VIV utilizes the following broad "parts of speech":
 
 -   __The postposition__ links adjective and adverb phrases to the phrases they modify.
 
--   __The verbal__ is a modified verb, in the form of a preposition or infinitive.
-    Prepositions function exactly like noun~adjectives.
+-   __The verbal__ is a modified verb, in the form of a participle or infinitive.
+    Participle function exactly like noun~adjectives.
     Infinitives function like adverb clauses, and may be used, without a coordinating conjunction, anywhere an adverb clause might normally be found.
     Infinitives may also take arguments to clarify their relationship to the sentence.
 
