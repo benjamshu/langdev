@@ -1,4 +1,4 @@
-#  OLD SEVENSI :: CONSONANTS  #
+#  CLASSICAL SEVENSI :: CONSONANTS  #
 
 ##  Voiced:  ##
 

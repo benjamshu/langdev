@@ -1,4 +1,4 @@
-#  HARMONY  #
+#  CLASSICAL SEVENSI :: HARMONY  #
 
 ##  Semantics:  ##
 
