@@ -1,6 +1,6 @@
-#  OLD SEVENSI :: VOWELS  #
+#  CLASSICAL SEVENSI :: VOWELS  #
 
-Vowels in OLD SEVENSI fall into one of three main *harmonization groups*.
+Vowels in CLASSICAL SEVENSI fall into one of three main *harmonization groups*.
 Vowel harmonization affects the way morphemes attach themselves to words.
 The three harmonization groups are as follows:
 
