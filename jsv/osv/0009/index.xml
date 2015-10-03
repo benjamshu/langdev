@@ -15,6 +15,7 @@
     <meta type="splash" xml:lang="en">Lemma:</meta>
     <meta type="splash" xml:lang="en">Attributed!</meta>
     <meta type="splash" xml:lang="en">Referenced!</meta>
+    <meta type="splash" xml:lang="en">Selective!</meta>
 
     <!--  TAGS  -->
 
@@ -1354,6 +1355,126 @@
         <alt>*dôtai-</alt>
         <alt>*-taiât</alt>
         <!--  tree; forested  -->
+    </item>
+    <item src="words/aiʒeiô.xml" tag="referential nominal word">
+        <lemma>*aiʒeiô</lemma>
+        <alt>*aiʒei-</alt>
+        <alt>*-ʒeiô</alt>
+        <!--  bread  -->
+    </item>
+    <item src="words/deidsei.xml" tag="referential nominal word">
+        <lemma>*deidsei</lemma>
+        <alt>*deids-</alt>
+        <alt>*-dsei</alt>
+        <!--  citrus fruit  -->
+    </item>
+    <item src="words/deixaitsû.xml" tag="referential nominal word">
+        <lemma>*deixaitsû</lemma>
+        <alt>*deix-</alt>
+        <alt>*-aitsû</alt>
+        <!--  apple  -->
+    </item>
+    <item src="words/doiwei.xml" tag="referential nominal word">
+        <lemma>*doiwei</lemma>
+        <alt>*dauei-</alt>
+        <alt>*-oiwei</alt>
+        <!--  coffee  -->
+    </item>
+    <item src="words/fôteisî.xml" tag="referential nominal word">
+        <lemma>*fôteisî</lemma>
+        <alt>*fôtei-</alt>
+        <alt>*-fôtsî</alt>
+        <!--  rice  -->
+    </item>
+    <item src="words/haifî.xml" tag="attributive referential nominal word">
+        <lemma>*haifî</lemma>
+        <alt>*hai-</alt>
+        <alt>*-fî</alt>
+        <!--  vegetable  -->
+    </item>
+    <item src="words/ôdseiô.xml" tag="attributive referential nominal word">
+        <lemma>*ôdseiô</lemma>
+        <alt>*ôdsei-</alt>
+        <alt>*-deiô</alt>
+        <!--  alcohol; alcoholic  -->
+    </item>
+    <item src="words/sît.xml" tag="attributive referential nominal word">
+        <lemma>*sît</lemma>
+        <alt>*sî-</alt>
+        <alt>*-sît</alt>
+        <!--  food; edible  -->
+    </item>
+    <item src="words/taidfî.xml" tag="referential nominal word">
+        <lemma>*taidfî</lemma>
+        <alt>*taid-</alt>
+        <alt>*-aidî</alt>
+        <!--  fruit  -->
+    </item>
+    <item src="words/tôfaitsî.xml" tag="referential nominal word">
+        <lemma>*tôfaitsî</lemma>
+        <alt>*tôfai-</alt>
+        <alt>*-faitsî</alt>
+        <!--  compound berry  -->
+    </item>
+    <item src="words/wîgeu.xml" tag="attributive referential nominal word">
+        <lemma>*wîgeu</lemma>
+        <alt>*wîgeu-</alt>
+        <alt>*-îgeu</alt>
+        <!--  filling; food  -->
+    </item>
+    <item src="words/wîtûwei.xml" tag="attributive referential nominal word">
+        <lemma>*wîtûwei</lemma>
+        <alt>*wîtû-</alt>
+        <alt>*-tûwei</alt>
+        <!--  refreshing; water  -->
+    </item>
+    <item src="words/aufait.xml" tag="referential nominal word">
+        <lemma>*aufait</lemma>
+        <alt>*aufai-</alt>
+        <alt>*-fait</alt>
+        <!--  knife  -->
+    </item>
+    <item src="words/gusai.xml" tag="referential nominal word">
+        <lemma>*gusai</lemma>
+        <alt>*gus-</alt>
+        <alt>*-usai</alt>
+        <!--  spear  -->
+    </item>
+    <item src="words/hôfâdô.xml" tag="referential nominal word">
+        <lemma>*hôfâdô</lemma>
+        <alt>*hôfâ-</alt>
+        <alt>*-fâdô</alt>
+        <!--  wheel  -->
+    </item>
+    <item src="words/ôwai.xml" tag="attributive referential nominal word">
+        <lemma>*ôwai</lemma>
+        <alt>*ôwai-</alt>
+        <alt>*-wai</alt>
+        <!--  sharp; blade  -->
+    </item>
+    <item src="words/tauwei.xml" tag="referential nominal word">
+        <lemma>*tauwei</lemma>
+        <alt>*tau-</alt>
+        <alt>*-ûwei</alt>
+        <!--  weapon  -->
+    </item>
+    <item src="words/deuwâ.xml" tag="referential nominal word">
+        <lemma>*deuwâ</lemma>
+        <alt>*deu-</alt>
+        <alt>*-ûwâ</alt>
+        <!--  room  -->
+    </item>
+    <item src="words/dôfû.xml" tag="attributive referential nominal word">
+        <lemma>*dôfû</lemma>
+        <alt>*dôfû-</alt>
+        <alt>*-ôfû</alt>
+        <!--  tall; height  -->
+    </item>
+    <item src="words/fôtjô.xml" tag="attributive referential nominal word">
+        <lemma>*fôtjô</lemma>
+        <alt>*fôt-</alt>
+        <alt>*-ôtjô</alt>
+        <!--  long; length  -->
     </item>
 
     <!--  Quantities  -->
