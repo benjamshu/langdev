@@ -16,6 +16,7 @@
     <meta type="splash" xml:lang="en">Attributed!</meta>
     <meta type="splash" xml:lang="en">Referenced!</meta>
     <meta type="splash" xml:lang="en">Selective!</meta>
+    <meta type="splash" xml:lang="en">In two flavours!</meta>
 
     <!--  TAGS  -->
 
@@ -27,7 +28,8 @@
     <taggroup name="Grammatical categories">
         <tag xml:lang="en" value="article">Article</tag>
         <tag xml:lang="en" value="interjection">Interjection</tag>
-        <tag xml:lang="en" value="post-position">Post-position</tag>
+        <tag xml:lang="en" value="postposition-adjectival">Adjectival postposition</tag>
+        <tag xml:lang="en" value="postposition-adverbial">Adverbial postposition</tag>
         <tag xml:lang="en" value="conjunction">Conjunction</tag>
         <tag xml:lang="en" value="verb">Verb</tag>
         <tag xml:lang="en" value="verb-tense">Verb-tense</tag>
@@ -75,7 +77,71 @@
         <!--  nay  -->
     </item>
 
-    <!--  Post-positions  -->
+    <!--  Adjectival postpositions  -->
+
+    <item src="words/eiʒô.xml" tag="postposition-adjectival word">
+        <lemma>*eiʒô</lemma>
+        <!--  of  -->
+    </item>
+    <item src="words/âeidai.xml" tag="postposition-adjectival word">
+        <lemma>*âeidai</lemma>
+        <!--  beside  -->
+    </item>
+    <item src="words/aiû.xml" tag="postposition-adjectival word">
+        <lemma>*aiû</lemma>
+        <!--  on  -->
+    </item>
+    <item src="words/aux.xml" tag="postposition-adjectival word">
+        <lemma>*aux</lemma>
+        <!--  for  -->
+    </item>
+    <item src="words/eiai.xml" tag="postposition-adjectival word">
+        <lemma>*eiai</lemma>
+        <!--  between  -->
+    </item>
+    <item src="words/eisô.xml" tag="postposition-adjectival word">
+        <lemma>*eisô</lemma>
+        <!--  below  -->
+    </item>
+    <item src="words/gôs.xml" tag="postposition-adjectival word">
+        <lemma>*gôs</lemma>
+        <!--  above  -->
+    </item>
+    <item src="words/tôsû.xml" tag="postposition-adjectival word">
+        <lemma>*tôsû</lemma>
+        <!--  off of  -->
+    </item>
+    <item src="words/ʒûfô.xml" tag="postposition-adjectival word">
+        <lemma>*ʒûfô</lemma>
+        <!--  in  -->
+    </item>
+    <item src="words/tâxdî.xml" tag="postposition-adjectival word">
+        <lemma>*tâxdî</lemma>
+        <!--  out of  -->
+    </item>
+
+    <!--  Adverbial postpositions  -->
+
+    <item src="words/eid.xml" tag="postposition-adverbial word">
+        <lemma>*eid</lemma>
+        <!--  around  -->
+    </item>
+    <item src="words/eifai.xml" tag="postposition-adverbial word">
+        <lemma>*eifai</lemma>
+        <!--  at  -->
+    </item>
+    <item src="words/eiô.xml" tag="postposition-adverbial word">
+        <lemma>*eiô</lemma>
+        <!--  through  -->
+    </item>
+    <item src="words/sai.xml" tag="postposition-adverbial word">
+        <lemma>*sai</lemma>
+        <!--  from  -->
+    </item>
+    <item src="words/ʒôx.xml" tag="postposition-adverbial word">
+        <lemma>*ʒôx</lemma>
+        <!--  to  -->
+    </item>
 
     <!--  Conjunctions  -->
 
@@ -606,7 +672,7 @@
         <alt>*-wau</alt>
         <!--  grey  -->
     </item>
-    <item src="words/ʒau.xml" tag="attributive referential nominal word">
+    <item src="words/ʒau.xml" tag="attributive referential nominal postposition word">
         <lemma>*ʒau</lemma>
         <alt>*ʒau-</alt>
         <alt>*-ʒau</alt>
