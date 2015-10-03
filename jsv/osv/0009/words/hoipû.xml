@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0009">
+    <lemma>*hoipû</lemma>
+    <entry>
+        <section>
+            <heading xml:lang="en">nominal</heading>
+            <alts xml:lang="en">root: <html:i xml:lang="art-x-osv-0009">*hoi-</html:i>; affix: <html:i xml:lang="art-x-osv-0009">*-oipû</html:i></alts>
+            <def xml:lang="en">day; diurnal</def>
+            <def xml:lang="en">midday</def>
+        </section>
+    </entry>
+</word>
