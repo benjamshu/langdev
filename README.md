@@ -31,5 +31,4 @@ Development blocks often only make sense when used with another variant subtag; 
 
 The language tags used in The LANGDEV Project have not been registered and are thus not valid IETF tags.
 To remedy this, they should be prefixed with the string `art-x-`; for example, `art-x-svi`.
-`art` is the IETF primary language subtag for artificial language; `x` is the private-use subtag.
-User agents wishing to support the languages of The LANGDEV Project should treat language tags prefixed with `art-x-` according to the definitions in [CODES.txt](CODES.txt) if the succeeding subtag is a primary language subtag as defined in that file.
+User agents wishing to support the languages of The LANGDEV Project should treat language tags prefixed with `art-x-` according to the definitions in [the provided language subtag registry](language-subtag-registry) if the succeeding subtag is a primary language subtag as defined in that file.
