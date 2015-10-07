@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0010-block001">
+
+    <!--  METADATA  -->
+    <meta type="title" xml:lang="en">CLASSICAL SEVENSI X :: DEVELOPMENT BLOCK 001</meta>
+    <meta type="description" xml:lang="en">SEVENSI X is the first level of evolution and abstraction from JASTU-SEVENSI VIV; in which the grammars are formalized and the phonology is brought better under control. DEVELOPMENT BLOCK 001 includes words in closed grammatical categories.</meta>
+    <meta type="splash" xml:lang="en">GRAMMATICAL WORDS</meta>
+
+    <!--  TAGS  -->
+
+    <taggroup name="Morphological categories">
+        <tag xml:lang="en" value="word">Word</tag>
+        <tag xml:lang="en" value="clitic">Clitic</tag>
+        <tag xml:lang="en" value="affix">Affix</tag>
+    </taggroup>
+    <taggroup name="Grammatical categories">
+        <tag xml:lang="en" value="article">Article</tag>
+        <tag xml:lang="en" value="interjection">Interjection</tag>
+        <tag xml:lang="en" value="postposition-adjectival">Adjectival postposition</tag>
+        <tag xml:lang="en" value="postposition-adverbial">Adverbial postposition</tag>
+        <tag xml:lang="en" value="conjunction">Conjunction</tag>
+        <tag xml:lang="en" value="verb-tense">Verb-tense</tag>
+        <tag xml:lang="en" value="verb-mood">Verb-mood</tag>
+        <tag xml:lang="en" value="verb-derivation">Verb-derivation</tag>
+        <tag xml:lang="en" value="nominal-honorific">Nominal-honorific</tag>
+        <tag xml:lang="en" value="quantity">Quantity</tag>
+        <tag xml:lang="en" value="pronominal">Pro-nominal</tag>
+        <tag xml:lang="en" value="name">Name</tag>
+    </taggroup>
+
+    <item src="words/피.xml" tag="article word">
+        <lemma>피</lemma>
+        <!--  the  -->
+    </item>
+    <item src="words/스.xml" tag="article word">
+        <lemma>스</lemma>
+        <!--  a; an; some  -->
+    </item>
+    <item src="words/즤.xml" tag="article word">
+        <lemma>즤</lemma>
+        <!--  the (proper)  -->
+    </item>
+
+</lexis>
