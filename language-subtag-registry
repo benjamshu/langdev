@@ -189,3 +189,57 @@ Subtag: block001
 Description: Development Block 001
 Added: 2015-10-06
 Prefix: osv-0010
+%%
+Type: variant
+Subtag: block002
+Description: Development Block 002
+Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block003
+Description: Development Block 003
+Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block004
+Description: Development Block 004
+Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block005
+Description: Development Block 005
+Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block006
+Description: Development Block 006
+Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block007
+Description: Development Block 007
+Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block008
+Description: Development Block 008
+Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block009
+Description: Development Block 009
+Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block010
+Description: Development Block 010
+Added: 2015-10-06
+Prefix: osv-0010
