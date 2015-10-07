@@ -8,6 +8,11 @@
 
     <!--  TAGS  -->
 
+    <taggroup name="Harmony class">
+        <tag xml:lang="en" value="pos">Positive</tag>
+        <tag xml:lang="en" value="neu">Neutral</tag>
+        <tag xml:lang="en" value="neg">Negative</tag>
+    </taggroup>
     <taggroup name="Morphological categories">
         <tag xml:lang="en" value="word">Word</tag>
         <tag xml:lang="en" value="clitic">Clitic</tag>
@@ -16,8 +21,7 @@
     <taggroup name="Grammatical categories">
         <tag xml:lang="en" value="article">Article</tag>
         <tag xml:lang="en" value="interjection">Interjection</tag>
-        <tag xml:lang="en" value="postposition-adjectival">Adjectival postposition</tag>
-        <tag xml:lang="en" value="postposition-adverbial">Adverbial postposition</tag>
+        <tag xml:lang="en" value="postposition">Postposition</tag>
         <tag xml:lang="en" value="conjunction">Conjunction</tag>
         <tag xml:lang="en" value="verb-tense">Verb-tense</tag>
         <tag xml:lang="en" value="verb-mood">Verb-mood</tag>
@@ -28,17 +32,78 @@
         <tag xml:lang="en" value="name">Name</tag>
     </taggroup>
 
-    <item src="words/피.xml" tag="article word">
+    <!--  Articles:  -->
+
+    <item src="words/피.xml" tag="neu article word">
         <lemma>피</lemma>
         <!--  the  -->
     </item>
-    <item src="words/스.xml" tag="article word">
+    <item src="words/스.xml" tag="neu article word">
         <lemma>스</lemma>
         <!--  a; an; some  -->
     </item>
-    <item src="words/즤.xml" tag="article word">
+    <item src="words/즤.xml" tag="neu article word">
         <lemma>즤</lemma>
         <!--  the (proper)  -->
+    </item>
+
+    <!--  Postpositions:  -->
+
+    <item src="words/읫.xml" tag="neu postposition word">
+        <lemma>읫</lemma>
+        <!--  of  -->
+    </item>
+    <item src="words/에떼.xml" tag="neg postposition word">
+        <lemma>에떼</lemma>
+        <!--  beside  -->
+    </item>
+    <item src="words/애나.xml" tag="pos postposition word">
+        <lemma>애나</lemma>
+        <!--  on(to)  -->
+    </item>
+    <item src="words/옿.xml" tag="pos postposition word">
+        <lemma>옿</lemma>
+        <!--  for  -->
+    </item>
+    <item src="words/얳.xml" tag="pos postposition word">
+        <lemma>얳</lemma>
+        <!--  between  -->
+    </item>
+    <item src="words/끗.xml" tag="neu postposition word">
+        <lemma>끗</lemma>
+        <!--  above  -->
+    </item>
+    <item src="words/드써.xml" tag="neg postposition word">
+        <lemma>드써</lemma>
+        <!--  off (of)  -->
+    </item>
+    <item src="words/서므.xml" tag="neg postposition word">
+        <lemma>서므</lemma>
+        <!--  in(to)  -->
+    </item>
+    <item src="words/닿띠.xml" tag="pos postposition word">
+        <lemma>닿띠</lemma>
+        <!--  out (of)  -->
+    </item>
+    <item src="words/읟.xml" tag="neu postposition word">
+        <lemma>읟</lemma>
+        <!--  around  -->
+    </item>
+    <item src="words/에메.xml" tag="neg postposition word">
+        <lemma>에메</lemma>
+        <!--  at  -->
+    </item>
+    <item src="words/요.xml" tag="pos postposition word">
+        <lemma>요</lemma>
+        <!--  through  -->
+    </item>
+    <item src="words/쌔.xml" tag="pos postposition word">
+        <lemma>쌔</lemma>
+        <!--  from  -->
+    </item>
+    <item src="words/슿.xml" tag="neu postposition word">
+        <lemma>슿</lemma>
+        <!--  to  -->
     </item>
 
 </lexis>
