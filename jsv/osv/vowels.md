@@ -13,24 +13,25 @@ The three harmonization groups are as follows:
 - **Iotized-unrounded:** ㅑ /jʌ/
 - **Iotized-rounded:** ㅛ /jɔ/
 - **Iotized-unrounded-i:** ㅒ /jʌɪ/
+- **Iotized-rounded-i:** ㆉ /jɔɪ/
 - **W-unrounded:** ㅘ /wɑ/
 - **W-unrounded-i:** ㅙ /wʌɪ/
 
 ##  Negative:  ##
 
-- **Unrounded:** ㅓ /ə/
-- **Rounded:** ㅜ /u/
+- **Unrounded:** ㅓ /e/
+- **Rounded:** ㅜ /o/
 - **Unrounded-i:** ㅔ /eɪ/
-- **Rounded-i:** ㅟ /wi/
-- **Iotized-unrounded:** ㅕ /jə/
-- **Iotized-rounded:** ㅠ /ju/
+- **Rounded-i:** ㅟ /ɵɪ/
+- **Iotized-unrounded:** ㅕ /je/
+- **Iotized-rounded:** ㅠ /jɵ/
 - **Iotized-unrounded-i:** ㅖ /jeɪ/
-- **W-unrounded:** ㅝ /wə/
+- **Iotized-rounded-i:** ㆌ /jɵɪ/
+- **W-unrounded:** ㅝ /we/
 - **W-unrounded-i:** ㅞ /weɪ/
 
 ##  Neutral:  ##
 
 - **Unrounded:** ㅣ /i/
-- **Rounded:** ㅡ /o/
-- **Rounded-i:** ㅢ /e/
-
+- **Rounded:** ㅡ /u/
+- **Rounded-i/W-unrounded:** ㅢ /wi/

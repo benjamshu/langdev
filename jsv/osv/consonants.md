@@ -10,7 +10,7 @@
 - ㅅ /ʑ/
 - ㅈ /dʑ/
 - ㅂ /b/
-- ㅇ /ŋ/
+- ㅇ /ŋ/ (in codas only)
 
 ##  Devoiced:  ##
 
@@ -24,6 +24,7 @@
 
 - ㅋ /kʰ/
 - ㅌ /tʰ/
+- ㅿ /ɕʰ/
 - ㅊ /tɕʰ/
 - ㅍ /pʰ/
 - ㅎ /h/ (/x/ in word-initial position)
