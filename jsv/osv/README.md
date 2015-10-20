@@ -9,7 +9,7 @@
 
 ##  Description:  ##
 
-__  The hangul representation of CLASSICAL SEVENSI requires font-support for archaic forms! This support is provided by [Source Han Sans](http://blogs.adobe.com/CCJKType/2014/12/shs-development-archaic-hangul.html) but may not be available in other fonts.  __
+__The hangul representation of CLASSICAL SEVENSI requires font-support for archaic forms! This support is provided by [Source Han Sans](http://blogs.adobe.com/CCJKType/2014/12/shs-development-archaic-hangul.html) but may not be available in other fonts.__
 
 CLASSICAL SEVENSI is the form of SEVENSI spoken from the beginning of written records through the publishing of the various Classics.
 In addition to providing the basis for SEVENSI as a whole, many aspects of CLASSICAL SEVENSI are preserved in the "classical" speech-level.
