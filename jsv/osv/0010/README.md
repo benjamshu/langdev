@@ -15,41 +15,40 @@ CLASSICAL SEVENSI lacks any grammatical gender and this nasalization pattern has
 ###  codas  ###
 
 Syllable codas may now include any letter in the orthography.
-Note that *ㅇ*, normally null, represents /ŋ/ in the coda.
-Syllable codas are limited to a single letter, with the exception of *ㄹ*, which may be followed another in some circumstances.
-(This comes from *ㄹ*'s original purpose as an affix-separator.)
+Syllable codas are limited to a single letter, with the exception of *&#x11AF;*, which may be followed another in some circumstances.
+(This comes from *&#x11AF;*'s original purpose as an affix-separator.)
 In word-final compound codas, the second letter is not pronounced.
 
 ###  splits, merges, and drops  ###
 
 ####  m/n merge
 
-The sound \*m has merged with \*n as *ㄴ*.
+The sound \*m has merged with \*n as *&#1102;*.
 
 ####  t split
 
-\*t has shifted to *ㄹ* when unstressed, syllable-final, or followed by \*ei, \*ô, or \*au.
-Other instances of \*t are preserved as *ㄸ*.
+\*t has shifted to *&#x11AF;* when unstressed, syllable-final, or followed by \*ei, \*ô, or \*au.
+Other instances of \*t are preserved as *&#x1104;*.
 
 ####  w merge/drop
 
-\*w becomes *ㄴ* when word-initial, and otherwise makes the preceeding syllable a W-form, if possible, or rounded, if not.
+\*w becomes *&#x1102;* when word-initial, and otherwise makes the preceeding syllable a W-form, if possible, or rounded, if not.
 
 ####  z/ʒ merge
 
-\*z and \*ʒ have merged as *ㅅ*.
+\*z and \*ʒ have merged as *&#x1109;*.
 
 ####  vowel shifts
 
-\*ei becomes *ㅢ* when unstressed.
-\*â becomes *ㅐ* when stressed and the preceeding consonant is null, labial, or coronal (\*s, \*z, and \*ʒ not included).
-\*ô becomes *ㅚ* when stressed.
+\*ei becomes *&#x1166;* when unstressed.
+\*â becomes *&#x1162;* when stressed and the preceeding consonant is null, labial, or coronal (\*s, \*z, and \*ʒ not included).
+\*ô becomes *&#x116C;* when stressed.
 
 ####  consonant-family splits
 
-The consonants \*d, \*g, \*j, and \*p split into voiced, aspirated, and devoiced forms, according to the following rules:
+The consonants \*d, \*g, \*j, \*p, and \*x are split into voiced, aspirated, and devoiced forms, according to the following rules:
 
-1. If the following syllable begins with \*h, the consonant is aspirated.
+1. If the following syllable begins with \*h, the consonant is aspirated and the \*h is dropped.
 2. Otherwise, if the syllable is stressed, the consonant is voiced.
 3. Otherwise, if the syllable is preceeded by an unstressed syllable, the consonant is aspirated.
 4. Otherwise, the consonant is devoiced.
@@ -64,5 +63,5 @@ Words whose stressed syllable is neutral are not harmonized.
 
 ## Orthography: ##
 
-CLASSICAL SEVENSI uses korean hangul as its writing system.
+CLASSICAL SEVENSI uses korean hangul (including some archaic forms) as its writing system.
 Some sounds have changed to match sevensian phonology.

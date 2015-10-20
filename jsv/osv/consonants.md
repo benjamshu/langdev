@@ -5,7 +5,7 @@
 - &#x1100; /g/
 - &#x1102; /n/ (/m/ in word-initial position)
 - &#x1103; /d/
-- &#x1109; /ɾ/ (/l/ in word-final position)
+- &#x1105; /ɾ/ (/l/ in word-final position)
 - &#x1106; /v/ (/f/ in word-initial position)
 - &#x1109; /ʑ/
 - &#x110C; /dʑ/
