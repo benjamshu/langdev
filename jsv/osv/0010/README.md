@@ -38,6 +38,12 @@ Other instances of \*t are preserved as *ㄸ*.
 
 \*z and \*ʒ have merged as *ㅅ*.
 
+####  iotization
+
+When the first syllable of a word is stressed, it is iotized.
+Iotization also occurs in instances of consecutive vowels (that is, a syllable with no coda followed by another with no onset) as a means of concatenation when the first vowel is \*â, \*ê, or \*î.
+Additionally, \*aiV, \*eiV, and \*oiV become \*ajV, \*ejV, and \*ojV, respectively.
+
 ####  vowel shifts
 
 \*ei becomes *ㅔ* when unstressed.
@@ -58,7 +64,6 @@ Note that these rules are somewhat flexible, especially when dealing with affixe
 ####  harmonization
 
 Words are now harmonized according to the polarity of their stressed syllable.
-Before harmonization, positive vowels are iotized where possible.
 Words whose stressed syllable is neutral are not harmonized.
 
 ## Orthography: ##
