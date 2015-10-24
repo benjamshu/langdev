@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0010-block001">
+
+    <!--  METADATA  -->
+    <meta type="title" xml:lang="en">CLASSICAL SEVENSI X :: DEVELOPMENT BLOCK 001</meta>
+    <meta type="description" xml:lang="en">SEVENSI X is the first level of evolution and abstraction from JASTU-SEVENSI VIV; in which the grammars are formalized and the phonology is brought better under control. DEVELOPMENT BLOCK 001 includes words in closed grammatical categories.</meta>
+    <meta type="splash" xml:lang="en">GRAMMATICAL WORDS</meta>
+
+    <!--  TAGS  -->
+
+    <taggroup name="Harmony class">
+        <tag xml:lang="en" value="pos">Positive</tag>
+        <tag xml:lang="en" value="neu">Neutral</tag>
+        <tag xml:lang="en" value="neg">Negative</tag>
+    </taggroup>
+    <taggroup name="Morphological categories">
+        <tag xml:lang="en" value="word">Word</tag>
+        <tag xml:lang="en" value="clitic">Clitic</tag>
+        <tag xml:lang="en" value="affix">Affix</tag>
+    </taggroup>
+    <taggroup name="Grammatical categories">
+        <tag xml:lang="en" value="article">Article</tag>
+        <tag xml:lang="en" value="interjection">Interjection</tag>
+        <tag xml:lang="en" value="postposition">Postposition</tag>
+        <tag xml:lang="en" value="conjunction">Conjunction</tag>
+        <tag xml:lang="en" value="verb-tense">Verb-tense</tag>
+        <tag xml:lang="en" value="verb-mood">Verb-mood</tag>
+        <tag xml:lang="en" value="verb-derivation">Verb-derivation</tag>
+        <tag xml:lang="en" value="nominal-honorific">Nominal-honorific</tag>
+        <tag xml:lang="en" value="quantity">Quantity</tag>
+        <tag xml:lang="en" value="pronominal">Pro-nominal</tag>
+        <tag xml:lang="en" value="name">Name</tag>
+    </taggroup>
+
+    <!--  Articles:  -->
+
+    <item src="words/피.xml" tag="neu article word">
+        <lemma>피</lemma>
+        <!--  the  -->
+    </item>
+    <item src="words/스.xml" tag="neu article word">
+        <lemma>스</lemma>
+        <!--  a; an; some  -->
+    </item>
+    <item src="words/즤.xml" tag="neu article word">
+        <lemma>즤</lemma>
+        <!--  the (proper)  -->
+    </item>
+
+    <!--  Postpositions:  -->
+
+    <item src="words/엇.xml" tag="neg postposition word">
+        <lemma>엇</lemma>
+        <!--  of  -->
+    </item>
+    <item src="words/에떼.xml" tag="neg postposition word">
+        <lemma>에떼</lemma>
+        <!--  beside  -->
+    </item>
+    <item src="words/애느.xml" tag="pos postposition word">
+        <lemma>애느</lemma>
+        <!--  on(to)  -->
+    </item>
+    <item src="words/옿.xml" tag="pos postposition word">
+        <lemma>옿</lemma>
+        <!--  for  -->
+    </item>
+    <item src="words/얳.xml" tag="pos postposition word">
+        <lemma>얳</lemma>
+        <!--  between  -->
+    </item>
+    <item src="words/꼬ᇫ.xml" tag="pos postposition word">
+        <lemma>꼬ᇫ</lemma>
+        <!--  above  -->
+    </item>
+    <item src="words/두쓰.xml" tag="neg postposition word">
+        <lemma>두쓰</lemma>
+        <!--  off (of)  -->
+    </item>
+    <item src="words/수무.xml" tag="neg postposition word">
+        <lemma>수무</lemma>
+        <!--  in(to)  -->
+    </item>
+    <item src="words/닿띠.xml" tag="pos postposition word">
+        <lemma>닿띠</lemma>
+        <!--  out (of)  -->
+    </item>
+    <item src="words/디.xml" tag="neu postposition word">
+        <lemma>디</lemma>
+        <!--  around  -->
+    </item>
+    <item src="words/에메.xml" tag="neg postposition word">
+        <lemma>에메</lemma>
+        <!--  at  -->
+    </item>
+    <item src="words/유.xml" tag="pos postposition word">
+        <lemma>유</lemma>
+        <!--  through  -->
+    </item>
+    <item src="words/쌔.xml" tag="pos postposition word">
+        <lemma>쌔</lemma>
+        <!--  from  -->
+    </item>
+    <item src="words/슿.xml" tag="neu postposition word">
+        <lemma>슿</lemma>
+        <!--  to  -->
+    </item>
+
+</lexis>
