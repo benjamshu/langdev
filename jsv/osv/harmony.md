@@ -15,7 +15,7 @@
 | :-----------------------------: | :-----------------------------: | :-----------------------------: |
 | &#x1100; and &#x1159; families  | &#x1109; and &#x110C; families  | &#x1103; and &#x1107; families  |
 | &#x114C;                        | &#x1105;                        | &#x1102; and &#x1106;           |
-| voiced                          | aspirated                       | devoiced/unvoiced               |
+| voiced                          | devoiced                        | aspirated                       |
 | back                            | middle                          | front                           |
 
 ##  Vowels:  ##
