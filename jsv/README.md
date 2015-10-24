@@ -18,6 +18,8 @@ Documentation and back-development for SEVENSI and its ancestors takes place at 
     - XI : Phonological standardization
     - XII : Release-candidate
 
+<!--  This really all belongs in 7c somewhere, but…
+
 ##  Orthographic history:  ##
 
 1. Purely representational sketches are canonized into pictographs and ideograms.
@@ -33,3 +35,5 @@ Documentation and back-development for SEVENSI and its ancestors takes place at 
 6. Many ideographic works are destroyed during the Dark Ages, making a complete reconstruction of ideographic Sevensi impossible.
 
 7. Hangul is adopted as the official Sevensi alphabet, and many modern features such as spaces and punctuation marks are incorporated.
+
+-->
