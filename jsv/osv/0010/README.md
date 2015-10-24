@@ -23,26 +23,26 @@ In word-final compound codas, the second letter is not pronounced.
 
 ####  m/n merge
 
-The sound \*m has merged with \*n as *&#1102;*.
+The sound \*m has merged with \*n as *ㄴ*.
 
 ####  t split
 
-\*t has shifted to *&#x11AF;* when unstressed, syllable-final, or followed by \*ei, \*ô, or \*au.
-Other instances of \*t are preserved as *&#x1104;*.
+\*t has shifted to *ㄹ* when unstressed, syllable-final, or followed by \*ei, \*ô, or \*au.
+Other instances of \*t are preserved as *ㄸ*.
 
 ####  w merge/drop
 
-\*w becomes *&#x1102;* when word-initial, and otherwise makes the preceeding syllable a W-form, if possible, or rounded, if not.
+\*w becomes *ㄴ* when word-initial, and otherwise makes the preceeding syllable a W-form, if possible, or rounded, if not.
 
 ####  z/ʒ merge
 
-\*z and \*ʒ have merged as *&#x1109;*.
+\*z and \*ʒ have merged as *ㅅ*.
 
 ####  vowel shifts
 
-\*ei becomes *&#x1166;* when unstressed.
-\*â becomes *&#x1162;* when stressed and the preceeding consonant is null, labial, or coronal (\*s, \*z, and \*ʒ not included).
-\*ô becomes *&#x116C;* when stressed.
+\*ei becomes *ㅔ* when unstressed.
+\*â becomes *ㅐ* when stressed and the preceeding consonant is null, labial, or coronal (\*s, \*z, and \*ʒ not included).
+\*ô becomes *ㅚ* when stressed.
 
 ####  consonant-family splits
 
