@@ -1,4 +1,4 @@
-File-Date: 2015-10-06
+File-Date: 2015-10-24
 %%
 Type: language
 Subtag: oen
@@ -242,4 +242,22 @@ Type: variant
 Subtag: block010
 Description: Development Block 010
 Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block011
+Description: Development Block 011
+Added: 2015-10-24
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block012
+Description: Development Block 012
+Added: 2015-10-24
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block013
+Description: Development Block 013
+Added: 2015-10-24
 Prefix: osv-0010
