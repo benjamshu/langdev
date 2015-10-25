@@ -1,4 +1,4 @@
-File-Date: 2015-10-24
+File-Date: 2015-10-25
 %%
 Type: language
 Subtag: oen
@@ -69,6 +69,11 @@ Subtag: svi
 Description: Sevensi
 Added: 2015-10-06
 Suppress-Script: Hang
+%%
+Type: script
+Subtag: Sevr
+Description: Ancient Sevensi Runes
+Added: 2015-10-25
 %%
 Type: variant
 Subtag: proto
