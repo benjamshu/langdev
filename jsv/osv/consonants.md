@@ -2,54 +2,45 @@
 
 ##  Voiced:  ##
 
-- &#x1100; /g/
-- &#x1102; /n/ (/m/ in word-initial position)
-- &#x1103; /d/
-- &#x1105; /ɾ/ (/l/ in word-final position)
-- &#x1106; /v/ (/f/ in word-initial position)
-- &#x1109; /ʑ/
-- &#x110C; /dʑ/
-- &#x1107; /b/
-- &#x1159; /ɣ/
+- &#x1100; g /g/
+- &#x1102; n /n/ (/m/ in word-initial position)
+- &#x1103; d /d/
+- &#x1105; l /ɾ/ (/l/ in word-final position)
+- &#x1106; v /v/ (/f/ in word-initial position)
+- &#x1109; z /ʑ/
+- &#x110C; j /dʑ/
+- &#x1107; b /b/
+- &#x1159; x /ɣ/
 - &#x110B; (empty)
-- &#x114C; /ŋ/
-
-##  Devoiced:  ##
-
-- &#x1101; /k/
-- &#x1104; /t/
-- &#x110A; /ɕ/
-- &#x110D; /tɕ/
-- &#x1108; /p/
-- &#xA97C; /x/
+- &#x114C; ng /ŋ/
 
 ##  Aspirated:  ##
 
-- &#x110F; /kʰ/
-- &#x1110; /tʰ/
-- &#x1140; /ɕʰ/
-- &#x110E; /tɕʰ/
-- &#x1111; /pʰ/
-- &#x1112; /h/
+- &#x110F; k /kʰ/
+- &#x1110; t /tʰ/
+- &#x1140; s /ɕʰ/
+- &#x110E; ch /tɕʰ/
+- &#x1111; p /pʰ/
+- &#x1112; h /h/
 
 Note that aspirated letters are used for devoiced codas.
 In addition, these double-consonant codas are possible:
 
 ##  Voiced:  ##
 
-- &#x11B0; /ɾg/
-- &#x11CE; /ɾd/
-- &#x11B1; /ɾv/
-- &#x11B3; /ɾʑ/
-- &#x11B2; /ɾb/
-- &#xD7DB; /ɾŋ/
+- &#x11B0; lg /ɾg/
+- &#x11CE; ld /ɾd/
+- &#x11B1; lv /ɾv/
+- &#x11B3; lz /ɾʑ/
+- &#x11B2; lb /ɾb/
+- &#xD7DB; lng /ɾŋ/
 
 ##  Devoiced:  ##
 
-- &#x11D8; /ɾk/
-- &#x11B4; /ɾt/
-- &#x11D7; /ɾɕ/
-- &#x11B5; /ɾp/
+- &#x11D8; lk /ɾk/
+- &#x11B4; lt /ɾt/
+- &#x11D7; ls /ɾɕ/
+- &#x11B5; lp /ɾp/
 
 These come from &#x11AF;'s originary purpose as an affix boundary.
 The second consonant sound is not pronounced when word-final, unless the following word begins with a vowel.
