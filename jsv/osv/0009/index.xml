@@ -1710,6 +1710,12 @@
         <alt>*-ôtjô</alt>
         <!--  long; length  -->
     </item>
+    <item src="words/ʒôfei.xml" tag="referential nominal word">
+        <lemma>*ʒôfei</lemma>
+        <lemma>*ʒôfei-</lemma>
+        <lemma>*-fei</lemma>
+        <!--  snake  -->
+    </item>
 
     <!--  Quantities  -->
 

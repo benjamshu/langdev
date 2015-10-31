@@ -1,4 +1,4 @@
-File-Date: 2015-10-06
+File-Date: 2015-10-30
 %%
 Type: language
 Subtag: oen
@@ -69,6 +69,11 @@ Subtag: svi
 Description: Sevensi
 Added: 2015-10-06
 Suppress-Script: Hang
+%%
+Type: script
+Subtag: Sevr
+Description: Ancient Sevensi Runes
+Added: 2015-10-25
 %%
 Type: variant
 Subtag: proto
@@ -242,4 +247,34 @@ Type: variant
 Subtag: block010
 Description: Development Block 010
 Added: 2015-10-06
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block011
+Description: Development Block 011
+Added: 2015-10-24
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block012
+Description: Development Block 012
+Added: 2015-10-24
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block013
+Description: Development Block 013
+Added: 2015-10-24
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block014
+Description: Development Block 014
+Added: 2015-10-30
+Prefix: osv-0010
+%%
+Type: variant
+Subtag: block015
+Description: Development Block 015
+Added: 2015-10-30
 Prefix: osv-0010
