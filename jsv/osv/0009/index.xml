@@ -431,6 +431,13 @@
         <lemma>*-audô</lemma>
         <!--  pull; draw in  -->
     </item>
+    <item src="words/dôsai.xml" tag="pronominal verbal word">
+        <lemma>*dôsai</lemma>
+        <lemma>*dôs-</lemma>
+        <lemma>*-jai</lemma>
+        <!--  medial locational pronoun  -->
+        <!--  come; arrive  -->
+    </item>
 
     <!--  Nominals  -->
 
@@ -1803,10 +1810,6 @@
     <item src="words/sûhai.xml" tag="pronominal word">
         <lemma>*sûhai</lemma>
         <!--  proximal locational pronoun  -->
-    </item>
-    <item src="words/dôsai.xml" tag="pronominal word">
-        <lemma>*dôsai</lemma>
-        <!--  medial locational pronoun  -->
     </item>
     <item src="words/sêd.xml" tag="pronominal word">
         <lemma>*sêd</lemma>

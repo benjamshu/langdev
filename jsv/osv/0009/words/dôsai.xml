@@ -7,4 +7,12 @@
             <def xml:lang="en">medial locational pronoun</def>
         </section>
     </entry>
+    <entry>
+        <section>
+            <heading xml:lang="en">verbal</heading>
+            <alts xml:lang="en">root: <html:i xml:lang="art-x-osv-0009">*dôs-</html:i>; affix: <html:i xml:lang="art-x-osv-0009">*-jai</html:i></alts>
+            <def xml:lang="en">come</def>
+            <def xml:lang="en">arrive</def>
+        </section>
+    </entry>
 </word>
