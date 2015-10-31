@@ -425,6 +425,12 @@
         <alt>*-eisô</alt>
         <!--  touch; feel  -->
     </item>
+    <item src="words/daudô.xml" tag="verbal word">
+        <lemma>*daudô</lemma>
+        <lemma>*daud-</lemma>
+        <lemma>*-audô</lemma>
+        <!--  pull; draw in  -->
+    </item>
 
     <!--  Nominals  -->
 
