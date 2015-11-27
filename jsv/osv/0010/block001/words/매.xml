@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0010-block001">
-    <lemma>꼬ᇫ</lemma>
+    <lemma>매</lemma>
     <entry>
-        <etymology xml:lang="en">From the VIV root <html:i xml:lang="art-x-osv-0009">*gos</html:i>.</etymology>
+        <etymology xml:lang="en">&lt; VIV <html:i xml:lang="art-x-osv-0009">*eifai</html:i>.</etymology>
         <section>
             <heading xml:lang="en">postposition</heading>
-            <def xml:lang="en">above</def>
+            <def xml:lang="en">at</def>
         </section>
     </entry>
 </word>
