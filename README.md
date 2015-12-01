@@ -7,7 +7,8 @@ Check out the [stripped](https://github.com/literallybenjam/langdev/tree/strippe
 It might run a few commits behind [stripped](https://github.com/literallybenjam/langdev/tree/stripped) or the other branches from time to time.
 
 LANGDEV uses [LexisML](https://github.com/literallybenjam/LexisML) to keep track of languages' lexicons.
-Conversion from LexisML 1.0 to LexisML 2.0 is underway.
+Due to the scope of the project, the now-depreciated LexisML 1.0 and 2.0 formats are still sometimes in use.
+However, conversion to the LexisML Index Record (LREC) format is now underway.
 
 All files published to this git repositiory are, to the extent possible under law, in the public domain. For more information, see [LICENSE.md](LICENSE.md).
 
