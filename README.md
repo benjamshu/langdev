@@ -12,6 +12,18 @@ However, conversion to the LexisML Index Record (LREC) format is now underway.
 
 All files published to this git repositiory are, to the extent possible under law, in the public domain. For more information, see [LICENSE.md](LICENSE.md).
 
+##  Character Encodings and Unicode:  ##
+
+At some times during language development, it may become necessary to define characters or scripts not currently encoded into Unicode.
+The development of a database of similar form to the Unicode Character Database is planned, but not yet underway.
+However, The LANGDEV Project formally reserves the private-use characters U+101000..U+1017FF for later specification, and larger blocks of characters may be reserved in the future.
+
+Formal definitions of the following blocks are planned:
+
+- U+101000..U+10103F BENCODE
+- U+101040..U+1010FF JASTUGA SYLLABARY
+- U+101100..U+10110F CLASSICAL SEVENSI RUNES
+
 ##  Document naming and IETF language tags:  ##
 
 The organization of documents within The LANGDEV Project is based heavily on the IETF language tags.
