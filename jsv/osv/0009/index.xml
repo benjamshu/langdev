@@ -269,7 +269,7 @@
         <alt>*-taus</alt>
         <!--  hurt  -->
     </item>
-    <item src="words/aueiô.xml" tag="verbal word">
+    <item src="words/auhî.xml" tag="verbal word">
         <lemma>*auhî</lemma>
         <alt>*au-</alt>
         <alt>*-auhî</alt>
@@ -425,6 +425,19 @@
         <alt>*-eisô</alt>
         <!--  touch; feel  -->
     </item>
+    <item src="words/daudô.xml" tag="verbal word">
+        <lemma>*daudô</lemma>
+        <lemma>*daud-</lemma>
+        <lemma>*-audô</lemma>
+        <!--  pull; draw in  -->
+    </item>
+    <item src="words/dôsai.xml" tag="pronominal verbal word">
+        <lemma>*dôsai</lemma>
+        <lemma>*dôs-</lemma>
+        <lemma>*-jai</lemma>
+        <!--  medial locational pronoun  -->
+        <!--  come; arrive  -->
+    </item>
 
     <!--  Nominals  -->
 
@@ -541,7 +554,7 @@
         <lemma>*teueid</lemma>
         <alt>*teuei-</alt>
         <alt>*-teid</alt>
-        <!--  body  -->
+        <!--  shape; form; figure; person; bodily  -->
     </item>
     <item src="words/ʒauei.xml" tag="attributive referential nominal word">
         <lemma>*ʒauei</lemma>
@@ -723,7 +736,7 @@
         <lemma>*ʒeitôweu</lemma>
         <alt>*ʒeitô-</alt>
         <alt>*-ʒôweu</alt>
-        <!--  bone  -->
+        <!--  vulva  -->
     </item>
     <item src="words/ʒôtsî.xml" tag="referential nominal word">
         <lemma>*ʒôtsî</lemma>
@@ -1797,10 +1810,6 @@
     <item src="words/sûhai.xml" tag="pronominal word">
         <lemma>*sûhai</lemma>
         <!--  proximal locational pronoun  -->
-    </item>
-    <item src="words/dôsai.xml" tag="pronominal word">
-        <lemma>*dôsai</lemma>
-        <!--  medial locational pronoun  -->
     </item>
     <item src="words/sêd.xml" tag="pronominal word">
         <lemma>*sêd</lemma>
