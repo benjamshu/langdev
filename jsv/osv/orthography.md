@@ -68,3 +68,4 @@ Otherwise, U+200C ZERO WIDTH NON-JOINER should be placed between words which car
 |  /ɵɪ/ |    oi   | &#x1171; | &#x10110E; |
 |  /i/  |    i    | &#x1175; |   &nbsp;   |
 |  /u/  |    u    | &#x1173; |   &nbsp;   |
+|  /ə/  |    æ    |  &nbsp;  |   &nbsp;   |
