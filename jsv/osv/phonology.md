@@ -65,7 +65,7 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 1. If the consonant is preceeded by a voiced consonant in the same syllable, devoice it.
     Otherwise, if the following syllable begins with _h_, the consonant is devoiced and the _h_ is dropped.
     Otherwise, if the syllable is stressed, the consonant is voiced.
-    Otherwise, if the syllable is preceeded by an unstressed syllable or a stop which is more front, the consonant is devoiced.
+    Otherwise, if the consonant is preceeded by an unstressed consonant or a stop or nasal which is more front, the consonant is devoiced.
     Otherwise the consonant is voiced.
 
 2. _\*x_ becomes _r_ when syllable-final and followed by another consonant, or when syllable-final and unstressed.
@@ -79,7 +79,7 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 
 6. _\*l_ becomes _tl_ when preceeded by a stressed syllable.
 
-7. _n_ becomes _q_ when syllable-final and unstressed.
+7. _n_ becomes _q_ when syllable-final and unstressed or when preceeded by a more front stop or nasal.
 
 8. Iotized when stressed and the preceeding consonant is null, _\*m_, _\*f_, _\*p_, _\*d_, _\*t_.
 
@@ -89,10 +89,16 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 
 ---
 
-- VIV _\*ds_ becomes X _j_ and VIV _\*st_ becomes X _z_.
+- VIV _\*ds_ and _\*dz_ becomes X _j_ and VIV _\*st_ becomes X _z_.
+
+- VIV _\*t_ becomes X _r_ when followed by _\*z_ or _\*j_.
 
 - X _dw_ and _tw_ become XI _j_ and _c_, respectively, when word-initial.
 
 - X _å_ tends towards XI _a_ after front consonants, and the reverse is true after back consonants.
 
 - X _VVi_ > XI _VyV_.
+
+- X _ix_ > XI _r_.
+
+- X _y_ tends towards XI _r_ when preceded by a stressed syllable.
