@@ -38,15 +38,15 @@ Note : animate article
 Tagged : +
 Tagged : Article
 %%
-Lexeme : ro
-At : words/ro.html
+Lexeme : lo
+At : words/lo.html
 Language : art-Latn-x-osv-0010-block001
 Note : abstract article
 Tagged : -
 Tagged : Article
 %%
-Lexeme : vil
-At : words/vil.html
+Lexeme : vitl
+At : words/vitl.html
 Language : art-Latn-x-osv-0010-block001
 Note : negative article
 Tagged : 0
@@ -115,8 +115,8 @@ Note : in
 Tagged : -
 Tagged : Postposition
 %%
-Lexeme : taixdi
-At : words/taixdi.html
+Lexeme : dairdi
+At : words/dairdi.html
 Language : art-Latn-x-osv-0010-block001
 Note : out (of)
 Tagged : +
