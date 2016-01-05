@@ -17,11 +17,11 @@ Group : Category
 Tag : Article
 Tag : Postposition
 %%
-Lexeme : påi
-At : words/påi.html
+Lexeme : bæ
+At : words/bæ.html
 Language : art-Latn-x-osv-0010-block001
 Note : definite article
-Tagged : +
+Tagged : 0
 Tagged : Article
 %%
 Lexeme : ze
@@ -45,8 +45,8 @@ Note : abstract article
 Tagged : -
 Tagged : Article
 %%
-Lexeme : vir
-At : words/vir.html
+Lexeme : vil
+At : words/vil.html
 Language : art-Latn-x-osv-0010-block001
 Note : negative article
 Tagged : 0
@@ -59,15 +59,15 @@ Note : of
 Tagged : -
 Tagged : Postposition
 %%
-Lexeme : yeidei
-At : words/yeidei.html
+Lexeme : aidi
+At : words/aidi.html
 Language : art-Latn-x-osv-0010-block001
 Note : beside
-Tagged : -
+Tagged : +
 Tagged : Postposition
 %%
-Lexeme : ma
-At : words/ma.html
+Lexeme : ayæ
+At : words/ayæ.html
 Language : art-Latn-x-osv-0010-block001
 Note : on(to)
 Tagged : +
@@ -80,11 +80,11 @@ Note : for
 Tagged : +
 Tagged : Postposition
 %%
-Lexeme : myai
-At : words/myai.html
+Lexeme : eyei
+At : words/eyei.html
 Language : art-Latn-x-osv-0010-block001
 Note : between
-Tagged : +
+Tagged : -
 Tagged : Postposition
 %%
 Lexeme : eiso
@@ -101,15 +101,15 @@ Note : above
 Tagged : +
 Tagged : Postposition
 %%
-Lexeme : tois
-At : words/tois.html
+Lexeme : tosæ
+At : words/tosæ.html
 Language : art-Latn-x-osv-0010-block001
 Note : off (of)
 Tagged : -
 Tagged : Postposition
 %%
-Lexeme : jov
-At : words/jov.html
+Lexeme : jæfo
+At : words/jæfo.html
 Language : art-Latn-x-osv-0010-block001
 Note : in
 Tagged : -
@@ -129,8 +129,8 @@ Note : around
 Tagged : -
 Tagged : Postposition
 %%
-Lexeme : vai
-At : words/vai.html
+Lexeme : fai
+At : words/fai.html
 Language : art-Latn-x-osv-0010-block001
 Note : at
 Tagged : +
