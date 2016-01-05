@@ -22,7 +22,7 @@ Formal definitions of the following blocks are planned:
 
 - U+101000..U+10103F BENCODE
 - U+101040..U+1010FF JASTUGA SYLLABARY
-- U+101100..U+10110F CLASSICAL SEVENSI RUNES
+- U+101100..U+10111F CLASSICAL SEVENSI RUNES
 
 ##  Document naming and IETF language tags:  ##
 

@@ -7,10 +7,10 @@ The following table outlines the potential combinations:
 
 |     quality | back  |  mid  | front |
 | ----------: | :---: | :---: | :---: |
-|        stop |  g/k  |  d/t  |  b/p  |
-|   fricative |  x/h  |  z/s  |  v/f  |
-| approximant |   y   |  j/c  |   w   |
+|        stop |  g/k  | d/t l |  b/p  |
 |       nasal |   q   |   n   |   m   |
+|   fricative |  x/h  |z/s j/c|  v/f  |
+| approximant |   r   |   y   |   w   |
 |       vowel |   a   |   æ   |   e   |
 
 Note that the distinction between voiced and unvoiced consonants was probably not pronounced in most instances in Classical Sevensi X.
@@ -33,32 +33,32 @@ For clarity, modified vowels are given special representations:
 
 The following table charts the evolution of Sevensi phonology in the time leading up to and during the Classical period:
 
-| VIV |  X              | XI              | XII |
-| --- | --------------- | --------------- | --- |
-| \*s |  s              |  s              |  s  |
-| \*d |  d              | d/t<sup>1</sup> | d/t |
-| \*x |  x              |  x              |  x  |
-| \*t | r/d<sup>2</sup> | r/d             | r/d |
-| \*w |  w              |  w              |  w  |
-| \*h |  h              |  h              |  h  |
-| \*j |  j              | j/c<sup>1</sup> | j/c |
-| \*z | z/j<sup>3</sup> |z/j/c            |z/j/c|
-| \*g |  g              | g/k<sup>1</sup> | g/k |
-| \*f | f/v<sup>4</sup> | f/v             | f/v |
-| \*m |  m              |  m              |  m  |
-| \*p |  b              | b/p             | b/p |
-| \*l | r/l<sup>5</sup> | r/l             | r/l |
-| \*n |  n              | n/q<sup>6</sup> | n/q |
-| \*û |  æ              |  æ              |  æ  |
-| \*â |a(i)<sup>7</sup> |a(i)             |a(i) |
-|\*ei |e(i)<sup>8</sup> |e(i)             |e(i) |
-| \*ê |  e              |  e              |  e  |
-|\*ai | ai              | ai              | ai  |
-| \*î | i/y<sup>9</sup> | i/y             | i/y |
-|\*oi | oi              | oi              | oi  |
-| \*ô |o(i)<sup>8</sup> |o(i)             |o(i) |
-|\*au |å(i)<sup>8</sup> |å(i)             |å(i) |
-|\*eu |  u              |  u              |  u  |
+| VIV |  X              | XI              | XII             |
+| --- | --------------- | --------------- | --------------- |
+| \*s |  s              |  s              |  s              |
+| \*d |  d              | d/t<sup>1</sup> | d/t             |
+| \*x |  x              |  x              |  x              |
+| \*t | l/d<sup>2</sup> | l/d             | r/d             |
+| \*w |  w              |  w              |  w              |
+| \*h |  h              |  h              |  h              |
+| \*j |  j              | j/c<sup>1</sup> | j/c             |
+| \*z | z/j<sup>3</sup> |z/j/c            |z/j/c            |
+| \*g |  g              | g/k<sup>1</sup> | g/k             |
+| \*f | f/v<sup>4</sup> | f/v             | f/v             |
+| \*m |  m              |  m              |  m              |
+| \*p |  b              | b/p             | b/p             |
+| \*l |l/tl<sup>5</sup> |l/tl             |l/tl             |
+| \*n |  n              | n/q<sup>6</sup> | n/q             |
+| \*û |  æ              |  æ              |  æ              |
+| \*â |a(i)<sup>7</sup> |a(i)             |a(i)             |
+|\*ei |e(i)<sup>8</sup> |e(i)             |e(i)             |
+| \*ê |  e              |  e              |  e              |
+|\*ai | ai              | ai              | ai              |
+| \*î | i/y<sup>9</sup> | i/y             | i/y             |
+|\*oi | oi              | oi              | oi              |
+| \*ô |o(i)<sup>8</sup> |o(i)             |o(i)             |
+|\*au |å(i)<sup>8</sup> |å(i)             |å(i)             |
+|\*eu |  u              |  u              |  u              |
 
 ###  Notes  ###
 
@@ -68,14 +68,14 @@ The following table charts the evolution of Sevensi phonology in the time leadin
     Otherwise, if the syllable is preceeded by an unstressed syllable or a stop which is more front, the consonant is devoiced.
     Otherwise the consonant is voiced.
 
-2. _\*t_ becomes _r_ when unstressed, syllable-final, or followed by _\*ei_, _\*ô_, or _\*au_.
+2. _\*t_ becomes _l_ when unstressed, syllable-final, or followed by _\*ei_, _\*ô_, or _\*au_.
     Other instances of _\*t_ are voiced as _d_.
 
 3. _\*z_ becomes _j_ when the preceeding syllable is stressed.
 
 4. _\*f_ becomes _v_ when stressed and morpheme-initial or word-final.
 
-5. _\*l_ becomes _r_ unless preceeded by a stressed syllable.
+5. _\*l_ becomes _tl_ when preceeded by a stressed syllable.
 
 6. _n_ becomes _q_ when syllable-final and unstressed.
 
