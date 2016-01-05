@@ -67,17 +67,28 @@ The following table charts the evolution of Sevensi phonology in the time leadin
     Otherwise, if the syllable is stressed, the consonant is voiced.
     Otherwise, if the syllable is preceeded by an unstressed syllable or a stop which is more front, the consonant is devoiced.
     Otherwise the consonant is voiced.
+
 2. _\*t_ becomes _r_ when unstressed, syllable-final, or followed by _\*ei_, _\*ô_, or _\*au_.
     Other instances of _\*t_ are voiced as _d_.
-3. _\*z_ becomes _j_ when the preceeding syllable is stressed.
-4. _\*f_ becomes _v_ when stressed and morpheme-initial
-5. _\*l_ becomes _r_ unless preceeded by a stressed syllable
-6. _n_ becomes _q_ when syllable-final and unstressed
-7. Iotized when stressed and the preceeding consonant is null, _\*m_, _\*f_, _\*p_, _\*d_, _\*t_
-8. Iotized when stressed
-9. _\*î_ becomes _y_ in places where a consonant would make sense
 
-- VIV _\*ds_ becomes X _j_ and VIV _\*st_ becomes X _z_
+3. _\*z_ becomes _j_ when the preceeding syllable is stressed.
+
+4. _\*f_ becomes _v_ when stressed and morpheme-initial or word-final.
+
+5. _\*l_ becomes _r_ unless preceeded by a stressed syllable.
+
+6. _n_ becomes _q_ when syllable-final and unstressed.
+
+7. Iotized when stressed and the preceeding consonant is null, _\*m_, _\*f_, _\*p_, _\*d_, _\*t_.
+
+8. Iotized when stressed.
+
+9. _\*î_ becomes _y_ in places where a consonant would make sense.
+
+- VIV _\*ds_ becomes X _j_ and VIV _\*st_ becomes X _z_.
+
 - X _dw_ and _tw_ become XI _j_ and _c_, respectively, when word-initial.
-- X _å_ tends towards XI _a_ after front consonants, and the reverse is true after back consonants
-- X _VVi_ > XI _VyV_
+
+- X _å_ tends towards XI _a_ after front consonants, and the reverse is true after back consonants.
+
+- X _VVi_ > XI _VyV_.
