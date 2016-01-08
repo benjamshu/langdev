@@ -65,7 +65,7 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 1. If the consonant is preceeded by a voiced consonant in the same syllable, devoice it.
     Otherwise, if the following syllable begins with _h_, the consonant is devoiced and the _h_ is dropped.
     Otherwise, if the syllable is stressed, the consonant is voiced.
-    Otherwise, if the consonant is preceeded by an unstressed stop or nasal which is more front, the consonant is devoiced.
+    Otherwise, if the consonant is preceeded by an unstressed consonant or a stop or nasal which is more front, the consonant is devoiced.
     Otherwise the consonant is voiced.
 
 2. _\*x_ becomes _r_ when syllable-final and followed by another consonant, or when syllable-final and unstressed.
