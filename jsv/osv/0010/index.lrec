@@ -1,0 +1,220 @@
+Title : Classical Sevensi X
+Subtitle : Development Block 001
+Author : The LANGDEV Project
+Language : en
+Description : SEVENSI X is the first level of evolution and abstraction
+    from JASTU-SEVENSI VIV; in which the grammars are formalized and
+    the phonology is brought better under control. DEVELOPMENT BLOCK
+    001 includes words in closed grammatical categories.
+Splash : GRAMMATICAL WORDS
+%%
+Group : Development block
+Tag : block001
+Note : Grammatical words
+Tag : block002
+Note : The body
+Tag : block003
+Note : Animals
+Tag : block004
+Note : Nature
+Tag : block005
+Note : Food and culture
+Tag : block006
+Note : Motion and travel
+Tag : block007
+Note : Production
+Tag : block008
+Note : Physical properties
+Tag : block009
+Note : Emotion and experience
+Tag : block010
+Note : Social roles
+Tag : block011
+Note : Religion
+Tag : block012
+Note : Time
+Tag : block013
+Note : Language
+Tag : block014
+Note : Quantity
+Tag : block015
+Note : Generics
+Tag : block016
+Note : Names
+%%
+Group : Harmonization class
+Tag : +
+Tag : -
+Tag : 0
+%%
+Group : Category
+Tag : Article
+Tag : Postposition
+%%
+Lexeme : bæ
+At : block001/bæ.html
+Language : art-Latn-x-osv-0010-block001
+Note : definite article
+Tagged : block001
+Tagged : 0
+Tagged : Article
+%%
+Lexeme : ze
+At : block001/ze.html
+Language : art-Latn-x-osv-0010-block001
+Note : indefinite article
+Tagged : block001
+Tagged : -
+Tagged : Article
+%%
+Lexeme : jå
+At : block001/jå.html
+Language : art-Latn-x-osv-0010-block001
+Note : animate article
+Tagged : block001
+Tagged : +
+Tagged : Article
+%%
+Lexeme : lo
+At : block001/lo.html
+Language : art-Latn-x-osv-0010-block001
+Note : abstract article
+Tagged : block001
+Tagged : -
+Tagged : Article
+%%
+Lexeme : vitl
+At : block001/vitl.html
+Language : art-Latn-x-osv-0010-block001
+Note : negative article
+Tagged : block001
+Tagged : 0
+Tagged : Article
+%%
+Lexeme : zo
+At : block001/zo.html
+Language : art-Latn-x-osv-0010-block001
+Note : of
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : aidi
+At : block001/aidi.html
+Language : art-Latn-x-osv-0010-block001
+Note : beside
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : ayæ
+At : block001/ayæ.html
+Language : art-Latn-x-osv-0010-block001
+Note : on(to)
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : åx
+At : block001/åx.html
+Language : art-Latn-x-osv-0010-block001
+Note : for
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : eyei
+At : block001/eyei.html
+Language : art-Latn-x-osv-0010-block001
+Note : between
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : eiso
+At : block001/eiso.html
+Language : art-Latn-x-osv-0010-block001
+Note : below
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : gås
+At : block001/gås.html
+Language : art-Latn-x-osv-0010-block001
+Note : above
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : tosæ
+At : block001/tosæ.html
+Language : art-Latn-x-osv-0010-block001
+Note : off (of)
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : jæfo
+At : block001/jæfo.html
+Language : art-Latn-x-osv-0010-block001
+Note : in
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : dairdi
+At : block001/dairdi.html
+Language : art-Latn-x-osv-0010-block001
+Note : out (of)
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : ed
+At : block001/ed.html
+Language : art-Latn-x-osv-0010-block001
+Note : around
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : fai
+At : block001/fai.html
+Language : art-Latn-x-osv-0010-block001
+Note : at
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : yo
+At : block001/yo.html
+Language : art-Latn-x-osv-0010-block001
+Note : through
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : sai
+At : block001/sai.html
+Language : art-Latn-x-osv-0010-block001
+Note : from
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : joix
+At : block001/joix.html
+Language : art-Latn-x-osv-0010-block001
+Note : to
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : dox
+At : block001/dox.html
+Language : art-Latn-x-osv-0010-block001
+Note : having
+Tagged : block001
+Tagged : -
+Tagged : Postposition
