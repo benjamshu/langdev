@@ -98,3 +98,7 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 - X _å_ tends towards XI _a_ after front consonants, and the reverse is true after back consonants.
 
 - X _VVi_ > XI _VyV_.
+
+- X _ix_ > XI _r_.
+
+- X _y_ tends towards XI _r_ when preceded by a stressed syllable.
