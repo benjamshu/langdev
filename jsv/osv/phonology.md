@@ -102,3 +102,5 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 - X _ix_ > XI _r_.
 
 - X _y_ tends towards XI _r_ when preceded by a stressed syllable.
+
+- XI stress moves backwards in XII when the preceding syllable is a more back stop or nasal
