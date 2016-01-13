@@ -83,7 +83,7 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 
 8. Iotized when stressed and the preceeding consonant is null, _\*m_, _\*f_, _\*p_, _\*d_, _\*t_.
 
-9. Iotized when stressed.
+9. Iotized when stressed and in the first syllable of a morpheme.
 
 10. _\*î_ becomes _y_ in places where a consonant would make sense.
 
