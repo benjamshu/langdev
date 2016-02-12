@@ -167,11 +167,35 @@ Language : art-Hani-x-fiz-1der-block000
 Pronunciation : di
 Tagged : di
 %%
+Lexeme : 帝
+At : block000/帝.html
+Language : art-Hani-x-fiz-1der-block000
+Pronunciation : di
+Tagged : di
+%%
+Lexeme : 小
+At : block000/小.html
+Language : art-Hani-x-fiz-1der-block000
+Pronunciation : fi
+Tagged : fi
+%%
+Lexeme : 末
+At : block000/末.html
+Language : art-Hani-x-fiz-1der-block000
+Pronunciation : fu
+Tagged : fu
+%%
 Lexeme : 位
 At : block000/位.html
 Language : art-Hani-x-fiz-1der-block000
 Pronunciation : i
 Tagged : i
+%%
+Lexeme : 牧
+At : block000/牧.html
+Language : art-Hani-x-fiz-1der-block000
+Pronunciation : ma
+Tagged : ma
 %%
 Lexeme : 文
 At : block000/文.html
@@ -184,6 +208,18 @@ At : block000/羊.html
 Language : art-Hani-x-fiz-1der-block000
 Pronunciation : s(a)
 Tagged : sa
+%%
+Lexeme : 遅
+At : block000/遅.html
+Language : art-Hani-x-fiz-1der-block000
+Pronunciation : si
+Tagged : si
+%%
+Lexeme : 他
+At : block000/他.html
+Language : art-Hani-x-fiz-1der-block000
+Pronunciation : ta
+Tagged : ta
 %%
 Lexeme : 台
 At : block000/台.html
