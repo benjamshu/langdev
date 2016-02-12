@@ -190,6 +190,12 @@ Added: 2015-10-06
 Prefix: osv
 %%
 Type: variant
+Subtag: block000
+Description: Development Block 000
+Added: 2016-02-12
+Prefix: fiz-1der
+%%
+Type: variant
 Subtag: block001
 Description: Development Block 001
 Added: 2015-10-06

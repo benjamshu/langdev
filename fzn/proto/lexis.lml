@@ -2237,6 +2237,7 @@
         <form class="n">shátag</form>
         <meaning xml:lang="en">sheep</meaning>
         <etymology><wordref>shat</wordref> + <wordref>-ag</wordref></etymology>
+        <!--  in D1 as 羊他  -->
     </word>
     <!--  SHEG  -->
     <word>
