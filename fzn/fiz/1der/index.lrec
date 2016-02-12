@@ -1,0 +1,275 @@
+Title : FIZENG FIRST-IN-DEVELOPMENT
+Author : The LANGDEV Project
+Language : en
+Description : A lexicon for the first derivative of THE LANGUAGE. Only
+    irregular conjugations are recorded.
+%%
+Group : Category
+Description : Grammatical category.
+Tag : Noun
+Tag : Verb
+Tag : Affix
+Tag : Interjection
+Tag : Postposition
+Tag : Adverb
+Tag : Classifier
+Tag : Demonstrative
+%%
+Group : Development block
+Tag : block001
+Note : Grammatical words
+Tag : block002
+Note : The body
+Tag : block003
+Note : Animals
+Tag : block004
+Note : Nature
+Tag : block005
+Note : Food and culture
+Tag : block006
+Note : Motion and travel
+Tag : block007
+Note : Production
+Tag : block008
+Note : Qualities and properties
+Tag : block009
+Note : Emotion and experience
+Tag : block010
+Note : Social roles
+Tag : block011
+Note : Religion
+Tag : block012
+Note : Time
+Tag : block013
+Note : Language
+Tag : block014
+Note : Quantity
+Tag : block015
+Note : Generics
+Tag : block016
+Note : Names
+%%
+Lexeme : -侍
+At : block001/-侍.html
+Language : art-Hani-x-fiz-1der-block001
+Pronunciation : di
+Note : forms animate agent nouns
+Tagged : block001
+Tagged : Affix
+%%
+Lexeme : 台
+At : block001/台.html
+Language : art-Hani-x-fiz-1der-block001
+Pronunciation : tu
+Note : copula
+Tagged : block001
+Tagged : Verb
+%%
+Inflected : 中台筆
+Of : 台
+Pronunciation : tyun
+Note : polite form
+%%
+Lexeme : 毬
+At : block001/毬.html
+Language : art-Hani-x-fiz-1der-block001
+Pronunciation : zi
+Note : noun connector
+Tagged : block001
+Tagged : Postposition
+%%
+Lexeme : 食毬
+At : block001/食毬.html
+Language : art-Hani-x-fiz-1der-block001
+Pronunciation : yozi
+Note : proximal demonstrative
+Tagged : block001
+Tagged : Demonstrative
+%%
+Lexeme : 文羊
+At : block001/文羊.html
+Language : art-Hani-x-fiz-1der-block001
+Pronunciation : pus
+Note : direct object; possessive
+Tagged : block001
+Tagged : Postposition
+%%
+Lexeme : 彼位
+At : block001/彼位.html
+Language : art-Hani-x-fiz-1der-block001
+Pronunciation : dai
+Note : distal demonstrative
+Tagged : block001
+Tagged : Demonstrative
+%%
+Lexeme : 何
+At : block001/何.html
+Language : art-Hani-x-fiz-1der-block001
+Pronunciation : ba
+Note : interrogative demonstrative
+Tagged : block001
+Tagged : Demonstrative
+%%
+Lexeme : 遅文
+At : block002/遅文.html
+Language : art-Hani-x-fiz-1der-block002
+Pronunciation : si-pu
+Note : spit
+Tagged : block002
+Tagged : Verb
+%%
+Lexeme : 食
+At : block002/食.html
+Language : art-Hani-x-fiz-1der-block002
+Pronunciation : yo
+Note : face
+Tagged : block002
+Tagged : Noun
+%%
+Lexeme : 中牧小
+At : block003/中牧小.html
+Language : art-Hani-x-fiz-1der-block003
+Pronunciation : myofi
+Note : cat
+Tagged : block003
+Tagged : Noun
+%%
+Lexeme : 毬末帝
+At : block003/毬末帝.html
+Language : art-Hani-x-fiz-1der-block003
+Pronunciation : zifudi
+Note : fox
+Tagged : block003
+Tagged : Noun
+%%
+Lexeme : 台丘車
+At : block006/台丘車.html
+Language : art-Hani-x-fiz-1der-block006
+Pronunciation : tuku-ru
+Note : stand
+Tagged : block006
+Tagged : Verb
+%%
+Lexeme : 点抜
+At : block006/点抜.html
+Language : art-Hani-x-fiz-1der-block006
+Pronunciation : gi-nu
+Note : point
+Tagged : block006
+Tagged : Verb
+%%
+Lexeme : 各
+At : block006/各.html
+Language : art-Hani-x-fiz-1der-block006
+Pronunciation : ka
+Note : to; for; away
+Tagged : block006
+Tagged : Postposition
+Tagged : Adverb
+%%
+Lexeme : 徒羊台
+At : block008/徒羊台.html
+Language : art-Hani-x-fiz-1der-block008
+Pronunciation : tos-tu
+Note : appear; seem
+Tagged : block008
+Tagged : Verb
+%%
+Lexeme : 代
+At : block008/代.html
+Language : art-Hani-x-fiz-1der-block008
+Pronunciation : da
+Note : topic marker; in contrast to; pertinent
+Tagged : block008
+Tagged : Postposition
+Tagged : Adverb
+%%
+Lexeme : 台丘侍
+At : block010/台丘侍.html
+Language : art-Hani-x-fiz-1der-block010
+Pronunciation : tukudi
+Note : aide; waiter; assistant
+Tagged : block010
+Tagged : Noun
+%%
+Lexeme : 身
+At : block010/身.html
+Language : art-Hani-x-fiz-1der-block010
+Pronunciation : qe
+Note : person classifier
+Tagged : block010
+Tagged : Classifier
+%%
+Lexeme : 雨流
+At : block012/雨流.html
+Language : art-Hani-x-fiz-1der-block012
+Pronunciation : uru
+Note : repeatedly; reflexive marker
+Tagged : block012
+Tagged : Postposition
+Tagged : Adverb
+%%
+Lexeme : 新執筆
+At : block013/新執筆.html
+Language : art-Hani-x-fiz-1der-block013
+Pronunciation : fisen
+Note : the LANGUAGE
+Tagged : block013
+Tagged : Noun
+%%
+Lexeme : 本筆字
+At : block013/本筆字.html
+Language : art-Hani-x-fiz-1der-block013
+Pronunciation : honzi
+Note : character; glyph
+Tagged : block013
+Tagged : Noun
+%%
+Lexeme : 例枚字
+At : block013/例枚字.html
+Language : art-Hani-x-fiz-1der-block013
+Pronunciation : remazi
+Note : latin letter; latin lettering
+Tagged : block013
+Tagged : Noun
+%%
+Lexeme : 語丼
+At : block013/語丼.html
+Language : art-Hani-x-fiz-1der-block013
+Pronunciation : wati
+Note : name
+Tagged : block013
+Tagged : Noun
+%%
+Lexeme : 丼
+At : block013/丼.html
+Language : art-Hani-x-fiz-1der-block013
+Pronunciation : ti
+Note : classifier for names and words
+Tagged : block013
+Tagged : Classifier
+%%
+Lexeme : 斉永効文
+At : block015/斉永効文.html
+Language : art-Hani-x-fiz-1der-block015
+Pronunciation : ze:go-pu
+Note : become
+Tagged : block015
+Tagged : Verb
+%%
+Lexeme : 畏
+At : block015/畏.html
+Language : art-Hani-x-fiz-1der-block015
+Pronunciation : he
+Note : hey
+Tagged : block015
+Tagged : Interjection
+%%
+Lexeme : 泳泳友祝
+At : block015/泳泳友祝.html
+Language : art-Hani-x-fiz-1der-block015
+Pronunciation : e:dosu
+Note : hello (more formal)
+Tagged : block015
+Tagged : Interjection
+%%
