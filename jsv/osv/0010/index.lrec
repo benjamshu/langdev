@@ -1,12 +1,10 @@
-Title : Classical Sevensi X
-Subtitle : Development Block 001
+Title : Classical Sevensi
+Subtitle : Version X
 Author : The LANGDEV Project
 Language : en
 Description : SEVENSI X is the first level of evolution and abstraction
-    from JASTU-SEVENSI VIV; in which the grammars are formalized and
-    the phonology is brought better under control. DEVELOPMENT BLOCK
-    001 includes words in closed grammatical categories.
-Splash : GRAMMATICAL WORDS
+    from JASTU-SEVENSI VIV, in which the grammars are formalized and
+    the phonology is brought better under control.
 %%
 Group : Development block
 Tag : block001
@@ -99,16 +97,16 @@ Tagged : block001
 Tagged : -
 Tagged : Postposition
 %%
-Lexeme : aidi
-At : block001/aidi.html
+Lexeme : áidi
+At : block001/áidi.html
 Language : art-Latn-x-osv-0010-block001
 Note : beside
 Tagged : block001
 Tagged : +
 Tagged : Postposition
 %%
-Lexeme : ayæ
-At : block001/ayæ.html
+Lexeme : áyæ
+At : block001/áyæ.html
 Language : art-Latn-x-osv-0010-block001
 Note : on(to)
 Tagged : block001
@@ -123,16 +121,16 @@ Tagged : block001
 Tagged : +
 Tagged : Postposition
 %%
-Lexeme : eyei
-At : block001/eyei.html
+Lexeme : éyei
+At : block001/éyei.html
 Language : art-Latn-x-osv-0010-block001
 Note : between
 Tagged : block001
 Tagged : -
 Tagged : Postposition
 %%
-Lexeme : eiso
-At : block001/eiso.html
+Lexeme : éiso
+At : block001/éiso.html
 Language : art-Latn-x-osv-0010-block001
 Note : below
 Tagged : block001
@@ -147,24 +145,24 @@ Tagged : block001
 Tagged : +
 Tagged : Postposition
 %%
-Lexeme : tosæ
-At : block001/tosæ.html
+Lexeme : dósæ
+At : block001/dósæ.html
 Language : art-Latn-x-osv-0010-block001
 Note : off (of)
 Tagged : block001
 Tagged : -
 Tagged : Postposition
 %%
-Lexeme : jæfo
-At : block001/jæfo.html
+Lexeme : jǽfo
+At : block001/jǽfo.html
 Language : art-Latn-x-osv-0010-block001
 Note : in
 Tagged : block001
 Tagged : -
 Tagged : Postposition
 %%
-Lexeme : dairdi
-At : block001/dairdi.html
+Lexeme : dáirdi
+At : block001/dáirdi.html
 Language : art-Latn-x-osv-0010-block001
 Note : out (of)
 Tagged : block001
