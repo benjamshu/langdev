@@ -10,6 +10,9 @@ Splash : Grammatical!
 Splash : Spiritual!
 Splash : Animated!
 Splash : Blocked!
+Splash : Great!
+Splash : Named!
+Splash : Nominal!
 %%
 Group : Development block
 Tag : block001
@@ -54,6 +57,8 @@ Group : Category
 Tag : Article
 Tag : Postposition
 Tag : Noun
+Tag : Honorific
+Tag : Name
 %%
 Lexeme : bæ
 At : block001/bæ.html
@@ -222,6 +227,22 @@ Note : having
 Tagged : block001
 Tagged : -
 Tagged : Postposition
+%%
+Lexeme : -fa
+At : block001/-fa.html
+Language : art-Latn-x-osv-0010-block001
+Note : revered
+Tagged : block001
+Tagged : +
+Tagged : Honorific
+%%
+Lexeme : -fe
+At : block001/-fe.html
+Language : art-Latn-x-osv-0010-block001
+Note : revered
+Tagged : block001
+Tagged : -
+Tagged : Honorific
 %%
 Lexeme : hodúsi
 At : block003/hodúsi.html
@@ -430,3 +451,66 @@ Note : Great Animal
 Tagged : block011
 Tagged : +
 Tagged : Noun
+%%
+Lexeme : ménæ
+At : block016/ménæ.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : séiqri
+At : block016/séiqri.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : dwåfáyi
+At : block016/dwåfáyi.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : +
+Tagged : Name
+%%
+Lexeme : zárzå
+At : block016/zárzå.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : +
+Tagged : Name
+%%
+Lexeme : ǽrjå
+At : block016/ǽrjå.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : +
+Tagged : Name
+%%
+Lexeme : sóile
+At : block016/sóile.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : júrzed
+At : block016/júrzed.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : goleid
+At : block016/goleid.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : lein
+At : block016/lein.html
+Language : art-Latn-x-osv-0010-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
