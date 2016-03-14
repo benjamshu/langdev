@@ -5,6 +5,11 @@ Language : en
 Description : SEVENSI X is the first level of evolution and abstraction
     from JASTU-SEVENSI VIV, in which the grammars are formalized and
     the phonology is brought better under control.
+Splash : Religious!
+Splash : Grammatical!
+Splash : Spiritual!
+Splash : Animated!
+Splash : Blocked!
 %%
 Group : Development block
 Tag : block001
@@ -48,6 +53,7 @@ Tag : 0
 Group : Category
 Tag : Article
 Tag : Postposition
+Tag : Noun
 %%
 Lexeme : bæ
 At : block001/bæ.html
@@ -216,3 +222,211 @@ Note : having
 Tagged : block001
 Tagged : -
 Tagged : Postposition
+%%
+Lexeme : hodúsi
+At : block003/hodúsi.html
+Language : art-Latn-x-osv-0010-block003
+Note : crab
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : déije
+At : block003/déije.html
+Language : art-Latn-x-osv-0010-block003
+Note : fish
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : góisæ
+At : block003/góisæ.html
+Language : art-Latn-x-osv-0010-block003
+Note : bird
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : déidi
+At : block003/déidi.html
+Language : art-Latn-x-osv-0010-block003
+Note : hare
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : xóifi
+At : block003/xóifi.html
+Language : art-Latn-x-osv-0010-block003
+Note : cow
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : delóiso
+At : block003/delóiso.html
+Language : art-Latn-x-osv-0010-block003
+Note : wolf
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : sarsúi
+At : block003/sarsúi.html
+Language : art-Latn-x-osv-0010-block003
+Note : deer
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : vǻiji
+At : block003/vǻiji.html
+Language : art-Latn-x-osv-0010-block003
+Note : pig
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : zóife
+At : block003/zóife.html
+Language : art-Latn-x-osv-0010-block003
+Note : snake
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : dáirzi
+At : block003/dáirzi.html
+Language : art-Latn-x-osv-0010-block003
+Note : fox
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : zaláifæ
+At : block003/zaláifæ.html
+Language : art-Latn-x-osv-0010-block003
+Note : bird
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : dáiku
+At : block003/dáiku.html
+Language : art-Latn-x-osv-0010-block003
+Note : mouse
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : holófe
+At : block011/holófe.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Crab
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : deizéufe
+At : block011/deizéufe.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Fish
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : gosófe
+At : block011/gosófe.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Bird
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : deidyófe
+At : block011/deidyófe.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Hare
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : xofyófe
+At : block011/xofyófe.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Cow
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : deróife
+At : block011/deróife.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Wolf
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : sadsuǻifa
+At : block011/sadsuǻifa.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Deer
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : fawǻfa
+At : block011/fawǻfa.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Pig
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : zofeyóife
+At : block011/zofeyóife.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Snake
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : dadǻfa
+At : block011/dadǻfa.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Fox
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : jǻifæ
+At : block011/jǻifæ.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Tiger
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : lauǻfa
+At : block011/lauǻfa.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Mouse
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : jovéije
+At : block011/jovéije.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Spirit
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : zadǻfa
+At : block011/zadǻfa.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Animal
+Tagged : block011
+Tagged : +
+Tagged : Noun
