@@ -387,7 +387,7 @@ LREC.prototype = {
                 //  Sets up variables:
 
                 this.lexemes[this.records[i].lexeme] = {
-                    url: undefined,
+                    href: undefined,
                     language: undefined,
                     pronunciation: undefined,
                     tags: [],
@@ -399,12 +399,12 @@ LREC.prototype = {
 
                 if (Array.isArray(this.records[i].at)) {
                     console.error("LREC Error: Lexeme '" + this.records[i].lexeme + "' has two at fields.");
-                    this.lexemes[this.records[i].lexeme].url = new URL(this.records[i].at[0]);
+                    this.lexemes[this.records[i].lexeme].href = new URL(this.records[i].at[0]);
                 }
-                else if (this.records[i].at) this.lexemes[this.records[i].lexeme].url = new URL(this.records[i].at, this.base);
+                else if (this.records[i].at) this.lexemes[this.records[i].lexeme].href = new URL(this.records[i].at, this.base);
                 else {
                     console.error("LREC Error: Lexeme '" + this.records[i].lexeme + "' has no at field.");
-                    this.lexemes[this.records[i].lexeme].url = new URL("about:blank");
+                    this.lexemes[this.records[i].lexeme].href = new URL("about:blank");
                 }
 
                 if (Array.isArray(this.records[i].language)) {
