@@ -2,36 +2,36 @@
 
 /*
 
-#  LEXISML INDEX DOCUMENT (LDOC) READER  #
+#  LEXISML INDEX RECORD (LREC) READER  #
 
 Requires support for the URL() constructor.
 
 ##  Usage:  ##
 
-    var ldoc = new LDOC(location);
-    var ldoc = new LDOC(locationURL);
-    var ldoc = new LDOC(source, base);
-    var ldoc = new LDOC(source, baseURL);
+    var lrec = new LREC(location);
+    var lrec = new LREC(locationURL);
+    var lrec = new LREC(source, base);
+    var lrec = new LREC(source, baseURL);
 
-- ldoc : a newly-created LexisML Index Document object
-- location : a URL string pointing to the LDOC
-- locationURL : a URL object pointing to the LDOC
-- source : a string in the LDOC format
-- base : the base URL for the LDOC, as a string
-- baseURL : the base URL for the LDOC, as a URL object
+- lrec : a newly-created LexisML Index Record object
+- location : a URL string pointing to the LREC
+- locationURL : a URL object pointing to the LREC
+- source : a string in the LREC format
+- base : the base URL for the LREC, as a string
+- baseURL : the base URL for the LREC, as a URL object
 
 */
 
-function LDOC(var1, var2) {
+function LREC(var1, var2) {
 
     //  Check variable types:
 
     if (!(typeof var1 === "string" || var1 instanceof String || var1 instanceof URL)) {
-        console.error("LDOC Error: Parameter 1 is not of proper type.");
+        console.error("LREC Error: Parameter 1 is not of proper type.");
         return;
     }
     if (var2 !== undefined && !(typeof var2 === "string" || var2 instanceof String || var2 instanceof URL)) {
-        console.error("LDOC Error: Parameter 2 is not of proper type.");
+        console.error("LREC Error: Parameter 2 is not of proper type.");
         return;
     }
 
@@ -66,8 +66,8 @@ function LDOC(var1, var2) {
         else this.base = new URL(var1, document.baseURI);
 
         this.request = new XMLHttpRequest();
-        this.request.ldoc = this;
-        this.request.addEventListener("load", function() {this.ldoc.load();}, false);
+        this.request.lrec = this;
+        this.request.addEventListener("load", function() {this.lrec.load();}, false);
         this.request.open("GET", this.base.href);
         this.request.responseType = "text";
         this.request.overrideMimeType("text/plain");
@@ -86,14 +86,14 @@ function LDOC(var1, var2) {
 
 }
 
-LDOC.prototype = {
+LREC.prototype = {
 
     load: function() {
 
         //  Makes sure there's something to load:
 
         if (!this.src && !this.request) {
-            console.error("LDOC Error: Attempted to load, but no source code was found and no request was made.");
+            console.error("LREC Error: Attempted to load, but no source code was found and no request was made.");
             return;
         }
 
@@ -110,12 +110,12 @@ LDOC.prototype = {
         var k;
         var l;
 
-        var load_event = new CustomEvent("LDOC_Loaded", {detail: {ldoc: this}});
+        var load_event = new CustomEvent("LREC_Loaded", {detail: {lrec: this}});
 
         //  Makes sure that the document has records:
 
         if (recordsrc.length === 0) {
-            console.error("LDOC Error: Document contains no records.");
+            console.error("LREC Error: Document contains no records.");
             return;
         }
 
@@ -130,7 +130,7 @@ LDOC.prototype = {
             //  Makes sure that the record has fields:
 
             if (fieldsrc.length === 0) {
-                console.error("LDOC Error: Record number " + (i+1) + " contains no fields.");
+                console.error("LREC Error: Record number " + (i+1) + " contains no fields.");
                 continue;
             }
 
@@ -163,7 +163,7 @@ LDOC.prototype = {
                     //  Or a syntax error:
 
                     else {
-                        console.error("LDOC Error: Syntax error on line number " + (j+1) + " of record number " + (i+1) + ".");
+                        console.error("LREC Error: Syntax error on line number " + (j+1) + " of record number " + (i+1) + ".");
                         continue;
                     }
 
@@ -188,44 +188,44 @@ LDOC.prototype = {
         //  Ensures the first record is a valid metadata record:
 
         if (!this.records[i].title) {
-            console.error("LDOC Error: First record is not a valid metadata record.");
+            console.error("LREC Error: First record is not a valid metadata record.");
             return;
         }
 
         //  Sets up metadata:
 
         if (Array.isArray(this.records[i].title)) {
-            console.error("LDOC Error: Title is defined twice.");
+            console.error("LREC Error: Title is defined twice.");
             this.title = this.records[i].title[0];
         }
         else this.title = this.records[i].title;
 
         if (Array.isArray(this.records[i].subtitle)) {
-            console.error("LDOC Error: Subtitle is defined twice.");
+            console.error("LREC Error: Subtitle is defined twice.");
             this.subtitle = this.records[i].subtitle[0];
         }
         else this.subtitle = this.records[i].subtitle;
 
         if (Array.isArray(this.records[i].author)) {
-            console.error("LDOC Error: Author is defined twice.");
+            console.error("LREC Error: Author is defined twice.");
             this.author = this.records[i].author[0];
         }
         else this.author = this.records[i].author;
 
         if (Array.isArray(this.records[i].date)) {
-            console.error("LDOC Error: Date is defined twice.");
+            console.error("LREC Error: Date is defined twice.");
             this.date = this.records[i].date[0];
         }
         else this.date = this.records[i].date;
 
         if (Array.isArray(this.records[i].language)) {
-            console.error("LDOC Error: Language is defined twice.");
+            console.error("LREC Error: Language is defined twice.");
             this.language = this.records[i].language[0];
         }
         else this.language = this.records[i].language;
 
         if (Array.isArray(this.records[i].description)) {
-            console.error("LDOC Error: Description is defined twice.");
+            console.error("LREC Error: Description is defined twice.");
             this.description = this.records[i].description[0];
         }
         else this.description = this.records[i].description;
@@ -235,7 +235,7 @@ LDOC.prototype = {
         else this.splashes = [];
 
         if (Array.isArray(this.records[i].frontmatter)) {
-            console.error("LDOC Error: Frontmatter is defined twice.");
+            console.error("LREC Error: Frontmatter is defined twice.");
             this.frontmatter = new URL(this.records[i].frontmatter[0]);
         }
         else if (this.records[i].frontmatter) this.frontmatter = new URL(this.records[i].frontmatter, this.base);
@@ -248,22 +248,22 @@ LDOC.prototype = {
             //  Ensures there aren't any stray records:
 
             if (this.records[i].title) {
-                console.error("LDOC Error: Metadata is defined twice.")
+                console.error("LREC Error: Metadata is defined twice.")
                 continue;
             }
 
             //  Tag-group error checking:
 
             if (Array.isArray(this.records[i].group)) {
-                console.error("LDOC Error: A tag-group record has multiple group fields.");
+                console.error("LREC Error: A tag-group record has multiple group fields.");
                 continue;
             }
             if (this.groups[this.records[i].group]) {
-                console.error("LDOC Error: Tag-group '" + this.records[i].group + "' is defined twice.");
+                console.error("LREC Error: Tag-group '" + this.records[i].group + "' is defined twice.");
                 continue;
             }
             if (!this.records[i].subgroup && !this.records[i].tag) {
-                console.error("LDOC Error: Tag-group '" + this.records[i].group + "' does not contain any tags or subgroups.");
+                console.error("LREC Error: Tag-group '" + this.records[i].group + "' does not contain any tags or subgroups.");
                 continue;
             }
 
@@ -272,7 +272,7 @@ LDOC.prototype = {
             this.groups[this.records[i].group.toLowerCase()] = {parent: undefined, description: undefined};
 
             if (Array.isArray(this.records[i].description)) {
-                console.error("LDOC Error: Tag-group '" + this.records[i].group + "' contains multiple descriptions.");
+                console.error("LREC Error: Tag-group '" + this.records[i].group + "' contains multiple descriptions.");
                 this.groups[this.records[i].group.toLowerCase()].description = this.records[i].description[0];
             }
             else this.groups[this.records[i].group.toLowerCase()].description = this.records[i].description;
@@ -286,11 +286,11 @@ LDOC.prototype = {
                     //  Subgroup error checking:
 
                     if (this.groups[this.records[i].subgroup[j].toLowerCase()] === undefined) {
-                        console.error("LDOC Error: Tag-group '" + this.records[i].subgroup[j].toLowerCase() + "' is not defined.");
+                        console.error("LREC Error: Tag-group '" + this.records[i].subgroup[j].toLowerCase() + "' is not defined.");
                         continue;
                     }
                     else if (this.groups[this.records[i].subgroup[j].toLowerCase()].parent) {
-                        console.error("LDOC Error: Tag-group '" + this.records[i].subgroup[j].toLowerCase() + "' is a subgroup of multiple groups.");
+                        console.error("LREC Error: Tag-group '" + this.records[i].subgroup[j].toLowerCase() + "' is a subgroup of multiple groups.");
                         continue;
                     }
 
@@ -306,8 +306,8 @@ LDOC.prototype = {
 
                 //  Subgroup error checking:
 
-                if (this.groups[this.records[i].subgroup.toLowerCase()] === undefined) console.error("LDOC Error: Tag-group '" + this.records[i].subgroup.toLowerCase() + "' is not defined.");
-                else if (this.groups[this.records[i].subgroup.toLowerCase()].parent) console.error("LDOC Error: Tag-group '" + this.records[i].subgroup.toLowerCase() + "' is a subgroup of multiple groups.");
+                if (this.groups[this.records[i].subgroup.toLowerCase()] === undefined) console.error("LREC Error: Tag-group '" + this.records[i].subgroup.toLowerCase() + "' is not defined.");
+                else if (this.groups[this.records[i].subgroup.toLowerCase()].parent) console.error("LREC Error: Tag-group '" + this.records[i].subgroup.toLowerCase() + "' is a subgroup of multiple groups.");
 
                 //  Subgroup loading:
 
@@ -324,7 +324,7 @@ LDOC.prototype = {
                     //  Tag error checking:
 
                     if (this.tags[this.records[i].tag[j].toLowerCase()] && this.tags[this.records[i].tag[j].toLowerCase()].parent) {
-                        console.error("LDOC Error: Tag '" + this.records[i].subgroup[j].toLowerCase() + "' is in multiple groups.");
+                        console.error("LREC Error: Tag '" + this.records[i].subgroup[j].toLowerCase() + "' is in multiple groups.");
                         continue;
                     }
 
@@ -340,7 +340,7 @@ LDOC.prototype = {
 
                 //  Tag error checking:
 
-                if (this.groups[this.records[i].tag.toLowerCase()] && this.groups[this.records[i].tag.toLowerCase()].parent) console.error("LDOC Error: Tag '" + this.records[i].subgroup + "' is in multiple groups.");
+                if (this.groups[this.records[i].tag.toLowerCase()] && this.groups[this.records[i].tag.toLowerCase()].parent) console.error("LREC Error: Tag '" + this.records[i].subgroup + "' is in multiple groups.");
 
                 //  Tag loading:
 
@@ -361,11 +361,11 @@ LDOC.prototype = {
             //  Ensures there aren't any stray records:
 
             if (this.records[i].title) {
-                console.error("LDOC Error: Metadata is defined twice.");
+                console.error("LREC Error: Metadata is defined twice.");
                 continue;
             }
             if (this.records[i].group) {
-                console.error("LDOC Error: Tag-group records must come directly after metadata.");
+                console.error("LREC Error: Tag-group records must come directly after metadata.");
                 continue;
             }
 
@@ -376,11 +376,11 @@ LDOC.prototype = {
                 //  Lexeme error checking:
 
                 if (Array.isArray(this.records[i].lexeme)) {
-                    console.error("LDOC Error: A lexeme record has multiple lexeme fields.");
+                    console.error("LREC Error: A lexeme record has multiple lexeme fields.");
                     continue;
                 }
                 if (this.lexemes[this.records[i].lexeme]) {
-                    console.error("LDOC Error: Lexeme '" + this.records[i].lexeme + "' is defined twice.");
+                    console.error("LREC Error: Lexeme '" + this.records[i].lexeme + "' is defined twice.");
                     continue;
                 }
 
@@ -398,23 +398,23 @@ LDOC.prototype = {
                 //  Loads fields:
 
                 if (Array.isArray(this.records[i].at)) {
-                    console.error("LDOC Error: Lexeme '" + this.records[i].lexeme + "' has two at fields.");
+                    console.error("LREC Error: Lexeme '" + this.records[i].lexeme + "' has two at fields.");
                     this.lexemes[this.records[i].lexeme].url = new URL(this.records[i].at[0]);
                 }
                 else if (this.records[i].at) this.lexemes[this.records[i].lexeme].url = new URL(this.records[i].at, this.base);
                 else {
-                    console.error("LDOC Error: Lexeme '" + this.records[i].lexeme + "' has no at field.");
+                    console.error("LREC Error: Lexeme '" + this.records[i].lexeme + "' has no at field.");
                     this.lexemes[this.records[i].lexeme].url = new URL("about:blank");
                 }
 
                 if (Array.isArray(this.records[i].language)) {
-                    console.error("LDOC Error: Lexeme '" + this.records[i].lexeme + "' has two language fields.");
+                    console.error("LREC Error: Lexeme '" + this.records[i].lexeme + "' has two language fields.");
                     this.lexemes[this.records[i].lexeme].language = this.records[i].language[0];
                 }
                 else this.lexemes[this.records[i].lexeme].language = this.records[i].language;
 
                 if (Array.isArray(this.records[i].pronunciation)) {
-                    console.error("LDOC Error: Lexeme '" + this.records[i].lexeme + "' has two pronunciation fields.");
+                    console.error("LREC Error: Lexeme '" + this.records[i].lexeme + "' has two pronunciation fields.");
                     this.lexemes[this.records[i].lexeme].pronunciation = this.records[i].pronunciation[0];
                 }
                 else this.lexemes[this.records[i].lexeme].pronunciation = this.records[i].pronunciation;
@@ -432,19 +432,19 @@ LDOC.prototype = {
                 //  Inflection error checking:
 
                 if (Array.isArray(this.records[i].inflected)) {
-                    console.error("LDOC Error: An inflection record has multiple inflection fields.");
+                    console.error("LREC Error: An inflection record has multiple inflection fields.");
                     continue;
                 }
                 if (Array.isArray(this.records[i].of)) {
-                    console.error("LDOC Error: Inflection '" + this.records[i].inflected + "' has two of fields.");
+                    console.error("LREC Error: Inflection '" + this.records[i].inflected + "' has two of fields.");
                     continue;
                 }
                 if (!this.lexemes[this.records[i].of]) {
-                    console.error("LDOC Error: Inflection '" + this.records[i].inflected + "' points to a lexeme which does not exist ('" + this.records[i].of + "').");
+                    console.error("LREC Error: Inflection '" + this.records[i].inflected + "' points to a lexeme which does not exist ('" + this.records[i].of + "').");
                     continue;
                 }
                 if (this.lexemes[this.records[i].of].inflections[this.records[i].inflected]) {
-                    console.error("LDOC Error: Inflection '" + this.records[i].inflected + "' of lexeme '" + this.records[i].of + "' is defined twice.");
+                    console.error("LREC Error: Inflection '" + this.records[i].inflected + "' of lexeme '" + this.records[i].of + "' is defined twice.");
                     continue;
                 }
 
@@ -458,7 +458,7 @@ LDOC.prototype = {
                 //  Loads fields:
 
                 if (Array.isArray(this.records[i].pronunciation)) {
-                    console.error("LDOC Error: Inflection '" + this.records[i].inflected + "' of lexeme '" + this.records[i].of + "' has two pronunciation fields.");
+                    console.error("LREC Error: Inflection '" + this.records[i].inflected + "' of lexeme '" + this.records[i].of + "' has two pronunciation fields.");
                     this.lexemes[this.records[i].of].inflections[this.records[i].inflected].pronunciation = this.records[i].pronunciation[0];
                 }
                 else this.lexemes[this.records[i].of].inflections[this.records[i].inflected].pronunciation = this.records[i].pronunciation;
@@ -472,15 +472,15 @@ LDOC.prototype = {
                 //  Alternate error checking:
 
                 if (Array.isArray(this.records[i].alternate)) {
-                    console.error("LDOC Error: An alternate record has multiple alternate fields.");
+                    console.error("LREC Error: An alternate record has multiple alternate fields.");
                     continue;
                 }
                 if (Array.isArray(this.records[i].of)) {
-                    console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' has two of fields.");
+                    console.error("LREC Error: Alternate '" + this.records[i].alternate + "' has two of fields.");
                     continue;
                 }
                 if (Array.isArray(this.records[i].for)) {
-                    console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' has two for fields.");
+                    console.error("LREC Error: Alternate '" + this.records[i].alternate + "' has two for fields.");
                     continue;
                 }
 
@@ -491,11 +491,11 @@ LDOC.prototype = {
                     //  More error handling:
 
                     if (!this.lexemes[this.records[i].for]) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' points to a lexeme which does not exist ('" + this.records[i].for + "').");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' points to a lexeme which does not exist ('" + this.records[i].for + "').");
                         continue;
                     }
                     if (!this.records[i].of && this.lexemes[this.records[i].for].alternates[this.records[i].alternate]) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' of lexeme '" + this.records[i].for + "' is defined twice.");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' of lexeme '" + this.records[i].for + "' is defined twice.");
                         continue;
                     }
 
@@ -509,13 +509,13 @@ LDOC.prototype = {
                     //  Loads fields:
 
                     if (Array.isArray(this.records[i].script)) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' of lexeme '" + this.records[i].for + "' has two script fields.");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' of lexeme '" + this.records[i].for + "' has two script fields.");
                         this.lexemes[this.records[i].for].alternates[this.records[i].alternate].script = this.records[i].script[0];
                     }
                     else this.lexemes[this.records[i].for].alternates[this.records[i].alternate].script = this.records[i].script;
 
                     if (Array.isArray(this.records[i].pronunciation)) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' of lexeme '" + this.records[i].for + "' has two pronunciation fields.");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' of lexeme '" + this.records[i].for + "' has two pronunciation fields.");
                         this.lexemes[this.records[i].for].alternates[this.records[i].alternate].pronunciation = this.records[i].pronunciation[0];
                     }
                     else this.lexemes[this.records[i].for].alternates[this.records[i].alternate].pronunciation = this.records[i].pronunciation;
@@ -529,15 +529,15 @@ LDOC.prototype = {
                     //  More error handling:
 
                     if (!this.lexemes[this.records[i].of]) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' points to a lexeme which does not exist ('" + this.records[i].of + "').");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' points to a lexeme which does not exist ('" + this.records[i].of + "').");
                         continue;
                     }
                     if (!this.lexemes[this.records[i].of].inflections[this.records[i].for]) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' points to an inflection which does not exist ('" + this.records[i].for + "' of lexeme '" + this.records[i].of + "').");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' points to an inflection which does not exist ('" + this.records[i].for + "' of lexeme '" + this.records[i].of + "').");
                         continue;
                     }
                     if (this.lexemes[this.records[i].of].inflections[this.records[i].for].alternates[this.records[i].alternate]) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' of inflection '" + this.records[i].for + "' of lexeme '" + this.records[i].of + "' is defined twice.");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' of inflection '" + this.records[i].for + "' of lexeme '" + this.records[i].of + "' is defined twice.");
                         continue;
                     }
 
@@ -551,13 +551,13 @@ LDOC.prototype = {
                     //  Loads fields:
 
                     if (Array.isArray(this.records[i].script)) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' of inflection '" + this.records[i].for + "' of lexeme '" + this.records[i].of + "' has two script fields.");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' of inflection '" + this.records[i].for + "' of lexeme '" + this.records[i].of + "' has two script fields.");
                         this.lexemes[this.records[i].of].inflections[this.records[i].for].alternates[this.records[i].alternate].script = this.records[i].script[0];
                     }
                     else this.lexemes[this.records[i].of].inflections[this.records[i].for].alternates[this.records[i].alternate].script = this.records[i].script;
 
                     if (Array.isArray(this.records[i].pronunciation)) {
-                        console.error("LDOC Error: Alternate '" + this.records[i].alternate + "' of inflection '" + this.records[i].for + "' of lexeme '" + this.records[i].of + "' has two pronunciation fields.");
+                        console.error("LREC Error: Alternate '" + this.records[i].alternate + "' of inflection '" + this.records[i].for + "' of lexeme '" + this.records[i].of + "' has two pronunciation fields.");
                         this.lexemes[this.records[i].of].inflections[this.records[i].for].alternates[this.records[i].alternate].pronunciation = this.records[i].pronunciation[0];
                     }
                     else this.lexemes[this.records[i].of].inflections[this.records[i].for].alternates[this.records[i].alternate].pronunciation = this.records[i].pronunciation;
@@ -566,7 +566,7 @@ LDOC.prototype = {
 
             }
 
-            else if (!this.records[i].note) console.error("LDOC Error: Record not recognized.");
+            else if (!this.records[i].note) console.error("LREC Error: Record not recognized.");
 
         }
 
