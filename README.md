@@ -45,3 +45,8 @@ Development blocks often only make sense when used with another variant subtag; 
 The language tags used in The LANGDEV Project have not been registered and are thus not valid IETF tags.
 To remedy this, they should be prefixed with the string `art-x-`; for example, `art-x-svi`.
 User agents wishing to support the languages of The LANGDEV Project should treat language tags prefixed with `art-x-` according to the definitions in [the provided language subtag registry](language-subtag-registry) if the succeeding subtag is a primary language subtag as defined in that file.
+
+##  Tools:  ##
+
+The [tools](https://github.com/literallybenjam/langdev/tree/tools) branch contains various processing tools for dealing with the documents presented in [stripped](https://github.com/literallybenjam/langdev/tree/stripped).
+See [the GitHub Pages website](http://benjam.xyz/langdev/) to view some of these tools in action, or view the source in the [gh-pages](https://github.com/literallybenjam/langdev/tree/gh-pages) branch.
