@@ -1,0 +1,49 @@
+Title : Classical Sevensi
+Subtitle : Version XII
+Author : The LANGDEV Project
+Language : en
+Description : CLASSICAL SEVENSI XII is the final form of CLASSICAL
+    SEVENSI, as used to compose the Classics.
+%%
+Group : Development block
+Tag : block001
+Note : Grammatical words
+Tag : block002
+Note : The body
+Tag : block003
+Note : Animals
+Tag : block004
+Note : Nature
+Tag : block005
+Note : Food and culture
+Tag : block006
+Note : Motion and travel
+Tag : block007
+Note : Production
+Tag : block008
+Note : Physical properties
+Tag : block009
+Note : Emotion and experience
+Tag : block010
+Note : Social roles
+Tag : block011
+Note : Religion
+Tag : block012
+Note : Time
+Tag : block013
+Note : Language
+Tag : block014
+Note : Quantity
+Tag : block015
+Note : Generics
+Tag : block016
+Note : Names
+%%
+Group : Harmonization class
+Tag : +
+Tag : -
+Tag : 0
+%%
+Group : Category
+Tag : Article
+Tag : Postposition

@@ -1,4 +1,4 @@
-File-Date: 2015-12-01
+File-Date: 2016-03-14
 %%
 Type: language
 Subtag: oen
@@ -56,19 +56,16 @@ Type: language
 Subtag: osv
 Description: Classical Sevensi
 Added: 2015-10-06
-Suppress-Script: Hang
 %%
 Type: language
 Subtag: osm
 Description: Middle Sevensi
 Added: 2015-10-06
-Suppress-Script: Hang
 %%
 Type: language
 Subtag: svi
 Description: Sevensi
 Added: 2015-10-06
-Suppress-Script: Hang
 %%
 Type: script
 Subtag: Sevr
@@ -190,97 +187,151 @@ Added: 2015-10-06
 Prefix: osv
 %%
 Type: variant
+Subtag: block000
+Description: Development Block 000
+Added: 2016-02-12
+Prefix: fiz-1der
+%%
+Type: variant
 Subtag: block001
 Description: Development Block 001
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block002
 Description: Development Block 002
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0011
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block003
 Description: Development Block 003
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block004
 Description: Development Block 004
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block005
 Description: Development Block 005
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block006
 Description: Development Block 006
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block007
 Description: Development Block 007
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block008
 Description: Development Block 008
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block009
 Description: Development Block 009
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block010
 Description: Development Block 010
 Added: 2015-10-06
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block011
 Description: Development Block 011
 Added: 2015-10-24
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block012
 Description: Development Block 012
 Added: 2015-10-24
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block013
 Description: Development Block 013
 Added: 2015-10-24
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block014
 Description: Development Block 014
 Added: 2015-10-30
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block015
 Description: Development Block 015
 Added: 2015-10-30
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
 %%
 Type: variant
 Subtag: block016
 Description: Development Block 016
 Added: 2015-12-01
 Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der

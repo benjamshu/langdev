@@ -1,0 +1,585 @@
+Title : Classical Sevensi
+Subtitle : Version XI
+Author : The LANGDEV Project
+Language : en
+Description : In CLASSICAL SEVENSI XI, vowel harmonization extends
+    beyond words into the language's grammars. Phonological systems
+    are further standardized and grammars mature.
+Splash : Religious!
+Splash : Grammatical!
+Splash : Spiritual!
+Splash : Animated!
+Splash : Blocked!
+Splash : Great!
+Splash : Named!
+Splash : Nominal!
+Splash : Natural!
+Splash : Landed!
+Splash : With direction!
+%%
+Group : Development block
+Tag : block001
+Note : Grammatical words
+Tag : block002
+Note : The body
+Tag : block003
+Note : Animals
+Tag : block004
+Note : Nature
+Tag : block005
+Note : Food and culture
+Tag : block006
+Note : Motion and travel
+Tag : block007
+Note : Production
+Tag : block008
+Note : Physical properties
+Tag : block009
+Note : Emotion and experience
+Tag : block010
+Note : Social roles
+Tag : block011
+Note : Religion
+Tag : block012
+Note : Time
+Tag : block013
+Note : Language
+Tag : block014
+Note : Quantity
+Tag : block015
+Note : Generics
+Tag : block016
+Note : Names and places
+%%
+Group : Harmonization class
+Tag : +
+Tag : -
+Tag : 0
+%%
+Group : Category
+Tag : Article
+Tag : Postposition
+Tag : Noun
+Tag : Honorific
+Tag : Name
+Tag : Adjective
+Tag : Affix
+%%
+Lexeme : mæ
+At : block001/mæ.html
+Language : art-Latn-x-osv-0011-block001
+Note : definite article
+Tagged : block001
+Tagged : 0
+Tagged : Article
+%%
+Lexeme : ze
+At : block001/ze.html
+Language : art-Latn-x-osv-0011-block001
+Note : indefinite article
+Tagged : block001
+Tagged : -
+Tagged : Article
+%%
+Lexeme : jå
+At : block001/jå.html
+Language : art-Latn-x-osv-0011-block001
+Note : animate article
+Tagged : block001
+Tagged : +
+Tagged : Article
+%%
+Lexeme : lo
+At : block001/lo.html
+Language : art-Latn-x-osv-0011-block001
+Note : abstract article
+Tagged : block001
+Tagged : -
+Tagged : Article
+%%
+Lexeme : vi
+At : block001/vi.html
+Language : art-Latn-x-osv-0011-block001
+Note : negative article
+Tagged : block001
+Tagged : 0
+Tagged : Article
+%%
+Lexeme : zo
+At : block001/zo.html
+Language : art-Latn-x-osv-0011-block001
+Note : of
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : áidi
+At : block001/áidi.html
+Language : art-Latn-x-osv-0011-block001
+Note : beside
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : ái
+At : block001/ái.html
+Language : art-Latn-x-osv-0011-block001
+Note : on(to)
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : åx
+At : block001/åx.html
+Language : art-Latn-x-osv-0011-block001
+Note : for
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : érei
+At : block001/érei.html
+Language : art-Latn-x-osv-0011-block001
+Note : between
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : éyo
+At : block001/éyo.html
+Language : art-Latn-x-osv-0011-block001
+Note : below
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : gås
+At : block001/gås.html
+Language : art-Latn-x-osv-0011-block001
+Note : above
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : dos
+At : block001/dos.html
+Language : art-Latn-x-osv-0011-block001
+Note : off (of)
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : jæ
+At : block001/jæ.html
+Language : art-Latn-x-osv-0011-block001
+Note : in
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : dáiri
+At : block001/dáiri.html
+Language : art-Latn-x-osv-0011-block001
+Note : out (of)
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : et
+At : block001/et.html
+Language : art-Latn-x-osv-0011-block001
+Note : around
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : fai
+At : block001/fai.html
+Language : art-Latn-x-osv-0011-block001
+Note : at
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : yo
+At : block001/yo.html
+Language : art-Latn-x-osv-0011-block001
+Note : through
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : sa
+At : block001/sa.html
+Language : art-Latn-x-osv-0011-block001
+Note : from
+Tagged : block001
+Tagged : +
+Tagged : Postposition
+%%
+Lexeme : jor
+At : block001/jor.html
+Language : art-Latn-x-osv-0011-block001
+Note : to
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : dox
+At : block001/dox.html
+Language : art-Latn-x-osv-0011-block001
+Note : having
+Tagged : block001
+Tagged : -
+Tagged : Postposition
+%%
+Lexeme : -fa
+At : block001/-fa.html
+Language : art-Latn-x-osv-0011-block001
+Note : revered
+Tagged : block001
+Tagged : +
+Tagged : Honorific
+%%
+Lexeme : -fe
+At : block001/-fe.html
+Language : art-Latn-x-osv-0011-block001
+Note : revered
+Tagged : block001
+Tagged : -
+Tagged : Honorific
+%%
+Lexeme : hóji
+At : block003/hóji.html
+Language : art-Latn-x-osv-0011-block003
+Note : crab
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : déije
+At : block003/déije.html
+Language : art-Latn-x-osv-0011-block003
+Note : fish
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : góisæ
+At : block003/góisæ.html
+Language : art-Latn-x-osv-0011-block003
+Note : bird
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : déidi
+At : block003/déidi.html
+Language : art-Latn-x-osv-0011-block003
+Note : hare
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : xóifi
+At : block003/xóifi.html
+Language : art-Latn-x-osv-0011-block003
+Note : cow
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : deló
+At : block003/deló.html
+Language : art-Latn-x-osv-0011-block003
+Note : wolf
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : sarsúyæ
+At : block003/sarsúyæ.html
+Language : art-Latn-x-osv-0011-block003
+Note : deer
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : vǻici
+At : block003/vǻici.html
+Language : art-Latn-x-osv-0011-block003
+Note : pig
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : zóife
+At : block003/zóife.html
+Language : art-Latn-x-osv-0011-block003
+Note : snake
+Tagged : block003
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : dáirzi
+At : block003/dáirzi.html
+Language : art-Latn-x-osv-0011-block003
+Note : fox
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : zaláifæ
+At : block003/zaláifæ.html
+Language : art-Latn-x-osv-0011-block003
+Note : bird
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : dáiku
+At : block003/dáiku.html
+Language : art-Latn-x-osv-0011-block003
+Note : mouse
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : dǻvca
+At : block006/dǻvca.html
+Language : art-Latn-x-osv-0011-block006
+Note : east
+Tagged : block006
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : véco
+At : block006/véco.html
+Language : art-Latn-x-osv-0011-block006
+Note : west
+Tagged : block006
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : dáifa
+At : block006/dáifa.html
+Language : art-Latn-x-osv-0011-block006
+Note : north
+Tagged : block006
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : béivei
+At : block006/béivei.html
+Language : art-Latn-x-osv-0011-block006
+Note : south
+Tagged : block006
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : vóu
+At : block008/vóu.html
+Language : art-Latn-x-osv-0011-block008
+Note : minor; small
+Tagged : block008
+Tagged : -
+Tagged : Adjective
+%%
+Lexeme : méri
+At : block010/méri.html
+Language : art-Latn-x-osv-0011-block010
+Note : carver
+Tagged : block010
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : holó
+At : block011/holó.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Crab
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : teizú
+At : block011/teizú.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Fish
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : kosó
+At : block011/kosó.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Bird
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : teicó
+At : block011/teicó.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Hare
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : xofyó
+At : block011/xofyó.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Cow
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : derói
+At : block011/derói.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Wolf
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : sacwí
+At : block011/sacwí.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Deer
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : fawǻ
+At : block011/fawǻ.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Pig
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : zovyói
+At : block011/zovyói.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Snake
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : dádå
+At : block011/dádå.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Fox
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : jǻifæ
+At : block011/jǻifæ.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Tiger
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : lavǻ
+At : block011/lavǻ.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Mouse
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : jovéco
+At : block011/jovéco.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Spirit
+Tagged : block011
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : zadǻ
+At : block011/zadǻ.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Animal
+Tagged : block011
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : ménæ
+At : block016/ménæ.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : séiri
+At : block016/séiri.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : jåfáyi
+At : block016/jåfáyi.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : +
+Tagged : Name
+%%
+Lexeme : zácå
+At : block016/zácå.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : +
+Tagged : Name
+%%
+Lexeme : árjå
+At : block016/árjå.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : +
+Tagged : Name
+%%
+Lexeme : sóile
+At : block016/sóile.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : júrzed
+At : block016/júrzed.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : kolei
+At : block016/kolei.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : lei
+At : block016/lei.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : -
+Tagged : Name
+%%
+Lexeme : -jei
+At : block016/-jei.html
+Language : art-Latn-x-osv-0011-block016
+Note : land (of)
+Tagged : block016
+Tagged : -
+Tagged : Affix
+%%
+Lexeme : -jai
+At : block016/-jai.html
+Language : art-Latn-x-osv-0011-block016
+Note : land (of)
+Tagged : block016
+Tagged : +
+Tagged : Affix
