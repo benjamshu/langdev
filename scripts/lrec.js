@@ -155,8 +155,8 @@ LREC.prototype = {
                     //  It is either a continuation:
 
                     if (l !== undefined) {
-                        if (!Array.isArray(this.records[this.records.length-1][l])) this.records[this.records.length-1][l] += " " + fieldsrc[j].trim();
-                        else this.records[this.records.length-1][l][this.records[this.records.length-1][l].length-1] += " " + fieldsrc[j].trim();
+                        if (!Array.isArray(this.records[this.records.length-1][l])) this.records[this.records.length-1][l] += " " + fieldsrc[j].trim().normalize();
+                        else this.records[this.records.length-1][l][this.records[this.records.length-1][l].length-1] += " " + fieldsrc[j].trim().normalize();
                         continue;
                     }
 
@@ -171,11 +171,11 @@ LREC.prototype = {
 
                 //  Loads the data into the record:
 
-                l = fieldsrc[j].substr(0, k).trim().toLowerCase();
+                l = fieldsrc[j].substr(0, k).trim().toLowerCase().normalize();
 
-                if (this.records[this.records.length-1][l] === undefined) this.records[this.records.length-1][l] = fieldsrc[j].substr(k+3).trim();
-                else if (Array.isArray(this.records[this.records.length-1][l])) this.records[this.records.length-1][l].push(fieldsrc[j].substr(k+3).trim());
-                else this.records[this.records.length-1][l] = [this.records[this.records.length-1][l], fieldsrc[j].substr(k+3)];
+                if (this.records[this.records.length-1][l] === undefined) this.records[this.records.length-1][l] = fieldsrc[j].substr(k+3).trim().normalize();
+                else if (Array.isArray(this.records[this.records.length-1][l])) this.records[this.records.length-1][l].push(fieldsrc[j].substr(k+3).trim().normalize());
+                else this.records[this.records.length-1][l] = [this.records[this.records.length-1][l], fieldsrc[j].substr(k+3).trim().normalize()];
 
             }
 
