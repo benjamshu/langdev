@@ -1,6 +1,7 @@
 Title : Classical Sevensi
 Subtitle : Version XII
 Author : The LANGDEV Project
+Date : 2016-03-16
 Language : en
 Description : CLASSICAL SEVENSI XII is the final form of CLASSICAL
     SEVENSI, as used to compose the Classics.
@@ -347,6 +348,14 @@ Tagged : block003
 Tagged : +
 Tagged : Noun
 %%
+Lexeme : záiri
+At : block003/záiri.html
+Language : art-Latn-x-osv-0012-block003
+Note : human
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
 Lexeme : dǻva
 At : block006/dǻva.html
 Language : art-Latn-x-osv-0012-block006
@@ -505,6 +514,14 @@ Language : art-Latn-x-osv-0012-block011
 Note : Great Animal
 Tagged : block011
 Tagged : +
+Tagged : Noun
+%%
+Lexeme : jóize
+At : block011/jóize.html
+Language : art-Latn-x-osv-0012-block011
+Note : Great Human
+Tagged : block011
+Tagged : -
 Tagged : Noun
 %%
 Lexeme : mínæ
