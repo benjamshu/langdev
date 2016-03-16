@@ -50,6 +50,7 @@ function LREC(var1, var2) {
     this.date = undefined;
     this.language = undefined;
     this.description = undefined;
+    this.characters = "";
     this.splashes = [];
     this.frontmatter = undefined;
 
@@ -155,8 +156,8 @@ LREC.prototype = {
                     //  It is either a continuation:
 
                     if (l !== undefined) {
-                        if (!Array.isArray(this.records[this.records.length-1][l])) this.records[this.records.length-1][l] += " " + fieldsrc[j].trim();
-                        else this.records[this.records.length-1][l][this.records[this.records.length-1][l].length-1] += " " + fieldsrc[j].trim();
+                        if (!Array.isArray(this.records[this.records.length-1][l])) this.records[this.records.length-1][l] += " " + fieldsrc[j].trim().normalize();
+                        else this.records[this.records.length-1][l][this.records[this.records.length-1][l].length-1] += " " + fieldsrc[j].trim().normalize();
                         continue;
                     }
 
@@ -171,11 +172,11 @@ LREC.prototype = {
 
                 //  Loads the data into the record:
 
-                l = fieldsrc[j].substr(0, k).trim().toLowerCase();
+                l = fieldsrc[j].substr(0, k).trim().toLowerCase().normalize();
 
-                if (this.records[this.records.length-1][l] === undefined) this.records[this.records.length-1][l] = fieldsrc[j].substr(k+3).trim();
-                else if (Array.isArray(this.records[this.records.length-1][l])) this.records[this.records.length-1][l].push(fieldsrc[j].substr(k+3).trim());
-                else this.records[this.records.length-1][l] = [this.records[this.records.length-1][l], fieldsrc[j].substr(k+3)];
+                if (this.records[this.records.length-1][l] === undefined) this.records[this.records.length-1][l] = fieldsrc[j].substr(k+3).trim().normalize();
+                else if (Array.isArray(this.records[this.records.length-1][l])) this.records[this.records.length-1][l].push(fieldsrc[j].substr(k+3).trim().normalize());
+                else this.records[this.records.length-1][l] = [this.records[this.records.length-1][l], fieldsrc[j].substr(k+3).trim().normalize()];
 
             }
 
@@ -229,6 +230,13 @@ LREC.prototype = {
             this.description = this.records[i].description[0];
         }
         else this.description = this.records[i].description;
+
+        if (Array.isArray(this.records[i].characters)) {
+            console.error("LREC Error: Characters are defined twice.");
+            this.characters = this.records[i].characters[0];
+        }
+        else if (this.characters) this.characters = this.records[i].characters;
+        else this.characters = "";
 
         if (Array.isArray(this.records[i].splash)) this.splashes = this.records[i].splash.slice();
         else if (this.records[i].splash) this.splashes = [this.records[i].splash];
