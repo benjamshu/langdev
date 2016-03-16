@@ -7,7 +7,7 @@
 html {
     margin: 0;
     padding: 1rem 2.5%;
-    color: #227002;
+	color: #334566;
     background: #EEEEEE;
     font-size: 14pt;
     font-family: "Junicode", serif;
@@ -15,9 +15,6 @@ html {
 }
 body {
     padding: 0 2rem;
-}
-article {
-	color: #334566;
 }
 
 /*  Lists  */
@@ -48,8 +45,11 @@ dd {
 
 /*  Block Elements  */
 
-p {
+blockquote {
     margin: .5rem 0;
+    padding: 0 0 0 1rem;
+    color: #999BAD;
+    font-style: italic;
     text-align: justify;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -59,24 +59,43 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: inherit;
 }
 h1 {
-    font-size: 3em;
-    font-weight: bold;
     margin: 0 -2rem .5rem;
+    font-size: 2em;
+    font-weight: bold;
 }
 h2 {
-    font-size: 1.75em;
+    margin: 0 -1rem .5rem;
+    font-size: 1.5em;
     font-variant: small-caps;
 }
 h3 {
-    font-size: 1.5em;
+    font-size: 1.33em;
     font-weight: bold;
 }
 h4 {
-    font-size: 1.33em;
-}
-h5 {
     font-size: 1.2em;
 }
-h6 {
+h5 {
     font-size: 1.1em;
+}
+h6 {
+    font-size: 1em;
+}
+p {
+    margin: .5rem 0;
+    text-align: justify;
+}
+
+/*  Span Elements  */
+
+a[href] {
+    text-decoration: underline;
+    color: inherit;
+}
+i {
+    color: black;
+}
+small {
+    color: #227002;
+    font-size: inherit;
 }
