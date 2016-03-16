@@ -122,6 +122,13 @@ a[href] {
     text-decoration: underline;
     color: inherit;
 }
+code {
+    font-family: inherit;
+    color: black;
+}
+code::before, code::after {
+    content: "`";
+}
 dfn {
     font-weight: bold;
 }

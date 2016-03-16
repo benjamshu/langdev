@@ -1,6 +1,7 @@
 Title : Classical Sevensi
 Subtitle : Version XI
 Author : The LANGDEV Project
+Date : 2016-03-16
 Language : en
 Description : In CLASSICAL SEVENSI XI, vowel harmonization extends
     beyond words into the language's grammars. Phonological systems
@@ -347,6 +348,14 @@ Tagged : block003
 Tagged : +
 Tagged : Noun
 %%
+Lexeme : zayári
+At : block003/zayári.html
+Language : art-Latn-x-osv-0011-block003
+Note : human
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
 Lexeme : dǻvca
 At : block006/dǻvca.html
 Language : art-Latn-x-osv-0011-block006
@@ -505,6 +514,14 @@ Language : art-Latn-x-osv-0011-block011
 Note : Great Animal
 Tagged : block011
 Tagged : +
+Tagged : Noun
+%%
+Lexeme : jóizei
+At : block011/jóizei.html
+Language : art-Latn-x-osv-0011-block011
+Note : Great Human
+Tagged : block011
+Tagged : -
 Tagged : Noun
 %%
 Lexeme : ménæ
