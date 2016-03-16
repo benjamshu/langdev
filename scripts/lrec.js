@@ -50,7 +50,6 @@ function LREC(var1, var2) {
     this.date = undefined;
     this.language = undefined;
     this.description = undefined;
-    this.characters = "";
     this.splashes = [];
     this.frontmatter = undefined;
 
@@ -230,13 +229,6 @@ LREC.prototype = {
             this.description = this.records[i].description[0];
         }
         else this.description = this.records[i].description;
-
-        if (Array.isArray(this.records[i].characters)) {
-            console.error("LREC Error: Characters are defined twice.");
-            this.characters = this.records[i].characters[0];
-        }
-        else if (this.characters) this.characters = this.records[i].characters;
-        else this.characters = "";
 
         if (Array.isArray(this.records[i].splash)) this.splashes = this.records[i].splash.slice();
         else if (this.records[i].splash) this.splashes = [this.records[i].splash];
