@@ -34,7 +34,7 @@ Note : Food and culture
 Tag : block006
 Note : Motion and travel
 Tag : block007
-Note : Production
+Note : Buildings and production
 Tag : block008
 Note : Physical properties
 Tag : block009
@@ -391,6 +391,14 @@ At : block006/béifeil.html
 Language : art-Latn-x-osv-0010-block006
 Note : south
 Tagged : block006
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : dwéilse
+At : block007/dwéilse.html
+Language : art-Latn-x-osv-0010-block007
+Note : burg; city
+Tagged : block007
 Tagged : -
 Tagged : Noun
 %%

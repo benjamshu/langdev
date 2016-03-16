@@ -34,7 +34,7 @@ Note : Food and culture
 Tag : block006
 Note : Motion and travel
 Tag : block007
-Note : Production
+Note : Buildings and production
 Tag : block008
 Note : Physical properties
 Tag : block009
@@ -391,6 +391,14 @@ At : block006/bévei.html
 Language : art-Latn-x-osv-0012-block006
 Note : south
 Tagged : block006
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : jeitl
+At : block007/jeitl.html
+Language : art-Latn-x-osv-0012-block007
+Note : burg; city
+Tagged : block007
 Tagged : -
 Tagged : Noun
 %%
