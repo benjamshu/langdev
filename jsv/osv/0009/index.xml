@@ -1729,6 +1729,12 @@
         <lemma>*-fei</lemma>
         <!--  snake  -->
     </item>
+    <item src="words/deuweitsâ.xml" tag="referential nominal word">
+        <lemma>*deuweitsâ</lemma>
+        <lemma>*deuwei-</lemma>
+        <lemma>*-dsâ</lemma>
+        <!--  burg; city  -->
+    </item>
 
     <!--  Quantities  -->
 
