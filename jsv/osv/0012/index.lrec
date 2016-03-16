@@ -244,13 +244,19 @@ Tagged : block001
 Tagged : +
 Tagged : Honorific
 %%
-Lexeme : -fe
-At : block001/-fe.html
+Inflected : -fe
+Of : -fa
+%%
+Lexeme : -zo
+At : block001/-zo.html
 Language : art-Latn-x-osv-0012-block001
-Note : revered
+Note : -ling; one who is/does
 Tagged : block001
 Tagged : -
-Tagged : Honorific
+Tagged : Affix
+%%
+Inflected : -zå
+Of : -zo
 %%
 Lexeme : óji
 At : block003/óji.html
@@ -595,13 +601,8 @@ Tagged : block016
 Tagged : -
 Tagged : Affix
 %%
-Lexeme : -jai
-At : block016/-jai.html
-Language : art-Latn-x-osv-0012-block016
-Note : land (of)
-Tagged : block016
-Tagged : +
-Tagged : Affix
+Inflected : -jai
+Of : -jei
 %%
 Lexeme : jo
 At : block016/jo.html
