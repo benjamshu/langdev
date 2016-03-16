@@ -5,6 +5,7 @@ Language : en
 Description : SEVENSI X is the first level of evolution and abstraction
     from JASTU-SEVENSI VIV, in which the grammars are formalized and
     the phonology is brought better under control.
+Frontmatter : frontmatter.html
 Splash : Religious!
 Splash : Grammatical!
 Splash : Spiritual!
@@ -16,6 +17,7 @@ Splash : Nominal!
 Splash : Natural!
 Splash : Landed!
 Splash : With direction!
+Splash : Stylish!
 %%
 Group : Development block
 Tag : block001
