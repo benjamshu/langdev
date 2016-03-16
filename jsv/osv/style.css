@@ -12,7 +12,7 @@ html {
     background: #EEEEEE;
     font-size: 14pt;
     line-height: 1.35;
-    font-family: "Junicode", serif;
+    font-family: Junicode, Cardo, Iowan Old Style, serif;
     font-variant-numeric: oldstyle-nums;
 }
 body {
@@ -121,6 +121,9 @@ p {
 a[href] {
     text-decoration: underline;
     color: inherit;
+}
+dfn {
+    font-weight: bold;
 }
 i {
     color: black;
