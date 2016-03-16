@@ -1,6 +1,7 @@
 Title : Classical Sevensi
 Subtitle : Version X
 Author : The LANGDEV Project
+Date : 2016-03-16
 Language : en
 Description : SEVENSI X is the first level of evolution and abstraction
     from JASTU-SEVENSI VIV, in which the grammars are formalized and
@@ -347,6 +348,14 @@ Tagged : block003
 Tagged : +
 Tagged : Noun
 %%
+Lexeme : zayáli
+At : block003/zayáli.html
+Language : art-Latn-x-osv-0010-block003
+Note : human
+Tagged : block003
+Tagged : +
+Tagged : Noun
+%%
 Lexeme : dǻvjåx
 At : block006/dǻvjåx.html
 Language : art-Latn-x-osv-0010-block006
@@ -505,6 +514,14 @@ Language : art-Latn-x-osv-0010-block011
 Note : Great Animal
 Tagged : block011
 Tagged : +
+Tagged : Noun
+%%
+Lexeme : joifézei
+At : block011/joifézei.html
+Language : art-Latn-x-osv-0010-block011
+Note : Great Human
+Tagged : block011
+Tagged : -
 Tagged : Noun
 %%
 Lexeme : ménæ
