@@ -123,8 +123,8 @@ Tagged : block001
 Tagged : +
 Tagged : Postposition
 %%
-Lexeme : ái
-At : block001/ái.html
+Lexeme : ai
+At : block001/ai.html
 Language : art-Latn-x-osv-0011-block001
 Note : on(to)
 Tagged : block001
@@ -556,8 +556,8 @@ Tagged : block016
 Tagged : -
 Tagged : Name
 %%
-Lexeme : kolei
-At : block016/kolei.html
+Lexeme : kólei
+At : block016/kólei.html
 Language : art-Latn-x-osv-0011-block016
 Tagged : block016
 Tagged : -
@@ -585,3 +585,11 @@ Note : land (of)
 Tagged : block016
 Tagged : +
 Tagged : Affix
+%%
+Lexeme : jo
+At : block016/jo.html
+Language : art-Latn-x-osv-0011-block016
+Note : land (of)
+Tagged : block016
+Tagged : -
+Tagged : Name
