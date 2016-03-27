@@ -67,6 +67,7 @@ Tag : Honorific
 Tag : Name
 Tag : Adjective
 Tag : Affix
+Tag : Interjection
 %%
 Lexeme : bæ
 At : block001/bæ.html
@@ -257,6 +258,15 @@ Tagged : Affix
 %%
 Inflected : -zå
 Of : -zo
+%%
+Lexeme : jóstu
+At : block001/jóstu.html
+Language : art-Latn-x-osv-0010-block001
+Note : shit
+Tagged : block001
+Tagged : -
+Tagged : Interjection
+Tagged : Noun
 %%
 Lexeme : hodúsi
 At : block003/hodúsi.html
