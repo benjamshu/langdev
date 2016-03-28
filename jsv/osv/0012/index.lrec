@@ -19,6 +19,8 @@ Splash : Landed!
 Splash : With direction!
 Splash : Stylish!
 Splash : Mostly the same!
+Splash : Modest!
+Splash : Clothed!
 %%
 Group : Development block
 Tag : block001
@@ -378,6 +380,14 @@ Tagged : block004
 Tagged : +
 Tagged : Noun
 %%
+Lexeme : lózwe
+At : block005/lózwe.html
+Language : art-Latn-x-osv-0012-block005
+Note : poncho/shawl
+Tagged : block005
+Tagged : -
+Tagged : Noun
+%%
 Lexeme : dǻva
 At : block006/dǻva.html
 Language : art-Latn-x-osv-0012-block006
@@ -640,7 +650,6 @@ Of : -jei
 Lexeme : jo
 At : block016/jo.html
 Language : art-Latn-x-osv-0012-block016
-Note : land (of)
 Tagged : block016
 Tagged : -
 Tagged : Name
