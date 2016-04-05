@@ -21,6 +21,16 @@ Splash : Stylish!
 Splash : Mostly the same!
 Splash : Modest!
 Splash : Clothed!
+Splash : Expert!
+Splash : Revered!
+Splash : Brought forth!
+Splash : A production!
+Splash : At peace!
+Splash : In pieces!
+Splash : Personal!
+Splash : Located!
+Splash : Close!
+Splash : Not close!
 %%
 Group : Development block
 Tag : block001
@@ -268,6 +278,62 @@ Tagged : block001
 Tagged : -
 Tagged : Noun
 %%
+Lexeme : ri
+At : block001/ri.html
+Language : art-Latn-x-osv-0012-block001
+Note : born as
+Tagged : block001
+Tagged : 0
+Tagged : Postposition
+%%
+Lexeme : za
+At : block001/za.html
+Language : art-Latn-x-osv-0012-block001
+Note : I/me
+Tagged : block001
+Tagged : +
+Tagged : Pronoun
+%%
+Lexeme : æwét
+At : block001/æwét.html
+Language : art-Latn-x-osv-0012-block001
+Note : you
+Tagged : block001
+Tagged : -
+Tagged : Pronoun
+%%
+Lexeme : hå
+At : block001/hå.html
+Language : art-Latn-x-osv-0012-block001
+Note : here
+Tagged : block001
+Tagged : +
+Tagged : Pronoun
+%%
+Lexeme : sed
+At : block001/sed.html
+Language : art-Latn-x-osv-0012-block001
+Note : there
+Tagged : block001
+Tagged : -
+Tagged : Pronoun
+%%
+Lexeme : dócor
+At : block001/dócor.html
+Language : art-Latn-x-osv-0012-block001
+Note : back
+Tagged : block001
+Tagged : -
+Tagged : Adverb
+%%
+Lexeme : xówi
+At : block002/xówi.html
+Language : art-Latn-x-osv-0012-block002
+Note : produce; birth
+Tagged : block002
+Tagged : -
+Tagged : Noun
+%%
 Lexeme : óji
 At : block003/óji.html
 Language : art-Latn-x-osv-0012-block003
@@ -380,10 +446,18 @@ Tagged : block004
 Tagged : +
 Tagged : Noun
 %%
-Lexeme : lózwe
-At : block005/lózwe.html
+Lexeme : lóz
+At : block005/lóz.html
 Language : art-Latn-x-osv-0012-block005
 Note : poncho/shawl
+Tagged : block005
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : fésol
+At : block005/fésol.html
+Language : art-Latn-x-osv-0011-block005
+Note : pendant
 Tagged : block005
 Tagged : -
 Tagged : Noun
@@ -420,10 +494,26 @@ Tagged : block006
 Tagged : -
 Tagged : Noun
 %%
+Lexeme : yóseido
+At : block006/yóseido.html
+Language : art-Latn-x-osv-0012-block006
+Note : bear; bring forth
+Tagged : block006
+Tagged : -
+Tagged : Verb
+%%
 Lexeme : jeitl
 At : block007/jeitl.html
 Language : art-Latn-x-osv-0012-block007
 Note : burg; city
+Tagged : block007
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : hocéi
+At : block007/hocéi.html
+Language : art-Latn-x-osv-0012-block007
+Note : temple; place of worship
 Tagged : block007
 Tagged : -
 Tagged : Noun
@@ -453,6 +543,29 @@ Tagged : +
 Tagged : Verb
 Tagged : Noun
 %%
+Lexeme : jédæ
+At : block009/jédæ.html
+Language : art-Latn-x-osv-0012-block009
+Note : holy; respected
+Tagged : block009
+Tagged : -
+Tagged : Adjective
+%%
+Lexeme : énxu
+At : block009/énxu.html
+Language : art-Latn-x-osv-0012-block009
+Note : peace
+Tagged : block009
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : ǽros
+At : block009/ǽros.html
+Language : art-Latn-x-osv-0012-block009
+Note : show; present; give
+Tagged : block009
+Tagged : -
+Tagged : Verb
 Lexeme : méri
 At : block010/méri.html
 Language : art-Latn-x-osv-0012-block010
