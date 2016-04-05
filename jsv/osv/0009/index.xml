@@ -353,7 +353,7 @@
         <alt>*-wîôs</alt>
         <!--  hunt  -->
     </item>
-    <item src="words/hôwei.xml" tag="verbal word">
+    <item src="words/hôwei.xml" tag="verbal word nominal-derivation">
         <lemma>*hôwei</lemma>
         <alt>*hôwei-</alt>
         <alt>*-auei</alt>
@@ -437,6 +437,12 @@
         <lemma>*-jai</lemma>
         <!--  medial locational pronoun  -->
         <!--  come; arrive  -->
+    </item>
+    <item src="words/dâeu.xml" tag="verbal word">
+        <lemma>*dâeu</lemma>
+        <lemma>*dâe-</lemma>
+        <lemma>*-deu</lemma>
+        <!--  break up  -->
     </item>
 
     <!--  Nominals  -->
@@ -1728,6 +1734,12 @@
         <lemma>*ʒôfei-</lemma>
         <lemma>*-fei</lemma>
         <!--  snake  -->
+    </item>
+    <item src="words/deuweitsâ.xml" tag="referential nominal word">
+        <lemma>*deuweitsâ</lemma>
+        <lemma>*deuwei-</lemma>
+        <lemma>*-dsâ</lemma>
+        <!--  burg; city  -->
     </item>
 
     <!--  Quantities  -->

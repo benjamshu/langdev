@@ -19,6 +19,18 @@ Splash : Natural!
 Splash : Landed!
 Splash : With direction!
 Splash : Stylish!
+Splash : Modest!
+Splash : Clothed!
+Splash : Expert!
+Splash : Revered!
+Splash : Brought forth!
+Splash : A production!
+Splash : At peace!
+Splash : In pieces!
+Splash : Personal!
+Splash : Located!
+Splash : Close!
+Splash : Not close!
 %%
 Group : Development block
 Tag : block001
@@ -34,7 +46,7 @@ Note : Food and culture
 Tag : block006
 Note : Motion and travel
 Tag : block007
-Note : Production
+Note : Buildings and production
 Tag : block008
 Note : Physical properties
 Tag : block009
@@ -258,6 +270,71 @@ Tagged : Affix
 Inflected : -zå
 Of : -zo
 %%
+Lexeme : jóstu
+At : block001/jóstu.html
+Language : art-Latn-x-osv-0011-block001
+Note : shit
+Tagged : block001
+Tagged : -
+Tagged : Interjection
+Tagged : Noun
+%%
+Lexeme : ri
+At : block001/ri.html
+Language : art-Latn-x-osv-0011-block001
+Note : born as
+Tagged : block001
+Tagged : 0
+Tagged : Postposition
+%%
+Lexeme : za
+At : block001/za.html
+Language : art-Latn-x-osv-0011-block001
+Note : I/me
+Tagged : block001
+Tagged : +
+Tagged : Pronoun
+%%
+Lexeme : æwét
+At : block001/æwét.html
+Language : art-Latn-x-osv-0011-block001
+Note : you
+Tagged : block001
+Tagged : -
+Tagged : Pronoun
+%%
+Lexeme : hå
+At : block001/hå.html
+Language : art-Latn-x-osv-0011-block001
+Note : here
+Tagged : block001
+Tagged : +
+Tagged : Pronoun
+%%
+Lexeme : sed
+At : block001/sed.html
+Language : art-Latn-x-osv-0011-block001
+Note : there
+Tagged : block001
+Tagged : -
+Tagged : Pronoun
+%%
+Lexeme : dócor
+At : block001/dócor.html
+Language : art-Latn-x-osv-0011-block001
+Note : back
+Tagged : block001
+Tagged : -
+Tagged : Adverb
+%%
+Lexeme : xówi
+At : block002/xówi.html
+Language : art-Latn-x-osv-0011-block002
+Note : produce; birth
+Tagged : block002
+Tagged : -
+Tagged : Noun
+%%
 Lexeme : hóji
 At : block003/hóji.html
 Language : art-Latn-x-osv-0011-block003
@@ -362,6 +439,30 @@ Tagged : block003
 Tagged : +
 Tagged : Noun
 %%
+Lexeme : dáyåfæ
+At : block004/dáyåfæ.html
+Language : art-Latn-x-osv-0011-block004
+Note : millet
+Tagged : block004
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : lózwe
+At : block005/lózwe.html
+Language : art-Latn-x-osv-0011-block005
+Note : poncho/shawl
+Tagged : block005
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : fésol
+At : block005/fésol.html
+Language : art-Latn-x-osv-0011-block005
+Note : pendant
+Tagged : block005
+Tagged : -
+Tagged : Noun
+%%
 Lexeme : dǻvca
 At : block006/dǻvca.html
 Language : art-Latn-x-osv-0011-block006
@@ -394,6 +495,30 @@ Tagged : block006
 Tagged : -
 Tagged : Noun
 %%
+Lexeme : yoséido
+At : block006/yoséido.html
+Language : art-Latn-x-osv-0011-block006
+Note : bear; bring forth
+Tagged : block006
+Tagged : -
+Tagged : Verb
+%%
+Lexeme : jéitlse
+At : block007/jéitlse.html
+Language : art-Latn-x-osv-0011-block007
+Note : burg; city
+Tagged : block007
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : hocéil
+At : block007/hocéil.html
+Language : art-Latn-x-osv-0011-block007
+Note : temple; place of worship
+Tagged : block007
+Tagged : -
+Tagged : Noun
+%%
 Lexeme : vóu
 At : block008/vóu.html
 Language : art-Latn-x-osv-0011-block008
@@ -402,10 +527,58 @@ Tagged : block008
 Tagged : -
 Tagged : Adjective
 %%
+Lexeme : teyílæ
+At : block008/teyílæ.html
+Language : art-Latn-x-osv-0011-block008
+Note : purity; clarity
+Tagged : block008
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : gælák
+At : block009/gælák.html
+Language : art-Latn-x-osv-0011-block009
+Note : crack
+Tagged : block009
+Tagged : +
+Tagged : Verb
+Tagged : Noun
+%%
+Lexeme : jédæ
+At : block009/jédæ.html
+Language : art-Latn-x-osv-0011-block009
+Note : holy; respected
+Tagged : block009
+Tagged : -
+Tagged : Adjective
+%%
+Lexeme : énxu
+At : block009/énxu.html
+Language : art-Latn-x-osv-0011-block009
+Note : peace
+Tagged : block009
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : ǽros
+At : block009/ǽros.html
+Language : art-Latn-x-osv-0011-block009
+Note : show; present; give
+Tagged : block009
+Tagged : -
+Tagged : Verb
 Lexeme : méri
 At : block010/méri.html
 Language : art-Latn-x-osv-0011-block010
 Note : carver
+Tagged : block010
+Tagged : -
+Tagged : Noun
+%%
+Lexeme : xléloi
+At : block010/xléloi.html
+Language : art-Latn-x-osv-0011-block010
+Note : protector/advocate
 Tagged : block010
 Tagged : -
 Tagged : Noun
@@ -607,7 +780,6 @@ Of : -jei
 Lexeme : jo
 At : block016/jo.html
 Language : art-Latn-x-osv-0011-block016
-Note : land (of)
 Tagged : block016
 Tagged : -
 Tagged : Name
