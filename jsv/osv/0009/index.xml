@@ -353,7 +353,7 @@
         <alt>*-wîôs</alt>
         <!--  hunt  -->
     </item>
-    <item src="words/hôwei.xml" tag="verbal word">
+    <item src="words/hôwei.xml" tag="verbal word nominal-derivation">
         <lemma>*hôwei</lemma>
         <alt>*hôwei-</alt>
         <alt>*-auei</alt>
