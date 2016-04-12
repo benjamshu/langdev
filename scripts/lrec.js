@@ -421,7 +421,14 @@ LREC.prototype = {
 
                 if (Array.isArray(this.records[i].tagged)) this.lexemes[this.records[i].lexeme].tags = this.records[i].tagged.slice();
                 else if (this.records[i].tagged) this.lexemes[this.records[i].lexeme].tags = [this.records[i].tagged];
-                else this.tags = [];
+                else this.lexemes[this.records[i].lexeme].tags = [];
+
+                //  Normalizes tags and records if necessary:
+
+                for (j = 0; j < this.lexemes[this.records[i].lexeme].tags.length; j++) {
+                    this.lexemes[this.records[i].lexeme].tags[j] = this.lexemes[this.records[i].lexeme].tags[j].toLowerCase();
+                    if (typeof this.tags[this.lexemes[this.records[i].lexeme].tags[j].toLowerCase()] === undefined) this.tags[this.lexemes[this.records[i].lexeme].tags[j].toLowerCase()] = {parent: undefined};
+                }
 
             }
 
