@@ -16,13 +16,16 @@ It can be used, modified, and reproduced for any purpose, commercial or otherwis
 
 ##  Structure of this Repository  ##
 
-The [unicode](https://github.com/literallybenjam/langdev/tree/unicode) branch of the LANGDEV Project has two main components:
-The specification itself, in the [specification](specification) directory, provides the minimum conformance requirements for any implementation of the Project into Unicode.
-These files are named according to the language families which they describe, and contain code charts in addition to relevant information about their implementation.
-All files in the [specification](specification) directory are formatted as GitHub-Flavored Markdown (GFM).
+The [unicode](https://github.com/literallybenjam/langdev/tree/unicode) branch of the LANGDEV Project has three main components:
+The specification itself provides the minimum conformance requirements for any implementation of the Project into Unicode.
+These files are named according to the language families which they describe, and are found in this directory.
+All specification files are formatted as GitHub-Flavored Markdown (GFM).
+
+The code charts, in the [charts](charts) directory, provide human-readable tables of all of the defined code blocks in this specification.
+They are named according to the first character within the block, and their contents may be broken up into smaller non-normative *areas* for readability's sake.
 
 The LANGDEV-Unicode Character Database, in the [ucd](ucd) directory, provides additional files for the Unicode Character Database (UCD) necessary for proper specification conformance.
-These files match the general file types of the UCD, and they have been grouped together in their own directory ([landev](ucd/langdev)) to avoid collision when merging with the UCD itself.
+These files match the general file types of the UCD, and they have been grouped together in their own directory ([langdev](ucd/langdev)) to avoid collision when merging with the UCD itself.
 
 ##  Design Principles  ##
 
