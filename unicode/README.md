@@ -71,7 +71,7 @@ Other normalization algorithms for which this mapping is overridden based upon t
 
 The character properties specified in the files in the following table overrride those specified in their corresponding files in the UCD.
 (The overriding of these character properties is expressly allowed by *The Unicode Standard*.)
-In additional, the property value aliases defined in [PropertyValueAliases.txt](ucd/langdev/PropertyValueAliases.txt) should be treated as though they were specified in the `PropertyValueAliases.txt` file in the UCD.
+In addition, the property value aliases defined in [PropertyValueAliases.txt](ucd/langdev/PropertyValueAliases.txt) should be treated as though they were specified in the `PropertyValueAliases.txt` file in the UCD.
 Additional character properties may be defined at a later time by this standard.
 
 | File                                                     | Properties          |
