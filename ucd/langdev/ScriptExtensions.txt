@@ -1,0 +1,15 @@
+# Date: 17 April 2016
+# The LANGDEV Project
+
+# ================================================
+
+# Property:	Script_Extension
+#
+#  All code points not explicitly listed for Script_Extensions
+#  have as their value the corresponding Script property value
+#
+# @missing: 101000..10FFFF; <script>
+
+# ================================================
+
+# EOF

@@ -1,0 +1,13 @@
+# Date: 17 April 2016
+# The LANGDEV Project
+
+# ================================================
+
+# Property:	Name_Alias
+#
+#  All code points not explicitly listed for Name_Alias
+#  have the value of the empty string.
+
+# ================================================
+
+# EOF
