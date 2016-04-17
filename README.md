@@ -15,14 +15,11 @@ All files published to this git repositiory are, to the extent possible under la
 ##  Character Encodings and Unicode:  ##
 
 At some times during language development, it may become necessary to define characters or scripts not currently encoded into Unicode.
-The development of a database of similar form to the Unicode Character Database is planned, but not yet underway.
-However, The LANGDEV Project formally reserves the private-use characters U+101000..U+1017FF for later specification, and larger blocks of characters may be reserved in the future.
+The [unicode](https://github.com/literallybenjam/langdev/tree/unicode) branch has been created for this purpose.
+The LANGDEV Project formally reserves the private-use characters `U+101000..U+1017FF` for this specification, and larger blocks of characters may be reserved in the future.
 
-Formal definitions of the following blocks are planned:
-
-- U+101000..U+10103F BENCODE
-- U+101040..U+1010FF JASTUGA SYLLABARY
-- U+101100..U+10111F CLASSICAL SEVENSI RUNES
+The data and specification from the [unicode](https://github.com/literallybenjam/langdev/tree/unicode) branch is also available here, in the [unicode](unicode) folder.
+However, you should always go to the branch itself if it is essential that you to have the most up-to-date information.
 
 ##  Document naming and IETF language tags:  ##
 
