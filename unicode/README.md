@@ -10,7 +10,7 @@ No warranties of any kind are expressed or implied.
 The character data for these code points are recorded in the LANGDEV-Unicode Character Database, which mimics the form of the Unicode Character Database as described in *The Unicode Standard*.
 This database is contained in the [ucd](ucd) folder.
 
-This document carries the BNS ID [benjam.xyz (2016) : 030.G.I.1.01](tag:benjam.xyz,2016:bns::langdev:7:1:1:1)
+This document carries the BNS ID [benjam.xyz (2016) : 030.G.I.1.01](tag:benjam.xyz,2016:bns::langdev:7:1:1:1).
 The LANGDEV Project, including this branch, is licensed under a [CC0 1.0 Universal](../LICENSE.md) license.
 It can be used, modified, and reproduced for any purpose, commercial or otherwise, without a need for attribution or compensation for its original author(s).
 
