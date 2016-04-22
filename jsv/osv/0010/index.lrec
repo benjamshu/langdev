@@ -265,7 +265,7 @@ Of : -fa
 Lexeme : -zo
 At : block001/-zo.html
 Language : art-Latn-x-osv-0010-block001
-Note : -ling; one who is/does
+Note : -ling; having the quality of
 Tagged : block001
 Tagged : -
 Tagged : Affix
@@ -329,6 +329,28 @@ Note : back
 Tagged : block001
 Tagged : -
 Tagged : Adverb
+%%
+Lexeme : -ætl
+At : block001/-ætl.html
+Language : art-Latn-x-osv-0010-block001
+Note : -ion; forms abstract nouns from verbs
+Tagged : block001
+Tagged : 0
+Tagged : Affix
+%%
+Alternate : -tl
+Of : -tl
+%%
+Lexeme : -do
+At : block001/-do.html
+Language : art-Latn-x-osv-0010-block001
+Note : -ate; forms verbs from adjectives
+Tagged : block001
+Tagged : 0
+Tagged : Affix
+%%
+Inflected : -då
+Of : -då
 %%
 Lexeme : xówi
 At : block002/xówi.html
@@ -537,6 +559,14 @@ Note : purity; clarity
 Tagged : block008
 Tagged : -
 Tagged : Noun
+%%
+Lexeme : ærwéico
+At : block008/ærweico.html
+Language : art-Latn-x-osv-0010-block008
+Note : brought together; whole; complete
+Tagged : block008
+Tagged : -
+Tagged : Adjective
 %%
 Lexeme : gælág
 At : block009/gælág.html

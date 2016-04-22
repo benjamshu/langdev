@@ -263,7 +263,7 @@ Of : -fa
 Lexeme : -zo
 At : block001/-zo.html
 Language : art-Latn-x-osv-0012-block001
-Note : -ling; one who is/does
+Note : -ling; having the quality of
 Tagged : block001
 Tagged : -
 Tagged : Affix
@@ -326,6 +326,39 @@ Note : back
 Tagged : block001
 Tagged : -
 Tagged : Adverb
+%%
+Lexeme : -ætl
+At : block001/-ætl.html
+Language : art-Latn-x-osv-0012-block001
+Note : -tion; forms abstract nouns from verbs
+Tagged : block001
+Tagged : 0
+Tagged : Affix
+%%
+Alternate : -tl
+Of : -tl
+%%
+Lexeme : -do
+At : block001/-do.html
+Language : art-Latn-x-osv-0012-block001
+Note : -ate; forms verbs from adjectives
+Tagged : block001
+Tagged : -
+Tagged : Affix
+%%
+Inflected : -då
+Of : -då
+%%
+Lexeme : -dotl
+At : block001/-dotl.html
+Language : art-Latn-x-osv-0012-block001
+Note : -ation; forms abstract nouns from adjectives
+Tagged : block001
+Tagged : -
+Tagged : Affix
+%%
+Inflected : -dåtl
+Of : -dåtl
 %%
 Lexeme : xówi
 At : block002/xówi.html
@@ -534,6 +567,22 @@ Note : purity; clarity
 Tagged : block008
 Tagged : -
 Tagged : Noun
+%%
+Lexeme : ærwéico
+At : block008/ærweico.html
+Language : art-Latn-x-osv-0012-block008
+Note : whole; complete; dense
+Tagged : block008
+Tagged : -
+Tagged : Adjective
+%%
+Lexeme : ǽrodo
+At : block008/ǽrodo.html
+Language : art-Latn-x-osv-0012-block008
+Note : manifest; come into being; condense
+Tagged : block008
+Tagged : -
+Tagged : Verb
 %%
 Lexeme : glak
 At : block009/glak.html
