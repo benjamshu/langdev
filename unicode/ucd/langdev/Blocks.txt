@@ -12,5 +12,8 @@
 
 101000..10103F; Bencode
 101040..10104F; Bencode Supplemental Punctuation
+101100..1010BF; Jastugay Syllabary
+1011C0..1010CF; Jastugay Punctuation
+1011D0..1010DF; Jastugay Combining Marks
 
 # EOF

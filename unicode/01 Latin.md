@@ -8,7 +8,7 @@ The scripts defined in this chapter are:
 
 - **Bencode**
 
-##  Bencode  ##
+##  Bencode:  ##
 
 The Bencode script was developed as a rough one-to-one mapping from the Latin script, as a simple means of inscribing text in a manner not easily decipherable to an unfamiliar observer.
 In early versions of the script, there was no equivalent character for *C*, and *K* or *S* was often used instead.
@@ -34,5 +34,5 @@ In plain-text formats, this is sometimes achieved through repeated use of `U+033
 
 ###  Code charts  ###
 
-- [`U+101000..U+10103F Bencode`](../charts/101000.md)
-- [`U+101040..U+10104F Bencode Supplemental Punctuation`](../charts/101040.md)
+- [`U+101000..U+10103F Bencode`](charts/101000.md)
+- [`U+101040..U+10104F Bencode Supplemental Punctuation`](charts/101040.md)

@@ -10,11 +10,11 @@ No warranties of any kind are expressed or implied.
 The character data for these code points are recorded in the LANGDEV-Unicode Character Database, which mimics the form of the Unicode Character Database as described in *The Unicode Standard*.
 This database is contained in the [ucd](ucd) folder.
 
-This document carries the BNS ID [benjam.xyz (2016) : 030.G.I.1.01](tag:benjam.xyz,2016:bns::langdev:7:1:1:1)
+This document carries the BNS ID [benjam.xyz (2016) : 030.G.I.1.01](tag:benjam.xyz,2016:bns::langdev:7:1:1:1).
 The LANGDEV Project, including this branch, is licensed under a [CC0 1.0 Universal](../LICENSE.md) license.
 It can be used, modified, and reproduced for any purpose, commercial or otherwise, without a need for attribution or compensation for its original author(s).
 
-##  Structure of this Repository  ##
+##  Structure of this Repository:  ##
 
 The [unicode](https://github.com/literallybenjam/langdev/tree/unicode) branch of the LANGDEV Project has three main components:
 The specification itself provides the minimum conformance requirements for any implementation of the Project into Unicode.
@@ -27,7 +27,7 @@ They are named according to the first character within the block, and their cont
 The LANGDEV-Unicode Character Database, in the [ucd](ucd) directory, provides additional files for the Unicode Character Database (UCD) necessary for proper specification conformance.
 These files match the general file types of the UCD, and they have been grouped together in their own directory ([langdev](ucd/langdev)) to avoid collision when merging with the UCD itself.
 
-##  Design Principles  ##
+##  Design Principles:  ##
 
 As an expansion of the original Unicode standard, *The LANGDEV Project in Unicode* inherits many of its design principles:
 It expands the universality of Unicode, and is aimed at being an efficient encoding for most text processes.
@@ -39,7 +39,7 @@ Characters are dynamically composed with diacritics and other marks, and equival
 Stability is ensured by asserting that once a character has been encoded, it will not be changed.
 Where alternate standards have been developed, accurate convertability is maintained.
 
-##  Coverage  ##
+##  Coverage:  ##
 
 The LANGDEV Project formally reserves the characters `U+101000..U+1017FF` from the `Supplementary Private Use Area-B` block of Unicode for use when recording LANGDEV scripts: 2,048 characters in total.
 As the scope of the Project expands, this initial reservation may prove insufficient, and more characters may be added.
@@ -49,11 +49,11 @@ The goal of this specification is to provide an encoding for the various scripts
 Other scripts, such as Bencode and Pidgery, have also been developed in conjunction with the Project and may find an encoding here.
 The LANGDEV Project is constantly evolving, and this specification will grow and expand as needed to match.
 
-##  Stability  ##
+##  Stability:  ##
 
 The [stability policies for *The Unicode Standard*](http://www.unicode.org/policies/stability_policy.html) itself also hold for this encoding of The LANGDEV Project into Unicode.
 
-##  Conformance  ##
+##  Conformance:  ##
 
 Conformance to this standard presumes conformance to the latest version of *The Unicode Standard*.
 *However*, conforming processes *must not* interpret the code points in the range `U+101000..U+1017FF` as representing abstract characters except as defined by this specification or according to the default property values specified by *The Unicode Standard*.
@@ -62,16 +62,16 @@ The property values of these code points *are not* overridable by higher-level p
 This standard is a living specification&mdash;that is, it is not versioned and is under constant revision.
 However, conformance to the above paragraph ensures forward-compatibility.
 
-##  Normalization  ##
+##  Normalization:  ##
 
 Conformance to *The Unicode Standard* requires that each code point in the range `U+101000..U+1017FF` map to itself under NFC, NFD, NFKD, and NFKC.
 Other normalization algorithms for which this mapping is overridden based upon these may be defined by later specification.
 
-##  Character Properties  ##
+##  Character Properties:  ##
 
 The character properties specified in the files in the following table overrride those specified in their corresponding files in the UCD.
 (The overriding of these character properties is expressly allowed by *The Unicode Standard*.)
-In additional, the property value aliases defined in [PropertyValueAliases.txt](ucd/langdev/PropertyValueAliases.txt) should be treated as though they were specified in the `PropertyValueAliases.txt` file in the UCD.
+In addition, the property value aliases defined in [PropertyValueAliases.txt](ucd/langdev/PropertyValueAliases.txt) should be treated as though they were specified in the `PropertyValueAliases.txt` file in the UCD.
 Additional character properties may be defined at a later time by this standard.
 
 | File                                                     | Properties          |
