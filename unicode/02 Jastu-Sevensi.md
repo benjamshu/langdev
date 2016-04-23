@@ -29,7 +29,7 @@ However, one should be aware that not all uses of the Jastugay syllabary necessa
 
 ###  Encoding principles  ###
 
-The Jastugay syllabary is traditionally represented as a matrix of 11 vowels and 16 consonants.
+The Jastugay syllabary is traditionally represented as a matrix of 11 vowels and 16 consonants (including the null consonant).
 The encoding of the syllabary into Unicode follows this representation, containing eleven rows of sixteen consonants each (`U+101100..U+1011AF`).
 Certain consonants can be represented without a vowel attached; these are encoded in the twelfth row (`U+1011B0..U+1011BF`).
 Note that the consonant *l* can ONLY be represented in this manner; for each of the previous rows this column will be left unassigned.
