@@ -21,6 +21,11 @@ The LANGDEV Project formally reserves the private-use characters `U+101000..U+10
 The data and specification from the [unicode](https://github.com/literallybenjam/langdev/tree/unicode) branch is also available here, in the [unicode](unicode) folder.
 However, you should always go to the branch itself if it is essential that you to have the most up-to-date information.
 
+##  Fonts:  ##
+
+Font development for The LANGDEV Project takes place in the [fonts](https://github.com/literallybenjam/langdev/tree/fonts) branch.
+This is merged into the [fonts](fonts) folder here.
+
 ##  Document naming and IETF language tags:  ##
 
 The organization of documents within The LANGDEV Project is based heavily on the IETF language tags.
