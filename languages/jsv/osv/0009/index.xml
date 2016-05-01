@@ -1741,6 +1741,12 @@
         <lemma>*-dsâ</lemma>
         <!--  burg; city  -->
     </item>
+    <item src="words/taiheid.xml" tag="referential nominal word">
+        <lemma>*taiheid</lemma>
+        <lemma>*tai-</lemma>
+        <lemma>*-teid</lemma>
+        <!--  side  -->
+    </item>
 
     <!--  Quantities  -->
 

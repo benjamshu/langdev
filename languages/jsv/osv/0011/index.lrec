@@ -480,6 +480,14 @@ Tagged : block004
 Tagged : +
 Tagged : Noun
 %%
+Lexeme : dåitl
+At : block004/dåitl.html
+Language : art-Latn-x-osv-0011-block004
+Note : woods; forest
+Tagged : block004
+Tagged : +
+Tagged : Noun
+%%
 Lexeme : lózwe
 At : block005/lózwe.html
 Language : art-Latn-x-osv-0011-block005
@@ -552,6 +560,14 @@ Tagged : block007
 Tagged : -
 Tagged : Noun
 %%
+Lexeme : déræl
+At : block007/déræl.html
+Language : art-Latn-x-osv-0011-block007
+Note : village; community
+Tagged : block007
+Tagged : -
+Tagged : Noun
+%%
 Lexeme : vóu
 At : block008/vóu.html
 Language : art-Latn-x-osv-0011-block008
@@ -582,6 +598,23 @@ Language : art-Latn-x-osv-0011-block008
 Note : manifest; come into being; condense
 Tagged : block008
 Tagged : -
+Tagged : Verb
+%%
+Lexeme : táyad
+At : block008/táyad.html
+Language : art-Latn-x-osv-0011-block008
+Note : side
+Tagged : block008
+Tagged : +
+Tagged : Noun
+%%
+Lexeme : táibai
+At : block008/táibai.html
+Language : art-Latn-x-osv-0011-block008
+Note : edge; border
+Tagged : block008
+Tagged : +
+Tagged : Noun
 Tagged : Verb
 %%
 Lexeme : glak
@@ -802,8 +835,8 @@ Tagged : block016
 Tagged : -
 Tagged : Name
 %%
-Lexeme : kólei
-At : block016/kólei.html
+Lexeme : gólei
+At : block016/gólei.html
 Language : art-Latn-x-osv-0011-block016
 Tagged : block016
 Tagged : -
@@ -832,4 +865,11 @@ At : block016/jo.html
 Language : art-Latn-x-osv-0011-block016
 Tagged : block016
 Tagged : -
+Tagged : Name
+%%
+Lexeme : kǻmai
+At : block016/kǻmai.html
+Language : art-Latn-x-osv-0011-block016
+Tagged : block016
+Tagged : +
 Tagged : Name
