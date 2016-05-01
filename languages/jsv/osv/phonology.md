@@ -105,4 +105,8 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 
 - X _lVx_ > XI _xlV_.
 
+- X _iwV_ > XI _ibV_.
+
+- When X features two voiced syllables in succession with identical rime, the first is devoiced if stressed.
+
 - XI stress moves backwards in XII when the preceding syllable is a more back stop or nasal or if the stressed syllable is fricative in nature
