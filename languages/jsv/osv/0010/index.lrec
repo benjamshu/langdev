@@ -31,6 +31,7 @@ Splash : Personal!
 Splash : Located!
 Splash : Close!
 Splash : Not close!
+Splash : Verbed!
 %%
 Group : Development block
 Tag : block001
@@ -82,6 +83,7 @@ Tag : Affix
 Tag : Interjection
 Tag : Pronoun
 Tag : Adverb
+Tag : Verb
 %%
 Lexeme : bæ
 At : block001/bæ.html
@@ -99,8 +101,8 @@ Tagged : block001
 Tagged : -
 Tagged : Article
 %%
-Lexeme : jå
-At : block001/jå.html
+Lexeme : jæ
+At : block001/jæ.html
 Language : art-Latn-x-osv-0010-block001
 Note : animate article
 Tagged : block001
