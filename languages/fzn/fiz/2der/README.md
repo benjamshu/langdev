@@ -21,7 +21,7 @@ Syllable stress is shifted to the first syllable of all roots. In addition, ther
 
 *   <b><i>n</i>~<i>q</i> :</b>
 
-    The resulting nasal is pronounced as <i>q</i> when the preceeding consonant (if present, often in a preceeding syllable) is one of the following: <i>g</i>, <i>k</i>, <i>h</i> (but __not__ <i>f</i>), <i>s</i>, <i>z</i>, <i>w</i>; pronounced <i>n</i> otherwise.
+    The resulting nasal is pronounced as <i>q</i> when the preceding consonant (if present, often in a preceding syllable) is one of the following: <i>g</i>, <i>k</i>, <i>h</i> (but __not__ <i>f</i>), <i>s</i>, <i>z</i>, <i>w</i>; pronounced <i>n</i> otherwise.
 
 ## Word simplifications: ##
 

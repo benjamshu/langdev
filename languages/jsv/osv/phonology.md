@@ -29,7 +29,7 @@ For clarity, modified vowels are given special representations:
 |  æ  |  i  |  u  |  ui |
 |  e  |  ei |  o  |  oi |
 
-##  Shifts and Changes:  ##
+##  Shifts and Changes  ##
 
 The following table charts the evolution of Sevensi phonology in the time leading up to and during the Classical period:
 
@@ -62,10 +62,10 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 
 ###  Notes  ###
 
-1. If the consonant is preceeded by a voiced consonant in the same syllable, devoice it.
+1. If the consonant is preceded by a voiced consonant in the same syllable, devoice it.
     Otherwise, if the following syllable begins with _h_, the consonant is devoiced and the _h_ is dropped.
     Otherwise, if the syllable is stressed, the consonant is voiced.
-    Otherwise, if the consonant is preceeded by an unstressed consonant or a stop or nasal which is more front, the consonant is devoiced.
+    Otherwise, if the consonant is preceded by an unstressed consonant or a stop or nasal which is more front, the consonant is devoiced.
     Otherwise the consonant is voiced.
 
 2. _\*x_ becomes _r_ when syllable-final and followed by another consonant, or when syllable-final and unstressed.
@@ -73,15 +73,15 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 3. _\*t_ becomes _l_ when unstressed, syllable-final, or followed by _\*ei_, _\*ô_, or _\*au_.
     Other instances of _\*t_ are voiced as _d_.
 
-4. _\*z_ becomes _j_ when the preceeding syllable is stressed.
+4. _\*z_ becomes _j_ when the preceding syllable is stressed.
 
 5. _\*f_ becomes _v_ when stressed and morpheme-initial or word-final.
 
-6. _\*l_ becomes _tl_ when preceeded by a stressed syllable.
+6. _\*l_ becomes _tl_ when preceded by a stressed syllable.
 
-7. _n_ becomes _q_ when syllable-final and unstressed or when preceeded by a more front stop or nasal.
+7. _n_ becomes _q_ when syllable-final and unstressed or when preceded by a more front stop or nasal.
 
-8. Iotized when stressed and the preceeding consonant is null, _\*m_, _\*f_, _\*p_, _\*d_, _\*t_.
+8. Iotized when stressed and the preceding consonant is null, _\*m_, _\*f_, _\*p_, _\*d_, _\*t_.
 
 9. Iotized when stressed and in the first syllable of a morpheme.
 

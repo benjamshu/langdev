@@ -24,7 +24,7 @@ ZIKODU is an 8-bit extension to US-ASCII; pure ASCII text will be encoded unmodi
 
 Characters in ZIKODU are signified by *code points*, unique numbers assigned to each grapheme.
 There are 256 *base characters* in ZIKODU, including 16 *variation selectors* which are used to select alternate glyphs.
-Code points are rendered in hexadecimal, preceeded by the string `Z-`; equivalent UNICODE code points are provided.
+Code points are rendered in hexadecimal, preceded by the string `Z-`; equivalent UNICODE code points are provided.
 
 The base characters represented by code points `Z-00` through `Z-9F` are equivalent to their Unicode/Latin-1 counterparts.
 Those represented by code points `Z-00` through `Z-1F` and `Z-7F` through `Z-9F`, are referred to as *control characters*, and should not be visually rendered.

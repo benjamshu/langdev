@@ -27,7 +27,7 @@ The following general shifts and changes are recorded:
 
 9.  <i>r</i> is dropped when preceded by (palato-)alveolar consonants
 
-10. <i>i</i> and <i>u</i> become <i>y</i> and <i>w</i> when followed by another vowel
+10. <i>i</i> and <i>u</i> become <i>j</i> and <i>w</i> when followed by another vowel
 
 11. <i>zh</i> becomes <i>z</i> (<i>/ʑ/</i>) and <i>sh</i> becomes <i>s</i> (<i>/ɕ/</i>)
 
@@ -59,7 +59,7 @@ The following general shifts and changes are recorded:
 
 16. Unaccented <i>e</i> becomes <i>a</i>; accented <i>e</i> becomes <i>/e/</i>
 
-17. <i>yi</i> and <i>wu</i> are simplified to <i>i</i> and <i>u</i>.
+17. <i>ji</i> and <i>wu</i> are simplified to <i>i</i> and <i>u</i>.
 
 ## Changes in syntax: ##
 

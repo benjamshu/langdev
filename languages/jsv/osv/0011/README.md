@@ -8,4 +8,4 @@ Phonological systems are further standardized and grammars mature.
 ###  harmonic agreement  ###
 
 Adjectives and verbs in relative clauses are now harmonized to agree with the nouns they are attached to.
-In addition, serial verbs are now harmonized to match those they preceed.
+In addition, serial verbs are now harmonized to match those they precede.

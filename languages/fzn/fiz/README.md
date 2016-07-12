@@ -15,3 +15,8 @@
 ## description ##
 
 斤丸舌 is a moraic language of the FIZONAL family. It is currently under active development.
+
+The concept for 斤丸舌 is a modern, compact language with etymological information encoded through its orthography.
+It uses a redundant syllabary derived from Han characters and an involved conjugational system.
+
+斤丸舌 utilizes the language code `art-x-fiz`.
