@@ -85,16 +85,16 @@ h1::after {
 h1[lang]::after {
     content: attr(lang);
 }
-h1:lang(art-Latn-x-fiz-1der)::after, h1:lang(art-x-fiz-1der)::after {
+h1:lang(art-Latn-x-fiz-1der)::after, h1:lang(art-Hani-x-fiz-1der)::after, h1:lang(art-x-fiz-1der)::after {
     content: "FIZENG FIRST-IN-DEVELOPMENT";
 }
-h1:lang(art-Latn-x-fiz-2der)::after, h1:lang(art-x-fiz-2der)::after {
+h1:lang(art-Latn-x-fiz-2der)::after, h1:lang(art-Hani-x-fiz-2der)::after, h1:lang(art-x-fiz-2der)::after {
     content: "FIZENG SECOND-IN-DEVELOPMENT";
 }
-h1:lang(art-Latn-x-fiz-release)::after, h1:lang(art-x-fiz-release)::after {
+h1:lang(art-Latn-x-fiz-release)::after, h1:lang(art-Hani-x-fiz-release)::after, h1:lang(art-x-fiz-release)::after {
     content: "FIZENG RELEASE-CANDIDATE";
 }
-h1:lang(art-Latn-x-fiz-final)::after, h1:lang(art-x-fiz-final)::after {
+h1:lang(art-Latn-x-fiz-final)::after, h1:lang(art-Hani-x-fiz-final)::after, h1:lang(art-x-fiz-final)::after {
     content: "FIZENG (FINAL)";
 }
 h2 {
