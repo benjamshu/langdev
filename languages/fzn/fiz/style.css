@@ -123,6 +123,27 @@ hr {
 p {
     margin: .5rem 0;
 }
+rt {
+    display: ruby-text;
+    margin: 0;
+    padding: 0;
+    font-size: .25em;
+    font-weight: 100;
+    line-height: 1;
+    ruby-position: over;
+    ruby-merge: separate;
+}
+rtc {
+    display: ruby-text;  /*  For older browsers??  */
+    display: ruby-text-container;
+    margin: 0;
+    padding: 0;
+    font-size: .25em;
+    font-weight: 100;
+    line-height: 1;
+    ruby-position: under;
+    ruby-merge: auto;
+}
 
 /*  Span Elements  */
 
