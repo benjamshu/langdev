@@ -142,6 +142,9 @@ rtc {
     ruby-position: under;
     ruby-merge: auto;
 }
+rtc > rt {
+    font-size: inherit;
+}
 
 /*  Span Elements  */
 
