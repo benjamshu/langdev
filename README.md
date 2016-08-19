@@ -1,30 +1,51 @@
 #  The LANGDEV Project  #
 
-GitHub repo for all language development by [@literallybenjam](http://twitter.com/literallybenjam).
-Top-level folders are for language families; you can find out more information by clicking on them.
+GitHub repo for all language development by [@literallybenjam](https://github.com/literallybenjam).
 
-Check out the [stripped](https://github.com/literallybenjam/langdev/tree/stripped) branch if you only want the machine-readable code without all those pesky READMEs and whatnot; this branch contains development files alongside other reference materials used during development.
-It might run a few commits behind [stripped](https://github.com/literallybenjam/langdev/tree/stripped) or the other branches from time to time.
+##  Branches:  ##
+This project is split into several branches, described below:
 
-LANGDEV uses [LexisML](https://github.com/literallybenjam/LexisML) to keep track of languages' lexicons.
-Due to the scope of the project, the now-depreciated LexisML 1.0 and 2.0 formats are still sometimes in use.
-However, conversion to the LexisML Index Record (LREC) format is now underway.
+###  [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped)  ###
 
-All files published to this git repositiory are, to the extent possible under law, in the public domain. For more information, see [LICENSE.md](LICENSE.md).
+The [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped) branch contains data files related to the various LANGDEV languages.
+These files are used to generate the LANGDEV dictionaries.
+The [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped) branch also contains the [`language-subtag-registry`](language-subtag-registry), which defines the various LANGDEV subtags (see below).
 
-##  Character Encodings and Unicode:  ##
+LANGDEV uses the LexisML Index Record (LREC) format in conjunction with HTML to keep track of languages' lexicons.
+Due to the scope of the project, however, the now-depreciated LexisML 1.0 and 2.0 formats are still sometimes in use.
 
-At some times during language development, it may become necessary to define characters or scripts not currently encoded into Unicode.
-The [unicode](https://github.com/literallybenjam/langdev/tree/unicode) branch has been created for this purpose.
+###  [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation)  ###
+
+The [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation) branch contains documentation and information about each language or script.
+Documentation files are provided in GitHub-Flavored Markdown (GFM) and designed to render well through [`github.com`](https://github.com).
+
+The [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation) branch should not be confused with the [`docs`](docs) folder, which contains online content.
+
+###  [`tools`](https://github.com/literallybenjam/langdev/tree/tools)  ###
+
+The [`tools`](https://github.com/literallybenjam/langdev/tree/tools) branch contains various processing tools for dealing with the documents presented in [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped).
+See [the GitHub Pages website](http://langdev.xyz/) to view some of these tools in action, or view the source in the [`docs`](docs) folder.
+
+###  [`fonts`](https://github.com/literallybenjam/langdev/tree/fonts)  ###
+
+Font development for The LANGDEV Project takes place in the [`fonts`](https://github.com/literallybenjam/langdev/tree/fonts) branch.
+Font development takes place using FontForge.
+
+###  [`unicode`](https://github.com/literallybenjam/langdev/tree/unicode)  ###
+
+At times during language development, it will be necessary to define characters or scripts not currently encoded into Unicode.
+The [`unicode`](https://github.com/literallybenjam/langdev/tree/unicode) branch has been created for this purpose.
 The LANGDEV Project formally reserves the private-use characters `U+101000..U+1017FF` for this specification, and larger blocks of characters may be reserved in the future.
 
-The data and specification from the [unicode](https://github.com/literallybenjam/langdev/tree/unicode) branch is also available here, in the [unicode](unicode) folder.
-However, you should always go to the branch itself if it is essential that you to have the most up-to-date information.
+Unicode documentation follows the GitHub-Flavored Markdown syntax of [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation), and also includes a character database akin to the UCD.
 
-##  Fonts:  ##
+###  [`master`](https://github.com/literallybenjam/langdev/tree/master)  ###
 
-Font development for The LANGDEV Project takes place in the [fonts](https://github.com/literallybenjam/langdev/tree/fonts) branch.
-This is merged into the [fonts](fonts) folder here.
+The [`master`](https://github.com/literallybenjam/langdev/tree/master) branch merges together all of the above branches into one complete directory.
+It also contains the [`docs`](docs) folder, which contains the GitHub Pages data for [langdev.xyz](http://langdev.xyz/).
+
+Because the contents of the [`master`](https://github.com/literallybenjam/langdev/tree/master) branch derives from the others, it may run slightly behind them from time to time.
+Those interested in the most up-to-date data should always check the appropriate branch instead.
 
 ##  Document naming and IETF language tags:  ##
 
@@ -46,9 +67,10 @@ Development blocks often only make sense when used with another variant subtag; 
 
 The language tags used in The LANGDEV Project have not been registered and are thus not valid IETF tags.
 To remedy this, they should be prefixed with the string `art-x-`; for example, `art-x-svi`.
-User agents wishing to support the languages of The LANGDEV Project should treat language tags prefixed with `art-x-` according to the definitions in [the provided language subtag registry](language-subtag-registry) if the succeeding subtag is a primary language subtag as defined in that file.
+User agents wishing to support the languages of The LANGDEV Project should treat language tags prefixed with `art-x-` according to the definitions in [the provided language subtag registry](language-subtag-registry) if the remainder of the subtag is a valid according to the definitions in that file.
+Note that script subtags should be carried through in this process; for example, `art-Latn-x-svi` should be treated as `svi-Latn`.
 
-##  Tools:  ##
-
-The [tools](https://github.com/literallybenjam/langdev/tree/tools) branch contains various processing tools for dealing with the documents presented in [stripped](https://github.com/literallybenjam/langdev/tree/stripped).
-See [the GitHub Pages website](http://benjam.xyz/langdev/) to view some of these tools in action, or view the source in the [gh-pages](https://github.com/literallybenjam/langdev/tree/gh-pages) branch.
+##  License:  ##
+All files published to this
+git repository are, to the extent possible under law, in the public domain.
+For more information, see [LICENSE.md](LICENSE.md).
