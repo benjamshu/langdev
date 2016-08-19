@@ -19,12 +19,10 @@ Due to the scope of the project, however, the now-depreciated LexisML 1.0 and 2.
 The [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation) branch contains documentation and information about each language or script.
 Documentation files are provided in GitHub-Flavored Markdown (GFM) and designed to render well through [`github.com`](https://github.com).
 
-The [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation) branch should not be confused with the [`docs`](docs) folder, which contains online content.
-
 ###  [`tools`](https://github.com/literallybenjam/langdev/tree/tools)  ###
 
 The [`tools`](https://github.com/literallybenjam/langdev/tree/tools) branch contains various processing tools for dealing with the documents presented in [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped).
-See [the GitHub Pages website](http://langdev.xyz/) to view some of these tools in action, or view the source in the [`docs`](docs) folder.
+See [the GitHub Pages website](http://langdev.xyz/) to view some of these tools in action, or view the source in the [`master`](https://github.com/literallybenjam/langdev/tree/master) branch.
 
 ###  [`fonts`](https://github.com/literallybenjam/langdev/tree/fonts)  ###
 
@@ -42,7 +40,7 @@ Unicode documentation follows the GitHub-Flavored Markdown syntax of [`documenta
 ###  [`master`](https://github.com/literallybenjam/langdev/tree/master)  ###
 
 The [`master`](https://github.com/literallybenjam/langdev/tree/master) branch merges together all of the above branches into one complete directory.
-It also contains the [`docs`](docs) folder, which contains the GitHub Pages data for [langdev.xyz](http://langdev.xyz/).
+It also contains the GitHub Pages data for [langdev.xyz](http://langdev.xyz/).
 
 Because the contents of the [`master`](https://github.com/literallybenjam/langdev/tree/master) branch derives from the others, it may run slightly behind them from time to time.
 Those interested in the most up-to-date data should always check the appropriate branch instead.

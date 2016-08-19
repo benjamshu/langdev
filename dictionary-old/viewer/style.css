@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@namespace url(http://www.w3.org/1999/xhtml);
+@namespace word url(about:lexisml?word);
+
+html[data-lexis-viewer-is_loading],
+html[data-lexis-viewer-is_loading] *[data-lexis-viewer-wordref],
+html[data-lexis-viewer-is_loading] #lexis-viewer-title,
+html[data-lexis-viewer-is_loading] word|wordref {
+    cursor: progress;
+}
+
+#lexis-viewer-search {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#lexis-viewer-input {
+    display: inline;
+    width: 40%;
+}
+
+#lexis-viewer-tags {
+    display: inline;
+    width: 40%;
+}
+
+#lexis-viewer-entry_list {
+    list-style-type: none;
+}
+
+*[data-lexis-viewer-wordref],
+#lexis-viewer-title {
+    cursor: pointer;
+}
+
+word|* {
+    display: block;
+}
+
+word|lemma {
+    font-size: 2rem;
+}
+
+word|pron {
+    font-style: italic;
+}
+
+word|etymology,
+word|aside,
+word|section {
+    margin: 1em 0;
+}
+
+word|section {
+    padding: 0 0 0 1em;
+}
+
+word|section word|heading {
+    margin: 0 0 0 -1em;
+}
+
+word|alts {
+    font-style: italic;
+}
+
+word|def {
+    display: list-item;
+    list-style-position: inside;
+}
+
+word|etymology::before {
+    font-weight: bold;
+    content: "Etymology: ";
+}
+
+word|wordref {
+    display: inline;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
