@@ -1,1 +1,3 @@
-*       text=auto
+*.lml linguist-language=XML
+**/dev-materials/** linguist-documentation
+* text=auto
