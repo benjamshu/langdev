@@ -61,6 +61,8 @@ var Dictionary = {
             if (q["1"]) s += "first-person ";
             if (q["2"]) s += "second-person ";
             if (q["3"]) s += "third-person ";
+            if (q["sing"]) s += "singular";
+            if (q["pl"]) s += "plural";
             if (q.mod) {
                 if (q.mir) s += "mirative ";
                 else if (q.opt) s += "optative ";
