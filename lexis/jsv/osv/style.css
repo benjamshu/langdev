@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/*  CLASSICAL SEVENSI Stylesheet  */
+
+/*  Basic Layout and Sectioning  */
+
+html {
+    margin: 0;
+    padding: 1rem 2.5%;
+    min-height: calc(100% - 2rem);
+	color: #334566;
+    background: #EEEEEE;
+    font-size: 14pt;
+    line-height: 1.35;
+    font-family: Junicode, Cardo, Iowan Old Style, serif;
+    font-variant-numeric: oldstyle-nums;
+}
+body {
+    padding: 0 2rem;
+}
+aside {
+    margin: 0 -1rem .5rem;
+    padding: 0;
+    color: #999BAD;
+    text-align: justify;
+}
+
+/*  Lists  */
+
+ul, ol {
+    margin: .5rem 0;
+}
+ul {
+    list-style-type: disc;
+}
+dl {
+    margin: 1rem -2rem;
+    border: thin groove #A0A0A0;
+    padding: 1rem 1rem;
+	color: #334566;
+    text-align: left;
+    background: #DDDDDD;
+}
+dt {
+    text-decoration: underline;
+    color: black;
+}
+dt:not(:first-child) {
+    margin-top: 1em;
+    border-top: medium double currentColor;
+    padding-top: 1em;
+}
+dd {
+    text-align: justify;
+}
+
+/*  Block Elements  */
+
+blockquote {
+    margin: .5rem 0;
+    padding: 0 0 0 2rem;
+    color: #999BAD;
+    font-style: italic;
+    text-align: justify;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    margin: .5rem 0 0;
+    color: black;
+    font-weight: inherit;
+}
+h1 {
+    margin: 0 -2rem 1rem;
+    font-size: 2em;
+    font-weight: bold;
+}
+h1::after {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    margin: 0;
+    border: none;
+    padding: 0;
+    color: #999BAD;
+    font-size: 11.9pt;
+    font-weight: normal;
+    line-height: 1;
+}
+h1[lang]::after {
+    content: attr(lang);
+}
+h1:lang(art-Latn-x-osv-0009)::after, h1:lang(art-x-osv-0009)::after {
+    content: "CLASSICAL SEVENSI VIV";
+}
+h1:lang(art-Latn-x-osv-0010)::after, h1:lang(art-x-osv-0010)::after {
+    content: "CLASSICAL SEVENSI X";
+}
+h1:lang(art-Latn-x-osv-0011)::after, h1:lang(art-x-osv-0011)::after {
+    content: "CLASSICAL SEVENSI XI";
+}
+h1:lang(art-Latn-x-osv-0012)::after, h1:lang(art-x-osv-0012)::after {
+    content: "CLASSICAL SEVENSI XII";
+}
+h2 {
+    margin: 1rem -1rem 0;
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+h3 {
+    font-size: 1.33em;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    font-size: 1.1em;
+}
+h6 {
+    font-size: 1em;
+}
+hr {
+    margin: 1rem 0;
+    border: none;
+    border-top: thin #535555 solid;
+    padding: 0;
+}
+p {
+    margin: .5rem 0;
+    text-align: justify;
+}
+
+/*  Span Elements  */
+
+a[href] {
+    text-decoration: underline;
+    color: inherit;
+}
+code {
+    font-family: inherit;
+    color: black;
+}
+code::before, code::after {
+    content: "`";
+}
+dfn {
+    font-weight: bold;
+}
+i {
+    color: black;
+}
+small {
+    color: #227002;
+    font-size: inherit;
+}

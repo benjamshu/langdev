@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-release">
+    <lemma>又</lemma>
+    <pron>he</pron>
+    <entry>
+        <etymology xml:lang="en">from PL <html:i xml:lang="art-x-fzn-proto">e:</html:i></etymology>
+        <section>
+            <heading xml:lang="en">interjection</heading>
+            <def xml:lang="en">hey</def>
+        </section>
+    </entry>
+</word>

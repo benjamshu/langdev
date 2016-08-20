@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*ôdl'-</lemma>
+    <entry>
+        <etymology>jst-0008</etymology>
+        <section>
+            <heading xml:lang="en">affix</heading>
+            <def xml:lang="en">conjugates a verb in the assumptive/deductive mood</def>
+            <def xml:lang="en">(+<html:i xml:lang="art-x-jsv-0009">ㄹ</html:i>) conjugates a verb in the hortative mood</def>
+        </section>
+        <aside xml:lang="en">The assumptive/deductive mood is used to show that the information is not <html:em>known</html:em>, but that it is usually true under similar conditions. The hortative mood is used to urge another to act. Both moods can be represented by the word <html:i>must</html:i> in English (<html:i>This must be the case</html:i>/<html:i>You must do this for me</html:i>).</aside>
+    </entry>
+</word>

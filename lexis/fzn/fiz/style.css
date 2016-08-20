@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/*  FIZENG Stylesheet  */
+
+/*  Basic Layout and Sectioning  */
+
+html {
+    margin: 0;
+    padding: 1rem;
+    min-height: calc(100% - 2rem);
+	color: #1c1c1c;
+    background: #f5f5f5;
+    font-size: 12pt;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: "M+ 1c", FandolSong, STSong, serif;
+}
+
+body {
+    padding: 0;
+}
+
+aside {
+    margin: 0;
+    padding: 0;
+    color: #636363;
+}
+
+/*  Lists  */
+
+ul, ol {
+    margin: .5rem 0;
+}
+ul {
+    list-style-type: disc;
+}
+dl {
+    margin: 1rem 0;
+    border: thin solid #3b3b3b;
+    padding: 1rem;
+	color: #3b3b3b;
+    background: #cccccc;
+}
+dt {
+    text-decoration: underline;
+    color: #1c1c1c;
+}
+dt:not(:first-child) {
+    margin-top: 1em;
+    border-top: thin solid currentColor;
+    padding-top: 1em;
+}
+
+/*  Block Elements  */
+
+blockquote {
+    margin: .5rem 0;
+    padding: 0 0 0 2rem;
+    color: #3b3b3b;
+    font-weight: 100;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    margin: .5rem 0 0;
+    color: #0c0c0c;
+    font-weight: bolder;
+}
+h1 {
+    margin: 0 0 1rem;
+    font-size: 2em;
+}
+h1::after {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    margin: 0;
+    border: none;
+    padding: 0;
+    color: #636363;
+    font-size: 9pt;
+    font-weight: 300;
+    line-height: 1;
+}
+h1[lang]::after {
+    content: attr(lang);
+}
+h1:lang(art-Latn-x-fiz-1der)::after, h1:lang(art-Hani-x-fiz-1der)::after, h1:lang(art-x-fiz-1der)::after {
+    content: "FIZENG FIRST-IN-DEVELOPMENT";
+}
+h1:lang(art-Latn-x-fiz-2der)::after, h1:lang(art-Hani-x-fiz-2der)::after, h1:lang(art-x-fiz-2der)::after {
+    content: "FIZENG SECOND-IN-DEVELOPMENT";
+}
+h1:lang(art-Latn-x-fiz-release)::after, h1:lang(art-Hani-x-fiz-release)::after, h1:lang(art-x-fiz-release)::after {
+    content: "FIZENG RELEASE-CANDIDATE";
+}
+h1:lang(art-Latn-x-fiz-final)::after, h1:lang(art-Hani-x-fiz-final)::after, h1:lang(art-x-fiz-final)::after {
+    content: "FIZENG (FINAL)";
+}
+h2 {
+    margin: 1rem 0;
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+h3 {
+    font-size: 1.33em;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    font-size: 1.1em;
+}
+h6 {
+    font-size: 1em;
+}
+hr {
+    margin: 1rem 0;
+    border: none;
+    border-top: thin #3b3b3b solid;
+    padding: 0;
+}
+p {
+    margin: .5rem 0;
+}
+rt {
+    display: ruby-text;
+    margin: 0;
+    padding: 0;
+    font-size: .5em;
+    font-weight: 100;
+    line-height: 1;
+}
+rtc {
+    display: ruby-text;  /*  For older browsers??  */
+    display: ruby-text-container;
+    margin: 0;
+    padding: 0;
+    font-size: .5em;
+    font-weight: 100;
+    line-height: 1;
+    ruby-position: under;
+    ruby-merge: auto;
+}
+rtc > rt {
+    font-size: inherit;
+}
+
+/*  Span Elements  */
+
+a[href] {
+    text-decoration: underline;
+    color: inherit;
+}
+code {
+    font-family: inherit;
+    color: #0c0c0c;
+}
+code::before, code::after {
+    content: "`";
+}
+dfn {
+    font-weight: bolder;
+}
+i {
+    font-style: normal;
+    font-weight: 100;
+    color: #0c0c0c;
+}
+small {
+    color: #636363;
+    font-size: inherit;
+}

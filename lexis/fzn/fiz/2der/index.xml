@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-2der">
+
+    <!--  METADATA  -->
+    <meta type="title" xml:lang="en">D1</meta>
+    <meta type="description" xml:lang="en">A lexicon for the second derivative of THE LANGUAGE</meta>
+
+    <!--  ENTRIES  -->
+    <item lemma="新執舌" src="words/新執舌.xml"/>
+    <item lemma="本舌字" src="words/本舌字.xml"/>
+    <item lemma="例枚字" src="words/例枚字.xml"/>
+    <item lemma="丘侍" src="words/丘侍.xml"/>
+    <item lemma="毬末帝" src="words/毬末帝.xml"/>
+    <item lemma="戸" src="words/戸.xml"/>
+    <item lemma="受手" src="words/受手.xml"/>
+    <item lemma="丿" src="words/丿.xml"/>
+    <item lemma="語字" src="words/語字.xml"/>
+    <item lemma="又" src="words/又.xml"/>
+    <item lemma="水水口" src="words/水水口.xml"/>
+    <item lemma="字" src="words/字.xml"/>
+    <item lemma="毛" src="words/毛.xml"/>
+    <item lemma="卜車" src="words/卜車.xml"/>
+    <item lemma="日" src="words/日.xml"/>
+    <item lemma="身" src="words/身.xml"/>
+    <item lemma="食毛身" src="words/食毛身.xml"/>
+    <item lemma="其流" src="words/其流.xml"/>
+    <item lemma="匕" src="words/匕.xml"/>
+    <item lemma="人" src="words/人.xml"/>
+    <item lemma="丼" src="words/丼.xml"/>
+    <item lemma="食月" src="words/食月.xml"/>
+    <item lemma="彼月" src="words/彼月.xml"/>
+    <item lemma="何月" src="words/何月.xml"/>
+
+</lexis>

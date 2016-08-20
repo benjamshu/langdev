@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-final">
+
+    <!--  METADATA  -->
+    <meta type="title" xml:lang="en">斤丸舌</meta>
+    <meta type="description" xml:lang="en">A collection of all extant words in 斤丸舌.</meta>
+
+    <!--  ENTRIES  -->
+    <item lemma="斤丸舌" src="words/斤丸舌.xml"/>
+    <item lemma="本舌字" src="words/本舌字.xml"/>
+    <item lemma="字" src="words/字.xml"/>
+    <item lemma="歹攵字" src="words/歹攵字.xml"/>
+    <item lemma="云丨豆字" src="words/云丨豆字.xml"/>
+    <item lemma="日" src="words/日.xml"/>
+    <item lemma="氏羊" src="words/氏羊.xml"/>
+    <item lemma="戸" src="words/戸.xml"/>
+    <item lemma="守手" src="words/守手.xml"/>
+    <item lemma="卜" src="words/卜.xml"/>
+    <item lemma="吾字" src="words/吾字.xml"/>
+    <item lemma="丼" src="words/丼.xml"/>
+    <item lemma="可月" src="words/可月.xml"/>
+    <item lemma="弁亦" src="words/弁亦.xml"/>
+
+</lexis>

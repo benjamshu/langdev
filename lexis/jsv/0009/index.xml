@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+
+    <!--  METADATA  -->
+    <meta type="title" xml:lang="en">JASTU-SEVENSI VIV</meta>
+    <meta type="description" xml:lang="en">JASTU-SEVENSI VIV is derived from a collection of independent languages developed between 2009 and 2012.</meta>
+    <meta type="splash" xml:lang="en">Official Dictionary!</meta>
+    <meta type="splash" xml:lang="en">It's Awesome!</meta>
+    <meta type="splash" xml:lang="en">I'm sorry…</meta>
+    <meta type="splash" xml:lang="en">My word!</meta>
+    <meta type="splash" xml:lang="en">Unicode!</meta>
+    <meta type="splash" xml:lang="en">Constantly growing!</meta>
+    <meta type="splash" xml:lang="en">Now organic!</meta>
+    <meta type="splash" xml:lang="en">Derive this!</meta>
+    <meta type="splash" xml:lang="en">y'</meta>
+    <meta type="splash" xml:lang="en">Something different!</meta>
+    <meta type="splash" xml:lang="en">Thank you!</meta>
+    <meta type="splash" xml:lang="en">Not my fault!</meta>
+    <meta type="splash" xml:lang="en">Safe!</meta>
+    <meta type="splash" xml:lang="en">Refreshing!</meta>
+    <meta type="splash" xml:lang="en">What's this?</meta>
+    <meta type="splash" xml:lang="en">Sevensi is evolving!</meta>
+    <meta type="splash" xml:lang="en">ECHO!</meta>
+    <meta type="splash" xml:lang="en">…echo…</meta>
+    <meta type="splash" xml:lang="en">Look inside!</meta>
+    <meta type="splash" xml:lang="en">Learn it!</meta>
+    <meta type="splash" xml:lang="en">Synergy!</meta>
+    <meta type="splash" xml:lang="en">Not parasitic!</meta>
+    <meta type="splash" xml:lang="en">Symbiotic!</meta>
+    <meta type="splash" xml:lang="en">Non-toxic!</meta>
+    <meta type="splash" xml:lang="en">Fancy!</meta>
+    <meta type="splash" xml:lang="en">Animated!</meta>
+    <meta type="splash" xml:lang="en">Hid</meta>
+    <meta type="splash" xml:lang="en">den</meta>
+    <meta type="splash" xml:lang="en">Mess</meta>
+    <meta type="splash" xml:lang="en">age!</meta>
+    <meta type="splash" xml:lang="en">With taste!</meta>
+    <meta type="splash" xml:lang="en">Sounds good!</meta>
+    <meta type="splash" xml:lang="en">Emotional!</meta>
+    <meta type="splash" xml:lang="en">Abstract!</meta>
+    <meta type="splash" xml:lang="en">Not mouldy!</meta>
+    <meta type="splash" xml:lang="en">It's time!</meta>
+    <meta type="splash" xml:lang="en">Count me in!</meta>
+    <meta type="splash" xml:lang="en">You animal!</meta>
+    <meta type="splash" xml:lang="en">A tool!</meta>
+    <meta type="splash" xml:lang="en">Pretty!</meta>
+    <meta type="splash" xml:lang="en">Musical!</meta>
+    <meta type="splash" xml:lang="en">Building!</meta>
+    <meta type="splash" xml:lang="en">A work of art!</meta>
+    <meta type="splash" xml:lang="en">Yes!</meta>
+    <meta type="splash" xml:lang="en">Modified!</meta>
+    <meta type="splash" xml:lang="en">Action!</meta>
+    <meta type="splash" xml:lang="en">β!</meta>
+    <meta type="splash" xml:lang="en">Together!</meta>
+    <meta type="splash" xml:lang="en">Vulgar!</meta>
+    <meta type="splash" xml:lang="en">Not Roman!</meta>
+    <meta type="splash" xml:lang="en">Moving!</meta>
+    <meta type="splash" xml:lang="en">Detailed!</meta>
+    <meta type="splash" xml:lang="en">Spiritual!</meta>
+    <meta type="splash" xml:lang="en">New and Improved!</meta>
+    <meta type="splash" xml:lang="en">With class!</meta>
+    <meta type="splash" xml:lang="en">Scripted!</meta>
+    <meta type="splash" xml:lang="en">In line!</meta>
+    <meta type="splash" xml:lang="en">Splash!</meta>
+    <meta type="splash" xml:lang="en">Compact!</meta>
+    <meta type="splash" xml:lang="en">Portable!</meta>
+    <meta type="splash" xml:lang="en">New!</meta>
+    <meta type="splash" xml:lang="en">Redux!</meta>
+    <meta type="splash" xml:lang="en">Extensible!</meta>
+    <meta type="splash" xml:lang="en">Marked up!</meta>
+    <meta type="splash" xml:lang="en">Language!</meta>
+    <meta type="splash" xml:lang="en">Tagged!</meta>
+    <meta type="splash" xml:lang="en">Sourced!</meta>
+    <meta type="splash" xml:lang="en">#alt!</meta>
+    <meta type="splash" xml:lang="en">Alphanumeritizable!</meta>
+    <meta type="splash" xml:lang="en">Ordered!</meta>
+    <meta type="splash" xml:lang="en">Versioned!</meta>
+    <meta type="splash" xml:lang="en">Words!</meta>
+    <meta type="splash" xml:lang="en">Itemized!</meta>
+    <meta type="splash" xml:lang="en">Hashtag!</meta>
+    <meta type="splash" xml:lang="en">#galpals</meta>
+    <meta type="splash" xml:lang="en">Aliens!</meta>
+    <meta type="splash" xml:lang="en">Feature Complete!</meta>
+    <meta type="splash" xml:lang="en">Dia-critical!</meta>
+    <meta type="splash" xml:lang="en">Die!</meta>
+    <meta type="splash" xml:lang="en">Critical Hit!</meta>
+    <meta type="splash" xml:lang="en">Newer!</meta>
+    <meta type="splash" xml:lang="en">Symmetric!</meta>
+    <meta type="splash" xml:lang="en">Revised!</meta>
+    <meta type="splash" xml:lang="en">Post-alternative!</meta>
+    <meta type="splash" xml:lang="en">Tense!</meta>
+
+    <!--  TAGS  -->
+
+    <!--  Source tracking: -->
+
+    <taggroup name="Source">
+        <tag xml:lang="en" value="lrex-0005">Lrex 5</tag>
+        <tag xml:lang="en" value="lrx-0006">Lrex 6</tag>
+        <tag xml:lang="en" value="jst-0008">Jästūgay VIII</tag>
+        <tag xml:lang="en" value="jst-0009">Jästūgei VIV</tag>
+        <tag xml:lang="en" value="eho-0004">□ 4</tag>
+    </taggroup>
+
+    <!--  From jst-0008:  -->
+    <taggroup name="Nouns/Adjectives">
+        <tag xml:lang="en" value="ppl">People</tag>
+        <tag xml:lang="en" value="body">Body parts</tag>
+        <tag xml:lang="en" value="cloth">Clothing</tag>
+        <tag xml:lang="en" value="bior">Biorhythms and body processes</tag>
+        <tag xml:lang="en" value="sight">Sight</tag>
+        <tag xml:lang="en" value="touch">Touch</tag>
+        <tag xml:lang="en" value="taste">Taste</tag>
+        <tag xml:lang="en" value="smell">Smell</tag>
+        <tag xml:lang="en" value="sound">Sound</tag>
+        <tag xml:lang="en" value="emotn">Emotions and feelings</tag>
+        <tag xml:lang="en" value="life">Life and death</tag>
+        <tag xml:lang="en" value="abs">Abstracts</tag>
+        <tag xml:lang="en" value="lang">Language</tag>
+        <tag xml:lang="en" value="time">Time</tag>
+        <tag xml:lang="en" value="quant">Numbers and quantity</tag>
+        <tag xml:lang="en" value="submat">Substances/materials</tag>
+        <tag xml:lang="en" value="easky">Earth and sky</tag>
+        <tag xml:lang="en" value="natoc">Natural occurances</tag>
+        <tag xml:lang="en" value="name">Names</tag>
+        <tag xml:lang="en" value="qualcon">Qualities and conditions</tag>
+        <tag xml:lang="en" value="loc8n">Location</tag>
+        <tag xml:lang="en" value="pron">Pronouns</tag>
+        <tag xml:lang="en" value="expr">Facial expressions</tag>
+        <tag xml:lang="en" value="anim">Animals</tag>
+        <tag xml:lang="en" value="plant">Plants</tag>
+        <tag xml:lang="en" value="foodr">Food and drink</tag>
+        <tag xml:lang="en" value="tool">Tools</tag>
+        <tag xml:lang="en" value="jwlry">Jewelry</tag>
+        <tag xml:lang="en" value="inst">Instruments</tag>
+        <tag xml:lang="en" value="const">Buildings and constructions</tag>
+        <tag xml:lang="en" value="dist">Distance and measure</tag>
+        <tag xml:lang="en" value="art">Art and culture</tag>
+        <tag xml:lang="en" value="group">Groups and organizations</tag>
+        <tag xml:lang="en" value="actn">Actions and activities</tag>
+    </taggroup>
+    <taggroup name="Grammatical words">
+        <tag xml:lang="en" value="yn">Yes and no</tag>
+        <tag xml:lang="en" value="conj">Conjunctions</tag>
+        <tag xml:lang="en" value="fix">Affixes</tag>
+        <tag xml:lang="en" value="mood">Modal markers</tag>
+        <tag xml:lang="en" value="verb-tense">Verb tense</tag>
+        <tag xml:lang="en" value="article">Articles</tag>
+        <tag xml:lang="en" value="intrj">Interjections</tag>
+        <tag xml:lang="en" value="adp">Adpositions</tag>
+        <tag xml:lang="en" value="cla">Classifiers</tag>
+    </taggroup>
+    <tag xml:lang="en" value="verb">Verbs</tag>
+
+    <!--  ENTRIES  -->
+    <item src="words/deihâtsô.xml" tag="jst-0009 ppl qualcon">
+        <lemma>*deihâtsô</lemma>
+        <!--  collector; sentimental  -->
+    </item>
+    <item src="words/deitâd.xml" tag="jst-0009 ppl qualcon">
+        <lemma>*deitâd</lemma>
+        <!--  friendly; friend  -->
+    </item>
+    <item src="words/eit.xml" tag="jst-0009 ppl">
+        <lemma>*eit</lemma>
+        <!--  virgin  -->
+    </item>
+    <item src="words/têweiûn.xml" tag="lrx-0006 life">
+        <lemma>*têweiûn</lemma>
+        <!--  alive; life  -->
+    </item>
+    <item src="words/wîtûwei.xml" tag="lrx-0006 foodr">
+        <lemma>*wîtûwei</lemma>
+        <!--  refreshing; water  -->
+    </item>
+    <item src="words/wîgeu.xml" tag="lrx-0006 foodr">
+        <lemma>*wîgeu</lemma>
+        <!--  filling; food  -->
+    </item>
+    <item src="words/têgô.xml" tag="lrx-0006 life">
+        <lemma>*têgô</lemma>
+        <!--  dying; death  -->
+    </item>
+    <item src="words/âdxei.xml" tag="lrex-0005 qualcon">
+        <lemma>*âdxei</lemma>
+        <!--  pleasant; pleasantry  -->
+    </item>
+    <item src="words/xûên.xml" tag="lrex-0005 emotn">
+        <lemma>*xûên</lemma>
+        <!--  relaxing; relaxation  -->
+    </item>
+    <item src="words/ênxeu.xml" tag="lrex-0005 emotn">
+        <lemma>*ênxeu</lemma>
+        <!--  peaceful; peace  -->
+    </item>
+    <item src="words/gûttei.xml" tag="lrex-0005 verb">
+        <lemma>*gûttei</lemma>
+        <!--  quit; give up  -->
+    </item>
+    <item src="words/wâmei.xml" tag="lrex-0005 emotn">
+        <lemma>*wâmei</lemma>
+        <!--  surprising; surprise  -->
+    </item>
+    <item src="words/ût.xml" tag="eho-0004 qualcon">
+        <lemma>*ût</lemma>
+        <!--  quick; speed  -->
+    </item>
+    <item src="words/ôn.xml" tag="eho-0004 emotn">
+        <lemma>*ôn</lemma>
+        <!--  careful; caution  -->
+    </item>
+    <item src="words/dôgôteid.xml" tag="jst-0008 ppl">
+        <lemma>*dôgôteid</lemma>
+        <!--  adult  -->
+    </item>
+    <item src="words/dôwâteu.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*dôwâteu</lemma>
+        <!--  small; cute; baby  -->
+    </item>
+    <item src="words/hâtfî.xml" tag="jst-0008 ppl">
+        <lemma>*hâtfî</lemma>
+        <!--  skilled; craftsman  -->
+    </item>
+    <item src="words/hôdôwâ.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*hôdôwâ</lemma>
+        <!--  chief; most important; leader  -->
+    </item>
+    <item src="words/jâsteugei.xml" tag="jst-0008 lang">
+        <lemma>*jâsteugei</lemma>
+        <!--  the LANGUAGE; the CULTURE  -->
+    </item>
+    <item src="words/jeuwântêd.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*jeuwântêd</lemma>
+        <!--  caring; caretaker  -->
+    </item>
+    <item src="words/ôtfâheud.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*ôtfâheud</lemma>
+        <!--  mute  -->
+    </item>
+    <item src="words/seintêd.xml" tag="jst-0008 ppl">
+        <lemma>*seintêd</lemma>
+        <!--  womanly; woman  -->
+    </item>
+    <item src="words/teixâtoi.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*teixâtoi</lemma>
+        <!--  protective; guardian  -->
+    </item>
+    <item src="words/teitâ.xml" tag="jst-0008 ppl group qualcon">
+        <lemma>*teitâ</lemma>
+        <!--  military; organized; disciplined  -->
+    </item>
+    <item src="words/tautsei.xml" tag="jst-0008 ppl">
+        <lemma>*tautsei</lemma>
+        <!--  hunter  -->
+    </item>
+    <item src="words/tôteidô.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*tôteidô</lemma>
+        <!--  immature; older child  -->
+    </item>
+    <item src="words/tôtêd.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*tôtêd</lemma>
+        <!--  childish; younger child  -->
+    </item>
+    <item src="words/tôʒeutei.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*tôʒeutei</lemma>
+        <!--  youthful and mature; young adult  -->
+    </item>
+    <item src="words/teueid.xml" tag="jst-0008 ppl body">
+        <lemma>*teueid</lemma>
+        <!--  body; person  -->
+    </item>
+    <item src="words/teudâfâ.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*teudâfâ</lemma>
+        <!--  elder; wise  -->
+    </item>
+    <item src="words/zêtêd.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*zêtêd</lemma>
+        <!--  man; manly  -->
+    </item>
+    <item src="words/dâdhî.xml" tag="jst-0008 body lang sound">
+        <lemma>*dâdhî</lemma>
+        <!--  throat; throaty; accent; speech-pattern  -->
+    </item>
+    <item src="words/deijôfôtô.xml" tag="jst-0008 ppl body qualcon">
+        <lemma>*deijôfôtô</lemma>
+        <!--  ear; good-listener  -->
+    </item>
+    <item src="words/deiôdwei.xml" tag="jst-0008 body anim const">
+        <lemma>*deiôdwei</lemma>
+        <!--  vertebrate; spine; supporting framework  -->
+    </item>
+    <item src="words/deieuseisô.xml" tag="jst-0008 body const">
+        <lemma>*deieuseisô</lemma>
+        <!--  joint; jointed  -->
+    </item>
+    <item src="words/dôtâdô.xml" tag="jst-0008 body qualcon ppl">
+        <lemma>*dôtâdô</lemma>
+        <!--  head; principal; in-charge  -->
+    </item>
+    <item src="words/dôtôfai.xml" tag="jst-0008 body sound">
+        <lemma>*dôtôfai</lemma>
+        <!--  nasaly; nose  -->
+    </item>
+    <item src="words/dôfîtxai.xml" tag="jst-0008 body">
+        <lemma>*dôfîtxai</lemma>
+        <!--  hip  -->
+    </item>
+    <item src="words/dôwâxai.xml" tag="jst-0008 body qualcon loc8n">
+        <lemma>*dôwâxai</lemma>
+        <!--  heart; central; integral  -->
+    </item>
+    <item src="words/âdein.xml" tag="jst-0008 body cloth">
+        <lemma>*âdein</lemma>
+        <!--  boob  -->
+    </item>
+    <item src="words/heidôsai.xml" tag="jst-0008 body ppl">
+        <lemma>*heidôsai</lemma>
+        <!--  eye; visual-learner  -->
+    </item>
+    <item src="words/heidôsô.xml" tag="jst-0008 body submat">
+        <lemma>*heidôsô</lemma>
+        <!--  bloody; blood; bloodshed  -->
+    </item>
+    <item src="words/xeifôhai.xml" tag="jst-0008 body qualcon">
+        <lemma>*xeifôhai</lemma>
+        <!--  chest; torso; core  -->
+    </item>
+    <item src="words/heiseutwei.xml" tag="jst-0008 body qualcon cloth">
+        <lemma>*heiseutwei</lemma>
+        <!--  shoulder; on the edge  -->
+    </item>
+    <item src="words/hôtô.xml" tag="jst-0008 body qualcon">
+        <lemma>*hôtô</lemma>
+        <!--  hair; hairy  -->
+    </item>
+    <item src="words/hôpeijô.xml" tag="jst-0008 body qualcon loc8n">
+        <lemma>*hôpeijô</lemma>
+        <!--  foot; start; base  -->
+    </item>
+    <item src="words/hôpeuseitô.xml" tag="jst-0008 body">
+        <lemma>*hôpeuseitô</lemma>
+        <!--  lung; respiratory  -->
+    </item>
+    <item src="words/xôseueid.xml" tag="jst-0008 body const">
+        <lemma>*xôseueid</lemma>
+        <!--  bone; bony; frame; support  -->
+    </item>
+    <item src="words/ôwaitfî.xml" tag="jst-0008 body">
+        <lemma>*ôwaitfî</lemma>
+        <!--  tooth; toothy; toothed  -->
+    </item>
+    <item src="words/seitô.xml" tag="jst-0008 body const">
+        <lemma>*seitô</lemma>
+        <!--  leg; limbed; support  -->
+    </item>
+    <item src="words/sâtausei.xml" tag="jst-0008 body qualcon foodr">
+        <lemma>*sâtausei</lemma>
+        <!--  meat; muscular; flesh  -->
+    </item>
+    <item src="words/sâtheiî.xml" tag="jst-0008 body">
+        <lemma>*sâtheiî</lemma>
+        <!--  placenta  -->
+    </item>
+    <item src="words/sôds.xml" tag="jst-0008 body qualcon">
+        <lemma>*sôds</lemma>
+        <!--  tongue; talkative  -->
+    </item>
+    <item src="words/sôjei.xml" tag="jst-0008 body qualcon">
+        <lemma>*sôjei</lemma>
+        <!--  finger; long-fingered; slender object  -->
+    </item>
+    <item src="words/sôwû.xml" tag="jst-0008 body qualcon cloth">
+        <lemma>*sôwû</lemma>
+        <!--  skin; naked; covering  -->
+    </item>
+    <item src="words/sûhôwî.xml" tag="jst-0008 body art">
+        <lemma>*sûhôwî</lemma>
+        <!--  hand; artistic work  -->
+    </item>
+    <item src="words/sûwei.xml" tag="jst-0008 body const">
+        <lemma>*sûwei</lemma>
+        <!--  arm  -->
+    </item>
+    <item src="words/ʒeitôweu.xml" tag="jst-0008 body">
+        <lemma>*ʒeitôweu</lemma>
+        <!--  vulva; vagina  -->
+    </item>
+    <item src="words/joitô.xml" tag="jst-0008 body">
+        <lemma>*joitô</lemma>
+        <!--  penis  -->
+    </item>
+    <item src="words/ʒôtsî.xml" tag="jst-0008 body">
+        <lemma>*ʒôtsî</lemma>
+        <!--  mouth; opening  -->
+    </item>
+    <item src="words/eusôtô.xml" tag="jst-0008 cloth">
+        <lemma>*eusôtô</lemma>
+        <!--  pants  -->
+    </item>
+    <item src="words/dâtôsô.xml" tag="jst-0008 cloth">
+        <lemma>*dâtôsô</lemma>
+        <!--  shoe  -->
+    </item>
+    <item src="words/dôwôdâ.xml" tag="jst-0008 cloth">
+        <lemma>*dôwôdâ</lemma>
+        <!--  shirt; covering  -->
+    </item>
+    <item src="words/dûtâdei.xml" tag="jst-0008 cloth tool const">
+        <lemma>*dûtâdei</lemma>
+        <!--  hat; lid  -->
+    </item>
+    <item src="words/ʒîteidû.xml" tag="jst-0008 cloth">
+        <lemma>*ʒîteidû</lemma>
+        <!--  masked; mask  -->
+    </item>
+    <item src="words/tôdei.xml" tag="jst-0008 cloth">
+        <lemma>*tôdei</lemma>
+        <!--  clothed; clothing  -->
+    </item>
+    <item src="words/deifeusô.xml" tag="jst-0008 emotn bior">
+        <lemma>*deifeusô</lemma>
+        <!--  thirsty; thirst  -->
+    </item>
+    <item src="words/dôtôgâ.xml" tag="jst-0008 emotn bior">
+        <lemma>*dôtôgâ</lemma>
+        <!--  tired; sleep  -->
+    </item>
+    <item src="words/ʒôseut.xml" tag="jst-0008 bior submat">
+        <lemma>*ʒôseut</lemma>
+        <!--  poop  -->
+    </item>
+    <item src="words/seinʒî.xml" tag="jst-0008 bior submat">
+        <lemma>*seinʒî</lemma>
+        <!--  menstruation; menses  -->
+    </item>
+    <item src="words/sîtgî.xml" tag="jst-0008 emotn bior">
+        <lemma>*sîtgî</lemma>
+        <!--  hungry; hunger  -->
+    </item>
+    <item src="words/gaifêeut.xml" tag="jst-0008 qualcon sight">
+        <lemma>*gaifêeut</lemma>
+        <!--  purple  -->
+    </item>
+    <item src="words/deihîtû.xml" tag="jst-0008 qualcon sight">
+        <lemma>*deihîtû</lemma>
+        <!--  transparent; translucent; pure; faultless; unobscured; clear  -->
+    </item>
+    <item src="words/dôaiwêt.xml" tag="jst-0008 qualcon sight">
+        <lemma>*dôaiwêt</lemma>
+        <!--  brown  -->
+    </item>
+    <item src="words/fôzî.xml" tag="jst-0008 qualcon sight">
+        <lemma>*fôzî</lemma>
+        <!--  visible; vision  -->
+    </item>
+    <item src="words/haiû.xml" tag="jst-0008 qualcon sight">
+        <lemma>*haiû</lemma>
+        <!--  green; vegitated  -->
+    </item>
+    <item src="words/haifû.xml" tag="jst-0008 qualcon sight">
+        <lemma>*haifû</lemma>
+        <!--  luminous; light  -->
+    </item>
+    <item src="words/jautî.xml" tag="jst-0008 qualcon sight">
+        <lemma>*jautî</lemma>
+        <!--  blue  -->
+    </item>
+    <item src="words/waut.xml" tag="jst-0008 qualcon sight">
+        <lemma>*waut</lemma>
+        <!--  grey  -->
+    </item>
+    <item src="words/ûtau.xml" tag="jst-0008 qualcon sight natoc">
+        <lemma>*ûtau</lemma>
+        <!--  dark; black  -->
+        <!--  stormy; storm  -->
+    </item>
+    <item src="words/ʒau.xml" tag="jst-0008 touch sight easky submat qualcon adp">
+        <lemma>*ʒau</lemma>
+        <!--  warmly coloured  -->
+        <!--  airy; open; free; air  -->
+        <!--  with  -->
+    </item>
+    <item src="words/ʒeindei.xml" tag="jst-0008 qualcon sight">
+        <lemma>*ʒeindei</lemma>
+        <!--  light; white  -->
+    </item>
+    <item src="words/hôfâsî.xml" tag="jst-0008 qualcon touch ">
+        <lemma>*hôfâsî</lemma>
+        <!--  sensitive; physical feeling  -->
+    </item>
+    <item src="words/tûdai.xml" tag="jst-0008 touch emotn">
+        <lemma>*tûdai</lemma>
+        <!--  painful; pain  -->
+    </item>
+    <item src="words/deitait.xml" tag="jst-0008 qualcon taste">
+        <lemma>*deitait</lemma>
+        <!--  sour; sourness  -->
+    </item>
+    <item src="words/dôjaidô.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>*dôjaidô</lemma>
+        <!--  sweet; sweetness; sugar  -->
+    </item>
+    <item src="words/jôwâsêt.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>*jôwâsêt</lemma>
+        <!--  salty; saltiness; salt  -->
+    </item>
+    <item src="words/paufî.xml" tag="jst-0008 qualcon taste foodr">
+        <lemma>*paufî</lemma>
+        <!--  spicy; spiciness; spice  -->
+    </item>
+    <item src="words/sôfoiʒai.xml" tag="jst-0008 qualcon taste">
+        <lemma>*sôfoiʒai</lemma>
+        <!--  bitter; bitterness  -->
+    </item>
+    <item src="words/ôjai.xml" tag="jst-0008 qualcon smell">
+        <lemma>*ôjai</lemma>
+        <!--  smelly; scent  -->
+    </item>
+    <item src="words/dôpâjî.xml" tag="jst-0008 qualcon sound">
+        <lemma>*dôpâjî</lemma>
+        <!--  loud; noisy; rude; obnoxious; noise  -->
+    </item>
+    <item src="words/fôʒeusô.xml" tag="jst-0008 qualcon sound">
+        <lemma>*fôʒeusô</lemma>
+        <!--  quiet; shy; modest; silence  -->
+    </item>
+    <item src="words/ʒeipei.xml" tag="jst-0008 sound">
+        <lemma>*ʒeipei</lemma>
+        <!--  sound  -->
+    </item>
+    <item src="words/ʒâsei.xml" tag="jst-0008 sound lang">
+        <lemma>*ʒâsei</lemma>
+        <!--  talkative; speech  -->
+    </item>
+    <item src="words/pôwâ.xml" tag="jst-0008 sound art">
+        <lemma>*pôwâ</lemma>
+        <!--  music; piece of music; melodic; musical  -->
+    </item>
+    <item src="words/ʒeiô.xml" tag="jst-0008 emotn sound art inst">
+        <lemma>*ʒeiô</lemma>
+        <!--  emotion; emotional  -->
+        <!--  orchestral; string  -->
+    </item>
+    <item src="words/dôdei.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*dôdei</lemma>
+        <!--  happy; happiness  -->
+    </item>
+    <item src="words/tôpei.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*tôpei</lemma>
+        <!--  angry; anger  -->
+    </item>
+    <item src="words/xoifô.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*xoifô</lemma>
+        <!--  sad; sadness  -->
+    </item>
+    <item src="words/hôtâjô.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*hôtâjô</lemma>
+        <!--  frustrated; frustration  -->
+    </item>
+    <item src="words/hôʒaid.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*hôʒaid</lemma>
+        <!--  loving; love  -->
+    </item>
+    <item src="words/jeuweindôsei.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*jeuweindôsei</lemma>
+        <!--  awe; awed  -->
+    </item>
+    <item src="words/wôwei.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*wôwei</lemma>
+        <!--  calm; peaceful; peacefulness  -->
+    </item>
+    <item src="words/ʒaujû.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*ʒaujû</lemma>
+        <!--  passionate; passion  -->
+    </item>
+    <item src="words/deiôsî.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*deiôsî</lemma>
+        <!--  excited; excitement  -->
+    </item>
+    <item src="words/hâwî.xml" tag="jst-0008 life qualcon">
+        <lemma>*hâwî</lemma>
+        <!--  alive; life  -->
+    </item>
+    <item src="words/hei.xml" tag="jst-0008 abs qualcon">
+        <lemma>*hei</lemma>
+        <!--  energized; energy  -->
+    </item>
+    <item src="words/fâî.xml" tag="jst-0008 life qualcon">
+        <lemma>*fâî</lemma>
+        <!--  dead; death  -->
+    </item>
+    <item src="words/dâxwî.xml" tag="jst-0008 life qualcon">
+        <lemma>*dâxwî</lemma>
+        <!--  health; healthy  -->
+    </item>
+    <item src="words/tâxî.xml" tag="jst-0008 life qualcon">
+        <lemma>*tâxî</lemma>
+        <!--  dying  -->
+    </item>
+    <item src="words/âtî.xml" tag="jst-0008 life qualcon">
+        <lemma>*âtî</lemma>
+        <!--  sick; sickness  -->
+    </item>
+    <item src="words/fêdsô.xml" tag="jst-0008 life qualcon">
+        <lemma>*fêdsô</lemma>
+        <!--  injured; injury  -->
+    </item>
+    <item src="words/jô.xml" tag="jst-0008 abs qualcon name">
+        <lemma>*jô</lemma>
+        <!--  moral; accurate; true; correct  -->
+    </item>
+    <item src="words/ʒâfô.xml" tag="jst-0008 abs qualcon">
+        <lemma>*ʒâfô</lemma>
+        <!--  immoral; inacurate; false; incorrect  -->
+    </item>
+    <item src="words/dâfô.xml" tag="jst-0008 abs qualcon">
+        <lemma>*dâfô</lemma>
+        <!--  knowledgable; knowledge  -->
+    </item>
+    <item src="words/jaufû.xml" tag="jst-0008 abs qualcon">
+        <lemma>*jaufû</lemma>
+        <!--  powerful; power  -->
+    </item>
+    <item src="words/sôʒeuwâd.xml" tag="jst-0008 abs qualcon">
+        <lemma>*sôʒeuwâd</lemma>
+        <!--  beautiful; beauty  -->
+    </item>
+    <item src="words/hôsî.xml" tag="jst-0008 abs qualcon">
+        <lemma>*hôsî</lemma>
+        <!--  trusting; trust  -->
+    </item>
+    <item src="words/deigauwû.xml" tag="jst-0008 abs qualcon">
+        <lemma>*deigauwû</lemma>
+        <!--  hopeful; hope  -->
+    </item>
+    <item src="words/tôʒeutsei.xml" tag="jst-0008 lang dist qualcon">
+        <lemma>*tôʒeutsei</lemma>
+        <!--  brief; word  -->
+    </item>
+    <item src="words/dôʒeitô.xml" tag="jst-0008 lang abs qualcon">
+        <lemma>*dôʒeitô</lemma>
+        <!--  purposeful; meaningful; statement  -->
+    </item>
+    <item src="words/poit.xml" tag="jst-0008 time qualcon">
+        <lemma>*poit</lemma>
+        <!--  momentary; moment; time  -->
+    </item>
+    <item src="words/hoipû.xml" tag="jst-0008 time dist">
+        <lemma>*hoipû</lemma>
+        <!--  midday; day; diurnal  -->
+    </item>
+    <item src="words/ʒeinʒei.xml" tag="jst-0008 time">
+        <lemma>*ʒeinʒei</lemma>
+        <!--  nighttime; night; nocturnal  -->
+    </item>
+    <item src="words/eidei.xml" tag="jst-0008 time dist">
+        <lemma>*eidei</lemma>
+        <!--  month; monthly  -->
+    </item>
+    <item src="words/dôfaitû.xml" tag="jst-0008 time">
+        <lemma>*dôfaitû</lemma>
+        <!--  morning  -->
+    </item>
+    <item src="words/fûwôfû.xml" tag="jst-0008 time life qualcon">
+        <lemma>*fûwôfû</lemma>
+        <!--  evening  -->
+    </item>
+    <item src="words/sûpoi.xml" tag="jst-0008 time">
+        <lemma>*sûpoi</lemma>
+        <!--  current; presently  -->
+    </item>
+    <item src="words/ʒoit.xml" tag="jst-0008 time">
+        <lemma>*ʒoit</lemma>
+        <!--  future  -->
+    </item>
+    <item src="words/pûsâ.xml" tag="jst-0008 time">
+        <lemma>*pûsâ</lemma>
+        <!--  past  -->
+    </item>
+    <item src="words/ʒô.xml" tag="jst-0008 quant qualcon pron">
+        <lemma>*ʒô</lemma>
+        <alt>1</alt>
+        <!--  first; one  -->
+        <!--  medial demonstrative  -->
+    </item>
+    <item src="words/wôs.xml" tag="jst-0008 quant qualcon">
+        <lemma>*wôs</lemma>
+        <alt>2</alt>
+        <!--  second; two  -->
+    </item>
+    <item src="words/gôjeu.xml" tag="jst-0008 quant qualcon">
+        <lemma>*gôjeu</lemma>
+        <alt>3</alt>
+        <!--  third; three  -->
+    </item>
+    <item src="words/ʒâfei.xml" tag="jst-0008 quant qualcon">
+        <lemma>*ʒâfei</lemma>
+        <alt>4</alt>
+        <!--  fourth; four  -->
+    </item>
+    <item src="words/weit.xml" tag="jst-0008 quant qualcon">
+        <lemma>*weit</lemma>
+        <alt>5</alt>
+        <!--  fifth; five  -->
+    </item>
+    <item src="words/sôpô.xml" tag="jst-0008 quant qualcon">
+        <lemma>*sôpô</lemma>
+        <alt>6</alt>
+        <!--  sixth; six  -->
+    </item>
+    <item src="words/jât.xml" tag="jst-0008 quant qualcon">
+        <lemma>*jât</lemma>
+        <alt>7</alt>
+        <!--  seventh; seven  -->
+    </item>
+    <item src="words/seintô.xml" tag="jst-0008 quant qualcon">
+        <lemma>*seintô</lemma>
+        <alt>8</alt>
+        <!--  eighth; eight  -->
+    </item>
+    <item src="words/deisô.xml" tag="jst-0008 submat qualcon">
+        <lemma>*deisô</lemma>
+        <!--  fluid; watery; water  -->
+    </item>
+    <item src="words/fêwêt.xml" tag="jst-0008 submat">
+        <lemma>*fêwêt</lemma>
+        <!--  wood  -->
+    </item>
+    <item src="words/pôʒâsô.xml" tag="jst-0008 submat easky">
+        <lemma>*pôʒâsô</lemma>
+        <!--  stone; rock  -->
+    </item>
+    <item src="words/pôʒû.xml" tag="jst-0008 easky qualcon">
+        <lemma>*pôʒû</lemma>
+        <!--  ground; earthy  -->
+    </item>
+    <item src="words/dausî.xml" tag="jst-0008 easky submat natoc">
+        <lemma>*dausî</lemma>
+        <!--  burning; fire; flame  -->
+    </item>
+    <item src="words/dôʒû.xml" tag="jst-0008 submat">
+        <lemma>*dôʒû</lemma>
+        <!--  metal  -->
+    </item>
+    <item src="words/tôfeusô.xml" tag="jst-0008 submat">
+        <lemma>*tôfeusô</lemma>
+        <!--  clay  -->
+    </item>
+    <item src="words/dautû.xml" tag="jst-0008 easky qualcon loc8n">
+        <lemma>*dautû</lemma>
+        <!--  sky; skyward  -->
+    </item>
+    <item src="words/xaitû.xml" tag="jst-0008 easky qualcon">
+        <lemma>*xaitû</lemma>
+        <!--  lunar; moon  -->
+    </item>
+    <item src="words/tôfâî.xml" tag="jst-0008 easky qualcon">
+        <lemma>*tôfâî</lemma>
+        <!--  star; astral; guiding  -->
+    </item>
+    <item src="words/hôʒei.xml" tag="jst-0008 easky">
+        <lemma>*hôʒei</lemma>
+        <!--  land  -->
+    </item>
+    <item src="words/teudeisô.xml" tag="jst-0008 easky">
+        <lemma>*teudeisô</lemma>
+        <!--  river; creek  -->
+    </item>
+    <item src="words/doifâsô.xml" tag="jst-0008 easky">
+        <lemma>*doifâsô</lemma>
+        <!--  sea; ocean  -->
+    </item>
+    <item src="words/tôweudô.xml" tag="jst-0008 easky">
+        <lemma>*tôweudô</lemma>
+        <!--  lake; pond  -->
+    </item>
+    <item src="words/dôwâtsei.xml" tag="jst-0008 easky qualcon">
+        <lemma>*dôwâtsei</lemma>
+        <!--  mountain; mountainous  -->
+    </item>
+    <item src="words/tôfeutʒei.xml" tag="jst-0008 easky qualcon">
+        <lemma>*tôfeutʒei</lemma>
+        <!--  valley; indented; indentation  -->
+    </item>
+    <item src="words/deisôʒei.xml" tag="jst-0008 easky qualcon">
+        <lemma>*deisôʒei</lemma>
+        <!--  island; isolated  -->
+    </item>
+    <item src="words/geupû.xml" tag="jst-0008 easky qualcon">
+        <lemma>*geupû</lemma>
+        <!--  earthly; world  -->
+    </item>
+    <item src="words/dautôsei.xml" tag="jst-0008 easky natoc abs">
+        <lemma>*dautôsei</lemma>
+        <!--  weather; atmosphere  -->
+    </item>
+    <item src="words/deitâsô.xml" tag="jst-0008 easky natoc qualcon">
+        <lemma>*deitâsô</lemma>
+        <!--  cloudy; cloud  -->
+    </item>
+    <item src="words/dôʒei.xml" tag="jst-0008 natoc qualcon">
+        <lemma>*dôʒei</lemma>
+        <!--  rainy; rain; raindrop  -->
+    </item>
+    <item src="words/dôtûs.xml" tag="jst-0008 natoc qualcon">
+        <lemma>*dôtûs</lemma>
+        <!--  snowy; snow; snowflake  -->
+    </item>
+    <item src="words/jôwei.xml" tag="jst-0008 natoc qualcon">
+        <lemma>*jôwei</lemma>
+        <!--  windy; wind  -->
+    </item>
+    <item src="words/jôfûs.xml" tag="jst-0008 natoc qualcon">
+        <lemma>*jôfûs</lemma>
+        <!--  hailing; hail; hailstone  -->
+    </item>
+    <item src="words/ʒausû.xml" tag="jst-0008 natoc">
+        <lemma>*ʒausû</lemma>
+        <!--  lightning  -->
+    </item>
+    <item src="words/heipî.xml" tag="jst-0008 natoc easky qualcon">
+        <lemma>*heipî</lemma>
+        <!--  vernal; spring  -->
+    </item>
+    <item src="words/xaiwâ.xml" tag="jst-0008 natoc easky dist qualcon">
+        <lemma>*xaiwâ</lemma>
+        <!--  annual; estival; year; summer  -->
+    </item>
+    <item src="words/tâeingî.xml" tag="jst-0008 natoc easky qualcon">
+        <lemma>*tâeingî</lemma>
+        <!--  autumnal; autumn  -->
+    </item>
+    <item src="words/eindû.xml" tag="jst-0008 natoc easky qualcon">
+        <lemma>*eindû</lemma>
+        <!--  hibernal; winter  -->
+    </item>
+    <item src="words/tein.xml" tag="jst-0008 name">
+        <lemma>*tein</lemma>
+        <!--  autumn  -->
+    </item>
+    <item src="words/aiôteihaiû.xml" tag="jst-0008 name">
+        <lemma>*aiôteihaiû</lemma>
+        <!--  chloe  -->
+    </item>
+    <item src="words/aiôteihaiû.xml" tag="jst-0008 name">
+        <lemma>*aiô</lemma>
+        <!--  chloe  -->
+    </item>
+    <item src="words/dei.xml" tag="jst-0008 qualcon">
+        <lemma>*dei</lemma>
+        <!--  quick; nimble; clever; speed  -->
+    </item>
+    <item src="words/teud.xml" tag="jst-0008 qualcon">
+        <lemma>*teud</lemma>
+        <!--  slow; sloth  -->
+    </item>
+    <item src="words/jôfâ.xml" tag="jst-0008 qualcon">
+        <lemma>*jôfâ</lemma>
+        <alt>jōfä</alt>
+        <!--  grand; great  -->
+    </item>
+    <item src="words/fôweu.xml" tag="jst-0008 qualcon">
+        <lemma>*fôweu</lemma>
+        <!--  small; unimportant  -->
+    </item>
+    <item src="words/gôpâ.xml" tag="jst-0008 qualcon">
+        <lemma>*gôpâ</lemma>
+        <!--  strong; strength  -->
+    </item>
+    <item src="words/tâweu.xml" tag="jst-0008 qualcon">
+        <lemma>*tâweu</lemma>
+        <!--  weak; weakness  -->
+    </item>
+    <item src="words/deipê.xml" tag="jst-0008 qualcon">
+        <lemma>*deipê</lemma>
+        <!--  good  -->
+    </item>
+    <item src="words/teit.xml" tag="jst-0008 qualcon">
+        <lemma>*teit</lemma>
+        <!--  bad  -->
+    </item>
+    <item src="words/wauwû.xml" tag="jst-0008 qualcon">
+        <lemma>*wauwû</lemma>
+        <!--  wise; wisdonm  -->
+    </item>
+    <item src="words/deitâʒô.xml" tag="jst-0008 qualcon">
+        <lemma>*deitâʒô</lemma>
+        <!--  stupid  -->
+    </item>
+    <item src="words/tâʒô.xml" tag="jst-0008 qualcon">
+        <lemma>*tâʒô</lemma>
+        <!--  foolish  -->
+    </item>
+    <item src="words/tôteixhô.xml" tag="jst-0008 qualcon">
+        <lemma>*tôteixhô</lemma>
+        <!--  hardworking; determined; determination  -->
+    </item>
+    <item src="words/teudfeu.xml" tag="jst-0008 qualcon">
+        <lemma>*teudfeu</lemma>
+        <!--  lazy  -->
+    </item>
+    <item src="words/âxmô.xml" tag="jst-0008 qualcon lang">
+        <lemma>*âxmô</lemma>
+        <!--  sharp; harsh; direct  -->
+    </item>
+    <item src="words/xeisô.xml" tag="jst-0008 qualcon loc8n">
+        <lemma>*xeisô</lemma>
+        <!--  front; leading  -->
+    </item>
+    <item src="words/sûsâ.xml" tag="jst-0008 qualcon loc8n">
+        <lemma>*sûsâ</lemma>
+        <!--  back; trailing  -->
+    </item>
+    <item src="words/taiheid.xml" tag="jst-0008 loc8n">
+        <lemma>*taiheid</lemma>
+        <!--  side  -->
+    </item>
+    <item src="words/daitû.xml" tag="jst-0008 loc8n">
+        <lemma>*daitû</lemma>
+        <!--  top  -->
+    </item>
+    <item src="words/oisû.xml" tag="jst-0008 loc8n">
+        <lemma>*oisû</lemma>
+        <alt>oisuh</alt>
+        <!--  bottom  -->
+    </item>
+    <item src="words/pai.xml" tag="jst-0008 loc8n">
+        <lemma>*pai</lemma>
+        <!--  right  -->
+    </item>
+    <item src="words/dai.xml" tag="jst-0008 loc8n">
+        <lemma>*dai</lemma>
+        <!--  left  -->
+    </item>
+    <item src="words/ʒâtô.xml" tag="jst-0008 loc8n qualcon abs">
+        <lemma>*ʒâtô</lemma>
+        <!--  near; relevant  -->
+    </item>
+    <item src="words/sôjô.xml" tag="jst-0008 loc8n qualcon abs">
+        <lemma>*sôjô</lemma>
+        <!--  far; irrelevant  -->
+    </item>
+    <item src="words/ʒai.xml" tag="jst-0008 pron">
+        <lemma>*ʒai</lemma>
+        <!--  first person pronoun  -->
+    </item>
+    <item src="words/ûweid.xml" tag="jst-0008 pron">
+        <lemma>*ûweid</lemma>
+        <!--  second person pronoun  -->
+    </item>
+    <item src="words/ei.xml" tag="jst-0008 pron">
+        <lemma>*ei</lemma>
+        <!--  animate third person pronoun  -->
+    </item>
+    <item src="words/ʒôd.xml" tag="jst-0008 pron">
+        <lemma>*ʒôd</lemma>
+        <!--  inanimate third person pronoun  -->
+    </item>
+    <item src="words/sût.xml" tag="jst-0008 pron">
+        <lemma>*sût</lemma>
+        <!--  proximal demonstrative  -->
+    </item>
+    <item src="words/seu.xml" tag="jst-0008 pron">
+        <lemma>*seu</lemma>
+        <!--  distal demonstrative  -->
+    </item>
+    <item src="words/sûhai.xml" tag="jst-0008 pron">
+        <lemma>*sûhai</lemma>
+        <!--  proximal locational pronoun  -->
+    </item>
+    <item src="words/dôsai.xml" tag="jst-0008 pron verb">
+        <lemma>*dôsai</lemma>
+        <!--  medial locational pronoun  -->
+        <!--  arrive (at)  -->
+    </item>
+    <item src="words/sêd.xml" tag="jst-0008 pron">
+        <lemma>*sêd</lemma>
+        <!--  distal locational pronoun  -->
+    </item>
+    <item src="words/fai.xml" tag="jst-0008 pron">
+        <lemma>*fai</lemma>
+        <!--  animate interrogative pronoun  -->
+    </item>
+    <item src="words/fôt.xml" tag="jst-0008 pron">
+        <lemma>*fôt</lemma>
+        <!--  inanimate interrogative pronoun  -->
+    </item>
+    <item src="words/deiʒît.xml" tag="jst-0008 life">
+        <lemma>*deiʒît</lemma>
+        <!--  starving; starvation  -->
+    </item>
+    <item src="words/ôdeisô.xml" tag="jst-0008 life">
+        <lemma>*ôdeisô</lemma>
+        <!--  thirst; thirsty  -->
+    </item>
+    <item src="words/dôtâsfei.xml" tag="jst-0008 life">
+        <lemma>*dôtâsfei</lemma>
+        <!--  exhausted; exhaustion  -->
+    </item>
+    <item src="words/autû.xml" tag="jst-0008 qualcon">
+        <lemma>*autû</lemma>
+        <!--  broken  -->
+    </item>
+    <item src="words/teuwâ.xml" tag="jst-0008 life dist">
+        <lemma>*teuwâ</lemma>
+        <!--  old; aged; age  -->
+    </item>
+    <item src="words/ôteid.xml" tag="jst-0008 life">
+        <lemma>*ôteid</lemma>
+        <!--  young; youth  -->
+    </item>
+    <item src="words/ein.xml" tag="jst-0008 qualcon ppl">
+        <lemma>*ein</lemma>
+        <!--  female; femininity  -->
+    </item>
+    <item src="words/soit.xml" tag="jst-0008 qualcon ppl">
+        <lemma>*soit</lemma>
+        <!--  male; masculinity  -->
+    </item>
+    <item src="words/fâd.xml" tag="jst-0008 qualcon">
+        <lemma>*fâd</lemma>
+        <!--  hard; difficult; difficulty  -->
+    </item>
+    <item src="words/ôfeu.xml" tag="jst-0008 qualcon">
+        <lemma>*ôfeu</lemma>
+        <!--  soft; gentle  -->
+    </item>
+    <item src="words/xoit.xml" tag="jst-0008 qualcon">
+        <lemma>*xoit</lemma>
+        <!--  rough; tactless; unpolished; crude  -->
+    </item>
+    <item src="words/deis.xml" tag="jst-0008 qualcon">
+        <lemma>*deis</lemma>
+        <!--  smooth; tactful; polished; finished; tact  -->
+    </item>
+    <item src="words/ʒôsî.xml" tag="jst-0008 qualcon abs">
+        <lemma>*ʒôsî</lemma>
+        <!--  hot; heat  -->
+    </item>
+    <item src="words/oitâs.xml" tag="jst-0008 qualcon">
+        <lemma>*oitâs</lemma>
+        <!--  cold  -->
+    </item>
+    <item src="words/xîwû.xml" tag="jst-0008 qualcon">
+        <lemma>*xîwû</lemma>
+        <!--  flexible; open  -->
+    </item>
+    <item src="words/ʒeudsô.xml" tag="jst-0008 qualcon abs">
+        <lemma>*ʒeudsô</lemma>
+        <!--  beautiful; beauty  -->
+    </item>
+    <item src="words/xôtʒai.xml" tag="jst-0008 qualcon abs">
+        <lemma>*xôtʒai</lemma>
+        <!--  ugly; undesirable  -->
+    </item>
+    <item src="words/deitôwî.xml" tag="jst-0008 expr">
+        <lemma>*deitôwî</lemma>
+        <!--  smiling; smile  -->
+    </item>
+    <item src="words/ʒôtei.xml" tag="jst-0008 expr">
+        <lemma>*ʒôtei</lemma>
+        <!--  frowning; frown  -->
+    </item>
+    <item src="words/dûseitô.xml" tag="jst-0008 sound lang expr">
+        <lemma>*dûseitô</lemma>
+        <!--  laughing; laughter  -->
+    </item>
+    <item src="words/dôjei.xml" tag="jst-0008 expr">
+        <lemma>*dôjei</lemma>
+        <!--  crying; tear  -->
+    </item>
+    <item src="words/deitôsô.xml" tag="jst-0008 anim">
+        <lemma>*deitôsô</lemma>
+        <!--  wolf  -->
+    </item>
+    <item src="words/ʒôʒô.xml" tag="jst-0008 anim">
+        <lemma>*ʒôʒô</lemma>
+        <!--  frog  -->
+    </item>
+    <item src="words/ʒôfei.xml" tag="jst-0008 anim">
+        <lemma>*ʒôfei</lemma>
+        <!--  snake  -->
+    </item>
+    <item src="words/gausai.xml" tag="jst-0008 anim">
+        <lemma>*gausai</lemma>
+        <!--  salamander  -->
+    </item>
+    <item src="words/gôsû.xml" tag="jst-0008 anim">
+        <lemma>*gôsû</lemma>
+        <!--  bird  -->
+    </item>
+    <item src="words/hôteusî.xml" tag="jst-0008 anim qualcon">
+        <lemma>*hôteusî</lemma>
+        <!--  crab; withdrawn  -->
+    </item>
+    <item src="words/deiʒât.xml" tag="jst-0008 anim qualcon">
+        <lemma>*deiʒât</lemma>
+        <!--  fish; reclusive  -->
+    </item>
+    <item src="words/tâfî.xml" tag="jst-0008 anim">
+        <lemma>*tâfî</lemma>
+        <!--  insect  -->
+    </item>
+    <item src="words/deidî.xml" tag="jst-0008 anim">
+        <lemma>*deidî</lemma>
+        <!--  hare; leporid  -->
+    </item>
+    <item src="words/geiô.xml" tag="jst-0008 anim">
+        <lemma>*geiô</lemma>
+        <!--  small mammal  -->
+    </item>
+    <item src="words/tâgau.xml" tag="jst-0008 anim">
+        <lemma>*tâgau</lemma>
+        <!--  mouse; rat  -->
+    </item>
+    <item src="words/dôfiy.xml" tag="jst-0008 anim">
+        <lemma>*dôfiy</lemma>
+        <!--  bear  -->
+    </item>
+    <item src="words/sâtseuî.xml" tag="jst-0008 anim">
+        <lemma>*sâtseuî</lemma>
+        <!--  deer  -->
+    </item>
+    <item src="words/ʒâtî.xml" tag="jst-0008 anim">
+        <lemma>*ʒâtî</lemma>
+        <!--  animal  -->
+    </item>
+    <item src="words/xôfî.xml" tag="jst-0008 anim">
+        <lemma>*xôfî</lemma>
+        <!--  cow  -->
+    </item>
+    <item src="words/fauzî.xml" tag="jst-0008 anim qualcon">
+        <lemma>*fauzî</lemma>
+        <!--  pig; humble  -->
+    </item>
+    <item src="words/dâtʒî.xml" tag="jst-0008 anim qualcon">
+        <lemma>*dâtʒî</lemma>
+        <!--  fox; swift; nimble; clever  -->
+    </item>
+    <item src="words/haiât.xml" tag="jst-0008 plant qualcon">
+        <lemma>*haiât</lemma>
+        <!--  vegetated; vegetation  -->
+    </item>
+    <item src="words/dauʒait.xml" tag="jst-0008 plant qualcon">
+        <lemma>*dauʒait</lemma>
+        <!--  flowery; elaborate; decorated; flower  -->
+    </item>
+    <item src="words/ôfai.xml" tag="jst-0008 plant qualcon">
+        <lemma>*ôfai</lemma>
+        <!--  bush; complex; chaotic; overgrown  -->
+    </item>
+    <item src="words/dôtaiât.xml" tag="jst-0008 plant easky qualcon">
+        <lemma>*dôtaiât</lemma>
+        <!--  forested; tree  -->
+    </item>
+    <item src="words/aiôtei.xml" tag="jst-0008 plant qualcon">
+        <lemma>*aiôtei</lemma>
+        <!--  sprout; new; fresh  -->
+    </item>
+    <item src="words/sît.xml" tag="jst-0008 foodr qualcon">
+        <lemma>*sît</lemma>
+        <!--  edible; food  -->
+    </item>
+    <item src="words/haifî.xml" tag="jst-0008 foodr">
+        <lemma>*haifî</lemma>
+        <!--  vegetable  -->
+    </item>
+    <item src="words/seifî.xml" tag="jst-0008 foodr">
+        <lemma>*seifî</lemma>
+        <!--  meat  -->
+    </item>
+    <item src="words/taidfî.xml" tag="jst-0008 foodr">
+        <lemma>*taidfî</lemma>
+        <!--  fruit  -->
+    </item>
+    <item src="words/fôteisî.xml" tag="jst-0008 foodr">
+        <lemma>*fôteisî</lemma>
+        <!--  rice  -->
+    </item>
+    <item src="words/deixaitsû.xml" tag="jst-0008 foodr">
+        <lemma>*deixaitsû</lemma>
+        <!--  apple  -->
+    </item>
+    <item src="words/deidsei.xml" tag="jst-0008 foodr">
+        <lemma>*deidsei</lemma>
+        <!--  citrus  -->
+    </item>
+    <item src="words/tôfaitsî.xml" tag="jst-0008 foodr">
+        <lemma>*tôfaitsî</lemma>
+        <!--  compound berry  -->
+    </item>
+    <item src="words/ôdseiô.xml" tag="jst-0008 foodr qualcon">
+        <lemma>*ôdseiô</lemma>
+        <!--  alcoholic; alcohol  -->
+    </item>
+    <item src="words/tauwei.xml" tag="jst-0008 tool">
+        <lemma>*tauwei</lemma>
+        <!--  weapon  -->
+    </item>
+    <item src="words/ôwai.xml" tag="jst-0008 tool qualcon">
+        <lemma>*ôwai</lemma>
+        <!--  sharp; blade  -->
+    </item>
+    <item src="words/gusai.xml" tag="jst-0008 tool">
+        <lemma>*gusai</lemma>
+        <!--  spear  -->
+    </item>
+    <item src="words/aufait.xml" tag="jst-0008 tool">
+        <lemma>*aufait</lemma>
+        <!--  knife  -->
+    </item>
+    <item src="words/hôfâdô.xml" tag="jst-0008 tool">
+        <lemma>*hôfâdô</lemma>
+        <!--  wheel  -->
+    </item>
+    <item src="words/hôfeidsô.xml" tag="jst-0008 tool const">
+        <lemma>*hôfeidsô</lemma>
+        <!--  wheeled cart  -->
+    </item>
+    <item src="words/dôtsaitô.xml" tag="jst-0008 tool">
+        <lemma>*dôtsaitô</lemma>
+        <!--  pot  -->
+    </item>
+    <item src="words/dâʒîtsî.xml" tag="jst-0008 jwlry">
+        <lemma>*dâʒîtsî</lemma>
+        <!--  necklace  -->
+    </item>
+    <item src="words/sûdîtsei.xml" tag="jst-0008 jwlry">
+        <lemma>*sûdîtsei</lemma>
+        <!--  bracelet  -->
+    </item>
+    <item src="words/ôwaitsî.xml" tag="jst-0008 jwlry">
+        <lemma>*ôwaitsî</lemma>
+        <!--  body piercing  -->
+    </item>
+    <item src="words/jeisôtû.xml" tag="jst-0008 inst sound art">
+        <lemma>*jeisôtû</lemma>
+        <!--  drum; percussive  -->
+    </item>
+    <item src="words/dôwei.xml" tag="jst-0008 inst sound art">
+        <lemma>*dôwei</lemma>
+        <alt>dōwā</alt>
+        <!--  flute  -->
+    </item>
+    <item src="words/ôʒeis.xml" tag="jst-0008 submat">
+        <lemma>*ôʒeis</lemma>
+        <!--  dirt; dirty  -->
+    </item>
+    <item src="words/tôʒô.xml" tag="jst-0008 submat tool">
+        <lemma>*tôʒô</lemma>
+        <!--  cloth  -->
+        <!--  mapped; map  -->
+    </item>
+    <item src="words/sôseutî.xml" tag="jst-0008 submat">
+        <lemma>*sôseutî</lemma>
+        <!--  leather  -->
+    </item>
+    <item src="words/ʒeud.xml" tag="jst-0008 qualcon">
+        <lemma>*ʒeud</lemma>
+        <!--  fine; okay; acceptable  -->
+    </item>
+    <item src="words/autfî.xml" tag="jst-0008 qualcon">
+        <lemma>*autfî</lemma>
+        <!--  dangerous; danger  -->
+    </item>
+    <item src="words/peiʒô.xml" tag="jst-0008 loc8n qualcon">
+        <lemma>*peiʒô</lemma>
+        <!--  initial; beginning; start  -->
+    </item>
+    <item src="words/ʒâtsô.xml" tag="jst-0008 loc8n qualcon">
+        <lemma>*ʒâtsô</lemma>
+        <!--  terminal; finish; end  -->
+    </item>
+    <item src="words/ʒâteiʒô.xml" tag="jst-0008 quant">
+        <lemma>*ʒâteiʒô</lemma>
+        <!--  more; greater  -->
+    </item>
+    <item src="words/daus.xml" tag="jst-0008 quant">
+        <lemma>*daus</lemma>
+        <!--  less; lesser  -->
+    </item>
+    <item src="words/aust.xml" tag="jst-0008 pron">
+        <lemma>*aust</lemma>
+        <!--  another  -->
+    </item>
+    <item src="words/deuwâ.xml" tag="jst-0008 const">
+        <lemma>*deuwâ</lemma>
+        <!--  room  -->
+    </item>
+    <item src="words/deuweitsâ.xml" tag="jst-0008 const">
+        <lemma>*deuweitsâ</lemma>
+        <!--  city  -->
+    </item>
+    <item src="words/deiʒô.xml" tag="jst-0008 art">
+        <lemma>*deiʒô</lemma>
+        <!--  story; narrative  -->
+    </item>
+    <item src="words/fôtjô.xml" tag="jst-0008 dist">
+        <lemma>*fôtjô</lemma>
+        <!--  long; length  -->
+    </item>
+    <item src="words/fâxsîx.xml" tag="jst-0008 art lang">
+        <lemma>*fâxsîx</lemma>
+        <!--  draft  -->
+    </item>
+    <item src="words/weidoiʒû.xml" tag="jst-0008 lang">
+        <lemma>*weidoiʒû</lemma>
+        <!--  name  -->
+    </item>
+    <item src="words/deu.xml" tag="jst-0008 yn">
+        <lemma>*deu</lemma>
+        <!--  yea  -->
+    </item>
+    <item src="words/fô.xml" tag="jst-0008 yn">
+        <lemma>*fô</lemma>
+        <!--  nay  -->
+    </item>
+    <item src="words/fei.xml" tag="jst-0008 conj">
+        <lemma>*fei</lemma>
+        <!--  for; because  -->
+    </item>
+    <item src="words/dau.xml" tag="jst-0008 conj">
+        <lemma>*dau</lemma>
+        <!--  just as… so  -->
+    </item>
+    <item src="words/ôd.xml" tag="jst-0008 conj">
+        <lemma>*ôd</lemma>
+        <!--  yet; although  -->
+    </item>
+    <item src="words/ô.xml" tag="jst-0008 conj">
+        <lemma>*ô</lemma>
+        <!--  but  -->
+    </item>
+    <item src="words/sî.xml" tag="jst-0008 conj">
+        <lemma>*sî</lemma>
+        <!--  so  -->
+    </item>
+    <item src="words/woi.xml" tag="jst-0008 conj">
+        <lemma>*woi</lemma>
+        <!--  and  -->
+    </item>
+    <item src="words/ʒâ.xml" tag="jst-0008 conj">
+        <lemma>*ʒâ</lemma>
+        <!--  or  -->
+    </item>
+    <item src="words/-l'xû.xml" tag="jst-0008 fix">
+        <lemma>*-l'xû</lemma>
+        <!--  participle  -->
+    </item>
+    <item src="words/-l'tô.xml" tag="jst-0008 fix">
+        <lemma>*-l'tô</lemma>
+        <!--  agent  -->
+    </item>
+    <item src="words/euxl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*euxl'-</lemma>
+        <!--  optative; permissive  -->
+    </item>
+    <item src="words/âl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*âl'-</lemma>
+        <!--  mirative  -->
+    </item>
+    <item src="words/ôdl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*ôdl'-</lemma>
+        <!--  assumptive; hortative  -->
+    </item>
+    <item src="words/deul'-.xml" tag="jst-0008 fix mood">
+        <lemma>*deul'-</lemma>
+        <!--  alethic; jussive  -->
+    </item>
+    <item src="words/fail'-.xml" tag="jst-0008 fix mood">
+        <lemma>*fail'-</lemma>
+        <!--  negatory  -->
+    </item>
+    <item src="words/ʒeisl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*ʒeisl'-</lemma>
+        <!--  renarrative  -->
+    </item>
+    <item src="words/tâdl'-.xml" tag="jst-0008 fix mood">
+        <lemma>*tâdl'-</lemma>
+        <!--  commissive  -->
+    </item>
+    <item src="words/-l.xml" tag="jst-0008 fix mood">
+        <lemma>*-l</lemma>
+        <!--  imperative  -->
+    </item>
+    <item src="words/-l'gai.xml" tag="jst-0008 fix mood">
+        <lemma>*-l'gai</lemma>
+        <!--  infinitive  -->
+    </item>
+    <item src="words/pû.xml" tag="jst-0008 article">
+        <lemma>*pû</lemma>
+        <!--  the  -->
+    </item>
+    <item src="words/ʒei.xml" tag="jst-0008 article">
+        <lemma>*ʒei</lemma>
+        <!--  a; an; some  -->
+    </item>
+    <item src="words/âʒû.xml" tag="jst-0008 article">
+        <lemma>*âʒû</lemma>
+        <!--  the (proper)  -->
+    </item>
+    <item src="words/ôhai.xml" tag="jst-0008 intrj">
+        <lemma>*ôhai</lemma>
+        <!--  hello  -->
+    </item>
+    <item src="words/ʒauʒei.xml" tag="jst-0008 easky abs">
+        <lemma>*ʒauʒei</lemma>
+        <!--  aura; atmosphere  -->
+    </item>
+    <item src="words/teuʒauei.xml" tag="jst-0008 ppl abs">
+        <lemma>*teuʒauei</lemma>
+        <!--  spirit; presence  -->
+    </item>
+    <item src="words/doiwei.xml" tag="jst-0008 foodr">
+        <lemma>*doiwei</lemma>
+        <!--  coffee  -->
+    </item>
+    <item src="words/aiʒeiô.xml" tag="jst-0008 foodr">
+        <lemma>*aiʒeiô</lemma>
+        <!--  bread  -->
+    </item>
+    <item src="words/ʒôx.xml" tag="jst-0008 adp">
+        <lemma>*ʒôx</lemma>
+        <!--  to  -->
+    </item>
+    <item src="words/sai.xml" tag="jst-0008 adp">
+        <lemma>*sai</lemma>
+        <!--  from  -->
+    </item>
+    <item src="words/ʒûfô.xml" tag="jst-0008 adp">
+        <lemma>*ʒûfô</lemma>
+        <!--  in; into  -->
+    </item>
+    <item src="words/tâxdî.xml" tag="jst-0008 adp">
+        <lemma>*tâxdî</lemma>
+        <!--  out (of)  -->
+    </item>
+    <item src="words/aiû.xml" tag="jst-0008 adp">
+        <lemma>*aiû</lemma>
+        <!--  on; onto  -->
+    </item>
+    <item src="words/tôsû.xml" tag="jst-0008 adp">
+        <lemma>*tôsû</lemma>
+        <!--  off (of)  -->
+    </item>
+    <item src="words/eid.xml" tag="jst-0008 adp">
+        <lemma>*eid</lemma>
+        <!--  around  -->
+    </item>
+    <item src="words/eiô.xml" tag="jst-0008 adp">
+        <lemma>*eiô</lemma>
+        <!--  through  -->
+    </item>
+    <item src="words/gôs.xml" tag="jst-0008 adp">
+        <lemma>*gôs</lemma>
+        <!--  above  -->
+    </item>
+    <item src="words/eisô.xml" tag="jst-0008 adp">
+        <lemma>*eisô</lemma>
+        <!--  below  -->
+    </item>
+    <item src="words/eiai.xml" tag="jst-0008 adp">
+        <lemma>*eiai</lemma>
+        <!--  between  -->
+    </item>
+    <item src="words/âeidai.xml" tag="jst-0008 adp">
+        <lemma>*âeidai</lemma>
+        <!--  beside  -->
+    </item>
+    <item src="words/eiʒô.xml" tag="jst-0008 adp">
+        <lemma>*eiʒô</lemma>
+        <!--  of  -->
+    </item>
+    <item src="words/eifai.xml" tag="jst-0008 adp">
+        <lemma>*eifai</lemma>
+        <!--  at  -->
+    </item>
+    <item src="words/dôt.xml" tag="jst-0008 verb">
+        <lemma>*dôt</lemma>
+        <!--  is  -->
+    </item>
+    <item src="words/hôwei.xml" tag="jst-0008 verb">
+        <lemma>*hôwei</lemma>
+        <!--  do  -->
+    </item>
+    <item src="words/deiô.xml" tag="jst-0008 verb">
+        <lemma>*deiô</lemma>
+        <!--  go (to)  -->
+    </item>
+    <item src="words/têô.xml" tag="jst-0008 verb">
+        <lemma>*têô</lemma>
+        <!--  stop  -->
+    </item>
+    <item src="words/ôtsî.xml" tag="jst-0008 verb foodr">
+        <lemma>*ôtsî</lemma>
+        <!--  eat  -->
+    </item>
+    <item src="words/ôdsô.xml" tag="jst-0008 verb foodr">
+        <lemma>*ôdsô</lemma>
+        <!--  drink  -->
+    </item>
+    <item src="words/xôwî.xml" tag="jst-0008 verb const">
+        <lemma>*xôwî</lemma>
+        <!--  make  -->
+    </item>
+    <item src="words/auhî.xml" tag="jst-0008 verb">
+        <lemma>*auhî</lemma>
+        <!--  destroy  -->
+    </item>
+    <item src="words/dausût.xml" tag="jst-0008 verb">
+        <lemma>*dausût</lemma>
+        <!--  give  -->
+    </item>
+    <item src="words/deiôsô.xml" tag="jst-0008 verb">
+        <lemma>*deiôsô</lemma>
+        <!--  take  -->
+    </item>
+    <item src="words/dôhai.xml" tag="jst-0008 verb">
+        <lemma>*dôhai</lemma>
+        <!--  have  -->
+    </item>
+    <item src="words/tausô.xml" tag="jst-0008 verb">
+        <lemma>*tausô</lemma>
+        <!--  want  -->
+    </item>
+    <item src="words/dâseit.xml" tag="jst-0008 verb">
+        <lemma>*dâseit</lemma>
+        <!--  need  -->
+    </item>
+    <item src="words/dûdôwâ.xml" tag="jst-0008 verb">
+        <lemma>*dûdôwâ</lemma>
+        <!--  grow  -->
+    </item>
+    <item src="words/ôsû.xml" tag="jst-0008 verb">
+        <lemma>*ôsû</lemma>
+        <!--  use  -->
+    </item>
+    <item src="words/ʒeisô.xml" tag="jst-0008 verb touch">
+        <lemma>*ʒeisô</lemma>
+        <!--  touch; feel  -->
+    </item>
+    <item src="words/jâseitô.xml" tag="jst-0008 verb lang">
+        <lemma>*jâseitô</lemma>
+        <!--  speak  -->
+    </item>
+    <item src="words/dôtôwâ.xml" tag="jst-0008 verb bior">
+        <lemma>*dôtôwâ</lemma>
+        <!--  sleep  -->
+    </item>
+    <item src="words/hôwôsî.xml" tag="jst-0008 verb sight">
+        <lemma>*hôwôsî</lemma>
+        <!--  see  -->
+    </item>
+    <item src="words/dôweit.xml" tag="jst-0008 verb">
+        <lemma>*dôweit</lemma>
+        <!--  mix  -->
+    </item>
+    <item src="words/tôtô.xml" tag="jst-0008 verb">
+        <lemma>*tôtô</lemma>
+        <!--  enable  -->
+    </item>
+    <item src="words/dauteiô.xml" tag="jst-0008 verb">
+        <lemma>*dauteiô</lemma>
+        <!--  fly  -->
+    </item>
+    <item src="words/dâeud.xml" tag="jst-0008 verb">
+        <lemma>*dâeud</lemma>
+        <!--  grab  -->
+    </item>
+    <item src="words/fôeisô.xml" tag="jst-0008 verb">
+        <lemma>*fôeisô</lemma>
+        <!--  drop  -->
+    </item>
+    <item src="words/îdautai.xml" tag="jst-0008 verb">
+        <lemma>*îdautai</lemma>
+        <!--  attack  -->
+    </item>
+    <item src="words/âtaus.xml" tag="jst-0008 verb emotn life">
+        <lemma>*âtaus</lemma>
+        <!--  hurt  -->
+    </item>
+    <item src="words/saitei.xml" tag="jst-0008 verb">
+        <lemma>*saitei</lemma>
+        <!--  punch  -->
+    </item>
+    <item src="words/sîtai.xml" tag="jst-0008 verb">
+        <lemma>*sîtai</lemma>
+        <!--  kick  -->
+    </item>
+    <item src="words/tôtei.xml" tag="jst-0008 verb">
+        <lemma>*tôtei</lemma>
+        <!--  depart (from)  -->
+    </item>
+    <item src="words/xôwûtî.xml" tag="jst-0008 verb life">
+        <lemma>*xôwûtî</lemma>
+        <!--  kill  -->
+    </item>
+    <item src="words/diyteiʒô.xml" tag="jst-0008 verb">
+        <lemma>*diyteiʒô</lemma>
+        <!--  raise  -->
+    </item>
+    <item src="words/feitjôsô.xml" tag="jst-0008 verb">
+        <lemma>*feitjôsô</lemma>
+        <!--  draw (in)  -->
+    </item>
+    <item src="words/fûtâsô.xml" tag="jst-0008 verb art">
+        <lemma>*fûtâsô</lemma>
+        <!--  draw; illustrate  -->
+    </item>
+    <item src="words/daudô.xml" tag="jst-0008 verb">
+        <lemma>*daudô</lemma>
+        <!--  pull  -->
+    </item>
+    <item src="words/ʒaiʒau.xml" tag="jst-0008 qualcon">
+        <lemma>*ʒaiʒau</lemma>
+        <!--  together; collected  -->
+    </item>
+    <item src="words/pô.xml" tag="jst-0008 conj">
+        <lemma>*pô</lemma>
+        <!--  while  -->
+    </item>
+    <item src="words/ʒâxsô.xml" tag="jst-0008 name">
+        <lemma>*ʒâxsô</lemma>
+        <!--  "sharp beauty"  -->
+    </item>
+    <item src="words/deixû.xml" tag="jst-0008 const easky">
+        <lemma>*deixû</lemma>
+        <!--  house; habitat  -->
+    </item>
+    <item src="words/seixît.xml" tag="jst-0008 const">
+        <lemma>*seixît</lemma>
+        <!--  store; grocery  -->
+    </item>
+    <item src="words/pâtô.xml" tag="jst-0008 ppl">
+        <lemma>*pâtô</lemma>
+        <!--  father  -->
+    </item>
+    <item src="words/aiʒô.xml" tag="jst-0008 verb">
+        <lemma>*aiʒô</lemma>
+        <!--  meet  -->
+    </item>
+    <item src="words/dauxû.xml" tag="jst-0008 const">
+        <lemma>*dauxû</lemma>
+        <!--  brothel  -->
+    </item>
+    <item src="words/ʒâseiteuei.xml" tag="jst-0008 name">
+        <lemma>*ʒâseiteuei</lemma>
+        <!--  "heard by the spirits"  -->
+    </item>
+    <item src="words/ʒâseiteuei.xml" tag="jst-0008 name">
+        <lemma>*ʒâsei</lemma>
+        <!--  "heard by the spirits"  -->
+    </item>
+    <item src="words/gautô.xml" tag="jst-0008 ppl">
+        <lemma>*gautô</lemma>
+        <!--  prostitute  -->
+    </item>
+    <item src="words/tôxfô.xml" tag="jst-0008 verb">
+        <lemma>*tôxfô</lemma>
+        <!--  fuck  -->
+    </item>
+    <item src="words/dâeufût.xml" tag="jst-0008 dist">
+        <lemma>*dâeufût</lemma>
+        <!--  portion  -->
+    </item>
+    <item src="words/tauʒû.xml" tag="jst-0008 lang">
+        <lemma>*tauʒû</lemma>
+        <!--  syllable  -->
+    </item>
+    <item src="words/dôwû.xml" tag="jst-0008 qualcon lang">
+        <lemma>*dôwû</lemma>
+        <!--  roman; romanized; romanization  -->
+    </item>
+    <item src="words/sâaifei.xml" tag="jst-0008 verb">
+        <lemma>*sâaifei</lemma>
+        <!--  move  -->
+    </item>
+    <item src="words/saifeideuwei.xml" tag="jst-0008 const tool">
+        <lemma>*saifeideuwei</lemma>
+        <!--  bus  -->
+    </item>
+    <item src="words/heiwîôs.xml" tag="jst-0008 verb">
+        <lemma>*heiwîôs</lemma>
+        <!--  hunt  -->
+    </item>
+    <item src="words/âwô.xml" tag="jst-0008 verb lang">
+        <lemma>*âwô</lemma>
+        <!--  ask  -->
+    </item>
+    <item src="words/dâeu.xml" tag="jst-0008 verb">
+        <lemma>*dâeu</lemma>
+        <!--  break up  -->
+    </item>
+    <item src="words/aueiô.xml" tag="jst-0008 qualcon">
+        <lemma>*aueiô</lemma>
+        <!--  detail  -->
+    </item>
+    <item src="words/aux.xml" tag="jst-0008 adp">
+        <lemma>*aux</lemma>
+        <!--  for  -->
+    </item>
+    <item src="words/jeisô.xml" tag="jst-0008 name">
+        <lemma>*jeisô</lemma>
+        <!--  "is felt"  -->
+    </item>
+    <item src="words/ûteiô.xml" tag="jst-0008 name">
+        <lemma>*ûteiô</lemma>
+        <alt>utāō</alt>
+        <!--  storm  -->
+    </item>
+    <item src="words/teu.xml" tag="jst-0008 verb">
+        <lemma>*teu</lemma>
+        <!--  like  -->
+    </item>
+    <item src="words/teigaus.xml" tag="jst-0008 verb">
+        <lemma>*teigaus</lemma>
+        <!--  mean; intend  -->
+    </item>
+    <item src="words/seidô.xml" tag="jst-0008 verb">
+        <lemma>*seidô</lemma>
+        <!--  bring  -->
+    </item>
+    <item src="words/xaihô.xml" tag="jst-0008 name">
+        <lemma>*xaihô</lemma>
+        <!--  light  -->
+    </item>
+    <item src="words/deitô.xml" tag="jst-0008 body">
+        <lemma>*deitô</lemma>
+        <!--  wing  -->
+    </item>
+    <item src="words/teiaufeut.xml" tag="jst-0008 body">
+        <lemma>*teiaufeut</lemma>
+        <!--  feather  -->
+    </item>
+    <item src="words/teifâ.xml" tag="jst-0008 name">
+        <lemma>*teifâ</lemma>
+        <!--  feather  -->
+    </item>
+    <item src="words/dôfû.xml" tag="jst-0008 qualcon dist">
+        <lemma>*dôfû</lemma>
+        <!--  tall; high; height  -->
+    </item>
+    <item src="words/ʒâtais.xml" tag="jst-0008 emotn qualcon">
+        <lemma>*ʒâtais</lemma>
+        <!--  empathy; empathetic; condolences  -->
+    </item>
+    <item src="words/feitjûdei.xml" tag="jst-0008 verb">
+        <lemma>*feitjûdei</lemma>
+        <!--  concern; mind  -->
+    </item>
+    <item src="words/saudû.xml" tag="jst-0008 verb">
+        <lemma>*saudû</lemma>
+        <!--  exchange  -->
+    </item>
+    <item src="words/ʒôfau.xml" tag="jst-0008 abs">
+        <lemma>*ʒôfau</lemma>
+        <!--  valuable; value  -->
+    </item>
+    <item src="words/ʒôaus.xml" tag="jst-0008 verb">
+        <lemma>*ʒôaus</lemma>
+        <!--  appreciate  -->
+    </item>
+    <item src="words/tei.xml" tag="jst-0008 ppl">
+        <lemma>*tei</lemma>
+        <!--  honorific  -->
+    </item>
+    <item src="words/taufô.xml" tag="jst-0008 pron abs">
+        <lemma>*taufô</lemma>
+        <!--  nothing  -->
+    </item>
+    <item src="words/toiʒau.xml" tag="jst-0008 pron abs">
+        <lemma>*toiʒau</lemma>
+        <alt>toizhau</alt>
+        <!--  everything; all  -->
+    </item>
+    <item src="words/wau.xml" tag="jst-0008 conj">
+        <lemma>*wau</lemma>
+        <!--  to  -->
+    </item>
+    <item src="words/tôdâx.xml" tag="jst-0008 verb life">
+        <lemma>*tôdâx</lemma>
+        <!--  live  -->
+    </item>
+    <item src="words/ûxwôs.xml" tag="jst-0008 verb sight lang">
+        <lemma>*ûxwôs</lemma>
+        <!--  show; present  -->
+    </item>
+    <item src="words/ʒôsai.xml" tag="jst-0008 cla">
+        <lemma>*ʒôsai</lemma>
+        <!--  generic classifier  -->
+    </item>
+    <item src="words/ʒâfû.xml" tag="jst-0008 qualcon abs">
+        <lemma>*ʒâfû</lemma>
+        <!--  partitioned; fragmented; thing; piece  -->
+    </item>
+    <item src="words/ôweixeuê.xml" tag="jst-0008 actn">
+        <lemma>*ôweixeuê</lemma>
+        <alt>ōwāhhūë</alt>
+        <!--  practiced; practice  -->
+    </item>
+    <item src="words/tôxhô.xml" tag="jst-0008 ppl qualcon">
+        <lemma>*tôxhô</lemma>
+        <!--  studious; student  -->
+    </item>
+    <item src="words/-l'gô.xml" tag="affix verb-tense">
+        <lemma>*-l'gô</lemma>
+        <!--  past tense  -->
+    </item>
+    <item src="words/-l'â.xml" tag="affix verb-tense">
+        <lemma>*-l'â</lemma>
+        <!--  future tense  -->
+    </item>
+
+</lexis>

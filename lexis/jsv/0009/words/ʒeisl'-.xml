@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*ʒeisl'-</lemma>
+    <entry>
+        <etymology>jst-0008</etymology>
+        <section>
+            <heading xml:lang="en">affix</heading>
+            <def xml:lang="en">conjugates a verb in the renarrative mood</def>
+        </section>
+        <aside xml:lang="en">The renarrative mood is used to show that the information is second-hand, especially when the validity of the original source is questioned (<html:i>I heard that…</html:i>).</aside>
+        </section>
+    </entry>
+</word>
