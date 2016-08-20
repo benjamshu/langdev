@@ -1,21 +1,21 @@
-#  SEVENSI FIRST-IN-DEVELOPMENT VIV :: GRAMMAR  #
+#  OLD SEVENSI VIV :: GRAMMAR  #
 
-The grammar of SEVENSI FIRST-IN-DEVELOPMENT VIV diverges somewhat from that of JÄSTŪGEI VIII.
+The grammar of OLD SEVENSI VIV diverges somewhat from that of JÄSTŪGEI VIII.
 This document aims to serve as an overview to how sentences are roughly constructed.
 
 ##  Parts of speech:  ##
 
-SEVENSI FIRST-IN-DEVELOPMENT VIV utilizes the following broad "parts of speech":
+OLD SEVENSI VIV utilizes the following broad "parts of speech":
 
 -   __The article__ defines a noun phrase.
     Examples of articles in ENGLISH are *a* (indefinite) and *the* (definite).
-    SEVENSI FIRST-IN-DEVELOPMENT VIV has indefinite and definite articles, as well as a third, proper article.
+    OLD SEVENSI VIV has indefinite and definite articles, as well as a third, proper article.
     The proper article is used to indicate a proper name.
 
 -   __The noun~adjective__ identifies the thing being spoken of, or modifies another noun~adjective
 
 -   __The verb__ describes the relationship between the nouns in a sentence.
-    In SEVENSI FIRST-IN-DEVELOPMENT VIV, the subject has shifted to the front of the sentence, creating a SVO word-order.
+    In OLD SEVENSI VIV, the subject has shifted to the front of the sentence, creating a SVO word-order.
 
 -   __The conjunction__ joins parts of sentences.
 

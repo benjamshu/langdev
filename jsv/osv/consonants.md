@@ -1,4 +1,4 @@
-#  SEVENSI FIRST-IN-DEVELOPMENT :: CONSONANTS  #
+#  OLD SEVENSI :: CONSONANTS  #
 
 ##  Voiced:  ##
 

@@ -1,6 +1,6 @@
-#  SEVENSI FIRST-IN-DEVELOPMENT X  #
+#  OLD SEVENSI X  #
 
-The first level of evolution and abstraction from PROTO-SEVENSI; in which the grammars are formalized and the phonology is brought better under control.
+The first level of evolution and abstraction from JASTU-SEVENSI VIV; in which the grammars are formalized and the phonology is brought better under control.
 
 ##  Changes from VIV and previous:  ##
 
@@ -8,7 +8,7 @@ The first level of evolution and abstraction from PROTO-SEVENSI; in which the gr
 
 In JÄSTŪGĀ/JÄSTŪGEI VIII, a nasalized *ā* sound was used to indicate feminine connotations in a small subset of words.
 These feminine connotations were largely removed in VIV, and the nasalization was detached into a word-final *-ng*.
-SEVENSI FIRST-IN-DEVELOPMENT lacks any grammatical gender and this nasalization pattern has expanded to other syllables.
+OLD SEVENSI lacks any grammatical gender and this nasalization pattern has expanded to other syllables.
 
 ###  splits and merges  ###
 
@@ -33,7 +33,7 @@ In word-final compound codas, the second letter is not pronounced.
 
 ## Orthography: ##
 
-SEVENSI FIRST-IN-DEVELOPMENT uses korean hangul as its writing system. Some sounds have changed to match sevensian phonology.
+OLD SEVENSI uses korean hangul as its writing system. Some sounds have changed to match sevensian phonology.
 
 ### Initials: ###
 

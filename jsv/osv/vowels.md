@@ -1,6 +1,6 @@
-#  SEVENSI FIRST-IN-DEVELOPMENT :: VOWELS  #
+#  OLD SEVENSI :: VOWELS  #
 
-Vowels in SEVENSI FIRST-IN-DEVELOPMENT fall into one of three main *harmonization groups*.
+Vowels in OLD SEVENSI fall into one of three main *harmonization groups*.
 Vowel harmonization affects the way morphemes attach themselves to words.
 The three harmonization groups are as follows:
 
