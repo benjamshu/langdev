@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0009">
+    <lemma>*dôtâdô</lemma>
+    <entry>
+        <section>
+            <heading xml:lang="en">nominal</heading>
+            <alts xml:lang="en">root: <html:i xml:lang="art-x-osv-0009">*tâdô-</html:i>; affix: <html:i xml:lang="art-x-osv-0009">*-(t)dô</html:i></alts>
+            <def xml:lang="en">a head</def>
+            <def xml:lang="en">a person in charge</def>
+            <def xml:lang="en">principal; primary; most important</def>
+        </section>
+    </entry>
+</word>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexis xmlns="about:lexisml?lexis" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jtl-0001">
+
+    <meta type="title" xml:lang="en">I</meta>
+    <meta type="description" xml:lang="en">The first version of JĀSTULÆ contained only three words: a generic pro-form, <html:i>stop</html:i> (also, <html:i>no</html:i>), and <html:i>go</html:i> (also, <html:i>yes</html:i>). No formal grammar was ever developed.</meta>
+
+    <item src="words/sā.xml"><lemma>sā</lemma></item>
+    <item src="words/doi.xml"><lemma>doi</lemma></item>
+    <item src="words/aht.xml"><lemma>aht</lemma></item>
+
+</lexis>

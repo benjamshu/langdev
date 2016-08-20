@@ -1,0 +1,342 @@
+File-Date: 2016-04-17
+%%
+Type: language
+Subtag: oen
+Description: The Old Language
+Added: 2015-10-06
+Suppress-Script: Latn
+%%
+Type: language
+Subtag: fzn
+Description: Fizonal
+Added: 2015-10-06
+%%
+Type: language
+Subtag: fiz
+Description: Fizeng
+Added: 2015-10-06
+Suppress-Script: Hani
+%%
+Type: language
+Subtag: flu
+Description: Fluine
+Description: Fluîne
+Added: 2015-10-06
+%%
+Type: language
+Subtag: jsv
+Description: Jastu-Sevensi
+Added: 2015-10-06
+%%
+Type: language
+Subtag: eho
+Description: E Hope
+Description: E. Hope
+Added: 2015-10-06
+%%
+Type: language
+Subtag: jtl
+Description: Jastulae
+Description: Jāstulæ
+Added: 2015-10-06
+%%
+Type: language
+Subtag: lrx
+Description: Lrex
+Added: 2015-10-06
+%%
+Type: language
+Subtag: jst
+Description: Jastugay
+Description: Jästūgā
+Description: Jästūgei
+Added: 2015-10-06
+%%
+Type: language
+Subtag: osv
+Description: Classical Sevensi
+Added: 2015-10-06
+%%
+Type: language
+Subtag: osm
+Description: Middle Sevensi
+Added: 2015-10-06
+%%
+Type: language
+Subtag: svi
+Description: Sevensi
+Added: 2015-10-06
+%%
+Type: script
+Subtag: Sevr
+Description: Ancient Sevensi Runes
+Added: 2015-10-25
+%%
+Type: script
+Subtag: Bkde
+Description: Bencode
+Added: 2016-04-17
+%%
+Type: variant
+Subtag: proto
+Description: Langdev Proto-Language
+Added: 2015-10-06
+Prefix: fiz
+Prefix: flu
+%%
+Type: variant
+Subtag: 1der
+Description: Fizeng First-Derivative
+Added: 2015-10-06
+Prefix: fiz
+%%
+Type: variant
+Subtag: 2der
+Description: Fizeng Second-Derivative
+Added: 2015-10-06
+Prefix: fiz
+%%
+Type: variant
+Subtag: release
+Description: Fizeng Release-Candidate
+Added: 2015-10-06
+Prefix: fiz
+%%
+Type: variant
+Subtag: final
+Description: Fizeng Final Release
+Added: 2015-10-06
+Prefix: fiz
+%%
+Type: variant
+Subtag: 0001
+Description: Iteration I
+Added: 2015-10-06
+Prefix: eho
+Prefix: jtl
+Prefix: lrx
+%%
+Type: variant
+Subtag: 0002
+Description: Iteration II
+Added: 2015-10-06
+Prefix: eho
+Prefix: jtl
+Prefix: lrx
+%%
+Type: variant
+Subtag: 0003
+Description: Iteration III
+Added: 2015-10-06
+Prefix: eho
+Prefix: jtl
+Prefix: lrx
+%%
+Type: variant
+Subtag: 0004
+Description: Iteration IV
+Added: 2015-10-06
+Prefix: jtl
+Prefix: lrx
+%%
+Type: variant
+Subtag: 0005
+Description: Iteration V
+Added: 2015-10-06
+Prefix: jtl
+Prefix: lrx
+%%
+Type: variant
+Subtag: 0006
+Description: Iteration VI
+Added: 2015-10-06
+Prefix: jtl
+Prefix: lrx
+%%
+Type: variant
+Subtag: 0007
+Description: Iteration VII
+Added: 2015-10-06
+Prefix: jtl
+%%
+Type: variant
+Subtag: 0008
+Description: Iteration VIII
+Added: 2015-10-06
+Prefix: jst
+%%
+Type: variant
+Subtag: 0009
+Description: Iteration VIV
+Added: 2015-10-06
+Prefix: jsv
+Prefix: jst
+Prefix: osv
+%%
+Type: variant
+Subtag: 0010
+Description: Iteration X
+Added: 2015-10-06
+Prefix: osv
+%%
+Type: variant
+Subtag: 0011
+Description: Iteration XI
+Added: 2015-10-06
+Prefix: osv
+%%
+Type: variant
+Subtag: 0012
+Description: Iteration XII
+Added: 2015-10-06
+Prefix: osv
+%%
+Type: variant
+Subtag: block000
+Description: Development Block 000
+Added: 2016-02-12
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block001
+Description: Development Block 001
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block002
+Description: Development Block 002
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0011
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block003
+Description: Development Block 003
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block004
+Description: Development Block 004
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block005
+Description: Development Block 005
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block006
+Description: Development Block 006
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block007
+Description: Development Block 007
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block008
+Description: Development Block 008
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block009
+Description: Development Block 009
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block010
+Description: Development Block 010
+Added: 2015-10-06
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block011
+Description: Development Block 011
+Added: 2015-10-24
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block012
+Description: Development Block 012
+Added: 2015-10-24
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block013
+Description: Development Block 013
+Added: 2015-10-24
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block014
+Description: Development Block 014
+Added: 2015-10-30
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block015
+Description: Development Block 015
+Added: 2015-10-30
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der
+%%
+Type: variant
+Subtag: block016
+Description: Development Block 016
+Added: 2015-12-01
+Prefix: osv-0010
+Prefix: osv-0011
+Prefix: osv-0012
+Prefix: fiz-1der

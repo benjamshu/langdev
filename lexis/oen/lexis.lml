@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lexis>
+<lexis xml:lang="art-x-oen" xmlns="http://leaf.faint.xyz/lexisml">
+    <meta name="title" xml:lang="en">THE OLD LANGUAGE</meta>
+    <meta name="description" xml:lang="en">A fictional old-english_ Nothing special_</meta>
+    <word>
+        <form class="n">erthie</form>
+        <meaning xml:lang="en">earth</meaning>
+    </word>
+    <word>
+        <form class="n">espiritus</form>
+        <meaning xml:lang="en">spirit</meaning>
+    </word>
+    <word>
+        <form class="n">alcimiya</form>
+        <meaning xml:lang="en">alchemy</meaning>
+    </word>
+    <word>
+        <form class="n adj">goeld</form>
+        <meaning xml:lang="en">gold</meaning>
+    </word>
+    <word>
+        <form class="n">weorlde</form>
+        <meaning xml:lang="en">world</meaning>
+    </word>
+    <word>
+        <form class="v">submonenre</form>
+        <meaning xml:lang="en">summon</meaning>
+    </word>
+    <word>
+        <form class="n">magika</form>
+        <meaning xml:lang="en">magic</meaning>
+    </word>
+    <word>
+        <form class="sing n">pouser</form>
+        <meaning xml:lang="en">power</meaning>
+    </word>
+    <word>
+        <form class="v">intran</form>
+        <meaning xml:lang="en">enter</meaning>
+    </word>
+    <word>
+        <form class="n">planu</form>
+        <meaning xml:lang="en">plane</meaning>
+    </word>
+    <word>
+        <form class="v">aparen</form>
+        <meaning xml:lang="en">appear</meaning>
+    </word>
+    <word>
+        <form class="pron.3.sing.inan">hiet</form>
+        <meaning xml:lang="en">it</meaning>
+    </word>
+    <word>
+        <form class="det.def.art">thes</form>
+        <meaning xml:lang="en">the</meaning>
+    </word>
+    <word>
+        <form class="n">fiern</form>
+        <meaning xml:lang="en">being</meaning>
+    </word>
+    <word lemma="bon">
+        <form class="v.inf">bon</form>
+        <form class="v.fin.sing">ist</form>
+        <form class="v.fin.pl">arth</form>
+        <meaning xml:lang="en">be; is</meaning>
+    </word>
+    <word>
+        <form class="n">thaliksir</form>
+        <meaning xml:lang="en">elixir of life</meaning>
+    </word>
+    <word>
+        <form class="n">planetea</form>
+        <meaning xml:lang="en">planet</meaning>
+    </word>
+    <word>
+        <form class="v">abandener</form>
+        <meaning xml:lang="en">abandon</meaning>
+    </word>
+    <word>
+        <form class="v">abductore</form>
+        <meaning xml:lang="en">abduct</meaning>
+    </word>
+    <word>
+        <form class="n">habilite</form>
+        <meaning xml:lang="en">ability</meaning>
+    </word>
+    <word>
+        <form class="adj">anormis</form>
+        <meaning xml:lang="en">abnormal</meaning>
+    </word>
+    <word>
+        <form class="adp">aboutan</form>
+        <meaning xml:lang="en">about</meaning>
+    </word>
+    <word>
+        <form class="adp">abuvan</form>
+        <meaning xml:lang="en">above</meaning>
+    </word>
+    <word>
+        <form class="v">awakenian</form>
+        <meaning xml:lang="en">awaken</meaning>
+    </word>
+    <word>
+        <form class="n">dimensuo</form>
+        <meaning xml:lang="en">dimension</meaning>
+    </word>
+    <word>
+        <form class="adp">aof</form>
+        <meaning xml:lang="en">of</meaning>
+    </word>
+    <word>
+        <form class="n">lieve</form>
+        <meaning xml:lang="en">life</meaning>
+    </word>
+    <word>
+        <form class="adj">beryht</form>
+        <meaning xml:lang="en">bright</meaning>
+    </word>
+    <word>
+        <form class="pron.1.sing.nom">ihk</form>
+        <meaning xml:lang="en">i</meaning>
+    </word>
+    <word>
+        <form class="v">kallen</form>
+        <meaning xml:lang="en">call</meaning>
+    </word>
+    <word>
+        <form class="adp">uppon</form>
+        <meaning xml:lang="en">upon</meaning>
+    </word>
+    <word>
+        <form class="pron.2.sing">eou</form>
+        <meaning xml:lang="en">you</meaning>
+    </word>
+    <word>
+        <form class="adp ptcl">zoo</form>
+        <meaning xml:lang="en">to</meaning>
+    </word>
+    <word>
+        <form class="v">halen</form>
+        <meaning xml:lang="en">heal</meaning>
+    </word>
+    <word>
+        <form class="pron.1.sing.obj">mei</form>
+        <form class="adj">myn</form>
+        <meaning xml:lang="en">me</meaning>
+    </word>
+    <word>
+        <form class="conj">oen</form>
+        <meaning xml:lang="en">conjunction</meaning>
+    </word>
+    <word>
+        <form class="adj pron.qnty">eal</form>
+        <meaning xml:lang="en">all</meaning>
+    </word>
+    <word>
+        <form class="adj">leyal</form>
+        <meaning xml:lang="en">loyal</meaning>
+    </word>
+    <word>
+        <form class="n">cynge</form>
+        <meaning xml:lang="en">king</meaning>
+    </word>
+    <word>
+        <form class="v">macan</form>
+        <meaning xml:lang="en">make</meaning>
+    </word>
+    <word>
+        <form class="pron.1.pl">nus</form>
+        <meaning xml:lang="en">us</meaning>
+    </word>
+    <word>
+        <form class="adj">strangre</form>
+        <meaning xml:lang="en">strong</meaning>
+    </word>
+    <word>
+        <form class="v">laten</form>
+        <meaning xml:lang="en">let</meaning>
+    </word>
+    <word>
+        <form class="v">surger</form>
+        <meaning xml:lang="en">surge</meaning>
+    </word>
+    <word>
+        <form class="adp">thrurgh</form>
+        <meaning xml:lang="en">through</meaning>
+    </word>
+    <word>
+        <form class="v adj">compleate</form>
+        <meaning xml:lang="en">complete</meaning>
+    </word>
+    <word>
+        <form class="adp">fure</form>
+        <meaning xml:lang="en">for</meaning>
+    </word>
+    <word>
+        <form class="n">taskare</form>
+        <meaning xml:lang="en">task</meaning>
+    </word>
+    <word>
+        <form class="det.dem pron.dem">thise</form>
+        <meaning xml:lang="en">these</meaning>
+    </word>
+    <word>
+        <form class="pron.3.pl">thei</form>
+        <meaning xml:lang="en">they</meaning>
+    </word>
+    <word>
+        <form class="n v">willan</form>
+        <meaning xml:lang="en">will</meaning>
+    </word>
+    <word>
+        <form class="adj n">dergoc</form>
+        <meaning xml:lang="en">dark</meaning>
+    </word>
+    <word>
+        <form class="n">neocht</form>
+        <meaning xml:lang="en">knight</meaning>
+    </word>
+    <word>
+        <form class="n">dhesosk</form>
+        <meaning xml:lang="en">daze</meaning>
+    </word>
+</lexis>

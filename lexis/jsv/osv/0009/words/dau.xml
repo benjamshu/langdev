@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-osv-0009">
+    <lemma>*dau</lemma>
+    <entry>
+        <section>
+            <heading xml:lang="en">conjunction</heading>
+            <def xml:lang="en">just as… so</def>
+        </section>
+        <aside xml:lang="en"><html:i xml:lang="art-x-jsv-0009">*dau</html:i> is used when the second statement <html:strong>parallels or is related to</html:strong> the first</aside>
+    </entry>
+</word>

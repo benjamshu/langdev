@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-jsv-0009">
+    <lemma>*dôjaidô</lemma>
+    <entry>
+        <etymology>jst-0008</etymology>
+        <section>
+            <heading xml:lang="en">adjective</heading>
+            <def xml:lang="en">sweet</def>
+        </section>
+        <section>
+            <heading xml:lang="en">noun</heading>
+            <def xml:lang="en">sweetness</def>
+            <def xml:lang="en">sugar</def>
+        </section>
+    </entry>
+</word>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word xmlns="about:lexisml?word" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="art-x-fiz-2der">
+    <lemma>卜車</lemma>
+    <pron>uru</pron>
+    <entry>
+        <etymology xml:lang="en">from PL <html:i xml:lang="art-x-fzn-proto">-ur</html:i>, a verb suffix used to note cyclical or reflexive actions, later detached as an adverb/post-position</etymology>
+        <section>
+            <heading xml:lang="en">post-position</heading>
+            <def xml:lang="en">reflexive marker</def>
+        </section>
+        <section>
+            <heading xml:lang="en">adverb</heading>
+            <def xml:lang="en">repeatedly; often</def>
+        </section>
+    </entry>
+</word>
