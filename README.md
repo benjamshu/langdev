@@ -5,11 +5,11 @@ GitHub repo for all language development by [@literallybenjam](https://github.co
 ##  Branches:  ##
 This project is split into several branches, described below:
 
-###  [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped)  ###
+###  [`data`](https://github.com/literallybenjam/langdev/tree/data)  ###
 
-The [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped) branch contains data files related to the various LANGDEV languages.
+The [`data`](https://github.com/literallybenjam/langdev/tree/data) branch contains data files related to the various LANGDEV languages.
 These files are used to generate the LANGDEV dictionaries.
-The [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped) branch also contains the [`language-subtag-registry`](language-subtag-registry), which defines the various LANGDEV subtags (see below).
+The [`data`](https://github.com/literallybenjam/langdev/tree/data) branch also contains the [`language-subtag-registry`](language-subtag-registry), which defines the various LANGDEV subtags (see below).
 
 LANGDEV uses the LexisML Index Record (LREC) format in conjunction with HTML to keep track of languages' lexicons.
 Due to the scope of the project, however, the now-depreciated LexisML 1.0 and 2.0 formats are still sometimes in use.
@@ -21,7 +21,7 @@ Documentation files are provided in GitHub-Flavored Markdown (GFM) and designed 
 
 ###  [`tools`](https://github.com/literallybenjam/langdev/tree/tools)  ###
 
-The [`tools`](https://github.com/literallybenjam/langdev/tree/tools) branch contains various processing tools for dealing with the documents presented in [`stripped`](https://github.com/literallybenjam/langdev/tree/stripped).
+The [`tools`](https://github.com/literallybenjam/langdev/tree/tools) branch contains various processing tools for dealing with the documents presented in [`data`](https://github.com/literallybenjam/langdev/tree/data).
 See [the GitHub Pages website](http://langdev.xyz/) to view some of these tools in action, or view the source in the [`master`](https://github.com/literallybenjam/langdev/tree/master) branch.
 
 ###  [`fonts`](https://github.com/literallybenjam/langdev/tree/fonts)  ###

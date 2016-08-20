@@ -2,14 +2,14 @@
 /* globals Lexis */
 
 var Dictionaries = {
-    "svi-proto": "../languages/jsv/0009/",  //  depreciated; use jsv-0009 where possible
-    "svi-0009": "../languages/jsv/0009/",  //  depreciated; use jsv-0009 where possible
-    "jsv-0009": "../languages/jsv/0009/",
-    "osv-0009": "../languages/jsv/osv/0009/",
-    "fiz-1der": "../languages/fzn/fiz/1der/",
-    "fiz-2der": "../languages/fzn/fiz/2der/",
-    "fiz-release": "../languages/fzn/fiz/release/",
-    "fiz-final": "../languages/fzn/fiz/final/"
+    "svi-proto": "../lexis/jsv/0009/",  //  depreciated; use jsv-0009 where possible
+    "svi-0009": "../lexis/jsv/0009/",  //  depreciated; use jsv-0009 where possible
+    "jsv-0009": "../lexis/jsv/0009/",
+    "osv-0009": "../lexis/jsv/osv/0009/",
+    "fiz-1der": "../lexis/fzn/fiz/1der/",
+    "fiz-2der": "../lexis/fzn/fiz/2der/",
+    "fiz-release": "../lexis/fzn/fiz/release/",
+    "fiz-final": "../lexis/fzn/fiz/final/"
 }
 
 function getQuery(name) {
