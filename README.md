@@ -1,6 +1,12 @@
 # THE LANGUAGE
 
-__CURRENT STATUS : UNDERGOING PROTO-LANGUAGE PRE-POPULATION__
+## status
+
+* PROTO-PROTO-LANGUAGE PHONOSEMANTICS : COMPLETE
+* PROTO-PROTO-LANGUAGE LEXICON : COMPLETE
+* __PROTO-LANGUAGE PRE-POPULATION : IN PROGRESS__
+
+## description
 
 THE LANGUAGE is a linguistic project to create a fictitious language not bound to any geographic region or culture. See [home.benjam.xyz/langdev](http://home.benjam.xyz/langdev) for more human-readable information.
 
