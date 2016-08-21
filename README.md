@@ -9,15 +9,17 @@ This project is split into several branches, described below:
 
 The [`data`](https://github.com/literallybenjam/langdev/tree/data) branch contains data files related to the various LANGDEV languages.
 These files are used to generate the LANGDEV dictionaries.
-The [`data`](https://github.com/literallybenjam/langdev/tree/data) branch also contains the [`language-subtag-registry`](language-subtag-registry), which defines the various LANGDEV subtags (see below).
+The [`data`](https://github.com/literallybenjam/langdev/tree/data) branch also contains the [`language-subtag-registry`](language-subtag-registry), which defines the various LANGDEV subtags (see below), and a UCD to assist with integrating LANGDEV scripts with Unicode.
 
-LANGDEV uses the LexisML Index Record (LREC) format in conjunction with HTML to keep track of languages' lexicons.
+LANGDEV uses the [LexisML Index Record (LREC)](documentation/standards/WD/0002.lsdoc) format in conjunction with HTML to keep track of languages' lexicons.
 Due to the scope of the project, however, the now-depreciated LexisML 1.0 and 2.0 formats are still sometimes in use.
 
 ###  [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation)  ###
 
 The [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation) branch contains documentation and information about each language or script.
 Documentation files are provided in GitHub-Flavored Markdown (GFM) and designed to render well through [`github.com`](https://github.com).
+
+The [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation) branch also includes various standards related to language development, and information on character sets, including Unicode.
 
 ###  [`tools`](https://github.com/literallybenjam/langdev/tree/tools)  ###
 
@@ -28,14 +30,6 @@ See [the GitHub Pages website](http://langdev.xyz/) to view some of these tools 
 
 Font development for The LANGDEV Project takes place in the [`fonts`](https://github.com/literallybenjam/langdev/tree/fonts) branch.
 Font development takes place using FontForge.
-
-###  [`unicode`](https://github.com/literallybenjam/langdev/tree/unicode)  ###
-
-At times during language development, it will be necessary to define characters or scripts not currently encoded into Unicode.
-The [`unicode`](https://github.com/literallybenjam/langdev/tree/unicode) branch has been created for this purpose.
-The LANGDEV Project formally reserves the private-use characters `U+101000..U+1017FF` for this specification, and larger blocks of characters may be reserved in the future.
-
-Unicode documentation follows the GitHub-Flavored Markdown syntax of [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation), and also includes a character database akin to the UCD.
 
 ###  [`master`](https://github.com/literallybenjam/langdev/tree/master)  ###
 
