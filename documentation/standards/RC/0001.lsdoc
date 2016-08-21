@@ -1,5 +1,5 @@
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              001
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              001
 
 
                       LANGDEV Standards Documents
@@ -45,11 +45,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              001
         02-F.   Lists
 
 
-WD-0001                                                             001
+RC-0001                                                             001
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              002
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              002
 
 
         02-G.   Dictionaries
@@ -96,11 +96,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              002
 
 
 
-WD-0001                                                             002
+RC-0001                                                             002
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              003
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              003
 
 
 01.   Introduction
@@ -145,11 +145,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              003
             line's contents.
 
 
-WD-0001                                                             003
+RC-0001                                                             003
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              004
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              004
 
 
         Character : When not qualified as a Unicode character, a
@@ -195,11 +195,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              004
             separated by blank lines.
 
 
-WD-0001                                                             004
+RC-0001                                                             004
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              005
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              005
 
 
         List item : A sequence of lines, as defined in §02-F.
@@ -245,11 +245,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              005
         NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED",
 
 
-WD-0001                                                             005
+RC-0001                                                             005
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              006
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              006
 
 
         "MAY", and "OPTIONAL" in this document are to be interpreted as
@@ -295,11 +295,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              006
 
 
 
-WD-0001                                                             006
+RC-0001                                                             006
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              007
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              007
 
 
 02.   Format Rules
@@ -345,11 +345,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              007
 
 
 
-WD-0001                                                             007
+RC-0001                                                             007
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              008
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              008
 
 
             +   The title of the document, followed by U+0020 SPACE
@@ -395,11 +395,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              008
 
 
 
-WD-0001                                                             008
+RC-0001                                                             008
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              009
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              009
 
 
         Working Draft (WD) : This document is currently under
@@ -445,11 +445,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              009
 
 
 
-WD-0001                                                             009
+RC-0001                                                             009
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              010
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              010
 
 
     -   The author of the document, centered. A blank line SHOULD be
@@ -495,11 +495,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              010
         sentence case.
 
 
-WD-0001                                                             010
+RC-0001                                                             010
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              011
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              011
 
 
         Numbered section headings which do not describe subsections
@@ -545,11 +545,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              011
             SPACE characters.
 
 
-WD-0001                                                             011
+RC-0001                                                             011
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              012
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              012
 
 
         -   The section title. This SHOULD NOT be ended by a U+003A
@@ -595,11 +595,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              012
         containing the list item in question: U+002D HYPHEN-MINUS,
 
 
-WD-0001                                                             012
+RC-0001                                                             012
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              013
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              013
 
 
         U+002B PLUS SIGN, U+003D EQUALS SIGN, U+2021 DOUBLE DAGGER. For
@@ -645,11 +645,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              013
         Non-initial lines in a dictionary item SHOULD be indented from
 
 
-WD-0001                                                             013
+RC-0001                                                             013
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              014
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              014
 
 
         the initial line. Dictionary items MAY be preceded or followed
@@ -695,11 +695,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              014
 
 
 
-WD-0001                                                             014
+RC-0001                                                             014
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              015
+LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              015
 
 
         Sentences which begin pages SHOULD also begin paragraphs; in
@@ -745,11 +745,11 @@ LANGDEV          WD-0001 : LANGDEV STANDARDS DOCUMENTS              015
 
 
 
-WD-0001                                                             015
+RC-0001                                                             015
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0001 : LEXISML STANDARDS DOCUMENTS              016
+LANGDEV          RC-0001 : LEXISML STANDARDS DOCUMENTS              016
 
 
 03.   References
@@ -795,6 +795,6 @@ LANGDEV          WD-0001 : LEXISML STANDARDS DOCUMENTS              016
 
 
 
-WD-0001                                                             016
+RC-0001                                                             016
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
