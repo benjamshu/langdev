@@ -7,24 +7,24 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    001
                           The LANGDEV Project
 
 
-Abstract:
+-- Abstract --
 
-    This LexisML Standards Document (LSDOC) provides information about
+    This LANGDEV Standards Document (LSDOC) provides information about
     the proper style and formatting for LexisML Index Records (LRECs),
     used to catalogue the lexicon of a language.
 
 
-Status of This Document:
+-- Status of This Document --
 
     This document is currently a WORKING DRAFT. This means that its
-    contents are still under contstruction and may change at any
+    contents are still under construction and may change at any
     time. This document is made public to allow interested parties to
     view the latest in standards development.
 
-    This document was last updated on 27 November 2015.
+    This document was last updated on 20 August 2016.
 
 
-Copyright Notice:
+-- Copyright Notice --
 
     This document is released by its author into the public domain
     under a Creative Commons CC0 1.0 Unported License. For more
@@ -32,7 +32,7 @@ Copyright Notice:
     1.0/>.
 
 
-Table of Contents:
+-- Table of Contents --
 
     01.   Introduction
         01-A.   Definitions
@@ -52,9 +52,9 @@ WD-0002                                                             001
 LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    002
 
 
-            02-A-f.   Comment records
     03.   Processing LREC Documents
     04.   References
+
 
 
 
@@ -118,8 +118,7 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    003
 
     01-A.   Definitions
 
-        Begin : Of a sequence of lines or characters, to be first in an
-            sequence's contents.
+        Begin : Of a sequence, to be first in a sequence's contents.
 
         Blank line : A line which contains zero characters; that is,
             a single U+000A LINE FEED Unicode character.
@@ -133,16 +132,17 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    003
             "contained" in another sequence if it is in the sequence's
             contents.
 
-        End : Of a sequence of characters, to be last in an sequence's
-            contents. Of a sequence of lines, to be the last lines in
-            an sequence's contents which are not blank.
+        End : Of a sequence of lines, to be the last lines in a
+            sequence's contents which are not blank. Of another
+            sequence, to be last in the sequence's contents.
 
         Field : A sequence of lines as defined in §02.
 
-        Line : A sequence of zero or more characters terminated by a
-            U+000A LINE FEED Unicode character.
+        Indented contents : The contents of a line, starting with the
+            first non-space character in the line.
 
-        LREC : A file which conforms to this specification.
+
+
 
 
 WD-0002                                                             003
@@ -151,6 +151,12 @@ WD-0002                                                             003
 
 LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    004
 
+
+        Line : A sequence of zero or more characters followed by a
+            U+000A LINE FEED Unicode character. Lines MUST NOT be
+            longer than 72 bytes.
+
+        LREC : A file which conforms to this specification.
 
         Non-space character : A character which is not U+0020 SPACE.
 
@@ -189,12 +195,6 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    004
 
 
 
-
-
-
-
-
-
 WD-0002                                                             004
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -205,44 +205,44 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    005
 02.   The LREC Format
 
     LRECs are plain-text files, encoded in UTF-8 as specified by
-    [UNICODE]. They consist of several records which, in turn, consist
-    of several key-value pairs known as 'fields'.
+    [UNICODE]. They consist of a sequence of one or more records,
+    each separated by the two-character sequence U+0025 PERCENT SIGN,
+    U+0025 PERCENT SIGN on its own line. Records, in turn, consist of
+    several name-value pairs known as 'fields'.
 
-    A field matches the definition of a dictionary item in [WD-0001],
-    with the additional stipulation that blank lines MUST NOT appear in
-    or between fields. The characters preceeding the first appearance
-    of the character sequence U+0020 SPACE, U+003A COLON, U+0020 SPACE,
-    discounting any leading or trailing U+0020 SPACE characters, make
-    up the 'field name'. The characters following this sequence,
-    similarly discarding leading or trailing U+0020 SPACE characters,
-    make up the 'field value'.
+    A field MUST consist of the following, in order:
 
-    A 'record' is a sequence of fields. Blank lines MUST NOT appear in
-    or around records. The character sequence U+0025 PERCENT SIGN,
-    U+0025 PERCENT SIGN, on its own line, MUST separate records. Other
-    Unicode characters MUST NOT appear in-between, before, or after
-    records.
+    -   A sequence of characters which does not include the
+        sequence U+0020 SPACE, U+003A COLON, U+0020 SPACE. These make
+        up the field's 'name'.
 
-    Fields are referred to by their field names. Except where otherwise
-    specified, more than one field of a particular field name MUST NOT
-    appear in a single record. All fields which are not marked as
-    OPTIONAL or RECOMMENDED are REQUIRED to appear in a record's
-    contents. Except where otherwise specified, field names are case-
-    insensitive but field values are case-sensitive.
+    -   The character sequence U+0020 SPACE, U+003A COLON, U+0020
+        SPACE.
 
+    -   A sequence of characters, at least one of which is a non-space
+        character. These make up the field's 'value'. Whitespace which
+        begins or ends a field's value MUST be ignored.
 
-    02-A.   Record and field definitions
+    Lines MUST NOT be longer than 72 bytes; consequently, field values
+    MAY need to be broken across multiple lines. The contents of any
+    lines which are begun by four U+0020 SPACE characters, starting
+    with the fifth character of the line, MUST be considered a
+    continuation of the preceding field's value. Similarly, lines which
+    do not begin with four U+0020 SPACE characters MUST NOT be
+    considered a continuation of the preceding field's value.
 
+    Lines whose contents are begun by exactly one (not two) U+0025
+    PERCENT SIGN character are comments and MUST be ignored. An LREC
+    MUST NOT contain lines which are not either part of a field, a
+    comment, or the sequence U+0025 PERCENT SIGN, U+0025 PERCENT SIGN,
+    U+000A LINE FEED.
 
-        02-A-a.   Metadata records
-
-            A metadata record MUST begin a LREC, and MUST NOT appear
-            elsewhere in the document. It consists of the following
-            fields, in any order, specified by their field names:
-
-            Title : The title of the LDOC.
-
-            Subtitle : (OPTIONAL) The subtitle of the LDOC.
+    Fields are referred to by their names. Except where otherwise
+    specified, more than one field of a particular name MUST NOT appear
+    in a single record. All fields which are not marked as OPTIONAL or
+    RECOMMENDED are REQUIRED to appear in a record's contents. Except
+    where otherwise specified, field names are case-insensitive but
+    field values are case-sensitive.
 
 
 WD-0002                                                             005
@@ -252,15 +252,31 @@ WD-0002                                                             005
 LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    006
 
 
+    02-A.   Record and field definitions
+
+
+        The following records are defined by this document:
+
+
+        02-A-a.   Metadata records
+
+            A metadata record MUST begin a LREC, and MUST NOT appear
+            elsewhere in the document. It consists of the following
+            fields, in any order, specified by name:
+
+            Title : The title of the LDOC.
+
+            Subtitle : (OPTIONAL) The subtitle of the LDOC.
+
             Author : (RECOMMENDED) The author(s) of the LDOC.
 
             Date : (RECOMMENDED) The date upon which the LDOC was last
-                modified. The field-value of a date field SHOULD be in
-                the "full-date" format as specified by [RFC3339].
+                modified. The value of a date field SHOULD be in the
+                "full-date" format as specified by [RFC3339].
 
             Language : (RECOMMENDED) A language tag matching the syntax
                 provided in [BCP47], describing the language of the
-                LDOC as a whole; ie., that of its intended audience.
+                LDOC as a whole; ie, that of its intended audience.
                 This SHOULD be a valid (recognized) tag.
 
             Description : (RECOMMENDED) A description of the scope and
@@ -274,24 +290,8 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    006
             Frontmatter : (OPTIONAL) A URI at which the frontmatter for
                 the dictionary may be retrieved, if available.
 
-            Note : (OPTIONAL) A note or comment on the LDOC as a whole.
-                This field MAY appear more than once.
 
 
-        02-A-b.   Tag-group records
-
-            A tag-group record groups together the tags which MAY
-            appear in lexeme records. If present, tag-group records
-            MUST appear before any lexeme records. They consist of the
-            following fields, in any order, specified by their field
-            names:
-
-            Group : The name of the tag-group. This MUST be unique
-                across an LDOC; ie., there must not be more than one
-                tag-group record with a given group field.
-
-            Description : (OPTIONAL) A description of the tag-group.
-                The field value of this field is case-insensitive.
 
 
 
@@ -302,46 +302,46 @@ WD-0002                                                             006
 LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    007
 
 
+        02-A-b.   Tag-group records
+
+            A tag-group record groups together tags for later use in
+            lexeme records. If present, tag-group records MUST appear
+            before any lexeme records. They consist of the following
+            fields, in any order, specified by name:
+
+            Group : The name of the tag-group. This MUST be unique
+                across an LDOC; ie, there must not be more than one
+                tag-group record with a given value for its group
+                field. The value of this field is case-insensitive.
+
+            Description : (OPTIONAL) A description of the tag-group.
+
             Subgroup : (OPTIONAL) The name of another tag-group which
                 should be considered a part of this one. This MUST
                 match the group field of a tag-group record, which MUST
                 appear before this one. This field MAY appear more than
-                once. The field value of this field is
-                case-insensitive.
+                once. The value of this field is case-insensitive.
 
             Tag : (OPTIONAL) The name of a tag which should be
                 considered a part of this tag-group. This field MAY
-                appear more than once. The field value of this field is
-                case-insensitive.
-
-            Note : (OPTIONAL) A note or comment on the tag group. This
-                field MAY appear more than once.
+                appear more than once. The value of this field is case-
+                insensitive.
 
             Although both tag and subgroup fields are OPTIONAL, at
             least one of these fields MUST appear in a tag-group
             record. Furthermore, both fields MUST be unique across an
-            LDOC; that is, any two tag or subgroup fields MUST NOT have
-            the same field value when compared in a case-insensitive
-            manner, regardless of the record they are contained in.
+            LDOC; that is, any two tag or subgroup fields in an LDOC
+            MUST NOT have the same value when compared in a
+            case-insensitive manner, regardless of the record they are
+            contained in.
 
 
         02-A-c.   Lexeme records
 
             A lexeme record provides information on a lexeme. It
             consists of the following fields, in any order, specified
-            by their field names:
+            by name:
 
-            Lexeme : The lexeme itself. This MUST be unique across an
-                LDOC; ie., there must not be more than one lexeme
-                record with a given lexeme field.
-
-            At : A URI at which information on the lexeme can be
-                retrieved.
-
-            Language : (RECOMMENDED) A language tag matching
-                the syntax provided in [BCP47], describing the language
-                of the lexeme itself. If this field is absent but the
-                document language field is present in the LDOC's
 
 
 
@@ -352,25 +352,33 @@ WD-0002                                                             007
 LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    008
 
 
-                metadata record, the language of the lexeme should be
-                inherited from the language of the LDOC as a whole.
+            Lexeme : The lexeme itself. This MUST be unique across an
+                LDOC; ie, there must not be more than one lexeme
+                record with a given lexeme field.
+
+            At : A URI at which information on the lexeme can be
+                retrieved.
+
+            Language : (RECOMMENDED) A language tag matching
+                the syntax provided in [BCP47], describing the language
+                of the lexeme itself. If this field is absent but the
+                language field is present in the LDOC's metadata
+                record, the language of the lexeme should be inherited
+                from the language of the LDOC as a whole.
 
             Pronunciation : (RECOMMENDED) A hint at pronouncing the
-                lexeme.
+                lexeme. This field MAY appear more than once.
 
             Tagged : (OPTIONAL) A tag providing more information about
                 a lexeme. This field MAY appear more than once. The
-                field value of this field is case-insensitive.
-
-            Note : (OPTIONAL) A note or comment on the lexeme record.
-                This field MAY appear more than once.
+                value of this field is case-insensitive.
 
 
         02-A-d.   Inflection records
 
             An inflection record provides inflected forms for lexemes.
             It consists of the following fields, in any order,
-            specified by their field names:
+            specified by name:
 
             Inflected : The inflected form.
 
@@ -379,20 +387,12 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    008
                 which MUST appear before a given record.
 
             Pronunciation : (RECOMMENDED) A hint at pronouncing the
-                inflected form.
-
-            Note : (OPTIONAL) A note or comment on the inflection. This
-                field MAY appear more than once.
+                inflected form. This field MAY appear more than once.
 
             Any two inflection records in a single LDOC MUST NOT have
             identical values for both the inflected and of fields.
 
 
-        02-A-e.   Alternate records
-
-            An alternate record provides alternate forms for lexemes
-            or inflections. It consists of the following fields, in any
-            order, specified by their field names:
 
 
 WD-0002                                                             008
@@ -401,6 +401,12 @@ WD-0002                                                             008
 
 LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    009
 
+
+        02-A-e.   Alternate records
+
+            An alternate record provides alternate forms for lexemes
+            or inflections. It consists of the following fields, in any
+            order, specified by their field names:
 
             Alternate : The alternate form.
 
@@ -422,10 +428,8 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    009
 
             Pronunciation : (OPTIONAL) If the pronunciation of the
                 alternate differs from the original lexeme, a hint at
-                its pronunciation.
-
-            Note : (OPTIONAL) A note or comment on the alternate. This
-                field MAY appear more than once.
+                its pronunciation. This field MAY appear more than
+                once.
 
             Any two alternate records in a single LDOC MUST NOT have
             identical values for both the alternate and for fields,
@@ -435,13 +439,9 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    009
             for an inflection.
 
 
-        02-A-f.   Comment records
 
-            A comment record inserts a comment into a document. It
-            consists of only one field:
 
-            Note : (REQUIRED) A note or comment. This field MAY appear
-                more than once.
+
 
 
 
@@ -522,8 +522,8 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    011
     [UNICODE] : The Unicode Consortium. "The Unicode Standard".
         <http://www.unicode.org/versions/>.
 
-    [WD-0001] : The LANGDEV Project. "LexisML Standards Documents".
-        <http://benjam.xyz/LexisML/WD/0001.txt>.
+
+        
 
 
 
