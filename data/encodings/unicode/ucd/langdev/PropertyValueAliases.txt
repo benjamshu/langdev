@@ -1,0 +1,19 @@
+# Date: 17 April 2016
+# The LANGDEV Project
+
+# ================================================
+
+# Block (blk)
+
+blk; Bencode                          ; Bencode
+blk; Bencode_Sup_Punctuation          ; Bencode Supplemental Punctuation
+blk; Jastugay_Syllabary               ; Jastugay Syllabary
+blk; Jastugay_Punctuation             ; Jastugay Punctuation
+blk; Jastugay_Combining_Marks         ; Jastugay Combining Marks
+
+# Script (sc)
+
+sc ; Bkde                             ; Bencode
+sc ; Jsta                             ; Jastugay
+
+# EOF

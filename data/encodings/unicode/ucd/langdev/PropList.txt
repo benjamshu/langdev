@@ -1,0 +1,59 @@
+# Date: 17 April 2016
+# The LANGDEV Project
+
+# ================================================
+
+1011C7        ; White_Space # Zs       JASTUGAY WORD SEPARATOR
+
+# Total code points: 1
+
+# ================================================
+
+10101E        ; Quotation_Mark # Pi       BENCODE LEFT DOUBLE QUOTATION MARK
+10101F        ; Quotation_Mark # Pf       BENCODE RIGHT DOUBLE QUOTATION MARK
+10103E        ; Quotation_Mark # Pi       BENCODE LEFT SINGLE QUOTATION MARK
+10103F        ; Quotation_Mark # Pf       BENCODE RIGHT SINGLE QUOTATION MARK
+1011C8        ; Quotation_Mark # Pi       JASTUGAY LEFT SINGLE QUOTATION MARK
+1011C9        ; Quotation_Mark # Pf       JASTUGAY RIGHT SINGLE QUOTATION MARK
+1011CA        ; Quotation_Mark # Pi       JASTUGAY LEFT DOUBLE QUOTATION MARK
+1011CB        ; Quotation_Mark # Pf       JASTUGAY RIGHT DOUBLE QUOTATION MARK
+
+# Total code points: 8
+
+# ================================================
+
+10101B        ; Terminal_Punctuation # Po       BENCODE FULL STOP
+10101C        ; Terminal_Punctuation # Po       BENCODE COMMA
+10103B        ; Terminal_Punctuation # Po       BENCODE COLON
+10103C        ; Terminal_Punctuation # Po       BENCODE SEMICOLON
+101044        ; Terminal_Punctuation # Po       BENCODE EXCLAMATION MARK
+101045        ; Terminal_Punctuation # Po       BENCODE QUESTION MARK
+1011C0        ; Terminal_Punctuation # Po       JASTUGAY FULL STOP
+1011C1        ; Terminal_Punctuation # Po       JASTUGAY HALF STOP
+1011C2        ; Terminal_Punctuation # Po       JASTUGAY EXCLAMATION MARK
+1011C3        ; Terminal_Punctuation # Po       JASTUGAY QUESTION MARK
+1011C4        ; Terminal_Punctuation # Po       JASTUGAY COLON
+1011C5        ; Terminal_Punctuation # Po       JASTUGAY SEMICOLON
+1011C6        ; Terminal_Punctuation # Po       JASTUGAY ELLIPSIS
+
+# Total code points: 13
+
+# ================================================
+
+1011D0        ; Diacritic # Mn       JASTUGAY COMBINING MARK N
+
+# Total code points: 1
+
+# ================================================
+
+10101B        ; STerm # Po       BENCODE FULL STOP
+101044        ; STerm # Po       BENCODE EXCLAMATION MARK
+101045        ; STerm # Po       BENCODE QUESTION MARK
+1011C0        ; STerm # Po       JASTUGAY FULL STOP
+1011C2        ; STerm # Po       JASTUGAY EXCLAMATION MARK
+1011C3        ; STerm # Po       JASTUGAY QUESTION MARK
+1011C6        ; STerm # Po       JASTUGAY ELLIPSIS
+
+# Total code points: 7
+
+# EOF

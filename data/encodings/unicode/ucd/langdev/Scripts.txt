@@ -1,0 +1,65 @@
+# Date: 17 April 2016
+# The LANGDEV Project
+
+# ================================================
+
+# Property:	Script
+#
+#  All code points not explicitly listed for Script
+#  have the value Unknown (Zzzz).
+#
+# @missing: 101000..10FFFF; Unknown
+
+# ================================================
+
+101000..10101A; Bencode # Lu    [27] BENCODE CAPITAL LETTER A..BENCODE CAPITAL LETTER CH
+10101B        ; Bencode # Po         BENCODE FULL STOP
+10101C        ; Bencode # Po         BENCODE COMMA
+10101D        ; Bencode # Po         BENCODE APOSTROPHE
+10101E        ; Bencode # Pi         BENCODE LEFT DOUBLE QUOTATION MARK
+10101F        ; Bencode # Pf         BENCODE RIGHT DOUBLE QUOTATION MARK
+101020..10103A; Bencode # Ll    [27] BENCODE SMALL LETTER A..BENCODE SMALL LETTER CH
+10103B        ; Bencode # Po         BENCODE COLON
+10103C        ; Bencode # Po         BENCODE SEMICOLON
+10103D        ; Bencode # Pd         BENCODE HYPHEN
+10103E        ; Bencode # Pi         BENCODE LEFT SINGLE QUOTATION MARK
+10103F        ; Bencode # Pf         BENCODE RIGHT SINGLE QUOTATION MARK
+101040        ; Bencode # Ps         BENCODE LEFT PARENTHESIS
+101041        ; Bencode # Pe         BENCODE RIGHT PARENTHESIS
+101042        ; Bencode # Ps         BENCODE LEFT SQUARE BRACKET
+101043        ; Bencode # Pe         BENCODE RIGHT SQUARE BRACKET
+101044        ; Bencode # Po         BENCODE EXCLAMATION MARK
+101045        ; Bencode # Po         BENCODE QUESTION MARK
+
+# Total code points: 70
+
+# ================================================
+
+101100..10110E; Jastugay # Lo         JASTUGAY SYLLABLE U..JASTUGAY SYLLABLE PU
+101110..10111E; Jastugay # Lo         JASTUGAY SYLLABLE AH..JASTUGAY SYLLABLE PAH
+101120..10112E; Jastugay # Lo         JASTUGAY SYLLABLE AY..JASTUGAY SYLLABLE PAY
+101130..10113E; Jastugay # Lo         JASTUGAY SYLLABLE AE..JASTUGAY SYLLABLE PAE
+101140..10114E; Jastugay # Lo         JASTUGAY SYLLABLE EH..JASTUGAY SYLLABLE PEH
+101150..10115E; Jastugay # Lo         JASTUGAY SYLLABLE IY..JASTUGAY SYLLABLE PIY
+101160..10116E; Jastugay # Lo         JASTUGAY SYLLABLE EE..JASTUGAY SYLLABLE PEE
+101170..10117E; Jastugay # Lo         JASTUGAY SYLLABLE OI..JASTUGAY SYLLABLE POI
+101180..10118E; Jastugay # Lo         JASTUGAY SYLLABLE OH..JASTUGAY SYLLABLE POH
+101190..10119E; Jastugay # Lo         JASTUGAY SYLLABLE AO..JASTUGAY SYLLABLE PAO
+1011A0..1011AE; Jastugay # Lo         JASTUGAY SYLLABLE OO..JASTUGAY SYLLABLE POO
+1011B1..1011B4; Jastugay # Lo         JASTUGAY SYLLABLE S..JASTUGAY SYLLABLE T
+1011BF        ; Jastugay # Lo         JASTUGAY SYLLABLE L
+1011C0..1011C6; Jastugay # Po         JASTUGAY FULL STOP..JASTUGAY ELLIPSIS
+1011C7        ; Jastugay # Zs         JASTUGAY WORD SEPARATOR
+1011C8        ; Jastugay # Pi         JASTUGAY LEFT SINGLE QUOTATION MARK
+1011C9        ; Jastugay # Pf         JASTUGAY RIGHT SINGLE QUOTATION MARK
+1011CA        ; Jastugay # Pi         JASTUGAY LEFT DOUBLE QUOTATION MARK
+1011CB        ; Jastugay # Pf         JASTUGAY RIGHT DOUBLE QUOTATION MARK
+1011CC        ; Jastugay # Ps         JASTUGAY LEFT PARENTHESIS
+1011CD        ; Jastugay # Pe         JASTUGAY RIGHT PARENTHESIS
+1011CE        ; Jastugay # Ps         JASTUGAY LEFT BRACKET
+1011CF        ; Jastugay # Pe         JASTUGAY RIGHT BRACKET
+1011D0        ; Jastugay # Mn         JASTUGAY COMBINING MARK N
+
+# Total code points: 187
+
+# EOF
