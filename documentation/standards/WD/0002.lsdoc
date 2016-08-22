@@ -373,6 +373,8 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    008
                 a lexeme. This field MAY appear more than once. The
                 value of this field is case-insensitive.
 
+            Gloss : (OPTIONAL) A brief gloss of the lexeme.
+
 
         02-A-d.   Inflection records
 
@@ -391,8 +393,6 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    008
 
             Any two inflection records in a single LDOC MUST NOT have
             identical values for both the inflected and of fields.
-
-
 
 
 WD-0002                                                             008
