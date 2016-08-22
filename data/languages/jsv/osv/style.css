@@ -12,7 +12,7 @@ html {
     background: #EEEEEE;
     font-size: 14pt;
     line-height: 1.35;
-    font-family: Junicode, Cardo, Iowan Old Style, serif;
+    font-family: Junicode, Cardo, "Iowan Old Style", serif;
     font-variant-numeric: oldstyle-nums;
 }
 body {
@@ -52,6 +52,9 @@ dt:not(:first-child) {
 }
 dd {
     text-align: justify;
+}
+dd + dd {
+    margin-top: 1rem;
 }
 
 /*  Block Elements  */
