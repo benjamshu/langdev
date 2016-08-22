@@ -90,7 +90,7 @@ Tag : postp
 Subgroup : Nouns
 Tag : hon
 Tag : name
-Subgroup: Verbs
+Subgroup : Verbs
 Tag : affix
 Tag : det
 Tag : interj
@@ -395,7 +395,7 @@ Tagged : 0
 Tagged : adv
 %%
 Alternate : -tl
-Of : -ætl
+For : -ætl
 %%
 %  BLOCK 002 : THE BODY  %
 Lexeme : xówi
