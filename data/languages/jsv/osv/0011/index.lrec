@@ -1,7 +1,7 @@
 Title : Classical Sevensi
 Subtitle : Version XI
 Author : The LANGDEV Project
-Date : 2016-08-21
+Date : 2016-08-28
 Language : en
 Description : In CLASSICAL SEVENSI XI, vowel harmonization extends
     beyond words into the language's grammars. Phonological systems
@@ -13,7 +13,7 @@ Splash : Spiritual!
 Splash : Animated!
 Splash : Blocked!
 Splash : Great!
-Splash : named!
+Splash : Named!
 Splash : Nominal!
 Splash : Natural!
 Splash : Landed!
@@ -34,6 +34,12 @@ Splash : Not close!
 Splash : Verbed!
 Splash : Glossy!
 Splash : Comment!
+Splash : % %
+Splash : Organized!
+Splash : Setting the mood!
+Splash : Moody!
+Splash : Yes!
+Splash : No!
 %%
 Group : Development block
 % Grammatical words: %
@@ -93,6 +99,8 @@ Tag : affix
 Tag : det
 Tag : interj
 %%
+%  BLOCK 001 : GRAMMATICAL WORDS %
+% %  Articles:  % %
 Lexeme : mæ
 At : block001/mæ.html
 Language : art-Latn-x-osv-0011-block001
@@ -137,6 +145,7 @@ Tagged : art
 Inflected : loiz
 Of : lo
 %%
+% %  Determiners:  % %
 Lexeme : vi
 At : block001/vi.html
 Language : art-Latn-x-osv-0011-block001
@@ -145,6 +154,7 @@ Tagged : block001
 Tagged : 0
 Tagged : det
 %%
+% %  Postpositions:  % %
 Lexeme : zo
 At : block001/zo.html
 Language : art-Latn-x-osv-0011-block001
@@ -273,6 +283,15 @@ Tagged : block001
 Tagged : -
 Tagged : postp
 %%
+Lexeme : ri
+At : block001/ri.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : born as
+Tagged : block001
+Tagged : 0
+Tagged : postp
+%%
+% %  Honorifics:  % %
 Lexeme : -fa
 At : block001/-fa.html
 Language : art-Latn-x-osv-0011-block001
@@ -284,6 +303,7 @@ Tagged : hon
 Inflected : -fe
 Of : -fa
 %%
+% %  Affixes:  % %
 Lexeme : -zo
 At : block001/-zo.html
 Language : art-Latn-x-osv-0011-block001
@@ -294,63 +314,6 @@ Tagged : affix
 %%
 Inflected : -zå
 Of : -zo
-%%
-Lexeme : jóstu
-At : block001/jóstu.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : shit
-Tagged : block001
-Tagged : -
-Tagged : interj
-Tagged : noun
-%%
-Lexeme : ri
-At : block001/ri.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : born as
-Tagged : block001
-Tagged : 0
-Tagged : postp
-%%
-Lexeme : za
-At : block001/za.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : I/me
-Tagged : block001
-Tagged : +
-Tagged : pron
-%%
-Lexeme : æwét
-At : block001/æwét.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : you
-Tagged : block001
-Tagged : -
-Tagged : pron
-%%
-Lexeme : hå
-At : block001/hå.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : here
-Tagged : block001
-Tagged : +
-Tagged : pron
-%%
-Lexeme : sed
-At : block001/sed.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : there
-Tagged : block001
-Tagged : -
-Tagged : pron
-%%
-Lexeme : dócor
-At : block001/dócor.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : back
-Tagged : block001
-Tagged : -
-Tagged : adv
 %%
 Lexeme : -ætl
 At : block001/-ætl.html
@@ -385,6 +348,120 @@ Tagged : affix
 Inflected : -dåtl
 Of : -dotl
 %%
+Lexeme : -toi
+At : block001/-toi.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : shall
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -tåi
+Of : -toi
+%%
+Lexeme : -ås
+At : block001/-ås.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : should
+Tagged : block001
+Tagged : +
+Tagged : affix
+%%
+Inflected : -os
+Of : -ås
+%%
+Lexeme : -vo
+At : block001/-vo.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : no?
+Tagged : block001
+Tagged : +
+Tagged : affix
+%%
+Inflected : -vå
+Of : -vo
+%%
+Lexeme : -xoi
+At : block001/-xoi.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : may
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -xåi
+Of : -xoi
+%%
+% %  Interjections:  % %
+Lexeme : jóstu
+At : block001/jóstu.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : shit
+Tagged : block001
+Tagged : -
+Tagged : interj
+Tagged : noun
+%%
+% %  Pronouns:  % %
+Lexeme : za
+At : block001/za.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : I/me
+Tagged : block001
+Tagged : +
+Tagged : pron
+%%
+Lexeme : æwét
+At : block001/æwét.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : you
+Tagged : block001
+Tagged : -
+Tagged : pron
+%%
+Lexeme : hå
+At : block001/hå.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : here
+Tagged : block001
+Tagged : +
+Tagged : pron
+%%
+Lexeme : sed
+At : block001/sed.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : there
+Tagged : block001
+Tagged : -
+Tagged : pron
+%%
+% %  Adverbs:  % %
+Lexeme : dócor
+At : block001/dócor.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : back
+Tagged : block001
+Tagged : -
+Tagged : adv
+%%
+% %  Sentence Words:  % %
+Lexeme : u
+At : block001/u.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : yes; yea
+Tagged : block001
+Tagged : 0
+Tagged : sw
+%%
+Lexeme : vo
+At : block001/vo.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : no; nay
+Tagged : block001
+Tagged : -
+Tagged : sw
+%%
+%  BLOCK 002 : THE BODY  %
 Lexeme : xówi
 At : block002/xówi.html
 Language : art-Latn-x-osv-0011-block002
@@ -393,6 +470,7 @@ Tagged : block002
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 003 : ANIMALS  %
 Lexeme : hóji
 At : block003/hóji.html
 Language : art-Latn-x-osv-0011-block003
@@ -497,6 +575,7 @@ Tagged : block003
 Tagged : +
 Tagged : noun
 %%
+%  BLOCK 004 : NATURE  %
 Lexeme : dáyåfæ
 At : block004/dáyåfæ.html
 Language : art-Latn-x-osv-0011-block004
@@ -513,6 +592,7 @@ Tagged : block004
 Tagged : +
 Tagged : noun
 %%
+%  BLOCK 005 : FOOD AND CULTURE  %
 Lexeme : lózwe
 At : block005/lózwe.html
 Language : art-Latn-x-osv-0011-block005
@@ -529,6 +609,7 @@ Tagged : block005
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 006 : MOTION AND TRAVEL  %
 Lexeme : dǻvca
 At : block006/dǻvca.html
 Language : art-Latn-x-osv-0011-block006
@@ -569,6 +650,7 @@ Tagged : block006
 Tagged : -
 Tagged : verb2
 %%
+%  BLOCK 007 : BUILDINGS AND PRODUCTION  %
 Lexeme : jéitlse
 At : block007/jéitlse.html
 Language : art-Latn-x-osv-0011-block007
@@ -593,6 +675,7 @@ Tagged : block007
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 008 : PHYSICAL PROPERTIES  %
 Lexeme : vóu
 At : block008/vóu.html
 Language : art-Latn-x-osv-0011-block008
@@ -644,6 +727,7 @@ Tagged : +
 Tagged : noun
 Tagged : verb2
 %%
+%  BLOCK 009 : EMOTION AND EXPERIENCE  %
 Lexeme : glak
 At : block009/glak.html
 Language : art-Latn-x-osv-0011-block009
@@ -679,6 +763,7 @@ Tagged : block009
 Tagged : -
 Tagged : verb2
 %%
+%  BLOCK 010 : SOCIAL ROLES  %
 Lexeme : méri
 At : block010/méri.html
 Language : art-Latn-x-osv-0011-block010
@@ -695,6 +780,7 @@ Tagged : block010
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 011 : RELIGION  %
 Lexeme : holó
 At : block011/holó.html
 Language : art-Latn-x-osv-0011-block011
@@ -815,6 +901,11 @@ Tagged : block011
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 012 : TIME  %
+%  BLOCK 013 : LANGUAGE  %
+%  BLOCK 014 : QUANTITY  %
+%  BLOCK 015 : GENERICS  %
+%  BLOCK 016 : NAMES AND PLACES  %
 Lexeme : ménæ
 At : block016/ménæ.html
 Language : art-Latn-x-osv-0011-block016

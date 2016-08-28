@@ -1,7 +1,7 @@
 Title : Classical Sevensi
 Subtitle : Version X
 Author : The LANGDEV Project
-Date : 2016-08-21
+Date : 2016-08-28
 Language : en
 Description : CLASSICAL SEVENSI X is the first level of evolution and
     abstraction from JASTU-SEVENSI VIV, in which the grammars are
@@ -13,7 +13,7 @@ Splash : Spiritual!
 Splash : Animated!
 Splash : Blocked!
 Splash : Great!
-Splash : named!
+Splash : Named!
 Splash : Nominal!
 Splash : Natural!
 Splash : Landed!
@@ -34,6 +34,11 @@ Splash : Not close!
 Splash : Verbed!
 Splash : Glossy!
 Splash : Comment!
+Splash : % %
+Splash : Organized!
+Splash : Setting the mood!
+Splash : Yes!
+Splash : No!
 %%
 Group : Development block
 % Grammatical words: %
@@ -92,7 +97,10 @@ Subgroup : Verbs
 Tag : affix
 Tag : det
 Tag : interj
+Tag : sw
 %%
+%  BLOCK 001 : GRAMMATICAL WORDS %
+% %  Articles:  % %
 Lexeme : bæ
 At : block001/bæ.html
 Language : art-Latn-x-osv-0010-block001
@@ -125,6 +133,7 @@ Tagged : block001
 Tagged : -
 Tagged : art
 %%
+% %  Determiners:  % %
 Lexeme : vitl
 At : block001/vitl.html
 Language : art-Latn-x-osv-0010-block001
@@ -141,6 +150,7 @@ Tagged : block001
 Tagged : -
 Tagged : det
 %%
+% %  Postpositions:  % %
 Lexeme : zo
 At : block001/zo.html
 Language : art-Latn-x-osv-0010-block001
@@ -269,6 +279,15 @@ Tagged : block001
 Tagged : -
 Tagged : postp
 %%
+Lexeme : ri
+At : block001/ri.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : born as
+Tagged : block001
+Tagged : 0
+Tagged : postp
+%%
+% %  Honorifics:  % %
 Lexeme : -fa
 At : block001/-fa.html
 Language : art-Latn-x-osv-0010-block001
@@ -280,6 +299,7 @@ Tagged : hon
 Inflected : -fe
 Of : -fa
 %%
+% %  Affixes:  % %
 Lexeme : -zo
 At : block001/-zo.html
 Language : art-Latn-x-osv-0010-block001
@@ -291,6 +311,29 @@ Tagged : affix
 Inflected : -zå
 Of : -zo
 %%
+Lexeme : -ætl
+At : block001/-ætl.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : -ion; forms abstract nouns from verbs
+Tagged : block001
+Tagged : 0
+Tagged : affix
+%%
+Alternate : -tl
+Of : -ætl
+%%
+Lexeme : -do
+At : block001/-do.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : -ate; forms verbs from adjectives
+Tagged : block001
+Tagged : 0
+Tagged : affix
+%%
+Inflected : -då
+Of : -do
+%%
+% %  Interjections:  % %
 Lexeme : jóstu
 At : block001/jóstu.html
 Language : art-Latn-x-osv-0010-block001
@@ -300,14 +343,7 @@ Tagged : -
 Tagged : interj
 Tagged : noun
 %%
-Lexeme : ri
-At : block001/ri.html
-Language : art-Latn-x-osv-0010-block001
-Gloss : born as
-Tagged : block001
-Tagged : 0
-Tagged : postp
-%%
+% %  Pronouns:  % %
 Lexeme : za
 At : block001/za.html
 Language : art-Latn-x-osv-0010-block001
@@ -340,6 +376,7 @@ Tagged : block001
 Tagged : -
 Tagged : pron
 %%
+% %  Adverbs:  % %
 Lexeme : dócor
 At : block001/dócor.html
 Language : art-Latn-x-osv-0010-block001
@@ -348,28 +385,49 @@ Tagged : block001
 Tagged : -
 Tagged : adv
 %%
-Lexeme : -ætl
-At : block001/-ætl.html
+Lexeme : dóhi
+At : block001/dóhi.html
 Language : art-Latn-x-osv-0010-block001
-Gloss : -ion; forms abstract nouns from verbs
+Gloss : shall
+Tagged : block001
+Tagged : -
+Tagged : adv
+%%
+Lexeme : ǻså
+At : block001/ǻså.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : should
+Tagged : block001
+Tagged : +
+Tagged : adv
+%%
+Lexeme : xoi
+At : block001/xoi.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : may
+Tagged : block001
+Tagged : -
+Tagged : adv
+%%
+% %  Sentence Words:  % %
+Lexeme : du
+At : block001/du.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : yes; yea
 Tagged : block001
 Tagged : 0
-Tagged : affix
+Tagged : sw
 %%
-Alternate : -tl
-Of : -ætl
-%%
-Lexeme : -do
-At : block001/-do.html
+Lexeme : vo
+At : block001/vo.html
 Language : art-Latn-x-osv-0010-block001
-Gloss : -ate; forms verbs from adjectives
+Gloss : no; nay
 Tagged : block001
-Tagged : 0
-Tagged : affix
+Tagged : -
+Tagged : sw
+Tagged : adv
 %%
-Inflected : -då
-Of : -do
-%%
+%  BLOCK 002 : THE BODY  %
 Lexeme : xówi
 At : block002/xówi.html
 Language : art-Latn-x-osv-0010-block002
@@ -378,6 +436,7 @@ Tagged : block002
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 003 : ANIMALS  %
 Lexeme : hodúsi
 At : block003/hodúsi.html
 Language : art-Latn-x-osv-0010-block003
@@ -482,6 +541,7 @@ Tagged : block003
 Tagged : +
 Tagged : noun
 %%
+%  BLOCK 004 : NATURE  %
 Lexeme : dáyafæ
 At : block004/dáyafæ.html
 Language : art-Latn-x-osv-0010-block004
@@ -498,6 +558,7 @@ Tagged : block004
 Tagged : +
 Tagged : noun
 %%
+%  BLOCK 005 : FOOD AND CULTURE  %
 Lexeme : lozówe
 At : block005/lozówe.html
 Language : art-Latn-x-osv-0010-block005
@@ -514,6 +575,7 @@ Tagged : block005
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 006 : MOTION AND TRAVEL  %
 Lexeme : dǻvjåx
 At : block006/dǻvjåx.html
 Language : art-Latn-x-osv-0010-block006
@@ -554,6 +616,7 @@ Tagged : block006
 Tagged : -
 Tagged : verb2
 %%
+%  BLOCK 007 : BUILDINGS AND PRODUCTION  %
 Lexeme : dwéilse
 At : block007/dwéilse.html
 Language : art-Latn-x-osv-0010-block007
@@ -578,6 +641,7 @@ Tagged : block007
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 008 : PHYSICAL PROPERTIES  %
 Lexeme : vówu
 At : block008/vówu.html
 Language : art-Latn-x-osv-0010-block008
@@ -621,6 +685,7 @@ Tagged : +
 Tagged : noun
 Tagged : verb2
 %%
+%  BLOCK 009 : EMOTION AND EXPERIENCE  %
 Lexeme : gælág
 At : block009/gælág.html
 Language : art-Latn-x-osv-0010-block009
@@ -656,6 +721,7 @@ Tagged : block009
 Tagged : -
 Tagged : verb2
 %%
+%  BLOCK 010 : SOCIAL ROLES  %
 Lexeme : wéixui
 At : block010/wéixui.html
 Language : art-Latn-x-osv-0010-block010
@@ -672,6 +738,7 @@ Tagged : block010
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 011 : RELIGION  %
 Lexeme : holófe
 At : block011/holófe.html
 Language : art-Latn-x-osv-0010-block011
@@ -792,6 +859,11 @@ Tagged : block011
 Tagged : -
 Tagged : noun
 %%
+%  BLOCK 012 : TIME  %
+%  BLOCK 013 : LANGUAGE  %
+%  BLOCK 014 : QUANTITY  %
+%  BLOCK 015 : GENERICS  %
+%  BLOCK 016 : NAMES AND PLACES  %
 Lexeme : ménæ
 At : block016/ménæ.html
 Language : art-Latn-x-osv-0010-block016

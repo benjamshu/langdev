@@ -1,7 +1,7 @@
 Title : Classical Sevensi
 Subtitle : Version XII
 Author : The LANGDEV Project
-Date : 2016-08-21
+Date : 2016-08-28
 Language : en
 Description : CLASSICAL SEVENSI XII is the final form of CLASSICAL
     SEVENSI, as used to compose the Classics. It is currently under
@@ -13,7 +13,7 @@ Splash : Spiritual!
 Splash : Animated!
 Splash : Blocked!
 Splash : Great!
-Splash : named!
+Splash : Named!
 Splash : Nominal!
 Splash : Natural!
 Splash : Landed!
@@ -36,6 +36,11 @@ Splash : Verbed!
 Splash : Glossy!
 Splash : Comment!
 Splash : % %
+Splash : Organized!
+Splash : Setting the mood!
+Splash : Moody!
+Splash : Yes!
+Splash : No!
 %%
 Group : Development block
 % Grammatical words: %
@@ -116,9 +121,9 @@ Tagged : block001
 Tagged : -
 Tagged : art
 %%
-%  Note : 'zeiz' is pronounced as 'zeis'.
 Inflected : zeiz
 Of : ze
+%  Note : 'zeiz' is pronounced as 'zeis'.
 %%
 Lexeme : cæ
 At : block001/cæ.html
@@ -334,6 +339,61 @@ Tagged : Affix
 Inflected : -dåtl
 Of : -dotl
 %%
+Lexeme : -ætl
+At : block001/-ætl.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : -tion; forms abstract nouns from verbs
+Tagged : block001
+Tagged : 0
+Tagged : affix
+%%
+Alternate : -tl
+For : -ætl
+%%
+Lexeme : -toi
+At : block001/-toi.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : shall
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -tåi
+Of : -toi
+%%
+Lexeme : -ås
+At : block001/-ås.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : should
+Tagged : block001
+Tagged : +
+Tagged : affix
+%%
+Inflected : -os
+Of : -ås
+%%
+Lexeme : -vo
+At : block001/-vo.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : no?
+Tagged : block001
+Tagged : +
+Tagged : affix
+%%
+Inflected : -vå
+Of : -vo
+%%
+Lexeme : -xoi
+At : block001/-xoi.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : may
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -xåi
+Of : -xoi
+%%
 % %  Interjections:  % %
 Lexeme : jóstu
 At : block001/jóstu.html
@@ -386,16 +446,23 @@ Tagged : block001
 Tagged : -
 Tagged : adv
 %%
-Lexeme : -ætl
-At : block001/-ætl.html
-Language : art-Latn-x-osv-0012-block001
-Gloss : -tion; forms abstract nouns from verbs
+% %  Sentence Words:  % %
+Lexeme : æwi
+At : block001/æwi.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : yes; yea
 Tagged : block001
 Tagged : 0
-Tagged : adv
+Tagged : sw
+%  Note : 'æwi' is pronounced 'u-i'.
 %%
-Alternate : -tl
-For : -ætl
+Lexeme : vo
+At : block001/vo.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : no; nay
+Tagged : block001
+Tagged : -
+Tagged : sw
 %%
 %  BLOCK 002 : THE BODY  %
 Lexeme : xówi
