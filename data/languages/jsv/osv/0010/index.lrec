@@ -54,6 +54,7 @@ Splash : Strong!
 Splash : Weak!
 Splash : Just an aspect!
 Splash : Honoured!
+Splash : Together!
 %%
 Group : Development block
 % Grammatical words: %
@@ -115,7 +116,7 @@ Tag : interj
 Tag : sw
 %%
 %  BLOCK 001 : GRAMMATICAL WORDS %
-% %  Articles:  % %
+% %  Articles  % %
 Lexeme : bæ
 At : block001/bæ.html
 Language : art-Latn-x-osv-0010-block001
@@ -148,7 +149,7 @@ Tagged : block001
 Tagged : -
 Tagged : art
 %%
-% %  Determiners:  % %
+% %  Determiners  % %
 Lexeme : vitl
 At : block001/vitl.html
 Language : art-Latn-x-osv-0010-block001
@@ -165,7 +166,7 @@ Tagged : block001
 Tagged : -
 Tagged : det
 %%
-% %  Postpositions:  % %
+% %  Postpositions  % %
 Lexeme : zo
 At : block001/zo.html
 Language : art-Latn-x-osv-0010-block001
@@ -302,7 +303,7 @@ Tagged : block001
 Tagged : 0
 Tagged : postp
 %%
-% %  Honorifics:  % %
+% %  Honorifics  % %
 Lexeme : -fa
 At : block001/-fa.html
 Language : art-Latn-x-osv-0010-block001
@@ -314,7 +315,7 @@ Tagged : hon
 Inflected : -fe
 Of : -fa
 %%
-% %  Affixes:  % %
+% %  Affixes  % %
 Lexeme : -zo
 At : block001/-zo.html
 Language : art-Latn-x-osv-0010-block001
@@ -446,7 +447,7 @@ Tagged : affix
 Inflected : -da
 Of : -de
 %%
-% %  Interjections:  % %
+% %  Interjections  % %
 Lexeme : jóstu
 At : block001/jóstu.html
 Language : art-Latn-x-osv-0010-block001
@@ -456,7 +457,7 @@ Tagged : -
 Tagged : interj
 Tagged : noun
 %%
-% %  Pronouns:  % %
+% %  Pronouns  % %
 Lexeme : za
 At : block001/za.html
 Language : art-Latn-x-osv-0010-block001
@@ -489,7 +490,7 @@ Tagged : block001
 Tagged : -
 Tagged : pron
 %%
-% %  Adverbs:  % %
+% %  Adverbs  % %
 Lexeme : dócor
 At : block001/dócor.html
 Language : art-Latn-x-osv-0010-block001
@@ -522,7 +523,7 @@ Tagged : block001
 Tagged : -
 Tagged : adv
 %%
-% %  Sentence Words:  % %
+% %  Sentence Words  % %
 Lexeme : du
 At : block001/du.html
 Language : art-Latn-x-osv-0010-block001
@@ -539,6 +540,18 @@ Tagged : block001
 Tagged : -
 Tagged : sw
 Tagged : adv
+%%
+% %  Copulae  % %
+Lexeme : dotl
+At : block001/dotl.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : copula; is
+Tagged : block001
+Tagged : -
+Tagged : verb2
+%%
+Inflected : dot
+Of : dotl
 %%
 %  BLOCK 002 : THE BODY  %
 Lexeme : xówil
