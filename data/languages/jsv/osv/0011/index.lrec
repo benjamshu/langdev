@@ -41,6 +41,12 @@ Splash : Moody!
 Splash : Yes!
 Splash : No!
 Splash : Present!
+Splash : Infinite!
+Splash : ∞!
+Splash : Past!
+Splash : Long gone!
+Splash : Future!
+Splash : Fütchi!
 %%
 Group : Development block
 % Grammatical words: %
@@ -370,6 +376,53 @@ Tagged : affix
 %%
 Inflected : -xåi
 Of : -xoi
+%%
+Lexeme : -go
+At : block001/-go.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : -ed; past tense
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Alternate : -ko
+For : -go
+%%
+Inflected : -gå
+Of : -go
+%%
+Alternate : -kå
+For : -gå
+Of : -go
+%%
+Lexeme : -la
+At : block001/-la.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : will …; future tense
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -le
+Of : -la
+%%
+Lexeme : -gai
+At : block001/-gai.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : infinitive
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Alternate : -kai
+For : -gai
+%%
+Inflected : -gei
+Of : -gei
+%%
+Alternate : -kei
+For : -gei
+Of : -gai
 %%
 % %  Interjections:  % %
 Lexeme : jóstu
