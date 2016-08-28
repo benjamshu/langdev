@@ -1,13 +1,13 @@
 #  CLASSICAL SEVENSI  #
 
-##  Status:  ##
+##  Status  ##
 
 * JASTU-SEVENSI VIV POPULATION : COMPLETE
 * CLASSICAL SEVENSI VIV DEVELOPMENT : COMPLETE
 * __CLASSICAL SEVENSI X GRAMMARS : IN PROGRESS__
 * __CLASSICAL SEVENSI X LEXICON : IN PROGRESS__
 
-##  Description:  ##
+##  Description  ##
 
 __The hangul representation of CLASSICAL SEVENSI requires font-support for archaic forms! This support is provided by [Source Han Sans](http://blogs.adobe.com/CCJKType/2014/12/shs-development-archaic-hangul.html) but may not be available in other fonts.__
 

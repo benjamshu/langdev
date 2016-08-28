@@ -3,7 +3,7 @@
 The grammar of CLASSICAL SEVENSI VIV diverges somewhat from that of JÄSTŪGEI VIII.
 This document aims to serve as an overview to how sentences are roughly constructed.
 
-##  Parts of speech:  ##
+##  Parts of speech  ##
 
 CLASSICAL SEVENSI VIV utilizes the following broad "parts of speech":
 
@@ -31,7 +31,7 @@ CLASSICAL SEVENSI VIV utilizes the following broad "parts of speech":
 -   __Classifiers__ are special modifiers which only modify amounts.
     They are required whenever a numeral or quantifier functions nominally in a non-abstract sense; they are *not*, however, required when these function adjectivally.
 
-##  Phrases and dependent clauses:  ##
+##  Phrases and dependent clauses  ##
 
 -   __The noun phrase__ begins with an article and ends with a noun~adjective.
     Between these two, any number of adjective phrases and relative clauses may be placed.

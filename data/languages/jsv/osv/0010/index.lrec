@@ -39,6 +39,22 @@ Splash : Organized!
 Splash : Setting the mood!
 Splash : Yes!
 Splash : No!
+Splash : Present!
+Splash : Infinite!
+Splash : ∞!
+Splash : Past!
+Splash : Long gone!
+Splash : Future!
+Splash : Fütchi!
+Splash : Tea is optional!
+Splash : L
+Splash : Thumb and forefinger!
+Splash : Forefinger and thumb!
+Splash : Strong!
+Splash : Weak!
+Splash : Just an aspect!
+Splash : Honoured!
+Splash : Together!
 %%
 Group : Development block
 % Grammatical words: %
@@ -100,7 +116,7 @@ Tag : interj
 Tag : sw
 %%
 %  BLOCK 001 : GRAMMATICAL WORDS %
-% %  Articles:  % %
+% %  Articles  % %
 Lexeme : bæ
 At : block001/bæ.html
 Language : art-Latn-x-osv-0010-block001
@@ -133,7 +149,7 @@ Tagged : block001
 Tagged : -
 Tagged : art
 %%
-% %  Determiners:  % %
+% %  Determiners  % %
 Lexeme : vitl
 At : block001/vitl.html
 Language : art-Latn-x-osv-0010-block001
@@ -150,7 +166,7 @@ Tagged : block001
 Tagged : -
 Tagged : det
 %%
-% %  Postpositions:  % %
+% %  Postpositions  % %
 Lexeme : zo
 At : block001/zo.html
 Language : art-Latn-x-osv-0010-block001
@@ -287,7 +303,7 @@ Tagged : block001
 Tagged : 0
 Tagged : postp
 %%
-% %  Honorifics:  % %
+% %  Honorifics  % %
 Lexeme : -fa
 At : block001/-fa.html
 Language : art-Latn-x-osv-0010-block001
@@ -299,7 +315,7 @@ Tagged : hon
 Inflected : -fe
 Of : -fa
 %%
-% %  Affixes:  % %
+% %  Affixes  % %
 Lexeme : -zo
 At : block001/-zo.html
 Language : art-Latn-x-osv-0010-block001
@@ -311,29 +327,127 @@ Tagged : affix
 Inflected : -zå
 Of : -zo
 %%
-Lexeme : -ætl
-At : block001/-ætl.html
-Language : art-Latn-x-osv-0010-block001
-Gloss : -ion; forms abstract nouns from verbs
-Tagged : block001
-Tagged : 0
-Tagged : affix
-%%
-Alternate : -tl
-Of : -ætl
-%%
-Lexeme : -do
-At : block001/-do.html
+Lexeme : -dotl
+At : block001/-dotl.html
 Language : art-Latn-x-osv-0010-block001
 Gloss : -ate; forms verbs from adjectives
 Tagged : block001
 Tagged : 0
 Tagged : affix
 %%
-Inflected : -då
-Of : -do
+Inflected : -dåtl
+Of : -dotl
 %%
-% %  Interjections:  % %
+Lexeme : -wei
+At : block001/-wei.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : present perfective
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -wai
+Of : -wei
+%%
+Lexeme : -go
+At : block001/-go.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : past tense
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -gå
+Of : -go
+%%
+Lexeme : -gewei
+At : block001/-gewei.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : past prefective tense
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -gawai
+Of : -gewei
+%%
+Lexeme : -la
+At : block001/-la.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : future tense
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Alternate : -tla
+For : -la
+%%
+Inflected : -le
+Of : -la
+%%
+Alternate : -tle
+For : -le
+Of : -la
+%%
+Lexeme : -lawai
+At : block001/-lawai.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : future perfective tense
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Alternate : -tlawai
+For : -la
+%%
+Inflected : -lewei
+Of : -la
+%%
+Alternate : -tlewei
+For : -le
+Of : -la
+%%
+Lexeme : -lkai
+At : block001/-lkai.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : infinitive
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Alternate : -tlkai
+For : -lkai
+%%
+Inflected : -lkei
+Of : -lkai
+%%
+Alternate : -tlkei
+For : -lkei
+Of : -lkai
+%%
+Lexeme : -l
+At : block001/-l.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : non-finite
+Tagged : block001
+Tagged : 0
+Tagged : affix
+%%
+Alternate : -tl
+For : -l
+%%
+Lexeme : -de
+At : block001/-de.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : honorific
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -da
+Of : -de
+%%
+% %  Interjections  % %
 Lexeme : jóstu
 At : block001/jóstu.html
 Language : art-Latn-x-osv-0010-block001
@@ -343,7 +457,7 @@ Tagged : -
 Tagged : interj
 Tagged : noun
 %%
-% %  Pronouns:  % %
+% %  Pronouns  % %
 Lexeme : za
 At : block001/za.html
 Language : art-Latn-x-osv-0010-block001
@@ -376,7 +490,7 @@ Tagged : block001
 Tagged : -
 Tagged : pron
 %%
-% %  Adverbs:  % %
+% %  Adverbs  % %
 Lexeme : dócor
 At : block001/dócor.html
 Language : art-Latn-x-osv-0010-block001
@@ -409,7 +523,7 @@ Tagged : block001
 Tagged : -
 Tagged : adv
 %%
-% %  Sentence Words:  % %
+% %  Sentence Words  % %
 Lexeme : du
 At : block001/du.html
 Language : art-Latn-x-osv-0010-block001
@@ -427,14 +541,27 @@ Tagged : -
 Tagged : sw
 Tagged : adv
 %%
+% %  Copulae  % %
+Lexeme : dotl
+At : block001/dotl.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : copula; is
+Tagged : block001
+Tagged : -
+Tagged : verb2
+%%
+Inflected : dot
+Of : dotl
+%%
 %  BLOCK 002 : THE BODY  %
-Lexeme : xówi
-At : block002/xówi.html
+Lexeme : xówil
+At : block002/xówil.html
 Language : art-Latn-x-osv-0010-block002
 Gloss : produce; birth
 Tagged : block002
 Tagged : -
-Tagged : noun
+Tagged : verb1
+Tagged : verb2
 %%
 %  BLOCK 003 : ANIMALS  %
 Lexeme : hodúsi
@@ -608,8 +735,8 @@ Tagged : block006
 Tagged : -
 Tagged : noun
 %%
-Lexeme : yoséido
-At : block006/yoséido.html
+Lexeme : yoséidol
+At : block006/yoséidol.html
 Language : art-Latn-x-osv-0010-block006
 Gloss : bear; bring forth
 Tagged : block006
@@ -659,8 +786,8 @@ Tagged : block008
 Tagged : -
 Tagged : noun
 %%
-Lexeme : ærwéilso
-At : block008/ærweilso.html
+Lexeme : ærwéilsol
+At : block008/ærwéilsol.html
 Language : art-Latn-x-osv-0010-block008
 Gloss : bring together; whole; complete
 Tagged : block008
@@ -683,21 +810,35 @@ Gloss : edge; border
 Tagged : block008
 Tagged : +
 Tagged : noun
+%%
+Lexeme : dáiwail
+At : block008/dáiwail.html
+Language : art-Latn-x-osv-0010-block008
+Gloss : edge; border
+Tagged : block008
+Tagged : +
 Tagged : verb2
 %%
 %  BLOCK 009 : EMOTION AND EXPERIENCE  %
-Lexeme : gælág
-At : block009/gælág.html
+Lexeme : gælák
+At : block009/gælák.html
+Language : art-Latn-x-osv-0010-block009
+Gloss : crack
+Tagged : block009
+Tagged : +
+Tagged : noun
+%%
+Lexeme : gælátl
+At : block009/gælátl.html
 Language : art-Latn-x-osv-0010-block009
 Gloss : crack
 Tagged : block009
 Tagged : +
 Tagged : verb1
 Tagged : verb2
-Tagged : noun
 %%
-Lexeme : jǽde
-At : block009/jǽde.html
+Lexeme : jǽdel
+At : block009/jǽdel.html
 Language : art-Latn-x-osv-0010-block009
 Gloss : holy; respected
 Tagged : block009
@@ -713,13 +854,16 @@ Tagged : block009
 Tagged : -
 Tagged : noun
 %%
-Lexeme : ǽros
-At : block009/ǽros.html
+Lexeme : ǽrosæl
+At : block009/ǽrosæl.html
 Language : art-Latn-x-osv-0010-block009
 Gloss : show; present; give
 Tagged : block009
 Tagged : -
 Tagged : verb2
+%%
+Inflected : ǽros
+Of : ǽrosæl
 %%
 %  BLOCK 010 : SOCIAL ROLES  %
 Lexeme : wéixui

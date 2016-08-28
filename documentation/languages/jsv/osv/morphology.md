@@ -1,8 +1,8 @@
 #  CLASSICAL SEVENSI :: MORPHOLOGY  #
 
-##  Verbals:  ##
+##  Verbals  ##
 
-###  moods  ###
+###  Moods:  ###
 
 | EN equiv. | Denotations | Judgements    |
 | --------: | :---------- | :------------ |
@@ -12,13 +12,15 @@
 |   "shall" | Alethic     | Jussive       |
 |     "!/?" | Mirative    | Interrogative |
 
-###  verb formation  ###
+###  Verb formation:  ###
 
 |    -2     |    -1    |  00  |  +1   |   +2   |    +3    |   +C   |
 | --------- | -------- | ---- | ----- | ------ | -------- | ------ |
 | negation? | modality | ROOT | tense | aspect | modality | polite |
 
-###  noun formation  ###
+##  Nominals:  ##
+
+###  Noun formation:  ###
 
 |  00  |   +C   |
 | ---- | ------ |
