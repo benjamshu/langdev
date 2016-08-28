@@ -13,6 +13,7 @@ The [`data`](https://github.com/literallybenjam/langdev/tree/data) branch also c
 
 LANGDEV uses the [LexisML Index Record (LREC)](documentation/standards/WD/0002.lsdoc) format in conjunction with HTML to keep track of languages' lexicons.
 Due to the scope of the project, however, the now-depreciated LexisML 1.0 and 2.0 formats are still sometimes in use.
+[Atom](https://atom.io) users may find the [language-lrec](https://github.com/literallybenjam/language-lrec) package useful for viewing LREC documents.
 
 ###  [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation)  ###
 
