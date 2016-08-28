@@ -54,6 +54,8 @@ Splash : Thumb and forefinger!
 Splash : Forefinger and thumb!
 Splash : Strong!
 Splash : Weak!
+Splash : Just an aspect!
+Splash : Honoured!
 %%
 Group : Development block
 % Grammatical words: %
@@ -385,10 +387,21 @@ Tagged : affix
 Inflected : -xåi
 Of : -xoi
 %%
+Lexeme : -wei
+At : block001/-wei.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : present perfective
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -wai
+Of : -wei
+%%
 Lexeme : -go
 At : block001/-go.html
 Language : art-Latn-x-osv-0012-block001
-Gloss : -ed; past tense
+Gloss : past tense
 Tagged : block001
 Tagged : -
 Tagged : affix
@@ -403,10 +416,28 @@ Alternate : -kå
 For : -gå
 Of : -go
 %%
+Lexeme : -gewei
+At : block001/-gewei.html
+Language : art-Latn-x-osv-0011-block001
+Gloss : past prefective tense
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Alternate : -kewei
+For : -gewei
+%%
+Inflected : -gawai
+Of : -gewei
+%%
+Alternate : -kawai
+For : -gawai
+Of : -gewei
+%%
 Lexeme : -la
 At : block001/-la.html
 Language : art-Latn-x-osv-0012-block001
-Gloss : will …; future tense
+Gloss : future tense
 Tagged : block001
 Tagged : -
 Tagged : affix
@@ -418,6 +449,24 @@ Inflected : -le
 Of : -la
 %%
 Alternate : -tle
+For : -le
+Of : -la
+%%
+Lexeme : -lawai
+At : block001/-lawai.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : future perfective tense
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Alternate : -tlawai
+For : -la
+%%
+Inflected : -lewei
+Of : -la
+%%
+Alternate : -tlewei
 For : -le
 Of : -la
 %%
@@ -449,6 +498,17 @@ Tagged : affix
 %%
 Alternate : -tl
 For : -l
+%%
+Lexeme : -de
+At : block001/-de.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : honorific
+Tagged : block001
+Tagged : -
+Tagged : affix
+%%
+Inflected : -da
+Of : -de
 %%
 % %  Interjections:  % %
 Lexeme : jóstu
