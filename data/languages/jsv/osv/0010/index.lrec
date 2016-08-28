@@ -46,6 +46,12 @@ Splash : Past!
 Splash : Long gone!
 Splash : Future!
 Splash : Fütchi!
+Splash : Tea is optional!
+Splash : L
+Splash : Thumb and forefinger!
+Splash : Forefinger and thumb!
+Splash : Strong!
+Splash : Weak!
 %%
 Group : Development block
 % Grammatical words: %
@@ -348,19 +354,44 @@ Tagged : block001
 Tagged : -
 Tagged : affix
 %%
+Alternate : -tla
+For : -la
+%%
 Inflected : -le
 Of : -la
 %%
-Lexeme : -gai
-At : block001/-gai.html
+Alternate : -tle
+For : -le
+Of : -la
+%%
+Lexeme : -lkai
+At : block001/-lkai.html
 Language : art-Latn-x-osv-0010-block001
 Gloss : infinitive
 Tagged : block001
 Tagged : -
 Tagged : affix
 %%
-Inflected : -gei
-Of : -gei
+Alternate : -tlkai
+For : -lkai
+%%
+Inflected : -lkei
+Of : -lkai
+%%
+Alternate : -tlkei
+For : -lkei
+Of : -lkai
+%%
+Lexeme : -l
+At : block001/-l.html
+Language : art-Latn-x-osv-0010-block001
+Gloss : non-finite
+Tagged : block001
+Tagged : 0
+Tagged : affix
+%%
+Alternate : -tl
+For : -l
 %%
 % %  Interjections:  % %
 Lexeme : jóstu

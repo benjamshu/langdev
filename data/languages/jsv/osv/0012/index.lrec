@@ -48,6 +48,12 @@ Splash : Past!
 Splash : Long gone!
 Splash : Future!
 Splash : Fütchi!
+Splash : Tea is optional!
+Splash : L
+Splash : Thumb and forefinger!
+Splash : Forefinger and thumb!
+Splash : Strong!
+Splash : Weak!
 %%
 Group : Development block
 % Grammatical words: %
@@ -381,7 +387,7 @@ Of : -xoi
 %%
 Lexeme : -go
 At : block001/-go.html
-Language : art-Latn-x-osv-0010-block001
+Language : art-Latn-x-osv-0012-block001
 Gloss : -ed; past tense
 Tagged : block001
 Tagged : -
@@ -399,33 +405,50 @@ Of : -go
 %%
 Lexeme : -la
 At : block001/-la.html
-Language : art-Latn-x-osv-0010-block001
+Language : art-Latn-x-osv-0012-block001
 Gloss : will …; future tense
 Tagged : block001
 Tagged : -
 Tagged : affix
 %%
+Alternate : -tla
+For : -la
+%%
 Inflected : -le
 Of : -la
 %%
-Lexeme : -gai
-At : block001/-gai.html
-Language : art-Latn-x-osv-0010-block001
+Alternate : -tle
+For : -le
+Of : -la
+%%
+Lexeme : -lkai
+At : block001/-lkai.html
+Language : art-Latn-x-osv-0012-block001
 Gloss : infinitive
 Tagged : block001
 Tagged : -
 Tagged : affix
 %%
+Alternate : -tlkai
+For : -lkai
 %%
-Alternate : -kai
-For : -gai
+Inflected : -lkei
+Of : -lkai
 %%
-Inflected : -gei
-Of : -gei
+Alternate : -tlkei
+For : -lkei
+Of : -lkai
 %%
-Alternate : -kei
-For : -gei
-Of : -gai
+Lexeme : -l
+At : block001/-l.html
+Language : art-Latn-x-osv-0012-block001
+Gloss : non-finite
+Tagged : block001
+Tagged : 0
+Tagged : affix
+%%
+Alternate : -tl
+For : -l
 %%
 % %  Interjections:  % %
 Lexeme : jóstu
