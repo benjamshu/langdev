@@ -39,6 +39,7 @@ Splash : Organized!
 Splash : Setting the mood!
 Splash : Yes!
 Splash : No!
+Splash : Present!
 %%
 Group : Development block
 % Grammatical words: %
@@ -311,27 +312,16 @@ Tagged : affix
 Inflected : -zå
 Of : -zo
 %%
-Lexeme : -ætl
-At : block001/-ætl.html
-Language : art-Latn-x-osv-0010-block001
-Gloss : -ion; forms abstract nouns from verbs
-Tagged : block001
-Tagged : 0
-Tagged : affix
-%%
-Alternate : -tl
-Of : -ætl
-%%
-Lexeme : -do
-At : block001/-do.html
+Lexeme : -dotl
+At : block001/-dotl.html
 Language : art-Latn-x-osv-0010-block001
 Gloss : -ate; forms verbs from adjectives
 Tagged : block001
 Tagged : 0
 Tagged : affix
 %%
-Inflected : -då
-Of : -do
+Inflected : -dåtl
+Of : -dotl
 %%
 % %  Interjections:  % %
 Lexeme : jóstu
@@ -428,13 +418,14 @@ Tagged : sw
 Tagged : adv
 %%
 %  BLOCK 002 : THE BODY  %
-Lexeme : xówi
-At : block002/xówi.html
+Lexeme : xówil
+At : block002/xówil.html
 Language : art-Latn-x-osv-0010-block002
 Gloss : produce; birth
 Tagged : block002
 Tagged : -
-Tagged : noun
+Tagged : verb1
+Tagged : verb2
 %%
 %  BLOCK 003 : ANIMALS  %
 Lexeme : hodúsi
@@ -608,8 +599,8 @@ Tagged : block006
 Tagged : -
 Tagged : noun
 %%
-Lexeme : yoséido
-At : block006/yoséido.html
+Lexeme : yoséidol
+At : block006/yoséidol.html
 Language : art-Latn-x-osv-0010-block006
 Gloss : bear; bring forth
 Tagged : block006
@@ -659,8 +650,8 @@ Tagged : block008
 Tagged : -
 Tagged : noun
 %%
-Lexeme : ærwéilso
-At : block008/ærweilso.html
+Lexeme : ærwéilsol
+At : block008/ærwéilsol.html
 Language : art-Latn-x-osv-0010-block008
 Gloss : bring together; whole; complete
 Tagged : block008
@@ -683,21 +674,35 @@ Gloss : edge; border
 Tagged : block008
 Tagged : +
 Tagged : noun
+%%
+Lexeme : dáiwail
+At : block008/dáiwail.html
+Language : art-Latn-x-osv-0010-block008
+Gloss : edge; border
+Tagged : block008
+Tagged : +
 Tagged : verb2
 %%
 %  BLOCK 009 : EMOTION AND EXPERIENCE  %
-Lexeme : gælág
-At : block009/gælág.html
+Lexeme : gælák
+At : block009/gælák.html
+Language : art-Latn-x-osv-0010-block009
+Gloss : crack
+Tagged : block009
+Tagged : +
+Tagged : noun
+%%
+Lexeme : gælátl
+At : block009/gælátl.html
 Language : art-Latn-x-osv-0010-block009
 Gloss : crack
 Tagged : block009
 Tagged : +
 Tagged : verb1
 Tagged : verb2
-Tagged : noun
 %%
-Lexeme : jǽde
-At : block009/jǽde.html
+Lexeme : jǽdel
+At : block009/jǽdel.html
 Language : art-Latn-x-osv-0010-block009
 Gloss : holy; respected
 Tagged : block009
@@ -713,13 +718,16 @@ Tagged : block009
 Tagged : -
 Tagged : noun
 %%
-Lexeme : ǽros
-At : block009/ǽros.html
+Lexeme : ǽrosæl
+At : block009/ǽrosæl.html
 Language : art-Latn-x-osv-0010-block009
 Gloss : show; present; give
 Tagged : block009
 Tagged : -
 Tagged : verb2
+%%
+Inflected : ǽros
+Of : ǽrosæl
 %%
 %  BLOCK 010 : SOCIAL ROLES  %
 Lexeme : wéixui

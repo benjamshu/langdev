@@ -40,6 +40,7 @@ Splash : Setting the mood!
 Splash : Moody!
 Splash : Yes!
 Splash : No!
+Splash : Present!
 %%
 Group : Development block
 % Grammatical words: %
@@ -315,32 +316,10 @@ Tagged : affix
 Inflected : -zå
 Of : -zo
 %%
-Lexeme : -ætl
-At : block001/-ætl.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : -tion; forms abstract nouns from verbs
-Tagged : block001
-Tagged : 0
-Tagged : affix
-%%
-Alternate : -tl
-Of : -ætl
-%%
-Lexeme : -do
-At : block001/-do.html
-Language : art-Latn-x-osv-0011-block001
-Gloss : -ate; forms verbs from adjectives
-Tagged : block001
-Tagged : -
-Tagged : affix
-%%
-Inflected : -då
-Of : -do
-%%
 Lexeme : -dotl
 At : block001/-dotl.html
 Language : art-Latn-x-osv-0011-block001
-Gloss : -ate; forms abstract nouns from adjectives
+Gloss : -ate; forms verbs from adjectives
 Tagged : block001
 Tagged : -
 Tagged : affix
@@ -462,13 +441,14 @@ Tagged : -
 Tagged : sw
 %%
 %  BLOCK 002 : THE BODY  %
-Lexeme : xówi
-At : block002/xówi.html
+Lexeme : xówil
+At : block002/xówil.html
 Language : art-Latn-x-osv-0011-block002
 Gloss : produce; birth
 Tagged : block002
 Tagged : -
-Tagged : noun
+Tagged : verb1
+Tagged : verb2
 %%
 %  BLOCK 003 : ANIMALS  %
 Lexeme : hóji
@@ -642,8 +622,8 @@ Tagged : block006
 Tagged : -
 Tagged : noun
 %%
-Lexeme : yoséido
-At : block006/yoséido.html
+Lexeme : yoséidol
+At : block006/yoséidol.html
 Language : art-Latn-x-osv-0011-block006
 Gloss : bear; bring forth
 Tagged : block006
@@ -693,18 +673,10 @@ Tagged : block008
 Tagged : -
 Tagged : noun
 %%
-Lexeme : ærwéico
-At : block008/ærweico.html
+Lexeme : ærwéicol
+At : block008/ærweicol.html
 Language : art-Latn-x-osv-0011-block008
-Gloss : whole; complete; dense
-Tagged : block008
-Tagged : -
-Tagged : verb1
-%%
-Lexeme : ærwéido
-At : block008/ærweido.html
-Language : art-Latn-x-osv-0011-block008
-Gloss : manifest; come into being; condense
+Gloss : whole; complete; dense; manifest; come into being; condense
 Tagged : block008
 Tagged : -
 Tagged : verb1
@@ -725,6 +697,13 @@ Gloss : edge; border
 Tagged : block008
 Tagged : +
 Tagged : noun
+%%
+Lexeme : táibail
+At : block008/táibail.html
+Language : art-Latn-x-osv-0011-block008
+Gloss : edge; border
+Tagged : block008
+Tagged : +
 Tagged : verb2
 %%
 %  BLOCK 009 : EMOTION AND EXPERIENCE  %
@@ -734,12 +713,19 @@ Language : art-Latn-x-osv-0011-block009
 Gloss : crack
 Tagged : block009
 Tagged : +
-Tagged : verb1
-Tagged : verb2
 Tagged : noun
 %%
-Lexeme : jédæ
-At : block009/jédæ.html
+Lexeme : glatl
+At : block009/glatl.html
+Language : art-Latn-x-osv-0011-block009
+Gloss : crack
+Tagged : block009
+Tagged : +
+Tagged : verb1
+Tagged : verb2
+%%
+Lexeme : jédæl
+At : block009/jédæl.html
 Language : art-Latn-x-osv-0011-block009
 Gloss : holy; respected
 Tagged : block009
@@ -755,13 +741,16 @@ Tagged : block009
 Tagged : -
 Tagged : noun
 %%
-Lexeme : ǽros
-At : block009/ǽros.html
+Lexeme : ǽrosæl
+At : block009/ǽrosæl.html
 Language : art-Latn-x-osv-0011-block009
 Gloss : show; present; give
 Tagged : block009
 Tagged : -
 Tagged : verb2
+%%
+Inflected : ǽros
+Of : ǽrosæl
 %%
 %  BLOCK 010 : SOCIAL ROLES  %
 Lexeme : méri
