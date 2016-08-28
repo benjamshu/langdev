@@ -1,12 +1,5 @@
 #  CLASSICAL SEVENSI :: MORPHOLOGY  #
 
-##  Harmonization:  ##
-
-Adjectives and relative verbals should match nouns' vowel-harmonization groups.
-In addition, serial verbs must match vowel harmony to the first.
-
-The marking of subordination through harmonization does not carry into postpositional phrases, which are not harmonized.
-
 ##  Verbals:  ##
 
 ###  moods  ###
@@ -21,6 +14,12 @@ The marking of subordination through harmonization does not carry into postposit
 
 ###  verb formation  ###
 
-|    -2     |    -1    |   0  |     1    |    2    |   3   |    4   |      5     |
-| --------- | -------- | ---- | -------- | ------- | ----- | ------ | ---------- |
-| negation? | modality | ROOT | modality | valency | tense | aspect | politeness |
+|    -2     |    -1    |  00  |  +1   |   +2   |    +3    |   +C   |
+| --------- | -------- | ---- | ----- | ------ | -------- | ------ |
+| negation? | modality | ROOT | tense | aspect | modality | polite |
+
+###  noun formation  ###
+
+|  00  |   +C   |
+| ---- | ------ |
+| ROOT | polite |
