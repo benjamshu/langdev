@@ -34,7 +34,7 @@ The Classical Sevensian abjad is planned to be specified in the LANGDEV Project 
 
 In later texts, U+10110F CLASSICAL SEVENSI PUNCTUATION is placed between words to separate them.
 
-##  Comparison:  ##
+##  Comparison  ##
 
 (note that Hangul /w/ and /j/ are marked on the vowel)
 

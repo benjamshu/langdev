@@ -29,7 +29,7 @@ For clarity, modified vowels are given special representations:
 |  æ  |  i  |  u  |  ui |
 |  e  |  ei |  o  |  oi |
 
-##  Shifts and Changes:  ##
+##  Shifts and Changes  ##
 
 The following table charts the evolution of Sevensi phonology in the time leading up to and during the Classical period:
 
@@ -60,7 +60,7 @@ The following table charts the evolution of Sevensi phonology in the time leadin
 |\*au |å(i)<sup>9</sup>  |å(i)              |å(i)              |
 |\*eu |  u               |  u               |  u               |
 
-###  Notes  ###
+###  Notes:  ###
 
 1. If the consonant is preceeded by a voiced consonant in the same syllable, devoice it.
     Otherwise, if the following syllable begins with _h_, the consonant is devoiced and the _h_ is dropped.

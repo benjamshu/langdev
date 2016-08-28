@@ -9,7 +9,7 @@ You can find those [here](../!DEPRECIATED!).
 
 Because JASTU-SEVENSI VIV is a proto-language, this document should be considered speculative, third-hand, and for reference purposes only.
 
-## Orthography: ##
+## Orthography ##
 
 JASTU-SEVENSI VIV is commonly represented with the following romanizations.
 Note that pronuciations are approximate.

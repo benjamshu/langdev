@@ -1,6 +1,6 @@
 #  CLASSICAL SEVENSI :: HARMONY  #
 
-##  Semantics:  ##
+##  Semantics  ##
 
 |                +                |                0                |                -                |
 | :-----------------------------: | :-----------------------------: | :-----------------------------: |
@@ -9,7 +9,7 @@
 | spring, summer                  | solstice                        | fall, winter                    |
 | male                            | neuter, spirit                  | female                          |
 
-##  Consonants:  ##
+##  Consonants  ##
 
 |                +                |                0                |                -                |
 | :-----------------------------: | :-----------------------------: | :-----------------------------: |
@@ -18,11 +18,10 @@
 | voiced                          | devoiced                        | aspirated                       |
 | back                            | middle                          | front                           |
 
-##  Vowels:  ##
+##  Vowels  ##
 
 |                +                |                0                |                -                |
 | :-----------------------------: | :-----------------------------: | :-----------------------------: |
 | &#x1161;/&#x1169; family        | &#x1175;/&#x1173; family        | &#x1165;/&#x116E; family        |
 | iotized                         | plain                           | W-form                          |
 | back                            | middle                          | front                           |
-

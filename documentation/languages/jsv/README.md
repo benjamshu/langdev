@@ -8,7 +8,7 @@ In 2015, the lexicons generated during this early development were combined into
 
 Documentation and back-development for SEVENSI and its ancestors takes place at <https://github.com/literallybenjam/7c/>.
 
-##  Roadmap:  ##
+##  Roadmap  ##
 
 - !DEPRECIATED! : Base for THE JASTU-SEVENSI LANGUAGES
 - VIV : Collection under common orthography and grammar
