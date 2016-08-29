@@ -14,11 +14,11 @@
 
 ###  Verb formation:  ###
 
-|    -2     |    -1    |  00  |  +1   |   +2   |    +3    |   +C   |
-| --------- | -------- | ---- | ----- | ------ | -------- | ------ |
-| negation? | modality | ROOT | tense | aspect | modality | polite |
+|    -2     |    -1    |  00  |  +1   |   +2   |    +3    |    +4    |   +C   |
+| --------- | -------- | ---- | ----- | ------ | -------- | -------- | ------ |
+| negation? | modality | ROOT | tense | aspect | honorific | modality | polite |
 
-##  Nominals:  ##
+##  Nominals  ##
 
 ###  Noun formation:  ###
 
