@@ -1,0 +1,6 @@
+* text=auto
+
+*.lml linguist-language=XML
+**/dev-materials/** linguist-documentation
+/unifont/ linguist-vendored
+/unifont/font/plane10-LANGDEV/ linguist-vendored=false
