@@ -1,0 +1,34 @@
+# Date: 30 August 2016
+# The LANGDEV Project
+
+# ================================================
+
+# Unicode; Schematic Name; Joining Type; Joining Group
+
+# Sevensi Characters
+
+101200;SEVENSI NULL; D; No_Joining_Group
+101201;SEVENSI H; D; No_Joining_Group
+101202;SEVENSI L; L; No_Joining_Group
+101203;SEVENSI TL; L; No_Joining_Group
+101204;SEVENSI G; D; No_Joining_Group
+101205;SEVENSI R; D; No_Joining_Group
+101206;SEVENSI D; D; No_Joining_Group
+101207;SEVENSI Z; D; No_Joining_Group
+101208;SEVENSI B; D; No_Joining_Group
+101209;SEVENSI V; D; No_Joining_Group
+10120A;SEVENSI G WITH DEVOICING; D; No_Joining_Group
+10120B;SEVENSI R WITH DEVOICING; D; No_Joining_Group
+10120C;SEVENSI D WITH DEVOICING; D; No_Joining_Group
+10120D;SEVENSI Z WITH DEVOICING; D; No_Joining_Group
+10120E;SEVENSI B WITH DEVOICING; D; No_Joining_Group
+10120F;SEVENSI V WITH DEVOICING; D; No_Joining_Group
+101210;SEVENSI G WITH RING; D; No_Joining_Group
+101211;SEVENSI R WITH RING; D; SEVENSI_Y
+101212;SEVENSI D WITH RING; D; No_Joining_Group
+101213;SEVENSI Z WITH RING; D; No_Joining_Group
+101214;SEVENSI B WITH RING; D; No_Joining_Group
+101215;SEVENSI V WITH RING; D; SEVENSI_W
+101216;SEVENSI Z WITH DEVOICING AND RING; D; No_Joining_Group
+101220;SEVENSI POSITIVE HARMONY; L; No_Joining_Group
+101221;SEVENSI NEGATIVE HARMONY; L; No_Joining_Group
