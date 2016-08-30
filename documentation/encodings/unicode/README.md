@@ -77,11 +77,12 @@ The character properties specified in the files in the following table override 
 In addition, the property value aliases defined in [PropertyValueAliases.txt](https://github.com/literallybenjam/langdev/tree/data/data/encodings/unicode/ucd/langdev/PropertyValueAliases.txt) should be treated as though they were specified in the `PropertyValueAliases.txt` file in the UCD.
 Additional character properties may be defined at a later time by this standard.
 
-| File                                                     | Properties          |
-| -------------------------------------------------------- | ------------------- |
-| [Blocks.txt](ucd/langdev/Blocks.txt)                     | `Block`             |
-| [LineBreak.txt](ucd/langdev/LineBreak.txt)               | `Line_Break`        |
-| [Scripts.txt](ucd/langdev/Scripts.txt)                   | `Script`            |
-| [ScriptExtensions.txt](ucd/langdev/ScriptExtensions.txt) | `Script_Extensions` |
-| [PropList.txt](ucd/langdev/PropList.txt)                 | • `ASCII_Hex_Digit` <br> • `Bidi_Control` <br> • `Dash` <br> • `Deprecated` <br> • `Diacritic` <br> • `Extender` <br> • `Hex_Digit` <br> • `Hyphen` <br> • `Ideographic` <br> • `IDS_Binary_Operator` <br> • `IDS_Trinary_Operator` <br> • `Join_Control` <br> • `Logical_Order_Exception` <br> • `Noncharacter_Code_Point` <br> • `Other_Alphabetic` <br> • `Other_Default_Ignorable_Code_Point` <br> • `Other_Grapheme_Extend` <br> • `Other_ID_Continue` <br> • `Other_ID_Start` <br> • `Other_Lowercase` <br> • `Other_Math` <br> • `Other_Uppercase` <br> • `Pattern_Syntax` <br> • `Pattern_White_Space` <br> • `Quotation_Mark` <br> • `Radical` <br> • `Soft_Dotted` <br> • `STerm` <br> • `Terminal_Punctuation` <br> • `Unified_Ideograph` <br> • `Variation_Selector` <br> • `White_Space` |
-| [UnicodeData.txt](ucd/langdev/UnicodeData.txt)           | • `Name` <br> • `General_Category` <br> • `Canonical_Combining_Class` <br> • `Bidi_Class` <br> • `Decomposition_Type` <br> • `Decomposition_Mapping` <br> • `Numeric_Type` <br> • `Numeric_Value` <br> • `Bidi_Mirrored` <br> • `Unicode_1_Name` <br> • `ISO_Comment` <br> • `Simple_Uppercase_Mapping` <br> • `Simple_Lowercase_Mapping` <br> • `Simple_Titlecase_Mapping` |
+| File                 | Properties          |
+| -------------------- | ------------------- |
+| ArabicShaping.txt    | • `Joining_Type` <br> • `Joining_Group` |
+| Blocks.txt           | `Block`             |
+| LineBreak.txt        | `Line_Break`        |
+| Scripts.txt          | `Script`            |
+| ScriptExtensions.txt | `Script_Extensions` |
+| PropList.txt         | • `ASCII_Hex_Digit` <br> • `Bidi_Control` <br> • `Dash` <br> • `Deprecated` <br> • `Diacritic` <br> • `Extender` <br> • `Hex_Digit` <br> • `Hyphen` <br> • `Ideographic` <br> • `IDS_Binary_Operator` <br> • `IDS_Trinary_Operator` <br> • `Join_Control` <br> • `Logical_Order_Exception` <br> • `Noncharacter_Code_Point` <br> • `Other_Alphabetic` <br> • `Other_Default_Ignorable_Code_Point` <br> • `Other_Grapheme_Extend` <br> • `Other_ID_Continue` <br> • `Other_ID_Start` <br> • `Other_Lowercase` <br> • `Other_Math` <br> • `Other_Uppercase` <br> • `Pattern_Syntax` <br> • `Pattern_White_Space` <br> • `Quotation_Mark` <br> • `Radical` <br> • `Soft_Dotted` <br> • `STerm` <br> • `Terminal_Punctuation` <br> • `Unified_Ideograph` <br> • `Variation_Selector` <br> • `White_Space` |
+| UnicodeData.txt      | • `Name` <br> • `General_Category` <br> • `Canonical_Combining_Class` <br> • `Bidi_Class` <br> • `Decomposition_Type` <br> • `Decomposition_Mapping` <br> • `Numeric_Type` <br> • `Numeric_Value` <br> • `Bidi_Mirrored` <br> • `Unicode_1_Name` <br> • `ISO_Comment` <br> • `Simple_Uppercase_Mapping` <br> • `Simple_Lowercase_Mapping` <br> • `Simple_Titlecase_Mapping` |

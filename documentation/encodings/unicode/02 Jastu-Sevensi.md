@@ -62,7 +62,7 @@ Rendering processes should suppress the display of `U+1011C7 JASTUGAY WORD SEPAR
 
 ####  Code charts  ####
 
-- [`U+101100..U+1010BF Jastugay Syllabary`](charts/101100.md)
+- [`U+101100..U+1011BF Jastugay Syllabary`](charts/101100.md)
 - [`U+1011C0..U+1011CF Jastugay Punctuation`](charts/1011C0.md)
 - [`U+1011C0..U+1011CF Jastugay Combining Marks`](charts/1011D0.md)
 
@@ -110,7 +110,7 @@ However, spaces were used to separate words.
 
 ####  Code charts  ####
 
-- [`U+1011E0..U+1010EF Runic Sevensi`](charts/1011E0.md)
+- [`U+1011E0..U+1011EF Runic Sevensi`](charts/1011E0.md)
 
 ###  Sevensi:  ###
 
@@ -129,7 +129,7 @@ Sevensi script is written from left to right, starting from the top of the page.
 ####  Vowel harmony  ####
 
 Although Sevensi script does not record vowels, it does record vowel harmonies via one of two word-final strokes.
-These are encoded as `U+101220 SEVENSI POSITIVE HARMONY MARK` and `U+101221 SEVENSI NEGATIVE HARMONY MARK`.
+These are encoded as `U+101220 SEVENSI POSITIVE VOWEL HARMONY MARK` and `U+101221 SEVENSI NEGATIVE VOWEL HARMONY MARK`.
 
 Words which have neutral harmonies may be set off from surrounding text using ZWNJ in instances where this distinction would otherwise be ambiguous.
 Note that the signification of vowel harmony extends backwards to the beginning of the word, but does not extend forward.
@@ -227,5 +227,5 @@ The *wy* ligature is also encoded separately at `U+101230 SEVENSI LIGATURE WY`, 
 ####  Code charts  ####
 
 - [`U+101200..U+10121F Sevensi`](charts/101200.md)
-- [`U+101220..U+10123F Sevensi Marks and Punctuation`](charts/101220.md)
-- [`U+101230..U+10124F Sevensi Presentation Forms`](charts/101230.md)
+- [`U+101220..U+10122F Sevensi Marks and Punctuation`](charts/101220.md)
+- [`U+101230..U+10123F Sevensi Presentation Forms`](charts/101230.md)
