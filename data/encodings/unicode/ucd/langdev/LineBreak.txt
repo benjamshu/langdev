@@ -1,4 +1,4 @@
-# Date: 17 April 2016
+# Date: 30 August 2016
 # The LANGDEV Project
 
 # ================================================
@@ -29,7 +29,7 @@
 101044;EX         # Po         BENCODE EXCLAMATION MARK
 101045;EX         # Po         BENCODE QUESTION MARK
 101047..10104F;XX # Cn         <reserved-101047>..<reserved-10104F>
-101050..1017FF;XX # Cn         <reserved-101050>..<reserved-1017FF>
+101050..1010FF;XX # Cn         <reserved-101050>..<reserved-1010FF>
 101100..10110E;AL # Lo         JASTUGAY SYLLABLE U..JASTUGAY SYLLABLE PU
 10110F;XX         # Cn         <reserved-10110F>
 101110..10111E;AL # Lo         JASTUGAY SYLLABLE AH..JASTUGAY SYLLABLE PAH
@@ -67,5 +67,27 @@
 1011CE;OP         # Ps         JASTUGAY LEFT BRACKET
 1011CF;CL         # Pe         JASTUGAY RIGHT BRACKET
 1011D0;CM         # Mn         JASTUGAY COMBINING MARK N
+1011D1..1011DF;XX # Cn         <reserved-1011D1>..<reserved-1011DF>
+1011E0..1011EE;AL # Lo         RUNIC SEVENSI LETTER ZI..RUNIC SEVENSI LETTER LAE
+1011EF;XX         # Cn         <reserved-1011EF>
+1011F0..1011F2;AL # Lo         RUNIC SEVENSI LETTER SI..RUNIC SEVENSI LETTER KO
+1011F3..1011F4;XX # Cn         <reserved-1011F3>..<reserved-1011F4>
+1011F5;AL         # Lo         RUNIC SEVENSI LETTER TO
+1011F6;XX         # Cn         <reserved-1011F6>
+1011F7;AL         # Lo         RUNIC SEVENSI LETTER FAOI
+1011F8;XX         # Cn         <reserved-1011F8>
+1011F9;AL         # Lo         RUNIC SEVENSI LETTER PA
+1011FA..1011FB;XX # Cn         <reserved-1011FA>..<reserved-1011FB>
+1011FC;AL         # Lo         RUNIC SEVENSI LETTER CI
+1011FD;XX         # Cn         <reserved-1011FD>
+1011FE;AL         # Lo         RUNIC SEVENSI LETTER TLAE
+1011FF;XX         # Cn         <reserved-1011FF>
+101200..101216;AL # Lo         SEVENSI LETTER NULL..SEVENSI LETTER C
+101217..10121F;XX # Cn         <reserved-101217>..<reserved-10121F>
+101220..101221;AL # Lm         SEVENSI POSITIVE VOWEL HARMONY MARK..SEVENSI NEGATIVE VOWEL HARMONY MARK
+101222..101223;NS # Sk         SEVENSI DEVOICING MARK..SEVENSI RING MARK
+101224..10122F;XX # Cn         <reserved-101224>..<reserved-10122F>
+101230;AL         # Lo         SEVENSI LIGATURE WY
+101231..1017FF;XX # Cn         <reserved-101231>..<reserved-1017FF>
 
 # EOF

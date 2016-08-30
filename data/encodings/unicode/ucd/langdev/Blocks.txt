@@ -1,4 +1,4 @@
-# Date: 17 April 2016
+# Date: 30 August 2016
 # The LANGDEV Project
 
 # ================================================
@@ -12,8 +12,12 @@
 
 101000..10103F; Bencode
 101040..10104F; Bencode Supplemental Punctuation
-101100..1010BF; Jastugay Syllabary
-1011C0..1010CF; Jastugay Punctuation
-1011D0..1010DF; Jastugay Combining Marks
+101100..1011BF; Jastugay Syllabary
+1011C0..1011CF; Jastugay Punctuation
+1011D0..1011DF; Jastugay Combining Marks
+1011E0..1011FF; Runic Sevensi
+101200..10121F; Sevensi
+101220..10122F; Sevensi Marks and Punctuation
+101230..10123F; Sevensi Presentational Forms
 
 # EOF
