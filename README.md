@@ -1,44 +1,44 @@
 #  The LANGDEV Project  #
 
-GitHub repo for all language development by [@literallybenjam](https://github.com/literallybenjam).
+GitHub repo for all language development by [@marrus-sh](https://github.com/marrus-sh).
 
 ##  Branches:  ##
 This project is split into several branches, described below:
 
-###  [`data`](https://github.com/literallybenjam/langdev/tree/data)  ###
+###  [`data`](https://github.com/marrus-sh/langdev/tree/data)  ###
 
-The [`data`](https://github.com/literallybenjam/langdev/tree/data) branch contains data files related to the various LANGDEV languages.
+The [`data`](https://github.com/marrus-sh/langdev/tree/data) branch contains data files related to the various LANGDEV languages.
 These files are used to generate the LANGDEV dictionaries.
-The [`data`](https://github.com/literallybenjam/langdev/tree/data) branch also contains the [`language-subtag-registry`](language-subtag-registry), which defines the various LANGDEV subtags (see below), and a UCD to assist with integrating LANGDEV scripts with Unicode.
+The [`data`](https://github.com/marrus-sh/langdev/tree/data) branch also contains the [`language-subtag-registry`](language-subtag-registry), which defines the various LANGDEV subtags (see below), and a UCD to assist with integrating LANGDEV scripts with Unicode.
 
 LANGDEV uses the [LexisML Index Record (LREC)](documentation/standards/WD/0002.lsdoc) format in conjunction with HTML to keep track of languages' lexicons.
 Due to the scope of the project, however, the now-depreciated LexisML 1.0 and 2.0 formats are still sometimes in use.
 
 [Atom](https://atom.io) users may find the [language-lrec](https://atom.io/packages/language-lrec) package useful for viewing LREC documents.
 
-###  [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation)  ###
+###  [`documentation`](https://github.com/marrus-sh/langdev/tree/documentation)  ###
 
-The [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation) branch contains documentation and information about each language or script.
+The [`documentation`](https://github.com/marrus-sh/langdev/tree/documentation) branch contains documentation and information about each language or script.
 Documentation files are provided in GitHub-Flavored Markdown (GFM) and designed to render well through [`github.com`](https://github.com).
 
-The [`documentation`](https://github.com/literallybenjam/langdev/tree/documentation) branch also includes various standards related to language development, and information on character sets, including Unicode.
+The [`documentation`](https://github.com/marrus-sh/langdev/tree/documentation) branch also includes various standards related to language development, and information on character sets, including Unicode.
 
-###  [`tools`](https://github.com/literallybenjam/langdev/tree/tools)  ###
+###  [`tools`](https://github.com/marrus-sh/langdev/tree/tools)  ###
 
-The [`tools`](https://github.com/literallybenjam/langdev/tree/tools) branch contains various processing tools for dealing with the documents presented in [`data`](https://github.com/literallybenjam/langdev/tree/data).
-See [the GitHub Pages website](http://langdev.xyz/) to view some of these tools in action, or view the source in the [`master`](https://github.com/literallybenjam/langdev/tree/master) branch.
+The [`tools`](https://github.com/marrus-sh/langdev/tree/tools) branch contains various processing tools for dealing with the documents presented in [`data`](https://github.com/marrus-sh/langdev/tree/data).
+See [the GitHub Pages website](http://langdev.xyz/) to view some of these tools in action, or view the source in the [`master`](https://github.com/marrus-sh/langdev/tree/master) branch.
 
-###  [`fonts`](https://github.com/literallybenjam/langdev/tree/fonts)  ###
+###  [`fonts`](https://github.com/marrus-sh/langdev/tree/fonts)  ###
 
-Font development for The LANGDEV Project takes place in the [`fonts`](https://github.com/literallybenjam/langdev/tree/fonts) branch.
+Font development for The LANGDEV Project takes place in the [`fonts`](https://github.com/marrus-sh/langdev/tree/fonts) branch.
 Font development takes place using FontForge.
 
-###  [`master`](https://github.com/literallybenjam/langdev/tree/master)  ###
+###  [`master`](https://github.com/marrus-sh/langdev/tree/master)  ###
 
-The [`master`](https://github.com/literallybenjam/langdev/tree/master) branch merges together all of the above branches into one complete directory.
+The [`master`](https://github.com/marrus-sh/langdev/tree/master) branch merges together all of the above branches into one complete directory.
 It also contains the GitHub Pages data for [langdev.xyz](http://langdev.xyz/).
 
-Because the contents of the [`master`](https://github.com/literallybenjam/langdev/tree/master) branch derives from the others, it may run slightly behind them from time to time.
+Because the contents of the [`master`](https://github.com/marrus-sh/langdev/tree/master) branch derives from the others, it may run slightly behind them from time to time.
 Those interested in the most up-to-date data should always check the appropriate branch instead.
 
 ##  Document naming and IETF language tags:  ##
