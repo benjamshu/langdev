@@ -234,13 +234,13 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   005
     COLON, U+0020 SPACE MUST be considered a continuation of the
     preceding field's value. Such lines MUST NOT begin a record.
 
-    When processing fields, any U+0020 SPACE characters which begin or
-    end a field's name or value MUST be discarded, as MUST any
-    other U+0020 SPACE characters which begin or end a line. The
-    handling of U+000A LINE FEED Unicode characters is left to
-    specific implementations; however, note that the final U+000A LINE
-    FEED Unicode character of a field MUST NOT be considered part of
-    its value's contents.
+    All lines which contain field names in a record MUST have the same
+    indentation; that is, each must be begun by the same number of
+    U+0020 SPACE characters. This number is determined by the first
+    such line in a record. Any line in a record which is begun with a
+    different number of U+0020 SPACE characters than this line MUST be
+    considered a continuation line for the preceding field, even if it
+    contains the sequence U+0020 SPACE, U+003A COLON, U+0020 SPACE.
 
 
 
@@ -252,20 +252,20 @@ WD-0003                                                             005
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   006
 
 
+    Except for the purposes of determining if a line is a continuation
+    line as above, when processing fields, any U+0020 SPACE characters
+    which begin or end a field's name or value MUST be discarded, as
+    MUST any other U+0020 SPACE characters which begin or end a line.
+    The handling of U+000A LINE FEED Unicode characters is left to
+    specific implementations; however, note that the final U+000A LINE
+    FEED Unicode character of a field MUST NOT be considered part of
+    its value's contents.
+
     Lines whose contents are begun by exactly one (not two) U+0025
     PERCENT SIGN character are comments and MUST be ignored. A GEL MUST
     NOT contain lines which are not either part of a field, a comment,
     or the sequence U+0025 PERCENT SIGN, U+0025 PERCENT SIGN, U+000A
     LINE FEED.
-
-
-
-
-
-
-
-
-
 
 
 
