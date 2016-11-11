@@ -1,5 +1,5 @@
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    001
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    001
 
 
                          LexisML Index Records
@@ -16,12 +16,12 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    001
 
 -- Status of This Document --
 
-    This document is currently a WORKING DRAFT. This means that its
-    contents are still under construction and may change at any
-    time. This document is made public to allow interested parties to
-    view the latest in standards development.
+    This document is currently DEPRECIATED. It was never completed,
+    and the document type specified herein has instead been broken up
+    between a number of standards (at this time of writing, still in
+    development).
 
-    This document was last updated on 20 August 2016.
+    This document was last updated on 10 November 2016.
 
 
 -- Copyright Notice --
@@ -45,11 +45,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    001
             02-A-e.   Alternate records
 
 
-WD-0002                                                             001
+DP-0002                                                             001
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    002
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    002
 
 
     03.   Processing LREC Documents
@@ -95,11 +95,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    002
 
 
 
-WD-0002                                                             002
+DP-0002                                                             002
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    003
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    003
 
 
 01.   Introduction
@@ -145,11 +145,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    003
 
 
 
-WD-0002                                                             003
+DP-0002                                                             003
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    004
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    004
 
 
         Line : A sequence of zero or more characters followed by a
@@ -195,11 +195,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    004
 
 
 
-WD-0002                                                             004
+DP-0002                                                             004
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    005
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    005
 
 
 02.   The LREC Format
@@ -245,11 +245,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    005
     field values are case-sensitive.
 
 
-WD-0002                                                             005
+DP-0002                                                             005
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    006
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    006
 
 
     02-A.   Record and field definitions
@@ -295,11 +295,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    006
 
 
 
-WD-0002                                                             006
+DP-0002                                                             006
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    007
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    007
 
 
         02-A-b.   Tag-group records
@@ -345,11 +345,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    007
 
 
 
-WD-0002                                                             007
+DP-0002                                                             007
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    008
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    008
 
 
             Lexeme : The lexeme itself. This MUST be unique across an
@@ -395,11 +395,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    008
             identical values for both the inflected and of fields.
 
 
-WD-0002                                                             008
+DP-0002                                                             008
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    009
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    009
 
 
         02-A-e.   Alternate records
@@ -445,11 +445,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    009
 
 
 
-WD-0002                                                             009
+DP-0002                                                             009
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    010
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    010
 
 
 03.   Processing LREC Documents
@@ -495,11 +495,11 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    010
 
 
 
-WD-0002                                                             010
+DP-0002                                                             010
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    011
+LANGDEV          DP-0002 : LEXISML INDEX RECORDS                    011
 
 
 04.   References
@@ -545,6 +545,6 @@ LANGDEV          WD-0002 : LEXISML INDEX RECORDS                    011
 
 
 
-WD-0002                                                             011
+DP-0002                                                             011
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
