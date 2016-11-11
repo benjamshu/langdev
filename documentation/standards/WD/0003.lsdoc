@@ -20,7 +20,7 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   001
     document is currently under construction, and can be expected to
     change at any time.
 
-    This document was last updated on 10 November 2016.
+    This document was last updated on 11 November 2016.
 
 
 -- Copyright Notice --
@@ -460,16 +460,28 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
 
         -   For any given record, there is no other record such that
             for every field in the one which lacks an OPTIONAL tag,
-            there is a field in the other for which one of the
+            there is a field in the other for which both of the
             following is true:
 
-            +   The former field's name is a case-insensitive match
-                for the latter field's name and one of the fields
-                does not have the CASE-SENSITIVE tag.
+            +   Either:
 
-            +   The former field's name is a case-sensitive match for
-                the latter field's name and both fields have the
-                CASE-SENSITIVE tag.
+                =   The former field's name is a case-insensitive match
+                    for the latter field's name and one of the fields
+                    does not have the CASE-SENSITIVE tag.
+
+                =   The former field's name is a case-sensitive match
+                    for the latter field's name and both fields have
+                    the CASE-SENSITIVE tag.
+
+            +   Either:
+
+                =   One of the fields is not an enumerated field.
+
+                =   Both fields are enumerated fields, but they share
+                    at least one enumerated value. This comparison
+                    MUST be done in a case-insensitive manner unless
+                    both enumerated values are marked as
+                    CASE-SENSITIVE.
 
 
     03-C.   Checking conformance
@@ -481,18 +493,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
 
         -   The first record of the GEL and the first record of the
             ELM both contain a field whose name is a
-            case-insensitive match for "manifest", and the values of
-            these fields are the same.
-
-        -   For every record in the GEL except the first, there is
-            exactly one record in the ELM for which it is the case
-            that, for every field in the former, there is a field in
-            the latter for which one of the following is true:
-
-            +   The former field's name is a case-insensitive match
-                for the latter field's name and the latter field does
-                not have the CASE-SENSITIVE tag.
-
 
 
 WD-0003                                                             010
@@ -501,6 +501,18 @@ WD-0003                                                             010
 
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
 
+
+            case-insensitive match for "manifest", and the values of
+            these fields are the same.
+
+            -   For every record in the GEL except the first, there is
+            exactly one record in the ELM for which it is the case
+            that, for every field in the former, there is a field in
+            the latter for which one of the following is true:
+
+            +   The former field's name is a case-insensitive match
+                for the latter field's name and the latter field does
+                not have the CASE-SENSITIVE tag.
 
             +   The former field's name is a case-sensitive match for
                 the latter field's name and the latter field has the
@@ -531,6 +543,15 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
             +   If the field has the INTEGER tag: a sequence of one or
                 more characters in the range U+0030 DIGIT ZERO..U+0039
                 DIGIT NINE, which MAY preceded by the character U+002B
+
+
+WD-0003                                                             011
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
+
+
                 PLUS SIGN or the character U+002D HYPHEN-MINUS. The
                 numeric base-ten interpretation of this value MUST fit
                 into one of the following ranges:
@@ -543,14 +564,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
 
                 =   If the prototype field has the SHORT tag but not
                     the UNSIGNED tag: [−32768, +32767].
-
-
-WD-0003                                                             011
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
-
 
                 =   If the prototype field has the SHORT tag and the
                     UNSIGNED tag: [0, +65535].
@@ -580,6 +593,15 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
                 =   (OPTIONAL) Either a U+0065 LATIN SMALL LETTER E
                     character or a U+0045 LATIN CAPITAL LETTER E
                     character, an OPTIONAL U+002B PLUS SIGN character
+
+
+WD-0003                                                             012
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   013
+
+
                     or U+002D HYPHEN-MINUS character, and by one or
                     more characters in the range U+0030 DIGIT
                     ZERO..U+0039 DIGIT NINE.
@@ -595,11 +617,39 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
 
 
 
-WD-0003                                                             012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WD-0003                                                             013
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   013
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   014
 
 
 04.   References
@@ -645,6 +695,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   013
 
 
 
-WD-0003                                                             013
+WD-0003                                                             014
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
