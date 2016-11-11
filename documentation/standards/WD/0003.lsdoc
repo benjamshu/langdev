@@ -333,16 +333,16 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   007
 
             Each field in an ELM MUST have exactly one data-type tag,
             which MUST be one of the following: "BOOLEAN", "INTEGER",
-            "FLOAT", "ENUMERATED", "STRING". These tags define which
-            values are valid for fields of the same name in a
+            "FLOAT", "ENUMERATED", "LIST", "STRING". These tags define
+            which values are valid for fields of the same name in a
             conforming GEL. The conformance rules set out in §03-C
             provide the exact meanings of each of these tags.
 
 
             03-A-a-1.   Enumerated fields
 
-                Enumerated fields specify that the given tag should
-                have one of a fixed number of values in any conforming
+                Fields with the ENUMERATED tag specify that the given
+                field should have one of a fixed number of values in
 
 
 WD-0003                                                             007
@@ -352,26 +352,30 @@ WD-0003                                                             007
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   008
 
 
-                GEL. The syntax for enumerated fields is slightly
-                different than for other fields, in order to
-                accommodate the specification of these options.
+                any conforming GEL, whereas fields with the LIST tag
+                specify that it may have any number of values from
+                the provided list. These fields are known as
+                'enumerated fields.' The syntax for enumerated fields
+                is slightly different than for other fields, in order
+                to accommodate the specification of these options.
 
                 As with other fields, the values of enumerated fields
                 are begun by any number of tags as defined by this
-                specification. However, the ENUMERATED tag MUST come
-                last. After this tag, one or more possible values
-                (known as 'enumerated values') for the given field
-                MUST be listed, one per line. These values MUST NOT
-                contain U+0020 SPACE characters. These values MAY be
-                followed by any number of U+0020 SPACE characters and
-                then the string "CASE-SENSITIVE"; in this instance,
+                specification. However, the ENUMERATED or LIST tag
+                MUST come last. After this tag, one or more possible
+                values (known as 'enumerated values') for the given
+                field MUST be listed, one per line. These values MUST
+                NOT contain U+0020 SPACE characters. These values MAY
+                be followed by any number of U+0020 SPACE characters
+                and then the string "CASE-SENSITIVE"; in this instance,
                 the given value MUST be a case-sensitive match. In all
                 other cases the values MUST be matched in a
                 case-insensitive manner.
 
-                Note that an enumerated field with only one enumerated
-                value may be used to require that all instances of a
-                given field have the same contents.
+                Note that a field with the ENUMERATED tag which has
+                only one enumerated value may be used to require that
+                all instances of the given field have the same
+                contents.
 
 
         03-A-b.   Other tags
@@ -388,11 +392,7 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   008
             are allowed.
 
 
-            03-A-b-1.   Integer types
 
-                Fields with the INTEGER tag may have one of the
-                following tags, which limits the allowed bitsize of
-                the integer: "BYTE", "SHORT". Additionally, the
 
 
 WD-0003                                                             008
@@ -402,6 +402,11 @@ WD-0003                                                             008
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   009
 
 
+            03-A-b-1.   Integer types
+
+                Fields with the INTEGER tag may have one of the
+                following tags, which limits the allowed bitsize of
+                the integer: "BYTE", "SHORT". Additionally, the
                 UNSIGNED tag limits the integer to only nonnegative
                 values.
 
@@ -438,11 +443,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   009
 
         -   The lines which contain the enumerated values of an
             enumerated field do not contain any spaces, except
-            immediately preceding the string "CASE-SENSITIVE", if
-            present. (Note that spaces which begin and end a line in
-            any GEL, including ELMs, are discarded during processing
-            and do not count against this rule.)
-
 
 
 WD-0003                                                             009
@@ -451,6 +451,11 @@ WD-0003                                                             009
 
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
 
+
+            immediately preceding the string "CASE-SENSITIVE", if
+            present. (Note that spaces which begin and end a line in
+            any GEL, including ELMs, are discarded during processing
+            and do not count against this rule.)
 
         -   There are no records which contain zero fields.
 
@@ -475,9 +480,9 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
 
             +   Either:
 
-                =   One of the fields is not an enumerated field.
+                =   One of the fields does not have the ENUMERATED tag.
 
-                =   Both fields are enumerated fields, but they share
+                =   Both fields have the ENUMERATED tag, but they share
                     at least one enumerated value. This comparison
                     MUST be done in a case-insensitive manner unless
                     both enumerated values are marked as
@@ -489,11 +494,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
         In order for a GEL to be considered conforming to an ELM, the
         following MUST be true:
 
-        -   The ELM is well-formed according to §03-A.
-
-        -   The first record of the GEL and the first record of the
-            ELM both contain a field whose name is a
-
 
 WD-0003                                                             010
 
@@ -502,10 +502,14 @@ WD-0003                                                             010
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
 
 
+        -   The ELM is well-formed according to §03-A.
+
+        -   The first record of the GEL and the first record of the
+            ELM both contain a field whose name is a
             case-insensitive match for "manifest", and the values of
             these fields are the same.
 
-            -   For every record in the GEL except the first, there is
+        -   For every record in the GEL except the first, there is
             exactly one record in the ELM for which it is the case
             that, for every field in the former, there is a field in
             the latter for which one of the following is true:
@@ -540,10 +544,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
                 match for one of the following: "yes", "no", "true",
                 "false", "1", "0".
 
-            +   If the field has the INTEGER tag: a sequence of one or
-                more characters in the range U+0030 DIGIT ZERO..U+0039
-                DIGIT NINE, which MAY preceded by the character U+002B
-
 
 WD-0003                                                             011
 
@@ -552,6 +552,9 @@ WD-0003                                                             011
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
 
 
+            +   If the field has the INTEGER tag: a sequence of one or
+                more characters in the range U+0030 DIGIT ZERO..U+0039
+                DIGIT NINE, which MAY preceded by the character U+002B
                 PLUS SIGN or the character U+002D HYPHEN-MINUS. The
                 numeric base-ten interpretation of this value MUST fit
                 into one of the following ranges:
@@ -590,9 +593,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
                         by one or more characters in the range U+0030
                         DIGIT ZERO..U+0039 DIGIT NINE.
 
-                =   (OPTIONAL) Either a U+0065 LATIN SMALL LETTER E
-                    character or a U+0045 LATIN CAPITAL LETTER E
-                    character, an OPTIONAL U+002B PLUS SIGN character
 
 
 WD-0003                                                             012
@@ -602,22 +602,22 @@ WD-0003                                                             012
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   013
 
 
+                =   (OPTIONAL) Either a U+0065 LATIN SMALL LETTER E
+                    character or a U+0045 LATIN CAPITAL LETTER E
+                    character, an OPTIONAL U+002B PLUS SIGN character
                     or U+002D HYPHEN-MINUS character, and by one or
                     more characters in the range U+0030 DIGIT
                     ZERO..U+0039 DIGIT NINE.
 
-            +   If the field has the FLOAT tag: one of the prototype
-                field's enumerated values. This match must be done
-                according to the enumerated value's definition, as
-                described in §03-A-a-1.
+            +   If the field has the ENUMERATED tag: exactly one of the
+                prototype field's enumerated values. This match must
+                be done according to the enumerated value's
+                definition, as described in §03-A-a-1.
 
-
-
-
-
-
-
-
+            +   If the field has the LIST tag: any number of the
+                prototype field's enumerated values. This match must
+                be done according to the enumerated value's
+                definition, as described in §03-A-a-1.
 
 
 
