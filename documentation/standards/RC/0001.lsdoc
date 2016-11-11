@@ -19,7 +19,8 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              001
     contents are largely stable but that minor edits may occur from
     time to time.
 
-    This document was last updated on 20 August 2016.
+    This document was last updated on 10 November 2016, when the DP
+    document tag was added.
 
 
 -- Copyright Notice --
@@ -55,7 +56,6 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              002
         02-H.   Inline formatting
         02-I.   Other considerations
     03.   References
-
 
 
 
@@ -142,6 +142,7 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              003
             by (71-L)/2 U+0020 SPACE characters, rounded down to the
             nearest integer, where L is the number of characters in the
             line's contents.
+
 
 
 RC-0001                                                             003
@@ -412,13 +413,17 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              009
             and MUST NOT undergo changes, except through errata (see
             below).
 
+        Depreciated (DP) : This document has been depreciated and
+            SHOULD NOT be used. Its contents exist as a record of a
+            previous specification.
+
         Errata (E_) : This document is a formal modification to an
             LSDOC with Final Recommendation status. The underscore
             should be replaced with a letter (A--Z) to identify the
             errata. Errata MUST NOT undergo changes after publication;
             however, errata MAY modify previous errata. A new document
             SHOULD be written to supersede an LSDOC with a substantial
-            number of errata.
+            number of errata. It is not possible to depreciate errata.
 
     -   The third character MUST be U+002D HYPHEN-MINUS.
 
@@ -437,10 +442,6 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              009
         MUST be on their own line. Titles SHOULD be represented in
         title case.
 
-    -   (OPTIONAL) A subtitle, centered. Subtitles SHOULD be
-        represented in sentence case, with the first letter
-        capitalized. Subtitles SHOULD begin on the line immediately
-        following a title, and MAY take up multiple lines.
 
 
 
@@ -451,12 +452,18 @@ RC-0001                                                             009
 LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              010
 
 
+    -   (OPTIONAL) A subtitle, centered. Subtitles SHOULD be
+        represented in sentence case, with the first letter
+        capitalized. Subtitles SHOULD begin on the line immediately
+        following a title, and MAY take up multiple lines.
+
     -   The author of the document, centered. A blank line SHOULD be
         placed between the title/subtitle and the author of the
         document. Information, including contact information, MAY be
         placed on the lines immediately following the author's name;
         there SHOULD NOT be a blank line before or within any such
-        content. Multiple authors MAY be included; there SHOULD be a blank line in-between each.
+        content. Multiple authors MAY be included; there SHOULD be a
+        blank line in-between each.
 
     -   The following sections, with unnumbered section headings:
 
@@ -487,12 +494,6 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              010
         requirements for section headings described in this document
         MUST be considered a section heading.
 
-        Section headings MUST NOT contain a blank line, and non-initial
-        lines in a section heading MUST be indented from the initial
-        line. Section headings which do not describe subsections SHOULD
-        be in title case; all other section headings SHOULD be in
-        sentence case.
-
 
 RC-0001                                                             010
 
@@ -500,6 +501,12 @@ RC-0001                                                             010
 
 LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              011
 
+
+        Section headings MUST NOT contain a blank line, and non-initial
+        lines in a section heading MUST be indented from the initial
+        line. Section headings which do not describe subsections SHOULD
+        be in title case; all other section headings SHOULD be in
+        sentence case.
 
         Numbered section headings which do not describe subsections
         SHOULD begin a page. Other section headings which do not begin
@@ -536,12 +543,6 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              011
                     number of sections (greater than one) a
                     single-digit number in the range 1--9.
 
-                If the number of preceding siblings causes one of
-                the ranges above to be exhausted, sections SHOULD
-                be regrouped to avoid such a problem.
-
-        -   One U+002E FULL STOP, followed by exactly three U+0020
-            SPACE characters.
 
 
 RC-0001                                                             011
@@ -550,6 +551,13 @@ RC-0001                                                             011
 
 LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              012
 
+
+                If the number of preceding siblings causes one of
+                the ranges above to be exhausted, sections SHOULD
+                be regrouped to avoid such a problem.
+
+        -   One U+002E FULL STOP, followed by exactly three U+0020
+            SPACE characters.
 
         -   The section title. This SHOULD NOT be ended by a U+003A
             COLON.
@@ -585,13 +593,6 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              012
 
         Any sequence of lines matching the following description MUST
         be considered a list item, and any sequence of list items,
-        including those also containing blank lines, MUST be considered
-        a list.
-
-        The indented contents of the first line of a list item MUST
-        begin with a single character, which SHOULD be that in the
-        following sequence which corresponds with the number of lists
-        containing the list item in question: U+002D HYPHEN-MINUS,
 
 
 RC-0001                                                             012
@@ -601,6 +602,13 @@ RC-0001                                                             012
 LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              013
 
 
+        including those also containing blank lines, MUST be considered
+        a list.
+
+        The indented contents of the first line of a list item MUST
+        begin with a single character, which SHOULD be that in the
+        following sequence which corresponds with the number of lists
+        containing the list item in question: U+002D HYPHEN-MINUS,
         U+002B PLUS SIGN, U+003D EQUALS SIGN, U+2021 DOUBLE DAGGER. For
         example, an item contained in only one list SHOULD use U+002D
         HYPHEN-MINUS, but an item contained in a list which is
@@ -634,14 +642,7 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              013
             sequence U+0020 SPACE, U+003A COLON, U+0020 SPACE. This
             MUST be interpreted as the term being defined.
 
-        -   The character sequence U+0020 SPACE, U+003A COLON, U+0020
-            SPACE.
 
-        -   A sequence of characters and U+000A LINE FEED Unicode
-            characters, at least one of which is a non-space character.
-            This MUST be interpreted as the term's definition.
-
-        Non-initial lines in a dictionary item SHOULD be indented from
 
 
 RC-0001                                                             013
@@ -651,6 +652,14 @@ RC-0001                                                             013
 LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              014
 
 
+        -   The character sequence U+0020 SPACE, U+003A COLON, U+0020
+            SPACE.
+
+        -   A sequence of characters and U+000A LINE FEED Unicode
+            characters, at least one of which is a non-space character.
+            This MUST be interpreted as the term's definition.
+
+        Non-initial lines in a dictionary item SHOULD be indented from
         the initial line. Dictionary items MAY be preceded or followed
         by blank lines. Dictionary items MAY contain one or more
         paragraphs; a paragraph which begins a dictionary item SHOULD
@@ -685,14 +694,6 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              014
         other situations where brevity is important.
 
 
-    02-I.   Other considerations
-
-        Orphan lines (lines which end a paragraph but begin a page, or
-        vice versa) SHOULD be avoided. This might require ending a page
-        with more blank lines than would otherwise be necessary.
-
-
-
 
 RC-0001                                                             014
 
@@ -700,6 +701,12 @@ RC-0001                                                             014
 
 LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              015
 
+
+    02-I.   Other considerations
+
+        Orphan lines (lines which end a paragraph but begin a page, or
+        vice versa) SHOULD be avoided. This might require ending a page
+        with more blank lines than would otherwise be necessary.
 
         Sentences which begin pages SHOULD also begin paragraphs; in
         the instance where a sentence does not begin a paragraph but
@@ -709,12 +716,6 @@ LANGDEV          RC-0001 : LANGDEV STANDARDS DOCUMENTS              015
         Words SHOULD NOT be broken up across multiple lines by use of
         hyphenation. U+002D HYPHEN-MINUS characters MAY end a line
         in other circumstances, however.
-
-
-
-
-
-
 
 
 
