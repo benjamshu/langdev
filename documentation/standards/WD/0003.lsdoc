@@ -1,0 +1,650 @@
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   001
+
+
+                         Generally Easy Ledgers
+
+                         Margaret "Go" Shoemake
+
+
+-- Abstract --
+
+    This LANGDEV Standards Document (LSDOC) provides information about
+    the proper formatting for Generally Easy Ledgers (GELs), used as a
+    file format for storing records of key-value pairs.
+
+
+-- Status of This Document --
+
+    This document is currently a WORKING DRAFT. This means that this
+    document is currently under construction, and can be expected to
+    change at any time.
+
+    This document was last updated on 10 November 2016.
+
+
+-- Copyright Notice --
+
+    This document is released by its author into the public domain
+    under a Creative Commons CC0 1.0 Unported License. For more
+    information, see <http://creativecommons.org/publicdomain/zero/
+    1.0/>.
+
+
+-- Table of Contents --
+
+    01.   Introduction
+        01-A.   Definitions
+    02.   The GEL Format
+    03.   Easy Ledger Manifests
+        03-A.   ELM Syntax
+            03-A-a.   Data-type tags
+                03-A-a-1.   Enumerated fields
+            03-A-b.   Other tags
+                03-A-b-1.   Integer types
+        03-B.   Well-formed ELM files
+
+
+WD-0003                                                             001
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   002
+
+
+        03-C.   Checking conformance
+    04.   References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WD-0003                                                             002
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   003
+
+
+01.   Introduction
+
+    The Generally Easy Ledger (GEL) is a file format for storing basic
+    records comprised of key-value pairs in an easy, human-readable
+    format.
+
+    The format of a GEL is based upon that of the IANA Language Subtag
+    Registry, which is in turn derived from the record-jar format
+    described in [ART-UNIX].
+
+
+    01-A.   Definitions
+
+        Begin : Of a sequence, to be first in a sequence's contents.
+
+        Character : When not qualified as a Unicode character, a
+            graphic character, as defined in [UNICODE].
+
+        Contents : Of a line, the sequence of zero or more characters
+            which comprise the line. Of another sequence, the sequence
+            itself. A sequence of characters or lines is said to be
+            "contained" in another sequence if it is in the sequence's
+            contents.
+
+        Continuation line : A line which does not contain the sequence
+            U+0020 SPACE, U+003A COLON, U+0020 SPACE.
+
+        ELM : A file which conforms to the specification for Easy
+            Ledger Manifests provided in §03.
+
+        End : Of a sequence, to be last in the sequence's contents.
+
+        Enumerated value : One of a number of conforming values
+            provided for an enumerated field, as defined in §03-A-a-1.
+
+        Field : A sequence of lines as defined in §02.
+
+        Field name, field value : Components of fields, defined in §02.
+
+        GEL : A file which conforms to the specification for General
+            Easy Ledgers provided in §02.
+
+
+WD-0003                                                             003
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   004
+
+
+        Line : A sequence of zero or more characters followed by a
+            U+000A LINE FEED Unicode character. Lines MUST NOT be
+            longer than 72 bytes.
+
+        Prototype : A record in an ELM which corresponds to a given
+            GEL record, as specified in §03-C.
+
+        Record : A collection of lines as defined in §02.
+
+        Tag : A component of an ELM field value, as defined in §03-A.
+
+        Unicode character : A Unicode scalar value, as defined in
+            [UNICODE].
+
+        Well-formed : A criterion for ELMs that indicates that they can
+            be used to define GEL syntax. The requirements for an ELM
+            to be well-formed are given in §03-B.
+
+        The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+        NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED",
+        "MAY", and "OPTIONAL" in this document are to be interpreted as
+        described in [RFC-2119].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WD-0003                                                             004
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   005
+
+
+02.   The GEL Format
+
+    GELs are plain-text files, encoded in UTF-8 as specified by
+    [UNICODE]. The file extension '.gel' is RECOMMENDED for GEL files,
+    although specific implementations MAY introduce their own file
+    extensions. GELs consist of a sequence of one or more records,
+    each separated by the two-character sequence U+0025 PERCENT SIGN,
+    U+0025 PERCENT SIGN on its own line. Records, in turn, consist of
+    several name-value pairs known as 'fields'.
+
+    A field MUST consist of exactly the following, in order:
+
+    -   A sequence of characters which does not include the
+        sequence U+0020 SPACE, U+003A COLON, U+0020 SPACE. These make
+        up the field's 'name'. These characters MUST begin a single
+        line.
+
+    -   The character sequence U+0020 SPACE, U+003A COLON, U+0020
+        SPACE. This MUST be on the same line as the field's name.
+
+    -   (OPTIONAL) A sequence of characters, at least one of which is
+        a non-space character. These make up the field's 'value'.
+        These MAY be broken up across continuation lines; see below.
+
+    -   A final U+000A LINE FEED Unicode character.
+
+    Lines MUST NOT be longer than 72 bytes; consequently, field values
+    MAY need to be broken across multiple lines. The contents of any
+    lines which do not contain the sequence U+0020 SPACE, U+003A
+    COLON, U+0020 SPACE MUST be considered a continuation of the
+    preceding field's value. Such lines MUST NOT begin a record.
+
+    When processing fields, any U+0020 SPACE characters which begin or
+    end a field's name or value MUST be discarded, as MUST any
+    other U+0020 SPACE characters which begin or end a line. The
+    handling of U+000A LINE FEED Unicode characters is left to
+    specific implementations; however, note that the final U+000A LINE
+    FEED Unicode character of a field MUST NOT be considered part of
+    its value's contents.
+
+
+
+
+WD-0003                                                             005
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   006
+
+
+    Lines whose contents are begun by exactly one (not two) U+0025
+    PERCENT SIGN character are comments and MUST be ignored. A GEL MUST
+    NOT contain lines which are not either part of a field, a comment,
+    or the sequence U+0025 PERCENT SIGN, U+0025 PERCENT SIGN, U+000A
+    LINE FEED.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WD-0003                                                             006
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   007
+
+
+03.   Easy Ledger Manifests
+
+    The Easy Ledger Manifest (ELM) is a special kind of GEL which
+    exists to further define the syntax of other GEL files. The .elm
+    file extension is RECOMMENDED for ELM files.
+
+
+    03-A.   ELM Syntax
+
+        The first record in the ELM has exactly one field whose
+        name is a case-insensitive match for 'manifest' and whose
+        value is a URL as defined by [URL]. This URL serves as a unique
+        identifier for the ELM, and the same URL SHOULD NOT be assigned
+        to multiple ELMs.
+
+        The remaining records in an ELM consist of any number of
+        fields, the values of which MUST be one or more 'tags',
+        separated, preceded, or followed by any number of U+0020 SPACE
+        characters or U+000A LINE FEED Unicode characters. This
+        specification defines all possible values for tags. The
+        exceptions to this rule are fields with ENUMERATED tags, which
+        have a slightly different syntax described in §03-A-a-1.
+
+        The presence of all tags should be checked in a
+        case-insensitive manner.
+
+
+        03-A-a.   Data-type tags
+
+            Each field in an ELM MUST have exactly one data-type tag,
+            which MUST be one of the following: "BOOLEAN", "INTEGER",
+            "FLOAT", "ENUMERATED", "STRING". These tags define which
+            values are valid for fields of the same name in a
+            conforming GEL. The conformance rules set out in §03-C
+            provide the exact meanings of each of these tags.
+
+
+            03-A-a-1.   Enumerated fields
+
+                Enumerated fields specify that the given tag should
+                have one of a fixed number of values in any conforming
+
+
+WD-0003                                                             007
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   008
+
+
+                GEL. The syntax for enumerated fields is slightly
+                different than for other fields, in order to
+                accommodate the specification of these options.
+
+                As with other fields, the values of enumerated fields
+                are begun by any number of tags as defined by this
+                specification. However, the ENUMERATED tag MUST come
+                last. After this tag, one or more possible values
+                (known as 'enumerated values') for the given field
+                MUST be listed, one per line. These values MUST NOT
+                contain U+0020 SPACE characters. These values MAY be
+                followed by any number of U+0020 SPACE characters and
+                then the string "CASE-SENSITIVE"; in this instance,
+                the given value MUST be a case-sensitive match. In all
+                other cases the values MUST be matched in a
+                case-insensitive manner.
+
+                Note that an enumerated field with only one enumerated
+                value may be used to require that all instances of a
+                given field have the same contents.
+
+
+        03-A-b.   Other tags
+
+            In addition to the data-type tags, each field in an ELM
+            MAY have any number of other tags from the following list:
+            "CASE-SENSITIVE", "OPTIONAL", "MULTIPLE". The
+            CASE-SENSITIVE tag specifies that the field definition
+            applies only to those fields whose names are a
+            case-sensitive match; case-insensitive matching is used
+            otherwise. The OPTIONAL tag indicates that the field is
+            not required in the given record, while the MULTIPLE tag
+            indicates that multiple fields with the same tag-name
+            are allowed.
+
+
+            03-A-b-1.   Integer types
+
+                Fields with the INTEGER tag may have one of the
+                following tags, which limits the allowed bitsize of
+                the integer: "BYTE", "SHORT". Additionally, the
+
+
+WD-0003                                                             008
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   009
+
+
+                UNSIGNED tag limits the integer to only nonnegative
+                values.
+
+
+    03-B.   Well-formed ELM files
+
+        An ELM file is considered 'well-formed' if all of the following
+        conditions are true:
+
+        -   No record in the ELM has two fields which have identical
+            names when compared in a case-sensitive manner.
+
+        -   No record in the ELM has two fields which have identical
+            names when compared in a case-insensitive manner, unless
+            both fields have the CASE-SENSITIVE tag.
+
+        -   The first record in the ELM has exactly one field whose
+            name is a case-insensitive match for 'manifest' and whose
+            value is a URL as defined by [URL].
+
+        -   Every field of every record except the first contains
+            exactly one data-type tag as defined in §03-A-a and any
+            number of other tags in as defined in §03-A-b.
+
+        -   No field contains both the SHORT and BYTE tag.
+
+        -   No field contains the SHORT, BYTE, or UNSIGNED tag but not
+            the INTEGER tag.
+
+        -   No field contains a tag not defined in this specification.
+
+        -   Every enumerated field provides at least one enumerated
+            value.
+
+        -   The lines which contain the enumerated values of an
+            enumerated field do not contain any spaces, except
+            immediately preceding the string "CASE-SENSITIVE", if
+            present. (Note that spaces which begin and end a line in
+            any GEL, including ELMs, are discarded during processing
+            and do not count against this rule.)
+
+
+
+WD-0003                                                             009
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
+
+
+        -   There are no records which contain zero fields.
+
+        -   There are no records except the first which contain only
+            one field whose name is a case-insensitive match for
+            'manifest'.
+
+        -   For any given record, there is no other record such that
+            for every field in the one which lacks an OPTIONAL tag,
+            there is a field in the other for which one of the
+            following is true:
+
+            +   The former field's name is a case-insensitive match
+                for the latter field's name and one of the fields
+                does not have the CASE-SENSITIVE tag.
+
+            +   The former field's name is a case-sensitive match for
+                the latter field's name and both fields have the
+                CASE-SENSITIVE tag.
+
+
+    03-C.   Checking conformance
+
+        In order for a GEL to be considered conforming to an ELM, the following MUST be true:
+
+        -   The ELM is well-formed according to §03-A.
+
+        -   The first record of the GEL and the first record of the
+            ELM both contain a field whose name is a
+            case-insensitive match for "manifest", and the values of
+            these fields are the same.
+
+        -   For every record in the GEL except the first, there is
+            exactly one record in the ELM for which it is the case
+            that, for every field in the former, there is a field in
+            the latter for which one of the following is true:
+
+            +   The former field's name is a case-insensitive match
+                for the latter field's name and the latter field does
+                not have the CASE-SENSITIVE tag.
+
+
+
+
+WD-0003                                                             010
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
+
+
+            +   The former field's name is a case-sensitive match for
+                the latter field's name and the latter field has the
+                CASE-SENSITIVE tag.
+
+            We will call this ELM record the 'prototype' of the GEL
+            record, and we will call fields for which one of the above
+            conditions is true 'corresponding fields'.
+
+        -   For every field in the prototype of every GEL record
+            except for the first which does not have the OPTIONAL tag,
+            there is a corresponding field in the record itself.
+
+        -   For every field in the prototype of every GEL record
+            except for the first which does not have the MULTIPLE tag,
+            there are no more than one corresponding fields in the
+            record itself.
+
+        -   For every field in the prototype of every GEL record except
+            for the first, the value of every corresponding field in
+            the record itself is one of the following, depending on
+            the prototype field's data-type tag:
+
+            +   If the field has the BOOLEAN tag: a case-insensitive
+                match for one of the following: "yes", "no", "true",
+                "false", "1", "0".
+
+            +   If the field has the INTEGER tag: a sequence of one or
+                more characters in the range U+0030 DIGIT ZERO..U+0039
+                DIGIT NINE, which MAY preceded by the character U+002B
+                PLUS SIGN or the character U+002D HYPHEN-MINUS. The
+                numeric base-ten interpretation of this value MUST fit
+                into one of the following ranges:
+
+                =   If the prototype field has the BYTE tag but not the
+                    UNSIGNED tag: [−128, +127].
+
+                =   If the prototype field has the BYTE tag and the
+                    UNSIGNED tag: [0, +256].
+
+                =   If the prototype field has the SHORT tag but not
+                    the UNSIGNED tag: [−32768, +32767].
+
+
+WD-0003                                                             011
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
+
+
+                =   If the prototype field has the SHORT tag and the
+                    UNSIGNED tag: [0, +65535].
+
+                =   If the prototype field does not have the SHORT or
+                    BYTE tag and does not have the UNSIGNED tag:
+                    [−2147483648, +2147483647].
+
+                =   If the prototype field does not have the SHORT or
+                    BYTE tag and has UNSIGNED tag: [0, +4294967295].
+
+            +   If the field has the FLOAT tag: a sequence of the
+                following, in the given order:
+
+                =   (OPTIONAL) The character U+002B PLUS SIGN or the
+                    character U+002D HYPHEN-MINUS.
+
+                =   One or both of the following, in the given order:
+
+                    ‡   One or more characters in the range U+0030
+                        DIGIT ZERO..U+0039 DIGIT NINE.
+
+                    ‡   A single U+002E FULL STOP character, followed
+                        by one or more characters in the range U+0030
+                        DIGIT ZERO..U+0039 DIGIT NINE.
+
+                =   (OPTIONAL) Either a U+0065 LATIN SMALL LETTER E
+                    character or a U+0045 LATIN CAPITAL LETTER E
+                    character, an OPTIONAL U+002B PLUS SIGN character
+                    or U+002D HYPHEN-MINUS character, and by one or
+                    more characters in the range U+0030 DIGIT
+                    ZERO..U+0039 DIGIT NINE.
+
+            +   If the field has the FLOAT tag: one of the prototype
+                field's enumerated values. This match must be done
+                according to the enumerated value's definition, as
+                described in §03-A-a-1.
+
+
+
+
+
+
+
+WD-0003                                                             012
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   013
+
+
+04.   References
+
+    [ART-UNIX] : Eric S. Raymond. "The Art of Unix Programming". 2003.
+        <http://www.catb.org/~esr/writings/taoup/>.
+
+    [RFC2119] : S. Bradner, Harvard University. "Key words for use in
+        RFCs to Indicate Requirement Levels". March 1997. <http://
+        tools.ietf.org/html/rfc2119>.
+
+    [UNICODE] : The Unicode Consortium. "The Unicode Standard".
+        <http://www.unicode.org/versions/>.
+
+    [URL] : WHATWG. "The URL Standard". <https://url.spec.whatwg.org/>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WD-0003                                                             013
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
