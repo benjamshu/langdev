@@ -474,7 +474,8 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
 
     03-C.   Checking conformance
 
-        In order for a GEL to be considered conforming to an ELM, the following MUST be true:
+        In order for a GEL to be considered conforming to an ELM, the
+        following MUST be true:
 
         -   The ELM is well-formed according to §03-A.
 
@@ -491,7 +492,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
             +   The former field's name is a case-insensitive match
                 for the latter field's name and the latter field does
                 not have the CASE-SENSITIVE tag.
-
 
 
 
