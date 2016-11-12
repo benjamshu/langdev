@@ -20,7 +20,7 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   001
     document is currently under construction, and can be expected to
     change at any time.
 
-    This document was last updated on 10 November 2016.
+    This document was last updated on 11 November 2016.
 
 
 -- Copyright Notice --
@@ -234,13 +234,13 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   005
     COLON, U+0020 SPACE MUST be considered a continuation of the
     preceding field's value. Such lines MUST NOT begin a record.
 
-    When processing fields, any U+0020 SPACE characters which begin or
-    end a field's name or value MUST be discarded, as MUST any
-    other U+0020 SPACE characters which begin or end a line. The
-    handling of U+000A LINE FEED Unicode characters is left to
-    specific implementations; however, note that the final U+000A LINE
-    FEED Unicode character of a field MUST NOT be considered part of
-    its value's contents.
+    All lines which contain field names in a record MUST have the same
+    indentation; that is, each must be begun by the same number of
+    U+0020 SPACE characters. This number is determined by the first
+    such line in a record. Any line in a record which is begun with a
+    different number of U+0020 SPACE characters than this line MUST be
+    considered a continuation line for the preceding field, even if it
+    contains the sequence U+0020 SPACE, U+003A COLON, U+0020 SPACE.
 
 
 
@@ -252,20 +252,20 @@ WD-0003                                                             005
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   006
 
 
+    Except for the purposes of determining if a line is a continuation
+    line as above, when processing fields, any U+0020 SPACE characters
+    which begin or end a field's name or value MUST be discarded, as
+    MUST any other U+0020 SPACE characters which begin or end a line.
+    The handling of U+000A LINE FEED Unicode characters is left to
+    specific implementations; however, note that the final U+000A LINE
+    FEED Unicode character of a field MUST NOT be considered part of
+    its value's contents.
+
     Lines whose contents are begun by exactly one (not two) U+0025
     PERCENT SIGN character are comments and MUST be ignored. A GEL MUST
     NOT contain lines which are not either part of a field, a comment,
     or the sequence U+0025 PERCENT SIGN, U+0025 PERCENT SIGN, U+000A
     LINE FEED.
-
-
-
-
-
-
-
-
-
 
 
 
@@ -333,16 +333,16 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   007
 
             Each field in an ELM MUST have exactly one data-type tag,
             which MUST be one of the following: "BOOLEAN", "INTEGER",
-            "FLOAT", "ENUMERATED", "STRING". These tags define which
-            values are valid for fields of the same name in a
+            "FLOAT", "ENUMERATED", "LIST", "STRING". These tags define
+            which values are valid for fields of the same name in a
             conforming GEL. The conformance rules set out in §03-C
             provide the exact meanings of each of these tags.
 
 
             03-A-a-1.   Enumerated fields
 
-                Enumerated fields specify that the given tag should
-                have one of a fixed number of values in any conforming
+                Fields with the ENUMERATED tag specify that the given
+                field should have one of a fixed number of values in
 
 
 WD-0003                                                             007
@@ -352,26 +352,30 @@ WD-0003                                                             007
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   008
 
 
-                GEL. The syntax for enumerated fields is slightly
-                different than for other fields, in order to
-                accommodate the specification of these options.
+                any conforming GEL, whereas fields with the LIST tag
+                specify that it may have any number of values from
+                the provided list. These fields are known as
+                'enumerated fields.' The syntax for enumerated fields
+                is slightly different than for other fields, in order
+                to accommodate the specification of these options.
 
                 As with other fields, the values of enumerated fields
                 are begun by any number of tags as defined by this
-                specification. However, the ENUMERATED tag MUST come
-                last. After this tag, one or more possible values
-                (known as 'enumerated values') for the given field
-                MUST be listed, one per line. These values MUST NOT
-                contain U+0020 SPACE characters. These values MAY be
-                followed by any number of U+0020 SPACE characters and
-                then the string "CASE-SENSITIVE"; in this instance,
+                specification. However, the ENUMERATED or LIST tag
+                MUST come last. After this tag, one or more possible
+                values (known as 'enumerated values') for the given
+                field MUST be listed, one per line. These values MUST
+                NOT contain U+0020 SPACE characters. These values MAY
+                be followed by any number of U+0020 SPACE characters
+                and then the string "CASE-SENSITIVE"; in this instance,
                 the given value MUST be a case-sensitive match. In all
                 other cases the values MUST be matched in a
                 case-insensitive manner.
 
-                Note that an enumerated field with only one enumerated
-                value may be used to require that all instances of a
-                given field have the same contents.
+                Note that a field with the ENUMERATED tag which has
+                only one enumerated value may be used to require that
+                all instances of the given field have the same
+                contents.
 
 
         03-A-b.   Other tags
@@ -388,11 +392,7 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   008
             are allowed.
 
 
-            03-A-b-1.   Integer types
 
-                Fields with the INTEGER tag may have one of the
-                following tags, which limits the allowed bitsize of
-                the integer: "BYTE", "SHORT". Additionally, the
 
 
 WD-0003                                                             008
@@ -402,6 +402,11 @@ WD-0003                                                             008
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   009
 
 
+            03-A-b-1.   Integer types
+
+                Fields with the INTEGER tag may have one of the
+                following tags, which limits the allowed bitsize of
+                the integer: "BYTE", "SHORT". Additionally, the
                 UNSIGNED tag limits the integer to only nonnegative
                 values.
 
@@ -438,11 +443,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   009
 
         -   The lines which contain the enumerated values of an
             enumerated field do not contain any spaces, except
-            immediately preceding the string "CASE-SENSITIVE", if
-            present. (Note that spaces which begin and end a line in
-            any GEL, including ELMs, are discarded during processing
-            and do not count against this rule.)
-
 
 
 WD-0003                                                             009
@@ -452,6 +452,11 @@ WD-0003                                                             009
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
 
 
+            immediately preceding the string "CASE-SENSITIVE", if
+            present. (Note that spaces which begin and end a line in
+            any GEL, including ELMs, are discarded during processing
+            and do not count against this rule.)
+
         -   There are no records which contain zero fields.
 
         -   There are no records except the first which contain only
@@ -460,22 +465,42 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
 
         -   For any given record, there is no other record such that
             for every field in the one which lacks an OPTIONAL tag,
-            there is a field in the other for which one of the
+            there is a field in the other for which both of the
             following is true:
 
-            +   The former field's name is a case-insensitive match
-                for the latter field's name and one of the fields
-                does not have the CASE-SENSITIVE tag.
+            +   Either:
 
-            +   The former field's name is a case-sensitive match for
-                the latter field's name and both fields have the
-                CASE-SENSITIVE tag.
+                =   The former field's name is a case-insensitive match
+                    for the latter field's name and one of the fields
+                    does not have the CASE-SENSITIVE tag.
+
+                =   The former field's name is a case-sensitive match
+                    for the latter field's name and both fields have
+                    the CASE-SENSITIVE tag.
+
+            +   Either:
+
+                =   One of the fields does not have the ENUMERATED tag.
+
+                =   Both fields have the ENUMERATED tag, but they share
+                    at least one enumerated value. This comparison
+                    MUST be done in a case-insensitive manner unless
+                    both enumerated values are marked as
+                    CASE-SENSITIVE.
 
 
     03-C.   Checking conformance
 
         In order for a GEL to be considered conforming to an ELM, the
         following MUST be true:
+
+
+WD-0003                                                             010
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
+
 
         -   The ELM is well-formed according to §03-A.
 
@@ -492,15 +517,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   010
             +   The former field's name is a case-insensitive match
                 for the latter field's name and the latter field does
                 not have the CASE-SENSITIVE tag.
-
-
-
-WD-0003                                                             010
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
-
 
             +   The former field's name is a case-sensitive match for
                 the latter field's name and the latter field has the
@@ -528,6 +544,14 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
                 match for one of the following: "yes", "no", "true",
                 "false", "1", "0".
 
+
+WD-0003                                                             011
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
+
+
             +   If the field has the INTEGER tag: a sequence of one or
                 more characters in the range U+0030 DIGIT ZERO..U+0039
                 DIGIT NINE, which MAY preceded by the character U+002B
@@ -543,14 +567,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   011
 
                 =   If the prototype field has the SHORT tag but not
                     the UNSIGNED tag: [−32768, +32767].
-
-
-WD-0003                                                             011
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
-
 
                 =   If the prototype field has the SHORT tag and the
                     UNSIGNED tag: [0, +65535].
@@ -577,22 +593,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   012
                         by one or more characters in the range U+0030
                         DIGIT ZERO..U+0039 DIGIT NINE.
 
-                =   (OPTIONAL) Either a U+0065 LATIN SMALL LETTER E
-                    character or a U+0045 LATIN CAPITAL LETTER E
-                    character, an OPTIONAL U+002B PLUS SIGN character
-                    or U+002D HYPHEN-MINUS character, and by one or
-                    more characters in the range U+0030 DIGIT
-                    ZERO..U+0039 DIGIT NINE.
-
-            +   If the field has the FLOAT tag: one of the prototype
-                field's enumerated values. This match must be done
-                according to the enumerated value's definition, as
-                described in §03-A-a-1.
-
-
-
-
-
 
 
 WD-0003                                                             012
@@ -600,6 +600,56 @@ WD-0003                                                             012
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   013
+
+
+                =   (OPTIONAL) Either a U+0065 LATIN SMALL LETTER E
+                    character or a U+0045 LATIN CAPITAL LETTER E
+                    character, an OPTIONAL U+002B PLUS SIGN character
+                    or U+002D HYPHEN-MINUS character, and by one or
+                    more characters in the range U+0030 DIGIT
+                    ZERO..U+0039 DIGIT NINE.
+
+            +   If the field has the ENUMERATED tag: exactly one of the
+                prototype field's enumerated values. This match must
+                be done according to the enumerated value's
+                definition, as described in §03-A-a-1.
+
+            +   If the field has the LIST tag: any number of the
+                prototype field's enumerated values. This match must
+                be done according to the enumerated value's
+                definition, as described in §03-A-a-1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WD-0003                                                             013
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   014
 
 
 04.   References
@@ -645,6 +695,6 @@ Go Shoemake      WD-0003 : GENERALLY EASY LEDGERS                   013
 
 
 
-WD-0003                                                             013
+WD-0003                                                             014
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
